@@ -1,0 +1,10 @@
+{
+    "教程包任务1": {
+        "ID": "教程包任务1",
+        "Type": "PickUp",
+        "imagepath": "/files/quest/icon/171695629860975778903_p0.jpg",
+        "TraderID": "GuideTrader",
+        "Location": "any",
+        "Restartable": false
+    }
+}

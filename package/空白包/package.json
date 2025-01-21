@@ -1,0 +1,14 @@
+{
+    "Name": "芝士名字",
+    "Desc": "芝士介绍",
+    "Active": false,
+    "Version": "1.0.0",
+    "pathname": "空白包(需与文件夹名字一致!!!一定要一致不然识别不到)",
+    "Config": {
+        "LootBlackList": [],
+        "GenerateList": {},
+        "CustomMoney": [],
+        "CustomRagfairBlackList": [],
+        "CustomRagfairWhiteList": []
+    }
+}

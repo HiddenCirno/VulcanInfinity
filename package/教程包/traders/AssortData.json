@@ -1,0 +1,136 @@
+[
+    {
+        "ID": "教程包商人报价单1",
+        "Trader": "GuideTrader",
+        "Item": [
+            {
+                "_id": "教程包商人报价单1",
+                "_tpl": "5c0e531d86f7747fa23f4d42",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 4,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5696686a4bdc2da3298b456a": 400
+        },
+        "TrustLevel": 1,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    },
+    {
+        "ID": "教程包商人报价单2",
+        "Trader": "GuideTrader",
+        "Item": [
+            {
+                "_id": "教程包商人报价单2",
+                "_tpl": "6193a720f8ee7e52e42109ed",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 4,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            },
+            {
+                "_id": "08812acc04a723689e42aa44",
+                "_tpl": "6194efe07c6c7b169525f11b",
+                "parentId": "教程包商人报价单2",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "7f525c666ac26e367939f190",
+                "_tpl": "6193d382ed0429009f543e65",
+                "parentId": "教程包商人报价单2",
+                "slotId": "mod_reciever"
+            },
+            {
+                "_id": "eff464dcf3fe836d83e6e3a5",
+                "_tpl": "6193d338de3cdf1d2614a6fc",
+                "parentId": "教程包商人报价单2",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "4c008fd1ab85d3db858eacd7",
+                "_tpl": "6193d3cded0429009f543e6a",
+                "parentId": "教程包商人报价单2",
+                "slotId": "mod_trigger"
+            },
+            {
+                "_id": "5f50be80941d8ea9289b5a77",
+                "_tpl": "6193d3be7c6c7b169525f0da",
+                "parentId": "教程包商人报价单2",
+                "slotId": "mod_hammer"
+            },
+            {
+                "_id": "73e232b88a14fcca358919ff",
+                "_tpl": "6193d5d4f8ee7e52e4210a1b",
+                "parentId": "教程包商人报价单2",
+                "slotId": "mod_catch"
+            },
+            {
+                "_id": "0ece87660dc3d6cfe5922faa",
+                "_tpl": "5fc4b97bab884124df0cd5e3",
+                "parentId": "08812acc04a723689e42aa44",
+                "slotId": "mod_muzzle"
+            },
+            {
+                "_id": "9012f25c263eab5c9bc1fe45",
+                "_tpl": "6194f2912d2c397d6600348d",
+                "parentId": "7f525c666ac26e367939f190",
+                "slotId": "mod_sight_rear",
+                "upd": {
+                    "Sight": {
+                        "ScopesCurrentCalibPointIndexes": [
+                            0
+                        ],
+                        "ScopesSelectedModes": [
+                            0
+                        ],
+                        "SelectedScope": 0
+                    }
+                }
+            },
+            {
+                "_id": "e473a9e1917867bf3dbbd2b7",
+                "_tpl": "6194f35c18a3974e5e7421e6",
+                "parentId": "7f525c666ac26e367939f190",
+                "slotId": "mod_sight_front",
+                "upd": {
+                    "Sight": {
+                        "ScopesCurrentCalibPointIndexes": [
+                            0
+                        ],
+                        "ScopesSelectedModes": [
+                            0
+                        ],
+                        "SelectedScope": 0
+                    }
+                }
+            },
+            {
+                "_id": "0464fba5af4d9fe42c0e10bb",
+                "_tpl": "5fc4b9b17283c4046c5814d7",
+                "parentId": "0ece87660dc3d6cfe5922faa",
+                "slotId": "mod_muzzle"
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5696686a4bdc2da3298b456a": 400
+        },
+        "TrustLevel": 1,
+        "isWeapon": true,
+        "Locked": false,
+        "Quest": ""
+    }
+]

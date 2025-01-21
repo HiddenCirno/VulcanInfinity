@@ -1,0 +1,14 @@
+{
+    "Name": "RITC教程包",
+    "Desc": "这是一个用于教程演示的扩展包。",
+    "Active": false,
+    "Version": "1.0.0",
+    "pathname": "教程包",
+    "Config": {
+        "LootBlackList": [],
+        "GenerateList": {},
+        "CustomMoney": [],
+        "CustomRagfairBlackList": [],
+        "CustomRagfairWhiteList": []
+    }
+}

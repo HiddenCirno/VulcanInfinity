@@ -1,0 +1,16 @@
+{
+    "教程包任务1": {
+        "Start": {
+            "Data": [],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    }
+}
