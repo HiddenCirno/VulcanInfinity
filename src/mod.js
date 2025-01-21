@@ -7,6 +7,7 @@ const crypto_1 = __importDefault(require("crypto"));
 const ConfigTypes_1 = require("C:/snapshot/project/obj/models/enums/ConfigTypes");
 const test_1 = require("./test");
 const ritc_1 = require("./ritc");
+const milkcore_1 = require("./milkcore");
 const config_json_1 = __importDefault(require("../config.json"));
 //
 class Mod {
@@ -42,7 +43,12 @@ class Mod {
         const modDB = importerUtil.loadRecursive(`${modPath}db/`);
         var Therapist = "54cb57776803fa99248b456e";
         vulcanAPI.Log("我知晓所有的道路，它们都通往同一个地方。");
-        (0, ritc_1.initRITCCore)(container);
+        if (config_json_1.default.CoreModule.RITC.Active) {
+            (0, ritc_1.initRITCCore)(container);
+        }
+        if (config_json_1.default.CoreModule.MilkCore.Active) {
+            (0, milkcore_1.initMilkCore)(container);
+        }
         (0, test_1.TestLog)(container);
         //vfs.writeFile(`${ModPath}suit.json`, JSON.stringify(ClientDB.traders["5ac3b934156ae10c4430e83c"].suits, null, 4))
         function GenerateHash(string) {

@@ -27,6 +27,7 @@ import { BundleLoader } from "@spt/loaders/BundleLoader";
 import { VulcanCommon } from "../../[火神之心]VulcanCore/src/vulcan-api/Common";
 import { TestLog } from "./test";
 import { initRITCCore } from "./ritc";
+import { initMilkCore } from "./milkcore";
 import Config from "../config.json"
 //
 class Mod implements IPreSptLoadMod {
@@ -62,7 +63,12 @@ class Mod implements IPreSptLoadMod {
         const modDB = importerUtil.loadRecursive(`${modPath}db/`)
         var Therapist = "54cb57776803fa99248b456e"
         vulcanAPI.Log("我知晓所有的道路，它们都通往同一个地方。")
-        initRITCCore(container)
+        if (Config.CoreModule.RITC.Active) {
+            initRITCCore(container)
+        }
+        if (Config.CoreModule.MilkCore.Active) {
+            initMilkCore(container)
+        }
         TestLog(container)
 
         //vfs.writeFile(`${ModPath}suit.json`, JSON.stringify(ClientDB.traders["5ac3b934156ae10c4430e83c"].suits, null, 4))

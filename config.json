@@ -1,5 +1,15 @@
 {
     "Global": {
         "ModPath": "user/mods/火神重工-无限/"
+    },
+    "CoreModule": {
+        "RITC": {
+            "Active": true,
+            "Desc1": "是否启用核心组件-RITC，true为启用，false为禁用，默认启用"
+        },
+        "MilkCore": {
+            "Active": true,
+            "Desc1": "是否启用核心组件-牛奶盒，true为启用，false为禁用，默认启用"
+        }
     }
 }
