@@ -1,0 +1,618 @@
+{
+    "Virtex处理器": {
+        "ID": "Virtex可编程处理器",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "5c05308086f7746b2101e90b",
+        "OutputCount": 1,
+        "Time": 104400,
+        "NeedFuel": false,
+        "Locked": true,
+        "Quest": "5c139eb686f7747878361a6f",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "红石粉": 4,
+                "青金石": 2,
+                "荧石粉": 2,
+                "5c05300686f7746dce784e5d": 1
+            }
+        }
+    },
+    "M995_维和": {
+        "ID": "M995_维和",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "59e690b686f7746c9f75e848",
+        "OutputCount": 120,
+        "Time": 68400,
+        "NeedFuel": false,
+        "Locked": true,
+        "Quest": "5c0d4c12d09282029f539173",
+        "Require": {
+            "Tool": {
+                "544fb5454bdc2df8738b456a": 1,
+                "5af04b6486f774195a3ebb49": 1
+            },
+            "Item": {
+                "54527ac44bdc2d36668b4567": 120,
+                "白火药": 2,
+                "火药": 2,
+                "薇尔莉特火药": 1
+            }
+        }
+    },
+    "RGN_掷弹兵": {
+        "ID": "RGN_掷弹兵",
+        "Area": 10,
+        "AreaLevel": 2,
+        "Output": "617fd91e5539a84ec44ce155",
+        "OutputCount": 3,
+        "Time": 43200,
+        "NeedFuel": false,
+        "Locked": true,
+        "Quest": "5c0d190cd09282029f5390d8",
+        "Require": {
+            "Tool": {
+                "5d1b31ce86f7742523398394": 1,
+                "62a0a0bb621468534a797ad5": 1
+            },
+            "Item": {
+                "5e2af51086f7746d3f3c3402": 3,
+                "火药": 1,
+                "布洛妮娅火药": 1
+            }
+        }
+    },
+    "M381_租借2": {
+        "ID": "M381_租借2",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "5ede474b0c226a66f5402622",
+        "OutputCount": 2,
+        "Time": 21600,
+        "NeedFuel": false,
+        "Locked": true,
+        "Quest": "5c0d0f1886f77457b8210226",
+        "Require": {
+            "Tool": {
+                "590c639286f774151567fa95": 1,
+                "62a0a0bb621468534a797ad5": 1
+            },
+            "Item": {
+                "58d3db5386f77426186285a0": 2,
+                "火药": 1,
+                "红石粉": 1,
+                "白火药": 1
+            }
+        }
+    },
+    "545_7n39": {
+        "ID": "545_7n39",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "5c0d5e4486f77478390952fe",
+        "OutputCount": 120,
+        "Time": 61200,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "5c0d0f1886f77457b8210226",
+        "Require": {
+            "Tool": {
+                "590c639286f774151567fa95": 1,
+                "5af04b6486f774195a3ebb49": 1
+            },
+            "Item": {
+                "56dff061d2720bb5668b4567": 120,
+                "火药": 2,
+                "红石粉": 2,
+                "白火药": 2
+            }
+        }
+    },
+    "铝热剂_3级": {
+        "ID": "铝热剂_3级",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "60391a8b3364dc22b04d0ce5",
+        "OutputCount": 3,
+        "Time": 64800,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "5c0d0f1886f77457b8210226",
+        "Require": {
+            "Tool": {
+                "5d40419286f774318526545f": 1,
+                "5d40425986f7743185265461": 1,
+                "5d4042a986f7743185265463": 1
+            },
+            "Item": {
+                "5bc9b156d4351e00367fbce9": 3,
+                "火药": 2,
+                "红石粉": 2,
+                "布洛妮娅火药": 1,
+                "白火药": 1
+            }
+        }
+    },
+    "维修套件充能": {
+        "ID": "维修套件充能",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "591094e086f7747caa7bb2ef",
+        "OutputCount": 1,
+        "Time": 86400,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "5c0d0f1886f77457b8210226",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "591094e086f7747caa7bb2ef": 1,
+                "青金石": 9
+            }
+        }
+    },
+    "黑阿尔金转换John墨镜": {
+        "ID": "黑阿尔金转换John墨镜",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "62a09e410b9d3c46de5b6e78",
+        "OutputCount": 1,
+        "Time": 86400,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "5f60c85b58eff926626a60f7": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "白臂带转换Evasion": {
+        "ID": "白臂带转换Evasion",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "60b0f988c4449e4cb624c1da",
+        "OutputCount": 1,
+        "Time": 86400,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "5b3f16c486f7747c327f55f7": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "无檐帽转换Kotton": {
+        "ID": "无檐帽转换Kotton",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "5bd073c986f7747f627e796c",
+        "OutputCount": 1,
+        "Time": 86400,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "572b7fa124597762b472f9d2": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "面巾转换Shroud面巾": {
+        "ID": "面巾转换Shroud面巾",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "5e54f76986f7740366043752",
+        "OutputCount": 1,
+        "Time": 86400,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "572b7fa524597762b747ce82": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "巴拉克拉瓦转换Smoke": {
+        "ID": "巴拉克拉瓦转换Smoke",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "5fd8d28367cb5e077335170f",
+        "OutputCount": 1,
+        "Time": 86400,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "572b7f1624597762ae139822": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "古董斧转换": {
+        "ID": "古董斧转换",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "5bc9c1e2d4351e00367fbcf0",
+        "OutputCount": 1,
+        "Time": 86400,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "5c012ffc0db834001d23f03f": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "叉车钥匙": {
+        "ID": "叉车钥匙",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "62a09ec84f842e1bd12da3f2",
+        "OutputCount": 1,
+        "Time": 86400,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "5448ba0b4bdc2d02308b456c": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "大胡子换小胡子": {
+        "ID": "大胡子换小胡子",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "5bd073a586f7747e6f135799",
+        "OutputCount": 1,
+        "Time": 86400,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "62a09dd4621468534a797ac7": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "小胡子换大胡子": {
+        "ID": "小胡子换大胡子",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "62a09dd4621468534a797ac7",
+        "OutputCount": 1,
+        "Time": 86400,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "5bd073a586f7747e6f135799": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "手册换烹饪书": {
+        "ID": "手册换烹饪书",
+        "Area": 11,
+        "AreaLevel": 3,
+        "Output": "62a09e73af34e73a266d932a",
+        "OutputCount": 1,
+        "Time": 86400,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "590c639286f774151567fa95": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "3x3转换2x5": {
+        "ID": "3x3转换2x5",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "664a55d84a90fc2c8a6305c9",
+        "OutputCount": 1,
+        "Time": 86400,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "5857a8bc2459772bad15db29": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "2x3转换2x4": {
+        "ID": "2x3转换2x4",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "59db794186f77448bc595262",
+        "OutputCount": 1,
+        "Time": 86400,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "5857a8b324597729ab0a0e7d": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "小腰包转换腰包安全箱": {
+        "ID": "小腰包转换腰包安全箱",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "5732ee6a24597719ae0c0281",
+        "OutputCount": 1,
+        "Time": 86400,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "小腰包": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "76254RSNB": {
+        "ID": "76254RSNB",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "560d61e84bdc2da74d8b4571",
+        "OutputCount": 80,
+        "Time": 50400,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {
+                "62a09e73af34e73a266d932a": 1,
+                "544fb5454bdc2df8738b456a": 1
+            },
+            "Item": {
+                "5887431f2459777e1612938f": 80,
+                "布洛妮娅火药": 2,
+                "火药": 2
+            }
+        }
+    },
+    "M80A1": {
+        "ID": "M80A1",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "6768c25aa7b238f14a08d3f6",
+        "OutputCount": 80,
+        "Time": 57600,
+        "NeedFuel": false,
+        "Locked": true,
+        "Quest": "60e71d23c1bfa3050473b8e6",
+        "Require": {
+            "Tool": {
+                "590c639286f774151567fa95": 1,
+                "544fb5454bdc2df8738b456a": 1,
+                "5d1b31ce86f7742523398394": 1
+            },
+            "Item": {
+                "58dd3ad986f77403051cba8f": 80,
+                "红石粉": 2,
+                "火药": 2,
+                "5d6fc78386f77449d825f9dc": 3,
+                "590c5a7286f7747884343aea": 3
+            }
+        }
+    },
+    "6级跳弹板": {
+        "ID": "6级跳弹板",
+        "Area": 2,
+        "AreaLevel": 2,
+        "Output": "5ea18c84ecf1982c7712d9a2",
+        "OutputCount": 1,
+        "Time": 28800,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {
+                "619cbfeb6b8a1b37a54eebfa": 1,
+                "590c2d8786f774245b1f03f3": 1
+            },
+            "Item": {
+                "5c0e66e2d174af02a96252f4": 2,
+                "57347c5b245977448d35f6e1": 4,
+                "57347c1124597737fb1379e3": 2
+            }
+        }
+    },
+    "6级K甲背板": {
+        "ID": "6级K甲背板",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "654a4a964b446df1ad03f192",
+        "OutputCount": 1,
+        "Time": 36000,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {
+                "619cbfeb6b8a1b37a54eebfa": 1,
+                "5d40419286f774318526545f": 1
+            },
+            "Item": {
+                "656efaf54772930db4031ff5": 2,
+                "5d1b36a186f7742523398433": 1,
+                "590c346786f77423e50ed342": 1
+            }
+        }
+    },
+    "6级俄甲背板": {
+        "ID": "6级俄甲背板",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "657b28d25f444d6dff0c6c77",
+        "OutputCount": 1,
+        "Time": 36000,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {
+                "619cbfeb6b8a1b37a54eebfa": 1,
+                "5d40419286f774318526545f": 1
+            },
+            "Item": {
+                "657b2797c3dbcb01d60c35ea": 2,
+                "60391a8b3364dc22b04d0ce5": 2,
+                "62a09ee4cf4a99369e262453": 2,
+                "5d1b36a186f7742523398433": 1
+            }
+        }
+    },
+    "6级俄甲菱形板": {
+        "ID": "6级俄甲菱形板",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "656f63c027aed95beb08f62c",
+        "OutputCount": 1,
+        "Time": 36000,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {
+                "619cbfeb6b8a1b37a54eebfa": 1,
+                "5d40419286f774318526545f": 1
+            },
+            "Item": {
+                "656f611f94b480b8a500c0db": 2,
+                "5d1b36a186f7742523398433": 1,
+                "590c346786f77423e50ed342": 1
+            }
+        }
+    },
+    "6级俄甲前板": {
+        "ID": "6级俄甲前板",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "656f66b5c6baea13cd07e108",
+        "OutputCount": 1,
+        "Time": 36000,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {
+                "619cbfeb6b8a1b37a54eebfa": 1,
+                "5d40419286f774318526545f": 1
+            },
+            "Item": {
+                "656f664200d62bcd2e024077": 2,
+                "60391a8b3364dc22b04d0ce5": 2,
+                "62a09ee4cf4a99369e262453": 2,
+                "5d1b36a186f7742523398433": 1
+            }
+        }
+    },
+    "55耐陶瓷美板": {
+        "ID": "55耐陶瓷美板",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "64afdcb83efdfea28601d041",
+        "OutputCount": 1,
+        "Time": 43200,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {
+                "619cbfeb6b8a1b37a54eebfa": 1,
+                "5d40419286f774318526545f": 1
+            },
+            "Item": {
+                "65573fa5655447403702a816": 2,
+                "5e2af4a786f7746d3f3c3400": 2,
+                "590c35a486f774273531c822": 2,
+                "590c346786f77423e50ed342": 2
+            }
+        }
+    },
+    "6级复合美板": {
+        "ID": "6级复合美板",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "656fa61e94b480b8a500c0e8",
+        "OutputCount": 1,
+        "Time": 43200,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {
+                "619cbfeb6b8a1b37a54eebfa": 1,
+                "5d40419286f774318526545f": 1
+            },
+            "Item": {
+                "656fa53d94b480b8a500c0e4": 2,
+                "5d1b36a186f7742523398433": 2,
+                "590c35a486f774273531c822": 2,
+                "59e366c186f7741778269d85": 4
+            }
+        }
+    },
+    "45耐PE美板": {
+        "ID": "45耐PE美板",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "656fafe3498d1b7e3e071da4",
+        "OutputCount": 1,
+        "Time": 50400,
+        "NeedFuel": false,
+        "Locked": true,
+        "Quest": "5a27bafb86f7741c73584017",
+        "Require": {
+            "Tool": {
+                "619cbfeb6b8a1b37a54eebfa": 1,
+                "5d40419286f774318526545f": 1
+            },
+            "Item": {
+                "656fae5f7c2d57afe200c0d7": 2,
+                "5e2af4a786f7746d3f3c3400": 2,
+                "5b43575a86f77424f443fe62": 2,
+                "59faf98186f774067b6be103": 2
+            }
+        }
+    }
+}

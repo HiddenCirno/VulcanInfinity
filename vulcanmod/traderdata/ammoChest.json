@@ -1,0 +1,1053 @@
+{
+    "itempattern": {
+        "_id": "一箱545BP",
+        "targetid": "63a8970d7108f713591149f5",
+        "_name": "一箱545BP",
+        "_props": {
+            "Name": "一箱弹药（5.45x39 BP）",
+            "ShortName": "一箱弹药",
+            "Description": "一个沉甸甸的箱子，打开后可以获得一整箱崭新出厂的5.45x39 BP弹药，带着难闻油脂味的那种。",
+            "Weight": 0,
+            "BackgroundColor": "violet",
+            "Width": 2,
+            "Height": 2,
+            "DefaultPrice": 20000,
+            "RagfairType": "VulcanSpecialItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "StackMaxSize": 10000000,
+            "CanSellOnRagfair": false,
+            "CanRequireOnRagfair": false,
+            "Prefab": {
+                "path": "chest_mc_gold.pack",
+                "rcid": ""
+            },
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "isStaticBox": true,
+            "StaticBoxData": {
+                "forcefindinraid": false,
+                "giftdata": [
+                    {
+                        "name": "弹药箱",
+                        "item": [
+                            {
+                                "_id": "680cfcdcffae624ee40fbeca",
+                                "_tpl": "5aafbde786f774389d0cbc0f",
+                                "upd": {
+                                    "StackObjectsCount": 1,
+                                    "SpawnedInSession": false
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064d6",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 5,
+                                    "y": 5,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064d7",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064d8",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 1,
+                                    "y": 0,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064d9",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 2,
+                                    "y": 0,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064da",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 3,
+                                    "y": 0,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064db",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 4,
+                                    "y": 0,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064dc",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 5,
+                                    "y": 0,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064dd",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 6,
+                                    "y": 0,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064de",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 0,
+                                    "y": 1,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064df",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 1,
+                                    "y": 1,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064e0",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 2,
+                                    "y": 1,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064e1",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 3,
+                                    "y": 1,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064e2",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 4,
+                                    "y": 1,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064e3",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 5,
+                                    "y": 1,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064e4",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 6,
+                                    "y": 1,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064e5",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 0,
+                                    "y": 2,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064e6",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 1,
+                                    "y": 2,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064e7",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 6,
+                                    "y": 5,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064e8",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 0,
+                                    "y": 6,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064e9",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 2,
+                                    "y": 2,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064ea",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 3,
+                                    "y": 2,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064eb",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 4,
+                                    "y": 2,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064ec",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 5,
+                                    "y": 2,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064ed",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 6,
+                                    "y": 2,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064ee",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 0,
+                                    "y": 3,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064ef",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 1,
+                                    "y": 3,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064f0",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 2,
+                                    "y": 3,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064f1",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 1,
+                                    "y": 6,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064f2",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 2,
+                                    "y": 6,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064f3",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 3,
+                                    "y": 3,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064f4",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 4,
+                                    "y": 3,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064f5",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 5,
+                                    "y": 3,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064f6",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 6,
+                                    "y": 3,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064f7",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 0,
+                                    "y": 4,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064f8",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 1,
+                                    "y": 4,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064f9",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 2,
+                                    "y": 4,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064fa",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 3,
+                                    "y": 4,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064fb",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 3,
+                                    "y": 6,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064fc",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 4,
+                                    "y": 6,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064fd",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 4,
+                                    "y": 4,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064fe",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 5,
+                                    "y": 4,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee41064ff",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 6,
+                                    "y": 4,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee4106500",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 0,
+                                    "y": 5,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee4106501",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 1,
+                                    "y": 5,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee4106502",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 2,
+                                    "y": 5,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee4106503",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 3,
+                                    "y": 5,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee4106504",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 4,
+                                    "y": 5,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee4106505",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 5,
+                                    "y": 6,
+                                    "r": "Horizontal"
+                                }
+                            },
+                            {
+                                "_id": "680cfef1ffae624ee4106506",
+                                "_tpl": "54527ac44bdc2d36668b4567",
+                                "parentId": "680cfcdcffae624ee40fbeca",
+                                "slotId": "main",
+                                "upd": {
+                                    "StackObjectsCount": 60,
+                                    "SpawnedInSession": false
+                                },
+                                "location": {
+                                    "x": 6,
+                                    "y": 6,
+                                    "r": "Horizontal"
+                                }
+                            }
+                        ],
+                        "type": "Container"
+                    }
+                ]
+            }
+        }
+    },
+    "assortpattern": {
+        "ID": "商人4级_合金甲兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_合金甲兑换",
+                "_tpl": "下界合金甲",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    },
+    "input": [
+        {
+            "id": "一箱545BP",
+            "itemid": "56dfef82d2720bbd668b4567",
+            "name": "5.45x39 BP",
+            "price": 1
+        },
+        {
+            "id": "一箱300CBJ",
+            "itemid": "64b8725c4b75259c590fa899",
+            "name": ".300 Blackout CBJ",
+            "price": 1
+        },
+        {
+            "id": "一箱855A1",
+            "itemid": "54527ac44bdc2d36668b4567",
+            "name": "5.56x45 M855A1",
+            "price": 1
+        },
+        {
+            "id": "一箱762BP",
+            "itemid": "59e0d99486f7744a32234762",
+            "name": "7.62x39 BP",
+            "price": 2
+        },
+        {
+            "id": "一箱SP6",
+            "itemid": "57a0e5022459774d1673f889",
+            "name": "9x39 SP-6",
+            "price": 2
+        },
+        {
+            "id": "一箱PAB9",
+            "itemid": "61962d879bb3d20b0946d385",
+            "name": "9x39 PAB-9",
+            "price": 1
+        },
+        {
+            "id": "一箱M576",
+            "itemid": "5ede475339ee016e8c534742",
+            "name": "40x46 M576",
+            "price": 4
+        },
+        {
+            "id": "一箱M441",
+            "itemid": "5ede47405b097655935d7d16",
+            "name": "40x46 M441",
+            "price": 8
+        },
+        {
+            "id": "一箱M381",
+            "itemid": "5ede474b0c226a66f5402622",
+            "name": "40x46 M381",
+            "price": 8
+        },
+        {
+            "id": "一箱VOG25",
+            "itemid": "5656eb674bdc2d35148b457c",
+            "name": "40mm VOG-25",
+            "price": 4
+        },
+        {
+            "id": "一箱7N37",
+            "itemid": "5e023d48186a883be655e551",
+            "name": "7.62x54R 7N37",
+            "price": 8
+        },
+        {
+            "id": "一箱SNB",
+            "itemid": "560d61e84bdc2da74d8b4571",
+            "name": "7.62x54R SNB",
+            "price": 4
+        },
+        {
+            "id": "一箱M993",
+            "itemid": "5efb0c1bd79ff02a1f5e68d9",
+            "name": "7.62x51 M993",
+            "price": 8
+        },
+        {
+            "id": "一箱M80A1",
+            "itemid": "6768c25aa7b238f14a08d3f6",
+            "name": "7.62x51 M80A1",
+            "price": 4
+        },
+        {
+            "id": "一箱7N39",
+            "itemid": "5c0d5e4486f77478390952fe",
+            "name": "5.45x39 7N39",
+            "price": 4
+        },
+        {
+            "id": "一箱338AP",
+            "itemid": "5fc382a9d724d907e2077dab",
+            "name": ".338 LM AP",
+            "price": 8
+        },
+        {
+            "id": "一箱APSX",
+            "itemid": "5ba26835d4351e0035628ff5",
+            "name": "4.6x30 AP SX",
+            "price": 4
+        },
+        {
+            "id": "一箱7N12BP",
+            "itemid": "5c0d688c86f77413ae3407b2",
+            "name": "9x39 7N12 BP",
+            "price": 4
+        },
+        {
+            "id": "一箱SIGAP",
+            "itemid": "SIGSPEARAP弹药",
+            "name": "6.8x51 SIG AP",
+            "price": 4
+        },
+        {
+            "id": "一箱M61",
+            "itemid": "5a6086ea4f39f99cd479502f",
+            "name": "7.62x51 M61",
+            "price": 2
+        },
+        {
+            "id": "一箱762AP",
+            "itemid": "601aa3d2b2bcb34913271e6d",
+            "name": "7.62x39 MAI AP",
+            "price": 4
+        },
+        {
+            "id": "一箱7BT1",
+            "itemid": "5e023d34e8a400319a28ed44",
+            "name": "7.62x54R 7BT1",
+            "price": 2
+        },
+        {
+            "id": "一箱SSAAP",
+            "itemid": "601949593ae8f707c4608daa",
+            "name": "5.56x45 SSA AP",
+            "price": 4
+        },
+        {
+            "id": "一箱M995",
+            "itemid": "59e690b686f7746c9f75e848",
+            "name": "5.56x45 M995",
+            "price": 2
+        },
+        {
+            "id": "一箱545BS",
+            "itemid": "56dff026d2720bb8668b4567",
+            "name": "5.45x39 BS",
+            "price": 2
+        },
+        {
+            "id": "一箱Hybrid",
+            "itemid": "6529243824cbe3c74a05e5c1",
+            "name": "6.8x51 SIG Hybrid",
+            "price": 2
+        },
+        {
+            "id": "一箱762PP",
+            "itemid": "64b7af434b75259c590fa893",
+            "name": "7.62x39 PP",
+            "price": 1
+        },
+        {
+            "id": "一箱300AP",
+            "itemid": "5fd20ff893a8961fc660a954",
+            "name": ".300 AAC Blackout AP",
+            "price": 2
+        },
+        {
+            "id": "一箱箭形弹",
+            "itemid": "5d6e6911a4b9361bd5780d52",
+            "name": "12/70 箭形弹",
+            "price": 1
+        },
+        {
+            "id": "一箱338FMJ",
+            "itemid": "5fc275cf85fd526b824a571a",
+            "name": ".338 LM FMJ",
+            "price": 2
+        },
+        {
+            "id": "一箱366AP",
+            "itemid": "5f0596629e22f464da6bbdd9",
+            "name": ".366 AP",
+            "price": 1
+        },
+        {
+            "id": "一箱45AP",
+            "itemid": "5efb0cabfb3e451d70735af5",
+            "name": ".45 ACP AP",
+            "price": 1
+        },
+        {
+            "id": "一箱Barricade",
+            "itemid": "5e85aa1a988a8701445df1f5",
+            "name": "23x75 Barricade",
+            "price": 1
+        },
+        {
+            "id": "一箱闪光子弹",
+            "itemid": "5e85a9f4add9fe03027d9bf1",
+            "name": "23x75 STAR",
+            "price": 8
+        },
+        {
+            "id": "一箱PS12B",
+            "itemid": "5cadf6eeae921500134b2799",
+            "name": "12.7x55 PS12B",
+            "price": 2
+        },
+        {
+            "id": "一箱FMJSX",
+            "itemid": "5ba2678ad4351e44f824b344",
+            "name": "4.6x30 FMJ SX",
+            "price": 2
+        },
+        {
+            "id": "一箱7N1",
+            "itemid": "59e77a2386f7742ee578960a",
+            "name": "7.62x54R 7N1",
+            "price": 1
+        },
+        {
+            "id": "一箱M62",
+            "itemid": "5a608bf24f39f98ffc77720e",
+            "name": "7.62x51 M62",
+            "price": 1
+        },
+        {
+            "id": "一箱M80",
+            "itemid": "58dd3ad986f77403051cba8f",
+            "name": "7.62x51 M80",
+            "price": 1
+        }
+    ]
+}

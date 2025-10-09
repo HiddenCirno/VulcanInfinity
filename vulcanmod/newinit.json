@@ -1,0 +1,4461 @@
+{
+    "PersicariaTask1": {
+        "ID": "PersicariaTask1",
+        "Type": "PickUp",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "序幕-契约战争"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 0,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaTask1Find1",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5c06779c86f77426e00dd782",
+                    "count": 2
+                },
+                {
+                    "id": "PersicariaTask1Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5c06779c86f77426e00dd782",
+                    "count": 2
+                },
+                {
+                    "id": "PersicariaTask1Find2",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "59e36c6f86f774176c10a2a7",
+                    "count": 2
+                },
+                {
+                    "id": "PersicariaTask1Hand2",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "59e36c6f86f774176c10a2a7",
+                    "count": 2
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaTask1",
+                "Count": 2000,
+                "Name": "PersicariaTask1Rw1",
+                "Desc": "PersicariaTask1Rw1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "PersicariaTask1",
+                "Count": 0.02,
+                "TraderID": "Persicaria",
+                "Name": "PersicariaTask1Rw2",
+                "Desc": "PersicariaTask1Rw2"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaTask1Rw31",
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "upd": {
+                            "StackObjectsCount": 20000
+                        }
+                    }
+                ],
+                "Quest": "PersicariaTask1",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 20000,
+                "Name": "PersicariaTask1Rw3",
+                "Desc": "PersicariaTask1Rw3"
+            }
+        ]
+    },
+    "PersicariaTecTask1": {
+        "ID": "PersicariaTecTask1",
+        "Type": "PickUp",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaTask1"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 0,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaTecTask1Find1",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "590a3b0486f7743954552bdb",
+                    "count": 1
+                },
+                {
+                    "id": "PersicariaTecTask1Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "590a3b0486f7743954552bdb",
+                    "count": 1
+                },
+                {
+                    "id": "PersicariaTecTask1Find2",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5c06782b86f77426df5407d2",
+                    "count": 1
+                },
+                {
+                    "id": "PersicariaTecTask1Hand2",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5c06782b86f77426df5407d2",
+                    "count": 1
+                },
+                {
+                    "id": "PersicariaTecTask1Find3",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "6389c70ca33d8c4cdf4932c6",
+                    "count": 1
+                },
+                {
+                    "id": "PersicariaTecTask1Hand3",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "6389c70ca33d8c4cdf4932c6",
+                    "count": 1
+                },
+                {
+                    "id": "PersicariaTecTask1Find4",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5c06779c86f77426e00dd782",
+                    "count": 1
+                },
+                {
+                    "id": "PersicariaTecTask1Hand4",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5c06779c86f77426e00dd782",
+                    "count": 1
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaTecTask1",
+                "Count": 3500,
+                "Name": "PersicariaTecTask1Rw1",
+                "Desc": "PersicariaTecTask1Rw1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "PersicariaTecTask1",
+                "Count": 0.02,
+                "TraderID": "Persicaria",
+                "Name": "PersicariaTecTask1Rw2",
+                "Desc": "PersicariaTecTask1Rw2"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaTecTask1Rw31",
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "upd": {
+                            "StackObjectsCount": 34000
+                        }
+                    }
+                ],
+                "Quest": "PersicariaTecTask1",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 34000,
+                "Name": "PersicariaTecTask1Rw3",
+                "Desc": "PersicariaTecTask1Rw3"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaTecTask1Rw41",
+                        "_tpl": "590c657e86f77412b013051d",
+                        "upd": {
+                            "StackObjectsCount": 2
+                        }
+                    }
+                ],
+                "Quest": "PersicariaTecTask1",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 2,
+                "Name": "PersicariaTecTask1Rw4",
+                "Desc": "PersicariaTecTask1Rw4"
+            }
+        ]
+    },
+    "PersicariaTecTask2": {
+        "ID": "PersicariaTecTask2",
+        "Type": "PickUp",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaTecTask1"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 6,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaTecTask2Find2",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5734781f24597737e04bf32a",
+                    "count": 2
+                },
+                {
+                    "id": "PersicariaTecTask2Hand2",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5734781f24597737e04bf32a",
+                    "count": 2
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaTecTask2",
+                "Count": 4200,
+                "Name": "PersicariaTecTask2Rw1",
+                "Desc": "PersicariaTecTask2Rw1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "PersicariaTecTask2",
+                "Count": 0.04,
+                "TraderID": "Persicaria",
+                "Name": "PersicariaTecTask2Rw2",
+                "Desc": "PersicariaTecTask2Rw2"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaTecTask2Rw31",
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "upd": {
+                            "StackObjectsCount": 40000
+                        }
+                    }
+                ],
+                "Quest": "PersicariaTecTask2",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 40000,
+                "Name": "PersicariaTecTask2Rw3",
+                "Desc": "PersicariaTecTask2Rw3"
+            }
+        ]
+    },
+    "PersicariaTecTask3": {
+        "ID": "PersicariaTecTask3",
+        "Type": "PickUp",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaTecTask2",
+                "第二轮太阳"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 22,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaTecTask3Find1",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5c052f6886f7746b1e3db148",
+                    "count": 1
+                },
+                {
+                    "id": "PersicariaTecTask3Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5c052f6886f7746b1e3db148",
+                    "count": 1
+                },
+                {
+                    "id": "PersicariaTecTask3Find2",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5d0378d486f77420421a5ff4",
+                    "count": 1
+                },
+                {
+                    "id": "PersicariaTecTask3Hand2",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5d0378d486f77420421a5ff4",
+                    "count": 1
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaTecTask3",
+                "Count": 6900,
+                "Name": "PersicariaTecTask3Rw1",
+                "Desc": "PersicariaTecTask3Rw1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "PersicariaTecTask3",
+                "Count": 0.06,
+                "TraderID": "Persicaria",
+                "Name": "PersicariaTecTask3Rw2",
+                "Desc": "PersicariaTecTask3Rw2"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaTecTask3Rw31",
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "upd": {
+                            "StackObjectsCount": 140000
+                        }
+                    }
+                ],
+                "Quest": "PersicariaTecTask3",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 140000,
+                "Name": "PersicariaTecTask3Rw3",
+                "Desc": "PersicariaTecTask3Rw3"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaTecTask3Rw41",
+                        "_tpl": "5d03794386f77420415576f5",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "PersicariaTecTask3Rw42",
+                        "_tpl": "5d03794386f77420415576f5",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "PersicariaTecTask3Rw43",
+                        "_tpl": "5d03794386f77420415576f5",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "PersicariaTecTask3Rw44",
+                        "_tpl": "5d03794386f77420415576f5",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "PersicariaTecTask3",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 4,
+                "Name": "PersicariaTecTask3Rw4",
+                "Desc": "PersicariaTecTask3Rw4"
+            }
+        ]
+    },
+    "PersicariaTecTask4": {
+        "ID": "PersicariaTecTask4",
+        "Type": "PickUp",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaTecTask3",
+                "6086c852c945025d41566124",
+                "向着明天"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 26,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaTecTask4Find1",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5d03794386f77420415576f5",
+                    "count": 4
+                },
+                {
+                    "id": "PersicariaTecTask4Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5d03794386f77420415576f5",
+                    "count": 4
+                },
+                {
+                    "id": "PersicariaTecTask4Find2",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5d0375ff86f774186372f685",
+                    "count": 2
+                },
+                {
+                    "id": "PersicariaTecTask4Hand2",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5d0375ff86f774186372f685",
+                    "count": 2
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaTecTask4",
+                "Count": 8100,
+                "Name": "PersicariaTecTask4Rw1",
+                "Desc": "PersicariaTecTask4Rw1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "PersicariaTecTask4",
+                "Count": 0.06,
+                "TraderID": "Persicaria",
+                "Name": "PersicariaTecTask4Rw2",
+                "Desc": "PersicariaTecTask4Rw2"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaTecTask4Rw31",
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "upd": {
+                            "StackObjectsCount": 220000
+                        }
+                    }
+                ],
+                "Quest": "PersicariaTecTask4",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 220000,
+                "Name": "PersicariaTecTask4Rw3",
+                "Desc": "PersicariaTecTask4Rw3"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaTecTask4Rw41",
+                        "_tpl": "5b6d9ce188a4501afc1b2b25",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "PersicariaTecTask4",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 1,
+                "Name": "PersicariaTecTask4Rw4",
+                "Desc": "PersicariaTecTask4Rw4"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaTecTask4Rw51",
+                        "_tpl": "5c05308086f7746b2101e90b",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "PersicariaTecTask4Rw52",
+                        "_tpl": "5c05308086f7746b2101e90b",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "PersicariaTecTask4Rw53",
+                        "_tpl": "5c05308086f7746b2101e90b",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "PersicariaTecTask4",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 3,
+                "Name": "PersicariaTecTask4Rw5",
+                "Desc": "PersicariaTecTask4Rw5"
+            }
+        ]
+    },
+    "PersicariaMedTask1": {
+        "ID": "PersicariaMedTask1",
+        "Type": "PickUp",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaTecTask2"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 6,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaMedTask1Find1",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5c0e531d86f7747fa23f4d42",
+                    "count": 3
+                },
+                {
+                    "id": "PersicariaMedTask1Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5c0e531d86f7747fa23f4d42",
+                    "count": 3
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaMedTask1",
+                "Count": 5500,
+                "Name": "PersicariaMedTask1Rw1",
+                "Desc": "PersicariaMedTask1Rw1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "PersicariaMedTask1",
+                "Count": 0.02,
+                "TraderID": "Persicaria",
+                "Name": "PersicariaMedTask1Rw2",
+                "Desc": "PersicariaMedTask1Rw2"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaMedTask1Rw31",
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "upd": {
+                            "StackObjectsCount": 74000
+                        }
+                    }
+                ],
+                "Quest": "PersicariaMedTask1",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 74000,
+                "Name": "PersicariaMedTask1Rw3",
+                "Desc": "PersicariaMedTask1Rw3"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaMedTask1Rw41",
+                        "_tpl": "Vulcan实验型再生促进血清",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "PersicariaMedTask1Rw42",
+                        "_tpl": "Vulcan实验型再生促进血清",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "PersicariaMedTask1Rw43",
+                        "_tpl": "Vulcan实验型再生促进血清",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "PersicariaMedTask1",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 4,
+                "Name": "PersicariaMedTask1Rw4",
+                "Desc": "PersicariaMedTask1Rw4"
+            }
+        ]
+    },
+    "PersicariaMedTask2": {
+        "ID": "PersicariaMedTask2",
+        "Type": "PickUp",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaMedTask1"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 14,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaMedTask2Find1",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5c0e531286f7747fa54205c2",
+                    "count": 2
+                },
+                {
+                    "id": "PersicariaMedTask2Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5c0e531286f7747fa54205c2",
+                    "count": 2
+                },
+                {
+                    "id": "PersicariaMedTask2Find2",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5ed5166ad380ab312177c100",
+                    "count": 2
+                },
+                {
+                    "id": "PersicariaMedTask2Hand2",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5ed5166ad380ab312177c100",
+                    "count": 2
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaMedTask2",
+                "Count": 7200,
+                "Name": "PersicariaMedTask2Rw1",
+                "Desc": "PersicariaMedTask2Rw1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "PersicariaMedTask2",
+                "Count": 0.04,
+                "TraderID": "Persicaria",
+                "Name": "PersicariaMedTask2Rw2",
+                "Desc": "PersicariaMedTask2Rw2"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaMedTask2Rw31",
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "upd": {
+                            "StackObjectsCount": 163000
+                        }
+                    }
+                ],
+                "Quest": "PersicariaMedTask2",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 163000,
+                "Name": "PersicariaMedTask2Rw3",
+                "Desc": "PersicariaMedTask2Rw3"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaMedTask2Rw41",
+                        "_tpl": "Vulcan战场紧急手术套组",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "PersicariaMedTask2Rw42",
+                        "_tpl": "Vulcan战场紧急手术套组",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "PersicariaMedTask2Rw43",
+                        "_tpl": "Vulcan战场紧急手术套组",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "PersicariaMedTask2Rw44",
+                        "_tpl": "Vulcan战场紧急手术套组",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "PersicariaMedTask2Rw45",
+                        "_tpl": "Vulcan战场紧急手术套组",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "PersicariaMedTask2",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 5,
+                "Name": "PersicariaMedTask2Rw4",
+                "Desc": "PersicariaMedTask2Rw4"
+            }
+        ]
+    },
+    "PersicariaMedTask3": {
+        "ID": "PersicariaMedTask3",
+        "Type": "PickUp",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaMedTask2",
+                "第二轮太阳"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 20,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaMedTask3Find1",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5c94bbff86f7747ee735c08f",
+                    "count": 3
+                },
+                {
+                    "id": "PersicariaMedTask3Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5c94bbff86f7747ee735c08f",
+                    "count": 3
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaMedTask3",
+                "Count": 13600,
+                "Name": "PersicariaMedTask3Rw1",
+                "Desc": "PersicariaMedTask3Rw1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "PersicariaMedTask3",
+                "Count": 0.04,
+                "TraderID": "Persicaria",
+                "Name": "PersicariaMedTask3Rw2",
+                "Desc": "PersicariaMedTask3Rw2"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaMedTask3Rw31",
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "upd": {
+                            "StackObjectsCount": 370000
+                        }
+                    }
+                ],
+                "Quest": "PersicariaMedTask3",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 370000,
+                "Name": "PersicariaMedTask3Rw3",
+                "Desc": "PersicariaMedTask3Rw3"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaMedTask3Rw41",
+                        "_tpl": "Vulcan细胞活性刺激血清",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "PersicariaMedTask3Rw42",
+                        "_tpl": "Vulcan细胞活性刺激血清",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "PersicariaMedTask3Rw43",
+                        "_tpl": "Vulcan细胞活性刺激血清",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "PersicariaMedTask3",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 3,
+                "Name": "PersicariaMedTask3Rw4",
+                "Desc": "PersicariaMedTask3Rw4"
+            }
+        ]
+    },
+    "PersicariaMedTask4": {
+        "ID": "PersicariaMedTask4",
+        "Type": "PickUp",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaMedTask3",
+                "向着明天"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 24,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaMedTask4Find1",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5efde6b4f5448336730dbd61",
+                    "count": 1
+                },
+                {
+                    "id": "PersicariaMedTask4Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5efde6b4f5448336730dbd61",
+                    "count": 1
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaMedTask4",
+                "Count": 19200,
+                "Name": "PersicariaMedTask4Rw1",
+                "Desc": "PersicariaMedTask4Rw1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "PersicariaMedTask4",
+                "Count": 0.04,
+                "TraderID": "Persicaria",
+                "Name": "PersicariaMedTask4Rw2",
+                "Desc": "PersicariaMedTask4Rw2"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaMedTask4Rw31",
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "upd": {
+                            "StackObjectsCount": 130000
+                        }
+                    }
+                ],
+                "Quest": "PersicariaMedTask4",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 130000,
+                "Name": "PersicariaMedTask4Rw3",
+                "Desc": "PersicariaMedTask4Rw3"
+            }
+        ]
+    },
+    "PersicariaWarTask1": {
+        "ID": "PersicariaWarTask1",
+        "Type": "Elimination",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaTecTask3"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 22,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaWarTask1Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 15,
+                    "counterid": "PersicariaWarTask1K1",
+                    "bot": "Savage",
+                    "role": [],
+                    "conditionid": "PersicariaWarTask1K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaWarTask1",
+                "Count": 9300,
+                "Name": "PersicariaWarTask1Rw1",
+                "Desc": "PersicariaWarTask1Rw1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "PersicariaWarTask1",
+                "Count": 0.02,
+                "TraderID": "Persicaria",
+                "Name": "PersicariaWarTask1Rw2",
+                "Desc": "PersicariaWarTask1Rw2"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaWarTask1Rw31",
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "upd": {
+                            "StackObjectsCount": 321000
+                        }
+                    }
+                ],
+                "Quest": "PersicariaWarTask1",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 321000,
+                "Name": "PersicariaWarTask1Rw3",
+                "Desc": "PersicariaWarTask1Rw3"
+            }
+        ]
+    },
+    "PersicariaWarTask2": {
+        "ID": "PersicariaWarTask2",
+        "Type": "Elimination",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaWarTask1",
+                "第二轮太阳"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 0,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaWarTask2Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "PersicariaWarTask2K1",
+                    "bot": "Savage",
+                    "role": [],
+                    "conditionid": "PersicariaWarTask2K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaWarTask2",
+                "Count": 15200,
+                "Name": "PersicariaWarTask2Rw1",
+                "Desc": "PersicariaWarTask2Rw1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "PersicariaWarTask2",
+                "Count": 0.03,
+                "TraderID": "Persicaria",
+                "Name": "PersicariaWarTask2Rw2",
+                "Desc": "PersicariaWarTask2Rw2"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaWarTask2Rw31",
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "upd": {
+                            "StackObjectsCount": 830000
+                        }
+                    }
+                ],
+                "Quest": "PersicariaWarTask2",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 830000,
+                "Name": "PersicariaWarTask2Rw3",
+                "Desc": "PersicariaWarTask2Rw3"
+            }
+        ]
+    },
+    "PersicariaWarTask3": {
+        "ID": "PersicariaWarTask3",
+        "Type": "Elimination",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaWarTask2",
+                "向着明天"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 0,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaWarTask3Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 60,
+                    "counterid": "PersicariaWarTask3K1",
+                    "bot": "Savage",
+                    "role": [],
+                    "conditionid": "PersicariaWarTask3K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaWarTask3",
+                "Count": 32700,
+                "Name": "PersicariaWarTask3Rw1",
+                "Desc": "PersicariaWarTask3Rw1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "PersicariaWarTask3",
+                "Count": 0.05,
+                "TraderID": "Persicaria",
+                "Name": "PersicariaWarTask3Rw2",
+                "Desc": "PersicariaWarTask3Rw2"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaWarTask3Rw31",
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "upd": {
+                            "StackObjectsCount": 1320000
+                        }
+                    }
+                ],
+                "Quest": "PersicariaWarTask3",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 1320000,
+                "Name": "PersicariaWarTask3Rw3",
+                "Desc": "PersicariaWarTask3Rw3"
+            }
+        ]
+    },
+    "PersicariaWarTask4": {
+        "ID": "PersicariaWarTask4",
+        "Type": "Elimination",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 81,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaWarTask4Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 500,
+                    "counterid": "PersicariaWarTask4K1",
+                    "bot": "Savage",
+                    "role": [],
+                    "conditionid": "PersicariaWarTask4K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaWarTask4",
+                "Count": 655360,
+                "Name": "PersicariaWarTask4Rw1",
+                "Desc": "PersicariaWarTask4Rw1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "PersicariaWarTask4",
+                "Count": 0.1,
+                "TraderID": "Persicaria",
+                "Name": "PersicariaWarTask4Rw2",
+                "Desc": "PersicariaWarTask4Rw2"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaWarTask4Rw31",
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "upd": {
+                            "StackObjectsCount": 9000000
+                        }
+                    }
+                ],
+                "Quest": "PersicariaWarTask4",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 9000000,
+                "Name": "PersicariaWarTask4Rw3",
+                "Desc": "PersicariaWarTask4Rw3"
+            }
+        ]
+    },
+    "PersicariaDeadTask1": {
+        "ID": "PersicariaDeadTask1",
+        "Type": "Elimination",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaTecTask4",
+                "PersicariaMedTask4",
+                "PersicariaWarTask3"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 42,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaDeadTask1Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "PersicariaDeadTask1K1",
+                    "bot": "Savage",
+                    "role": [
+                        "bossBully"
+                    ],
+                    "conditionid": "PersicariaDeadTask1K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                },
+                {
+                    "id": "PersicariaDeadTask1Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5b3b713c5acfc4330140bd8d",
+                    "count": 4
+                },
+                {
+                    "id": "PersicariaDeadTask1Hand2",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "Reshala背包",
+                    "count": 2
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaDeadTask1",
+                "Count": 900000,
+                "Name": "PersicariaDeadTask1Rw1",
+                "Desc": "PersicariaDeadTask1Rw1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "PersicariaDeadTask1",
+                "Count": 0.1,
+                "TraderID": "Persicaria",
+                "Name": "PersicariaDeadTask1Rw2",
+                "Desc": "PersicariaDeadTask1Rw2"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaDeadTask1Rw31",
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "upd": {
+                            "StackObjectsCount": 5000000
+                        }
+                    }
+                ],
+                "Quest": "PersicariaDeadTask1",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 5000000,
+                "Name": "PersicariaDeadTask1Rw3",
+                "Desc": "PersicariaDeadTask1Rw3"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Skill",
+                "Quest": "PersicariaDeadTask1",
+                "Skill": "CovertMovement",
+                "Count": 5100,
+                "TraderID": "CovertMovement",
+                "Name": "PersicariaDeadTask1Rw4",
+                "Desc": "PersicariaDeadTask1Rw4"
+            }
+        ]
+    },
+    "PersicariaDeadTask2": {
+        "ID": "PersicariaDeadTask2",
+        "Type": "Elimination",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaTecTask4",
+                "PersicariaMedTask4",
+                "PersicariaWarTask3"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 42,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaDeadTask2Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "PersicariaDeadTask2K1",
+                    "bot": "Savage",
+                    "role": [
+                        "bossTagilla"
+                    ],
+                    "conditionid": "PersicariaDeadTask2K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                },
+                {
+                    "id": "PersicariaDeadTask2Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "609e860ebd219504d8507525",
+                    "count": 4
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaDeadTask2",
+                "Count": 900000,
+                "Name": "PersicariaDeadTask2Rw1",
+                "Desc": "PersicariaDeadTask2Rw1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "PersicariaDeadTask2",
+                "Count": 0.1,
+                "TraderID": "Persicaria",
+                "Name": "PersicariaDeadTask2Rw2",
+                "Desc": "PersicariaDeadTask2Rw2"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaDeadTask2Rw31",
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "upd": {
+                            "StackObjectsCount": 5000000
+                        }
+                    }
+                ],
+                "Quest": "PersicariaDeadTask2",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 5000000,
+                "Name": "PersicariaDeadTask2Rw3",
+                "Desc": "PersicariaDeadTask2Rw3"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Skill",
+                "Quest": "PersicariaDeadTask2",
+                "Skill": "Melee",
+                "Count": 5100,
+                "TraderID": "Melee",
+                "Name": "PersicariaDeadTask2Rw4",
+                "Desc": "PersicariaDeadTask2Rw4"
+            }
+        ]
+    },
+    "PersicariaDeadTask3": {
+        "ID": "PersicariaDeadTask3",
+        "Type": "Elimination",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaTecTask4",
+                "PersicariaMedTask4",
+                "PersicariaWarTask3"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 42,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaDeadTask3Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "PersicariaDeadTask3K1",
+                    "bot": "Savage",
+                    "role": [
+                        "bossSanitar"
+                    ],
+                    "conditionid": "PersicariaDeadTask3K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                },
+                {
+                    "id": "PersicariaDeadTask3Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5efde6b4f5448336730dbd61",
+                    "count": 1
+                },
+                {
+                    "id": "PersicariaDeadTask3Hand2",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5eff09cd30a7dc22fd1ddfed",
+                    "count": 1
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaDeadTask3",
+                "Count": 900000,
+                "Name": "PersicariaDeadTask3Rw1",
+                "Desc": "PersicariaDeadTask3Rw1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "PersicariaDeadTask3",
+                "Count": 0.1,
+                "TraderID": "Persicaria",
+                "Name": "PersicariaDeadTask3Rw2",
+                "Desc": "PersicariaDeadTask3Rw2"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaDeadTask3Rw31",
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "upd": {
+                            "StackObjectsCount": 5000000
+                        }
+                    }
+                ],
+                "Quest": "PersicariaDeadTask3",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 5000000,
+                "Name": "PersicariaDeadTask3Rw3",
+                "Desc": "PersicariaDeadTask3Rw3"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Skill",
+                "Quest": "PersicariaDeadTask3",
+                "Skill": "Surgery",
+                "Count": 5100,
+                "TraderID": "Surgery",
+                "Name": "PersicariaDeadTask3Rw4",
+                "Desc": "PersicariaDeadTask3Rw4"
+            }
+        ]
+    },
+    "PersicariaDeadTask4": {
+        "ID": "PersicariaDeadTask4",
+        "Type": "Elimination",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaTecTask4",
+                "PersicariaMedTask4",
+                "PersicariaWarTask3"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 42,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaDeadTask4Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "PersicariaDeadTask4K1",
+                    "bot": "Savage",
+                    "role": [
+                        "bossKilla"
+                    ],
+                    "conditionid": "PersicariaDeadTask4K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                },
+                {
+                    "id": "PersicariaDeadTask4Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5c0e874186f7745dc7616606",
+                    "count": 8
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaDeadTask4",
+                "Count": 900000,
+                "Name": "PersicariaDeadTask4Rw1",
+                "Desc": "PersicariaDeadTask4Rw1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "PersicariaDeadTask4",
+                "Count": 0.1,
+                "TraderID": "Persicaria",
+                "Name": "PersicariaDeadTask4Rw2",
+                "Desc": "PersicariaDeadTask4Rw2"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaDeadTask4Rw31",
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "upd": {
+                            "StackObjectsCount": 5000000
+                        }
+                    }
+                ],
+                "Quest": "PersicariaDeadTask4",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 5000000,
+                "Name": "PersicariaDeadTask4Rw3",
+                "Desc": "PersicariaDeadTask4Rw3"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Skill",
+                "Quest": "PersicariaDeadTask4",
+                "Skill": "Charisma",
+                "Count": 5100,
+                "TraderID": "Charisma",
+                "Name": "PersicariaDeadTask4Rw4",
+                "Desc": "PersicariaDeadTask4Rw4"
+            }
+        ]
+    },
+    "PersicariaDeadTask5": {
+        "ID": "PersicariaDeadTask5",
+        "Type": "Elimination",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaTecTask4",
+                "PersicariaMedTask4",
+                "PersicariaWarTask3"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 42,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaDeadTask5Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "PersicariaDeadTask5K1",
+                    "bot": "Savage",
+                    "role": [
+                        "bossKojaniy"
+                    ],
+                    "conditionid": "PersicariaDeadTask5K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                },
+                {
+                    "id": "PersicariaDeadTask5Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5d08d21286f774736e7c94c3",
+                    "count": 6
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaDeadTask5",
+                "Count": 900000,
+                "Name": "PersicariaDeadTask5Rw1",
+                "Desc": "PersicariaDeadTask5Rw1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "PersicariaDeadTask5",
+                "Count": 0.1,
+                "TraderID": "Persicaria",
+                "Name": "PersicariaDeadTask5Rw2",
+                "Desc": "PersicariaDeadTask5Rw2"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaDeadTask5Rw31",
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "upd": {
+                            "StackObjectsCount": 5000000
+                        }
+                    }
+                ],
+                "Quest": "PersicariaDeadTask5",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 5000000,
+                "Name": "PersicariaDeadTask5Rw3",
+                "Desc": "PersicariaDeadTask5Rw3"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Skill",
+                "Quest": "PersicariaDeadTask5",
+                "Skill": "AimDrills",
+                "Count": 5100,
+                "TraderID": "AimDrills",
+                "Name": "PersicariaDeadTask5Rw4",
+                "Desc": "PersicariaDeadTask5Rw4"
+            }
+        ]
+    },
+    "PersicariaDeadTask6": {
+        "ID": "PersicariaDeadTask6",
+        "Type": "Elimination",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaTecTask4",
+                "PersicariaMedTask4",
+                "PersicariaWarTask3"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 42,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaDeadTask6Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "PersicariaDeadTask6K1",
+                    "bot": "Savage",
+                    "role": [
+                        "bossGluhar"
+                    ],
+                    "conditionid": "PersicariaDeadTask6K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaDeadTask6",
+                "Count": 900000,
+                "Name": "PersicariaDeadTask6Rw1",
+                "Desc": "PersicariaDeadTask6Rw1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "PersicariaDeadTask6",
+                "Count": 0.1,
+                "TraderID": "Persicaria",
+                "Name": "PersicariaDeadTask6Rw2",
+                "Desc": "PersicariaDeadTask6Rw2"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaDeadTask6Rw31",
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "upd": {
+                            "StackObjectsCount": 5000000
+                        }
+                    }
+                ],
+                "Quest": "PersicariaDeadTask6",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 5000000,
+                "Name": "PersicariaDeadTask6Rw3",
+                "Desc": "PersicariaDeadTask6Rw3"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Skill",
+                "Quest": "PersicariaDeadTask6",
+                "Skill": "StressResistance",
+                "Count": 5100,
+                "TraderID": "StressResistance",
+                "Name": "PersicariaDeadTask6Rw4",
+                "Desc": "PersicariaDeadTask6Rw4"
+            }
+        ]
+    },
+    "PersicariaDeadTask8": {
+        "ID": "PersicariaDeadTask8",
+        "Type": "Elimination",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaTecTask4",
+                "PersicariaMedTask4",
+                "PersicariaWarTask3"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 42,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaDeadTask8Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "PersicariaDeadTask8K1",
+                    "bot": "Savage",
+                    "role": [
+                        "bossBoar"
+                    ],
+                    "conditionid": "PersicariaDeadTask8K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaDeadTask8",
+                "Count": 900000,
+                "Name": "PersicariaDeadTask8Rw1",
+                "Desc": "PersicariaDeadTask8Rw1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "PersicariaDeadTask8",
+                "Count": 0.1,
+                "TraderID": "Persicaria",
+                "Name": "PersicariaDeadTask8Rw2",
+                "Desc": "PersicariaDeadTask8Rw2"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaDeadTask8Rw31",
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "upd": {
+                            "StackObjectsCount": 5000000
+                        }
+                    }
+                ],
+                "Quest": "PersicariaDeadTask8",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 5000000,
+                "Name": "PersicariaDeadTask8Rw3",
+                "Desc": "PersicariaDeadTask8Rw3"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Skill",
+                "Quest": "PersicariaDeadTask8",
+                "Skill": "HeavyVests",
+                "Count": 5100,
+                "TraderID": "HeavyVests",
+                "Name": "PersicariaDeadTask8Rw4",
+                "Desc": "PersicariaDeadTask8Rw4"
+            }
+        ]
+    },
+    "PersicariaDeadTask9": {
+        "ID": "PersicariaDeadTask9",
+        "Type": "Elimination",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaTecTask4",
+                "PersicariaMedTask4",
+                "PersicariaWarTask3"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 42,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaDeadTask9Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "PersicariaDeadTask9K1",
+                    "bot": "Savage",
+                    "role": [
+                        "bossKolontay"
+                    ],
+                    "conditionid": "PersicariaDeadTask9K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                },
+                {
+                    "id": "PersicariaDeadTask9Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "6540d2162ae6d96b540afcaf",
+                    "count": 4
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaDeadTask9",
+                "Count": 900000,
+                "Name": "PersicariaDeadTask9Rw1",
+                "Desc": "PersicariaDeadTask9Rw1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "PersicariaDeadTask9",
+                "Count": 0.1,
+                "TraderID": "Persicaria",
+                "Name": "PersicariaDeadTask9Rw2",
+                "Desc": "PersicariaDeadTask9Rw2"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaDeadTask9Rw31",
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "upd": {
+                            "StackObjectsCount": 5000000
+                        }
+                    }
+                ],
+                "Quest": "PersicariaDeadTask9",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 5000000,
+                "Name": "PersicariaDeadTask9Rw3",
+                "Desc": "PersicariaDeadTask9Rw3"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Skill",
+                "Quest": "PersicariaDeadTask9",
+                "Skill": "LightVests",
+                "Count": 5100,
+                "TraderID": "LightVests",
+                "Name": "PersicariaDeadTask9Rw4",
+                "Desc": "PersicariaDeadTask9Rw4"
+            }
+        ]
+    },
+    "PersicariaDeadTask7": {
+        "ID": "PersicariaDeadTask7",
+        "Type": "Elimination",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaTecTask4",
+                "PersicariaMedTask4",
+                "PersicariaWarTask3"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 42,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaDeadTask7Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "PersicariaDeadTask7K1",
+                    "bot": "Savage",
+                    "role": [
+                        "bossKnight"
+                    ],
+                    "conditionid": "PersicariaDeadTask7K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                },
+                {
+                    "id": "PersicariaDeadTask7Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "62963c18dbc8ab5f0d382d0b",
+                    "count": 5
+                },
+                {
+                    "id": "PersicariaDeadTask7Kill2",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "PersicariaDeadTask7K2",
+                    "bot": "Savage",
+                    "role": [
+                        "followerBirdEye"
+                    ],
+                    "conditionid": "PersicariaDeadTask7K2",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                },
+                {
+                    "id": "PersicariaDeadTask7Hand2",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "628bc7fb408e2b2e9c0801b1",
+                    "count": 6
+                },
+                {
+                    "id": "PersicariaDeadTask7Kill3",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "PersicariaDeadTask7K3",
+                    "bot": "Savage",
+                    "role": [
+                        "followerBigPipe"
+                    ],
+                    "conditionid": "PersicariaDeadTask7K3",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                },
+                {
+                    "id": "PersicariaDeadTask7Hand3",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "62a61bbf8ec41a51b34758d2",
+                    "count": 4
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaDeadTask7",
+                "Count": 2700000,
+                "Name": "PersicariaDeadTask7Rw1",
+                "Desc": "PersicariaDeadTask7Rw1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "PersicariaDeadTask7",
+                "Count": 0.3,
+                "TraderID": "Persicaria",
+                "Name": "PersicariaDeadTask7Rw2",
+                "Desc": "PersicariaDeadTask7Rw2"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaDeadTask7Rw31",
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "upd": {
+                            "StackObjectsCount": 15000000
+                        }
+                    }
+                ],
+                "Quest": "PersicariaDeadTask7",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 15000000,
+                "Name": "PersicariaDeadTask7Rw3",
+                "Desc": "PersicariaDeadTask7Rw3"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Skill",
+                "Quest": "PersicariaDeadTask7",
+                "Skill": "MagDrills",
+                "Count": 5100,
+                "TraderID": "MagDrills",
+                "Name": "PersicariaDeadTask7Rw4",
+                "Desc": "PersicariaDeadTask7Rw4"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Skill",
+                "Quest": "PersicariaDeadTask7",
+                "Skill": "WeaponTreatment",
+                "Count": 5100,
+                "TraderID": "WeaponTreatment",
+                "Name": "PersicariaDeadTask7Rw5",
+                "Desc": "PersicariaDeadTask7Rw5"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Skill",
+                "Quest": "PersicariaDeadTask7",
+                "Skill": "Troubleshooting",
+                "Count": 5100,
+                "TraderID": "Troubleshooting",
+                "Name": "PersicariaDeadTask7Rw6",
+                "Desc": "PersicariaDeadTask7Rw6"
+            }
+        ]
+    },
+    "PersicariaCodTask1": {
+        "ID": "PersicariaCodTask1",
+        "Type": "Elimination",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaWarTask3"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 40,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaCodTask1Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 60,
+                    "counterid": "PersicariaCodTask1K1",
+                    "bot": "Savage",
+                    "role": [],
+                    "conditionid": "PersicariaCodTask1K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [
+                        "5beed0f50db834001c062b12",
+                        "64ca3d3954fc657e230529cc",
+                        "64637076203536ad5600c990",
+                        "6513ef33e06849f06c0957ca",
+                        "65268d8ecb944ff1e90ea385",
+                        "657857faeff4c850222dff1b"
+                    ],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaCodTask1",
+                "Count": 66000,
+                "Name": "PersicariaCodTask1Rw1",
+                "Desc": "PersicariaCodTask1Rw1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "PersicariaCodTask1",
+                "Count": 0.05,
+                "TraderID": "Persicaria",
+                "Name": "PersicariaCodTask1Rw2",
+                "Desc": "PersicariaCodTask1Rw2"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaCodTask1Rw31",
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "upd": {
+                            "StackObjectsCount": 500000
+                        }
+                    }
+                ],
+                "Quest": "PersicariaCodTask1",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 500000,
+                "Name": "PersicariaCodTask1Rw3",
+                "Desc": "PersicariaCodTask1Rw3"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaCodTask1Rw41",
+                        "_tpl": "6275303a9f372d6ea97f9ec7",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "转轮榴弹握把",
+                        "_tpl": "5a339805c4a2826c6e06d73d",
+                        "parentId": "PersicariaCodTask1Rw41",
+                        "slotId": "mod_pistol_grip"
+                    },
+                    {
+                        "_id": "转轮榴弹枪托",
+                        "_tpl": "5fce16961f152d4312622bc9",
+                        "parentId": "PersicariaCodTask1Rw41",
+                        "slotId": "mod_stock"
+                    },
+                    {
+                        "_id": "转轮榴弹弹仓",
+                        "_tpl": "627bce33f21bc425b06ab967",
+                        "parentId": "PersicariaCodTask1Rw41",
+                        "slotId": "mod_magazine"
+                    },
+                    {
+                        "_id": "转轮榴弹前握把",
+                        "_tpl": "5fce0cf655375d18a253eff0",
+                        "parentId": "PersicariaCodTask1Rw41",
+                        "slotId": "mod_foregrip"
+                    }
+                ],
+                "Quest": "PersicariaCodTask1",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 1,
+                "Name": "PersicariaCodTask1Rw4",
+                "Desc": "PersicariaCodTask1Rw4"
+            }
+        ]
+    },
+    "PersicariaBoxTask1": {
+        "ID": "PersicariaBoxTask1",
+        "Type": "PickUp",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 50,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaBoxTask1Hand1",
+                    "type": "HandGroup",
+                    "inraid": false,
+                    "itemid": [
+                        "5857a8bc2459772bad15db29",
+                        "665ee77ccf2d642e98220bca"
+                    ],
+                    "count": 1
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaBoxTask1",
+                "Count": 1600000,
+                "Name": "PersicariaBoxTask1Rw1",
+                "Desc": "PersicariaBoxTask1Rw1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "PersicariaBoxTask1",
+                "Count": 0.1,
+                "TraderID": "Persicaria",
+                "Name": "PersicariaBoxTask1Rw2",
+                "Desc": "PersicariaBoxTask1Rw2"
+            }
+        ]
+    },
+    "PersicariaBoxTask2": {
+        "ID": "PersicariaBoxTask2",
+        "Type": "PickUp",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaWarTask3",
+                "PersicariaTecTask4",
+                "PersicariaMedTask4"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 60,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaBoxTask2Hand1",
+                    "type": "Hand",
+                    "inraid": false,
+                    "itemid": "5d1b376e86f774252519444e",
+                    "count": 100
+                },
+                {
+                    "id": "PersicariaBoxTask2Hand2",
+                    "type": "Hand",
+                    "inraid": false,
+                    "itemid": "高浓缩咖啡方糖",
+                    "count": 100
+                },
+                {
+                    "id": "PersicariaBoxTask2Hand3",
+                    "type": "Hand",
+                    "inraid": false,
+                    "itemid": "5c0530ee86f774697952d952",
+                    "count": 20
+                },
+                {
+                    "id": "PersicariaBoxTask2Hand4",
+                    "type": "Hand",
+                    "inraid": false,
+                    "itemid": "5c0a840b86f7742ffa4f2482",
+                    "count": 3
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaBoxTask2",
+                "Count": 2000000,
+                "Name": "PersicariaBoxTask2Rw1",
+                "Desc": "PersicariaBoxTask2Rw1"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaBoxTask2Rw21",
+                        "_tpl": "Sigma安全箱",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "PersicariaBoxTask2",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 1,
+                "Name": "PersicariaBoxTask2Rw2",
+                "Desc": "PersicariaBoxTask2Rw2"
+            }
+        ]
+    },
+    "PersicariaCyberTask1": {
+        "ID": "PersicariaCyberTask1",
+        "Type": "PickUp",
+        "imagepath": "/files/quest/icon/david.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 0,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaCyberTask1LvNeed1",
+                    "type": "Level",
+                    "count": 70
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaCyberTask1",
+                "Count": 2000000,
+                "Name": "PersicariaCyberTask1Rw1",
+                "Desc": "PersicariaCyberTask1Rw1"
+            }
+        ]
+    },
+    "PersicariaFinalTask1": {
+        "ID": "PersicariaFinalTask1",
+        "Type": "Elimination",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaDeadTask1",
+                "PersicariaDeadTask2",
+                "PersicariaDeadTask3",
+                "PersicariaDeadTask4",
+                "PersicariaDeadTask5",
+                "PersicariaDeadTask6",
+                "PersicariaDeadTask8",
+                "PersicariaDeadTask9",
+                "PersicariaDeadTask7"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 70,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaFinalTask1Rw31",
+                        "_tpl": "云图计划臂带",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "PersicariaFinalTask1",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 1,
+                "Name": "PersicariaFinalTask1Rw3",
+                "Desc": "PersicariaFinalTask1Rw3"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaFinalTask1Rw41",
+                        "_tpl": "Omega安全箱",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "PersicariaFinalTask1",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 1,
+                "Name": "PersicariaFinalTask1Rw4",
+                "Desc": "PersicariaFinalTask1Rw4"
+            }
+        ]
+    },
+    "PersicariaLeaveTask1": {
+        "ID": "PersicariaLeaveTask1",
+        "Type": "Multi",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "59fc81d786f774390775787e",
+        "PreData": {
+            "finishquest": [
+                "PersicariaTecTask4"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 28,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaLeaveTask1Visit11",
+                    "type": "Visit",
+                    "oneraid": false,
+                    "count": 1,
+                    "counterid": "PersicariaLeaveTask1Counter1",
+                    "zoneid": "ter_017_area_1",
+                    "conditionid": "PersicariaLeaveTask1Visit1"
+                },
+                {
+                    "id": "PersicariaLeaveTask1LeaveItem1",
+                    "type": "Leave",
+                    "time": 30,
+                    "itemid": "白火药",
+                    "zoneid": "ter_017_area_1",
+                    "count": 2
+                },
+                {
+                    "id": "PersicariaLeaveTask1LeaveItem2",
+                    "type": "Leave",
+                    "time": 30,
+                    "itemid": "薇尔莉特火药",
+                    "zoneid": "ter_017_area_1",
+                    "count": 2
+                },
+                {
+                    "id": "PersicariaLeaveTask1LeaveItem3",
+                    "type": "Leave",
+                    "time": 30,
+                    "itemid": "布洛妮娅火药",
+                    "zoneid": "ter_017_area_1",
+                    "count": 2
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaLeaveTask1",
+                "Count": 18000,
+                "Name": "PersicariaLeaveTask1Rw1",
+                "Desc": "PersicariaLeaveTask1Rw1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "PersicariaLeaveTask1",
+                "Count": 0.04,
+                "TraderID": "Persicaria",
+                "Name": "PersicariaLeaveTask1Rw2",
+                "Desc": "PersicariaLeaveTask1Rw2"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaLeaveTask1Rw31",
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "upd": {
+                            "StackObjectsCount": 650000
+                        }
+                    }
+                ],
+                "Quest": "PersicariaLeaveTask1",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 650000,
+                "Name": "PersicariaLeaveTask1Rw3",
+                "Desc": "PersicariaLeaveTask1Rw3"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaLeaveTask1Rw41",
+                        "_tpl": "Vulcan再生促进血清改进型",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "PersicariaLeaveTask1Rw42",
+                        "_tpl": "Vulcan再生促进血清改进型",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "PersicariaLeaveTask1Rw43",
+                        "_tpl": "Vulcan再生促进血清改进型",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "PersicariaLeaveTask1Rw44",
+                        "_tpl": "Vulcan再生促进血清改进型",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "PersicariaLeaveTask1Rw45",
+                        "_tpl": "Vulcan再生促进血清改进型",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "PersicariaLeaveTask1Rw46",
+                        "_tpl": "Vulcan再生促进血清改进型",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "PersicariaLeaveTask1",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 6,
+                "Name": "PersicariaLeaveTask1Rw4",
+                "Desc": "PersicariaLeaveTask1Rw4"
+            }
+        ]
+    },
+    "PersicariaBladeTask1": {
+        "ID": "PersicariaBladeTask1",
+        "Type": "Elimination",
+        "imagepath": "/files/quest/icon/apex.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaWarTask3"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 49,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "PersicariaBladeTask1Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 1000,
+                    "counterid": "PersicariaBladeTask1K1",
+                    "bot": "Any",
+                    "role": [],
+                    "conditionid": "PersicariaBladeTask1K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "PersicariaBladeTask1",
+                "Count": 161028,
+                "Name": "PersicariaBladeTask1Rw1",
+                "Desc": "PersicariaBladeTask1Rw1"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "PersicariaBladeTask1Rw31",
+                        "_tpl": "Apex臂带",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "PersicariaBladeTask1",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 1,
+                "Name": "PersicariaBladeTask1Rw3",
+                "Desc": "PersicariaBladeTask1Rw3"
+            }
+        ]
+    },
+    "太阳能维修": {
+        "ID": "太阳能维修",
+        "Type": "PickUp",
+        "imagepath": "/files/quest/icon/60c3752d78280c17952e1e69.jpg",
+        "TraderID": "5a7c2eca46aef81a7ca2145d",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "5ac3464c86f7741d651d6877"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 36,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "太阳能维修Find1",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "59e366c186f7741778269d85",
+                    "count": 6
+                },
+                {
+                    "id": "太阳能维修Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "59e366c186f7741778269d85",
+                    "count": 6
+                },
+                {
+                    "id": "太阳能维修Find2",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5d0376a486f7747d8050965c",
+                    "count": 4
+                },
+                {
+                    "id": "太阳能维修Hand2",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5d0376a486f7747d8050965c",
+                    "count": 4
+                },
+                {
+                    "id": "太阳能维修Find3",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5d03775b86f774203e7e0c4b",
+                    "count": 2
+                },
+                {
+                    "id": "太阳能维修Hand3",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5d03775b86f774203e7e0c4b",
+                    "count": 2
+                },
+                {
+                    "id": "太阳能维修Find4",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5d03794386f77420415576f5",
+                    "count": 1
+                },
+                {
+                    "id": "太阳能维修Hand4",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5d03794386f77420415576f5",
+                    "count": 1
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "5a7c2eca46aef81a7ca2145d",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "太阳能维修",
+                "Count": 49000,
+                "Name": "太阳能维修Rw1",
+                "Desc": "太阳能维修Rw1"
+            },
+            {
+                "Trader": "5a7c2eca46aef81a7ca2145d",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "太阳能维修",
+                "Count": 0.04,
+                "TraderID": "5a7c2eca46aef81a7ca2145d",
+                "Name": "太阳能维修Rw2",
+                "Desc": "太阳能维修Rw2"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "太阳能维修Rw31",
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "upd": {
+                            "StackObjectsCount": 920000
+                        }
+                    }
+                ],
+                "Quest": "太阳能维修",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 920000,
+                "Name": "太阳能维修Rw3",
+                "Desc": "太阳能维修Rw3"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "太阳能维修Rw41",
+                        "_tpl": "57347ca924597744596b4e71",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "太阳能维修Rw42",
+                        "_tpl": "57347ca924597744596b4e71",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "太阳能维修Rw43",
+                        "_tpl": "57347ca924597744596b4e71",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "太阳能维修Rw44",
+                        "_tpl": "57347ca924597744596b4e71",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "太阳能维修Rw45",
+                        "_tpl": "57347ca924597744596b4e71",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "太阳能维修Rw46",
+                        "_tpl": "57347ca924597744596b4e71",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "太阳能维修",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 6,
+                "Name": "太阳能维修Rw4",
+                "Desc": "太阳能维修Rw4"
+            }
+        ]
+    },
+    "星星不闪包退换": {
+        "ID": "星星不闪包退换",
+        "Type": "PickUp",
+        "imagepath": "/files/quest/icon/60c3752d78280c17952e1e69.jpg",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "太阳能维修"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 0,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "星星不闪包退换Hand1",
+                    "type": "Hand",
+                    "inraid": false,
+                    "itemid": "569668774bdc2da2298b4568",
+                    "count": 50000
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "星星不闪包退换",
+                "Count": 127000,
+                "Name": "星星不闪包退换Rw1",
+                "Desc": "星星不闪包退换Rw1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "星星不闪包退换",
+                "Count": 0.02,
+                "TraderID": "Persicaria",
+                "Name": "星星不闪包退换Rw2",
+                "Desc": "星星不闪包退换Rw2"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "星星不闪包退换Rw31",
+                        "_tpl": "太阳能模块",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "星星不闪包退换",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 1,
+                "Name": "星星不闪包退换Rw3",
+                "Desc": "星星不闪包退换Rw3"
+            }
+        ]
+    },
+    "进化甲进度显示": {
+        "ID": "进化甲进度显示",
+        "Type": "Elimination",
+        "imagepath": "/files/quest/icon/apex.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaWarTask2"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 26,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "白甲-蓝甲进度",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 15,
+                    "counterid": "白甲-蓝甲进度",
+                    "bot": "Any",
+                    "role": [],
+                    "conditionid": "白甲-蓝甲进度",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                },
+                {
+                    "id": "蓝甲-紫甲进度",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 45,
+                    "counterid": "蓝甲-紫甲进度",
+                    "bot": "Any",
+                    "role": [],
+                    "conditionid": "蓝甲-紫甲进度",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                },
+                {
+                    "id": "紫甲-红甲进度",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 120,
+                    "counterid": "紫甲-红甲进度",
+                    "bot": "Any",
+                    "role": [],
+                    "conditionid": "紫甲-红甲进度",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Items": [
+                    {
+                        "_id": "进化甲进度显示Rw11",
+                        "_tpl": "护盾模组",
+                        "upd": {
+                            "StackObjectsCount": 4
+                        }
+                    },
+                    {
+                        "_id": "进化甲进度显示Rw12",
+                        "_tpl": "护盾模组",
+                        "upd": {
+                            "StackObjectsCount": 4
+                        }
+                    },
+                    {
+                        "_id": "进化甲进度显示Rw13",
+                        "_tpl": "护盾模组",
+                        "upd": {
+                            "StackObjectsCount": 4
+                        }
+                    },
+                    {
+                        "_id": "进化甲进度显示Rw14",
+                        "_tpl": "护盾模组",
+                        "upd": {
+                            "StackObjectsCount": 4
+                        }
+                    },
+                    {
+                        "_id": "进化甲进度显示Rw15",
+                        "_tpl": "护盾模组",
+                        "upd": {
+                            "StackObjectsCount": 4
+                        }
+                    }
+                ],
+                "Quest": "进化甲进度显示",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 20,
+                "Name": "进化甲进度显示Rw1",
+                "Desc": "进化甲进度显示Rw1"
+            }
+        ]
+    },
+    "白甲-蓝甲进度": {
+        "ID": "白甲-蓝甲进度",
+        "Type": "Elimination",
+        "imagepath": "/files/quest/icon/apex.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaWarTask2"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 26,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "白甲-蓝甲进度",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 15,
+                    "counterid": "白甲-蓝甲进度",
+                    "bot": "Any",
+                    "role": [],
+                    "conditionid": "白甲-蓝甲进度",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Items": [
+                    {
+                        "_id": "白甲-蓝甲进度Rw11",
+                        "_tpl": "蓝甲",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "白甲-蓝甲进度Rw11-蓝甲护盾0",
+                        "_tpl": "护盾模组",
+                        "parentId": "白甲-蓝甲进度Rw11",
+                        "slotId": "mod_tactical_000"
+                    },
+                    {
+                        "_id": "白甲-蓝甲进度Rw11-蓝甲护盾1",
+                        "_tpl": "护盾模组",
+                        "parentId": "白甲-蓝甲进度Rw11",
+                        "slotId": "mod_tactical_001"
+                    },
+                    {
+                        "_id": "白甲-蓝甲进度Rw11-蓝甲护盾2",
+                        "_tpl": "护盾模组",
+                        "parentId": "白甲-蓝甲进度Rw11",
+                        "slotId": "mod_tactical_002"
+                    }
+                ],
+                "Quest": "白甲-蓝甲进度",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 1,
+                "Name": "白甲-蓝甲进度Rw1",
+                "Desc": "白甲-蓝甲进度Rw1"
+            }
+        ]
+    },
+    "蓝甲-紫甲进度": {
+        "ID": "蓝甲-紫甲进度",
+        "Type": "Elimination",
+        "imagepath": "/files/quest/icon/apex.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "白甲-蓝甲进度"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 0,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "蓝甲-紫甲进度",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 45,
+                    "counterid": "蓝甲-紫甲进度",
+                    "bot": "Any",
+                    "role": [],
+                    "conditionid": "蓝甲-紫甲进度",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Items": [
+                    {
+                        "_id": "蓝甲-紫甲进度Rw11",
+                        "_tpl": "紫甲",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "蓝甲-紫甲进度Rw11-紫甲护盾0",
+                        "_tpl": "护盾模组",
+                        "parentId": "蓝甲-紫甲进度Rw11",
+                        "slotId": "mod_tactical_000"
+                    },
+                    {
+                        "_id": "蓝甲-紫甲进度Rw11-紫甲护盾1",
+                        "_tpl": "护盾模组",
+                        "parentId": "蓝甲-紫甲进度Rw11",
+                        "slotId": "mod_tactical_001"
+                    },
+                    {
+                        "_id": "蓝甲-紫甲进度Rw11-紫甲护盾2",
+                        "_tpl": "护盾模组",
+                        "parentId": "蓝甲-紫甲进度Rw11",
+                        "slotId": "mod_tactical_002"
+                    },
+                    {
+                        "_id": "蓝甲-紫甲进度Rw11-紫甲护盾3",
+                        "_tpl": "护盾模组",
+                        "parentId": "蓝甲-紫甲进度Rw11",
+                        "slotId": "mod_tactical_003"
+                    }
+                ],
+                "Quest": "蓝甲-紫甲进度",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 1,
+                "Name": "蓝甲-紫甲进度Rw1",
+                "Desc": "蓝甲-紫甲进度Rw1"
+            }
+        ]
+    },
+    "紫甲-红甲进度": {
+        "ID": "紫甲-红甲进度",
+        "Type": "Elimination",
+        "imagepath": "/files/quest/icon/apex.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "蓝甲-紫甲进度"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 0,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "紫甲-红甲进度",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 120,
+                    "counterid": "紫甲-红甲进度",
+                    "bot": "Any",
+                    "role": [],
+                    "conditionid": "紫甲-红甲进度",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Items": [
+                    {
+                        "_id": "紫甲-红甲进度Rw11",
+                        "_tpl": "红甲",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    },
+                    {
+                        "_id": "紫甲-红甲进度Rw11-红甲护盾0",
+                        "_tpl": "护盾模组",
+                        "parentId": "紫甲-红甲进度Rw11",
+                        "slotId": "mod_tactical_000"
+                    },
+                    {
+                        "_id": "紫甲-红甲进度Rw11-红甲护盾1",
+                        "_tpl": "护盾模组",
+                        "parentId": "紫甲-红甲进度Rw11",
+                        "slotId": "mod_tactical_001"
+                    },
+                    {
+                        "_id": "紫甲-红甲进度Rw11-红甲护盾2",
+                        "_tpl": "护盾模组",
+                        "parentId": "紫甲-红甲进度Rw11",
+                        "slotId": "mod_tactical_002"
+                    },
+                    {
+                        "_id": "紫甲-红甲进度Rw11-红甲护盾3",
+                        "_tpl": "护盾模组",
+                        "parentId": "紫甲-红甲进度Rw11",
+                        "slotId": "mod_tactical_003"
+                    },
+                    {
+                        "_id": "紫甲-红甲进度Rw11-红甲护盾4",
+                        "_tpl": "护盾模组",
+                        "parentId": "紫甲-红甲进度Rw11",
+                        "slotId": "mod_tactical_004"
+                    }
+                ],
+                "Quest": "紫甲-红甲进度",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 1,
+                "Name": "紫甲-红甲进度Rw1",
+                "Desc": "紫甲-红甲进度Rw1"
+            }
+        ]
+    },
+    "风暴轮转": {
+        "ID": "风暴轮转",
+        "Type": "PickUp",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "56f40101d2720b2a4d8b45d6",
+        "PreData": {
+            "finishquest": [
+                "PersicariaTecTask2"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 16,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "风暴轮转寻找物品1",
+                    "type": "Find",
+                    "inraid": false,
+                    "itemid": "风暴轮转之盐",
+                    "count": 1
+                },
+                {
+                    "id": "风暴轮转寻找物品2",
+                    "type": "Find",
+                    "inraid": false,
+                    "itemid": "恒常日月之盐",
+                    "count": 1
+                },
+                {
+                    "id": "风暴轮转上交物品1",
+                    "type": "Hand",
+                    "inraid": false,
+                    "itemid": "风暴轮转之盐",
+                    "count": 1
+                },
+                {
+                    "id": "风暴轮转上交物品2",
+                    "type": "Hand",
+                    "inraid": false,
+                    "itemid": "恒常日月之盐",
+                    "count": 1
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Items": [
+                    {
+                        "_id": "风暴轮转物品奖励1",
+                        "_tpl": "红石粉",
+                        "upd": {
+                            "StackObjectsCount": 6
+                        }
+                    }
+                ],
+                "Quest": "风暴轮转",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 6,
+                "Name": "风暴轮转物品奖励1",
+                "Desc": "风暴轮转物品奖励1"
+            },
+            {
+                "Items": [
+                    {
+                        "_id": "风暴轮转物品奖励2",
+                        "_tpl": "青金石",
+                        "upd": {
+                            "StackObjectsCount": 6
+                        }
+                    }
+                ],
+                "Quest": "风暴轮转",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 6,
+                "Name": "风暴轮转物品奖励2",
+                "Desc": "风暴轮转物品奖励2"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "风暴轮转",
+                "Count": 0.04,
+                "TraderID": "Persicaria",
+                "Name": "风暴轮转信任度奖励1",
+                "Desc": "风暴轮转信任度奖励1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "风暴轮转",
+                "Count": 8500,
+                "Name": "风暴轮转经验奖励1",
+                "Desc": "风暴轮转经验奖励1"
+            }
+        ]
+    },
+    "序幕-契约战争": {
+        "ID": "序幕-契约战争",
+        "Type": "Completion",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "653e6760052c01c1c805532f",
+        "PreData": {
+            "finishquest": [],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 0,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "序幕-契约战争踩点1",
+                    "type": "Extract",
+                    "oneraid": false,
+                    "count": 1,
+                    "location": [
+                        "Sandbox",
+                        "Sandbox_high"
+                    ],
+                    "status": [
+                        "Survived",
+                        "Runner"
+                    ],
+                    "chosenextractpoint": true,
+                    "extractpoint": "Unity_free_exit"
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "序幕-契约战争",
+                "Count": 2500,
+                "Name": "序幕-契约战争经验奖励1",
+                "Desc": "序幕-契约战争经验奖励1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "序幕-契约战争",
+                "Count": 0.02,
+                "TraderID": "Persicaria",
+                "Name": "序幕-契约战争信任度奖励1",
+                "Desc": "序幕-契约战争信任度奖励1"
+            }
+        ]
+    },
+    "第二轮太阳": {
+        "ID": "第二轮太阳",
+        "Type": "Completion",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaTecTask2",
+                "PersicariaMedTask1"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 0,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "第二轮太阳等级需求1",
+                    "type": "Level",
+                    "count": 21
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "第二轮太阳",
+                "Count": 5000,
+                "Name": "第二轮太阳经验奖励1",
+                "Desc": "第二轮太阳经验奖励1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "第二轮太阳",
+                "Count": 0.02,
+                "TraderID": "Persicaria",
+                "Name": "第二轮太阳信任度奖励1",
+                "Desc": "第二轮太阳信任度奖励1"
+            }
+        ]
+    },
+    "向着明天": {
+        "ID": "向着明天",
+        "Type": "Completion",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaMedTask3",
+                "PersicariaWarTask1"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 0,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "向着明天等级需求1",
+                    "type": "Level",
+                    "count": 1
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "向着明天",
+                "Count": 10000,
+                "Name": "向着明天经验奖励1",
+                "Desc": "向着明天经验奖励1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "向着明天",
+                "Count": 0.04,
+                "TraderID": "Persicaria",
+                "Name": "向着明天信任度奖励1",
+                "Desc": "向着明天信任度奖励1"
+            }
+        ]
+    },
+    "阴影之下": {
+        "ID": "阴影之下",
+        "Type": "PickUp",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "PersicariaMedTask4"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 0,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "阴影之下寻找需求1",
+                    "type": "Find",
+                    "inraid": false,
+                    "itemid": "曙光制药的交易记录",
+                    "count": 1
+                },
+                {
+                    "id": "阴影之下上交需求1",
+                    "type": "Hand",
+                    "inraid": false,
+                    "itemid": "曙光制药的交易记录",
+                    "count": 1
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Exp",
+                "Quest": "阴影之下",
+                "Count": 18000,
+                "Name": "阴影之下经验奖励1",
+                "Desc": "阴影之下经验奖励1"
+            },
+            {
+                "Trader": "Persicaria",
+                "Condition": "Finish",
+                "Type": "Trust",
+                "Quest": "阴影之下",
+                "Count": 0.04,
+                "TraderID": "Persicaria",
+                "Name": "阴影之下信任度奖励1",
+                "Desc": "阴影之下信任度奖励1"
+            }
+        ]
+    },
+    "初心者赠礼": {
+        "ID": "初心者赠礼",
+        "Type": "Completion",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 0,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Items": [
+                    {
+                        "_id": "初心者赠礼-Beta臂带",
+                        "_tpl": "Beta臂带",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "初心者赠礼",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 1,
+                "Name": "初心者赠礼",
+                "Desc": "初心者赠礼"
+            }
+        ]
+    },
+    "永寂孤芒": {
+        "ID": "永寂孤芒",
+        "Type": "Completion",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [
+                    "66d9cbb67b491f9d5304f6e6"
+                ],
+                "state": [
+                    4
+                ]
+            },
+            "playerlevel": 45,
+            "traderstanding": {},
+            "traderlevel": {
+                "54cb50c76803fa8b248b4571": 4,
+                "54cb57776803fa99248b456e": 4,
+                "58330581ace78e27b8b10cee": 4,
+                "5935c25fb3acc3127c3d8cd9": 4,
+                "5a7c2eca46aef81a7ca2145d": 4,
+                "5ac3b934156ae10c4430e83c": 4,
+                "5c0647fdd443bc2504c2d371": 4
+            }
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "永寂孤芒-战争",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 100,
+                    "counterid": "永寂孤芒-战争-计数器",
+                    "bot": "Any",
+                    "role": [],
+                    "conditionid": "永寂孤芒-战争-条件",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                },
+                {
+                    "id": "永寂孤芒-饥荒",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5857a8bc2459772bad15db29",
+                    "count": 100
+                },
+                {
+                    "id": "永寂孤芒-瘟疫",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5857a8bc2459772bad15db29",
+                    "count": 100
+                },
+                {
+                    "id": "永寂孤芒-死亡",
+                    "type": "Extract",
+                    "oneraid": false,
+                    "count": 100,
+                    "location": [
+                        "Woods",
+                        "bigmap",
+                        "Shoreline",
+                        "RezervBase",
+                        "Lighthouse",
+                        "TarkovStreets",
+                        "Interchange",
+                        "factory4_day",
+                        "factory4_night",
+                        "laboratory",
+                        "Sandbox",
+                        "Sandbox_high"
+                    ],
+                    "status": [
+                        "Killed",
+                        "MissingInAction"
+                    ],
+                    "chosenextractpoint": false,
+                    "extractpoint": ""
+                }
+            ],
+            "fail": []
+        },
+        "QuestReward": [
+            {
+                "Items": [
+                    {
+                        "_id": "永寂孤芒-核能之星",
+                        "_tpl": "核能之星",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "永寂孤芒",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 1,
+                "Name": "核能之星",
+                "Desc": "核能之星"
+            }
+        ]
+    },
+    "天行有常黑边": {
+        "ID": "天行有常黑边",
+        "Type": "Completion",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "永寂孤芒"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 0,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "天行有常上交",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "核能之星",
+                    "count": 1
+                }
+            ],
+            "fail": [
+                {
+                    "id": "天行有常黑边失败",
+                    "type": "Quest",
+                    "questid": "天行有常蓝边",
+                    "status": [
+                        4
+                    ]
+                }
+            ]
+        },
+        "QuestReward": [
+            {
+                "Items": [
+                    {
+                        "_id": "天行有常-黑边",
+                        "_tpl": "5857a8bc2459772bad15db29",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "天行有常黑边",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 1,
+                "Name": "天行有常黑边",
+                "Desc": "天行有常黑边"
+            }
+        ]
+    },
+    "天行有常蓝边": {
+        "ID": "天行有常蓝边",
+        "Type": "Completion",
+        "imagepath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "PreData": {
+            "finishquest": [
+                "永寂孤芒"
+            ],
+            "failquest": [],
+            "startquest": [],
+            "customquest": {
+                "quest": [],
+                "state": []
+            },
+            "playerlevel": 0,
+            "traderstanding": {},
+            "traderlevel": {}
+        },
+        "QuestData": {
+            "finish": [
+                {
+                    "id": "天行有常上交",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "核能之星",
+                    "count": 1
+                }
+            ],
+            "fail": [
+                {
+                    "id": "天行有常蓝边失败",
+                    "type": "Quest",
+                    "questid": "天行有常黑边",
+                    "status": [
+                        4
+                    ]
+                }
+            ]
+        },
+        "QuestReward": [
+            {
+                "Items": [
+                    {
+                        "_id": "天行有常-蓝边",
+                        "_tpl": "665ee77ccf2d642e98220bca",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "天行有常蓝边",
+                "Condition": "Finish",
+                "Type": "Item",
+                "Count": 1,
+                "Name": "天行有常蓝边",
+                "Desc": "天行有常蓝边"
+            }
+        ]
+    }
+}

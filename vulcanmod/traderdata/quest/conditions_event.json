@@ -1,0 +1,163 @@
+{
+    "641dbfd7f43eda9d810d7137":{
+        "Start": {
+            "Data": [
+                {
+                    "id": "重要伤员强制解锁要求_1",
+                    "type": "Quest",
+                    "questid": "强制解锁_重要伤员",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": true
+        },
+        "Finish": {
+            "Data": [],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "64764abcd125ab430a14ccb5":{
+        "Start": {
+            "Data": [
+                {
+                    "id": "寻血猎犬强制解锁要求_1",
+                    "type": "Quest",
+                    "questid": "强制解锁_寻血猎犬",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": true
+        },
+        "Finish": {
+            "Data": [],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "647710905320c660d91c15a5":{
+        "Start": {
+            "Data": [
+                {
+                    "id": "杀鸡儆猴强制解锁要求_1",
+                    "type": "Quest",
+                    "questid": "强制解锁_杀鸡儆猴",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": true
+        },
+        "Finish": {
+            "Data": [],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "64916da7ad4e722c106f2345":{
+        "Start": {
+            "Data": [
+                {
+                    "id": "东窗事发强制解锁要求_1",
+                    "type": "Quest",
+                    "questid": "强制解锁_东窗事发",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": true
+        },
+        "Finish": {
+            "Data": [],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "649af47d717cb30e7e4b5e26":{
+        "Start": {
+            "Data": [
+                {
+                    "id": "品酒师强制解锁要求_1",
+                    "type": "Quest",
+                    "questid": "强制解锁_品酒师",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": true
+        },
+        "Finish": {
+            "Data": [],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "655e427b64d09b4122018228":{
+        "Start": {
+            "Data": [
+                {
+                    "id": "大丰收强制解锁要求_1",
+                    "type": "Quest",
+                    "questid": "强制解锁_大丰收",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": true
+        },
+        "Finish": {
+            "Data": [],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "6672ec2a2b6f3b71be794cc5":{
+        "Start": {
+            "Data": [
+                {
+                    "id": "钥匙卡任务强制解锁要求_1",
+                    "type": "Quest",
+                    "questid": "强制解锁_钥匙卡任务",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": true
+        },
+        "Finish": {
+            "Data": [],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "直流变压器": {
+        "Trader": "5a7c2eca46aef81a7ca2145d",
+        "Items": [
+            {
+                "_id": "直流变压器",
+                "_tpl": "6389c85357baa773a825b356",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 1000
+                }
+            }
+        ],
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 9000000
+        },
+        "LLR": 4,
+        "isLock": true,
+        "Quest": "太阳能维修",
+        "Name": "直流变压器直购",
+        "Desc": "直流变压器直购"
+    }
+}

@@ -1,0 +1,1503 @@
+{  
+  "ReshalaCoat": {
+    "_id": "ReshalaCoat",
+    "_name": "ReshalaCoat",
+    "_parent": "5cd944ca1388ce03a44dc2a4",
+    "_type": "Item",
+    "_props": {
+      "Name": "Reshala外套",
+      "ShortName": "ReshalaCoat",
+      "Description": "ReshalaCoat",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Body": "5d28adcb86f77429242fc893",
+      "Hands": "ReshalaHand"
+    },
+    "_proto": "5cd946231388ce000d572fe3"
+  },
+  "ReshalaLower": {
+    "_id": "ReshalaLower",
+    "_name": "ReshalaLower",
+    "_parent": "5cd944d01388ce000a659df9",
+    "_type": "Item",
+    "_props": {
+      "Name": "Reshala下装",
+      "ShortName": "Reshala下装",
+      "Description": "Reshala下装",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Feet": "5d28b3a186f7747f7e69ab8c"
+    }
+  },
+  "ReshalaHand": {
+    "_id": "ReshalaHand",
+    "_name": "ReshalaHand",
+    "_parent": "5cc0868e14c02e000c6bea68",
+    "_type": "Item",
+    "_props": {
+      "Name": "ReshalaHand",
+      "ShortName": "ReshalaHand",
+      "Description": "ReshalaHand",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "BodyPart": "Hands",
+      "Prefab": {
+        "path": "reshala_hand.pack",
+        "rcid": ""
+      },
+      "WatchPrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "IntegratedArmorVest": false,
+      "WatchPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "WatchRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "_proto": "5cde9f337d6c8b0474535da8"
+  },
+  "SanitarCoat": {
+    "_id": "SanitarCoat",
+    "_name": "SanitarCoat",
+    "_parent": "5cd944ca1388ce03a44dc2a4",
+    "_type": "Item",
+    "_props": {
+      "Name": "Sanitar外套",
+      "ShortName": "SanitarCoat",
+      "Description": "SanitarCoat",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Body": "5e9975c486f774382b6320cb",
+      "Hands": "SanitarHand"
+    },
+    "_proto": "5cd946231388ce000d572fe3"
+  },
+  "SanitarLower": {
+    "_id": "SanitarLower",
+    "_name": "SanitarLower",
+    "_parent": "5cd944d01388ce000a659df9",
+    "_type": "Item",
+    "_props": {
+      "Name": "Sanitar下装",
+      "ShortName": "SanitarPants",
+      "Description": "SanitarPants",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Feet": "5e99762586f77466320ff9a9"
+    }
+  },
+  "SanitarHand": {
+    "_id": "SanitarHand",
+    "_name": "SanitarHand",
+    "_parent": "5cc0868e14c02e000c6bea68",
+    "_type": "Item",
+    "_props": {
+      "Name": "SanitarHand",
+      "ShortName": "SanitarHand",
+      "Description": "SanitarHand",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "BodyPart": "Hands",
+      "Prefab": {
+        "path": "sanitar_hand.pack",
+        "rcid": ""
+      },
+      "WatchPrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "IntegratedArmorVest": false,
+      "WatchPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "WatchRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "_proto": "5cde9f337d6c8b0474535da8"
+  },
+  "GlukahrCoat": {
+    "_id": "GlukahrCoat",
+    "_name": "GluharCoat",
+    "_parent": "5cd944ca1388ce03a44dc2a4",
+    "_type": "Item",
+    "_props": {
+      "Name": "Gluhar上装",
+      "ShortName": "GluharCoat",
+      "Description": "GluharCoat",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Body": "5d5e7dd786f7744a7a274322",
+      "Hands": "GlukahrHand"
+    },
+    "_proto": "5cd946231388ce000d572fe3"
+  },
+  "GlukahrLower": {
+    "_id": "GlukahrLower",
+    "_name": "GluharLower",
+    "_parent": "5cd944d01388ce000a659df9",
+    "_type": "Item",
+    "_props": {
+      "Name": "Gluhar下装",
+      "ShortName": "GluharPants",
+      "Description": "GluharPants",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Feet": "5d5e7f2a86f77427997cfb80"
+    }
+  },
+  "GlukahrHand": {
+    "_id": "GlukahrHand",
+    "_name": "GlukahrHand",
+    "_parent": "5cc0868e14c02e000c6bea68",
+    "_type": "Item",
+    "_props": {
+      "Name": "GlukahrHand",
+      "ShortName": "GlukahrHand",
+      "Description": "GlukahrHand",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "BodyPart": "Hands",
+      "Prefab": {
+        "path": "glukhar_hand.pack",
+        "rcid": ""
+      },
+      "WatchPrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "IntegratedArmorVest": false,
+      "WatchPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "WatchRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "_proto": "5cde9f337d6c8b0474535da8"
+  },
+  "KillaCoat": {
+    "_id": "KillaCoat",
+    "_name": "KillaCoat",
+    "_parent": "5cd944ca1388ce03a44dc2a4",
+    "_type": "Item",
+    "_props": {
+      "Name": "Killa外套",
+      "ShortName": "KillaCoat",
+      "Description": "KillaCoat",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Body": "5cdea33e7d6c8b0474535dac",
+      "Hands": "5df8ead786f774530571b14b"
+    },
+    "_proto": "5cd946231388ce000d572fe3"
+  },
+  "KillaLower": {
+    "_id": "KillaLower",
+    "_name": "KillaLower",
+    "_parent": "5cd944d01388ce000a659df9",
+    "_type": "Item",
+    "_props": {
+      "Name": "Killa下装",
+      "ShortName": "KillaPants",
+      "Description": "KillaPants",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Feet": "5cdea3c47d6c8b0475341734"
+    }
+  },
+  "KnightCoat": {
+    "_id": "KnightCoat",
+    "_name": "KnightCoat",
+    "_parent": "5cd944ca1388ce03a44dc2a4",
+    "_type": "Item",
+    "_props": {
+      "Name": "Knight上装",
+      "ShortName": "KnightCoat",
+      "Description": "KnightCoat",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Body": "628796f2af0a053a6672c29a",
+      "Hands": "KnightHand"
+    },
+    "_proto": "5cd946231388ce000d572fe3"
+  },
+  "KnightLower": {
+    "_id": "KnightLower",
+    "_name": "KnightLower",
+    "_parent": "5cd944d01388ce000a659df9",
+    "_type": "Item",
+    "_props": {
+      "Name": "Knight下装",
+      "ShortName": "KnightPants",
+      "Description": "KnightPants",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Feet": "628771f70828252c7a28b961"
+    }
+  },
+  "KnightHand": {
+    "_id": "KnightHand",
+    "_name": "KnightHand",
+    "_parent": "5cc0868e14c02e000c6bea68",
+    "_type": "Item",
+    "_props": {
+      "Name": "KnightHand",
+      "ShortName": "KnightHand",
+      "Description": "KnightHand",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "BodyPart": "Hands",
+      "Prefab": {
+        "path": "knight_hand.pack",
+        "rcid": ""
+      },
+      "WatchPrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "IntegratedArmorVest": false,
+      "WatchPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "WatchRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "_proto": "5cde9f337d6c8b0474535da8"
+  },
+  "ShturmanCoat": {
+    "_id": "ShturmanCoat",
+    "_name": "ShturmanCoat",
+    "_parent": "5cd944ca1388ce03a44dc2a4",
+    "_type": "Item",
+    "_props": {
+      "Name": "Shturman外套",
+      "ShortName": "ShturmanCoat",
+      "Description": "ShturmanCoat",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Body": "ShturmanBody",
+      "Hands": "ShturmanHand"
+    },
+    "_proto": "5cd946231388ce000d572fe3"
+  },
+  "ShturmanLower": {
+    "_id": "ShturmanLower",
+    "_name": "ShturmanLower",
+    "_parent": "5cd944d01388ce000a659df9",
+    "_type": "Item",
+    "_props": {
+      "Name": "Shturman下装",
+      "ShortName": "ShturmanPants",
+      "Description": "ShturmanPants",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Feet": "5d5e7f3c86f7742797262063"
+    }
+  },
+  "ShturmanBody": {
+    "_id": "ShturmanBody",
+    "_name": "ShturmanBody",
+    "_parent": "5cc0868e14c02e000c6bea68",
+    "_type": "Item",
+    "_props": {
+      "Name": "ShturmanBody",
+      "ShortName": "ShturmanBody",
+      "Description": "ShturmanBody",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "BodyPart": "Body",
+      "Prefab": {
+        "path": "shturman_suit.pack",
+        "rcid": ""
+      },
+      "WatchPrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "IntegratedArmorVest": false,
+      "WatchPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "WatchRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "_proto": "5cde9f337d6c8b0474535da8"
+  },
+  "ShturmanHand": {
+    "_id": "ShturmanHand",
+    "_name": "ShturmanHand",
+    "_parent": "5cc0868e14c02e000c6bea68",
+    "_type": "Item",
+    "_props": {
+      "Name": "ShturmanHand",
+      "ShortName": "ShturmanHand",
+      "Description": "ShturmanHand",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "BodyPart": "Hands",
+      "Prefab": {
+        "path": "shturman_hand.pack",
+        "rcid": ""
+      },
+      "WatchPrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "IntegratedArmorVest": false,
+      "WatchPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "WatchRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "_proto": "5cde9f337d6c8b0474535da8"
+  },
+  "TagillaCoat": {
+    "_id": "TagillaCoat",
+    "_name": "TagillaCoat",
+    "_parent": "5cd944ca1388ce03a44dc2a4",
+    "_type": "Item",
+    "_props": {
+      "Name": "Tagilla上装",
+      "ShortName": "TagillaCoat",
+      "Description": "TagillaCoat",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Body": "TagillaBody",
+      "Hands": "TagillaHand"
+    },
+    "_proto": "5cd946231388ce000d572fe3"
+  },
+  "TagillaLower": {
+    "_id": "TagillaLower",
+    "_name": "TagillaLower",
+    "_parent": "5cd944d01388ce000a659df9",
+    "_type": "Item",
+    "_props": {
+      "Name": "Tagilla下装",
+      "ShortName": "TagillaPants",
+      "Description": "TagillaPants",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Feet": "609e86c09776a947754429b2"
+    }
+  },
+  "TagillaBody": {
+    "_id": "TagillaBody",
+    "_name": "TagillaBody",
+    "_parent": "5cc0868e14c02e000c6bea68",
+    "_type": "Item",
+    "_props": {
+      "Name": "TagillaBody",
+      "ShortName": "TagillaBody",
+      "Description": "TagillaBody",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "BodyPart": "Body",
+      "Prefab": {
+        "path": "tagilla_top.pack",
+        "rcid": ""
+      },
+      "WatchPrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "IntegratedArmorVest": false,
+      "WatchPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "WatchRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "_proto": "5cde9f337d6c8b0474535da8"
+  },
+  "TagillaHand": {
+    "_id": "TagillaHand",
+    "_name": "TagillaHand",
+    "_parent": "5cc0868e14c02e000c6bea68",
+    "_type": "Item",
+    "_props": {
+      "Name": "TagillaHand",
+      "ShortName": "TagillaHand",
+      "Description": "TagillaHand",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "BodyPart": "Hands",
+      "Prefab": {
+        "path": "tagilla_hand.pack",
+        "rcid": ""
+      },
+      "WatchPrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "IntegratedArmorVest": false,
+      "WatchPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "WatchRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "_proto": "5cde9f337d6c8b0474535da8"
+  },
+  "ZryachiyCoat": {
+    "_id": "ZryachiyCoat",
+    "_name": "ZryachiyCoat",
+    "_parent": "5cd944ca1388ce03a44dc2a4",
+    "_type": "Item",
+    "_props": {
+      "Name": "Zryachiy外套",
+      "ShortName": "ZryachiyCoat",
+      "Description": "ZryachiyCoat",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Body": "63628b825c1b30a79d09ccb9",
+      "Hands": "ZryachiyHand"
+    },
+    "_proto": "5cd946231388ce000d572fe3"
+  },
+  "ZryachiyLower": {
+    "_id": "ZryachiyLower",
+    "_name": "ZryachiyLower",
+    "_parent": "5cd944d01388ce000a659df9",
+    "_type": "Item",
+    "_props": {
+      "Name": "Zryachiy下装",
+      "ShortName": "ZryachiyPants",
+      "Description": "ZryachiyPants",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Feet": "6361216278f9ab270a0a48d9"
+    }
+  },
+  "ZryachiyHand": {
+    "_id": "ZryachiyHand",
+    "_name": "ZryachiyHand",
+    "_parent": "5cc0868e14c02e000c6bea68",
+    "_type": "Item",
+    "_props": {
+      "Name": "ZryachiyHand",
+      "ShortName": "ZryachiyHand",
+      "Description": "ZryachiyHand",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "BodyPart": "Hands",
+      "Prefab": {
+        "path": "zryachiy_hand.pack",
+        "rcid": ""
+      },
+      "WatchPrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "IntegratedArmorVest": false,
+      "WatchPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "WatchRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "_proto": "5cde9f337d6c8b0474535da8"
+  },
+  "BigPipeCoat": {
+    "_id": "BigPipeCoat",
+    "_name": "BigPipeCoat",
+    "_parent": "5cd944ca1388ce03a44dc2a4",
+    "_type": "Item",
+    "_props": {
+      "Name": "BigPipe上装",
+      "ShortName": "BigPipeCoat",
+      "Description": "BigPipeCoat",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Body": "6287b16b05846043f15a790d",
+      "Hands": "BigPipeHand"
+    },
+    "_proto": "5cd946231388ce000d572fe3"
+  },
+  "BigPipeLower": {
+    "_id": "BigPipeLower",
+    "_name": "BigPipeLower",
+    "_parent": "5cd944d01388ce000a659df9",
+    "_type": "Item",
+    "_props": {
+      "Name": "BigPipe下装",
+      "ShortName": "BigPipePants",
+      "Description": "BigPipePants",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Feet": "6287b14b66bb7d4a3c32bc94"
+    }
+  },
+  "BigPipeHand": {
+    "_id": "BigPipeHand",
+    "_name": "BigPipeHand",
+    "_parent": "5cc0868e14c02e000c6bea68",
+    "_type": "Item",
+    "_props": {
+      "Name": "BigPipeHand",
+      "ShortName": "BigPipeHand",
+      "Description": "BigPipeHand",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "BodyPart": "Hands",
+      "Prefab": {
+        "path": "bigpipe_hand.pack",
+        "rcid": ""
+      },
+      "WatchPrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "IntegratedArmorVest": false,
+      "WatchPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "WatchRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "_proto": "5cde9f337d6c8b0474535da8"
+  },
+  "BirdeyeCoat": {
+    "_id": "BirdeyeCoat",
+    "_name": "BirdeyeCoat",
+    "_parent": "5cd944ca1388ce03a44dc2a4",
+    "_type": "Item",
+    "_props": {
+      "Name": "Birdeye上装",
+      "ShortName": "BirdeyeCoat",
+      "Description": "BirdeyeCoat",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Body": "628a6801805c5b6c100cc200",
+      "Hands": "BirdeyeHand"
+    },
+    "_proto": "5cd946231388ce000d572fe3"
+  },
+  "BirdeyeLower": {
+    "_id": "BirdeyeLower",
+    "_name": "BirdeyeLower",
+    "_parent": "5cd944d01388ce000a659df9",
+    "_type": "Item",
+    "_props": {
+      "Name": "Birdeye下装",
+      "ShortName": "BirdeyePants",
+      "Description": "BirdeyePants",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Feet": "628a4645c9327c7587388849"
+    }
+  },
+  "BirdeyeHand": {
+    "_id": "BirdeyeHand",
+    "_name": "BirdeyeHand",
+    "_parent": "5cc0868e14c02e000c6bea68",
+    "_type": "Item",
+    "_props": {
+      "Name": "BirdeyeHand",
+      "ShortName": "BirdeyeHand",
+      "Description": "BirdeyeHand",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "BodyPart": "Hands",
+      "Prefab": {
+        "path": "birdeye_hand.pack",
+        "rcid": ""
+      },
+      "WatchPrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "IntegratedArmorVest": false,
+      "WatchPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "WatchRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "_proto": "5cde9f337d6c8b0474535da8"
+  },
+  "KabanCoat": {
+    "_id": "KabanCoat",
+    "_name": "KabanCoat",
+    "_parent": "5cd944ca1388ce03a44dc2a4",
+    "_type": "Item",
+    "_props": {
+      "Name": "Kaban上装",
+      "ShortName": "KabanCoat",
+      "Description": "KabanCoat",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Body": "648067b8aa32c2049f098463",
+      "Hands": "KabanHand"
+    },
+    "_proto": "5cd946231388ce000d572fe3"
+  },
+  "KabanLower": {
+    "_id": "KabanLower",
+    "_name": "KabanLower",
+    "_parent": "5cd944d01388ce000a659df9",
+    "_type": "Item",
+    "_props": {
+      "Name": "Kaban下装",
+      "ShortName": "KabanPants",
+      "Description": "KabanPants",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Feet": "64806edf77c11aeac5078e33"
+    }
+  },
+  "KabanHand": {
+    "_id": "KabanHand",
+    "_name": "KabanHand",
+    "_parent": "5cc0868e14c02e000c6bea68",
+    "_type": "Item",
+    "_props": {
+      "Name": "KabanHand",
+      "ShortName": "KabanHand",
+      "Description": "KabanHand",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "BodyPart": "Hands",
+      "Prefab": {
+        "path": "kaban_hand.pack",
+        "rcid": ""
+      },
+      "WatchPrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "IntegratedArmorVest": false,
+      "WatchPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "WatchRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "_proto": "5cde9f337d6c8b0474535da8"
+  },
+  "DavidCoat": {
+    "_id": "DavidCoat",
+    "_name": "DavidCoat",
+    "_parent": "5cd944ca1388ce03a44dc2a4",
+    "_type": "Item",
+    "_props": {
+      "Name": "TO THE MOON",
+      "ShortName": "DavidCoat",
+      "Description": "DavidCoat",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Body": "DavidBody",
+      "Hands": "DavidHand"
+    },
+    "_proto": "5cd946231388ce000d572fe3"
+  },
+  "DavidBody": {
+    "_id": "DavidBody",
+    "_name": "DavidBody",
+    "_parent": "5cc0868e14c02e000c6bea68",
+    "_type": "Item",
+    "_props": {
+      "Name": "DavidBody",
+      "ShortName": "DavidBody",
+      "Description": "DavidBody",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "BodyPart": "Body",
+      "Prefab": {
+        "path": "edgerunner.pack",
+        "rcid": ""
+      },
+      "WatchPrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "IntegratedArmorVest": false,
+      "WatchPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "WatchRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "_proto": "5cde9f337d6c8b0474535da8"
+  },
+  "DavidHand": {
+    "_id": "DavidHand",
+    "_name": "DavidHand",
+    "_parent": "5cc0868e14c02e000c6bea68",
+    "_type": "Item",
+    "_props": {
+      "Name": "DavidHand",
+      "ShortName": "DavidHand",
+      "Description": "DavidHand",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "BodyPart": "Hands",
+      "Prefab": {
+        "path": "edgerunnerhand.pack",
+        "rcid": ""
+      },
+      "WatchPrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "IntegratedArmorVest": false,
+      "WatchPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "WatchRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "_proto": "5cde9f337d6c8b0474535da8"
+  },
+  "PriestCoat": {
+    "_id": "PriestCoat",
+    "_name": "PriestCoat",
+    "_parent": "5cd944ca1388ce03a44dc2a4",
+    "_type": "Item",
+    "_props": {
+      "Name": "邪教徒祭祀长袍",
+      "ShortName": "DarkRobe",
+      "Description": "DarkRobe",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Body": "5fb53cc97b5d1342ee24bd63",
+      "Hands": "PriestHand"
+    },
+    "_proto": "5cd946231388ce000d572fe3"
+  },
+  "PriestHand": {
+    "_id": "PriestHand",
+    "_name": "PriestHand",
+    "_parent": "5cc0868e14c02e000c6bea68",
+    "_type": "Item",
+    "_props": {
+      "Name": "PriestHand",
+      "ShortName": "PriestHand",
+      "Description": "PriestHand",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "BodyPart": "Hands",
+      "Prefab": {
+        "path": "priest_hand.pack",
+        "rcid": ""
+      },
+      "WatchPrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "IntegratedArmorVest": false,
+      "WatchPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "WatchRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "_proto": "5cde9f337d6c8b0474535da8"
+  },
+  "PriestLower": {
+    "_id": "PriestLower",
+    "_name": "PriestLower",
+    "_parent": "5cd944d01388ce000a659df9",
+    "_type": "Item",
+    "_props": {
+      "Name": "邪教徒祭祀长裤",
+      "ShortName": "祭祀长裤",
+      "Description": "祭祀长裤",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Feet": "5fb535cf1c69e5198e234126"
+    }
+  },
+  "KolontayCoat": {
+    "_id": "KolontayCoat",
+    "_name": "KolontayCoat",
+    "_parent": "5cd944ca1388ce03a44dc2a4",
+    "_type": "Item",
+    "_props": {
+      "Name": "Kolontay上装",
+      "ShortName": "KolontayCoat",
+      "Description": "KolontayCoat",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Body": "654b5eb7a29f3736215dd030",
+      "Hands": "KolontayHand"
+    },
+    "_proto": "5cd946231388ce000d572fe3"
+  },
+  "KolontayHand": {
+    "_id": "KolontayHand",
+    "_name": "KolontayHand",
+    "_parent": "5cc0868e14c02e000c6bea68",
+    "_type": "Item",
+    "_props": {
+      "Name": "KolontayHand",
+      "ShortName": "KolontayHand",
+      "Description": "KolontayHand",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "BodyPart": "Hands",
+      "Prefab": {
+        "path": "kolontay_hand.pack",
+        "rcid": ""
+      },
+      "WatchPrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "IntegratedArmorVest": false,
+      "WatchPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "WatchRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "_proto": "5cde9f337d6c8b0474535da8"
+  },
+  "KolontayLower": {
+    "_id": "KolontayLower",
+    "_name": "KolontayLower",
+    "_parent": "5cd944d01388ce000a659df9",
+    "_type": "Item",
+    "_props": {
+      "Name": "Kolontay下装",
+      "ShortName": "KolontayPants",
+      "Description": "KolontayPants",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Feet": "654a2bc5ee6e547e9f6238e7"
+    }
+  },
+  "BloodHoundBodyModel": {
+    "_id": "BloodHoundBodyModel",
+    "_name": "BloodHoundBodyModel",
+    "_parent": "5cc0868e14c02e000c6bea68",
+    "_type": "Item",
+    "_props": {
+      "Name": "BloodHoundBodyModel",
+      "ShortName": "BloodHoundBodyModel",
+      "Description": "BloodHoundBodyModel",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "BodyPart": "Body",
+      "Prefab": {
+        "path": "bhupper.pack",
+        "rcid": ""
+      },
+      "WatchPrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "IntegratedArmorVest": false,
+      "WatchPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "WatchRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "_proto": "5cde9f337d6c8b0474535da8"
+  },
+  "BloodHoundLegModel": {
+    "_id": "BloodHoundLegModel",
+    "_name": "BloodHoundLegModel",
+    "_parent": "5cc0868e14c02e000c6bea68",
+    "_type": "Item",
+    "_props": {
+      "Name": "BloodHoundLegModel",
+      "ShortName": "BloodHoundLegModel",
+      "Description": "BloodHoundLegModel",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "BodyPart": "Feet",
+      "Prefab": {
+        "path": "bhleg.pack",
+        "rcid": ""
+      },
+      "WatchPrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "IntegratedArmorVest": false,
+      "WatchPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "WatchRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "_proto": "5cde9f337d6c8b0474535da8"
+  },
+  "BloodHoundHandModel": {
+    "_id": "BloodHoundHandModel",
+    "_name": "BloodHoundHandModel",
+    "_parent": "5cc0868e14c02e000c6bea68",
+    "_type": "Item",
+    "_props": {
+      "Name": "BloodHoundHandModel",
+      "ShortName": "BloodHoundHandModel",
+      "Description": "BloodHoundHandModel",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "BodyPart": "Hands",
+      "Prefab": {
+        "path": "bhhand.pack",
+        "rcid": ""
+      },
+      "WatchPrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "IntegratedArmorVest": false,
+      "WatchPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "WatchRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "_proto": "5cde9f337d6c8b0474535da8"
+  },
+  "BloodHoundBody": {
+    "_id": "BloodHoundBody",
+    "_name": "BloodHoundBody",
+    "_parent": "5cd944ca1388ce03a44dc2a4",
+    "_type": "Item",
+    "_props": {
+      "Name": "寻血猎犬 上装",
+      "EName": "Birthright Upper",
+      "ShortName": "BloodHound Body",
+      "Description": "BloodHound Body",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Body": "BloodHoundBodyModel",
+      "Hands": "BloodHoundHandModel"
+    },
+    "_proto": "5cd946231388ce000d572fe3"
+  },
+  "BloodHoundLeg": {
+    "_id": "BloodHoundLeg",
+    "_name": "BloodHoundLeg",
+    "_parent": "5cd944d01388ce000a659df9",
+    "_type": "Item",
+    "_props": {
+      "Name": "寻血猎犬 下装",
+      "EName": "Birthright Lower",
+      "ShortName": "BloodHound Leg",
+      "Description": "BloodHound Leg",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Feet": "BloodHoundLegModel"
+    }
+  },
+  "ValkyrieBodyModel": {
+    "_id": "ValkyrieBodyModel",
+    "_name": "ValkyrieBodyModel",
+    "_parent": "5cc0868e14c02e000c6bea68",
+    "_type": "Item",
+    "_props": {
+      "Name": "ValkyrieBodyModel",
+      "ShortName": "ValkyrieBodyModel",
+      "Description": "ValkyrieBodyModel",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "BodyPart": "Body",
+      "Prefab": {
+        "path": "vlkbody.pack",
+        "rcid": ""
+      },
+      "WatchPrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "IntegratedArmorVest": false,
+      "WatchPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "WatchRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "_proto": "5cde9f337d6c8b0474535da8"
+  },
+  "ValkyrieLegModel": {
+    "_id": "ValkyrieLegModel",
+    "_name": "ValkyrieLegModel",
+    "_parent": "5cc0868e14c02e000c6bea68",
+    "_type": "Item",
+    "_props": {
+      "Name": "ValkyrieLegModel",
+      "ShortName": "ValkyrieLegModel",
+      "Description": "ValkyrieLegModel",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "BodyPart": "Feet",
+      "Prefab": {
+        "path": "vlklower.pack",
+        "rcid": ""
+      },
+      "WatchPrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "IntegratedArmorVest": false,
+      "WatchPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "WatchRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "_proto": "5cde9f337d6c8b0474535da8"
+  },
+  "ValkyrieHandModel": {
+    "_id": "ValkyrieHandModel",
+    "_name": "ValkyrieHandModel",
+    "_parent": "5cc0868e14c02e000c6bea68",
+    "_type": "Item",
+    "_props": {
+      "Name": "ValkyrieHandModel",
+      "ShortName": "ValkyrieHandModel",
+      "Description": "ValkyrieHandModel",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "BodyPart": "Hands",
+      "Prefab": {
+        "path": "vlkhand.pack",
+        "rcid": ""
+      },
+      "WatchPrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "IntegratedArmorVest": false,
+      "WatchPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "WatchRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "_proto": "5cde9f337d6c8b0474535da8"
+  },
+  "ValkyrieBodyModelBlue": {
+    "_id": "ValkyrieBodyModelBlue",
+    "_name": "ValkyrieBodyModelBlue",
+    "_parent": "5cc0868e14c02e000c6bea68",
+    "_type": "Item",
+    "_props": {
+      "Name": "ValkyrieBodyModelBlue",
+      "ShortName": "ValkyrieBodyModelBlue",
+      "Description": "ValkyrieBodyModelBlue",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "BodyPart": "Body",
+      "Prefab": {
+        "path": "vlkupblue.pack",
+        "rcid": ""
+      },
+      "WatchPrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "IntegratedArmorVest": false,
+      "WatchPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "WatchRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "_proto": "5cde9f337d6c8b0474535da8"
+  },
+  "ValkyrieLegModelBlue": {
+    "_id": "ValkyrieLegModelBlue",
+    "_name": "ValkyrieLegModelBlue",
+    "_parent": "5cc0868e14c02e000c6bea68",
+    "_type": "Item",
+    "_props": {
+      "Name": "ValkyrieLegModelBlue",
+      "ShortName": "ValkyrieLegModelBlue",
+      "Description": "ValkyrieLegModelBlue",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "BodyPart": "Feet",
+      "Prefab": {
+        "path": "vlklowerblue.pack",
+        "rcid": ""
+      },
+      "WatchPrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "IntegratedArmorVest": false,
+      "WatchPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "WatchRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "_proto": "5cde9f337d6c8b0474535da8"
+  },
+  "ValkyrieHandModelBlue": {
+    "_id": "ValkyrieHandModelBlue",
+    "_name": "ValkyrieHandModelBlue",
+    "_parent": "5cc0868e14c02e000c6bea68",
+    "_type": "Item",
+    "_props": {
+      "Name": "ValkyrieHandModelBlue",
+      "ShortName": "ValkyrieHandModelBlue",
+      "Description": "ValkyrieHandModelBlue",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "BodyPart": "Hands",
+      "Prefab": {
+        "path": "vlkhandblue.pack",
+        "rcid": ""
+      },
+      "WatchPrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "IntegratedArmorVest": false,
+      "WatchPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "WatchRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "_proto": "5cde9f337d6c8b0474535da8"
+  },
+  "ValkyrieBody": {
+    "_id": "ValkyrieBody",
+    "_name": "ValkyrieBody",
+    "_parent": "5cd944ca1388ce03a44dc2a4",
+    "_type": "Item",
+    "_props": {
+      "Name": "与生俱来的权利 上装",
+      "EName": "Birthright Upper",
+      "ShortName": "Birthright Body",
+      "Description": "Birthright Body",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Body": "ValkyrieBodyModel",
+      "Hands": "ValkyrieHandModel"
+    },
+    "_proto": "5cd946231388ce000d572fe3"
+  },
+  "ValkyrieLeg": {
+    "_id": "ValkyrieLeg",
+    "_name": "ValkyrieLeg",
+    "_parent": "5cd944d01388ce000a659df9",
+    "_type": "Item",
+    "_props": {
+      "Name": "与生俱来的权利 下装",
+      "EName": "Birthright Lower",
+      "ShortName": "Birthright Leg",
+      "Description": "Birthright Leg",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Feet": "ValkyrieLegModel"
+    }
+  },
+  "ValkyrieBodyBlue": {
+    "_id": "ValkyrieBodyBlue",
+    "_name": "ValkyrieBodyBlue",
+    "_parent": "5cd944ca1388ce03a44dc2a4",
+    "_type": "Item",
+    "_props": {
+      "Name": "蓝色轰炸机 上装",
+      "EName": "Blue Bomber Upper",
+      "ShortName": "Blue Bomber Body",
+      "Description": "Blue Bomber Body",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Body": "ValkyrieBodyModelBlue",
+      "Hands": "ValkyrieHandModelBlue"
+    },
+    "_proto": "5cd946231388ce000d572fe3"
+  },
+  "ValkyrieLegBlue": {
+    "_id": "ValkyrieLegBlue",
+    "_name": "ValkyrieLegBlue",
+    "_parent": "5cd944d01388ce000a659df9",
+    "_type": "Item",
+    "_props": {
+      "Name": "蓝色轰炸机 下装",
+      "EName": "Blue Bomber Lower",
+      "ShortName": "Blue Bomber Leg",
+      "Description": "Blue Bomber Leg",
+      "Side": [
+        "Bear",
+        "Usec"
+      ],
+      "AvailableAsDefault": false,
+      "Feet": "ValkyrieLegModelBlue"
+    }
+  }
+}

@@ -1,0 +1,648 @@
+[
+  {
+    "_id": "SuitReshalaCoat",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "PersicariaDeadTask1"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "ReshalaCoat",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitReshalaLower",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "PersicariaDeadTask1"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "ReshalaLower",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitSanitarCoat",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "PersicariaDeadTask3"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "SanitarCoat",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitSanitarLower",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "PersicariaDeadTask3"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "SanitarLower",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitGlukahrCoat",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "PersicariaDeadTask6"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "GlukahrCoat",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitGlukahrLower",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "PersicariaDeadTask6"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "GlukahrLower",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitKillaCoat",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "PersicariaDeadTask4"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "KillaCoat",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitKillaLower",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "PersicariaDeadTask4"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "KillaLower",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitKnightCoat",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "PersicariaDeadTask7"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "KnightCoat",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitKnightLower",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "PersicariaDeadTask7"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "KnightLower",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitShturmanCoat",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "PersicariaDeadTask5"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "ShturmanCoat",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitShturmanLower",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "PersicariaDeadTask5"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "ShturmanLower",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitTagillaCoat",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "PersicariaDeadTask2"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "TagillaCoat",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitTagillaLower",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "PersicariaDeadTask2"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "TagillaLower",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitZryachiyCoat",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "625d700cc48e6c62a440fab5"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "ZryachiyCoat",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitZryachiyLower",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "625d700cc48e6c62a440fab5"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "ZryachiyLower",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitBigPipeCoat",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "PersicariaDeadTask7"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "BigPipeCoat",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitBigPipeLower",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "PersicariaDeadTask7"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "BigPipeLower",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitBirdeyeCoat",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "PersicariaDeadTask7"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "BirdeyeCoat",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitBirdeyeLower",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "PersicariaDeadTask7"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "BirdeyeLower",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitKabanCoat",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "PersicariaDeadTask8"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "KabanCoat",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitKabanLower",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "PersicariaDeadTask8"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "KabanLower",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitDavidCoat",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 250000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "DavidCoat",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitPriestCoat",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "60e71c11d54b755a3b53eb65"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "PriestCoat",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitPriestLower",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "60e71c11d54b755a3b53eb65"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "PriestLower",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitKolontayCoat",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "PersicariaDeadTask9"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "KolontayCoat",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitKolontayLower",
+    "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "PersicariaDeadTask9"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "KolontayLower",
+    "tid": "Persicaria"
+  }
+]

@@ -1,0 +1,1300 @@
+{
+    "ME驱动器": {
+        "_id": "ME驱动器",
+        "targetid": "5c0a840b86f7742ffa4f2482",
+        "_name": "ME驱动器",
+        "_props": {
+            "Name": "ME驱动器",
+            "ShortName": "驱动器",
+            "Description": "最多可搭载10个存储元件。常用于存放存储元件以提供存储空间。",
+            "DefaultPrice": 12000000,
+            "BackgroundColor": "black",
+            "Width": 4,
+            "Height": 4,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_container.pack",
+                "rcid": ""
+            },
+            "Grids": [
+                {
+                    "_name": "1",
+                    "_id": "5aafbde786f774389d0cbc11",
+                    "_parent": "ME驱动器",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "1k存储元件",
+                                    "4k存储元件",
+                                    "16k存储元件",
+                                    "64k存储元件",
+                                    "1k交换品存储元件",
+                                    "4k交换品存储元件",
+                                    "16k交换品存储元件",
+                                    "64k交换品存储元件",
+                                    "1k医疗存储元件",
+                                    "4k医疗存储元件",
+                                    "16k医疗存储元件",
+                                    "64k医疗存储元件",
+                                    "1k装备存储元件",
+                                    "4k装备存储元件",
+                                    "16k装备存储元件",
+                                    "64k装备存储元件",
+                                    "1k武器存储元件",
+                                    "4k武器存储元件",
+                                    "16k武器存储元件",
+                                    "64k武器存储元件",
+                                    "1k食品存储元件",
+                                    "4k食品存储元件",
+                                    "16k食品存储元件",
+                                    "64k食品存储元件",
+                                    "1k档案存储元件",
+                                    "4k档案存储元件",
+                                    "16k档案存储元件",
+                                    "64k档案存储元件"
+                                ],
+                                "ExcludedFilter": []
+                            }
+                        ],
+                        "cellsH": 2,
+                        "cellsV": 10,
+                        "minCount": 0,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "isSortingTable": false
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_name": "2",
+                    "_id": "5aafbde786f774389d0cbc11",
+                    "_parent": "ME驱动器",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "1k存储元件",
+                                    "4k存储元件",
+                                    "16k存储元件",
+                                    "64k存储元件",
+                                    "1k交换品存储元件",
+                                    "4k交换品存储元件",
+                                    "16k交换品存储元件",
+                                    "64k交换品存储元件",
+                                    "1k医疗存储元件",
+                                    "4k医疗存储元件",
+                                    "16k医疗存储元件",
+                                    "64k医疗存储元件",
+                                    "1k装备存储元件",
+                                    "4k装备存储元件",
+                                    "16k装备存储元件",
+                                    "64k装备存储元件",
+                                    "1k武器存储元件",
+                                    "4k武器存储元件",
+                                    "16k武器存储元件",
+                                    "64k武器存储元件",
+                                    "1k食品存储元件",
+                                    "4k食品存储元件",
+                                    "16k食品存储元件",
+                                    "64k食品存储元件",
+                                    "1k档案存储元件",
+                                    "4k档案存储元件",
+                                    "16k档案存储元件",
+                                    "64k档案存储元件"
+                                ],
+                                "ExcludedFilter": []
+                            }
+                        ],
+                        "cellsH": 2,
+                        "cellsV": 10,
+                        "minCount": 0,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "isSortingTable": false
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ]
+        }
+    },
+    "1k存储元件": {
+        "_id": "1k存储元件",
+        "targetid": "5c0a840b86f7742ffa4f2482",
+        "_name": "1k存储元件",
+        "_props": {
+            "Name": "1k-ME存储元件",
+            "ShortName": "1k",
+            "Description": "拥有16个格子，能存储任何物品。",
+            "DefaultPrice": 640000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "black",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_1k.pack",
+                "rcid": ""
+            },
+            "Grids": [
+                {
+                    "_name": "main",
+                    "_id": "5aafbde786f774389d0cbc11",
+                    "_parent": "1k存储元件",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ],
+                                "ExcludedFilter": [
+                                    "1k存储元件",
+                                    "4k存储元件",
+                                    "16k存储元件",
+                                    "64k存储元件",
+                                    "1k交换品存储元件",
+                                    "4k交换品存储元件",
+                                    "16k交换品存储元件",
+                                    "64k交换品存储元件",
+                                    "1k医疗存储元件",
+                                    "4k医疗存储元件",
+                                    "16k医疗存储元件",
+                                    "64k医疗存储元件",
+                                    "1k装备存储元件",
+                                    "4k装备存储元件",
+                                    "16k装备存储元件",
+                                    "64k装备存储元件",
+                                    "1k武器存储元件",
+                                    "4k武器存储元件",
+                                    "16k武器存储元件",
+                                    "64k武器存储元件",
+                                    "1k食品存储元件",
+                                    "4k食品存储元件",
+                                    "16k食品存储元件",
+                                    "64k食品存储元件",
+                                    "1k档案存储元件",
+                                    "4k档案存储元件",
+                                    "16k档案存储元件",
+                                    "64k档案存储元件"
+                                ]
+                            }
+                        ],
+                        "cellsH": 4,
+                        "cellsV": 4,
+                        "minCount": 0,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "isSortingTable": false
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ]
+        }
+    },
+    "4k存储元件": {
+        "_id": "4k存储元件",
+        "targetid": "5c0a840b86f7742ffa4f2482",
+        "_name": "4k存储元件",
+        "_props": {
+            "Name": "4k-ME存储元件",
+            "ShortName": "4k",
+            "Description": "拥有64个格子，能存储任何物品。",
+            "DefaultPrice": 2560000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "black",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_4k.pack",
+                "rcid": ""
+            },
+            "Grids": [
+                {
+                    "_name": "main",
+                    "_id": "5aafbde786f774389d0cbc11",
+                    "_parent": "4k存储元件",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ],
+                                "ExcludedFilter": [
+                                    "1k存储元件",
+                                    "4k存储元件",
+                                    "16k存储元件",
+                                    "64k存储元件",
+                                    "1k交换品存储元件",
+                                    "4k交换品存储元件",
+                                    "16k交换品存储元件",
+                                    "64k交换品存储元件",
+                                    "1k医疗存储元件",
+                                    "4k医疗存储元件",
+                                    "16k医疗存储元件",
+                                    "64k医疗存储元件",
+                                    "1k装备存储元件",
+                                    "4k装备存储元件",
+                                    "16k装备存储元件",
+                                    "64k装备存储元件",
+                                    "1k武器存储元件",
+                                    "4k武器存储元件",
+                                    "16k武器存储元件",
+                                    "64k武器存储元件",
+                                    "1k食品存储元件",
+                                    "4k食品存储元件",
+                                    "16k食品存储元件",
+                                    "64k食品存储元件",
+                                    "1k档案存储元件",
+                                    "4k档案存储元件",
+                                    "16k档案存储元件",
+                                    "64k档案存储元件"
+                                ]
+                            }
+                        ],
+                        "cellsH": 8,
+                        "cellsV": 8,
+                        "minCount": 0,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "isSortingTable": false
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ]
+        }
+    },
+    "16k存储元件": {
+        "_id": "16k存储元件",
+        "targetid": "5c0a840b86f7742ffa4f2482",
+        "_name": "16k存储元件",
+        "_props": {
+            "Name": "16k-ME存储元件",
+            "ShortName": "16k",
+            "Description": "拥有144个格子，能存储任何物品。",
+            "DefaultPrice": 10240000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "black",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_16k.pack",
+                "rcid": ""
+            },
+            "Grids": [
+                {
+                    "_name": "main",
+                    "_id": "5aafbde786f774389d0cbc11",
+                    "_parent": "16k存储元件",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ],
+                                "ExcludedFilter": [
+                                    "1k存储元件",
+                                    "4k存储元件",
+                                    "16k存储元件",
+                                    "64k存储元件",
+                                    "1k交换品存储元件",
+                                    "4k交换品存储元件",
+                                    "16k交换品存储元件",
+                                    "64k交换品存储元件",
+                                    "1k医疗存储元件",
+                                    "4k医疗存储元件",
+                                    "16k医疗存储元件",
+                                    "64k医疗存储元件",
+                                    "1k装备存储元件",
+                                    "4k装备存储元件",
+                                    "16k装备存储元件",
+                                    "64k装备存储元件",
+                                    "1k武器存储元件",
+                                    "4k武器存储元件",
+                                    "16k武器存储元件",
+                                    "64k武器存储元件",
+                                    "1k食品存储元件",
+                                    "4k食品存储元件",
+                                    "16k食品存储元件",
+                                    "64k食品存储元件",
+                                    "1k档案存储元件",
+                                    "4k档案存储元件",
+                                    "16k档案存储元件",
+                                    "64k档案存储元件"
+                                ]
+                            }
+                        ],
+                        "cellsH": 12,
+                        "cellsV": 12,
+                        "minCount": 0,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "isSortingTable": false
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ]
+        }
+    },
+    "64k存储元件": {
+        "_id": "64k存储元件",
+        "targetid": "5c0a840b86f7742ffa4f2482",
+        "_name": "64k存储元件",
+        "_props": {
+            "Name": "64k-ME存储元件",
+            "ShortName": "64k",
+            "Description": "拥有256个格子，能存储任何物品。",
+            "DefaultPrice": 40960000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "black",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_64k.pack",
+                "rcid": ""
+            },
+            "Grids": [
+                {
+                    "_name": "main",
+                    "_id": "5aafbde786f774389d0cbc11",
+                    "_parent": "64k存储元件",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ],
+                                "ExcludedFilter": [
+                                    "1k存储元件",
+                                    "4k存储元件",
+                                    "16k存储元件",
+                                    "64k存储元件",
+                                    "1k交换品存储元件",
+                                    "4k交换品存储元件",
+                                    "16k交换品存储元件",
+                                    "64k交换品存储元件",
+                                    "1k医疗存储元件",
+                                    "4k医疗存储元件",
+                                    "16k医疗存储元件",
+                                    "64k医疗存储元件",
+                                    "1k装备存储元件",
+                                    "4k装备存储元件",
+                                    "16k装备存储元件",
+                                    "64k装备存储元件",
+                                    "1k武器存储元件",
+                                    "4k武器存储元件",
+                                    "16k武器存储元件",
+                                    "64k武器存储元件",
+                                    "1k食品存储元件",
+                                    "4k食品存储元件",
+                                    "16k食品存储元件",
+                                    "64k食品存储元件",
+                                    "1k档案存储元件",
+                                    "4k档案存储元件",
+                                    "16k档案存储元件",
+                                    "64k档案存储元件"
+                                ]
+                            }
+                        ],
+                        "cellsH": 16,
+                        "cellsV": 16,
+                        "minCount": 0,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "isSortingTable": false
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ]
+        }
+    },
+    "1k交换品存储元件": {
+        "_id": "1k交换品存储元件",
+        "targetid": "5b7c710788a4506dec015957",
+        "_name": "1k交换品存储元件",
+        "_props": {
+            "Name": "1k-ME交换品存储元件",
+            "ShortName": "1k",
+            "Description": "拥有16个格子，能存储交换用物品。",
+            "DefaultPrice": 160000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "yellow",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_1k.pack",
+                "rcid": ""
+            }
+        }
+    },
+    "4k交换品存储元件": {
+        "_id": "4k交换品存储元件",
+        "targetid": "5b7c710788a4506dec015957",
+        "_name": "4k交换品存储元件",
+        "_props": {
+            "Name": "4k-ME交换品存储元件",
+            "ShortName": "4k",
+            "Description": "拥有64个格子，能存储交换用物品。",
+            "DefaultPrice": 640000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "yellow",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_4k.pack",
+                "rcid": ""
+            }
+        }
+    },
+    "16k交换品存储元件": {
+        "_id": "16k交换品存储元件",
+        "targetid": "5b7c710788a4506dec015957",
+        "_name": "16k交换品存储元件",
+        "_props": {
+            "Name": "16k-ME交换品存储元件",
+            "ShortName": "16k",
+            "Description": "拥有144个格子，能存储交换用物品。",
+            "DefaultPrice": 2560000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "yellow",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_16k.pack",
+                "rcid": ""
+            }
+        }
+    },
+    "64k交换品存储元件": {
+        "_id": "64k交换品存储元件",
+        "targetid": "5b7c710788a4506dec015957",
+        "_name": "64k交换品存储元件",
+        "_props": {
+            "Name": "64k-ME交换品存储元件",
+            "ShortName": "64k",
+            "Description": "拥有256个格子，能存储交换用物品。",
+            "DefaultPrice": 10240000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "yellow",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_64k.pack",
+                "rcid": ""
+            }
+        }
+    },
+    "1k医疗存储元件": {
+        "_id": "1k医疗存储元件",
+        "targetid": "5aafbcd986f7745e590fff23",
+        "_name": "1k医疗存储元件",
+        "_props": {
+            "Name": "1k-ME医疗存储元件",
+            "ShortName": "1k",
+            "Description": "拥有16个格子，能存储医疗物品。",
+            "DefaultPrice": 160000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "blue",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_1k.pack",
+                "rcid": ""
+            }
+        }
+    },
+    "4k医疗存储元件": {
+        "_id": "4k医疗存储元件",
+        "targetid": "5aafbcd986f7745e590fff23",
+        "_name": "4k医疗存储元件",
+        "_props": {
+            "Name": "4k-ME医疗存储元件",
+            "ShortName": "4k",
+            "Description": "拥有64个格子，能存储医疗物品。",
+            "DefaultPrice": 640000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "blue",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_4k.pack",
+                "rcid": ""
+            }
+        }
+    },
+    "16k医疗存储元件": {
+        "_id": "16k医疗存储元件",
+        "targetid": "5aafbcd986f7745e590fff23",
+        "_name": "16k医疗存储元件",
+        "_props": {
+            "Name": "16k-ME医疗存储元件",
+            "ShortName": "16k",
+            "Description": "拥有144个格子，能存储医疗物品。",
+            "DefaultPrice": 2560000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "blue",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_16k.pack",
+                "rcid": ""
+            }
+        }
+    },
+    "64k医疗存储元件": {
+        "_id": "64k医疗存储元件",
+        "targetid": "5aafbcd986f7745e590fff23",
+        "_name": "64k医疗存储元件",
+        "_props": {
+            "Name": "64k-ME医疗存储元件",
+            "ShortName": "64k",
+            "Description": "拥有256个格子，能存储医疗物品。",
+            "DefaultPrice": 10240000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "blue",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_64k.pack",
+                "rcid": ""
+            }
+        }
+    },
+    "1k装备存储元件": {
+        "_id": "1k装备存储元件",
+        "targetid": "5b7c710788a4506dec015957",
+        "_name": "1k装备存储元件",
+        "_props": {
+            "Name": "1k-ME装备存储元件",
+            "ShortName": "1k",
+            "Description": "拥有16个格子，能存储各种装备。",
+            "DefaultPrice": 160000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "orange",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_1k.pack",
+                "rcid": ""
+            }
+        }
+    },
+    "4k装备存储元件": {
+        "_id": "4k装备存储元件",
+        "targetid": "5b7c710788a4506dec015957",
+        "_name": "4k装备存储元件",
+        "_props": {
+            "Name": "4k-ME装备存储元件",
+            "ShortName": "4k",
+            "Description": "拥有64个格子，能存储各种装备。",
+            "DefaultPrice": 640000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "orange",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_4k.pack",
+                "rcid": ""
+            }
+        }
+    },
+    "16k装备存储元件": {
+        "_id": "16k装备存储元件",
+        "targetid": "5b7c710788a4506dec015957",
+        "_name": "16k装备存储元件",
+        "_props": {
+            "Name": "16k-ME装备存储元件",
+            "ShortName": "16k",
+            "Description": "拥有144个格子，能存储各种装备。",
+            "DefaultPrice": 2560000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "orange",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_16k.pack",
+                "rcid": ""
+            }
+        }
+    },
+    "64k装备存储元件": {
+        "_id": "64k装备存储元件",
+        "targetid": "5b7c710788a4506dec015957",
+        "_name": "64k装备存储元件",
+        "_props": {
+            "Name": "64k-ME装备存储元件",
+            "ShortName": "64k",
+            "Description": "拥有256个格子，能存储各种装备。",
+            "DefaultPrice": 10240000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "orange",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_64k.pack",
+                "rcid": ""
+            }
+        }
+    },
+    "1k武器存储元件": {
+        "_id": "1k武器存储元件",
+        "targetid": "5b6d9ce188a4501afc1b2b25",
+        "_name": "1k武器存储元件",
+        "_props": {
+            "Name": "1k-ME武器存储元件",
+            "ShortName": "1k",
+            "Description": "拥有16个格子，能存储各种武器。",
+            "DefaultPrice": 160000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "red",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_1k.pack",
+                "rcid": ""
+            }
+        }
+    },
+    "4k武器存储元件": {
+        "_id": "4k武器存储元件",
+        "targetid": "5b6d9ce188a4501afc1b2b25",
+        "_name": "4k武器存储元件",
+        "_props": {
+            "Name": "4k-ME武器存储元件",
+            "ShortName": "4k",
+            "Description": "拥有64个格子，能存储各种武器。",
+            "DefaultPrice": 640000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "red",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_4k.pack",
+                "rcid": ""
+            }
+        }
+    },
+    "16k武器存储元件": {
+        "_id": "16k武器存储元件",
+        "targetid": "5b6d9ce188a4501afc1b2b25",
+        "_name": "16k武器存储元件",
+        "_props": {
+            "Name": "16k-ME武器存储元件",
+            "ShortName": "16k",
+            "Description": "拥有144个格子，能存储各种武器。",
+            "DefaultPrice": 2560000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "red",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_16k.pack",
+                "rcid": ""
+            }
+        }
+    },
+    "64k武器存储元件": {
+        "_id": "64k武器存储元件",
+        "targetid": "5b6d9ce188a4501afc1b2b25",
+        "_name": "64k武器存储元件",
+        "_props": {
+            "Name": "64k-ME武器存储元件",
+            "ShortName": "64k",
+            "Description": "拥有256个格子，能存储各种武器。",
+            "DefaultPrice": 10240000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "red",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_64k.pack",
+                "rcid": ""
+            }
+        }
+    },
+    "1k食品存储元件": {
+        "_id": "1k食品存储元件",
+        "targetid": "5c093db286f7740a1b2617e3",
+        "_name": "1k食品存储元件",
+        "_props": {
+            "Name": "1k-ME食品存储元件",
+            "ShortName": "1k",
+            "Description": "拥有16个格子，能存储食品和饮品。",
+            "DefaultPrice": 160000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "green",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_1k.pack",
+                "rcid": ""
+            }
+        }
+    },
+    "4k食品存储元件": {
+        "_id": "4k食品存储元件",
+        "targetid": "5c093db286f7740a1b2617e3",
+        "_name": "4k食品存储元件",
+        "_props": {
+            "Name": "4k-ME食品存储元件",
+            "ShortName": "4k",
+            "Description": "拥有64个格子，能存储食品和饮品。",
+            "DefaultPrice": 640000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "green",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_4k.pack",
+                "rcid": ""
+            }
+        }
+    },
+    "16k食品存储元件": {
+        "_id": "16k食品存储元件",
+        "targetid": "5c093db286f7740a1b2617e3",
+        "_name": "16k食品存储元件",
+        "_props": {
+            "Name": "16k-ME食品存储元件",
+            "ShortName": "16k",
+            "Description": "拥有144个格子，能存储食品和饮品。",
+            "DefaultPrice": 2560000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "green",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_16k.pack",
+                "rcid": ""
+            }
+        }
+    },
+    "64k食品存储元件": {
+        "_id": "64k食品存储元件",
+        "targetid": "5c093db286f7740a1b2617e3",
+        "_name": "64k食品存储元件",
+        "_props": {
+            "Name": "64k-ME食品存储元件",
+            "ShortName": "64k",
+            "Description": "拥有256个格子，能存储食品和饮品。",
+            "DefaultPrice": 10240000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "green",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_64k.pack",
+                "rcid": ""
+            }
+        }
+    },
+    "1k档案存储元件": {
+        "_id": "1k档案存储元件",
+        "targetid": "5b7c710788a4506dec015957",
+        "_name": "1k档案存储元件",
+        "_props": {
+            "Name": "1k-ME档案存储元件",
+            "ShortName": "1k",
+            "Description": "拥有16个格子，能存储各类文件档案。",
+            "DefaultPrice": 160000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "violet",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_1k.pack",
+                "rcid": ""
+            }
+        }
+    },
+    "4k档案存储元件": {
+        "_id": "4k档案存储元件",
+        "targetid": "5b7c710788a4506dec015957",
+        "_name": "4k档案存储元件",
+        "_props": {
+            "Name": "4k-ME档案存储元件",
+            "ShortName": "4k",
+            "Description": "拥有64个格子，能存储各类文件档案。",
+            "DefaultPrice": 640000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "violet",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_4k.pack",
+                "rcid": ""
+            }
+        }
+    },
+    "16k档案存储元件": {
+        "_id": "16k档案存储元件",
+        "targetid": "5b7c710788a4506dec015957",
+        "_name": "16k档案存储元件",
+        "_props": {
+            "Name": "16k-ME档案存储元件",
+            "ShortName": "16k",
+            "Description": "拥有144个格子，能存储各类文件档案。",
+            "DefaultPrice": 2560000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "violet",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_16k.pack",
+                "rcid": ""
+            }
+        }
+    },
+    "64k档案存储元件": {
+        "_id": "64k档案存储元件",
+        "targetid": "5b7c710788a4506dec015957",
+        "_name": "64k档案存储元件",
+        "_props": {
+            "Name": "64k-ME档案存储元件",
+            "ShortName": "64k",
+            "Description": "拥有256个格子，能存储各类文件档案。",
+            "DefaultPrice": 10240000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "violet",
+            "Width": 2,
+            "Height": 2,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": [
+                "AirDrop",
+                "PMCLoot",
+                "ScavCaseLoot",
+                "Fence",
+                "Circle"
+            ],
+            "Prefab": {
+                "path": "storage_me_64k.pack",
+                "rcid": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,2686 @@
+{
+    "PersicariaTask1": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "序幕-契约战争",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaTask1Find1",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5c06779c86f77426e00dd782",
+                    "count": 2
+                },
+                {
+                    "id": "PersicariaTask1Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5c06779c86f77426e00dd782",
+                    "count": 2
+                },
+                {
+                    "id": "PersicariaTask1Find2",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "59e36c6f86f774176c10a2a7",
+                    "count": 2
+                },
+                {
+                    "id": "PersicariaTask1Hand2",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "59e36c6f86f774176c10a2a7",
+                    "count": 2
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaTecTask1": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaTask1",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaTecTask1Find1",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "590a3b0486f7743954552bdb",
+                    "count": 1
+                },
+                {
+                    "id": "PersicariaTecTask1Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "590a3b0486f7743954552bdb",
+                    "count": 1
+                },
+                {
+                    "id": "PersicariaTecTask1Find2",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5c06782b86f77426df5407d2",
+                    "count": 1
+                },
+                {
+                    "id": "PersicariaTecTask1Hand2",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5c06782b86f77426df5407d2",
+                    "count": 1
+                },
+                {
+                    "id": "PersicariaTecTask1Find3",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "6389c70ca33d8c4cdf4932c6",
+                    "count": 1
+                },
+                {
+                    "id": "PersicariaTecTask1Hand3",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "6389c70ca33d8c4cdf4932c6",
+                    "count": 1
+                },
+                {
+                    "id": "PersicariaTecTask1Find4",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5c06779c86f77426e00dd782",
+                    "count": 1
+                },
+                {
+                    "id": "PersicariaTecTask1Hand4",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5c06779c86f77426e00dd782",
+                    "count": 1
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaTecTask2": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaTecTask1",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "PersicariaTecTask2LvNeed",
+                    "type": "Level",
+                    "count": 6
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaTecTask2Find2",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5734781f24597737e04bf32a",
+                    "count": 2
+                },
+                {
+                    "id": "PersicariaTecTask2Hand2",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5734781f24597737e04bf32a",
+                    "count": 2
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaTecTask3": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "PersicariaTecTask3LvNeed",
+                    "type": "Level",
+                    "count": 22
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaTecTask2",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "第二轮太阳",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaTecTask3Find1",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5c052f6886f7746b1e3db148",
+                    "count": 1
+                },
+                {
+                    "id": "PersicariaTecTask3Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5c052f6886f7746b1e3db148",
+                    "count": 1
+                },
+                {
+                    "id": "PersicariaTecTask3Find2",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5d0378d486f77420421a5ff4",
+                    "count": 1
+                },
+                {
+                    "id": "PersicariaTecTask3Hand2",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5d0378d486f77420421a5ff4",
+                    "count": 1
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaTecTask4": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "PersicariaTecTask4LvNeed",
+                    "type": "Level",
+                    "count": 26
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaTecTask3",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "6086c852c945025d41566124",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "向着明天",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaTecTask4Find1",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5d03794386f77420415576f5",
+                    "count": 4
+                },
+                {
+                    "id": "PersicariaTecTask4Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5d03794386f77420415576f5",
+                    "count": 4
+                },
+                {
+                    "id": "PersicariaTecTask4Find2",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5d0375ff86f774186372f685",
+                    "count": 2
+                },
+                {
+                    "id": "PersicariaTecTask4Hand2",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5d0375ff86f774186372f685",
+                    "count": 2
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaMedTask1": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "PersicariaMedTask1LvNeed",
+                    "type": "Level",
+                    "count": 6
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaTecTask2",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaMedTask1Find1",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5c0e531d86f7747fa23f4d42",
+                    "count": 3
+                },
+                {
+                    "id": "PersicariaMedTask1Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5c0e531d86f7747fa23f4d42",
+                    "count": 3
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaMedTask2": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "PersicariaMedTask2LvNeed",
+                    "type": "Level",
+                    "count": 14
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaMedTask1",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaMedTask2Find1",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5c0e531286f7747fa54205c2",
+                    "count": 2
+                },
+                {
+                    "id": "PersicariaMedTask2Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5c0e531286f7747fa54205c2",
+                    "count": 2
+                },
+                {
+                    "id": "PersicariaMedTask2Find2",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5ed5166ad380ab312177c100",
+                    "count": 2
+                },
+                {
+                    "id": "PersicariaMedTask2Hand2",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5ed5166ad380ab312177c100",
+                    "count": 2
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaMedTask3": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "PersicariaMedTask3LvNeed",
+                    "type": "Level",
+                    "count": 20
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaMedTask2",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "第二轮太阳",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaMedTask3Find1",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5c94bbff86f7747ee735c08f",
+                    "count": 3
+                },
+                {
+                    "id": "PersicariaMedTask3Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5c94bbff86f7747ee735c08f",
+                    "count": 3
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaMedTask4": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "PersicariaMedTask4LvNeed",
+                    "type": "Level",
+                    "count": 24
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaMedTask3",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "向着明天",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaMedTask4Find1",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5efde6b4f5448336730dbd61",
+                    "count": 1
+                },
+                {
+                    "id": "PersicariaMedTask4Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5efde6b4f5448336730dbd61",
+                    "count": 1
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaWarTask1": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "PersicariaWarTask1LvNeed",
+                    "type": "Level",
+                    "count": 22
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaTecTask3",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaWarTask1Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 15,
+                    "counterid": "PersicariaWarTask1K1",
+                    "bot": "Savage",
+                    "role": [],
+                    "conditionid": "PersicariaWarTask1K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaWarTask2": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaWarTask1",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "第二轮太阳",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaWarTask2Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "PersicariaWarTask2K1",
+                    "bot": "Savage",
+                    "role": [],
+                    "conditionid": "PersicariaWarTask2K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaWarTask3": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaWarTask2",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "向着明天",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaWarTask3Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 60,
+                    "counterid": "PersicariaWarTask3K1",
+                    "bot": "Savage",
+                    "role": [],
+                    "conditionid": "PersicariaWarTask3K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaWarTask4": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "PersicariaWarTask4LvNeed",
+                    "type": "Level",
+                    "count": 81
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaWarTask4Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 500,
+                    "counterid": "PersicariaWarTask4K1",
+                    "bot": "Savage",
+                    "role": [],
+                    "conditionid": "PersicariaWarTask4K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaDeadTask1": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "PersicariaDeadTask1LvNeed",
+                    "type": "Level",
+                    "count": 42
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaTecTask4",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaMedTask4",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaWarTask3",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaDeadTask1Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "PersicariaDeadTask1K1",
+                    "bot": "Savage",
+                    "role": [
+                        "bossBully"
+                    ],
+                    "conditionid": "PersicariaDeadTask1K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                },
+                {
+                    "id": "PersicariaDeadTask1Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5b3b713c5acfc4330140bd8d",
+                    "count": 4
+                },
+                {
+                    "id": "PersicariaDeadTask1Hand2",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "Reshala背包",
+                    "count": 2
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaDeadTask2": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "PersicariaDeadTask1LvNeed",
+                    "type": "Level",
+                    "count": 42
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaTecTask4",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaMedTask4",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaWarTask3",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaDeadTask2Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "PersicariaDeadTask2K1",
+                    "bot": "Savage",
+                    "role": [
+                        "bossTagilla"
+                    ],
+                    "conditionid": "PersicariaDeadTask2K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                },
+                {
+                    "id": "PersicariaDeadTask2Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "609e860ebd219504d8507525",
+                    "count": 4
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaDeadTask3": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "PersicariaDeadTask1LvNeed",
+                    "type": "Level",
+                    "count": 42
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaTecTask4",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaMedTask4",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaWarTask3",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaDeadTask3Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "PersicariaDeadTask3K1",
+                    "bot": "Savage",
+                    "role": [
+                        "bossSanitar"
+                    ],
+                    "conditionid": "PersicariaDeadTask3K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                },
+                {
+                    "id": "PersicariaDeadTask3Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5efde6b4f5448336730dbd61",
+                    "count": 1
+                },
+                {
+                    "id": "PersicariaDeadTask3Hand2",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5eff09cd30a7dc22fd1ddfed",
+                    "count": 1
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaDeadTask4": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "PersicariaDeadTask1LvNeed",
+                    "type": "Level",
+                    "count": 42
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaTecTask4",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaMedTask4",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaWarTask3",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaDeadTask4Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "PersicariaDeadTask4K1",
+                    "bot": "Savage",
+                    "role": [
+                        "bossKilla"
+                    ],
+                    "conditionid": "PersicariaDeadTask4K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                },
+                {
+                    "id": "PersicariaDeadTask4Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5c0e874186f7745dc7616606",
+                    "count": 8
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaDeadTask5": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "PersicariaDeadTask1LvNeed",
+                    "type": "Level",
+                    "count": 42
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaTecTask4",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaMedTask4",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaWarTask3",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaDeadTask5Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "PersicariaDeadTask5K1",
+                    "bot": "Savage",
+                    "role": [
+                        "bossKojaniy"
+                    ],
+                    "conditionid": "PersicariaDeadTask5K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                },
+                {
+                    "id": "PersicariaDeadTask5Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5d08d21286f774736e7c94c3",
+                    "count": 6
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaDeadTask6": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "PersicariaDeadTask1LvNeed",
+                    "type": "Level",
+                    "count": 42
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaTecTask4",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaMedTask4",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaWarTask3",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaDeadTask6Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "PersicariaDeadTask6K1",
+                    "bot": "Savage",
+                    "role": [
+                        "bossGluhar"
+                    ],
+                    "conditionid": "PersicariaDeadTask6K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaDeadTask8": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "PersicariaDeadTask1LvNeed",
+                    "type": "Level",
+                    "count": 42
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaTecTask4",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaMedTask4",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaWarTask3",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaDeadTask8Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "PersicariaDeadTask8K1",
+                    "bot": "Savage",
+                    "role": [
+                        "bossBoar"
+                    ],
+                    "conditionid": "PersicariaDeadTask8K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaDeadTask9": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "PersicariaDeadTask1LvNeed",
+                    "type": "Level",
+                    "count": 42
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaTecTask4",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaMedTask4",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaWarTask3",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaDeadTask9Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "PersicariaDeadTask9K1",
+                    "bot": "Savage",
+                    "role": [
+                        "bossKolontay"
+                    ],
+                    "conditionid": "PersicariaDeadTask9K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                },
+                {
+                    "id": "PersicariaDeadTask9Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "6540d2162ae6d96b540afcaf",
+                    "count": 4
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaDeadTask7": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "PersicariaDeadTask1LvNeed",
+                    "type": "Level",
+                    "count": 42
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaTecTask4",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaMedTask4",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaWarTask3",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaDeadTask7Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "PersicariaDeadTask7K1",
+                    "bot": "Savage",
+                    "role": [
+                        "bossKnight"
+                    ],
+                    "conditionid": "PersicariaDeadTask7K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                },
+                {
+                    "id": "PersicariaDeadTask7Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "62963c18dbc8ab5f0d382d0b",
+                    "count": 5
+                },
+                {
+                    "id": "PersicariaDeadTask7Kill2",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "PersicariaDeadTask7K2",
+                    "bot": "Savage",
+                    "role": [
+                        "followerBirdEye"
+                    ],
+                    "conditionid": "PersicariaDeadTask7K2",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                },
+                {
+                    "id": "PersicariaDeadTask7Hand2",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "628bc7fb408e2b2e9c0801b1",
+                    "count": 6
+                },
+                {
+                    "id": "PersicariaDeadTask7Kill3",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "PersicariaDeadTask7K3",
+                    "bot": "Savage",
+                    "role": [
+                        "followerBigPipe"
+                    ],
+                    "conditionid": "PersicariaDeadTask7K3",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                },
+                {
+                    "id": "PersicariaDeadTask7Hand3",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "62a61bbf8ec41a51b34758d2",
+                    "count": 4
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaCodTask1": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "PersicariaCodTask1LvNeed",
+                    "type": "Level",
+                    "count": 40
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaWarTask3",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaCodTask1Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 60,
+                    "counterid": "PersicariaCodTask1K1",
+                    "bot": "Savage",
+                    "role": [],
+                    "conditionid": "PersicariaCodTask1K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [
+                        "5beed0f50db834001c062b12",
+                        "64ca3d3954fc657e230529cc",
+                        "64637076203536ad5600c990",
+                        "6513ef33e06849f06c0957ca",
+                        "65268d8ecb944ff1e90ea385",
+                        "657857faeff4c850222dff1b"
+                    ],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaBoxTask1": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "PersicariaBoxTask1LvNeed",
+                    "type": "Level",
+                    "count": 50
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaBoxTask1Hand1",
+                    "type": "HandGroup",
+                    "inraid": false,
+                    "itemid": [
+                        "5857a8bc2459772bad15db29",
+                        "665ee77ccf2d642e98220bca"
+                    ],
+                    "count": 1
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaBoxTask2": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "PersicariaBoxTask2LvNeed",
+                    "type": "Level",
+                    "count": 60
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaWarTask3",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaTecTask4",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaMedTask4",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaBoxTask2Hand1",
+                    "type": "Hand",
+                    "inraid": false,
+                    "itemid": "5d1b376e86f774252519444e",
+                    "count": 100
+                },
+                {
+                    "id": "PersicariaBoxTask2Hand2",
+                    "type": "Hand",
+                    "inraid": false,
+                    "itemid": "高浓缩咖啡方糖",
+                    "count": 100
+                },
+                {
+                    "id": "PersicariaBoxTask2Hand3",
+                    "type": "Hand",
+                    "inraid": false,
+                    "itemid": "5c0530ee86f774697952d952",
+                    "count": 20
+                },
+                {
+                    "id": "PersicariaBoxTask2Hand4",
+                    "type": "Hand",
+                    "inraid": false,
+                    "itemid": "5c0a840b86f7742ffa4f2482",
+                    "count": 3
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaCyberTask1": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "PersicariaCyberTask1LLRNeeded",
+                    "type": "Trust",
+                    "count": 4,
+                    "trader": "Persicaria"
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaCyberTask1LvNeed1",
+                    "type": "Level",
+                    "count": 70
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaFinalTask1": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "PersicariaFinalTask1LvNeed",
+                    "type": "Level",
+                    "count": 70
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaDeadTask1",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaDeadTask2",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaDeadTask3",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaDeadTask4",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaDeadTask5",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaDeadTask6",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaDeadTask8",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaDeadTask9",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaDeadTask7",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaLeaveTask1": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "PersicariaLeaveTask1LvNeed",
+                    "type": "Level",
+                    "count": 28
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaTecTask4",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaLeaveTask1Visit11",
+                    "type": "Visit",
+                    "oneraid": false,
+                    "count": 1,
+                    "counterid": "PersicariaLeaveTask1Counter1",
+                    "zoneid": "ter_017_area_1",
+                    "conditionid": "PersicariaLeaveTask1Visit1"
+                },
+                {
+                    "id": "PersicariaLeaveTask1LeaveItem1",
+                    "type": "Leave",
+                    "time": 30,
+                    "itemid": "白火药",
+                    "zoneid": "ter_017_area_1",
+                    "count": 2
+                },
+                {
+                    "id": "PersicariaLeaveTask1LeaveItem2",
+                    "type": "Leave",
+                    "time": 30,
+                    "itemid": "薇尔莉特火药",
+                    "zoneid": "ter_017_area_1",
+                    "count": 2
+                },
+                {
+                    "id": "PersicariaLeaveTask1LeaveItem3",
+                    "type": "Leave",
+                    "time": 30,
+                    "itemid": "布洛妮娅火药",
+                    "zoneid": "ter_017_area_1",
+                    "count": 2
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "PersicariaBladeTask1": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "PersicariaBladeTask1LvNeed",
+                    "type": "Level",
+                    "count": 49
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaWarTask3",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "PersicariaBladeTask1Kill1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 1000,
+                    "counterid": "PersicariaBladeTask1K1",
+                    "bot": "Any",
+                    "role": [],
+                    "conditionid": "PersicariaBladeTask1K11",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "太阳能维修": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "5ac3464c86f7741d651d6877",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "太阳能维修LvNeed",
+                    "type": "Level",
+                    "count": 36
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "太阳能维修Find1",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "59e366c186f7741778269d85",
+                    "count": 6
+                },
+                {
+                    "id": "太阳能维修Hand1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "59e366c186f7741778269d85",
+                    "count": 6
+                },
+                {
+                    "id": "太阳能维修Find2",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5d0376a486f7747d8050965c",
+                    "count": 4
+                },
+                {
+                    "id": "太阳能维修Hand2",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5d0376a486f7747d8050965c",
+                    "count": 4
+                },
+                {
+                    "id": "太阳能维修Find3",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5d03775b86f774203e7e0c4b",
+                    "count": 2
+                },
+                {
+                    "id": "太阳能维修Hand3",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5d03775b86f774203e7e0c4b",
+                    "count": 2
+                },
+                {
+                    "id": "太阳能维修Find4",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5d03794386f77420415576f5",
+                    "count": 1
+                },
+                {
+                    "id": "太阳能维修Hand4",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5d03794386f77420415576f5",
+                    "count": 1
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "星星不闪包退换": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "太阳能维修",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "星星不闪包退换Hand1",
+                    "type": "Hand",
+                    "inraid": false,
+                    "itemid": "569668774bdc2da2298b4568",
+                    "count": 50000
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "进化甲进度显示": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "进化甲进度显示LvNeed",
+                    "type": "Level",
+                    "count": 26
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaWarTask2",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "白甲-蓝甲进度",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 15,
+                    "counterid": "白甲-蓝甲进度",
+                    "bot": "Any",
+                    "role": [],
+                    "conditionid": "白甲-蓝甲进度",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                },
+                {
+                    "id": "蓝甲-紫甲进度",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 45,
+                    "counterid": "蓝甲-紫甲进度",
+                    "bot": "Any",
+                    "role": [],
+                    "conditionid": "蓝甲-紫甲进度",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                },
+                {
+                    "id": "紫甲-红甲进度",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 120,
+                    "counterid": "紫甲-红甲进度",
+                    "bot": "Any",
+                    "role": [],
+                    "conditionid": "紫甲-红甲进度",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "白甲-蓝甲进度": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "白甲-蓝甲进度LvNeed",
+                    "type": "Level",
+                    "count": 26
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaWarTask2",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "白甲-蓝甲进度",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 15,
+                    "counterid": "白甲-蓝甲进度",
+                    "bot": "Any",
+                    "role": [],
+                    "conditionid": "白甲-蓝甲进度",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "蓝甲-紫甲进度": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "白甲-蓝甲进度",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "蓝甲-紫甲进度",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 45,
+                    "counterid": "蓝甲-紫甲进度",
+                    "bot": "Any",
+                    "role": [],
+                    "conditionid": "蓝甲-紫甲进度",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "紫甲-红甲进度": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "蓝甲-紫甲进度",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "紫甲-红甲进度",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 120,
+                    "counterid": "紫甲-红甲进度",
+                    "bot": "Any",
+                    "role": [],
+                    "conditionid": "紫甲-红甲进度",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "风暴轮转": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "风暴轮转前置任务1",
+                    "type": "Quest",
+                    "questid": "PersicariaTecTask2",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "风暴轮转等级需求",
+                    "type": "Level",
+                    "count": 16
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "风暴轮转寻找物品1",
+                    "type": "Find",
+                    "inraid": false,
+                    "itemid": "风暴轮转之盐",
+                    "count": 1
+                },
+                {
+                    "id": "风暴轮转寻找物品2",
+                    "type": "Find",
+                    "inraid": false,
+                    "itemid": "恒常日月之盐",
+                    "count": 1
+                },
+                {
+                    "id": "风暴轮转上交物品1",
+                    "type": "Hand",
+                    "inraid": false,
+                    "itemid": "风暴轮转之盐",
+                    "count": 1
+                },
+                {
+                    "id": "风暴轮转上交物品2",
+                    "type": "Hand",
+                    "inraid": false,
+                    "itemid": "恒常日月之盐",
+                    "count": 1
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "序幕-契约战争": {
+        "Start": {
+            "Data": [],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "序幕-契约战争踩点1",
+                    "type": "Extract",
+                    "oneraid": false,
+                    "count": 1,
+                    "location": [
+                        "Sandbox",
+                        "Sandbox_high"
+                    ],
+                    "status": [
+                        "Survived",
+                        "Runner"
+                    ],
+                    "chosenextractpoint": true,
+                    "extractpoint": "Unity_free_exit"
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "第二轮太阳": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaTecTask2",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaMedTask1",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "第二轮太阳等级需求1",
+                    "type": "Level",
+                    "count": 21
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "向着明天": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaMedTask3",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaWarTask1",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "向着明天等级需求1",
+                    "type": "Level",
+                    "count": 1
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "阴影之下": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "",
+                    "type": "Quest",
+                    "questid": "PersicariaMedTask4",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "阴影之下寻找需求1",
+                    "type": "Find",
+                    "inraid": false,
+                    "itemid": "曙光制药的交易记录",
+                    "count": 1
+                },
+                {
+                    "id": "阴影之下上交需求1",
+                    "type": "Hand",
+                    "inraid": false,
+                    "itemid": "曙光制药的交易记录",
+                    "count": 1
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "初心者赠礼": {
+        "Start": {
+            "Data": [],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "永寂孤芒": {
+        "Start": {
+            "Data": [],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "永寂孤芒-战争",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 100,
+                    "counterid": "永寂孤芒-战争-计数器",
+                    "bot": "Any",
+                    "role": [],
+                    "conditionid": "永寂孤芒-战争-条件",
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "locationid": "",
+                    "havezone": false,
+                    "zone": [],
+                    "zoneid": "",
+                    "haveEquip": false,
+                    "Equip": [],
+                    "EquipID": ""
+                },
+                {
+                    "id": "永寂孤芒-饥荒",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5857a8bc2459772bad15db29",
+                    "count": 100
+                },
+                {
+                    "id": "永寂孤芒-瘟疫",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5857a8bc2459772bad15db29",
+                    "count": 100
+                },
+                {
+                    "id": "永寂孤芒-死亡",
+                    "type": "Extract",
+                    "oneraid": false,
+                    "count": 100,
+                    "location": [
+                        "Woods",
+                        "bigmap",
+                        "Shoreline",
+                        "RezervBase",
+                        "Lighthouse",
+                        "TarkovStreets",
+                        "Interchange",
+                        "factory4_day",
+                        "factory4_night",
+                        "laboratory",
+                        "Sandbox",
+                        "Sandbox_high"
+                    ],
+                    "status": [
+                        "Killed",
+                        "MissingInAction"
+                    ],
+                    "chosenextractpoint": false,
+                    "extractpoint": ""
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "天行有常黑边": {
+        "Start": {
+            "Data": [],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "天行有常上交",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "核能之星",
+                    "count": 1
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [
+                {
+                    "id": "天行有常黑边失败",
+                    "type": "Quest",
+                    "questid": "天行有常蓝边",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        }
+    },
+    "天行有常蓝边": {
+        "Start": {
+            "Data": [],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "天行有常上交",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "核能之星",
+                    "count": 1
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [
+                {
+                    "id": "天行有常蓝边失败",
+                    "type": "Quest",
+                    "questid": "天行有常黑边",
+                    "status": [
+                        4
+                    ]
+                }
+            ],
+            "Override": false
+        }
+    }
+}

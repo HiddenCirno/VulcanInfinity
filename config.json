@@ -5,11 +5,1363 @@
     "CoreModule": {
         "RITC": {
             "Active": true,
-            "Desc1": "是否启用核心组件-RITC，true为启用，false为禁用，默认启用"
+            "Desc1": "是否启用核心系统-RITC，true为启用，false为禁用，默认启用",
+            "Desc2": "原「罗德岛驻塔科夫贸易中心」Mod的移植改良版本，扩展包路径不变，原Mod不再维护"
         },
         "MilkCore": {
             "Active": true,
-            "Desc1": "是否启用核心组件-牛奶盒，true为启用，false为禁用，默认启用"
+            "Desc1": "是否启用核心系统-牛奶盒，true为启用，false为禁用，默认启用",
+            "Desc2": "原「牛奶盒」Mod的移植改良版本，将饮食物品重新划分耐久，原Mod不再维护"
+        },
+        "VulcanMod": {
+            "Active": true,
+            "Desc1": "是否启用核心系统-火神重工，true为启用，false为禁用，默认启用",
+            "Desc2": "原「火神重工」Mod的移植改良版本，已经完全重构，原Mod不再维护",
+            "Config": {
+                "Global": {
+                    "ModPath": "vulcanmod/",
+                    "BagData": {
+                        "RagfairTag": [
+                            "5b47574386f77428ca22b2f1",
+                            "5b47574386f77428ca22b337",
+                            "5b47574386f77428ca22b33a",
+                            "5b47574386f77428ca22b33b",
+                            "5b47574386f77428ca22b341",
+                            "5b47574386f77428ca22b345",
+                            "5b5f78b786f77447ed5636af",
+                            "5c518ec986f7743b68682ce2",
+                            "5c518ed586f774119a772aee",
+                            "5b47574386f77428ca22b339",
+                            "5b47574386f77428ca22b336",
+                            "5b47574386f77428ca22b335"
+                        ],
+                        "Item": [
+                            "59f32bb586f774757e1e8442",
+                            "6662e9aca7e0b43baa3d5f74",
+                            "6662e9cda7e0b43baa3d5f76",
+                            "59f32c3b86f77472a31742f0",
+                            "6662e9f37fa79a6d83730fa0",
+                            "6662ea05f6259762c56f3189",
+                            "5bc9c049d4351e44f824d360",
+                            "5c0fa877d174af02a012e1cf",
+                            "59fafd4b86f7745ca07e1232",
+                            "62a09d3bcf4a99369e262447",
+                            "5783c43d2459774bbe137486",
+                            "60b0f6c058e0b0481a09ad11",
+                            "619cbf9e0a7c3a1a2731940a",
+                            "阿萨兰之爪"
+                        ]
+                    },
+                    "Desc1": "外勤人员文件包所能容纳的物品类型，请勿随意修改",
+                    "Container": {
+                        "Active": true,
+                        "Desc1": "是否启用容器大小修改，true为启用，false为禁用，默认启用",
+                        "Weapon_THICC": [
+                            14,
+                            14
+                        ],
+                        "Twitch_Continer": [
+                            12,
+                            12
+                        ],
+                        "Desc2": "修改过的THICC武器箱和主播物品箱的容量，第一个参数为行数，第二个参数为列数，默认分别为14*14与12*12",
+                        "Desc3": "现版本已加入新的限类THICC，原THICC武器箱的修改已被移除，仅保留配置防止不可预料的问题"
+                    }
+                },
+                "KeyEdit": {
+                    "Active": true,
+                    "Desc1": "是否启用对原版钥匙的修改，true为启用，false为禁用，默认启用",
+                    "MachineKeyCount": {
+                        "Normal": 100,
+                        "Desc1": "普通钥匙（大部分机械钥匙）的钥匙次数，默认100，无限次数请填写9999",
+                        "Rare": 50,
+                        "Desc2": "少部分独特钥匙（如工厂钥匙，休息区钥匙等）的钥匙次数，默认50，无限次数请填写9999",
+                        "Sectant": 25,
+                        "Desc3": "邪教钥匙（即邪教房钥匙，如Chek.13，符号钥匙等）的钥匙次数，默认25，无限次数请填写9999",
+                        "Special": 1,
+                        "Desc4": "极少部分特殊钥匙（Shturman钥匙和带血的锈蚀钥匙）的钥匙次数，默认1，无限次数请填写9999",
+                        "Custom1": 0,
+                        "Custom2": 0,
+                        "Custom3": 0,
+                        "Desc5": "三个预留的自定义模板，实现额外的修改支持"
+                    },
+                    "MachineKeyList": {
+                        "Rare": [
+                            "5448ba0b4bdc2d02308b456c",
+                            "63a39fc0af870e651d58e6ae",
+                            "6582dbf0b8d7830efc45016f",
+                            "664d4b0103ef2c61246afb56",
+                            "664d3dd590294949fe2d81b7",
+                            "664d3de85f2355673b09aed5",
+                            "664d3db6db5dea2bad286955",
+                            "664d3ddfdda2e85aca370d75"
+                        ],
+                        "Desc1": "从上到下分别为工厂钥匙、15号公寓钥匙、休息室钥匙、公寓管理员钥匙和四把冠军房钥匙（按照首字母排序）",
+                        "Sectant": [
+                            "63a3a93f8a56922e82001f5d",
+                            "5780cf7f2459777de4559322",
+                            "62987dfc402c7f69bf010923",
+                            "64ccc25f95763a1ae376e447",
+                            "5d80c62a86f7744036212b3f",
+                            "5d80c60f86f77440373c4ece",
+                            "5ede7a8229445733cb4c18e2",
+                            "6731acfab204ed439a4f8405"
+                        ],
+                        "Desc2": "按次序为废弃工厂，符号，套件符号，神秘房间，VO，BK，PKPM, 储备站通用",
+                        "Special": [
+                            "5d08d21286f774736e7c94c3",
+                            "64d4b23dc1b37504b41ac2b6"
+                        ],
+                        "Desc3": "Shturman钥匙与血腥钥匙",
+                        "Custom1": [],
+                        "Custom2": [],
+                        "Custom3": [],
+                        "Desc4": "三个预留的自定义模板，实现额外的修改支持",
+                        "BlackList": [
+                            "e5c04dbba96733808c83c1d9",
+                            "e3b0043537daca54d21fd893",
+                            "0253ad678142ea1af14bfdd7",
+                            "969458ca2a614ca8ea8cb60e",
+                            "2309fec37adf7fec177a7b39",
+                            "029feb9c4ff8470ec52aa12c",
+                            "f9e971dcc6a3804da59c684b",
+                            "c0a92ebc0b21380db0e100a5",
+                            "06e761ea9ee4d67ee23e675a",
+                            "5b0d1743e8d3060e69334141",
+                            "cf87a7af5a324aa9d4fdd367",
+                            "eb1c049ca1bd94d8ee03d63f",
+                            "a67a8e7afdebd74d00ccfbd9",
+                            "e796a6a1dd9b58c0008e77b9",
+                            "6a1d781db340e1f250bed7d3",
+                            "f1c8757908b8412080912375",
+                            "14b2e0feb2d6e577848ac1bf",
+                            "15c2955b0ee0e329acb46ae0",
+                            "770a888f26d02dd3f8ab0cb6",
+                            "955a8ed5b3670f8b500dea6b",
+                            "d2d639285d34562cf518983e",
+                            "d47de11f5af46c242a9e9471",
+                            "810e59b0e455e55ea9cc2bd7"
+                        ],
+                        "Desc5": "机械钥匙白名单，白名单内的钥匙不会被修改次数"
+                    },
+                    "Desc2": "此处仅为机械钥匙相关的部分，关于电子钥匙的配置，见下",
+                    "ElectrCardCount": {
+                        "Normal": 10,
+                        "Desc1": "普通钥匙卡（彩色卡）的使用次数，默认为9999，即无限次 //已于03.22.2025的平衡性调整中修改为10次",
+                        "Rare": 2,
+                        "Desc2": "实验室新增区域的钥匙卡次数，默认2",
+                        "Special": 1,
+                        "Desc3": "白卡与Sanitar钥匙卡的次数，即一次性钥匙卡，默认1",
+                        "Custom1": 0,
+                        "Custom2": 0,
+                        "Custom3": 0,
+                        "Desc4": "三个预留的自定义模板，实现额外的修改支持"
+                    },
+                    "ElectrCardList": {
+                        "Normal": [
+                            "5c1d0efb86f7744baf2e7b7b",
+                            "5c1d0d6d86f7744bb2683e1f",
+                            "5c1d0dc586f7744baf2e7b79",
+                            "5c1d0c5f86f7744bb2683cf0",
+                            "5c1e495a86f7743109743dfb",
+                            "5c1d0f4986f7744bb01837fa",
+                            "66acd6702b17692df20144c0"
+                        ],
+                        "Desc1": "按次序为红黄绿蓝紫黑和TerraGroup储藏室",
+                        "Rare": [
+                            "6711039f9e648049e50b3307"
+                        ],
+                        "Desc2": "0.15版本新增的Res. Unit钥匙卡",
+                        "Special": [
+                            "5c94bbff86f7747ee735c08f",
+                            "5efde6b4f5448336730dbd61"
+                        ],
+                        "Desc3": "白卡与Sanitar钥匙卡",
+                        "Custom1": [],
+                        "Custom2": [],
+                        "Custom3": [],
+                        "Desc4": "三个预留的自定义模板，实现额外的修改支持"
+                    },
+                    "Desc3": "电子钥匙的使用次数配置部分",
+                    "ColorfulCardPriceOverride": false,
+                    "Desc4": "是否覆盖彩色钥匙卡价格，启用后，彩色钥匙卡价格将回退到次数修改前的版本（即无限次数版本所对应的价格），默认启用 //已于03.22.2025的平衡性调整中修改为禁用",
+                    "ColorfulCardPrice": {
+                        "红卡": {
+                            "ID": "5c1d0efb86f7744baf2e7b7b",
+                            "Handbook": 16500000,
+                            "Price": 11162966
+                        },
+                        "黄卡": {
+                            "ID": "5c1d0d6d86f7744bb2683e1f",
+                            "Handbook": 3500000,
+                            "Price": 2356373
+                        },
+                        "绿卡": {
+                            "ID": "5c1d0dc586f7744baf2e7b79",
+                            "Handbook": 17000000,
+                            "Price": 11854025
+                        },
+                        "蓝卡": {
+                            "ID": "5c1d0c5f86f7744bb2683cf0",
+                            "Handbook": 9000000,
+                            "Price": 6039502
+                        },
+                        "紫卡": {
+                            "ID": "5c1e495a86f7743109743dfb",
+                            "Handbook": 6000000,
+                            "Price": 4249638
+                        },
+                        "黑卡": {
+                            "ID": "5c1d0f4986f7744bb01837fa",
+                            "Handbook": 2500000,
+                            "Price": 2034463
+                        }
+                    },
+                    "Desc5": "彩色钥匙卡对应的价格，Handbook为跳蚤市场价格，Price为实际价值，数据来自钥匙卡改动更新前，如无必要请勿修改",
+                    "UseOrangeCardResource": true,
+                    "Desc6": "是否将储藏室钥匙卡外观修改为橙卡，以便于和黄卡区分，默认启用"
+                },
+                "DogTagGenerate": {
+                    "Active": true,
+                    "Desc1": "是否允许AI生成狗牌，true为启用，false为禁用，默认启用",
+                    "Desc2": "狗牌生成属于火神重工核心功能之一，不建议关闭，即使关闭也无法隐藏AI狗牌相关兑换配方，请自行考虑",
+                    "Config": {
+                        "AIApplyList": [
+                            "assault",
+                            "bosstagilla",
+                            "bossbully",
+                            "bossboar",
+                            "bossgluhar",
+                            "bosssanitar",
+                            "bosskilla",
+                            "bosskojaniy",
+                            "bosszryachiy",
+                            "bosskolontay",
+                            "bossknight",
+                            "bosspartisan",
+                            "followerbigpipe",
+                            "followerbirdeye",
+                            "sectantpriest",
+                            "sectantwarrior",
+                            "marksman",
+                            "cursedassault",
+                            "followerbully",
+                            "followergluharassault",
+                            "followergluharscout",
+                            "followergluharsecurity",
+                            "followergluharsnipe",
+                            "followerkolontay",
+                            "followerboarclose1",
+                            "followerboarclose2",
+                            "followerkojaniy",
+                            "followersanitar",
+                            "followerboar",
+                            "pmcbot",
+                            "exusec",
+                            "bossboarsniper",
+                            "arenafighter",
+                            "arenafighterevent",
+                            "crazyassaultevent",
+                            "gifter"
+                        ],
+                        "Desc1": "携带狗牌的AI，数组内参数为AI文件名，如果您没有相关的了解，请勿修改",
+                        "BossList": [
+                            "bosstagilla",
+                            "bossbully",
+                            "bossboar",
+                            "bossgluhar",
+                            "bosssanitar",
+                            "bosskilla",
+                            "bosskojaniy",
+                            "bosszryachiy",
+                            "bosskolontay",
+                            "bossknight",
+                            "followerbigpipe",
+                            "followerbirdeye",
+                            "bosspartisan"
+                        ],
+                        "Desc2": "使用BOSS狗牌的AI，数组内参数为AI文件名，如果您没有相关的了解，请勿修改",
+                        "DeathInfo": [
+                            "已死亡",
+                            "停搏",
+                            "睡得很安详",
+                            "只是睡着了",
+                            "正在杀出冥界",
+                            "感受到了动能",
+                            "正在与科比八角笼",
+                            "SanCheck二连大失败",
+                            "也许还能抢救下",
+                            "转生到了异世界",
+                            "从高处摔了下来",
+                            "poke a stick at a grizzly bear",
+                            "✝升天✝"
+                        ],
+                        "Desc3": "由于原版限制，未安装客户端插件会导致自定义狗牌信息不完整",
+                        "Desc4": "此为未安装客户端插件的情况下，狗牌的击杀信息所显示的内容"
+                    }
+                },
+                "BotEdit": {
+                    "BossEdit": true,
+                    "Desc1": "是否启用Boss修改，true为启用，false为禁用，默认启用，由于存在相关任务要求，不建议关闭",
+                    "BossChance": 40,
+                    "Desc2": "修改过的Boss刷新率，只对Reshala有效，可能在未来发生变化",
+                    "EnableMCHead": true,
+                    "Desc3": "是否允许MC头套在AI身上生成，true为启用，false为禁用，默认启用",
+                    "MCHeadData": [
+                        {
+                            "Bot": [
+                                "assault",
+                                "cursedassault"
+                            ],
+                            "Data": [
+                                [
+                                    "MC南瓜头",
+                                    45
+                                ],
+                                [
+                                    "史蒂夫头",
+                                    45
+                                ],
+                                [
+                                    "小黑头",
+                                    30
+                                ],
+                                [
+                                    "僵尸头",
+                                    30
+                                ],
+                                [
+                                    "骷髅头",
+                                    30
+                                ],
+                                [
+                                    "凋灵骷髅头",
+                                    30
+                                ]
+                            ]
+                        },
+                        {
+                            "Bot": [
+                                "bear",
+                                "usec"
+                            ],
+                            "Data": [
+                                [
+                                    "MC南瓜头",
+                                    5
+                                ],
+                                [
+                                    "史蒂夫头",
+                                    5
+                                ],
+                                [
+                                    "小黑头",
+                                    5
+                                ],
+                                [
+                                    "僵尸头",
+                                    5
+                                ],
+                                [
+                                    "骷髅头",
+                                    5
+                                ],
+                                [
+                                    "凋灵骷髅头",
+                                    5
+                                ],
+                                [
+                                    "凋灵头",
+                                    2
+                                ],
+                                [
+                                    "HIM头",
+                                    1
+                                ]
+                            ]
+                        },
+                        {
+                            "Bot": [
+                                "sectantpriest"
+                            ],
+                            "Data": [
+                                [
+                                    "凋灵头",
+                                    9
+                                ],
+                                [
+                                    "HIM头",
+                                    1
+                                ]
+                            ]
+                        },
+                        {
+                            "Bot": [
+                                "sectantwarrior"
+                            ],
+                            "Data": [
+                                [
+                                    "MC南瓜头",
+                                    10
+                                ],
+                                [
+                                    "小黑头",
+                                    10
+                                ],
+                                [
+                                    "僵尸头",
+                                    10
+                                ],
+                                [
+                                    "骷髅头",
+                                    10
+                                ],
+                                [
+                                    "凋灵骷髅头",
+                                    10
+                                ],
+                                [
+                                    "凋灵头",
+                                    1
+                                ]
+                            ]
+                        },
+                        {
+                            "Bot": [
+                                "bosstagilla"
+                            ],
+                            "Data": [
+                                [
+                                    "凋灵头",
+                                    15
+                                ],
+                                [
+                                    "HIM头",
+                                    5
+                                ],
+                                [
+                                    "作者头",
+                                    5
+                                ]
+                            ]
+                        }
+                    ],
+                    "Desc4": "MC头套的引用配置数据，请勿进行修改",
+                    "EnableExtraLoot": true,
+                    "Desc5": "是否允许AI身上生成部分Mod物品作为战利品，true为启用，false为禁用，默认启用",
+                    "LootData": [
+                        {
+                            "Bot": [
+                                "assault"
+                            ],
+                            "Inventory": [
+                                "Backpack",
+                                "Pockets",
+                                "TacticalVest"
+                            ],
+                            "Item": [
+                                [
+                                    "高浓缩咖啡方糖",
+                                    25
+                                ],
+                                [
+                                    "Vulcan高能量蛋白棒",
+                                    15
+                                ],
+                                [
+                                    "Vulcan便携能量饮料包",
+                                    15
+                                ]
+                            ]
+                        },
+                        {
+                            "Bot": [
+                                "bosssanitar",
+                                "bossknight",
+                                "followerbigpipe",
+                                "followerbirdeye",
+                                "bossgluhar",
+                                "bosskojaniy",
+                                "bosstagilla",
+                                "bosskilla",
+                                "bossboar",
+                                "bosskolontay",
+                                "bosspartisan"
+                            ],
+                            "Inventory": [
+                                "Pockets"
+                            ],
+                            "Item": [
+                                [
+                                    "Vulcan活力因子激活血清",
+                                    15
+                                ],
+                                [
+                                    "Vulcan实验型再生促进血清",
+                                    15
+                                ]
+                            ]
+                        }
+                    ],
+                    "Desc6": "用于为AI添加额外战利品的数据定义，请勿进行修改",
+                    "AlterBoss": {
+                        "Active": true,
+                        "Desc1": "是否允许异格Boss生成，true为启用，false为禁用，默认启用",
+                        "Chance": {
+                            "Goons": 50,
+                            "Sanitar": 50,
+                            "Gluhar": 50,
+                            "Kolontay": 50
+                        },
+                        "Desc2": "普通Boss转化为异格Boss的概率，默认为50%"
+                    },
+                    "AddKabanInShoreline": true,
+                    "Desc7": "是否允许Kaban在海岸线的走私者营地生成，此选项为低配电脑在难以流畅运行街区的情况下能够完成Kaban的Boss任务，默认启用"
+                },
+                "HideoutEdit": {
+                    "Active": true,
+                    "Desc1": "是否启用藏身处修改，true为启用，false为禁用，默认启用，藏身处修改属于火神重工核心功能之一，不建议关闭",
+                    "EnableRecipeEdit": true,
+                    "Desc2": "是否启用配方注入功能，true为启用，false为禁用，默认启用，启用后将修改少部分原版配方",
+                    "EnableModRecipe": true,
+                    "Desc3": "是否启用Mod添加的额外配方，true为启用，false为禁用，默认启用",
+                    "RevertHideout": true,
+                    "Desc4": "是否将藏身处回滚到旧版本（所有物品无需战局中找到状态），true为启用，false为禁用，默认启用"
+                },
+                "Prestige": {
+                    "Active": true,
+                    "Desc1": "是否启用转生修改，true为启用，false为禁用，默认启用",
+                    "PrestigeTransferSetting": [
+                        12,
+                        12
+                    ],
+                    "Desc2": "转生时转移物品到下一世代的空间大小，默认为12x12",
+                    "RemoveTransferLimit": true,
+                    "Desc3": "是否移除转移物品类型限制，true为启用，false为禁用，默认启用",
+                    "PrestigeSkillPersent": 1,
+                    "Desc4": "转生时保留技能等级的比例，范围0-1，默认为1（即全部保留）",
+                    "PrestigeMasteringPersent": 1,
+                    "Desc5": "转生时保留专精等级的比例，范围0-1，默认为1（即全部保留）",
+                    "Desc6": "由于技术问题，目前对技能和专精等级的保留比例修改无法生效，尼基塔你妈死了"
+                },
+                "LoadText": {
+                    "Active": true,
+                    "Desc1": "是否启用加载文本替换功能，启用后「配置数据加载中…」的加载字样将会替换成tips文本，每次启动游戏随机刷新，true为启用，false为禁用，默认启用",
+                    "EnableTextColor": true,
+                    "Desc2": "是否启用加载文本的颜色，启用后加载文本将会显示为设置的颜色，true为启用，false为禁用，默认启用",
+                    "TextColor": "#FFFF55",
+                    "Desc3": "加载文本的颜色，默认为黄色，格式为十六进制标准颜色代码"
+                },
+                "Misc": {
+                    "BTRSettings": {
+                        "Active": true,
+                        "Desc1": "是否启用BTR内容修改，true为启用，false为禁用，默认启用",
+                        "DeliverSpeace": [
+                            10,
+                            10
+                        ],
+                        "Desc2": "BTR运送时物品的空间大小，默认为10x10",
+                        "FreeDeliver": true,
+                        "Desc3": "是否启用免费运送，true为启用，false为禁用，默认启用",
+                        "Desc4": "由于原版算法问题, 转移价格需要至少为1，所以无法实现完全免费"
+                    },
+                    "TransitSettings": {
+                        "Active": true,
+                        "Desc1": "是否启用转移点内容修改，true为启用，false为禁用，默认启用",
+                        "DeliverSpeace": [
+                            10,
+                            10
+                        ],
+                        "Desc2": "使用转移点运送时物品的空间大小，默认为10x10",
+                        "FreeDeliver": true,
+                        "Desc3": "是否启用免费运送，true为启用，false为禁用，默认启用",
+                        "Desc4": "由于原版算法问题, 转移价格需要至少为1，所以无法实现完全免费"
+                    },
+                    "CultistCircleSettings": {
+                        "Active": true,
+                        "Desc1": "是否启用邪教圈内容修改，true为启用，false为禁用，默认启用",
+                        "CircleSpace": [
+                            10,
+                            10
+                        ],
+                        "Desc2": "邪教圈允许献祭物品的空间大小，默认为10x10",
+                        "RewardPriceMutipler": [
+                            1.2,
+                            2.0
+                        ],
+                        "Desc3": "邪教圈获得的物品奖励的价格浮动区间",
+                        "MaxInputCount": 5,
+                        "Desc4": "邪教圈允许献祭物品的最大数量，默认为5，由于尼基塔的傻逼代码，这条参数修改无效",
+                        "MaxRewardCount": 5,
+                        "Desc5": "邪教圈允许获得物品的最大数量，默认为5",
+                        "RemoveInputItemLimit": true,
+                        "Desc6": "是否移除邪教圈献祭物品类型限制，true为启用，false为禁用，默认启用"
+                    }
+                }
+            }
+        },
+        "ScriptTrainer": {
+            "Active": true,
+            "Desc1": "是否启用核心系统-万能辅助，true为启用，false为禁用，默认启用",
+            "Desc2": "原「简单辅助」Mod的移植改良版本，已经完全重构，原Mod不再维护",
+            "Config": {
+                "Global": {
+                    "RemoveFencePunish": true,
+                    "Desc1": "是否移除黑商好感惩罚，true为启用，false为禁用，默认启用",
+                    "Desc2": "启用后无视黑商好感，所有受好感影响的内容都将视为最高好感",
+                    "RemoveScavCD": true,
+                    "Desc3": "是否移除Scav模式CD，true为启用，false为禁用，默认启用",
+                    "EnchantMinSkillLevel": 10,
+                    "Desc4": "维修护甲/武器时可能出现附魔效果的最低维修技能等级，默认为10",
+                    "EnableFreeHealing": true,
+                    "Desc5": "是否启用免费治疗，true为启用，false为禁用，默认启用",
+                    "EnableFeatherFall": true,
+                    "Desc6": "是否启用摔落保护，启用后将移除摔落伤害，true为启用，false为禁用，默认启用",
+                    "EnableAllExtractPoint": true,
+                    "Desc7": "是否强制启用所有撤离点，true为启用，false为禁用，默认启用",
+                    "SetExtractPointAlwaysAvaiable": true,
+                    "Desc8": "是否将所有撤离点恒定为开启，true为启用，false为禁用，默认启用",
+                    "LootRate": 2,
+                    "Desc9": "修改过的战利品倍率，默认为2",
+                    "EnableKeepInventory": false,
+                    "Desc10": "是否启用死亡不掉落，true为启用，false为禁用，默认启用",
+                    "ForceUnlockAssort": false,
+                    "Desc11": "是否强制解锁所有报价单，启用后所有需要任务解锁的报价单都将自动解锁，true为启用，false为禁用，默认禁用",
+                    "RemoveTraderStandingRequire": false,
+                    "Desc12": "是否移除所有商人信任度需求，启用后商人仅需要等级与交易额提升信任等级而不再需要信任度，true为启用，false为禁用，默认禁用",
+                    "EnableAmmoInsurance": false,
+                    "Desc13": "是否为子弹开启保险功能，启用后将允许你为弹药进行投保，true为启用，false为禁用，默认禁用"
+                },
+                "Ragfair": {
+                    "EnableOfferCountEdit": true,
+                    "Desc1": "是否启用跳蚤市场报价单数量修改，true为启用，false为禁用，默认启用",
+                    "OfferCount": 16,
+                    "Desc2": "修改过的报价单数量，最大为16，最小为1，默认为12",
+                    "EnableRateEdit": true,
+                    "Desc3": "是否启用跳蚤市场手续费倍率修改，true为启用，false为禁用，默认启用",
+                    "Rate": 0.01,
+                    "Desc4": "修改过的手续费倍率，默认为0.01",
+                    "EnableRagfairLevelEdit": true,
+                    "Desc5": "是否启用跳蚤市场等级修改，true为启用，false为禁用，默认启用",
+                    "RagfairLevel": 10,
+                    "Desc6": "修改过的跳蚤市场开启等级，默认为10"
+                },
+                "Skill": {
+                    "EnableSkillSpeedEdit": true,
+                    "Desc1": "是否启用技能提升速度倍率修改，true为启用，false为禁用，默认启用",
+                    "SkillSpeed": 2,
+                    "Desc2": "技能提升速度倍率，默认为2",
+                    "RemoveSkillFatigue": true,
+                    "Desc3": "是否移除技能升级疲劳，true为启用，false为禁用，默认启用",
+                    "Desc4": "由于计算机制存在缺陷，移除技能疲劳会导致某些技能（比如代谢）以极高的速度升级，介意请慎用此项功能"
+                },
+                "AISpawn": {
+                    "Boss": {
+                        "Active": true,
+                        "Desc1": "是否启用Boss刷新率修改，true为启用，false为禁用，默认启用",
+                        "Chance": 40,
+                        "Desc2": "修改过的Boss刷新率，默认为40, 接近档末",
+                        "BossList": [
+                            "bossPartisan",
+                            "bossKnight",
+                            "bossBully",
+                            "bossBoar",
+                            "bossTagilla",
+                            "bossKilla",
+                            "bossKojaniy",
+                            "bossSanitar",
+                            "bossKolontay",
+                            "bossGluhar"
+                        ],
+                        "Desc3": "用于查找数据的Boss列表，请勿修改"
+                    },
+                    "PMC": {
+                        "Active": true,
+                        "Desc1": "是否启用PMC刷新率修改，true为启用，false为禁用，默认启用",
+                        "BearChance": 20,
+                        "Desc2": "修改过的BearPMC刷新率，原版默认为50",
+                        "UsecChance": 20,
+                        "Desc3": "修改过的UsecPMC刷新率，原版默认为50"
+                    },
+                    "Sectant": {
+                        "Active": true,
+                        "Desc1": "是否启用邪教徒刷新率修改，true为启用，false为禁用，默认启用",
+                        "Chance": 20,
+                        "Desc2": "修改过的邪教徒刷新率，默认为20"
+                    },
+                    "EnableBlackList": true,
+                    "Desc4": "是否启用黑名单，true为启用，false为禁用，默认启用，启用后将屏蔽某些AI的刷新",
+                    "BossBlackList": [
+                        "arenaFighterEvent",
+                        "skier",
+                        "peacemaker",
+                        "crazyAssaultEvent"
+                    ],
+                    "Desc5": "用于查找数据的黑名单列表，请勿修改，从上到下分别为寻血猎犬，skier与Peacekeeper活动AI，疯狂scav活动AI"
+                }
+            }
+        },
+        "SystemGift": {
+            "Active": true,
+            "Desc1": "是否启用核心系统-每日补给，true为启用，false为禁用，默认启用",
+            "Desc2": "原「每日低保」Mod的移植改良版本，已经完全重构，原Mod不再维护",
+            "Global": {
+                "ModPath": "systemgift/"
+            },
+            "Config": {
+                "MinIntervalTime": 86400,
+                "Desc1": "两次补给发放的最小间隔时间，单位为秒，默认为86400秒，即24小时",
+                "GiftData": {
+                    "Global": {
+                        "DailyGun": [
+                            "突击卡宾枪",
+                            "突击步枪",
+                            "手枪",
+                            "霰弹枪",
+                            "SMG"
+                        ],
+                        "WeeklyGun": [
+                            "突击卡宾枪",
+                            "突击步枪",
+                            "霰弹枪",
+                            "SMG",
+                            "栓动式步枪",
+                            "机枪",
+                            "特殊武器"
+                        ],
+                        "MonthlyGun": [
+                            "突击步枪",
+                            "栓动式步枪",
+                            "DMR",
+                            "机枪",
+                            "榴弹发射器",
+                            "特殊武器"
+                        ],
+                        "Desc1": "每日、每周以及每月补给的枪械池，用于随机生成补给中可能出现的枪械，请勿随意修改",
+                        "FindInRaid": true,
+                        "Desc2": "补给物品是否拥有战局中发现状态（即带勾状态），true为启用，false为禁用，默认启用"
+                    },
+                    "DailyGiftData": {
+                        "Name": "每日奖励",
+                        "NormalItem": {
+                            "医疗包": 1,
+                            "注射器": 1,
+                            "药丸": 1,
+                            "普通胸挂": 1,
+                            "贵重物品": 1,
+                            "小背包": 1,
+                            "食品": 4,
+                            "饮料": 3,
+                            "四穿": 2
+                        },
+                        "Desc1": "补给中的普通格式物品池，用于随机生成补给中可能出现的物品，请勿随意修改",
+                        "VanillaPreset": {
+                            "四级甲": 1
+                        },
+                        "Desc2": "补给中的预设物品池，如枪械和护甲等复杂物品，用于随机生成补给中可能出现的物品，请勿随意修改",
+                        "ItemList": {
+                            "5449016a4bdc2d6f028b456f": 100000
+                        },
+                        "Desc3": "补给中的固定物品奖励，填写物品ID和数量，请勿随意修改",
+                        "CustomWeapon": {
+                            "每日枪械池": 2
+                        },
+                        "Desc4": "补给中的自定义枪械池，用于随机生成补给中可能出现的随机改装过的枪械，请勿随意修改",
+                        "CustomWeaponPerSlotModChance": 45,
+                        "Desc5": "每个额外配件槽可能出现改装配件概率，默认为45",
+                        "StorageMaxTime": 86400,
+                        "Desc6": "补给的最大存储时间，单位为秒，默认为86400秒，即24小时"
+                    },
+                    "WeeklyGiftData": {
+                        "Name": "每周奖励",
+                        "NormalItem": {
+                            "医疗包": 2,
+                            "注射器": 3,
+                            "药丸": 3,
+                            "普通胸挂": 2,
+                            "大背包": 1,
+                            "贵重物品": 2,
+                            "交换用品": 3,
+                            "食品": 7,
+                            "饮料": 5,
+                            "四穿": 3,
+                            "高穿": 2,
+                            "容器": 1
+                        },
+                        "Desc1": "补给中的普通格式物品池，用于随机生成补给中可能出现的物品，请勿随意修改",
+                        "VanillaPreset": {
+                            "四级甲": 2,
+                            "五六级甲": 1
+                        },
+                        "Desc2": "补给中的预设物品池，如枪械和护甲等复杂物品，用于随机生成补给中可能出现的物品，请勿随意修改",
+                        "ItemList": {
+                            "5449016a4bdc2d6f028b456f": 2000000
+                        },
+                        "Desc3": "补给中的固定物品奖励，填写物品ID和数量，请勿随意修改",
+                        "CustomWeapon": {
+                            "每周枪械池": 4
+                        },
+                        "Desc4": "补给中的自定义枪械池，用于随机生成补给中可能出现的随机改装过的枪械，请勿随意修改",
+                        "CustomWeaponPerSlotModChance": 65,
+                        "Desc5": "每个额外配件槽可能出现改装配件概率，默认为45",
+                        "StorageMaxTime": 604800,
+                        "Desc6": "补给的最大存储时间，单位为秒，默认为604800秒，即7天"
+                    },
+                    "MonthlyGiftData": {
+                        "Name": "每月奖励",
+                        "NormalItem": {
+                            "医疗包": 5,
+                            "注射器": 7,
+                            "药丸": 6,
+                            "普通胸挂": 3,
+                            "大背包": 4,
+                            "贵重物品": 4,
+                            "情报物品": 6,
+                            "交换用品": 8,
+                            "食品": 10,
+                            "饮料": 8,
+                            "四穿": 8,
+                            "高穿": 5,
+                            "容器": 3
+                        },
+                        "Desc1": "补给中的普通格式物品池，用于随机生成补给中可能出现的物品，请勿随意修改",
+                        "VanillaPreset": {
+                            "四级甲": 2,
+                            "五六级甲": 4
+                        },
+                        "Desc2": "补给中的预设物品池，如枪械和护甲等复杂物品，用于随机生成补给中可能出现的物品，请勿随意修改",
+                        "ItemList": {
+                            "5449016a4bdc2d6f028b456f": 5000000
+                        },
+                        "Desc3": "补给中的固定物品奖励，填写物品ID和数量，请勿随意修改",
+                        "CustomWeapon": {
+                            "每月枪械池": 6
+                        },
+                        "Desc4": "补给中的自定义枪械池，用于随机生成补给中可能出现的随机改装过的枪械，请勿随意修改",
+                        "CustomWeaponPerSlotModChance": 85,
+                        "Desc5": "每个额外配件槽可能出现改装配件概率，默认为45",
+                        "StorageMaxTime": 2592000,
+                        "Desc6": "补给的最大存储时间，单位为秒，默认为2592000秒，即30天"
+                    },
+                    "Special": {
+                        "情人节": {
+                            "Name": "情人节奖励",
+                            "NormalItem": {},
+                            "Desc1": "补给中的普通格式物品池，用于随机生成补给中可能出现的物品，请勿随意修改",
+                            "VanillaPreset": {},
+                            "Desc2": "补给中的预设物品池，如枪械和护甲等复杂物品，用于随机生成补给中可能出现的物品，请勿随意修改",
+                            "ItemList": {
+                                "57505f6224597709a92585a9": 10,
+                                "59e3577886f774176a362503": 10,
+                                "5d403f9186f7743cac3f229b": 10
+                            },
+                            "Desc3": "补给中的固定物品奖励，填写物品ID和数量，请勿随意修改",
+                            "CustomWeapon": {},
+                            "Desc4": "补给中的自定义枪械池，用于随机生成补给中可能出现的随机改装过的枪械，请勿随意修改",
+                            "CustomWeaponPerSlotModChance": 85,
+                            "Desc5": "每个额外配件槽可能出现改装配件概率，默认为45"
+                        },
+                        "圣诞节": {
+                            "Name": "圣诞节奖励",
+                            "NormalItem": {
+                                "食品": 10,
+                                "饮料": 10
+                            },
+                            "Desc1": "补给中的普通格式物品池，用于随机生成补给中可能出现的物品，请勿随意修改",
+                            "VanillaPreset": {},
+                            "Desc2": "补给中的预设物品池，如枪械和护甲等复杂物品，用于随机生成补给中可能出现的物品，请勿随意修改",
+                            "ItemList": {
+                                "5df8a6a186f77412640e2e80": 10,
+                                "5df8a72c86f77412640e2e83": 10,
+                                "5df8a77486f77412672a1e3f": 10
+                            },
+                            "Desc3": "补给中的固定物品奖励，填写物品ID和数量，请勿随意修改",
+                            "CustomWeapon": {},
+                            "Desc4": "补给中的自定义枪械池，用于随机生成补给中可能出现的随机改装过的枪械，请勿随意修改",
+                            "CustomWeaponPerSlotModChance": 85,
+                            "Desc5": "每个额外配件槽可能出现改装配件概率，默认为45"
+                        },
+                        "感恩节": {
+                            "Name": "感恩节奖励",
+                            "NormalItem": {
+                                "食品": 20,
+                                "饮料": 15
+                            },
+                            "Desc1": "补给中的普通格式物品池，用于随机生成补给中可能出现的物品，请勿随意修改",
+                            "VanillaPreset": {},
+                            "Desc2": "补给中的预设物品池，如枪械和护甲等复杂物品，用于随机生成补给中可能出现的物品，请勿随意修改",
+                            "ItemList": {},
+                            "Desc3": "补给中的固定物品奖励，填写物品ID和数量，请勿随意修改",
+                            "CustomWeapon": {},
+                            "Desc4": "补给中的自定义枪械池，用于随机生成补给中可能出现的随机改装过的枪械，请勿随意修改",
+                            "CustomWeaponPerSlotModChance": 85,
+                            "Desc5": "每个额外配件槽可能出现改装配件概率，默认为45"
+                        },
+                        "母亲节": {
+                            "Name": "母亲节奖励",
+                            "NormalItem": {
+                                "食品": 20,
+                                "饮料": 15
+                            },
+                            "Desc1": "补给中的普通格式物品池，用于随机生成补给中可能出现的物品，请勿随意修改",
+                            "VanillaPreset": {},
+                            "Desc2": "补给中的预设物品池，如枪械和护甲等复杂物品，用于随机生成补给中可能出现的物品，请勿随意修改",
+                            "ItemList": {},
+                            "Desc3": "补给中的固定物品奖励，填写物品ID和数量，请勿随意修改",
+                            "CustomWeapon": {},
+                            "Desc4": "补给中的自定义枪械池，用于随机生成补给中可能出现的随机改装过的枪械，请勿随意修改",
+                            "CustomWeaponPerSlotModChance": 85,
+                            "Desc5": "每个额外配件槽可能出现改装配件概率，默认为45"
+                        },
+                        "公历新年": {
+                            "Name": "公历新年奖励",
+                            "NormalItem": {
+                                "投掷物": 20,
+                                "食品": 20,
+                                "饮料": 15
+                            },
+                            "Desc1": "补给中的普通格式物品池，用于随机生成补给中可能出现的物品，请勿随意修改",
+                            "VanillaPreset": {},
+                            "Desc2": "补给中的预设物品池，如枪械和护甲等复杂物品，用于随机生成补给中可能出现的物品，请勿随意修改",
+                            "ItemList": {
+                                "5449016a4bdc2d6f028b456f": 10000000
+                            },
+                            "Desc3": "补给中的固定物品奖励，填写物品ID和数量，请勿随意修改",
+                            "CustomWeapon": {},
+                            "Desc4": "补给中的自定义枪械池，用于随机生成补给中可能出现的随机改装过的枪械，请勿随意修改",
+                            "CustomWeaponPerSlotModChance": 85,
+                            "Desc5": "每个额外配件槽可能出现改装配件概率，默认为45"
+                        },
+                        "万圣节": {
+                            "Name": "万圣节奖励",
+                            "NormalItem": {
+                                "食品": 10,
+                                "饮料": 10
+                            },
+                            "Desc1": "补给中的普通格式物品池，用于随机生成补给中可能出现的物品，请勿随意修改",
+                            "VanillaPreset": {},
+                            "Desc2": "补给中的预设物品池，如枪械和护甲等复杂物品，用于随机生成补给中可能出现的物品，请勿随意修改",
+                            "ItemList": {
+                                "634959225289190e5e773b3b": 10
+                            },
+                            "Desc3": "补给中的固定物品奖励，填写物品ID和数量，请勿随意修改",
+                            "CustomWeapon": {},
+                            "Desc4": "补给中的自定义枪械池，用于随机生成补给中可能出现的随机改装过的枪械，请勿随意修改",
+                            "CustomWeaponPerSlotModChance": 85,
+                            "Desc5": "每个额外配件槽可能出现改装配件概率，默认为45"
+                        },
+                        "StorageMaxTime": 86400,
+                        "Desc6": "节日补给的最大存储时间，单位为秒，默认为86400秒，即24小时"
+                    }
+                }
+            }
+        },
+        "Console": {
+            "Active": true,
+            "Desc1": "是否启用核心系统-塔科夫控制台，true为启用，false为禁用，默认启用",
+            "Desc2": "原「塔科夫控制台」Mod的移植改良版本，原Mod不再维护",
+            "Global": {
+                "ModPath": "console/"
+            },
+            "Desc3": "由于技术限制，请勿在玩家ID使用大写字母或下划线等符号，可能导致读取出现问题",
+            "Desc4": "待服务端完成启动后，输入help查询指令表，在console文件夹内查询索引表"
         }
+    },
+    "TraderModule": {
+        "InfinityStorage": {
+            "Active": false,
+            "Desc1": "商人模块-无限秘库，在跳蚤市场出售所有物品",
+            "Desc2": "这是我未曾发布的一个Mod，如果你在其它地方见过它，那一定是见了鬼了",
+            "Config": {
+                "Global": {
+                    "ModPath": "infinitystorage/"
+                },
+                "EnableOverridePrice": false,
+                "Desc1": "是否启用全局价格覆盖，启用后无限秘库将以统一价格出售物品，默认禁用",
+                "MoneySet": "5449016a4bdc2d6f028b456f",
+                "MoneyCount": 1,
+                "Desc2": "设置全局价格和货币，默认为1卢布",
+                "EnableAsyncLoad": true,
+                "Desc3": "是否启用异步加载模式，默认启用，此模式能保证读取到Mod物品，除非某个Mod在异步阶段注册物品"
+            }
+        },
+        "GunSmith": {
+            "Active": true,
+            "Desc1": "商人模块-懒人枪匠，可直接在指定商人1级处购买枪匠系列任务成品",
+            "Desc2": "原「懒人枪匠」Mod的移植改良版本，原Mod不再维护",
+            "Config": {
+                "Global": {
+                    "ModPath": "gunsmith/"
+                },
+                "EnableOverridePrice": false,
+                "Desc1": "是否启用全局价格覆盖，启用后所有枪械将使用固定的价格出售而非自动计算，默认禁用",
+                "MoneySet": "5449016a4bdc2d6f028b456f",
+                "MoneyCount": 10000,
+                "Desc2": "设置全局价格和货币，默认为10000卢布",
+                "PriceReduceRate": 0.8,
+                "Desc3": "自动计算价格时的乘算系数，默认为0.8，即最终价格为原价的80%",
+                "Trader": "5a7c2eca46aef81a7ca2145d",
+                "Desc4": "出售成品枪的商人，填写商人ID，默认为机械师（Mechanic）"
+            }
+        },
+        "BeautyTrader": {
+            "Active": true,
+            "Desc1": "原「商人自定义」Mod的移植改良版，更名为商人美化，原Mod不再维护",
+            "Config": {
+                "Global": {
+                    "ModPath": "beautytrader/"
+                },
+                "TraderData": {
+                    "Fence": {
+                        "TraderID": "579dc571d53a0658a154fbec",
+                        "Desc1": "商人所对应的ID",
+                        "OverrideTraderData": true,
+                        "Desc2": "是否覆盖商人详细数据",
+                        "Data": {
+                            "Level": {
+                                "1": {
+                                    "SellPriceRate": 0,
+                                    "Desc1": "商人当前信任等级回收物品的价格系数",
+                                    "InsurancePriceRate": 30,
+                                    "Desc2": "商人当前信任等级投保的价格系数",
+                                    "Level": 1,
+                                    "Desc3": "商人当前信任等级所要求的最低玩家等级",
+                                    "SellNum": 0,
+                                    "Desc4": "商人当前信任等级所要求的最低交易额",
+                                    "Standing": 0,
+                                    "Desc5": "商人当前信任等级所要求的最低好感度"
+                                },
+                                "2": {
+                                    "SellPriceRate": 0,
+                                    "Desc1": "商人当前信任等级回收物品的价格系数",
+                                    "InsurancePriceRate": 30,
+                                    "Desc2": "商人当前信任等级投保的价格系数",
+                                    "Level": 1,
+                                    "Desc3": "商人当前信任等级所要求的最低玩家等级",
+                                    "SellNum": 0,
+                                    "Desc4": "商人当前信任等级所要求的最低交易额",
+                                    "Standing": 6,
+                                    "Desc5": "商人当前信任等级所要求的最低好感度"
+                                }
+                            },
+                            "Desc1": "商人的每个信任等级所对应的相关数据"
+                        },
+                        "OverrideTraderImage": true,
+                        "Desc3": "是否覆盖商人头像，头像文件存放在Mod根目录/beautytrader/res目录下，使用png格式",
+                        "TraderImageName": "fence.png",
+                        "OverrideTraderName": false,
+                        "Desc4": "是否覆盖商人名称",
+                        "TraderNameReplace": []
+                    },
+                    "Ref": {
+                        "TraderID": "6617beeaa9cfa777ca915b7c",
+                        "Desc1": "商人所对应的ID",
+                        "OverrideTraderData": false,
+                        "Desc2": "是否覆盖商人详细数据",
+                        "Data": {},
+                        "OverrideTraderImage": true,
+                        "Desc3": "是否覆盖商人头像，头像文件存放在Mod根目录/beautytrader/res目录下，使用png格式",
+                        "TraderImageName": "ref.png",
+                        "OverrideTraderName": true,
+                        "Desc4": "是否覆盖商人名称",
+                        "TraderNameReplace": [
+                            "竞技场裁判",
+                            "Ref"
+                        ]
+                    },
+                    "Prapor": {
+                        "TraderID": "54cb50c76803fa8b248b4571",
+                        "Desc1": "商人所对应的ID",
+                        "OverrideTraderData": false,
+                        "Desc2": "是否覆盖商人详细数据",
+                        "Data": {},
+                        "OverrideTraderImage": true,
+                        "Desc3": "是否覆盖商人头像，头像文件存放在Mod根目录/beautytrader/res目录下，使用png格式",
+                        "TraderImageName": "prapor.png",
+                        "OverrideTraderName": false,
+                        "Desc4": "是否覆盖商人名称",
+                        "TraderNameReplace": []
+                    },
+                    "Therapist": {
+                        "TraderID": "54cb57776803fa99248b456e",
+                        "Desc1": "商人所对应的ID",
+                        "OverrideTraderData": false,
+                        "Desc2": "是否覆盖商人详细数据",
+                        "Data": {},
+                        "OverrideTraderImage": true,
+                        "Desc3": "是否覆盖商人头像，头像文件存放在Mod根目录/beautytrader/res目录下，使用png格式",
+                        "TraderImageName": "therapist.png",
+                        "OverrideTraderName": false,
+                        "Desc4": "是否覆盖商人名称",
+                        "TraderNameReplace": []
+                    },
+                    "Skier": {
+                        "TraderID": "58330581ace78e27b8b10cee",
+                        "Desc1": "商人所对应的ID",
+                        "OverrideTraderData": false,
+                        "Desc2": "是否覆盖商人详细数据",
+                        "Data": {},
+                        "OverrideTraderImage": true,
+                        "Desc3": "是否覆盖商人头像，头像文件存放在Mod根目录/beautytrader/res目录下，使用png格式",
+                        "TraderImageName": "skier.png",
+                        "OverrideTraderName": false,
+                        "Desc4": "是否覆盖商人名称",
+                        "TraderNameReplace": []
+                    },
+                    "Mechanic": {
+                        "TraderID": "5a7c2eca46aef81a7ca2145d",
+                        "Desc1": "商人所对应的ID",
+                        "OverrideTraderData": false,
+                        "Desc2": "是否覆盖商人详细数据",
+                        "Data": {},
+                        "OverrideTraderImage": true,
+                        "Desc3": "是否覆盖商人头像，头像文件存放在Mod根目录/beautytrader/res目录下，使用png格式",
+                        "TraderImageName": "mechanic.png",
+                        "OverrideTraderName": false,
+                        "Desc4": "是否覆盖商人名称",
+                        "TraderNameReplace": []
+                    },
+                    "Peacekeeper": {
+                        "TraderID": "5935c25fb3acc3127c3d8cd9",
+                        "Desc1": "商人所对应的ID",
+                        "OverrideTraderData": false,
+                        "Desc2": "是否覆盖商人详细数据",
+                        "Data": {},
+                        "OverrideTraderImage": true,
+                        "Desc3": "是否覆盖商人头像，头像文件存放在Mod根目录/beautytrader/res目录下，使用png格式",
+                        "TraderImageName": "peacekeeper.png",
+                        "OverrideTraderName": false,
+                        "Desc4": "是否覆盖商人名称",
+                        "TraderNameReplace": []
+                    },
+                    "Ragman": {
+                        "TraderID": "5ac3b934156ae10c4430e83c",
+                        "Desc1": "商人所对应的ID",
+                        "OverrideTraderData": false,
+                        "Desc2": "是否覆盖商人详细数据",
+                        "Data": {},
+                        "OverrideTraderImage": true,
+                        "Desc3": "是否覆盖商人头像，头像文件存放在Mod根目录/beautytrader/res目录下，使用png格式",
+                        "TraderImageName": "ragman.png",
+                        "OverrideTraderName": false,
+                        "Desc4": "是否覆盖商人名称",
+                        "TraderNameReplace": []
+                    },
+                    "jaeger": {
+                        "TraderID": "5c0647fdd443bc2504c2d371",
+                        "Desc1": "商人所对应的ID",
+                        "OverrideTraderData": false,
+                        "Desc2": "是否覆盖商人详细数据",
+                        "Data": {},
+                        "OverrideTraderImage": true,
+                        "Desc3": "是否覆盖商人头像，头像文件存放在Mod根目录/beautytrader/res目录下，使用png格式",
+                        "TraderImageName": "jaeger.png",
+                        "OverrideTraderName": false,
+                        "Desc4": "是否覆盖商人名称",
+                        "TraderNameReplace": []
+                    },
+                    "Lightkeeper": {
+                        "TraderID": "638f541a29ffd1183d187f57",
+                        "Desc1": "商人所对应的ID",
+                        "OverrideTraderData": false,
+                        "Desc2": "是否覆盖商人详细数据",
+                        "Data": {},
+                        "OverrideTraderImage": true,
+                        "Desc3": "是否覆盖商人头像，头像文件存放在Mod根目录/beautytrader/res目录下，使用png格式",
+                        "TraderImageName": "lightkeeper.png",
+                        "OverrideTraderName": false,
+                        "Desc4": "是否覆盖商人名称",
+                        "TraderNameReplace": []
+                    }
+                }
+            }
+        },
+        "Misc": {
+            "EnableLightkeeperOnTraderPage": true,
+            "Desc1": "启用「随身老登」功能，启用后将在商人页面显示灯塔商人以便于与任务进行互动，默认启用"
+        }
+    },
+    "ItemModule": {
+        "Music": {
+            "Active": true,
+            "Desc1": "是否启用物品模块-音乐收藏馆，true为启用false为禁用，默认启用",
+            "Desc2": "原「音乐收藏馆」Mod的移植改良版本，原Mod不再维护",
+            "Desc3": "为防止生成出现错误，启用此模块将清除所有头盔与耳机的冲突，介意慎用",
+            "Config": {
+                "Global": {
+                    "ModPath": "music/",
+                    "EnableSellOnTrader": false,
+                    "TraderID": "54cb57776803fa99248b456e"
+                }
+            }
+        },
+        "GunFight": {
+            "Active": true,
+            "Desc1": "是否启用物品模块-枪械武术，true为启用false为禁用，默认启用",
+            "Desc2": "原「枪械武术」Mod的移植改良版本，原Mod不再维护",
+            "Config": {
+                "Global": {
+                    "ModPath": "gunfight/",
+                    "EnableSellOnTrader": false,
+                    "TraderID": "54cb57776803fa99248b456e"
+                },
+                "DeleteInvisibleReciol": true,
+                "Desc1": "是否删除隐藏后坐力数值，启用后后坐力数据降至0或以下时后坐力将真正归零，true为启用false为禁用，默认启用",
+                "CompletelyDeleteRecoil": false,
+                "Desc2": "是否完全移除后坐力系统，启用后所有枪械后坐力数值将不再有效，true为启用false为禁用，默认禁用"
+            }
+        },
+        "ItemPack": {
+            "Active": true,
+            "Desc1": "是否启用物品模块-千叶物品包，true为启用false为禁用，默认启用",
+            "Desc2": "原「千叶玲花的物品包」Mod的移植改良版本，原Mod不再维护",
+            "Config": {
+                "Global": {
+                    "ModPath": "hiddenitempack/",
+                    "EnableSellOnTrader": true,
+                    "TraderID": "54cb57776803fa99248b456e"
+                }
+            }
+        },
+        "MEStorage": {
+            "Active": true,
+            "Desc1": "是否启用物品模块-ME存储，为游戏添加了仿制应用能源2的部分组件，true为启用false为禁用，默认启用",
+            "Config": {
+                "Global": {
+                    "ModPath": "ae2/"
+                }
+            }
+        }
+    },
+    "BattleModule": {
+        "ArrowMarker": {
+            "Active": false,
+            "Desc1": "是否启用作战模块-箭头标记，true为启用false为禁用，默认启用",
+            "Desc2": "原「箭头标记」Mod的移植改良版本，原Mod不再维护",
+            "Config": {
+                "Global": {
+                    "ModPath": "arrowmarker/",
+                    "EnableSellOnTrader": false,
+                    "TraderID": "54cb57776803fa99248b456e",
+                    "MarkerData": [
+                        {
+                            "type": "boss",
+                            "bot": [
+                                "bossbully",
+                                "bosssanitar",
+                                "bossknight",
+                                "bossgluhar",
+                                "bosskojaniy",
+                                "bosskilla",
+                                "bosstagilla",
+                                "followerbigpipe",
+                                "followerbirdeye",
+                                "bosszryachiy",
+                                "bossboar",
+                                "bosskolontay",
+                                "bosspartisan"
+                            ],
+                            "mark": "红色箭头",
+                            "special": "危标记"
+                        },
+                        {
+                            "type": "scav",
+                            "bot": [
+                                "assault",
+                                "cursedassault",
+                                "crazyassaultevent"
+                            ],
+                            "mark": "米黄色箭头",
+                            "special": "米黄色箭头"
+                        },
+                        {
+                            "type": "sniper",
+                            "bot": [
+                                "marksman",
+                                "bossboarsniper"
+                            ],
+                            "mark": "薄荷色箭头",
+                            "special": "狙击标记"
+                        },
+                        {
+                            "type": "rogue",
+                            "bot": [
+                                "exusec",
+                                "pmcbot"
+                            ],
+                            "mark": "紫色箭头",
+                            "special": "掠夺者标记"
+                        },
+                        {
+                            "type": "sectant",
+                            "bot": [
+                                "sectantpriest",
+                                "sectantwarrior"
+                            ],
+                            "mark": "毒绿色箭头",
+                            "special": "邪教徒标记"
+                        },
+                        {
+                            "type": "follower",
+                            "bot": [
+                                "followerbully",
+                                "followergluharassault",
+                                "followergluharscout",
+                                "followergluharsecurity",
+                                "followergluharsnipe",
+                                "followerkojaniy",
+                                "followersanitar",
+                                "followertagilla",
+                                "followerzryachiy",
+                                "followerboar",
+                                "followerboarclose1",
+                                "followerboarclose2",
+                                "followerkolontayassault",
+                                "followerkolontaysecurity"
+                            ],
+                            "mark": "粉色箭头",
+                            "special": "粉色箭头"
+                        },
+                        {
+                            "type": "bloodhound",
+                            "bot": [
+                                "arenafighterevent"
+                            ],
+                            "mark": "藏蓝色箭头",
+                            "special": "藏蓝色箭头"
+                        },
+                        {
+                            "type": "bear",
+                            "bot": [
+                                "bear"
+                            ],
+                            "mark": "橙色箭头",
+                            "special": "橙色箭头"
+                        },
+                        {
+                            "type": "usec",
+                            "bot": [
+                                "usec"
+                            ],
+                            "mark": "蓝色箭头",
+                            "special": "蓝色箭头"
+                        }
+                    ]
+                },
+                "EnableESPMode": true,
+                "Desc1": "是否启用透视模式, 默认启用, 启用后可以透过障碍物看到标记",
+                "EnableLootableMode": false,
+                "Desc2": "是否启用掠夺模式, 默认禁用, 启用后可以从AI身上将标记作为战利品收走, 可能会与音乐收藏馆产生冲突! ",
+                "EnableSpecialMarker": false,
+                "Desc3": "是否启用特殊标记. 默认禁用, 启用后部分标记将被替换为其它形状而非箭头"
+            }
+        }
+    },
+    "Licence": {
+        "Desc1": "阅读本条信息表示你已经知晓本文件为火神重工：无限Mod所属的配置文件，并且知晓以上所有可配置模块的具体内容",
+        "Desc2": "本文件为火神重工：无限Mod所属的配置文件，包含几乎所有模块所允许配置的设置，每一条配置都有相应的说明",
+        "Desc3": "如需编辑并保存本文件，请确保在服务端关闭的情况下进行，除此之外造成的后果概不负责",
+        "Desc4": "请确保你已经认真阅读以上所有内容，并将下方选项修改为true后保存以正常启动服务端",
+        "Agree": false
     }
 }

@@ -1,0 +1,44 @@
+{
+    "ffffff6e3b50894243fc54cb": {
+        "id": "ffffff6e3b50894243fc54cb",
+        "imageUrl": "/files/icon/nuclearstar.png",
+        "assetPath": "",
+        "rewards": [],
+        "conditions": {
+          "availableForFinish": [
+            {
+                "conditionType": "FindItem",
+                "countInRaid": false,
+                "dogtagLevel": 0,
+                "dynamicLocale": false,
+                "globalQuestCounterId": "",
+                "id": "fbf2366e3b50894243ffffff",
+                "index": 0,
+                "isEncoded": false,
+                "maxDurability": 100,
+                "minDurability": 0,
+                "onlyFoundInRaid": true,
+                "parentId": "",
+                "target": [
+                  "fbf2366e3b50894243fc54cb"
+                ],
+                "value": 1,
+                "visibilityConditions": []
+              }
+          ],
+          "fail": []
+        },
+        "name": "熔万物以铸孤星",
+        "description": "解开她留下的天启谜题，取得核能之星。",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "prefab": "",
+        "rarity": "Legendary",
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "side": "All",
+        "index": 6400
+      }
+}

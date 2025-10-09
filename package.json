@@ -1,8 +1,11 @@
 {
     "name": "火神重工: 无限",
-    "version": "1.0.0",
+    "version": "1.2.1",
     "main": "src/mod.js",
     "license": "CC-BY-SA",
     "author": "千叶玲花",
-    "sptVersion": "*.*.*"
+    "sptVersion": "*.*.*",
+	"modDependencies": {
+		"[火神之心]VulcanCore": ">=4.2.1"
+	}
 }
