@@ -1,0 +1,821 @@
+{
+    "幸存者臂带": {
+        "_id": "幸存者臂带",
+        "_targetid": "60b0f988c4449e4cb624c1da",
+        "_name": "幸存者臂带",
+        "_props": {
+            "Weight": 0.05,
+            "BackgroundColor": "yellow",
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/equipment/armband/item_equipment_armband_story_01_and_survived.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "臂带（幸存者）",
+            "ShortName": "臂带",
+            "Description": "臂带的主人从未揭露塔科夫巨变背后的真正原因。但他至少活了下来，到头来这才是唯一要紧的事情。",
+            "DefaultPrice": 100000,
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "堕入黑暗臂带": {
+        "_id": "堕入黑暗臂带",
+        "_targetid": "60b0f988c4449e4cb624c1da",
+        "_name": "堕入黑暗臂带",
+        "_props": {
+            "Weight": 0.05,
+            "BackgroundColor": "red",
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/equipment/armband/item_equipment_armband_story_02_in_the_darkness.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "臂带（堕入黑暗）",
+            "ShortName": "臂带",
+            "Description": "臂带的佩戴者亲手同意了一项交易，事实证明这一妥协的代价远比想象中更为沉重。",
+            "DefaultPrice": 100000,
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "灯塔臂带": {
+        "_id": "灯塔臂带",
+        "_targetid": "60b0f988c4449e4cb624c1da",
+        "_name": "灯塔臂带",
+        "_props": {
+            "Weight": 0.05,
+            "BackgroundColor": "blue",
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/equipment/armband/item_equipment_armband_story_03_didnt_escape_from_yourself.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "臂带（灯塔）",
+            "ShortName": "臂带",
+            "Description": "这一臂带宛如枷锁，让佩戴它的 PMC 永远无法逃离自己在塔科夫的过往。",
+            "DefaultPrice": 100000,
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "为了全人类臂带": {
+        "_id": "为了全人类臂带",
+        "_targetid": "60b0f988c4449e4cb624c1da",
+        "_name": "为了全人类臂带",
+        "_props": {
+            "Weight": 0.05,
+            "BackgroundColor": "green",
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/equipment/armband/item_equipment_armband_story_04_for_humanity.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "臂带（为了全人类）",
+            "ShortName": "臂带",
+            "Description": "为那些揭露了塔科夫残酷真相的 PMC 们打造的专属臂带。",
+            "DefaultPrice": 100000,
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "幸存者海报": {
+        "_id": "幸存者海报",
+        "_targetid": "6759e61067c8eb5cd10352f1",
+        "_name": "幸存者海报",
+        "_props": {
+            "BackgroundColor": "yellow",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_flyers/item_barter_flyers_story_01_and_survived.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "幸存者海报",
+            "ShortName": "幸存者",
+            "Description": "描绘了 PMC 逃出塔科夫场面的海报。尽管他置身 TerraGroup 的惊天阴谋以及整场冲突的根源之外，但仍然奇迹般地幸存了下来，最终得以逃离。",
+            "DefaultPrice": 180126,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "堕入黑暗海报": {
+        "_id": "堕入黑暗海报",
+        "_targetid": "6759e61067c8eb5cd10352f1",
+        "_name": "堕入黑暗海报",
+        "_props": {
+            "BackgroundColor": "red",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_flyers/item_barter_flyers_story_02_in_the_darkness.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "堕入黑暗海报",
+            "ShortName": "堕入黑暗",
+            "Description": "这张海报昭示着：对于那些在诱惑之下放弃了追寻真理之人，唯有一条出路——坠入深渊。",
+            "DefaultPrice": 180126,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "灯塔海报": {
+        "_id": "灯塔海报",
+        "_targetid": "6759e61067c8eb5cd10352f1",
+        "_name": "灯塔海报",
+        "_props": {
+            "BackgroundColor": "blue",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_flyers/item_barter_flyers_story_03_didnt_escape_from_yourself.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "灯塔海报",
+            "ShortName": "灯塔",
+            "Description": "一张画有灯塔的海报。从不同角度看去，海报上会显现出若有若无的发光图案。在其它地方，这大概会被视为希望的象征，但对你来说，这更像是一则高悬在头顶的警告，昭示着你对某个力量无边之人欠下的一笔永远无法逃避的债务。",
+            "DefaultPrice": 180126,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "为了全人类海报": {
+        "_id": "为了全人类海报",
+        "_targetid": "6759e61067c8eb5cd10352f1",
+        "_name": "为了全人类海报",
+        "_props": {
+            "BackgroundColor": "green",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_flyers/item_barter_flyers_story_04_for_humanity.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "为了全人类海报",
+            "ShortName": "为了全人类",
+            "Description": "这张海报展示了在面对正义战士的锋刃时，即使是最为纯粹的邪恶也只有自取灭亡。在这只怪物可耻的尸骸上，人类将以自己的意志建成崭新的未来。",
+            "DefaultPrice": 180126,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "BEAR幸存者狗牌": {
+        "_id": "BEAR幸存者狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "BEAR幸存者狗牌",
+        "_props": {
+            "BackgroundColor": "yellow",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_01_and_survived.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "BEAR 狗牌",
+            "ShortName": "BEAR",
+            "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。尽管这块狗牌的主人从未探究过整场冲突背后的原因，但还是在血雨腥风中幸存了下来，最终逃离了塔科夫。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "BEAR堕入黑暗狗牌": {
+        "_id": "BEAR堕入黑暗狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "BEAR堕入黑暗狗牌",
+        "_props": {
+            "BackgroundColor": "red",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_02_in_the_darkness.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "BEAR 狗牌",
+            "ShortName": "BEAR",
+            "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。沾满了前主人的斑斑血迹，生存的本能促使他选择了逃离塔科夫的捷径，却连同整个世界一起堕入黑暗渊薮之中。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "BEAR灯塔狗牌": {
+        "_id": "BEAR灯塔狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "BEAR灯塔狗牌",
+        "_props": {
+            "BackgroundColor": "blue",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_03_didnt_escape_from_yourself.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "BEAR 狗牌",
+            "ShortName": "BEAR",
+            "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。弹孔赫然穿透了狗牌中央，几乎要将它分为两半，还留下了铁丝网刮擦的痕迹。也许狗牌的主人逃离了塔科夫，但他永远无法逃离他自己。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "BEAR救世主狗牌": {
+        "_id": "BEAR救世主狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "BEAR救世主狗牌",
+        "_props": {
+            "BackgroundColor": "green",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_04_for_humanity.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "BEAR 狗牌",
+            "ShortName": "BEAR",
+            "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。狗牌的主人将 TerraGroup 在塔科夫进行的所有邪恶勾当公之于众，表面的印记彰显了集团走向覆灭的可耻命运。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "USEC幸存者狗牌": {
+        "_id": "USEC幸存者狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "USEC幸存者狗牌",
+        "_props": {
+            "BackgroundColor": "yellow",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_01_and_survived.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "USEC 狗牌",
+            "ShortName": "USEC",
+            "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。尽管这块狗牌的主人从未探究过整场冲突背后的原因，但还是在血雨腥风中幸存了下来，最终逃离了塔科夫。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "USEC堕入黑暗狗牌": {
+        "_id": "USEC堕入黑暗狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "USEC堕入黑暗狗牌",
+        "_props": {
+            "BackgroundColor": "red",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_02_in_the_darkness.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "USEC 狗牌",
+            "ShortName": "USEC",
+            "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。沾满了前主人的斑斑血迹，生存的本能促使他选择了逃离塔科夫的捷径，却连同整个世界一起堕入黑暗渊薮之中。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "USEC灯塔狗牌": {
+        "_id": "USEC灯塔狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "USEC灯塔狗牌",
+        "_props": {
+            "BackgroundColor": "blue",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_03_didnt_escape_from_yourself.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "USEC 狗牌",
+            "ShortName": "USEC",
+            "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。弹孔赫然穿透了狗牌中央，几乎要将它分为两半，还留下了铁丝网刮擦的痕迹。也许狗牌的主人逃离了塔科夫，但他永远无法逃离他自己。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "USEC救世主狗牌": {
+        "_id": "USEC救世主狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "USEC救世主狗牌",
+        "_props": {
+            "BackgroundColor": "green",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_04_for_humanity.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "USEC 狗牌",
+            "ShortName": "USEC",
+            "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。狗牌的主人将 TerraGroup 在塔科夫进行的所有邪恶勾当公之于众，表面的印记彰显了集团走向覆灭的可耻命运。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "BEAR熔融狗牌": {
+        "_id": "BEAR熔融狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "BEAR熔融狗牌",
+        "_props": {
+            "BackgroundColor": "blue",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_melted/item_barter_dogtags_melted.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "BEAR 狗牌",
+            "ShortName": "BEAR",
+            "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。破旧不堪，却奇迹般地没有散落。只属于那些亲历决定时刻的人。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "USEC熔融狗牌": {
+        "_id": "USEC熔融狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "USEC熔融狗牌",
+        "_props": {
+            "BackgroundColor": "blue",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_melted/item_barter_dogtags_melted.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "USEC 狗牌",
+            "ShortName": "USEC",
+            "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。破旧不堪，却奇迹般地没有散落。只属于那些亲历决定时刻的人。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "FirstSpear": {
+        "_id": "FirstSpear",
+        "_targetid": "5648a69d4bdc2ded0b8b457b",
+        "_name": "FirstSpear",
+        "_props": {
+            "Prefab": {
+                "path": "assets/equipment/item_equipment_rig_blackrock.bundle",
+                "rcid": ""
+            },
+            "Grids": [
+                {
+                    "_id": "3c169ef07d3ab93f55c7f22f",
+                    "_name": "1",
+                    "_parent": "FirstSpear",
+                    "_props": {
+                        "cellsH": 2,
+                        "cellsV": 3,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "9c3b815ece30e283158841b6",
+                    "_name": "2",
+                    "_parent": "FirstSpear",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 3,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "16d7371918a1e03542a6f5eb",
+                    "_name": "3",
+                    "_parent": "FirstSpear",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 3,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "4fd0b77928c24e87c276ca3a",
+                    "_name": "4",
+                    "_parent": "FirstSpear",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 3,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "02cf51971f26c745012ba260",
+                    "_name": "5",
+                    "_parent": "FirstSpear",
+                    "_props": {
+                        "cellsH": 2,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "2191d982937191de9929eb69",
+                    "_name": "6",
+                    "_parent": "FirstSpear",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "8a394f6fdba60e390ef19477",
+                    "_name": "7",
+                    "_parent": "FirstSpear",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "512254a094a58ac2adbdf44a",
+                    "_name": "8",
+                    "_parent": "FirstSpear",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "2f87534c5105e16a449727c8",
+                    "_name": "9",
+                    "_parent": "FirstSpear",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "80a0bf2c0e877ea8d185ca7b",
+                    "_name": "10",
+                    "_parent": "FirstSpear",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "7e8261447ac2a9d44c928a17",
+                    "_name": "11",
+                    "_parent": "FirstSpear",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ],
+            "RigLayoutName": "firstspear"
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "FirstSpear",
+            "ShortName": "FirstSpear",
+            "Description": "FirstSpear",
+            "RagfairType": "5b5f6f8786f77447ed563642",
+            "DefaultPrice": 40700,
+            "RagfairPrice": 47384,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "5b5f75e486f77447ec5d7712",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "CopyPrice"
+            ],
+            "CopyPrice": true
+        }
+    },
+    "测试盒子": {
+        "_id": "测试盒子",
+        "_targetid": "63a8970d7108f713591149f5",
+        "_name": "测试盒子",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Width": 2,
+            "Height": 2,
+            "StackMaxSize": 10000000,
+            "CanSellOnRagfair": false,
+            "CanRequireOnRagfair": false,
+            "Prefab": {
+                "path": "chest_mc_gold.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "giftbox",
+            "Name": "测试盒子",
+            "ShortName": "测试盒子",
+            "Description": "测试盒子",
+            "DefaultPrice": 20000,
+            "RagfairType": "VulcanSpecialItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31,
+            "isStaticBox": true,
+            "StaticBoxData": {
+                "forcefindinraid": false,
+                "giftdata": [
+                    {
+                        "$type": "Item",
+                        "name": "弹药盒",
+                        "itemid": "6570265f1419851aef03e739",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "弹药盒",
+                        "itemid": "657024e3c5d7d4cb4d07856a",
+                        "stackcount": 1
+                    }
+                ]
+            }
+        }
+    }
+}

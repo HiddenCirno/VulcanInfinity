@@ -1,0 +1,842 @@
+{
+    "单倍方镜": {
+        "_id": "单倍方镜",
+        "_targetid": "570fd721d2720bc5458b4596",
+        "_name": "单倍方镜",
+        "_props": {
+            "Prefab": {
+                "path": "1xtest.pack",
+                "rcid": ""
+            },
+            "ScopesCount": 1,
+            "AimSensitivity": [
+                [
+                    0.85
+                ]
+            ],
+            "ModesCount": [
+                1
+            ],
+            "Zooms": [
+                [
+                    1
+                ]
+            ],
+            "CalibrationDistances": [
+                [
+                    50
+                ]
+            ]
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "单倍全息衍射式瞄准镜“经典”",
+            "ShortName": "1x",
+            "Description": "近距离瞄准镜。",
+            "RagfairType": "5b5f742686f774093e6cb4ff",
+            "DefaultPrice": 10000,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "570fd721d2720bc5458b4596",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "Mods"
+            ],
+            "BlackListType": 63
+        }
+    },
+    "PS19C": {
+        "_id": "PS19C",
+        "_targetid": "5cadf6eeae921500134b2799",
+        "_name": "PS19C",
+        "_props": {
+            "Weight": 0.05,
+            "StackMaxSize": 10,
+            "StackMinRandom": 5,
+            "StackMaxRandom": 10,
+            "InitialSpeed": 300,
+            "Damage": 113,
+            "ammoAccr": 15,
+            "ammoRec": 15,
+            "PenetrationPower": 67,
+            "ArmorDamage": 44
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "12.7x55毫米 19C",
+            "ShortName": "19C",
+            "Description": "星环重工生产的12.7x55毫米强力破甲弹，高烈性化合物装药和特殊设计的破甲弹头能够对人员造成高强度杀伤。",
+            "RagfairType": "5b47574386f77428ca22b33b",
+            "DefaultPrice": 1200,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "5cadf6eeae921500134b2799",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "Mags",
+                "Chamber",
+                "Mods"
+            ],
+            "BlackListType": 63
+        }
+    },
+    "龙息箭形弹": {
+        "_id": "龙息箭形弹",
+        "_targetid": "5d6e6911a4b9361bd5780d52",
+        "_name": "龙息箭形弹",
+        "_props": {
+            "Weight": 0.05,
+            "BackgroundColor": "violet",
+            "StackMaxSize": 20,
+            "Prefab": {
+                "path": "assets/ammobundle/12_70_dragonbreath.bundle",
+                "rcid": ""
+            },
+            "Tracer": true,
+            "TracerColor": "red",
+            "StackMinRandom": 5,
+            "StackMaxRandom": 10,
+            "InitialSpeed": 320,
+            "Damage": 35,
+            "ProjectileCount": 78,
+            "ammoAccr": -10,
+            "ammoRec": 0,
+            "PenetrationPower": 43,
+            "ArmorDamage": 34
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "12/70 箭形弹“龙息”改",
+            "ShortName": "龙息",
+            "Description": "星环重工生产的12/70改进型箭形弹，掺入了某种特殊材料，配合特制的分裂弹头，这枚子弹甚至可以一枪放倒一头成年巨鳄。",
+            "RagfairType": "5b47574386f77428ca22b33b",
+            "DefaultPrice": 800,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "5d6e6911a4b9361bd5780d52",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "Mags",
+                "Chamber",
+                "Container",
+                "Mods"
+            ],
+            "BlackListType": 63
+        }
+    },
+    "霞光霰弹": {
+        "_id": "霞光霰弹",
+        "_targetid": "5d6e6911a4b9361bd5780d52",
+        "_name": "霞光霰弹",
+        "_props": {
+            "Weight": 0.05,
+            "BackgroundColor": "yellow",
+            "StackMaxSize": 5,
+            "Prefab": {
+                "path": "assets/ammobundle/12_70_sunglow.bundle",
+                "rcid": ""
+            },
+            "StackMinRandom": 1,
+            "StackMaxRandom": 3,
+            "InitialSpeed": 320,
+            "Damage": 0,
+            "ProjectileCount": 3,
+            "ammoAccr": 0,
+            "ammoRec": 0,
+            "PenetrationPower": 0,
+            "ArmorDamage": 0,
+            "Contusion": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "Blindness": {
+                "x": 10,
+                "y": 30,
+                "z": 30
+            },
+            "IsLightAndSoundShot": true
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "12/70 “霞光”",
+            "ShortName": "霞光",
+            "Description": "星环重工生产的12/70特种弹药，用于反恐等特殊场景而不是对人员造成杀伤。\n发射时请勿直视枪口！！",
+            "RagfairType": "5b47574386f77428ca22b33b",
+            "DefaultPrice": 600,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "5d6e6911a4b9361bd5780d52",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "Mags",
+                "Chamber",
+                "Container",
+                "Mods"
+            ],
+            "BlackListType": 63
+        }
+    },
+    "万用文件包": {
+        "_id": "万用文件包",
+        "_targetid": "5d235bb686f77443f4331278",
+        "_name": "万用文件包",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "violet"
+        },
+        "_customprops": {
+            "$type": "container",
+            "Name": "万用文件包",
+            "ShortName": "万用",
+            "Description": "一个使用特殊材料制作的文件包，空间比看上去大得多。\n里面可以放钥匙，贵重物品，情报物品，钱，子弹，针，药，特殊装备，狗牌……还有注射器包。",
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "DefaultPrice": 200000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "ContainerSizeWidth": 8,
+            "ContainerSizeHeight": 8,
+            "FixType": [
+                "Container"
+            ]
+        }
+    },
+    "扩展注射器收纳盒": {
+        "_id": "扩展注射器收纳盒",
+        "_targetid": "619cbf7d23893217ec30b689",
+        "_name": "扩展注射器收纳盒",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "violet",
+            "Width": 1,
+            "Height": 1
+        },
+        "_customprops": {
+            "$type": "container",
+            "Name": "扩展注射器收纳盒",
+            "ShortName": "针包",
+            "Description": "空间扩展过的注射器收纳盒，内部分为三层，每层可存放12根标准注射器。",
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "DefaultPrice": 100000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "ContainerSizeWidth": 6,
+            "ContainerSizeHeight": 6,
+            "FixType": [
+                "Container"
+            ]
+        }
+    },
+    "营养剂": {
+        "_id": "营养剂",
+        "_targetid": "5fca13ca637ee0341a484f46",
+        "_name": "营养剂",
+        "_props": {
+            "StimulatorBuffs": "Buff_Aurora_Food",
+            "effects_health": {},
+            "effects_damage": {}
+        },
+        "_customprops": {
+            "$type": "buff",
+            "Name": "营养剂",
+            "ShortName": "营养剂",
+            "Description": "曙光制药开发的一次性注射营养剂，主要成分为葡萄糖以及有机大分子团，能够满足人体生存所需。",
+            "RagfairType": "5b47574386f77428ca22b33a",
+            "DefaultPrice": 10000,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "5fca13ca637ee0341a484f46",
+            "isMoney": false,
+            "BuffValue": [
+                {
+                    "BuffType": "HydrationRate",
+                    "Chance": 1,
+                    "Delay": 1,
+                    "Duration": 7200,
+                    "Value": 1,
+                    "AbsoluteValue": true,
+                    "SkillName": ""
+                },
+                {
+                    "BuffType": "EnergyRate",
+                    "Chance": 1,
+                    "Delay": 1,
+                    "Duration": 7200,
+                    "Value": 1,
+                    "AbsoluteValue": true,
+                    "SkillName": ""
+                }
+            ],
+            "BlackListType": 63
+        }
+    },
+    "精力剂": {
+        "_id": "精力剂",
+        "_targetid": "5c0e531286f7747fa54205c2",
+        "_name": "精力剂",
+        "_props": {
+            "StimulatorBuffs": "Buff_Aurora_Endurance",
+            "effects_health": {},
+            "effects_damage": {}
+        },
+        "_customprops": {
+            "$type": "buff",
+            "Name": "精力剂",
+            "ShortName": "精力剂",
+            "Description": "曙光制药研发的特殊合剂，内部专供，没有对外销售渠道，其主要成分为蓝色的花提取物，至于用途……",
+            "RagfairType": "5b47574386f77428ca22b33a",
+            "DefaultPrice": 10000,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "5c0e531286f7747fa54205c2",
+            "isMoney": false,
+            "BuffValue": [
+                {
+                    "BuffType": "StaminaRate",
+                    "Chance": 1,
+                    "Delay": 1,
+                    "Duration": 7200,
+                    "Value": 10,
+                    "AbsoluteValue": true,
+                    "SkillName": ""
+                },
+                {
+                    "BuffType": "MaxStamina",
+                    "Chance": 1,
+                    "Delay": 1,
+                    "Duration": 7200,
+                    "Value": 200,
+                    "AbsoluteValue": true,
+                    "SkillName": ""
+                },
+                {
+                    "BuffType": "SkillRate",
+                    "Chance": 1,
+                    "Delay": 1,
+                    "Duration": 7200,
+                    "Value": 50,
+                    "AbsoluteValue": true,
+                    "SkillName": "Endurance"
+                }
+            ],
+            "BlackListType": 63
+        }
+    },
+    "气力血清": {
+        "_id": "气力血清",
+        "_targetid": "5c0e530286f7747fa1419862",
+        "_name": "气力血清",
+        "_props": {
+            "StimulatorBuffs": "Buff_Aurora_Strength",
+            "effects_health": {},
+            "effects_damage": {}
+        },
+        "_customprops": {
+            "$type": "buff",
+            "Name": "不稳定的气力血清",
+            "ShortName": "气力血清",
+            "Description": "曙光制药对「友商」生产的某种血清秘密逆向后得到的成果，虽然效果不如原版，但也降低了副作用。",
+            "RagfairType": "5b47574386f77428ca22b33a",
+            "DefaultPrice": 10000,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "5c0e530286f7747fa1419862",
+            "isMoney": false,
+            "BuffValue": [
+                {
+                    "BuffType": "WeightLimit",
+                    "Chance": 1,
+                    "Delay": 1,
+                    "Duration": 7200,
+                    "Value": 100,
+                    "AbsoluteValue": false,
+                    "SkillName": ""
+                },
+                {
+                    "BuffType": "MaxStamina",
+                    "Chance": 1,
+                    "Delay": 1,
+                    "Duration": 7200,
+                    "Value": 100,
+                    "AbsoluteValue": true,
+                    "SkillName": ""
+                },
+                {
+                    "BuffType": "SkillRate",
+                    "Chance": 1,
+                    "Delay": 1,
+                    "Duration": 7200,
+                    "Value": 50,
+                    "AbsoluteValue": true,
+                    "SkillName": "Strength"
+                }
+            ],
+            "BlackListType": 63
+        }
+    },
+    "痛觉神经阻断剂": {
+        "_id": "痛觉神经阻断剂",
+        "_targetid": "5c0e531d86f7747fa23f4d42",
+        "_name": "痛觉神经阻断剂",
+        "_props": {
+            "StimulatorBuffs": "Buff_Aurora_S",
+            "effects_health": {},
+            "effects_damage": {}
+        },
+        "_customprops": {
+            "$type": "buff",
+            "Name": "痛觉神经阻断剂",
+            "ShortName": "Aurora-S",
+            "Description": "曙光制药研发的麻醉用药物，能够暂时阻止痛觉神经向大脑传输信号，一般用于医疗行业，不排除某些人把这种阻断剂用在其他地方……",
+            "RagfairType": "5b47574386f77428ca22b33a",
+            "DefaultPrice": 10000,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "5c0e531d86f7747fa23f4d42",
+            "isMoney": false,
+            "BuffValue": [
+                {
+                    "BuffType": "HealthRate",
+                    "Chance": 1,
+                    "Delay": 1,
+                    "Duration": 300,
+                    "Value": 2,
+                    "AbsoluteValue": true,
+                    "SkillName": ""
+                }
+            ],
+            "BlackListType": 63
+        }
+    },
+    "通用战术设备": {
+        "_id": "通用战术设备",
+        "_targetid": "5cc9c20cd7f00c001336c65d",
+        "_name": "通用战术设备",
+        "_props": {
+            "Weight": -2,
+            "BackgroundColor": "orange",
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "assets/content/items/mods/wmx200/tactical_all_insight_wmx200.bundle",
+                "rcid": ""
+            },
+            "HeatFactorByShot": -50,
+            "HeatFactorGun": -50,
+            "DurabilityBurnRatio": -50,
+            "Accuracy": 90,
+            "Recoil": -100,
+            "Loudness": -90,
+            "EffectiveDistance": 0,
+            "Ergonomics": 60,
+            "Velocity": 0,
+            "SightingRange": 1500
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "通用战术设备",
+            "ShortName": "通用",
+            "Description": "一款泛用型战术设备。",
+            "RagfairType": "5b5f737886f774093e6cb4fb",
+            "DefaultPrice": 10000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5cc9c20cd7f00c001336c65d",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "重锋科技多功能组合战术目镜": {
+        "_id": "重锋科技多功能组合战术目镜",
+        "_targetid": "5ac8d6885acfc400180ae7b0",
+        "_name": "重锋科技多功能组合战术目镜",
+        "_props": {
+            "Weight": -30,
+            "BackgroundColor": "orange",
+            "Width": 2,
+            "Height": 1,
+            "Prefab": {
+                "path": "assets/content/items/equipment/glasses_johnb/item_equipment_glasses_johnb.bundle",
+                "rcid": ""
+            },
+            "RepairCost": 921,
+            "RepairSpeed": 10,
+            "MergesWithChildren": true,
+            "CanSellOnRagfair": false,
+            "CanRequireOnRagfair": false,
+            "Slots": [
+                {
+                    "_name": "mod_nvg",
+                    "_id": "5ac8d6885acfc400180ae7b3",
+                    "_parent": "重锋科技多功能组合战术目镜",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5c0558060db834001b735271",
+                                    "23f239dd2d9b4dbd1afd4c79",
+                                    "7d94896e51979975a179a009",
+                                    "3b9253c1eab8bc9197252bfd"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_equipment_001",
+                    "_id": "5ac8d6885acfc400180ae7b5",
+                    "_parent": "重锋科技多功能组合战术目镜",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5c110624d174af029e69734c",
+                                    "50eee99536537e197a85dd5a"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "armorColliders": [
+                "HeadCommon",
+                "RibcageUp",
+                "Pelvis",
+                "LeftUpperArm",
+                "LeftForearm",
+                "RightUpperArm",
+                "RightForearm",
+                "LeftThigh",
+                "LeftCalf",
+                "RightThigh",
+                "RightCalf",
+                "ParietalHead",
+                "BackHead",
+                "Ears",
+                "Eyes",
+                "Jaw",
+                "NeckFront",
+                "NeckBack",
+                "RightSideChestUp",
+                "LeftSideChestUp",
+                "SpineTop",
+                "SpineDown",
+                "PelvisBack",
+                "RightSideChestDown",
+                "LeftSideChestDown",
+                "RibcageLow"
+            ],
+            "Durability": 20000000,
+            "MaxDurability": 20000000,
+            "armorZone": [],
+            "headSegments": [],
+            "armorClass": 4194304,
+            "speedPenaltyPercent": 0,
+            "mousePenalty": 0,
+            "weaponErgonomicPenalty": 0,
+            "BluntThroughput": 0,
+            "ArmorType": "Light",
+            "ArmorMaterial": "UHMWPE"
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "重锋科技多功能组合战术目镜",
+            "ShortName": "多功能目镜",
+            "Description": "具备绝佳防护性能的多功能战术目镜，配有夜视仪和热成像仪模块，其先进的氮气护盾系统能够抵挡20mm以下的弹药攻击（注：无法抵挡爆炸伤害），同时可以降低使用者的负载压力。",
+            "RagfairType": "5b47574386f77428ca22b331",
+            "DefaultPrice": 10000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5ac8d6885acfc400180ae7b0",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "战术目镜热成像模块": {
+        "_id": "战术目镜热成像模块",
+        "_targetid": "5c110624d174af029e69734c",
+        "_name": "战术目镜热成像模块",
+        "_props": {
+            "Weight": -2,
+            "BackgroundColor": "red",
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_electr_thermalmodule/item_barter_electr_thermalmodule.bundle",
+                "rcid": ""
+            },
+            "RampPalette": "BlackHot",
+            "Mask": "Thermal",
+            "MaskSize": 11
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "战术目镜热成像模块",
+            "ShortName": "热成像",
+            "Description": "为多功能战术目镜设计的热成像仪模块。",
+            "RagfairType": "5b5f737886f774093e6cb4fb",
+            "DefaultPrice": 10000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5c110624d174af029e69734c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "战术目镜夜视仪模块": {
+        "_id": "战术目镜夜视仪模块",
+        "_targetid": "5c0558060db834001b735271",
+        "_name": "战术目镜夜视仪模块",
+        "_props": {
+            "Weight": -2,
+            "BackgroundColor": "green",
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_electr_thermalmodule/item_barter_electr_thermalmodule.bundle",
+                "rcid": ""
+            },
+            "RampPalette": "BlackHot",
+            "Mask": "Anvis",
+            "MaskSize": 11
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "战术目镜夜视仪模块",
+            "ShortName": "夜视",
+            "Description": "为多功能战术目镜设计的夜视仪模块。",
+            "RagfairType": "5b5f737886f774093e6cb4fb",
+            "DefaultPrice": 10000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5c0558060db834001b735271",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "战术目镜夜视仪模块_青": {
+        "_id": "战术目镜夜视仪模块_青",
+        "_targetid": "5c0558060db834001b735271",
+        "_name": "战术目镜夜视仪模块_青",
+        "_props": {
+            "Weight": -2,
+            "BackgroundColor": "blue",
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_electr_thermalmodule/item_barter_electr_thermalmodule.bundle",
+                "rcid": ""
+            },
+            "Color": {
+                "a": 254,
+                "b": 255,
+                "g": 255,
+                "r": 83
+            },
+            "RampPalette": "BlackHot",
+            "Mask": "Anvis",
+            "MaskSize": 11
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "战术目镜夜视仪模块（青色）",
+            "ShortName": "夜视",
+            "Description": "为多功能战术目镜设计的夜视仪模块。",
+            "RagfairType": "5b5f737886f774093e6cb4fb",
+            "DefaultPrice": 10000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5c0558060db834001b735271",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "战术目镜夜视仪模块_白": {
+        "_id": "战术目镜夜视仪模块_白",
+        "_targetid": "5c0558060db834001b735271",
+        "_name": "战术目镜夜视仪模块_白",
+        "_props": {
+            "Weight": -2,
+            "BackgroundColor": "default",
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_electr_thermalmodule/item_barter_electr_thermalmodule.bundle",
+                "rcid": ""
+            },
+            "Color": {
+                "a": 254,
+                "b": 189,
+                "g": 189,
+                "r": 189
+            },
+            "RampPalette": "BlackHot",
+            "Mask": "Anvis",
+            "MaskSize": 11
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "战术目镜夜视仪模块（白色）",
+            "ShortName": "夜视",
+            "Description": "为多功能战术目镜设计的夜视仪模块。",
+            "RagfairType": "5b5f737886f774093e6cb4fb",
+            "DefaultPrice": 10000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5c0558060db834001b735271",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "集束手雷": {
+        "_id": "集束手雷",
+        "_targetid": "617fd91e5539a84ec44ce155",
+        "_name": "集束手雷",
+        "_props": {
+            "ExplDelay": 1,
+            "MinExplosionDistance": 2,
+            "MaxExplosionDistance": 5,
+            "FragmentsCount": 50,
+            "FragmentType": "集束手雷破片",
+            "Strength": 135,
+            "ContusionDistance": 13,
+            "throwDamMax": 0,
+            "explDelay": 1.5,
+            "MinTimeToContactExplode": 0.3,
+            "CanPlantOnGround": true,
+            "CanSellOnRagfair": false,
+            "BackgroundColor": "red"
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "集束手雷",
+            "ShortName": "集束",
+            "Description": "一颗集束手雷，其破片碰撞到物体后将产生二次爆炸。",
+            "RagfairType": "5b5f7a2386f774093f2ed3c4",
+            "DefaultPrice": 10000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5c0558060db834001b735271",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "集束手雷破片": {
+        "_id": "集束手雷破片",
+        "_targetid": "5996f6fc86f7745e585b4de3",
+        "_name": "集束手雷破片",
+        "_props": {
+            "StackMinRandom": 0,
+            "StackMaxRandom": 0,
+            "ammoType": "bullet",
+            "InitialSpeed": 15,
+            "BallisticCoeficient": 0.013,
+            "BulletMassGram": 0.09,
+            "BulletDiameterMilimeters": 7,
+            "Damage": 0,
+            "ammoAccr": 0,
+            "ammoRec": 0,
+            "ammoDist": 0,
+            "buckshotBullets": 0,
+            "PenetrationPower": 10,
+            "PenetrationPowerDiviation": 0,
+            "ammoHear": 0,
+            "ammoSfx": "tracer",
+            "MisfireChance": 0,
+            "MinFragmentsCount": 1,
+            "MaxFragmentsCount": 2,
+            "ammoShiftChance": 0,
+            "casingName": "",
+            "casingEjectPower": 0,
+            "casingMass": 0,
+            "casingSounds": "pistol_small",
+            "ProjectileCount": 1,
+            "PenetrationDamageMod": 0,
+            "PenetrationChanceObstacle": 0.2,
+            "RicochetChance": 0.2,
+            "FragmentationChance": 0.5,
+            "Deterioration": 1,
+            "SpeedRetardation": 0.0004,
+            "Tracer": true,
+            "TracerColor": "blue",
+            "TracerDistance": 0.01,
+            "ArmorDamage": 0,
+            "Caliber": "Caliber9x18PM",
+            "StaminaBurnPerDamage": 0.144,
+            "HeavyBleedingDelta": 0.2,
+            "LightBleedingDelta": 0.2,
+            "ShowBullet": false,
+            "HasGrenaderComponent": true,
+            "FuzeArmTimeSec": 0,
+            "ExplosionStrength": 70,
+            "ExplosionType": "",
+            "MinExplosionDistance": 1,
+            "MaxExplosionDistance": 7,
+            "FragmentsCount": 10,
+            "FragmentType": "5996f6cb86f774678763a6ca"
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "集束手雷破片",
+            "ShortName": "集束手雷破片",
+            "Description": "集束手雷破片",
+            "RagfairType": "VulcanDevItem",
+            "DefaultPrice": 10000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5c0558060db834001b735271",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "贝奥武夫弹": {
+        "_id": "贝奥武夫弹",
+        "_targetid": "5f647f31b6238e5dd066e196",
+        "_name": "贝奥武夫弹",
+        "_props": {
+            "Damage": 48,
+            "PenetrationPower": 53,
+            "ArmorDamage": 27
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "23x75mm Beowulf",
+            "ShortName": "Beowulf",
+            "Description": "23x75mm贝奥武夫弹。",
+            "RagfairType": "5b47574386f77428ca22b33b",
+            "DefaultPrice": 2700,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5cadf6eeae921500134b2799",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "Mags",
+                "Chamber",
+                "Mods"
+            ],
+            "BlackListType": 63
+        }
+    }
+}

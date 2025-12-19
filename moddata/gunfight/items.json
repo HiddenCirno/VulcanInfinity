@@ -1,0 +1,3956 @@
+{
+    "普通升级抽奖箱": {
+        "_id": "普通升级抽奖箱",
+        "_targetid": "63a8970d7108f713591149f5",
+        "_name": "普通升级抽奖箱",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "default",
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "lucky_block.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": false,
+            "StackMaxSize": 1
+        },
+        "_customprops": {
+            "$type": "giftbox",
+            "Name": "枪械武术-普通升级抽奖箱",
+            "ShortName": "抽奖箱",
+            "Description": "一个抽奖盒子，打开后可以随机获得一个普通品质的基础升级插件。",
+            "DefaultPrice": 5000,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "CustomLootTarget": "5d0375ff86f774186372f685",
+            "isMoney": false,
+            "isGiftBox": true,
+            "FixType": [
+                "None",
+                "Container"
+            ],
+            "BlackListType": 10,
+            "CustomFixID": "619cbf7d23893217ec30b689",
+            "BoxData": {
+                "Count": 1,
+                "Rewards": {
+                    "后坐力升级1": 1,
+                    "人机功效升级1": 1,
+                    "精度升级1": 1,
+                    "耐久升级1": 1,
+                    "降温升级1": 1,
+                    "重力升级1": 1
+                }
+            }
+        }
+    },
+    "稀有升级抽奖箱": {
+        "_id": "稀有升级抽奖箱",
+        "_targetid": "63a8970d7108f713591149f5",
+        "_name": "稀有升级抽奖箱",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "lucky_block.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": false,
+            "StackMaxSize": 1
+        },
+        "_customprops": {
+            "$type": "giftbox",
+            "Name": "枪械武术-稀有升级抽奖箱",
+            "ShortName": "抽奖箱",
+            "Description": "一个抽奖盒子，打开后可以随机获得一个稀有品质的基础升级插件。",
+            "DefaultPrice": 15000,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "CustomLootTarget": "5d03784a86f774203e7e0c4d",
+            "isMoney": false,
+            "isGiftBox": true,
+            "FixType": [
+                "None",
+                "Container"
+            ],
+            "BlackListType": 10,
+            "CustomFixID": "619cbf7d23893217ec30b689",
+            "BoxData": {
+                "Count": 1,
+                "Rewards": {
+                    "后坐力升级2": 1,
+                    "人机功效升级2": 1,
+                    "精度升级2": 1,
+                    "耐久升级2": 1,
+                    "降温升级2": 1,
+                    "重力升级2": 1
+                }
+            }
+        }
+    },
+    "史诗升级抽奖箱": {
+        "_id": "史诗升级抽奖箱",
+        "_targetid": "63a8970d7108f713591149f5",
+        "_name": "史诗升级抽奖箱",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "violet",
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "lucky_block.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": false,
+            "StackMaxSize": 1
+        },
+        "_customprops": {
+            "$type": "giftbox",
+            "Name": "枪械武术-史诗升级抽奖箱",
+            "ShortName": "抽奖箱",
+            "Description": "一个抽奖盒子，打开后可以随机获得一个史诗品质的基础升级插件。",
+            "DefaultPrice": 40000,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "CustomLootTarget": "5d0376a486f7747d8050965c",
+            "isMoney": false,
+            "isGiftBox": true,
+            "FixType": [
+                "None",
+                "Container"
+            ],
+            "BlackListType": 10,
+            "CustomFixID": "619cbf7d23893217ec30b689",
+            "BoxData": {
+                "Count": 1,
+                "Rewards": {
+                    "后坐力升级3": 1,
+                    "人机功效升级3": 1,
+                    "精度升级3": 1,
+                    "耐久升级3": 1,
+                    "降温升级3": 1,
+                    "重力升级3": 1
+                }
+            }
+        }
+    },
+    "传奇升级抽奖箱": {
+        "_id": "传奇升级抽奖箱",
+        "_targetid": "63a8970d7108f713591149f5",
+        "_name": "传奇升级抽奖箱",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "lucky_block.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": false,
+            "StackMaxSize": 1
+        },
+        "_customprops": {
+            "$type": "giftbox",
+            "Name": "枪械武术-传奇升级抽奖箱",
+            "ShortName": "抽奖箱",
+            "Description": "一个抽奖盒子，打开后可以随机获得一个传奇品质的基础升级插件。",
+            "DefaultPrice": 70000,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "CustomLootTarget": "5d0377ce86f774186372f689",
+            "isMoney": false,
+            "isGiftBox": true,
+            "FixType": [
+                "None",
+                "Container"
+            ],
+            "BlackListType": 10,
+            "CustomFixID": "619cbf7d23893217ec30b689",
+            "BoxData": {
+                "Count": 1,
+                "Rewards": {
+                    "后坐力升级4": 1,
+                    "人机功效升级4": 1,
+                    "精度升级4": 1,
+                    "耐久升级4": 1,
+                    "降温升级4": 1,
+                    "重力升级4": 1
+                }
+            }
+        }
+    },
+    "神话升级抽奖箱": {
+        "_id": "神话升级抽奖箱",
+        "_targetid": "63a8970d7108f713591149f5",
+        "_name": "神话升级抽奖箱",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "red",
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "lucky_block.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": false,
+            "StackMaxSize": 1
+        },
+        "_customprops": {
+            "$type": "giftbox",
+            "Name": "枪械武术-神话升级抽奖箱",
+            "ShortName": "抽奖箱",
+            "Description": "一个抽奖盒子，打开后可以随机获得一个神话升级插件。",
+            "DefaultPrice": 120000,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "CustomLootTarget": "5d03794386f77420415576f5",
+            "isMoney": false,
+            "isGiftBox": true,
+            "FixType": [
+                "None",
+                "Container"
+            ],
+            "BlackListType": 10,
+            "CustomFixID": "619cbf7d23893217ec30b689",
+            "BoxData": {
+                "Count": 1,
+                "Rewards": {
+                    "后坐力升级5": 3,
+                    "人机功效升级5": 4,
+                    "精度升级5": 1,
+                    "耐久升级5": 1,
+                    "降温升级5": 2,
+                    "重力升级5": 1,
+                    "消声升级5": 4,
+                    "容量升级1": 1,
+                    "空间升级1": 1,
+                    "空间升级2": 1
+                }
+            }
+        }
+    },
+    "初级升级插槽": {
+        "_id": "初级升级插槽",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "初级升级插槽",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "slot_base_1.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [
+                {
+                    "_name": "mod_plugins_000",
+                    "_id": "普通升级插槽1_插件槽位0",
+                    "_parent": "初级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-升级插槽-初级",
+            "ShortName": "升级插槽",
+            "Description": "一个升级插槽，拥有一个基础槽位，可以安装在任何武器上用以升级。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 5000,
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "CustomLootTarget": "590c60fc86f77412b13fddcf",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "中级升级插槽": {
+        "_id": "中级升级插槽",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "中级升级插槽",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "violet",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "slot_base_2.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [
+                {
+                    "_name": "mod_plugins_000",
+                    "_id": "普通升级插槽2_插件槽位0",
+                    "_parent": "中级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_plugins_001",
+                    "_id": "普通升级插槽2_插件槽位1",
+                    "_parent": "中级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-升级插槽-中级",
+            "ShortName": "升级插槽",
+            "Description": "一个升级插槽，拥有两个基础槽位，可以安装在任何武器上用以升级。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 15000,
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "CustomLootTarget": "590c60fc86f77412b13fddcf",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "高级升级插槽": {
+        "_id": "高级升级插槽",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "高级升级插槽",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "slot_base_3.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [
+                {
+                    "_name": "mod_plugins_000",
+                    "_id": "普通升级插槽3_插件槽位0",
+                    "_parent": "高级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_plugins_001",
+                    "_id": "普通升级插槽3_插件槽位1",
+                    "_parent": "高级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_plugins_002",
+                    "_id": "普通升级插槽3_插件槽位2",
+                    "_parent": "高级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-升级插槽-高级插槽",
+            "ShortName": "升级插槽",
+            "Description": "一个升级插槽，拥有三个基础槽位，可以安装在任何武器上用以升级。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 40000,
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "CustomLootTarget": "590c60fc86f77412b13fddcf",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "银框初级升级插槽": {
+        "_id": "银框初级升级插槽",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "银框初级升级插槽",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "slot_silver_1.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [
+                {
+                    "_name": "mod_plugins_000",
+                    "_id": "进阶升级插槽1_插件槽位0",
+                    "_parent": "银框初级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_pluginsadv_000",
+                    "_id": "进阶升级插槽1_神化槽位0",
+                    "_parent": "银框初级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级5",
+                                    "人机功效升级5",
+                                    "消声升级5",
+                                    "精度升级5",
+                                    "耐久升级5",
+                                    "降温升级5",
+                                    "重力升级5",
+                                    "容量升级1",
+                                    "空间升级1",
+                                    "空间升级2"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-升级插槽-初级（银色）",
+            "ShortName": "升级插槽",
+            "Description": "一个升级插槽，拥有一个基础槽位和一个神话槽位，可以安装在任何武器上用以升级。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 10000,
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "CustomLootTarget": "590c60fc86f77412b13fddcf",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "银框中级升级插槽": {
+        "_id": "银框中级升级插槽",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "银框中级升级插槽",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "violet",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "slot_silver_2.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [
+                {
+                    "_name": "mod_plugins_000",
+                    "_id": "进阶升级插槽2_插件槽位0",
+                    "_parent": "银框中级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_plugins_001",
+                    "_id": "进阶升级插槽2_插件槽位1",
+                    "_parent": "银框中级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_pluginsadv_000",
+                    "_id": "进阶升级插槽2_神化槽位0",
+                    "_parent": "银框中级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级5",
+                                    "人机功效升级5",
+                                    "消声升级5",
+                                    "精度升级5",
+                                    "耐久升级5",
+                                    "降温升级5",
+                                    "重力升级5",
+                                    "容量升级1",
+                                    "空间升级1",
+                                    "空间升级2"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-升级插槽-中级（银色）",
+            "ShortName": "升级插槽",
+            "Description": "一个升级插槽，拥有两个基础槽位和一个神话槽位，可以安装在任何武器上用以升级。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 30000,
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "CustomLootTarget": "590c60fc86f77412b13fddcf",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "银框高级升级插槽": {
+        "_id": "银框高级升级插槽",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "银框高级升级插槽",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "slot_silver_3.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [
+                {
+                    "_name": "mod_plugins_000",
+                    "_id": "进阶升级插槽3_插件槽位0",
+                    "_parent": "银框高级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_plugins_001",
+                    "_id": "进阶升级插槽3_插件槽位1",
+                    "_parent": "银框高级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_plugins_002",
+                    "_id": "进阶升级插槽3_插件槽位2",
+                    "_parent": "银框高级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_pluginsadv_000",
+                    "_id": "进阶升级插槽3_神化槽位0",
+                    "_parent": "银框高级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级5",
+                                    "人机功效升级5",
+                                    "消声升级5",
+                                    "精度升级5",
+                                    "耐久升级5",
+                                    "降温升级5",
+                                    "重力升级5",
+                                    "容量升级1",
+                                    "空间升级1",
+                                    "空间升级2"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-升级插槽-高级插槽（银色）",
+            "ShortName": "升级插槽",
+            "Description": "一个升级插槽，拥有三个基础槽位和一个神话槽位，可以安装在任何武器上用以升级。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 80000,
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "CustomLootTarget": "590c60fc86f77412b13fddcf",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "金框初级升级插槽": {
+        "_id": "金框初级升级插槽",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "金框初级升级插槽",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "slot_golden_1.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [
+                {
+                    "_name": "mod_plugins_000",
+                    "_id": "高级升级插槽1_插件槽位0",
+                    "_parent": "金框初级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_pluginsadv_000",
+                    "_id": "高级升级插槽1_神化槽位0",
+                    "_parent": "金框初级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级5",
+                                    "人机功效升级5",
+                                    "消声升级5",
+                                    "精度升级5",
+                                    "耐久升级5",
+                                    "降温升级5",
+                                    "重力升级5",
+                                    "容量升级1",
+                                    "空间升级1",
+                                    "空间升级2"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_pluginsadv_001",
+                    "_id": "高级升级插槽1_神化槽位1",
+                    "_parent": "金框初级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级5",
+                                    "人机功效升级5",
+                                    "消声升级5",
+                                    "精度升级5",
+                                    "耐久升级5",
+                                    "降温升级5",
+                                    "重力升级5",
+                                    "容量升级1",
+                                    "空间升级1",
+                                    "空间升级2"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-升级插槽-初级（金色）",
+            "ShortName": "升级插槽",
+            "Description": "一个升级插槽，拥有一个基础槽位和两个神话槽位，可以安装在任何武器上用以升级。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 20000,
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "CustomLootTarget": "590c60fc86f77412b13fddcf",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "金框中级升级插槽": {
+        "_id": "金框中级升级插槽",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "金框中级升级插槽",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "violet",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "slot_golden_2.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [
+                {
+                    "_name": "mod_plugins_000",
+                    "_id": "高级升级插槽2_插件槽位0",
+                    "_parent": "金框中级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_plugins_001",
+                    "_id": "高级升级插槽2_插件槽位1",
+                    "_parent": "金框中级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_pluginsadv_000",
+                    "_id": "高级升级插槽2_神化槽位0",
+                    "_parent": "金框中级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级5",
+                                    "人机功效升级5",
+                                    "消声升级5",
+                                    "精度升级5",
+                                    "耐久升级5",
+                                    "降温升级5",
+                                    "重力升级5",
+                                    "容量升级1",
+                                    "空间升级1",
+                                    "空间升级2"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_pluginsadv_001",
+                    "_id": "高级升级插槽2_神化槽位1",
+                    "_parent": "金框中级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级5",
+                                    "人机功效升级5",
+                                    "消声升级5",
+                                    "精度升级5",
+                                    "耐久升级5",
+                                    "降温升级5",
+                                    "重力升级5",
+                                    "容量升级1",
+                                    "空间升级1",
+                                    "空间升级2"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-升级插槽-中级（金色）",
+            "ShortName": "升级插槽",
+            "Description": "一个升级插槽，拥有两个基础槽位和两个神话槽位，可以安装在任何武器上用以升级。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 60000,
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "CustomLootTarget": "590c60fc86f77412b13fddcf",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "金框高级升级插槽": {
+        "_id": "金框高级升级插槽",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "金框高级升级插槽",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "slot_golden_3.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [
+                {
+                    "_name": "mod_plugins_000",
+                    "_id": "高级升级插槽3_插件槽位0",
+                    "_parent": "金框高级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_plugins_001",
+                    "_id": "高级升级插槽3_插件槽位1",
+                    "_parent": "金框高级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_plugins_002",
+                    "_id": "高级升级插槽3_插件槽位2",
+                    "_parent": "金框高级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_pluginsadv_000",
+                    "_id": "高级升级插槽3_神化槽位0",
+                    "_parent": "金框高级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级5",
+                                    "人机功效升级5",
+                                    "消声升级5",
+                                    "精度升级5",
+                                    "耐久升级5",
+                                    "降温升级5",
+                                    "重力升级5",
+                                    "容量升级1",
+                                    "空间升级1",
+                                    "空间升级2"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_pluginsadv_001",
+                    "_id": "高级升级插槽3_神化槽位1",
+                    "_parent": "金框高级升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级5",
+                                    "人机功效升级5",
+                                    "消声升级5",
+                                    "精度升级5",
+                                    "耐久升级5",
+                                    "降温升级5",
+                                    "重力升级5",
+                                    "容量升级1",
+                                    "空间升级1",
+                                    "空间升级2"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-升级插槽-高级插槽（金色）",
+            "ShortName": "升级插槽",
+            "Description": "一个升级插槽，拥有三个基础槽位和两个神话槽位，可以安装在任何武器上用以升级。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 120000,
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "CustomLootTarget": "590c60fc86f77412b13fddcf",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "作弊升级插槽": {
+        "_id": "作弊升级插槽",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "作弊升级插槽",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "red",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "slot_infinity.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": false,
+            "Slots": [
+                {
+                    "_name": "mod_plugins_000",
+                    "_id": "作弊升级插槽3_插件槽位0",
+                    "_parent": "作弊升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_plugins_001",
+                    "_id": "作弊升级插槽3_插件槽位1",
+                    "_parent": "作弊升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_plugins_002",
+                    "_id": "作弊升级插槽3_插件槽位2",
+                    "_parent": "作弊升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_plugins_003",
+                    "_id": "作弊升级插槽3_插件槽位3",
+                    "_parent": "作弊升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_plugins_004",
+                    "_id": "作弊升级插槽3_插件槽位4",
+                    "_parent": "作弊升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_plugins_005",
+                    "_id": "作弊升级插槽3_插件槽位5",
+                    "_parent": "作弊升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_plugins_006",
+                    "_id": "作弊升级插槽3_插件槽位6",
+                    "_parent": "作弊升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_plugins_007",
+                    "_id": "作弊升级插槽3_插件槽位7",
+                    "_parent": "作弊升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_plugins_008",
+                    "_id": "作弊升级插槽3_插件槽位8",
+                    "_parent": "作弊升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_pluginsadv_000",
+                    "_id": "作弊升级插槽3_神化槽位0",
+                    "_parent": "作弊升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级5",
+                                    "人机功效升级5",
+                                    "消声升级5",
+                                    "精度升级5",
+                                    "耐久升级5",
+                                    "降温升级5",
+                                    "重力升级5",
+                                    "容量升级1",
+                                    "空间升级1",
+                                    "空间升级2"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_pluginsadv_001",
+                    "_id": "作弊升级插槽3_神化槽位1",
+                    "_parent": "作弊升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级5",
+                                    "人机功效升级5",
+                                    "消声升级5",
+                                    "精度升级5",
+                                    "耐久升级5",
+                                    "降温升级5",
+                                    "重力升级5",
+                                    "容量升级1",
+                                    "空间升级1",
+                                    "空间升级2"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_pluginsadv_002",
+                    "_id": "作弊升级插槽3_神化槽位2",
+                    "_parent": "作弊升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级5",
+                                    "人机功效升级5",
+                                    "消声升级5",
+                                    "精度升级5",
+                                    "耐久升级5",
+                                    "降温升级5",
+                                    "重力升级5",
+                                    "容量升级1",
+                                    "空间升级1",
+                                    "空间升级2"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_pluginsadv_003",
+                    "_id": "作弊升级插槽3_神化槽位3",
+                    "_parent": "作弊升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级5",
+                                    "人机功效升级5",
+                                    "消声升级5",
+                                    "精度升级5",
+                                    "耐久升级5",
+                                    "降温升级5",
+                                    "重力升级5",
+                                    "容量升级1",
+                                    "空间升级1",
+                                    "空间升级2"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_pluginsadv_004",
+                    "_id": "作弊升级插槽3_神化槽位4",
+                    "_parent": "作弊升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级5",
+                                    "人机功效升级5",
+                                    "消声升级5",
+                                    "精度升级5",
+                                    "耐久升级5",
+                                    "降温升级5",
+                                    "重力升级5",
+                                    "容量升级1",
+                                    "空间升级1",
+                                    "空间升级2"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_pluginsadv_005",
+                    "_id": "作弊升级插槽3_神化槽位5",
+                    "_parent": "作弊升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级5",
+                                    "人机功效升级5",
+                                    "消声升级5",
+                                    "精度升级5",
+                                    "耐久升级5",
+                                    "降温升级5",
+                                    "重力升级5",
+                                    "容量升级1",
+                                    "空间升级1",
+                                    "空间升级2"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_pluginsadv_006",
+                    "_id": "作弊升级插槽3_神化槽位6",
+                    "_parent": "作弊升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级5",
+                                    "人机功效升级5",
+                                    "消声升级5",
+                                    "精度升级5",
+                                    "耐久升级5",
+                                    "降温升级5",
+                                    "重力升级5",
+                                    "容量升级1",
+                                    "空间升级1",
+                                    "空间升级2"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_pluginsadv_007",
+                    "_id": "作弊升级插槽3_神化槽位7",
+                    "_parent": "作弊升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级5",
+                                    "人机功效升级5",
+                                    "消声升级5",
+                                    "精度升级5",
+                                    "耐久升级5",
+                                    "降温升级5",
+                                    "重力升级5",
+                                    "容量升级1",
+                                    "空间升级1",
+                                    "空间升级2"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_pluginsadv_008",
+                    "_id": "作弊升级插槽3_神化槽位8",
+                    "_parent": "作弊升级插槽",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级5",
+                                    "人机功效升级5",
+                                    "消声升级5",
+                                    "精度升级5",
+                                    "耐久升级5",
+                                    "降温升级5",
+                                    "重力升级5",
+                                    "容量升级1",
+                                    "空间升级1",
+                                    "空间升级2"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-作弊升级插槽",
+            "ShortName": "升级插槽",
+            "Description": "一个升级插槽，拥有九个基础槽位和九个神话槽位，可以安装在任何武器上用以升级，现在你可以随便用你想用的武器了。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 180000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "590c60fc86f77412b13fddcf",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "精度升级1": {
+        "_id": "精度升级1",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "精度升级1",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "default",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_accuracy_1.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "Durability": 100,
+            "Accuracy": 5,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-基础升级插件-精度升级（普通）",
+            "ShortName": "基础插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够提升武器精度。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 5000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5b7be4895acfc400170e2dd5",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "精度升级2": {
+        "_id": "精度升级2",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "精度升级2",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_accuracy_2.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "Durability": 100,
+            "Accuracy": 10,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-基础升级插件-精度升级（稀有）",
+            "ShortName": "基础插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够提升武器精度。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 15000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5b7be4895acfc400170e2dd5",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "精度升级3": {
+        "_id": "精度升级3",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "精度升级3",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "violet",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_accuracy_3.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "Durability": 100,
+            "Accuracy": 15,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-基础升级插件-精度升级（史诗）",
+            "ShortName": "基础插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够提升武器精度。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 40000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5b7be4895acfc400170e2dd5",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "精度升级4": {
+        "_id": "精度升级4",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "精度升级4",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_accuracy_4.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "Durability": 100,
+            "Accuracy": 20,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-基础升级插件-精度升级（传奇）",
+            "ShortName": "基础插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够提升武器精度。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 70000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5b7be4895acfc400170e2dd5",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "精度升级5": {
+        "_id": "精度升级5",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "精度升级5",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "red",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_accuracy_5.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "ConflictingItems": [],
+            "Durability": 100,
+            "Accuracy": 30,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-神话升级插件-精度升级",
+            "ShortName": "神话插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够显著提升武器精度。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 120000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5b7be4895acfc400170e2dd5",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "降温升级1": {
+        "_id": "降温升级1",
+        "_targetid": "5caf17c9ae92150b30006be1",
+        "_name": "降温升级1",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "default",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_cooldown_1.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "ExtraSizeLeft": 0,
+            "DurabilityBurnModificator": 1,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 0.95,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-基础升级插件-降温升级（普通）",
+            "ShortName": "基础插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够降低武器的过热速度。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 5000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5caf17c9ae92150b30006be1",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "降温升级2": {
+        "_id": "降温升级2",
+        "_targetid": "5caf17c9ae92150b30006be1",
+        "_name": "降温升级2",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_cooldown_2.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "ExtraSizeLeft": 0,
+            "DurabilityBurnModificator": 1,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 0.9,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-基础升级插件-降温升级（稀有）",
+            "ShortName": "基础插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够降低武器的过热速度。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 15000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5caf17c9ae92150b30006be1",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "降温升级3": {
+        "_id": "降温升级3",
+        "_targetid": "5caf17c9ae92150b30006be1",
+        "_name": "降温升级3",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "violet",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_cooldown_3.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "ExtraSizeLeft": 0,
+            "DurabilityBurnModificator": 1,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 0.85,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-基础升级插件-降温升级（史诗）",
+            "ShortName": "基础插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够降低武器的过热速度。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 40000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5caf17c9ae92150b30006be1",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "降温升级4": {
+        "_id": "降温升级4",
+        "_targetid": "5caf17c9ae92150b30006be1",
+        "_name": "降温升级4",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_cooldown_4.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "ExtraSizeLeft": 0,
+            "DurabilityBurnModificator": 1,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 0.8,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-基础升级插件-降温升级（传奇）",
+            "ShortName": "基础插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够降低武器的过热速度。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 70000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5caf17c9ae92150b30006be1",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "降温升级5": {
+        "_id": "降温升级5",
+        "_targetid": "5caf17c9ae92150b30006be1",
+        "_name": "降温升级5",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_cooldown_5.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "ConflictingItems": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "ExtraSizeLeft": 0,
+            "DurabilityBurnModificator": 1,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 0.7,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-神话升级插件-降温升级",
+            "ShortName": "神话插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够显著降低武器的过热速度。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 120000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5caf17c9ae92150b30006be1",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "消声升级5": {
+        "_id": "消声升级5",
+        "_targetid": "593d489686f7745c6255d58a",
+        "_name": "消声升级5",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "red",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_silence_5.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "ConflictingItems": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "ExtraSizeLeft": 0,
+            "Loudness": -60,
+            "DurabilityBurnModificator": 1.5,
+            "Ergonomics": -20,
+            "EffectiveDistance": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-神话升级插件-消声升级",
+            "ShortName": "神话插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够降低开火声音。\n其实只有能装消音器的枪才有效。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 120000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "593d489686f7745c6255d58a",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "容量升级1": {
+        "_id": "容量升级1",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "容量升级1",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "red",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_container_1.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [
+                {
+                    "_name": "mod_plugins_000",
+                    "_id": "容量升级1_插件槽位0",
+                    "_parent": "容量升级1",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_plugins_001",
+                    "_id": "容量升级1_插件槽位1",
+                    "_parent": "容量升级1",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "后坐力升级1",
+                                    "后坐力升级2",
+                                    "后坐力升级3",
+                                    "后坐力升级4",
+                                    "人机功效升级1",
+                                    "人机功效升级2",
+                                    "人机功效升级3",
+                                    "人机功效升级4",
+                                    "精度升级1",
+                                    "精度升级2",
+                                    "精度升级3",
+                                    "精度升级4",
+                                    "耐久升级1",
+                                    "耐久升级2",
+                                    "耐久升级3",
+                                    "耐久升级4",
+                                    "降温升级1",
+                                    "降温升级2",
+                                    "降温升级3",
+                                    "降温升级4",
+                                    "重力升级1",
+                                    "重力升级2",
+                                    "重力升级3",
+                                    "重力升级4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "ConflictingItems": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "DurabilityBurnModificator": 1,
+            "Ergonomics": 0,
+            "EffectiveDistance": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-神话升级插件-容量扩展升级",
+            "ShortName": "神话插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够提供两个额外的基础槽位。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 120000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5b7be4895acfc400170e2dd5",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "空间升级1": {
+        "_id": "空间升级1",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "空间升级1",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "red",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_space_1.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "ConflictingItems": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "ExtraSizeRight": -1,
+            "ExtraSizeForceAdd": true,
+            "Loudness": 0,
+            "DurabilityBurnModificator": 1,
+            "Ergonomics": 0,
+            "EffectiveDistance": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-神话升级插件-水平空间升级",
+            "ShortName": "神话插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够在水平方向上减少武器占用空间。\n注：它会强制减小空间，对升级插槽本体也有效，请谨慎使用。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 120000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5b7be4895acfc400170e2dd5",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "空间升级2": {
+        "_id": "空间升级2",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "空间升级2",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "red",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_space_2.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "ConflictingItems": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "ExtraSizeUp": -1,
+            "ExtraSizeForceAdd": true,
+            "Loudness": 0,
+            "DurabilityBurnModificator": 1,
+            "Ergonomics": 0,
+            "EffectiveDistance": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-神话升级插件-纵直空间升级",
+            "ShortName": "神话插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够在纵直方向上减少武器占用空间。\n注：它会强制减小空间，对升级插槽本体也有效，请谨慎使用。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 120000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5b7be4895acfc400170e2dd5",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "耐久升级1": {
+        "_id": "耐久升级1",
+        "_targetid": "5caf17c9ae92150b30006be1",
+        "_name": "耐久升级1",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "default",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_durability_1.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "ExtraSizeLeft": 0,
+            "DurabilityBurnModificator": 0.95,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-基础升级插件-耐久升级（普通）",
+            "ShortName": "基础插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够降低武器耐久的损耗速度。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 5000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5caf17c9ae92150b30006be1",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "耐久升级2": {
+        "_id": "耐久升级2",
+        "_targetid": "5caf17c9ae92150b30006be1",
+        "_name": "耐久升级2",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_durability_2.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "ExtraSizeLeft": 0,
+            "DurabilityBurnModificator": 0.9,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-基础升级插件-耐久升级（稀有）",
+            "ShortName": "基础插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够降低武器耐久的损耗速度。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 15000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5caf17c9ae92150b30006be1",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "耐久升级3": {
+        "_id": "耐久升级3",
+        "_targetid": "5caf17c9ae92150b30006be1",
+        "_name": "耐久升级3",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "violet",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_durability_3.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "ExtraSizeLeft": 0,
+            "DurabilityBurnModificator": 0.85,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-基础升级插件-耐久升级（史诗）",
+            "ShortName": "基础插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够降低武器耐久的损耗速度。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 40000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5caf17c9ae92150b30006be1",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "耐久升级4": {
+        "_id": "耐久升级4",
+        "_targetid": "5caf17c9ae92150b30006be1",
+        "_name": "耐久升级4",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_durability_4.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "ExtraSizeLeft": 0,
+            "DurabilityBurnModificator": 0.8,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-基础升级插件-耐久升级（传奇）",
+            "ShortName": "基础插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够降低武器耐久的损耗速度。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 70000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5caf17c9ae92150b30006be1",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "耐久升级5": {
+        "_id": "耐久升级5",
+        "_targetid": "5caf17c9ae92150b30006be1",
+        "_name": "耐久升级5",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "red",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_durability_5.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "ConflictingItems": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "ExtraSizeLeft": 0,
+            "DurabilityBurnModificator": 0.7,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-神话升级插件-耐久升级",
+            "ShortName": "神话插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够显著降低武器耐久的损耗速度。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 120000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5caf17c9ae92150b30006be1",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "人机功效升级1": {
+        "_id": "人机功效升级1",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "人机功效升级1",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "default",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_ergonomic_1.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 4,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-基础升级插件-人机功效升级（普通）",
+            "ShortName": "基础插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够提高武器的人机功效。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 5000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5b7be4895acfc400170e2dd5",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "人机功效升级2": {
+        "_id": "人机功效升级2",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "人机功效升级2",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_ergonomic_2.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 8,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-基础升级插件-人机功效升级（稀有）",
+            "ShortName": "基础插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够提高武器的人机功效。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 15000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5b7be4895acfc400170e2dd5",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "人机功效升级3": {
+        "_id": "人机功效升级3",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "人机功效升级3",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "violet",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_ergonomic_3.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 12,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-基础升级插件-人机功效升级（史诗）",
+            "ShortName": "基础插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够提高武器的人机功效。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 40000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5b7be4895acfc400170e2dd5",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "人机功效升级4": {
+        "_id": "人机功效升级4",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "人机功效升级4",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_ergonomic_4.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 16,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-基础升级插件-人机功效升级（传奇）",
+            "ShortName": "基础插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够提高武器的人机功效。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 70000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5b7be4895acfc400170e2dd5",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "人机功效升级5": {
+        "_id": "人机功效升级5",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "人机功效升级5",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "red",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_ergonomic_5.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "ConflictingItems": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 24,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-神话升级插件-人机功效升级",
+            "ShortName": "神话插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够显著提高武器的人机功效。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 120000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5b7be4895acfc400170e2dd5",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "后坐力升级1": {
+        "_id": "后坐力升级1",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "后坐力升级1",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "default",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_recoil_1.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": -3,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-基础升级插件-后坐力升级（普通）",
+            "ShortName": "基础插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够降低武器的后坐力。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 5000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5b7be4895acfc400170e2dd5",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "后坐力升级2": {
+        "_id": "后坐力升级2",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "后坐力升级2",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_recoil_2.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": -6,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-基础升级插件-后坐力升级（稀有）",
+            "ShortName": "基础插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够降低武器的后坐力。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 15000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5b7be4895acfc400170e2dd5",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "后坐力升级3": {
+        "_id": "后坐力升级3",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "后坐力升级3",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "violet",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_recoil_3.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": -9,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-基础升级插件-后坐力升级（史诗）",
+            "ShortName": "基础插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够降低武器的后坐力。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 40000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5b7be4895acfc400170e2dd5",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "后坐力升级4": {
+        "_id": "后坐力升级4",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "后坐力升级4",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_recoil_4.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": -12,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-基础升级插件-后坐力升级（传奇）",
+            "ShortName": "基础插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够降低武器的后坐力。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 70000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5b7be4895acfc400170e2dd5",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "后坐力升级5": {
+        "_id": "后坐力升级5",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "后坐力升级5",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "red",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_recoil_5.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "ConflictingItems": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": -20,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-神话升级插件-后坐力升级",
+            "ShortName": "神话插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够显著降低武器的后坐力。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 120000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5b7be4895acfc400170e2dd5",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "重力升级1": {
+        "_id": "重力升级1",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "重力升级1",
+        "_props": {
+            "Weight": -0.25,
+            "BackgroundColor": "default",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_weight_1.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "ExtraSizeLeft": 0,
+            "DurabilityBurnModificator": 1,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-基础升级插件-重力升级（普通）",
+            "ShortName": "基础插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够降低武器的重量。\n由于它的重量是负数，所以其实你也可以把它塞进背包里。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 5000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5b7be4895acfc400170e2dd5",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "重力升级2": {
+        "_id": "重力升级2",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "重力升级2",
+        "_props": {
+            "Weight": -0.5,
+            "BackgroundColor": "blue",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_weight_2.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "ExtraSizeLeft": 0,
+            "DurabilityBurnModificator": 1,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-基础升级插件-重力升级（稀有）",
+            "ShortName": "基础插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够降低武器的重量。\n由于它的重量是负数，所以其实你也可以把它塞进背包里。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 15000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5b7be4895acfc400170e2dd5",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "重力升级3": {
+        "_id": "重力升级3",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "重力升级3",
+        "_props": {
+            "Weight": -0.75,
+            "BackgroundColor": "violet",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_weight_3.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "ExtraSizeLeft": 0,
+            "DurabilityBurnModificator": 1,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-基础升级插件-重力升级（史诗）",
+            "ShortName": "基础插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够降低武器的重量。\n由于它的重量是负数，所以其实你也可以把它塞进背包里。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 40000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5b7be4895acfc400170e2dd5",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "重力升级4": {
+        "_id": "重力升级4",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "重力升级4",
+        "_props": {
+            "Weight": -1,
+            "BackgroundColor": "yellow",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_weight_4.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "ExtraSizeLeft": 0,
+            "DurabilityBurnModificator": 1,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-基础升级插件-重力升级（传奇）",
+            "ShortName": "基础插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够降低武器的重量。\n由于它的重量是负数，所以其实你也可以把它塞进背包里。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 70000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5b7be4895acfc400170e2dd5",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    },
+    "重力升级5": {
+        "_id": "重力升级5",
+        "_targetid": "5b7be4895acfc400170e2dd5",
+        "_name": "重力升级5",
+        "_props": {
+            "Weight": -2,
+            "BackgroundColor": "red",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "upgrade_weight_5.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": true,
+            "Slots": [],
+            "ConflictingItems": [],
+            "Durability": 100,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "Loudness": 0,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "Velocity": 0,
+            "SightingRange": 0,
+            "ExtraSizeLeft": 0,
+            "DurabilityBurnModificator": 1,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "HeatFactor": 1,
+            "CoolFactor": 1
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "枪械武术-神话升级插件-重力升级",
+            "ShortName": "神话插件",
+            "Description": "一个升级插件，可以安装在升级插槽上，能够显著降低武器的重量。\n由于它的重量是负数，所以其实你也可以把它塞进背包里。",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "DefaultPrice": 120000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "5b7be4895acfc400170e2dd5",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 10
+        }
+    }
+}

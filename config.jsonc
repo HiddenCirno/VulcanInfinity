@@ -1,0 +1,1045 @@
+{
+  //全局通用设置
+  "Global": {
+    //游戏内应用的添加者字段, 请不要擅自修改
+    "ModName": "<color=#AA0000>火</color><color=#FFAA00>神</color><color=#FFFF55>重</color><color=#00AA00>工</color><color=#5555FF> : </color><color=#00AAAA>无</color><color=#AA00AA>限</color>"
+  },
+  //各类模块设置
+  "Module": {
+    //核心模块
+    "CoreModule": {
+      //RITC模块配置
+      //WIP
+      "RITC": {
+        //是否启用此模块
+        "Active": true
+      },
+      //牛奶盒模块配置
+      "MilkCore": {
+        //是否启用此模块
+        "Active": true
+      },
+      //火神重工模块配置
+      "VulcanMod": {
+        //是否启用此模块
+        "Active": true,
+        //配置部分
+        "Config": {
+          //全局配置
+          "Global": {
+            //用于为外勤人员公文包生成内容过滤器的数据
+            //此部分已失去作用, 仅做保留
+            "BagData": {
+              //用于为外勤人员公文包生成内容过滤器的跳蚤市场标签
+              "RagfairTag": [
+                "5b47574386f77428ca22b2f1",
+                "5b47574386f77428ca22b337",
+                "5b47574386f77428ca22b33a",
+                "5b47574386f77428ca22b33b",
+                "5b47574386f77428ca22b341",
+                "5b47574386f77428ca22b345",
+                "5b5f78b786f77447ed5636af",
+                "5c518ec986f7743b68682ce2",
+                "5c518ed586f774119a772aee",
+                "5b47574386f77428ca22b339",
+                "5b47574386f77428ca22b336",
+                "5b47574386f77428ca22b335"
+              ],
+              //用于为外勤人员公文包生成内容过滤器的物品ID
+              "Item": [
+                "59f32bb586f774757e1e8442",
+                "6662e9aca7e0b43baa3d5f74",
+                "6662e9cda7e0b43baa3d5f76",
+                "59f32c3b86f77472a31742f0",
+                "6662e9f37fa79a6d83730fa0",
+                "6662ea05f6259762c56f3189",
+                "5bc9c049d4351e44f824d360",
+                "5c0fa877d174af02a012e1cf",
+                "59fafd4b86f7745ca07e1232",
+                "62a09d3bcf4a99369e262447",
+                "5783c43d2459774bbe137486",
+                "60b0f6c058e0b0481a09ad11",
+                "619cbf9e0a7c3a1a2731940a",
+                "阿萨兰之爪"
+              ]
+            },
+            //容器配置
+            "Container": {
+              //是否启用容器修改
+              "Active": true,
+              //修改后的主播物品箱内容亮大小, 分别是行和列数
+              "Twitch_Continer": [
+                12,
+                12
+              ]
+            }
+          },
+          //钥匙修改配置
+          "KeyEdit": {
+            //是否启用钥匙修改
+            "Active": true,
+            //机械钥匙配置
+            "MachineKeyCount": {
+              //普通机械钥匙的次数, 原版默认为40, Mod配置默认为100, 无限次数请填写9999
+              "Normal": 100,
+              //少部分特殊钥匙的次数(如工厂钥匙, 15号公寓钥匙等), 原版默认为20, Mod配置默认为50, 无限次数请填写9999
+              "Rare": 50,
+              //邪教钥匙的次数(如Chek.13, 符号钥匙等), 原版默认为10, Mod配置默认为25, 无限次数请填写9999
+              "Sectant": 25,
+              //极少部分特殊钥匙的次数(Shturman钥匙和带血的锈蚀钥匙等一次性钥匙), 原版默认为1, Mod配置默认为1, 无限次数请填写9999
+              "Special": 1,
+              //自定义模板1的次数配置
+              "Custom1": 0,
+              //自定义模板2的次数配置
+              "Custom2": 0,
+              //自定义模板3的次数配置
+              "Custom3": 0
+            },
+            //机械钥匙详细配置
+            "MachineKeyList": {
+              //从上到下分别为工厂钥匙, 15号公寓钥匙, 1休息室钥匙, 1公寓管理员钥匙和四把冠军房钥匙(按照首字母排序)
+              "Rare": [
+                "5448ba0b4bdc2d02308b456c",
+                "63a39fc0af870e651d58e6ae",
+                "6582dbf0b8d7830efc45016f",
+                "664d4b0103ef2c61246afb56",
+                "664d3dd590294949fe2d81b7",
+                "664d3de85f2355673b09aed5",
+                "664d3db6db5dea2bad286955",
+                "664d3ddfdda2e85aca370d75"
+              ],
+              //按次序为废弃工厂, 符号, 套间符号, 神秘房间, VO, BK, PKPM, 储备站通用符号钥匙
+              "Sectant": [
+                "63a3a93f8a56922e82001f5d",
+                "5780cf7f2459777de4559322",
+                "62987dfc402c7f69bf010923",
+                "64ccc25f95763a1ae376e447",
+                "5d80c62a86f7744036212b3f",
+                "5d80c60f86f77440373c4ece",
+                "5ede7a8229445733cb4c18e2",
+                "6731acfab204ed439a4f8405"
+              ],
+              //Shturman钥匙与血腥钥匙
+              "Special": [
+                "5d08d21286f774736e7c94c3",
+                "64d4b23dc1b37504b41ac2b6"
+              ],
+              //自定义模板1, 用于实现额外的修改支持
+              "Custom1": [],
+              //自定义模板2, 用于实现额外的修改支持
+              "Custom2": [],
+              //自定义模板3, 用于实现额外的修改支持
+              "Custom3": [],
+              //不会被修改影响的钥匙列表
+              "BlackList": [
+                "仿制工厂钥匙",
+                "永恒工厂钥匙",
+                "通用符号钥匙",
+                "宿舍管理员钥匙",
+                "疗养院管理员钥匙",
+                "储备站管理员钥匙",
+                "实验室管理员钥匙卡",
+                "永恒ZB014钥匙",
+                "仿制符号钥匙",
+                "仿制114钥匙",
+                "仿制206钥匙",
+                "仿制操作间钥匙",
+                "仿制废弃工厂钥匙",
+                "仿制隔间钥匙",
+                "永恒符号钥匙",
+                "永恒15号公寓钥匙",
+                "仿制15号公寓钥匙",
+                "永恒Shturman钥匙",
+                "永恒废弃工厂钥匙",
+                "永恒神秘房间钥匙",
+                "永恒封闭区域钥匙",
+                "永恒宿舍管理员钥匙",
+                "永恒疗养院管理员钥匙",
+                "永恒储备站管理员钥匙",
+                "立交桥管理员钥匙",
+                "永恒立交桥管理员钥匙",
+                "KIBA老板钥匙"
+              ]
+            }
+          },
+          //狗牌生成配置
+          "DogTagGenerate": {
+            //是否允许AI生成狗牌
+            "Active": true,
+            //数据配置部分
+            "Config": {
+              //携带狗牌的AI列表
+              "AIApplyList": [
+                "assault",
+                "bosstagilla",
+                "bossbully",
+                "bossboar",
+                "bossgluhar",
+                "bosssanitar",
+                "bosskilla",
+                "bosskojaniy",
+                "bosszryachiy",
+                "bosskolontay",
+                "bossknight",
+                "bosspartisan",
+                "followerbigpipe",
+                "followerbirdeye",
+                "sectantpriest",
+                "sectantwarrior",
+                "marksman",
+                "cursedassault",
+                "followerbully",
+                "followergluharassault",
+                "followergluharscout",
+                "followergluharsecurity",
+                "followergluharsnipe",
+                "followerkolontay",
+                "followerboarclose1",
+                "followerboarclose2",
+                "followerkolontayassault",
+                "followerkolontaysecurity",
+                "followersanitar",
+                "followerboar",
+                "pmcbot",
+                "exusec",
+                "bossboarsniper",
+                "arenafighter",
+                "arenafighterevent",
+                "crazyassaultevent",
+                "gifter"
+              ],
+              //使用Boss狗牌的AI列表
+              //此部分已失去作用, 仅做保留
+              "BossList": [
+                "bosstagilla",
+                "bossbully",
+                "bossboar",
+                "bossgluhar",
+                "bosssanitar",
+                "bosskilla",
+                "bosskojaniy",
+                "bosszryachiy",
+                "bosskolontay",
+                "bossknight",
+                "followerbigpipe",
+                "followerbirdeye",
+                "bosspartisan"
+              ]
+            }
+          },
+          //AI装备修改部分
+          "BotEdit": {
+            //启用修改后的Reshala男团
+            "ReshalaEdit": true,
+            //修改过的Boss刷新率, 目前只影响Reshala, 此部分可能在未来发生变化
+            "ReshalaChance": 40,
+            //是否允许MC头套在AI身上生成
+            "EnableMCHead": true,
+            //MC头套的详细引用数据, 请勿随意修改
+            "MCHeadData": [
+              {
+                "Bot": [
+                  "assault",
+                  "cursedassault"
+                ],
+                "Data": [
+                  [
+                    "MC南瓜头",
+                    "45"
+                  ],
+                  [
+                    "史蒂夫头",
+                    "45"
+                  ],
+                  [
+                    "小黑头",
+                    "30"
+                  ],
+                  [
+                    "僵尸头",
+                    "30"
+                  ],
+                  [
+                    "骷髅头",
+                    "30"
+                  ],
+                  [
+                    "凋灵骷髅头",
+                    "30"
+                  ]
+                ],
+                "ForceGenerate": false
+              },
+              {
+                "Bot": [
+                  "bear",
+                  "usec"
+                ],
+                "Data": [
+                  [
+                    "MC南瓜头",
+                    "5"
+                  ],
+                  [
+                    "史蒂夫头",
+                    "5"
+                  ],
+                  [
+                    "小黑头",
+                    "5"
+                  ],
+                  [
+                    "僵尸头",
+                    "5"
+                  ],
+                  [
+                    "骷髅头",
+                    "5"
+                  ],
+                  [
+                    "凋灵骷髅头",
+                    "5"
+                  ],
+                  [
+                    "凋灵头",
+                    "2"
+                  ],
+                  [
+                    "HIM头",
+                    "1"
+                  ]
+                ],
+                "ForceGenerate": false
+              },
+              {
+                "Bot": [
+                  "sectantpriest"
+                ],
+                "Data": [
+                  [
+                    "凋灵头",
+                    "9"
+                  ],
+                  [
+                    "HIM头",
+                    "1"
+                  ]
+                ],
+                "ForceGenerate": false
+              },
+              {
+                "Bot": [
+                  "sectantwarrior"
+                ],
+                "Data": [
+                  [
+                    "MC南瓜头",
+                    "10"
+                  ],
+                  [
+                    "小黑头",
+                    "10"
+                  ],
+                  [
+                    "僵尸头",
+                    "10"
+                  ],
+                  [
+                    "骷髅头",
+                    "10"
+                  ],
+                  [
+                    "凋灵骷髅头",
+                    "10"
+                  ],
+                  [
+                    "凋灵头",
+                    "1"
+                  ]
+                ],
+                "ForceGenerate": true
+              },
+              {
+                "Bot": [
+                  "bosstagilla"
+                ],
+                "Data": [
+                  [
+                    "凋灵头",
+                    "15"
+                  ],
+                  [
+                    "HIM头",
+                    "5"
+                  ],
+                  [
+                    "作者头",
+                    "5"
+                  ]
+                ],
+                "ForceGenerate": false
+              }
+            ],
+            //是否允许AI身上生成部分Mod物品作为战利品
+            "EnableExtraLoot": true,
+            //战利品配置数据, 请勿随意修改
+            "LootData": [
+              {
+                "Bot": [
+                  "assault"
+                ],
+                "Inventory": [
+                  "Backpack",
+                  "Pockets",
+                  "TacticalVest"
+                ],
+                "Item": [
+                  [
+                    "高浓缩咖啡方糖",
+                    "25"
+                  ],
+                  [
+                    "Vulcan高能量蛋白棒",
+                    "15"
+                  ],
+                  [
+                    "Vulcan便携能量饮料包",
+                    "15"
+                  ]
+                ]
+              },
+              {
+                "Bot": [
+                  "bosssanitar",
+                  "bossknight",
+                  "followerbigpipe",
+                  "followerbirdeye",
+                  "bossgluhar",
+                  "bosskojaniy",
+                  "bosstagilla",
+                  "bosskilla",
+                  "bossboar",
+                  "bosskolontay",
+                  "bosspartisan"
+                ],
+                "Inventory": [
+                  "Pockets"
+                ],
+                "Item": [
+                  [
+                    "Vulcan活力因子激活血清",
+                    "15"
+                  ]
+                ]
+              }
+            ],
+            //异格Boss配置
+            "AlterBoss": {
+              //是否启用异格Boss生成
+              "Active": true,
+              //异格Boss生成概率
+              "Chance": {
+                //异格Goons小队的生成概率
+                "Goons": 50,
+                //异格Sanitar的生成概率
+                "Sanitar": 50,
+                //异格Gluhar的生成概率
+                "Gluhar": 50,
+                //异格Kolontay的生成概率
+                "Kolontay": 50
+              }
+            },
+            //是否允许Kaban在海岸线的走私者营地生成, 此选项是为了让低配电脑在难以流畅运行街区的情况下能够完成Kaban的Boss任务, 概率默认为40
+            "AddKabanInShoreline": true
+          },
+          //藏身处修改配置
+          "HideoutEdit": {
+            //是否启用藏身处修改
+            "Active": true,
+            //是否启用配方注入的额外内容
+            "EnableRecipeEdit": true,
+            //是否启用Mod添加的额外配方
+            "EnableModRecipe": true,
+            //是否将藏身处回滚到旧版本(所有物品无需战局中找到状态)
+            "RevertHideout": true
+          },
+          //转生修改配置
+          "Prestige": {
+            //是否启用转生修改
+            "Active": true,
+            //转生时转移物品到下一世代的空间大小, 所有世代统一修改
+            "PrestigeTransferSetting": [
+              12,
+              12
+            ],
+            //是否移除转移物品类型限制
+            "RemoveTransferLimit": true,
+            //转生时保留技能等级的比例, 范围0-1, 默认为1(即全部保留), 由于技术问题, 目前对技能和专精等级的保留比例修改无法生效, 尼基塔你妈死了
+            //4.0以上这个技术问题得到了解决, 赞美SPT
+            "PrestigeSkillPersent": 1,
+            //转生时保留专精等级的比例, 范围0-1, 默认为1(即全部保留), 由于技术问题, 目前对技能和专精等级的保留比例修改无法生效, 尼基塔你妈死了
+            //4.0以上这个技术问题得到了解决, 赞美SPT
+            "PrestigeMasteringPersent": 1
+          },
+          //加载文本修改配置
+          "LoadText": {
+            //是否启用加载文本替换功能, 启用后「配置数据加载中…」的加载字样将会替换成tips文本, 每次启动游戏随机刷新
+            "Active": true,
+            //是否启用加载文本的颜色, 启用后加载文本将会显示为设置的颜色
+            "EnableTextColor": true,
+            //加载文本的颜色, 默认为黄色, 格式为十六进制标准颜色代码
+            "TextColor": "#FFFF55"
+          },
+          //杂项修改配置
+          "Misc": {
+            //BTR修改配置
+            "BTRSettings": {
+              //是否启用BTR修改
+              "Active": true,
+              //使用BTR运送物品时的空间大小, 默认修改为10x10, 无视好感影响
+              "DeliverSpeace": [
+                10,
+                10
+              ],
+              //是否启用免费运送物品, 由于原版算法问题, 转移价格需要至少为1, 所以无法实现完全免费
+              "FreeDeliver": true
+            },
+            //转移点修改配置
+            "TransitSettings": {
+              //是否启用转移点修改
+              "Active": true,
+              //使用转移点运送物品时的空间大小, 默认修改为10x10, 无视好感影响
+              "DeliverSpeace": [
+                10,
+                10
+              ],
+              //是否启用免费运送物品, 由于原版算法问题, 转移价格需要至少为1, 所以无法实现完全免费
+              "FreeDeliver": true
+            },
+            //邪教圈修改配置
+            "CultistCircleSettings": {
+              //是否启用邪教圈修改
+              "Active": true,
+              //邪教圈允许献祭物品的空间大小, 修改为10x10
+              "CircleSpace": [
+                10,
+                10
+              ],
+              //邪教圈获得的物品奖励的价格浮动区间
+              "RewardPriceMutipler": [
+                1.2,
+                2.0
+              ],
+              //邪教圈允许献祭物品的最大数量, 默认为5, 由于尼基塔的傻逼代码, 这条参数修改无效
+              "MaxInputCount": 5,
+              //邪教圈允许获得物品的最大数量, 默认为5
+              "MaxRewardCount": 5,
+              //是否移除邪教圈献祭物品类型限制
+              "RemoveInputItemLimit": true
+            }
+          }
+        }
+      },
+      //通用辅助配置
+      "ScriptTrainer": {
+        //是否启用通用辅助
+        "Active": true,
+        //配置部分
+        "Config": {
+          //全局配置
+          "Global": {
+            //是否移除黑商好感惩罚, 启用后无视黑商好感, 所有受好感影响的内容都将视为最高好感
+            "RemoveFencePunish": true,
+            //是否移除Scav模式CD
+            "RemoveScavCD": true,
+            //是否移除任务所需要的等待时间
+            "RemoveQuestCD": true,
+            //维修护甲/武器时可能出现附魔效果的最低维修技能等级, 默认为10
+            "EnchantMinSkillLevel": 10,
+            //是否启用免费治疗
+            "EnableFreeHealing": true,
+            //是否启用摔落保护, 启用后将移除摔落伤害
+            "EnableFeatherFall": true,
+            //是否强制启用所有撤离点
+            "EnableAllExitPoint": true,
+            //是否将所有撤离点恒定为开启
+            "SetExitPointAlwaysAvaiable": true,
+            //额外的零散战利品倍率, 默认为2
+            "LootRate": 2,
+            //是否启用死亡不掉落
+            "EnableKeepInventory": false,
+            //是否强制解锁所有报价单, 启用后所有需要任务解锁的报价单都将自动解锁
+            "ForceUnlockAssort": false,
+            //是否移除所有商人信任度需求, 启用后商人提升信任等级不再需要信任度
+            "RemoveTraderStandingRequire": false,
+            //是否移除所有商人交易额需求, 启用后商人提升信任等级不再需要交易额
+            "RemoveTraderMoneyRequire": false,
+            //是否为子弹开启保险功能, 启用后将允许你为弹药进行投保
+            "EnableAmmoInsurance": false,
+            //是否启用简单健身房
+            "EnableEasyExercise": true,
+            //是否移除子弹重量
+            "RemoveAmmoWeight": true,
+            //子弹堆叠倍率
+            "AmmoStackMutiple": 1,
+            //卢布堆叠倍率
+            "RubsStackMutiple": 10,
+            //美元&欧元堆叠倍率
+            "DollarAndEuroStackMutiple": 2,
+            //GP币堆叠倍率
+            "GPCoinsStackMutiple": 1
+
+          },
+          //跳蚤市场配置
+          "Ragfair": {
+            //是否启用跳蚤市场报价单数量修改
+            "EnableOfferCountEdit": true,
+            //修改过的报价单数量, 无视信誉度, 不要调太高
+            "OfferCount": 16,
+            //修改过的手续费倍率, 默认为0.01
+            "OfferPriceRate": 0.01,
+            //修改过的跳蚤市场开启等级, 默认为10
+            "RagfairLevel": 10
+          },
+          //技能配置
+          "Skill": {
+            //是否启用技能提升速度倍率修改
+            "EnableSkillSpeedEdit": true,
+            //技能提升速度倍率, 默认为2
+            "SkillSpeed": 2,
+            //是否移除技能升级疲劳, 由于计算机制存在缺陷, 移除技能疲劳会导致某些技能(比如代谢)以极高的速度升级, 介意请慎用此项功能
+            "RemoveSkillFatigue": true
+          },
+          //AI生成配置
+          "AISpawn": {
+            //Boss配置
+            "Boss": {
+              //是否启用Boss刷新率修改
+              "Active": true,
+              //修改过的Boss刷新率, 默认为40, 接近档末
+              "Chance": 40,
+              //用于查找数据的Boss列表, 请勿修改
+              "BossList": [
+                "bossPartisan",
+                "bossKnight",
+                "bossBully",
+                "bossBoar",
+                "bossTagilla",
+                "bossTagillaAgro",
+                "bossKilla",
+                "bossKojaniy",
+                "bossSanitar",
+                "bossKolontay",
+                "bossGluhar"
+              ]
+            },
+            //Pmc配置
+            "PMC": {
+              //是否启用Pmc刷新率修改
+              "Active": true,
+              //修改过的Bear刷新率, 设置为0疑似无法完全消除
+              "BearChance": 20,
+              //修改过的Usec刷新率, 设置为0疑似无法完全消除
+              "UsecChance": 20
+            },
+            //邪教徒配置
+            "Sectant": {
+              //是否启用邪教徒刷新率修改
+              "Active": true,
+              //修改过的邪教徒刷新率, 默认为20
+              "Chance": 20
+            },
+            //是否启用AI黑名单, 启用后将屏蔽某些特殊AI的刷新
+            "EnableBlackList": true,
+            //用于查找数据的黑名单列表, 请勿修改, 从上到下分别为skier与Peacekeeper活动AI, 疯狂scav活动AI
+            "BlackList": [
+              "skier",
+              "peacemaker",
+              "crazyAssaultEvent"
+            ],
+            //是否启用和平模式, 启用后所有AI将永远不会反抗你的攻击
+            "EnablePeacefulMode": false,
+            //是否启用共享模式, 启用后AIPMC将永远不会反抗你的攻击
+            "EnableShareMode": false,
+            //是否启用菜鸟模式, 启用后将极大幅度降低AI难度
+            "EnableNoobMode": true
+          }
+        }
+      },
+      //每日低保配置
+      //WIP
+      "SystemGift": {
+        //是否启用每日低保
+        "Active": true
+      },
+      //控制台配置
+      //WIP
+      "Console": {
+        //是否启用控制台
+        "Active": true
+      }
+    },
+    //商人模块
+    "TraderModule": {
+      //无限秘库配置
+      "InfinityStorage": {
+        //是否启用无限秘库
+        "Active": false,
+        //配置部分
+        "Config": {
+          //是否启用全局价格覆盖, 启用后无限秘库将以统一价格出售物品
+          "EnableOverridePrice": false,
+          //是否在商人界面显示商人
+          "ShowTraderInTraderPage": true,
+          //全局价格对应的货币物品ID
+          "MoneySet": "5449016a4bdc2d6f028b456f",
+          //全局价格
+          "MoneyCount": 1
+        }
+      },
+      //懒人枪匠配置
+      "GunSmith": {
+        //是否启用懒人枪匠
+        "Active": true,
+        //配置部分
+        "Config": {
+          //是否启用全局价格覆盖, 启用后所有枪械将使用固定的价格出售而非自动计算
+          "EnableOverridePrice": false,
+          //全局价格对应的货币物品ID
+          "MoneySet": "5449016a4bdc2d6f028b456f",
+          //全局价格
+          "MoneyCount": 10000,
+          //自动计算价格时的乘算系数, 默认为0.8, 即最终价格为原价的80%
+          "PriceReduceRate": 0.8,
+          //出售成品枪的商人, 填写商人ID, 默认为机械师(Mechanic)
+          "Trader": "5a7c2eca46aef81a7ca2145d"
+        }
+      },
+      //商人美化配置
+      "BeautyTrader": {
+        //是否启用商人美化
+        "Active": true,
+        //配置部分
+        "Config": {
+          //商人数据
+          "TraderData": {
+            "Prapor": {
+              // 商人所对应的ID
+              "TraderID": "54cb50c76803fa8b248b4571",
+              // 是否覆盖商人头像, 头像文件存放在Mod根目录/beautytrader/res目录下, 使用png格式
+              "OverrideTraderImage": true,
+              "TraderImageName": "prapor.png",
+              // 是否覆盖商人名称
+              "OverrideTraderName": false,
+              // 商人名称批量替换设置, 原名和新名
+              "TraderNameReplace": []
+            },
+            "Therapist": {
+              // 商人所对应的ID
+              "TraderID": "54cb57776803fa99248b456e",
+              // 是否覆盖商人头像, 头像文件存放在Mod根目录/beautytrader/res目录下, 使用png格式
+              "OverrideTraderImage": true,
+              "TraderImageName": "therapist.png",
+              // 是否覆盖商人名称
+              "OverrideTraderName": false,
+              // 商人名称批量替换设置, 原名和新名
+              "TraderNameReplace": []
+            },
+            "Fence": {
+              // 商人所对应的ID
+              "TraderID": "579dc571d53a0658a154fbec",
+              // 是否覆盖商人头像, 头像文件存放在Mod根目录/beautytrader/res目录下, 使用png格式
+              "OverrideTraderImage": true,
+              // 商人头像文件名
+              "TraderImageName": "fence.png",
+              // 是否覆盖商人名称
+              "OverrideTraderName": false,
+              // 商人名称批量替换设置, 原名和新名
+              "TraderNameReplace": []
+            },
+            "Skier": {
+              // 商人所对应的ID
+              "TraderID": "58330581ace78e27b8b10cee",
+              // 是否覆盖商人头像, 头像文件存放在Mod根目录/beautytrader/res目录下, 使用png格式
+              "OverrideTraderImage": true,
+              "TraderImageName": "skier.png",
+              // 是否覆盖商人名称
+              "OverrideTraderName": false,
+              // 商人名称批量替换设置, 原名和新名
+              "TraderNameReplace": []
+            },
+            "Peacekeeper": {
+              // 商人所对应的ID
+              "TraderID": "5935c25fb3acc3127c3d8cd9",
+              // 是否覆盖商人头像, 头像文件存放在Mod根目录/beautytrader/res目录下, 使用png格式
+              "OverrideTraderImage": true,
+              "TraderImageName": "peacekeeper.png",
+              // 是否覆盖商人名称
+              "OverrideTraderName": false,
+              // 商人名称批量替换设置, 原名和新名
+              "TraderNameReplace": []
+            },
+            "Mechanic": {
+              // 商人所对应的ID
+              "TraderID": "5a7c2eca46aef81a7ca2145d",
+              // 是否覆盖商人头像, 头像文件存放在Mod根目录/beautytrader/res目录下, 使用png格式
+              "OverrideTraderImage": true,
+              "TraderImageName": "mechanic.png",
+              // 是否覆盖商人名称
+              "OverrideTraderName": false,
+              // 商人名称批量替换设置, 原名和新名
+              "TraderNameReplace": []
+            },
+            "Ragman": {
+              // 商人所对应的ID
+              "TraderID": "5ac3b934156ae10c4430e83c",
+              // 是否覆盖商人头像, 头像文件存放在Mod根目录/beautytrader/res目录下, 使用png格式
+              "OverrideTraderImage": true,
+              "TraderImageName": "ragman.png",
+              // 是否覆盖商人名称
+              "OverrideTraderName": false,
+              // 商人名称批量替换设置, 原名和新名
+              "TraderNameReplace": []
+            },
+            "Jaeger": {
+              // 商人所对应的ID
+              "TraderID": "5c0647fdd443bc2504c2d371",
+              // 是否覆盖商人头像, 头像文件存放在Mod根目录/beautytrader/res目录下, 使用png格式
+              "OverrideTraderImage": true,
+              "TraderImageName": "jaeger.png",
+              // 是否覆盖商人名称
+              "OverrideTraderName": false,
+              // 商人名称批量替换设置, 原名和新名
+              "TraderNameReplace": []
+            },
+            "Ref": {
+              // 商人所对应的ID
+              "TraderID": "6617beeaa9cfa777ca915b7c",
+              // 是否覆盖商人头像, 头像文件存放在Mod根目录/beautytrader/res目录下, 使用png格式
+              "OverrideTraderImage": true,
+              "TraderImageName": "ref.png",
+              // 是否覆盖商人名称
+              "OverrideTraderName": true,
+              // 商人名称批量替换设置, 原名和新名
+              "TraderNameReplace": [
+                "竞技场裁判",
+                "Ref"
+              ]
+            },
+            "Lightkeeper": {
+              // 商人所对应的ID
+              "TraderID": "638f541a29ffd1183d187f57",
+              // 是否覆盖商人头像, 头像文件存放在Mod根目录/beautytrader/res目录下, 使用png格式
+              "OverrideTraderImage": true,
+              "TraderImageName": "lightkeeper.png",
+              // 是否覆盖商人名称
+              "OverrideTraderName": false,
+              // 商人名称批量替换设置, 原名和新名
+              "TraderNameReplace": []
+            }
+          }
+        }
+      },
+      //杂项配置
+      "Misc": {
+        //启用「随身老登」功能, 启用后将在商人页面显示灯塔商人以便于与任务进行互动
+        "ShowLightkeeperOnTraderPage": true,
+        //启用「随身司机」功能, 启用后将在商人页面显示BTR司机以便于与任务进行互动
+        "ShowBTRDriverrOnTraderPage": true
+      }
+    },
+    //物品模块
+    "ItemModule": {
+      //音乐收藏馆配置
+      "Music": {
+        //是否启用音乐收藏馆, 为防止生成出现错误, 启用此模块将清除所有头盔与耳机的冲突, 介意慎用
+        //疑似和Fika合作战局存在兼容性问题导致音量控制脚本失效, Fika单人战局不会出现此问题
+        "Active": true,
+        //配置部分
+        "Config": {
+          //启用商人出售, Debug功能
+          "EnableSellOnTrader": false,
+          //商人ID
+          "TraderID": "54cb57776803fa99248b456e"
+        }
+      },
+      //枪械武术配置
+      "GunFight": {
+        //是否启用枪械武术
+        "Active": true,
+        //配置部分
+        "Config": {
+          //启用商人出售, Debug功能
+          "EnableSellOnTrader": false,
+          //商人ID
+          "TraderID": "54cb57776803fa99248b456e",
+          //是否删除隐藏后坐力数值, 启用后后坐力数据降至0或以下时后坐力将真正归零
+          "DeleteInvisibleReciol": true,
+          //是否完全移除后坐力系统, 启用后所有枪械后坐力数值将不再有效
+          "CompletelyDeleteRecoil": false
+        }
+      },
+      //超级物品包配置
+      "ItemPack": {
+        //是否启用超级物品包
+        "Active": true,
+        //配置部分
+        "Config": {
+          //启用商人出售
+          "EnableSellOnTrader": true,
+          //商人ID
+          "TraderID": "54cb57776803fa99248b456e"
+        }
+      },
+      //ME存储
+      "MEStorage": {
+        //是否启用ME存储
+        "Active": true,
+        //配置部分
+        "Config": {
+          //启用商人出售
+          "EnableSellOnTrader": true,
+          //商人ID
+          "TraderID": "5a7c2eca46aef81a7ca2145d"
+        }
+      },
+      //万物压缩
+      "CompressEverything": {
+        //是否启用万物压缩
+        //开关此模块请从启动器清理缓存
+        "Active": false
+      }
+    },
+    //作战模块
+    "BattleModule": {
+      //箭头标记配置
+      "ArrowMarker": {
+        //是否启用箭头标记
+        "Active": true,
+        //配置部分
+        "Config": {
+          //启用商人出售, Debug功能
+          "EnableSellOnTrader": false,
+          //商人ID
+          "TraderID": "54cb57776803fa99248b456e",
+          //箭头标记的生成数据
+          //由于4.0发生变动, 此处数据已无实际作用, 仅做参阅保留
+          "MarkerData": [
+            {
+              "type": "boss",
+              "bot": [
+                "bossbully",
+                "bosssanitar",
+                "bossknight",
+                "bossgluhar",
+                "bosskojaniy",
+                "bosskilla",
+                "bosstagilla",
+                "followerbigpipe",
+                "followerbirdeye",
+                "bosszryachiy",
+                "bossboar",
+                "bosskolontay",
+                "bosspartisan"
+              ],
+              "mark": "红色箭头",
+              "special": "危标记"
+            },
+            {
+              "type": "scav",
+              "bot": [
+                "assault",
+                "cursedassault",
+                "crazyassaultevent"
+              ],
+              "mark": "米黄色箭头",
+              "special": "米黄色箭头"
+            },
+            {
+              "type": "sniper",
+              "bot": [
+                "marksman",
+                "bossboarsniper"
+              ],
+              "mark": "薄荷色箭头",
+              "special": "狙击标记"
+            },
+            {
+              "type": "rogue",
+              "bot": [
+                "exusec",
+                "pmcbot"
+              ],
+              "mark": "紫色箭头",
+              "special": "掠夺者标记"
+            },
+            {
+              "type": "sectant",
+              "bot": [
+                "sectantpriest",
+                "sectantwarrior"
+              ],
+              "mark": "毒绿色箭头",
+              "special": "邪教徒标记"
+            },
+            {
+              "type": "follower",
+              "bot": [
+                "followerbully",
+                "followergluharassault",
+                "followergluharscout",
+                "followergluharsecurity",
+                "followergluharsnipe",
+                "followerkojaniy",
+                "followersanitar",
+                "followertagilla",
+                "followerzryachiy",
+                "followerboar",
+                "followerboarclose1",
+                "followerboarclose2",
+                "followerkolontayassault",
+                "followerkolontaysecurity"
+              ],
+              "mark": "粉色箭头",
+              "special": "粉色箭头"
+            },
+            {
+              "type": "bloodhound",
+              "bot": [
+                "arenafighterevent"
+              ],
+              "mark": "藏蓝色箭头",
+              "special": "藏蓝色箭头"
+            },
+            {
+              "type": "bear",
+              "bot": [
+                "bear"
+              ],
+              "mark": "橙色箭头",
+              "special": "橙色箭头"
+            },
+            {
+              "type": "usec",
+              "bot": [
+                "usec"
+              ],
+              "mark": "蓝色箭头",
+              "special": "蓝色箭头"
+            }
+          ],
+          //是否启用透视模式, 启用后可以透过障碍物看到标记
+          "EnableESPMode": true,
+          //是否启用掠夺模式, 启用后可以从AI身上将标记作为战利品收走, 可能会与音乐收藏馆产生冲突
+          "EnableLootableMode": false,
+          //是否启用特殊标记, 启用后部分标记将被替换为其它形状而非箭头
+          "EnableSpecialMarker": false
+        }
+      }
+    }
+  }
+  //阅读本条信息表示你已经知晓本文件为火神重工：无限Mod所属的配置文件, 并且知晓以上所有可配置模块的具体内容
+  //本文件为火神重工：无限Mod所属的配置文件, 包含几乎所有模块所允许配置的设置, 每一条配置都有相应的说明
+  //如需编辑并保存本文件, 请确保在服务端关闭的情况下进行, 除此之外造成的后果概不负责
+  //请确保你已经认真阅读以上所有内容
+}

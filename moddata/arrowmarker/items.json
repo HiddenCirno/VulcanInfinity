@@ -1,0 +1,405 @@
+{
+    "红色箭头": {
+        "_id": "红色箭头",
+        "_targetid": "66b5f6985891c84aab75ca76",
+        "_name": "红色箭头",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "orange",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "marker_boss.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "一个快乐的箭头",
+            "ShortName": "红色箭头",
+            "Description": "潜行~\n步伐小心翼翼~\n不留游走痕迹~",
+            "RagfairType": "VulcanSpecialItem",
+            "DefaultPrice": 400000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "66b5f6985891c84aab75ca76",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "危标记": {
+        "_id": "危标记",
+        "_targetid": "66b5f6985891c84aab75ca76",
+        "_name": "危标记",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "orange",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "marker_boss_spec.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "危",
+            "ShortName": "危",
+            "Description": "忍者的眼睛可捕捉对方突刺动作，踏住敌人的刀刃，由此转为反击\n若失手将陷入绝望，但忍者会觉得，若识破不是能立即杀死对方吗",
+            "RagfairType": "VulcanSpecialItem",
+            "DefaultPrice": 400000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "66b5f6985891c84aab75ca76",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "狙击标记": {
+        "_id": "狙击标记",
+        "_targetid": "66b5f6985891c84aab75ca76",
+        "_name": "狙击标记",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "orange",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "marker_sniper_spec.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "狙击标记",
+            "ShortName": "狙击",
+            "Description": "“你被人瞄准了。”",
+            "RagfairType": "VulcanSpecialItem",
+            "DefaultPrice": 80000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "66b5f6985891c84aab75ca76",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "掠夺者标记": {
+        "_id": "掠夺者标记",
+        "_targetid": "66b5f6985891c84aab75ca76",
+        "_name": "掠夺者标记",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "orange",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "marker_raider_spec.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "一个紫色骷髅头",
+            "ShortName": "紫色",
+            "Description": "嗯，其实这是个耳机。\n这个系列所有的标记都是耳机。",
+            "RagfairType": "VulcanSpecialItem",
+            "DefaultPrice": 200000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "66b5f6985891c84aab75ca76",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "邪教徒标记": {
+        "_id": "邪教徒标记",
+        "_targetid": "66b5f6985891c84aab75ca76",
+        "_name": "邪教徒标记",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "orange",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "marker_priest_spec.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "一个毒绿色骷髅头",
+            "ShortName": "毒绿",
+            "Description": "嗯，其实这是个耳机。\n这个系列所有的标记都是耳机。",
+            "RagfairType": "VulcanSpecialItem",
+            "DefaultPrice": 300000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "66b5f6985891c84aab75ca76",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "橙色箭头": {
+        "_id": "橙色箭头",
+        "_targetid": "66b5f6985891c84aab75ca76",
+        "_name": "橙色箭头",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "orange",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "marker_bear.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "一个愚蠢的箭头",
+            "ShortName": "橙色箭头",
+            "Description": "如同一簇幽灵~\n呼吸 独立 却观察着~",
+            "RagfairType": "VulcanSpecialItem",
+            "DefaultPrice": 160000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "66b5f6985891c84aab75ca76",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "蓝色箭头": {
+        "_id": "蓝色箭头",
+        "_targetid": "66b5f6985891c84aab75ca76",
+        "_name": "蓝色箭头",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "orange",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "marker_usec.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "一个暴躁的箭头",
+            "ShortName": "蓝色箭头",
+            "Description": "猎人~\n猎物~\n同体~",
+            "RagfairType": "VulcanSpecialItem",
+            "DefaultPrice": 160000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "66b5f6985891c84aab75ca76",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "米黄色箭头": {
+        "_id": "米黄色箭头",
+        "_targetid": "66b5f6985891c84aab75ca76",
+        "_name": "米黄色箭头",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "orange",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "marker_scav.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "一个漂亮的箭头",
+            "ShortName": "米黄色箭头",
+            "Description": "异类即是仇敌~",
+            "RagfairType": "VulcanSpecialItem",
+            "DefaultPrice": 80000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "66b5f6985891c84aab75ca76",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "薄荷色箭头": {
+        "_id": "薄荷色箭头",
+        "_targetid": "66b5f6985891c84aab75ca76",
+        "_name": "薄荷色箭头",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "orange",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "marker_sniper.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "一个生气的箭头",
+            "ShortName": "薄荷色箭头",
+            "Description": "毁灭作为赞礼~\n无上肯定~",
+            "RagfairType": "VulcanSpecialItem",
+            "DefaultPrice": 80000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "66b5f6985891c84aab75ca76",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "紫色箭头": {
+        "_id": "紫色箭头",
+        "_targetid": "66b5f6985891c84aab75ca76",
+        "_name": "紫色箭头",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "orange",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "marker_raider.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "一个友好的箭头",
+            "ShortName": "紫色箭头",
+            "Description": "啊~\n看呐~\n傻孩子燃起了火堆~",
+            "RagfairType": "VulcanSpecialItem",
+            "DefaultPrice": 200000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "66b5f6985891c84aab75ca76",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "毒绿色箭头": {
+        "_id": "毒绿色箭头",
+        "_targetid": "66b5f6985891c84aab75ca76",
+        "_name": "毒绿色箭头",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "orange",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "marker_priest.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "一个恐怖的箭头",
+            "ShortName": "毒绿色箭头",
+            "Description": "啊~\n看呐~\n傻孩子笑着挥手说~",
+            "RagfairType": "VulcanSpecialItem",
+            "DefaultPrice": 300000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "66b5f6985891c84aab75ca76",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "粉色箭头": {
+        "_id": "粉色箭头",
+        "_targetid": "66b5f6985891c84aab75ca76",
+        "_name": "粉色箭头",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "orange",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "marker_follower.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "一个悲伤的箭头",
+            "ShortName": "粉色箭头",
+            "Description": "我在这里~",
+            "RagfairType": "VulcanSpecialItem",
+            "DefaultPrice": 200000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "66b5f6985891c84aab75ca76",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "藏蓝色箭头": {
+        "_id": "藏蓝色箭头",
+        "_targetid": "66b5f6985891c84aab75ca76",
+        "_name": "藏蓝色箭头",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "orange",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "marker_hound.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "一个幽默的的箭头",
+            "ShortName": "藏蓝色箭头",
+            "Description": "我真诚的呼喊~",
+            "RagfairType": "VulcanSpecialItem",
+            "DefaultPrice": 200000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "66b5f6985891c84aab75ca76",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    }
+}

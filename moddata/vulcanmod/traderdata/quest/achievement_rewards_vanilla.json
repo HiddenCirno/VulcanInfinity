@@ -1,0 +1,33 @@
+[
+    
+    {
+        "$type": "item",
+        "FindInRaid": true,
+        "Items": [
+            {
+                "_id": "Kappa之路_3x4奖励_物品",
+                "_tpl": "5c093ca986f7740a1867ab12",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "664f1f8768508d74604bf556",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": true,
+        "Count": 1,
+        "ID": "Kappa之路_3x4奖励"
+    },
+    {
+        "$type": "customization",
+        "Target": "玩家Boss狗牌",
+        "Quest": "664f1f8768508d74604bf556",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": true,
+        "ID": "Kappa之路_装饰奖励"
+    }
+]

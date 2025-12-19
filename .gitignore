@@ -1,5 +1,4 @@
-# 忽略 tmp 文件夹及其内容
-/package/*
-!/package/RITCExample/
-!/package/教程包/
-!/package/空白包/
+# 屏蔽自动生成
+bin/
+# VSCode
+.vs/
