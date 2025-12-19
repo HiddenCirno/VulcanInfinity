@@ -531,14 +531,14 @@
         "$type": "item",
         "Items": [
             {
-                "_id": "邪教1仿制钥匙",
+                "_id": "邪教2仿制钥匙",
                 "_tpl": "仿制符号钥匙",
                 "upd": {
                     "StackObjectsCount": 1
                 }
             }
         ],
-        "Quest": "5a27b9de86f77464e5044585",
+        "Quest": "5a27ba1c86f77461ea5a3c56",
         "Condition": "Start",
         "Count": 1,
         "Stage": 0,
@@ -546,8 +546,8 @@
         "Hidden": false,
         "Unknown": false,
         "IsAchievement": false,
-        "ID": "邪教1仿制钥匙",
-        "Desc": "邪教1仿制钥匙"
+        "ID": "邪教2仿制钥匙",
+        "Desc": "邪教2仿制钥匙"
     },
     {
         "$type": "item",
