@@ -19674,8 +19674,8 @@
         },
         "_customprops": {
             "$type": "base",
-            "Name": "操作间钥匙·仿制",
-            "ShortName": "操作间",
+            "Name": "手术室钥匙·仿制",
+            "ShortName": "手术室",
             "Description": "一把脆弱的钥匙，上面用钢印打上了一串编码。\n<b>「62987da96188c076bc0d8c51」</b>",
             "DefaultPrice": 30000,
             "RagfairType": "5c518ec986f7743b68682ce2",
