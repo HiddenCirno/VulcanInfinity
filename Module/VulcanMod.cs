@@ -58,6 +58,10 @@ public class VulcanMod
         {
             InitReshalaEdit(modconfig, databaseService, modHelper);
         }
+        if (modconfig.BotEdit.AddBlackDivision)
+        {
+            InitBDReplace(modconfig, databaseService, modHelper);
+        }
         InitBotEdit(modconfig, databaseService, modHelper);
         if (modconfig.KeyEdit.Active)
         {
@@ -97,7 +101,7 @@ public class VulcanMod
             items[ItemTpl.CONTAINER_STREAMER_ITEM_CASE].Properties.Grids.First().Properties.CellsV = modconfig.Global.Container.TwitchContiner[1];
         }
         var pocketsjaney = items[VulcanUtil.ConvertHashID("1x2x4口袋")].Properties.Grids.ToList();
-        foreach(var grid in pocketsjaney)
+        foreach (var grid in pocketsjaney)
         {
             grid.Properties.CellsV = 2;
         }
@@ -185,7 +189,49 @@ public class VulcanMod
     {
         var botConfig = configServer.GetConfig<BotConfig>();
         var dogTagConfig = modConfig.Module.CoreModule.VulcanMod.Config.DogTagGenerate;
-        foreach (var ai in dogTagConfig.Config.AIApplyList)
+        var ailist = new List<string>
+        {
+                "assault",
+                "bosstagilla",
+                "bosstagillaagro",
+                "bossbully",
+                "bossboar",
+                "bossgluhar",
+                "bosssanitar",
+                "bosskilla",
+                "bosskillaagro",
+                "bosskojaniy",
+                "bosszryachiy",
+                "bosskolontay",
+                "bossknight",
+                "bosspartisan",
+                "followerbigpipe",
+                "followerbirdeye",
+                "sectantpriest",
+                "sectantwarrior",
+                "marksman",
+                "cursedassault",
+                "followerbully",
+                "followergluharassault",
+                "followergluharscout",
+                "followergluharsecurity",
+                "followergluharsnipe",
+                "followerkolontay",
+                "followerboarclose1",
+                "followerboarclose2",
+                "followerkolontayassault",
+                "followerkolontaysecurity",
+                "followersanitar",
+                "followerboar",
+                "pmcbot",
+                "exusec",
+                "bossboarsniper",
+                "arenafighter",
+                "arenafighterevent",
+                "crazyassaultevent",
+                "gifter"
+        };
+        foreach (var ai in ailist)
         {
             botConfig.BotRolesWithDogTags.Add(ai);
         }
@@ -221,6 +267,58 @@ public class VulcanMod
             if (location.BossName == "bossBully")
             {
                 location.BossChance = config.BotEdit.ReshalaChance;
+            }
+        }
+    }
+    public static void InitBDReplace(VulcanModConfigClass config, DatabaseService databaseService, ModHelper modHelper)
+    {
+        var bots = databaseService.GetBots();
+        var getedlocations = databaseService.GetLocations();
+        var locations = new List<SPTarkov.Server.Core.Models.Eft.Common.Location> {
+                getedlocations.Bigmap,
+                getedlocations.Woods,
+                getedlocations.Factory4Day,
+                getedlocations.Factory4Night,
+                getedlocations.Laboratory,
+                getedlocations.Shoreline,
+                getedlocations.RezervBase,
+                getedlocations.Interchange,
+                getedlocations.Lighthouse,
+                getedlocations.TarkovStreets,
+                getedlocations.Sandbox,
+                getedlocations.SandboxHigh
+            };
+        var bloodhound = bots.Types["arenafighterevent"];
+        var zhCNLang = databaseService.GetLocales().Global["ch"];
+        var botBDOperator = modHelper.GetJsonDataFromFile<BotType>(ConfigManager.modPath, "moddata/vulcanmod/bots/BDOperator.json");
+        bloodhound.BotAppearance = botBDOperator.BotAppearance;
+        bloodhound.BotChances.EquipmentChances = botBDOperator.BotChances.EquipmentChances;
+        bloodhound.BotChances.WeaponModsChances = botBDOperator.BotChances.WeaponModsChances;
+        bloodhound.BotChances.EquipmentModsChances = botBDOperator.BotChances.EquipmentModsChances;
+        bloodhound.BotExperience.Reward = botBDOperator.BotExperience.Reward;
+        bloodhound.BotHealth = botBDOperator.BotHealth;
+        bloodhound.BotInventory = botBDOperator.BotInventory;
+        bloodhound.BotSkills = botBDOperator.BotSkills;
+        bloodhound.BotGeneration = botBDOperator.BotGeneration;
+        zhCNLang.AddTransformer(lang =>
+        {
+            lang["ScavRole/ArenaFighterEvent"] = "黑色军团";
+            return lang;
+        });
+        foreach (var location in locations)
+        {
+            var map = location.Base;
+            if (map == null) continue;
+            var bosslist = map.BossLocationSpawn;
+            if (bosslist == null) continue;
+            foreach (var boss in bosslist)
+            {
+                if (boss == null) continue;
+                if (boss.BossName == "arenaFighterEvent")
+                {
+                    boss.BossName = "bossKillaAgro";
+                    boss.BossChance = 40;
+                }
             }
         }
     }

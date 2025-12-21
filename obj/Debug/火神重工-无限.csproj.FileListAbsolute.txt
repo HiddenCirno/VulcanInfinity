@@ -59,6 +59,7 @@ D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\bin\Debug\火神重工-�
 D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\bin\Debug\火神重工-无限\火神重工-无限.deps.json
 D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\bin\Debug\火神重工-无限\火神重工-无限.dll
 D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\bin\Debug\火神重工-无限\火神重工-无限.pdb
+I:\TKF\SPT\user\mods\火神重工-无限\火神重工-无限.dll
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\ae2\items.json
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\arrowmarker\items.json
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\gunfight\items.json
@@ -68,11 +69,13 @@ I:\TKF\SPT\user\mods\火神重工-无限\moddata\itempack\123.json
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\itempack\items.json
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\music\equipdata.json
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\music\items.json
+I:\TKF\SPT\user\mods\火神重工-无限\moddata\vulcanmod\bots\BDOperator.json
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\vulcanmod\bots\BigPipe.json
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\vulcanmod\bots\Birdeye.json
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\vulcanmod\bots\Gluhar.json
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\vulcanmod\bots\Knight.json
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\vulcanmod\bots\Kolontay.json
+I:\TKF\SPT\user\mods\火神重工-无限\moddata\vulcanmod\bots\Obsidian.json
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\vulcanmod\bots\Reshala.json
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\vulcanmod\bots\ReshalaFollower.json
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\vulcanmod\bots\Sanitar.json
@@ -106,7 +109,6 @@ I:\TKF\SPT\user\mods\火神重工-无限\moddata\vulcanmod\trader\base.json
 I:\TKF\SPT\user\mods\火神重工-无限\火神重工-无限.staticwebassets.endpoints.json
 I:\TKF\SPT\user\mods\火神重工-无限\config.jsonc
 I:\TKF\SPT\user\mods\火神重工-无限\火神重工-无限.deps.json
-I:\TKF\SPT\user\mods\火神重工-无限\火神重工-无限.dll
 I:\TKF\SPT\user\mods\火神重工-无限\火神重工-无限.pdb
 D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\obj\Debug\火神重工-无限.csproj.AssemblyReference.cache
 D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\obj\Debug\rpswa.dswa.cache.json
@@ -114,6 +116,7 @@ D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\obj\Debug\火神重工-�
 D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\obj\Debug\火神重工-无限.AssemblyInfoInputs.cache
 D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\obj\Debug\火神重工-无限.AssemblyInfo.cs
 D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\obj\Debug\火神重工-无限.csproj.CoreCompileInputs.cache
+D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\obj\Debug\火神重工-无限.sourcelink.json
 D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\obj\Debug\rjimswa.dswa.cache.json
 D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\obj\Debug\rjsmrazor.dswa.cache.json
 D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\obj\Debug\rjsmcshtml.dswa.cache.json
@@ -127,4 +130,3 @@ D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\obj\Debug\火神重工-�
 D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\obj\Debug\refint\火神重工-无限.dll
 D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\obj\Debug\火神重工-无限.pdb
 D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\obj\Debug\ref\火神重工-无限.dll
-D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\obj\Debug\火神重工-无限.sourcelink.json

@@ -1449,15 +1449,17 @@
         "internalObtain": true,
         "requirements": {
             "loyaltyLevel": 4,
-            "profileLevel": 50,
+            "profileLevel": 40,
             "standing": 0,
             "skillRequirements": [],
-            "questRequirements": [],
+            "questRequirements": [
+                "5edac63b930f5454f51e128b"
+            ],
             "achievementRequirements": [],
             "itemRequirements": [
                 {
                     "id": null,
-                    "count": 5000000,
+                    "count": 1000000,
                     "_tpl": "5449016a4bdc2d6f028b456f",
                     "onlyFunctional": true,
                     "type": "ItemRequirement"
@@ -1476,15 +1478,17 @@
         "internalObtain": true,
         "requirements": {
             "loyaltyLevel": 4,
-            "profileLevel": 50,
+            "profileLevel": 40,
             "standing": 0,
             "skillRequirements": [],
-            "questRequirements": [],
+            "questRequirements": [
+                "5edac63b930f5454f51e128b"
+            ],
             "achievementRequirements": [],
             "itemRequirements": [
                 {
                     "id": null,
-                    "count": 5000000,
+                    "count": 1000000,
                     "_tpl": "5449016a4bdc2d6f028b456f",
                     "onlyFunctional": true,
                     "type": "ItemRequirement"

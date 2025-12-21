@@ -270,6 +270,8 @@ public class BotEditClass
 
     [JsonPropertyName("AddKabanInShoreline")]
     public bool AddKabanInShoreline { get; set; }
+    [JsonPropertyName("AddBlackDivision")]
+    public bool AddBlackDivision { get; set; }
 }
 
 public class MCHeadDataClass

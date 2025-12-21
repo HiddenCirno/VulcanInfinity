@@ -329,6 +329,21 @@ public class ScriptTrainer
                 getedlocations.SandboxHigh
             };
         var botConfig = configServer.GetConfig<BotConfig>();
+        var botlist = new List<string>
+        {
+            "bossPartisan",
+                "bossKnight",
+                "bossBully",
+                "bossBoar",
+                "bossTagilla",
+                "bossTagillaAgro",
+                "bossKilla",
+                "bossKillaAgro",
+                "bossKojaniy",
+                "bossSanitar",
+                "bossKolontay",
+                "bossGluhar"
+        };
         foreach (var location in locations)
         {
             var map = location.Base;
@@ -340,7 +355,7 @@ public class ScriptTrainer
                 if (boss == null) continue;
                 if (trainerConfig.AISpawn.Boss.Active)
                 {
-                    if (trainerConfig.AISpawn.Boss.BossList.Contains(boss.BossName) && boss.BossChance!=100)
+                    if (botlist.Contains(boss.BossName) && boss.BossChance!= 100 && boss.BossChance != 0)
                     {
                         boss.BossChance = trainerConfig.AISpawn.Boss.Chance;
                     }

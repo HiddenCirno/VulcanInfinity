@@ -102,6 +102,7 @@ namespace VulcanInfinity
                 var botBirdeye = modHelper.GetJsonDataFromFile<BotType>(ConfigManager.modPath, "moddata/vulcanmod/bots/Birdeye.json");
                 var botGluhar = modHelper.GetJsonDataFromFile<BotType>(ConfigManager.modPath, "moddata/vulcanmod/bots/Gluhar.json");
                 var botKolontay = modHelper.GetJsonDataFromFile<BotType>(ConfigManager.modPath, "moddata/vulcanmod/bots/Kolontay.json");
+                var botObsidian = modHelper.GetJsonDataFromFile<BotType>(ConfigManager.modPath, "moddata/vulcanmod/bots/Obsidian.json");
                 try
                 {
                     if (BotLoation != botGenerationDetails.Location)
@@ -323,35 +324,30 @@ namespace VulcanInfinity
                                 KolontayCocunter.Access = false;
                             }
                         }
+                    }
+
+                    if (vulcanConfig.Active && vulcanConfig.Config.BotEdit.AddBlackDivision)
+                    {
                         if (botRoleLowercase == "bosskillaagro" && botGenerationDetails.Location != "Labyrinth")
                         {
-                         //测试代码, 数据部分暂时搁置
-                         //打个时间戳看看我能鸽多久
-                         //12.10.2025
-                         //从文件读取AI数据
-                         //概率命中, 使用文件的数据覆盖原数据
-                            botJsonTemplate.BotAppearance = botKolontay.BotAppearance;
-                            botJsonTemplate.BotExperience = botKolontay.BotExperience;
-                            botJsonTemplate.BotHealth = botKolontay.BotHealth;
-                            botJsonTemplate.BotSkills = botKolontay.BotSkills;
-                            botJsonTemplate.BotInventory = botKolontay.BotInventory;
-                            botJsonTemplate.BotChances = botKolontay.BotChances;
-                            botJsonTemplate.FirstNames = new List<string> { "Obsidian" };
-                            var smdev = botJsonTemplate.LastNames.ToList();
-                            smdev.Clear();
-                            botJsonTemplate.LastNames = smdev;
-                            botJsonTemplate.BotGeneration = botKolontay.BotGeneration;
-                            botJsonTemplate.BotAppearance.Voice = new Dictionary<MongoId, double>
-                            {
-                                {"3c6269d6143b2cf96fb0224f", 1 }
-                            };
+                            //测试代码, 数据部分暂时搁置
+                            //打个时间戳看看我能鸽多久
+                            //12.10.2025
+                            //从文件读取AI数据
+                            botJsonTemplate.BotAppearance = botObsidian.BotAppearance;
+                            botJsonTemplate.BotExperience = botObsidian.BotExperience;
+                            botJsonTemplate.BotHealth = botObsidian.BotHealth;
+                            botJsonTemplate.BotSkills = botObsidian.BotSkills;
+                            botJsonTemplate.BotInventory = botObsidian.BotInventory;
+                            botJsonTemplate.BotChances = botObsidian.BotChances;
+                            botJsonTemplate.FirstNames = botObsidian.FirstNames;
+                            botJsonTemplate.LastNames = botObsidian.LastNames;
+                            botJsonTemplate.BotGeneration = botObsidian.BotGeneration;
                             //bot.Health.BodyParts;
                             //3c6269d6143b2cf96fb0224f //BD1
                             //3c6269d6143b2cf96fb0224f //BD2
                             //logger.LogWithColor($"Debug: {bot.Customization.Voice}", LogTextColor.Gray);
                         }
-
-
                     }
                     //if(alterBossName.Contains(bot.Info.Nickname))
                     //logger.LogWithColor($"[Test]: {botGenerationDetails.RoleLowercase}", LogTextColor.Magenta, LogBackgroundColor.Default);
@@ -628,7 +624,24 @@ namespace VulcanInfinity
             {
                 var logger = ServiceLocator.ServiceProvider.GetService<ISptLogger<BotGenerator>>();
                 var databaseService = ServiceLocator.ServiceProvider.GetService<DatabaseService>();
-                var bossList = modConfig.Module.CoreModule.VulcanMod.Config.DogTagGenerate.Config.BossList;
+                var bossList = new List<string>
+                {
+                    "bosstagilla",
+                    "bosstagillaagro",
+                    "bossbully",
+                    "bossboar",
+                    "bossgluhar",
+                    "bosssanitar",
+                    "bosskilla",
+                    "bosskillaagro",
+                    "bosskojaniy",
+                    "bosszryachiy",
+                    "bosskolontay",
+                    "bossknight",
+                    "followerbigpipe",
+                    "followerbirdeye",
+                    "bosspartisan"
+                };
                 var botRole = bot.Info.Settings.Role;
                 var botRoleLower = botRole.ToLower();
                 var botNickName = bot.Info.Nickname;
@@ -679,6 +692,12 @@ namespace VulcanInfinity
                                 case "bosskolontay":
                                     botName = bot.Info.Nickname == "Punisher" ? bot.Info.Nickname : botRole.Substring(4);
                                     break;
+                                case "bosskillaagro":
+                                    botName = bot.Info.Nickname == "Obsidian" ? bot.Info.Nickname : "Killa";
+                                    break;
+                                case "bosstagillaagro":
+                                    botName = "Tagilla"; //未来会有守门人
+                                    break;
                                 default:
                                     botName = botRole.Substring(4);
                                     break;
@@ -698,8 +717,6 @@ namespace VulcanInfinity
                     }
                     if (alterBossName.Contains(botNickName))
                     {
-                        //AddLootToInventory(bot.Inventory, VulcanUtil.ConvertHashID("封装英雄之证"), "Pockets", bot, databaseService, logger);
-                        //AddLootToInventory(bot.Inventory, VulcanUtil.ConvertHashID("封装英雄之证"), "Backpack", bot, databaseService, logger);
                         dogtag = VulcanUtil.ConvertHashID("水晶狗牌_红");
                         dogTagItem.Upd.Dogtag.Nickname = botName;
                         dogTagItem.Upd.Dogtag.Side = SPTarkov.Server.Core.Models.Enums.DogtagSide.Bear;

@@ -382,5 +382,193 @@
           "slotId": "Helmet_ears"
         }
         ]
+    },
+    {
+        "Name": "白lv119_基础预设",
+        "PresetName": "Default",
+        "IsBasePreset": true,
+        "ChangePresetName": false,
+        "SpawnInRaid": false,
+        "SpawnTarget": "65290f395ae2ae97b80fdf2d",
+        "Preset": [
+            {
+                "_id": "白lv119_本体",
+                "_tpl": "白lv119"
+            },
+            {
+                "_id": "白lv119_胸部内衬",
+                "_tpl": "白lv119胸部内衬",
+                "parentId": "白lv119_本体",
+                "slotId": "Soft_armor_front"
+            },
+            {
+                "_id": "白lv119_背部内衬",
+                "_tpl": "白lv119背部内衬",
+                "parentId": "白lv119_本体",
+                "slotId": "Soft_armor_back"
+            },
+            {
+                "_id": "白lv119_左侧内衬",
+                "_tpl": "白lv119左侧内衬",
+                "parentId": "白lv119_本体",
+                "slotId": "Soft_armor_left"
+            },
+            {
+                "_id": "白lv119_右侧内衬",
+                "_tpl": "白lv119右侧内衬",
+                "parentId": "白lv119_本体",
+                "slotId": "soft_armor_right"
+            }
+        ]
+    },
+    {
+        "Name": "黑lv119_基础预设",
+        "PresetName": "Default",
+        "IsBasePreset": true,
+        "ChangePresetName": false,
+        "SpawnInRaid": false,
+        "SpawnTarget": "65290f395ae2ae97b80fdf2d",
+        "Preset": [
+            {
+                "_id": "黑lv119_本体",
+                "_tpl": "黑lv119"
+            },
+            {
+                "_id": "黑lv119_胸部内衬",
+                "_tpl": "白lv119胸部内衬",
+                "parentId": "黑lv119_本体",
+                "slotId": "Soft_armor_front"
+            },
+            {
+                "_id": "黑lv119_背部内衬",
+                "_tpl": "白lv119背部内衬",
+                "parentId": "黑lv119_本体",
+                "slotId": "Soft_armor_back"
+            }
+        ]
+    },
+    {
+        "Name": "FCPCV5_基础预设",
+        "PresetName": "Default",
+        "IsBasePreset": true,
+        "ChangePresetName": false,
+        "SpawnInRaid": false,
+        "SpawnTarget": "65290f395ae2ae97b80fdf2d",
+        "Preset": [
+            {
+                "_id": "FCPCV5_本体",
+                "_tpl": "FCPCV5"
+            },
+            {
+                "_id": "FCPCV5_胸部内衬",
+                "_tpl": "FCPCV5胸部内衬",
+                "parentId": "FCPCV5_本体",
+                "slotId": "Soft_armor_front"
+            },
+            {
+                "_id": "FCPCV5_背部内衬",
+                "_tpl": "FCPCV5背部内衬",
+                "parentId": "FCPCV5_本体",
+                "slotId": "Soft_armor_back"
+            },
+            {
+                "_id": "FCPCV5_左侧内衬",
+                "_tpl": "FCPCV5左侧内衬",
+                "parentId": "FCPCV5_本体",
+                "slotId": "Soft_armor_left"
+            },
+            {
+                "_id": "FCPCV5_右侧内衬",
+                "_tpl": "FCPCV5右侧内衬",
+                "parentId": "FCPCV5_本体",
+                "slotId": "soft_armor_right"
+            }
+        ]
+    },
+    {
+        "Name": "SiegeR_基础预设",
+        "PresetName": "Default",
+        "IsBasePreset": true,
+        "ChangePresetName": false,
+        "SpawnInRaid": false,
+        "SpawnTarget": "65290f395ae2ae97b80fdf2d",
+        "Preset": [
+            {
+                "_id": "SiegeR_本体",
+                "_tpl": "SiegeR"
+            },
+            {
+                "_id": "SiegeR_胸部内衬",
+                "_tpl": "SiegeR胸部内衬",
+                "parentId": "SiegeR_本体",
+                "slotId": "Soft_armor_front"
+            },
+            {
+                "_id": "SiegeR_背部内衬",
+                "_tpl": "SiegeR背部内衬",
+                "parentId": "SiegeR_本体",
+                "slotId": "Soft_armor_back"
+            },
+            {
+                "_id": "SiegeR_左侧内衬",
+                "_tpl": "SiegeR左侧内衬",
+                "parentId": "SiegeR_本体",
+                "slotId": "Soft_armor_left"
+            },
+            {
+                "_id": "SiegeR_右侧内衬",
+                "_tpl": "SiegeR右侧内衬",
+                "parentId": "SiegeR_本体",
+                "slotId": "soft_armor_right"
+            },
+            {
+                "_id": "SiegeR_脖子内衬",
+                "_tpl": "SiegeR脖子内衬",
+                "parentId": "SiegeR_本体",
+                "slotId": "Collar"
+            },
+            {
+                "_id": "SiegeR_左肩内衬",
+                "_tpl": "SiegeR左肩内衬",
+                "parentId": "SiegeR_本体",
+                "slotId": "Shoulder_l"
+            },
+            {
+                "_id": "SiegeR_右肩内衬",
+                "_tpl": "SiegeR右肩内衬",
+                "parentId": "SiegeR_本体",
+                "slotId": "Shoulder_r"
+            },
+            {
+                "_id": "SiegeR_股沟内衬",
+                "_tpl": "SiegeR股沟内衬",
+                "parentId": "SiegeR_本体",
+                "slotId": "Groin"
+            },
+            {
+                "_id": "SiegeR_前插板",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "parentId": "SiegeR_本体",
+                "slotId": "Front_plate"
+            },
+            {
+                "_id": "SiegeR_后插板",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "parentId": "SiegeR_本体",
+                "slotId": "Back_plate"
+            },
+            {
+                "_id": "SiegeR_左插板",
+                "_tpl": "SiegeR侧板",
+                "parentId": "SiegeR_本体",
+                "slotId": "Left_side_plate"
+            },
+            {
+                "_id": "SiegeR_右插板",
+                "_tpl": "SiegeR侧板",
+                "parentId": "SiegeR_本体",
+                "slotId": "Right_side_plate"
+            }
+        ]
     }
 ]

@@ -169,14 +169,17 @@
             //数据配置部分
             "Config": {
               //携带狗牌的AI列表
+              //此部分已失去作用, 仅做保留
               "AIApplyList": [
                 "assault",
                 "bosstagilla",
+                "bosstagillaagro",
                 "bossbully",
                 "bossboar",
                 "bossgluhar",
                 "bosssanitar",
                 "bosskilla",
+                "bosskillaagro",
                 "bosskojaniy",
                 "bosszryachiy",
                 "bosskolontay",
@@ -450,7 +453,9 @@
               }
             },
             //是否允许Kaban在海岸线的走私者营地生成, 此选项是为了让低配电脑在难以流畅运行街区的情况下能够完成Kaban的Boss任务, 概率默认为40
-            "AddKabanInShoreline": true
+            "AddKabanInShoreline": true,
+            //是否允许黑色军团生成, 此内容目前仍在制作, 请谨慎使用
+            "AddBlackDivision": false
           },
           //藏身处修改配置
           "HideoutEdit": {
@@ -619,6 +624,7 @@
               //修改过的Boss刷新率, 默认为40, 接近档末
               "Chance": 40,
               //用于查找数据的Boss列表, 请勿修改
+              //已经弃用
               "BossList": [
                 "bossPartisan",
                 "bossKnight",
@@ -684,7 +690,7 @@
       //无限秘库配置
       "InfinityStorage": {
         //是否启用无限秘库
-        "Active": false,
+        "Active": true,
         //配置部分
         "Config": {
           //是否启用全局价格覆盖, 启用后无限秘库将以统一价格出售物品

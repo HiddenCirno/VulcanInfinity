@@ -19398,7 +19398,7 @@
         },
         "_customprops": {
             "$type": "lootable",
-            "Name": "RB-CM钥匙",
+            "Name": "RB-CM 符号钥匙",
             "ShortName": "RB-CM",
             "Description": "一把造型诡异的钥匙，可以打开军事基地任意一扇和邪教徒有关的门，上面用钢印打上了一串编码。\n<b>「5d80c62a86f7744036212b3f」</b>\n<b>「5d80c60f86f77440373c4ece」</b>\n<b>「5ede7a8229445733cb4c18e2」</b>",
             "DefaultPrice": 6500000,
@@ -20108,7 +20108,7 @@
             "RigLayoutName": "dianyuzhang"
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "THOR综合型防弹服（Gharros特别版）",
             "ShortName": "THOR IC",
             "Description": "THOR综合型防弹服有全覆盖的软质防弹板，能提供360度防护，抵挡高速弹片和手枪子弹。防弹服的前部、背部及侧部的重型防弹板可抵挡步枪子弹，保护重要器官。插板的人体工程学设计以及与背部插板一体的腰部缓冲带能为使用者带来舒适的体验，同时兼顾与身体的紧密贴合，还能将重量分散至全身。由NFM制造。这件经过了某人的特别改装。",
@@ -20137,11 +20137,11 @@
         },
         "_customprops": {
             "$type": "base",
-            "Name": "芳纶插板",
+            "Name": "芳纶内衬",
             "ShortName": "",
             "Description": "",
             "DefaultPrice": 80000,
-            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "RagfairType": "VulcanDevItem",
             "CanFindInRaid": false,
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
@@ -20161,11 +20161,11 @@
         },
         "_customprops": {
             "$type": "base",
-            "Name": "芳纶插板",
+            "Name": "芳纶内衬",
             "ShortName": "",
             "Description": "",
             "DefaultPrice": 80000,
-            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "RagfairType": "VulcanDevItem",
             "CanFindInRaid": false,
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
@@ -20185,11 +20185,11 @@
         },
         "_customprops": {
             "$type": "base",
-            "Name": "芳纶插板",
+            "Name": "芳纶内衬",
             "ShortName": "",
             "Description": "",
             "DefaultPrice": 80000,
-            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "RagfairType": "VulcanDevItem",
             "CanFindInRaid": false,
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
@@ -20209,11 +20209,11 @@
         },
         "_customprops": {
             "$type": "base",
-            "Name": "芳纶插板",
+            "Name": "芳纶内衬",
             "ShortName": "",
             "Description": "",
             "DefaultPrice": 80000,
-            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "RagfairType": "VulcanDevItem",
             "CanFindInRaid": false,
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
@@ -20233,11 +20233,11 @@
         },
         "_customprops": {
             "$type": "base",
-            "Name": "芳纶插板",
+            "Name": "芳纶内衬",
             "ShortName": "",
             "Description": "",
             "DefaultPrice": 80000,
-            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "RagfairType": "VulcanDevItem",
             "CanFindInRaid": false,
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
@@ -20257,11 +20257,11 @@
         },
         "_customprops": {
             "$type": "base",
-            "Name": "芳纶插板",
+            "Name": "芳纶内衬",
             "ShortName": "",
             "Description": "",
             "DefaultPrice": 80000,
-            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "RagfairType": "VulcanDevItem",
             "CanFindInRaid": false,
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
@@ -20281,11 +20281,11 @@
         },
         "_customprops": {
             "$type": "base",
-            "Name": "芳纶插板",
+            "Name": "芳纶内衬",
             "ShortName": "",
             "Description": "",
             "DefaultPrice": 80000,
-            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "RagfairType": "VulcanDevItem",
             "CanFindInRaid": false,
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
@@ -20305,11 +20305,11 @@
         },
         "_customprops": {
             "$type": "base",
-            "Name": "芳纶插板",
+            "Name": "芳纶内衬",
             "ShortName": "",
             "Description": "",
             "DefaultPrice": 80000,
-            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "RagfairType": "VulcanDevItem",
             "CanFindInRaid": false,
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
@@ -20412,9 +20412,9 @@
         },
         "_customprops": {
             "$type": "base",
-            "Name": "Death Knight面具（Dullahan特别版）",
+            "Name": "Death Knight面具（黑骑士甲特别版）",
             "ShortName": "Death Knight",
-            "Description": "来自？？？小队指挥官Dullahan的奇特面具。它来自平行时空，Goons小队选择加入邪教徒的伟大事业。",
+            "Description": "E.B.O.N.小队队长黑骑士甲的奇特面具。它来自平行时空，Goons小队选择加入邪教徒的伟大事业。",
             "RagfairType": "5b47574386f77428ca22b32f",
             "DefaultPrice": 249010,
             "CanFindInRaid": false,
@@ -20635,11 +20635,11 @@
         },
         "_customprops": {
             "$type": "base",
-            "Name": "芳纶插板",
+            "Name": "芳纶内衬",
             "ShortName": "",
             "Description": "",
             "DefaultPrice": 60000,
-            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "RagfairType": "VulcanDevItem",
             "CanFindInRaid": false,
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
@@ -20659,11 +20659,11 @@
         },
         "_customprops": {
             "$type": "base",
-            "Name": "芳纶插板",
+            "Name": "芳纶内衬",
             "ShortName": "",
             "Description": "",
             "DefaultPrice": 60000,
-            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "RagfairType": "VulcanDevItem",
             "CanFindInRaid": false,
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
@@ -20683,11 +20683,11 @@
         },
         "_customprops": {
             "$type": "base",
-            "Name": "芳纶插板",
+            "Name": "芳纶内衬",
             "ShortName": "",
             "Description": "",
             "DefaultPrice": 60000,
-            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "RagfairType": "VulcanDevItem",
             "CanFindInRaid": false,
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
@@ -20707,11 +20707,11 @@
         },
         "_customprops": {
             "$type": "base",
-            "Name": "芳纶插板",
+            "Name": "芳纶内衬",
             "ShortName": "",
             "Description": "",
             "DefaultPrice": 60000,
-            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "RagfairType": "VulcanDevItem",
             "CanFindInRaid": false,
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
@@ -20731,11 +20731,11 @@
         },
         "_customprops": {
             "$type": "base",
-            "Name": "芳纶插板",
+            "Name": "芳纶内衬",
             "ShortName": "",
             "Description": "",
             "DefaultPrice": 60000,
-            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "RagfairType": "VulcanDevItem",
             "CanFindInRaid": false,
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
@@ -21264,6 +21264,3085 @@
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
             "BlackListType": 63
+        }
+    },
+    "白lv119": {
+        "_id": "白lv119",
+        "_targetid": "5c0e746986f7741453628fe5",
+        "_parent": "5448e5284bdc2dcb718b4567",
+        "_name": "白lv119",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/equipment/rig_bd1_spiritus/item_equipment_armor_bd1_spiritus.bundle",
+                "rcid": ""
+            },
+            "Width": 4,
+            "Height": 3,
+            "BlocksArmorVest": true,
+            "Weight": 3.5,
+            "BackgroundColor": "default",
+            "mousePenalty": 0,
+            "speedPenaltyPercent": 0,
+            "weaponErgonomicPenalty": 0,
+            "Grids": [
+                {
+                    "_id": "aba50cfa1012a1c3334065b2",
+                    "_name": "1",
+                    "_parent": "白lv119",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "87a8285b80d4200d478f953d",
+                    "_name": "2",
+                    "_parent": "白lv119",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "224009c48c923eb584c0d230",
+                    "_name": "3",
+                    "_parent": "白lv119",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "8183d40f83f8d21fc1df5ec5",
+                    "_name": "4",
+                    "_parent": "白lv119",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "7fad0b4e1f00f2a164fcf3d1",
+                    "_name": "5",
+                    "_parent": "白lv119",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "c280adbc8d04bc7607f16cbd",
+                    "_name": "6",
+                    "_parent": "白lv119",
+                    "_props": {
+                        "cellsH": 2,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "427451cabb065b7b30374a9f",
+                    "_name": "7",
+                    "_parent": "白lv119",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "d4dcb52596a2e9eb4a073d64",
+                    "_name": "8",
+                    "_parent": "白lv119",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "8b89f0f78f0f829b5c582b45",
+                    "_name": "9",
+                    "_parent": "白lv119",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "533132906de5a028453e79bf",
+                    "_name": "10",
+                    "_parent": "白lv119",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "e514cce3b664db330f2a9e6f",
+                    "_name": "11",
+                    "_parent": "白lv119",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "dfc4c7c3574e466626badb8e",
+                    "_name": "12",
+                    "_parent": "白lv119",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "65dea38ec4c3ef8ab453c357",
+                    "_name": "13",
+                    "_parent": "白lv119",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ],
+            "Slots": [
+                {
+                    "_name": "Front_plate",
+                    "_id": "689479a4a733b1602007e2f9",
+                    "_parent": "白lv119",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "656f9d5900d62bcd2e02407c",
+                                    "656fa8d700d62bcd2e024084",
+                                    "656fa99800d62bcd2e024088",
+                                    "656fae5f7c2d57afe200c0d7",
+                                    "656faf0ca0dce000a2020f77",
+                                    "656fa0fb498d1b7e3e071d9c",
+                                    "656fa76500d62bcd2e024080",
+                                    "656fafe3498d1b7e3e071da4",
+                                    "656fa25e94b480b8a500c0e0",
+                                    "656fad8c498d1b7e3e071da0",
+                                    "656fa61e94b480b8a500c0e8",
+                                    "656fb21fa0dce000a2020f7c",
+                                    "656fb0bd7c2d57afe200c0dc",
+                                    "656fac30c6baea13cd07e10c",
+                                    "656f9fa0498d1b7e3e071d98",
+                                    "656fa53d94b480b8a500c0e4",
+                                    "655746010177119f4a097ff7",
+                                    "64afdcb83efdfea28601d041"
+                                ],
+                                "Plate": "656faf0ca0dce000a2020f77",
+                                "armorColliders": [],
+                                "armorPlateColliders": [
+                                    "Plate_Granit_SAPI_chest"
+                                ],
+                                "bluntDamageReduceFromSoftArmor": true,
+                                "locked": false
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": true,
+                    "_proto": "64479fdf9731c8fadc0642c1"
+                },
+                {
+                    "_name": "Back_plate",
+                    "_id": "689479a4a733b1602007e2fa",
+                    "_parent": "白lv119",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "656f9d5900d62bcd2e02407c",
+                                    "656fa8d700d62bcd2e024084",
+                                    "656fa99800d62bcd2e024088",
+                                    "656fae5f7c2d57afe200c0d7",
+                                    "656faf0ca0dce000a2020f77",
+                                    "656fa0fb498d1b7e3e071d9c",
+                                    "656fafe3498d1b7e3e071da4",
+                                    "656fa76500d62bcd2e024080",
+                                    "656fad8c498d1b7e3e071da0",
+                                    "656fa25e94b480b8a500c0e0",
+                                    "656fa61e94b480b8a500c0e8",
+                                    "656fac30c6baea13cd07e10c",
+                                    "656fb0bd7c2d57afe200c0dc",
+                                    "656fb21fa0dce000a2020f7c",
+                                    "656f9fa0498d1b7e3e071d98",
+                                    "656fa53d94b480b8a500c0e4",
+                                    "655746010177119f4a097ff7",
+                                    "64afdcb83efdfea28601d041"
+                                ],
+                                "Plate": "656faf0ca0dce000a2020f77",
+                                "armorColliders": [],
+                                "armorPlateColliders": [
+                                    "Plate_Granit_SAPI_back"
+                                ],
+                                "bluntDamageReduceFromSoftArmor": true,
+                                "locked": false
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": true,
+                    "_proto": "64479fdf9731c8fadc0642c1"
+                },
+                {
+                    "_name": "Soft_armor_front",
+                    "_id": "68a5fdb00e287618c6074dbf",
+                    "_parent": "白lv119",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "白lv119胸部内衬"
+                                ],
+                                "Plate": "6575dd3e9e27f4a85e081142",
+                                "armorColliders": [],
+                                "armorPlateColliders": [
+                                    "Plate_Granit_SAPI_chest"
+                                ],
+                                "bluntDamageReduceFromSoftArmor": false,
+                                "locked": true
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": true,
+                    "_proto": "64479fdf9731c8fadc0642c1"
+                },
+                {
+                    "_name": "Soft_armor_back",
+                    "_id": "68a5fdb00e287618c6074dc0",
+                    "_parent": "白lv119",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "白lv119背部内衬"
+                                ],
+                                "Plate": "6575dd519e27f4a85e081146",
+                                "armorColliders": [],
+                                "armorPlateColliders": [
+                                    "Plate_Granit_SAPI_back"
+                                ],
+                                "bluntDamageReduceFromSoftArmor": false,
+                                "locked": true
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": true,
+                    "_proto": "64479fdf9731c8fadc0642c1"
+                },
+                {
+                    "_name": "Soft_armor_left",
+                    "_id": "68a5fdb00e287618c6074dc1",
+                    "_parent": "白lv119",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "白lv119左侧内衬"
+                                ],
+                                "Plate": "6575dd64945bf78edd04c438",
+                                "armorColliders": [
+                                    "LeftSideChestDown"
+                                ],
+                                "armorPlateColliders": [],
+                                "bluntDamageReduceFromSoftArmor": false,
+                                "locked": true
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": true,
+                    "_proto": "64479fdf9731c8fadc0642c1"
+                },
+                {
+                    "_name": "soft_armor_right",
+                    "_id": "68a5fdb00e287618c6074dc2",
+                    "_parent": "白lv119",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "白lv119右侧内衬"
+                                ],
+                                "Plate": "6575dd6e9d3a0ddf660b9047",
+                                "armorColliders": [
+                                    "RightSideChestDown"
+                                ],
+                                "armorPlateColliders": [],
+                                "bluntDamageReduceFromSoftArmor": false,
+                                "locked": true
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": true,
+                    "_proto": "64479fdf9731c8fadc0642c1"
+                }
+            ],
+            "RigLayoutName": "lv119white"
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "Spiritus Systems LV-119 插板胸挂 (黑色军团 V1)",
+            "ShortName": "LV-119",
+            "Description": "一款支持高度定制的模块化插板胸挂，最大限度保证穿戴者在战斗中的舒适度，由 Spiritus Systems 公司设计制造。狼灰色版本。便利的布局让使用者能够轻松携带备用弹药以及其他必要的装备，同时不会影响自由行动。",
+            "DefaultPrice": 200000,
+            "RagfairType": "5b5f6f8786f77447ed563642",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "CustomFixID": "60a283193cb70855c43a381d",
+            "FixType": [
+                "None"
+            ]
+        }
+    },
+    "白lv119胸部内衬": {
+        "_id": "白lv119胸部内衬",
+        "_targetid": "6575d561b15fef3dd4051670",
+        "_name": "白lv119胸部内衬",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "ArmorMaterial": "UHMWPE",
+            "ArmorType": "Light",
+            "Durability": 44,
+            "MaxDurability": 44,
+            "RepairCost": 95,
+            "BluntThroughput": 0.33,
+            "armorClass": 4
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "聚乙烯内衬",
+            "ShortName": "",
+            "Description": "",
+            "DefaultPrice": 60000,
+            "RagfairType": "VulcanDevItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "白lv119背部内衬": {
+        "_id": "白lv119背部内衬",
+        "_targetid": "6575d56b16c2762fba005818",
+        "_name": "白lv119背部内衬",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "ArmorMaterial": "UHMWPE",
+            "ArmorType": "Light",
+            "Durability": 44,
+            "MaxDurability": 44,
+            "RepairCost": 95,
+            "BluntThroughput": 0.33,
+            "armorClass": 4
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "聚乙烯内衬",
+            "ShortName": "",
+            "Description": "",
+            "DefaultPrice": 60000,
+            "RagfairType": "VulcanDevItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "白lv119左侧内衬": {
+        "_id": "白lv119左侧内衬",
+        "_targetid": "6575d57a16c2762fba00581c",
+        "_name": "白lv119左侧内衬",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "ArmorMaterial": "UHMWPE",
+            "ArmorType": "Light",
+            "BluntThroughput": 0.18,
+            "Durability": 16,
+            "MaxDurability": 16,
+            "armorClass": 4
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "聚乙烯内衬",
+            "ShortName": "",
+            "Description": "",
+            "DefaultPrice": 60000,
+            "RagfairType": "VulcanDevItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "白lv119右侧内衬": {
+        "_id": "白lv119右侧内衬",
+        "_targetid": "6575d589b15fef3dd4051674",
+        "_name": "白lv119右侧内衬",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "ArmorMaterial": "UHMWPE",
+            "ArmorType": "Light",
+            "BluntThroughput": 0.18,
+            "Durability": 16,
+            "MaxDurability": 16,
+            "armorClass": 4
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "聚乙烯内衬",
+            "ShortName": "",
+            "Description": "",
+            "DefaultPrice": 60000,
+            "RagfairType": "VulcanDevItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "黑lv119": {
+        "_id": "黑lv119",
+        "_targetid": "5c0e746986f7741453628fe5",
+        "_parent": "5448e5284bdc2dcb718b4567",
+        "_name": "黑lv119",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/equipment/rig_bd3_spiritus/item_equipment_armor_bd3_spiritus.bundle",
+                "rcid": ""
+            },
+            "Width": 4,
+            "Height": 4,
+            "BlocksArmorVest": true,
+            "Weight": 3.5,
+            "BackgroundColor": "default",
+            "mousePenalty": 0,
+            "speedPenaltyPercent": 0,
+            "weaponErgonomicPenalty": 0,
+            "Grids": [
+                {
+                    "_id": "b61580703095777e5939364f",
+                    "_name": "1",
+                    "_parent": "黑lv119",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "a1c61cd1a7a306598ec810a4",
+                    "_name": "2",
+                    "_parent": "黑lv119",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 3,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "38330335f0a5de6fb8850a9f",
+                    "_name": "3",
+                    "_parent": "黑lv119",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 3,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "255b652ab8c6c4f000678673",
+                    "_name": "4",
+                    "_parent": "黑lv119",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 3,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "1663ea494c5f5d6e8f4144c4",
+                    "_name": "5",
+                    "_parent": "黑lv119",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "d5ca3996bf7eb69f0eefcae2",
+                    "_name": "6",
+                    "_parent": "黑lv119",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "c8c20b4e569926360609f18f",
+                    "_name": "7",
+                    "_parent": "黑lv119",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "ce4443e616eecb624b9ba55d",
+                    "_name": "8",
+                    "_parent": "黑lv119",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "70ba603bdba49a91e8a28fe5",
+                    "_name": "9",
+                    "_parent": "黑lv119",
+                    "_props": {
+                        "cellsH": 3,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "ca651b14ea9f6c5138e44187",
+                    "_name": "10",
+                    "_parent": "黑lv119",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ],
+            "Slots": [
+                {
+                    "_name": "Front_plate",
+                    "_id": "689479a4a733b1602007e2f9",
+                    "_parent": "黑lv119",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "656f9d5900d62bcd2e02407c",
+                                    "656fa8d700d62bcd2e024084",
+                                    "656fa99800d62bcd2e024088",
+                                    "656fae5f7c2d57afe200c0d7",
+                                    "656faf0ca0dce000a2020f77",
+                                    "656fa0fb498d1b7e3e071d9c",
+                                    "656fa76500d62bcd2e024080",
+                                    "656fafe3498d1b7e3e071da4",
+                                    "656fa25e94b480b8a500c0e0",
+                                    "656fad8c498d1b7e3e071da0",
+                                    "656fa61e94b480b8a500c0e8",
+                                    "656fb21fa0dce000a2020f7c",
+                                    "656fb0bd7c2d57afe200c0dc",
+                                    "656fac30c6baea13cd07e10c",
+                                    "656f9fa0498d1b7e3e071d98",
+                                    "656fa53d94b480b8a500c0e4",
+                                    "655746010177119f4a097ff7",
+                                    "64afdcb83efdfea28601d041"
+                                ],
+                                "Plate": "656faf0ca0dce000a2020f77",
+                                "armorColliders": [],
+                                "armorPlateColliders": [
+                                    "Plate_Granit_SAPI_chest"
+                                ],
+                                "bluntDamageReduceFromSoftArmor": true,
+                                "locked": false
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": true,
+                    "_proto": "64479fdf9731c8fadc0642c1"
+                },
+                {
+                    "_name": "Back_plate",
+                    "_id": "689479a4a733b1602007e2fa",
+                    "_parent": "黑lv119",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "656f9d5900d62bcd2e02407c",
+                                    "656fa8d700d62bcd2e024084",
+                                    "656fa99800d62bcd2e024088",
+                                    "656fae5f7c2d57afe200c0d7",
+                                    "656faf0ca0dce000a2020f77",
+                                    "656fa0fb498d1b7e3e071d9c",
+                                    "656fafe3498d1b7e3e071da4",
+                                    "656fa76500d62bcd2e024080",
+                                    "656fad8c498d1b7e3e071da0",
+                                    "656fa25e94b480b8a500c0e0",
+                                    "656fa61e94b480b8a500c0e8",
+                                    "656fac30c6baea13cd07e10c",
+                                    "656fb0bd7c2d57afe200c0dc",
+                                    "656fb21fa0dce000a2020f7c",
+                                    "656f9fa0498d1b7e3e071d98",
+                                    "656fa53d94b480b8a500c0e4",
+                                    "655746010177119f4a097ff7",
+                                    "64afdcb83efdfea28601d041"
+                                ],
+                                "Plate": "656faf0ca0dce000a2020f77",
+                                "armorColliders": [],
+                                "armorPlateColliders": [
+                                    "Plate_Granit_SAPI_back"
+                                ],
+                                "bluntDamageReduceFromSoftArmor": true,
+                                "locked": false
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": true,
+                    "_proto": "64479fdf9731c8fadc0642c1"
+                },
+                {
+                    "_name": "Soft_armor_front",
+                    "_id": "68a5fdb00e287618c6074dbf",
+                    "_parent": "黑lv119",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "白lv119胸部内衬"
+                                ],
+                                "Plate": "6575dd3e9e27f4a85e081142",
+                                "armorColliders": [],
+                                "armorPlateColliders": [
+                                    "Plate_Granit_SAPI_chest"
+                                ],
+                                "bluntDamageReduceFromSoftArmor": false,
+                                "locked": true
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": true,
+                    "_proto": "64479fdf9731c8fadc0642c1"
+                },
+                {
+                    "_name": "Soft_armor_back",
+                    "_id": "68a5fdb00e287618c6074dc0",
+                    "_parent": "黑lv119",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "白lv119背部内衬"
+                                ],
+                                "Plate": "6575dd519e27f4a85e081146",
+                                "armorColliders": [],
+                                "armorPlateColliders": [
+                                    "Plate_Granit_SAPI_back"
+                                ],
+                                "bluntDamageReduceFromSoftArmor": false,
+                                "locked": true
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": true,
+                    "_proto": "64479fdf9731c8fadc0642c1"
+                }
+            ],
+            "RigLayoutName": "lv119black"
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "Spiritus Systems LV-119 插板胸挂 (黑色军团 V2)",
+            "ShortName": "LV-119",
+            "Description": "一款支持高度定制的模块化插板胸挂，最大限度保证穿戴者在战斗中的舒适度，由 Spiritus Systems 公司设计制造。黑色版本。该版本配有破门炸药，以及多个附包，让使用者能够根据任务类型灵活配置携带的装备。",
+            "DefaultPrice": 200000,
+            "RagfairType": "5b5f6f8786f77447ed563642",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "CustomFixID": "60a283193cb70855c43a381d",
+            "FixType": [
+                "None"
+            ]
+        }
+    },
+    "FCPCV5": {
+        "_id": "FCPCV5",
+        "_targetid": "5c0e746986f7741453628fe5",
+        "_parent": "5448e5284bdc2dcb718b4567",
+        "_name": "FCPCV5",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/equipment/rig_bd2_ferro/item_equipment_armor_bd2_ferro.bundle",
+                "rcid": ""
+            },
+            "Width": 3,
+            "Height": 3,
+            "BlocksArmorVest": true,
+            "Weight": 2.5,
+            "BackgroundColor": "default",
+            "mousePenalty": 0,
+            "speedPenaltyPercent": 0,
+            "weaponErgonomicPenalty": 0,
+            "Grids": [
+                {
+                    "_id": "2f0e637959f0ccfbe3867d98",
+                    "_name": "1",
+                    "_parent": "FCPCV5",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "a4a6d3db73ce107009c21cb3",
+                    "_name": "2",
+                    "_parent": "FCPCV5",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "2f804864f9e1d0694c1c9e2e",
+                    "_name": "3",
+                    "_parent": "FCPCV5",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "5fe164e97fe1f645d7768cab",
+                    "_name": "4",
+                    "_parent": "FCPCV5",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "89c702c39da61b8a62ce43f5",
+                    "_name": "5",
+                    "_parent": "FCPCV5",
+                    "_props": {
+                        "cellsH": 2,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "f6c019401e0dfde16bba4ab8",
+                    "_name": "6",
+                    "_parent": "FCPCV5",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ],
+            "Slots": [
+                {
+                    "_name": "Front_plate",
+                    "_id": "689479a4a733b1602007e2f9",
+                    "_parent": "FCPCV5",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "656f9d5900d62bcd2e02407c",
+                                    "656fa8d700d62bcd2e024084",
+                                    "656fa99800d62bcd2e024088",
+                                    "656fae5f7c2d57afe200c0d7",
+                                    "656faf0ca0dce000a2020f77",
+                                    "656fa0fb498d1b7e3e071d9c",
+                                    "656fa76500d62bcd2e024080",
+                                    "656fafe3498d1b7e3e071da4",
+                                    "656fa25e94b480b8a500c0e0",
+                                    "656fad8c498d1b7e3e071da0",
+                                    "656fa61e94b480b8a500c0e8",
+                                    "656fb21fa0dce000a2020f7c",
+                                    "656fb0bd7c2d57afe200c0dc",
+                                    "656fac30c6baea13cd07e10c",
+                                    "656f9fa0498d1b7e3e071d98",
+                                    "656fa53d94b480b8a500c0e4",
+                                    "655746010177119f4a097ff7",
+                                    "64afdcb83efdfea28601d041"
+                                ],
+                                "Plate": "656faf0ca0dce000a2020f77",
+                                "armorColliders": [],
+                                "armorPlateColliders": [
+                                    "Plate_Granit_SAPI_chest"
+                                ],
+                                "bluntDamageReduceFromSoftArmor": true,
+                                "locked": false
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": true,
+                    "_proto": "64479fdf9731c8fadc0642c1"
+                },
+                {
+                    "_name": "Back_plate",
+                    "_id": "689479a4a733b1602007e2fa",
+                    "_parent": "FCPCV5",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "656f9d5900d62bcd2e02407c",
+                                    "656fa8d700d62bcd2e024084",
+                                    "656fa99800d62bcd2e024088",
+                                    "656fae5f7c2d57afe200c0d7",
+                                    "656faf0ca0dce000a2020f77",
+                                    "656fa0fb498d1b7e3e071d9c",
+                                    "656fafe3498d1b7e3e071da4",
+                                    "656fa76500d62bcd2e024080",
+                                    "656fad8c498d1b7e3e071da0",
+                                    "656fa25e94b480b8a500c0e0",
+                                    "656fa61e94b480b8a500c0e8",
+                                    "656fac30c6baea13cd07e10c",
+                                    "656fb0bd7c2d57afe200c0dc",
+                                    "656fb21fa0dce000a2020f7c",
+                                    "656f9fa0498d1b7e3e071d98",
+                                    "656fa53d94b480b8a500c0e4",
+                                    "655746010177119f4a097ff7",
+                                    "64afdcb83efdfea28601d041"
+                                ],
+                                "Plate": "656faf0ca0dce000a2020f77",
+                                "armorColliders": [],
+                                "armorPlateColliders": [
+                                    "Plate_Granit_SAPI_back"
+                                ],
+                                "bluntDamageReduceFromSoftArmor": true,
+                                "locked": false
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": true,
+                    "_proto": "64479fdf9731c8fadc0642c1"
+                },
+                {
+                    "_name": "Soft_armor_front",
+                    "_id": "68a5fdb00e287618c6074dbf",
+                    "_parent": "FCPCV5",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "FCPCV5胸部内衬"
+                                ],
+                                "Plate": "6575dd3e9e27f4a85e081142",
+                                "armorColliders": [],
+                                "armorPlateColliders": [
+                                    "Plate_Granit_SAPI_chest"
+                                ],
+                                "bluntDamageReduceFromSoftArmor": false,
+                                "locked": true
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": true,
+                    "_proto": "64479fdf9731c8fadc0642c1"
+                },
+                {
+                    "_name": "Soft_armor_back",
+                    "_id": "68a5fdb00e287618c6074dc0",
+                    "_parent": "FCPCV5",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "FCPCV5背部内衬"
+                                ],
+                                "Plate": "6575dd519e27f4a85e081146",
+                                "armorColliders": [],
+                                "armorPlateColliders": [
+                                    "Plate_Granit_SAPI_back"
+                                ],
+                                "bluntDamageReduceFromSoftArmor": false,
+                                "locked": true
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": true,
+                    "_proto": "64479fdf9731c8fadc0642c1"
+                },
+                {
+                    "_name": "Soft_armor_left",
+                    "_id": "68a5fdb00e287618c6074dc1",
+                    "_parent": "FCPCV5",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "FCPCV5左侧内衬"
+                                ],
+                                "Plate": "6575dd64945bf78edd04c438",
+                                "armorColliders": [
+                                    "LeftSideChestDown"
+                                ],
+                                "armorPlateColliders": [],
+                                "bluntDamageReduceFromSoftArmor": false,
+                                "locked": true
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": true,
+                    "_proto": "64479fdf9731c8fadc0642c1"
+                },
+                {
+                    "_name": "soft_armor_right",
+                    "_id": "68a5fdb00e287618c6074dc2",
+                    "_parent": "FCPCV5",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "FCPCV5右侧内衬"
+                                ],
+                                "Plate": "6575dd6e9d3a0ddf660b9047",
+                                "armorColliders": [
+                                    "RightSideChestDown"
+                                ],
+                                "armorPlateColliders": [],
+                                "bluntDamageReduceFromSoftArmor": false,
+                                "locked": true
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": true,
+                    "_proto": "64479fdf9731c8fadc0642c1"
+                }
+            ],
+            "RigLayoutName": "fppcv5"
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "Ferro Concepts FCPC V5 插板胸挂 (黑色军团)",
+            "ShortName": "FCPC V5",
+            "Description": "第五代 FCPC 插板胸挂延续了 Ferro Concepts 公司打造轻量化自适应装备的设计理念。新一代产品进一步完善了插板背心和其延伸部分的剪裁，以提升穿戴舒适度与机动能力。狼棕色版本。配有 2 具无线电手台，分别用于联络下属小队以及总部。",
+            "DefaultPrice": 200000,
+            "RagfairType": "5b5f6f8786f77447ed563642",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "CustomFixID": "60a283193cb70855c43a381d",
+            "FixType": [
+                "None"
+            ]
+        }
+    },
+    "FCPCV5胸部内衬": {
+        "_id": "FCPCV5胸部内衬",
+        "_targetid": "6575d561b15fef3dd4051670",
+        "_name": "FCPCV5胸部内衬",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "ArmorMaterial": "UHMWPE",
+            "ArmorType": "Light",
+            "Durability": 40,
+            "MaxDurability": 40,
+            "RepairCost": 83,
+            "BluntThroughput": 0.33,
+            "armorClass": 5
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "聚乙烯内衬",
+            "ShortName": "",
+            "Description": "",
+            "DefaultPrice": 60000,
+            "RagfairType": "VulcanDevItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "FCPCV5背部内衬": {
+        "_id": "FCPCV5背部内衬",
+        "_targetid": "6575d56b16c2762fba005818",
+        "_name": "FCPCV5背部内衬",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "ArmorMaterial": "UHMWPE",
+            "ArmorType": "Light",
+            "Durability": 40,
+            "MaxDurability": 40,
+            "RepairCost": 83,
+            "BluntThroughput": 0.33,
+            "armorClass": 5
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "聚乙烯内衬",
+            "ShortName": "",
+            "Description": "",
+            "DefaultPrice": 60000,
+            "RagfairType": "VulcanDevItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "FCPCV5左侧内衬": {
+        "_id": "FCPCV5左侧内衬",
+        "_targetid": "6575d57a16c2762fba00581c",
+        "_name": "FCPCV5左侧内衬",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "ArmorMaterial": "UHMWPE",
+            "ArmorType": "Light",
+            "RepairCost": 70,
+            "BluntThroughput": 0.18,
+            "Durability": 14,
+            "MaxDurability": 14,
+            "armorClass": 5
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "聚乙烯内衬",
+            "ShortName": "",
+            "Description": "",
+            "DefaultPrice": 60000,
+            "RagfairType": "VulcanDevItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "FCPCV5右侧内衬": {
+        "_id": "FCPCV5右侧内衬",
+        "_targetid": "6575d589b15fef3dd4051674",
+        "_name": "FCPCV5右侧内衬",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "ArmorMaterial": "UHMWPE",
+            "ArmorType": "Light",
+            "RepairCost": 70,
+            "BluntThroughput": 0.18,
+            "Durability": 14,
+            "MaxDurability": 14,
+            "armorClass": 5
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "聚乙烯内衬",
+            "ShortName": "",
+            "Description": "",
+            "DefaultPrice": 60000,
+            "RagfairType": "VulcanDevItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "SiegeR": {
+        "_id": "SiegeR",
+        "_targetid": "60a283193cb70855c43a381d",
+        "_parent": "5448e5284bdc2dcb718b4567",
+        "_name": "SiegeR",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/equipment/rig_bd4_firstspear/item_equipment_armor_bd4_firstspear.bundle",
+                "rcid": ""
+            },
+            "Width": 4,
+            "Height": 4,
+            "BlocksArmorVest": true,
+            "Weight": 4.5,
+            "BackgroundColor": "default",
+            "mousePenalty": 0,
+            "speedPenaltyPercent": 0,
+            "weaponErgonomicPenalty": 0,
+            "Grids": [
+                {
+                    "_id": "3c169ef07d3ab93f55c7f22f",
+                    "_name": "1",
+                    "_parent": "SiegeR",
+                    "_props": {
+                        "cellsH": 2,
+                        "cellsV": 3,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "9c3b815ece30e283158841b6",
+                    "_name": "2",
+                    "_parent": "SiegeR",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 3,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "16d7371918a1e03542a6f5eb",
+                    "_name": "3",
+                    "_parent": "SiegeR",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 3,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "4fd0b77928c24e87c276ca3a",
+                    "_name": "4",
+                    "_parent": "SiegeR",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 3,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "02cf51971f26c745012ba260",
+                    "_name": "5",
+                    "_parent": "SiegeR",
+                    "_props": {
+                        "cellsH": 2,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "2191d982937191de9929eb69",
+                    "_name": "6",
+                    "_parent": "SiegeR",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "8a394f6fdba60e390ef19477",
+                    "_name": "7",
+                    "_parent": "SiegeR",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "512254a094a58ac2adbdf44a",
+                    "_name": "8",
+                    "_parent": "SiegeR",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "2f87534c5105e16a449727c8",
+                    "_name": "9",
+                    "_parent": "SiegeR",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "80a0bf2c0e877ea8d185ca7b",
+                    "_name": "10",
+                    "_parent": "SiegeR",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "7e8261447ac2a9d44c928a17",
+                    "_name": "11",
+                    "_parent": "SiegeR",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ],
+            "RigLayoutName": "firstspear"
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "First Spear Siege-R Optimized M.A.S.S. 插板胸挂 (黑色军团)",
+            "ShortName": "Siege-R",
+            "Description": "一款配有模块化附加护甲系统 (M.A.S.S.) 肩部悬挂的 First Spear Siege-R Optimized 插板背心。在提供可靠的全方位防护同时，为使用者留出充足的活动空间，便于操作各类武器设备。黑色版本。",
+            "DefaultPrice": 200000,
+            "RagfairType": "5b5f6f8786f77447ed563642",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "CustomFixID": "60a283193cb70855c43a381d",
+            "FixType": [
+                "None"
+            ]
+        }
+    },
+    "SiegeR侧板": {
+        "_id": "SiegeR侧板",
+        "_targetid": "64afd81707e2cf40e903a316",
+        "_name": "SiegeR侧板",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "ArmorMaterial": "UHMWPE",
+            "ArmorType": "Light",
+            "Weight": 0.6,
+            "BluntThroughput": 0.18,
+            "Durability": 30,
+            "MaxDurability": 30,
+            "mousePenalty": 0,
+            "speedPenaltyPercent": 0,
+            "weaponErgonomicPenalty": 0,
+            "armorClass": 6
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "Granit 防弹插板（黑色军团）",
+            "ShortName": "Granit侧板",
+            "Description": "Granit 系列防弹侧板，可安装在防弹背心与插板胸挂侧面预留位，保护躯体两侧，这是黑色军团的定制版本。",
+            "DefaultPrice": 60000,
+            "RagfairType": "VulcanDevItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods",
+                "Container"
+            ]
+        }
+    },
+    "SiegeR胸部内衬": {
+        "_id": "SiegeR胸部内衬",
+        "_targetid": "6575d561b15fef3dd4051670",
+        "_name": "SiegeR胸部内衬",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "RepairCost": 88,
+            "BluntThroughput": 0.36,
+            "ArmorMaterial": "UHMWPE",
+            "ArmorType": "Light",
+            "Durability": 44,
+            "MaxDurability": 44,
+            "armorClass": 5
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "聚乙烯内衬",
+            "ShortName": "",
+            "Description": "",
+            "DefaultPrice": 80000,
+            "RagfairType": "VulcanDevItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "SiegeR背部内衬": {
+        "_id": "SiegeR背部内衬",
+        "_targetid": "6575d56b16c2762fba005818",
+        "_name": "SiegeR背部内衬",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "RepairCost": 88,
+            "BluntThroughput": 0.36,
+            "ArmorMaterial": "UHMWPE",
+            "ArmorType": "Light",
+            "Durability": 44,
+            "MaxDurability": 44,
+            "armorClass": 5
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "聚乙烯内衬",
+            "ShortName": "",
+            "Description": "",
+            "DefaultPrice": 80000,
+            "RagfairType": "VulcanDevItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "SiegeR左侧内衬": {
+        "_id": "SiegeR左侧内衬",
+        "_targetid": "6575d57a16c2762fba00581c",
+        "_name": "SiegeR左侧内衬",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "RepairCost": 88,
+            "BluntThroughput": 0.36,
+            "ArmorMaterial": "UHMWPE",
+            "ArmorType": "Light",
+            "Durability": 16,
+            "MaxDurability": 16,
+            "armorClass": 5
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "聚乙烯内衬",
+            "ShortName": "",
+            "Description": "",
+            "DefaultPrice": 80000,
+            "RagfairType": "VulcanDevItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "SiegeR右侧内衬": {
+        "_id": "SiegeR右侧内衬",
+        "_targetid": "6575d589b15fef3dd4051674",
+        "_name": "SiegeR右侧内衬",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "RepairCost": 88,
+            "BluntThroughput": 0.36,
+            "ArmorMaterial": "UHMWPE",
+            "ArmorType": "Light",
+            "Durability": 16,
+            "MaxDurability": 16,
+            "armorClass": 5
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "聚乙烯内衬",
+            "ShortName": "",
+            "Description": "",
+            "DefaultPrice": 80000,
+            "RagfairType": "VulcanDevItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "SiegeR脖子内衬": {
+        "_id": "SiegeR脖子内衬",
+        "_targetid": "6575d598b15fef3dd4051678",
+        "_name": "SiegeR脖子内衬",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "RepairCost": 88,
+            "BluntThroughput": 0.36,
+            "ArmorMaterial": "UHMWPE",
+            "ArmorType": "Light",
+            "Durability": 24,
+            "MaxDurability": 24,
+            "armorClass": 5
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "聚乙烯内衬",
+            "ShortName": "",
+            "Description": "",
+            "DefaultPrice": 80000,
+            "RagfairType": "VulcanDevItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "SiegeR左肩内衬": {
+        "_id": "SiegeR左肩内衬",
+        "_targetid": "6575d5b316c2762fba005824",
+        "_name": "SiegeR左肩内衬",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "RepairCost": 88,
+            "BluntThroughput": 0.36,
+            "ArmorMaterial": "UHMWPE",
+            "ArmorType": "Light",
+            "Durability": 24,
+            "MaxDurability": 24,
+            "armorClass": 5
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "聚乙烯内衬",
+            "ShortName": "",
+            "Description": "",
+            "DefaultPrice": 80000,
+            "RagfairType": "VulcanDevItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "SiegeR右肩内衬": {
+        "_id": "SiegeR右肩内衬",
+        "_targetid": "6575d5bd16c2762fba005828",
+        "_name": "SiegeR右肩内衬",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "RepairCost": 88,
+            "BluntThroughput": 0.36,
+            "ArmorMaterial": "UHMWPE",
+            "ArmorType": "Light",
+            "Durability": 24,
+            "MaxDurability": 24,
+            "armorClass": 5
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "聚乙烯内衬",
+            "ShortName": "",
+            "Description": "",
+            "DefaultPrice": 80000,
+            "RagfairType": "VulcanDevItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "SiegeR股沟内衬": {
+        "_id": "SiegeR股沟内衬",
+        "_targetid": "6575d5a616c2762fba005820",
+        "_name": "SiegeR股沟内衬",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "RepairCost": 88,
+            "BluntThroughput": 0.36,
+            "ArmorMaterial": "UHMWPE",
+            "ArmorType": "Light",
+            "Durability": 28,
+            "MaxDurability": 28,
+            "armorClass": 5
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "聚乙烯内衬",
+            "ShortName": "",
+            "Description": "",
+            "DefaultPrice": 80000,
+            "RagfairType": "VulcanDevItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "TT45背包": {
+        "_id": "TT45背包",
+        "_targetid": "59e763f286f7742ee57895da",
+        "_name": "TT45背包",
+        "_props": {
+            "Weight": 2.965,
+            "BackgroundColor": "violet",
+            "Width": 5,
+            "Height": 8,
+            "Prefab": {
+                "path": "assets/content/items/equipment/backpack_bd_modular_pack_45/item_equipment_backpack_bd_modular_pack_45.bundle",
+                "rcid": ""
+            },
+            "mousePenalty": 0,
+            "speedPenaltyPercent": 0,
+            "weaponErgonomicPenalty": 0
+        },
+        "_customprops": {
+            "$type": "container",
+            "Name": "Tasmanian Tiger Modular Pack 45 Plus 模块化背包 (黑系复合迷彩)",
+            "ShortName": "45+ 模块化背包",
+            "Description": "塔斯马尼亚虎 (TT) 45+ 模块化背包系统可根据使用者的实际需要进行深度定制。背包顶盖可展开以扩充容量，在必要情况下也可整体卸除。还附带有绑带可携带笨重的武器设备，需要拿取时也相当方便。黑系复合迷彩版本。",
+            "DefaultPrice": 360000,
+            "RagfairType": "5b5f6f6c86f774093f2ecf0b",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "ContainerSizeWidth": 5,
+            "ContainerSizeHeight": 8,
+            "BlackListType": 8
+        }
+    },
+    "2DAY背包": {
+        "_id": "2DAY背包",
+        "_targetid": "59e763f286f7742ee57895da",
+        "_name": "2DAY背包",
+        "_props": {
+            "Weight": 1.485,
+            "BackgroundColor": "violet",
+            "Width": 5,
+            "Height": 6,
+            "Prefab": {
+                "path": "assets/content/items/equipment/backpack_bd_mystery_ranch_2day/item_equipment_backpack_bd_mystery_ranch_2day.bundle",
+                "rcid": ""
+            },
+            "mousePenalty": 0,
+            "speedPenaltyPercent": 0,
+            "weaponErgonomicPenalty": 0
+        },
+        "_customprops": {
+            "$type": "container",
+            "Name": "Mystery Ranch 2 日突击包 (黑色)",
+            "ShortName": "2 日突击",
+            "Description": "这款神秘农场 (Mystery Ranch) 背包专为短期任务而打造，可容纳至多 2 天所需的装备给养。优秀的人机工效部分抵消了背包容量有限的缺点，附加绑带系统提供了额外的挂点，可方便地将任务途中所需的工具与装备加挂在背包上。",
+            "DefaultPrice": 360000,
+            "RagfairType": "5b5f6f6c86f774093f2ecf0b",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "ContainerSizeWidth": 5,
+            "ContainerSizeHeight": 6,
+            "BlackListType": 8
+        }
+    },
+    "行李箱背包": {
+        "_id": "行李箱背包",
+        "_targetid": "59e763f286f7742ee57895da",
+        "_name": "行李箱背包",
+        "_props": {
+            "Weight": 3.035,
+            "BackgroundColor": "violet",
+            "Width": 5,
+            "Height": 6,
+            "Prefab": {
+                "path": "assets/content/items/equipment/backpack_bd_mystery_ranch_nice_load_sling/item_equipment_backpack_bd_mystery_ranch_nice_load.bundle",
+                "rcid": ""
+            },
+            "mousePenalty": 0,
+            "speedPenaltyPercent": 0,
+            "weaponErgonomicPenalty": 0
+        },
+        "_customprops": {
+            "$type": "container",
+            "Name": "Mystery Ranch NICE 框架式承重系统",
+            "ShortName": "NICE 承重背带",
+            "Description": "神秘农场 (Mystery Ranch) 设计制造的背负系统可携带各类外形不规则的重物。主绑带确保载荷能够安全可靠地固定在背带框架上，附加的 MOLLE 系统则为加装小型附包留出了改装空间。该版本装载有大型货箱，为内容物提供一定的保护。",
+            "DefaultPrice": 360000,
+            "RagfairType": "5b5f6f6c86f774093f2ecf0b",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "ContainerSizeWidth": 5,
+            "ContainerSizeHeight": 7,
+            "BlackListType": 8
+        }
+    },
+    "L4G24夜视仪支架": {
+        "_id": "L4G24夜视仪支架",
+        "_targetid": "5a16b8a9fcdbcb00165aa6ca",
+        "_name": "L4G24夜视仪支架",
+        "_props": {
+            "Prefab": {
+                "path": "assets/content/items/equipment/customizable/nvg_wilcox_l4g24_mount/nvg_wilcox_l4g24_mount_coy.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_name": "mod_nvg",
+                    "_id": "689dbded6c7e684817080c2b",
+                    "_parent": "L4G24夜视仪支架",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "PVS31A"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ]
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "Wilcox L4G24 夜视仪支架 (狼棕色)",
+            "ShortName": "L4G24",
+            "Description": "一款可调式通用夜视仪支架系统，由 Wilcox 公司设计制造。该支架具备应急防卡挂设计，在遭受相当力度的冲击时会自动断裂分离头盔，避免使用者受到严重伤害。兼容大部分夜视仪转接器与头盔接口。灰褐色版本。",
+            "RagfairType": "5b5f755f86f77447ec5d770e",
+            "DefaultPrice": 1599,
+            "RagfairPrice": 7697,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "5b5f75e486f77447ec5d7712",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "Mods"
+            ],
+            "CopyPrice": true
+        }
+    },
+    "黑L4G24夜视仪支架": {
+        "_id": "黑L4G24夜视仪支架",
+        "_targetid": "5a16b8a9fcdbcb00165aa6ca",
+        "_name": "黑L4G24夜视仪支架",
+        "_props": {
+            "Prefab": {
+                "path": "assets/content/items/equipment/customizable/nvg_wilcox_l4g24_mount/nvg_wilcox_l4g24_mount.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_name": "mod_nvg",
+                    "_id": "689dbded6c7e684817080c2b",
+                    "_parent": "黑L4G24夜视仪支架",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "PVS31A"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ]
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "Wilcox L4G24 夜视仪支架 (黑色)",
+            "ShortName": "L4G24",
+            "Description": "一款可调式通用夜视仪支架系统，由 Wilcox 公司设计制造。该支架具备应急防卡挂设计，在遭受相当力度的冲击时会自动断裂分离头盔，避免使用者受到严重伤害。兼容大部分夜视仪转接器与头盔接口。黑色版本。",
+            "RagfairType": "5b5f755f86f77447ec5d770e",
+            "DefaultPrice": 1599,
+            "RagfairPrice": 7697,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "5b5f75e486f77447ec5d7712",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "Mods"
+            ],
+            "CopyPrice": true
+        }
+    },
+    "PVS31A": {
+        "_id": "PVS31A",
+        "_targetid": "5c0558060db834001b735271",
+        "_name": "PVS31A",
+        "_props": {
+            "Prefab": {
+                "path": "assets/content/items/equipment/customizable/nvg_l3_pvs31a/nvg_l3_pvs31a.bundle",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": false,
+            "Color": {
+                "r": 95,
+                "g": 255,
+                "b": 236,
+                "a": 254
+            },
+            "DiffuseIntensity": 0.03,
+            "HasHinge": true,
+            "Intensity": 2.4,
+            "Mask": "Binocular",
+            "MaskSize": 1.25,
+            "NoiseIntensity": 0.02,
+            "NoiseScale": 5
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "L3Harris PVS-31A 夜视仪",
+            "ShortName": "PVS-31A",
+            "Description": "一款相当轻便的夜视仪，针对人机工学进行了特别优化，由 L3Harris 公司设计制造。PVS-31A 不仅能在低可视度环境下提供清晰的画面，背景存在明亮光源的情况下也能清晰成像。配有 Butler Creek 物镜保护盖。白磷光成像管版本。",
+            "DefaultPrice": 145004,
+            "RagfairType": "5b5f749986f774094242f199",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 8
+        }
+    },
+    "杜拉罕弹挂甲": {
+        "_id": "杜拉罕弹挂甲",
+        "_targetid": "628b9c7d45122232a872358f",
+        "_name": "杜拉罕弹挂甲",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "Weight": 3.5,
+            "BackgroundColor": "default",
+            "mousePenalty": 0,
+            "speedPenaltyPercent": 0,
+            "weaponErgonomicPenalty": 0,
+            "Grids": [
+                {
+                    "_id": "0369e60c193277b2755daacc",
+                    "_name": "1",
+                    "_parent": "杜拉罕弹挂甲",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 3,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "86644f3fd74f9e38b2c6fc00",
+                    "_name": "2",
+                    "_parent": "杜拉罕弹挂甲",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 3,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "6aa971fad55c991ae0cc8f99",
+                    "_name": "3",
+                    "_parent": "杜拉罕弹挂甲",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 3,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "5100fec2470031aef0a428a5",
+                    "_name": "4",
+                    "_parent": "杜拉罕弹挂甲",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 3,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "77e2dc684bfcf8c8664827b8",
+                    "_name": "5",
+                    "_parent": "杜拉罕弹挂甲",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 3,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "0662a3e2a1ac67ba3dd1e105",
+                    "_name": "6",
+                    "_parent": "杜拉罕弹挂甲",
+                    "_props": {
+                        "cellsH": 2,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "d9f05bf4e4b653bd1a55f32b",
+                    "_name": "7",
+                    "_parent": "杜拉罕弹挂甲",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ],
+            "RigLayoutName": "dullahan"
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "Crye Precision CPC 插板胸挂（E.B.O.N. 特别版）WIP",
+            "ShortName": "CPC GE",
+            "Description": "笼式插板胸挂 (CPC) 在穿戴舒适程度与载荷支撑能力方面别具优势，几乎是其他低特征插板胸挂所无法比拟的，整套系统还兼容多种副包。当前版本的配置由 E.B.O.N. 小队的队长 杜拉罕弹挂甲 专门定制，为提升机动性执行突击任务进行了专门特化——而这正是 杜拉罕弹挂甲 一贯的风格。",
+            "DefaultPrice": 170202,
+            "RagfairType": "5b5f6f8786f77447ed563642",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "CustomFixID": "60a283193cb70855c43a381d",
+            "FixType": [
+                "QuestEquip"
+            ]
+        }
+    },
+    "歌利亚弹挂甲": {
+        "_id": "歌利亚弹挂甲",
+        "_targetid": "628b9784bcf6e2659e09b8a2",
+        "_name": "歌利亚弹挂甲",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "Weight": 3.5,
+            "BackgroundColor": "default",
+            "mousePenalty": 0,
+            "speedPenaltyPercent": 0,
+            "weaponErgonomicPenalty": 0,
+            "Grids": [
+                {
+                    "_id": "81ab254e268e00857df302c8",
+                    "_name": "1",
+                    "_parent": "歌利亚弹挂甲",
+                    "_props": {
+                        "cellsH": 2,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "d814f29f35b0789fd0e3fcb7",
+                    "_name": "2",
+                    "_parent": "歌利亚弹挂甲",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "c22f411561c35f32eae6cabe",
+                    "_name": "3",
+                    "_parent": "歌利亚弹挂甲",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "1a486bd55958b4090562a02c",
+                    "_name": "4",
+                    "_parent": "歌利亚弹挂甲",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "ecffd68d42bed5c95216ff12",
+                    "_name": "5",
+                    "_parent": "歌利亚弹挂甲",
+                    "_props": {
+                        "cellsH": 2,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "85360cc435452ee88981c50b",
+                    "_name": "6",
+                    "_parent": "歌利亚弹挂甲",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "c3787f0cd3522e5d9bd0168d",
+                    "_name": "7",
+                    "_parent": "歌利亚弹挂甲",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "04b1889168f82f2ebf29427b",
+                    "_name": "8",
+                    "_parent": "歌利亚弹挂甲",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "a2f30c1eb5af4ce31f5e5cfb",
+                    "_name": "9",
+                    "_parent": "歌利亚弹挂甲",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "d7645ce6ed94e299090c6bc7",
+                    "_name": "10",
+                    "_parent": "歌利亚弹挂甲",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "5ff3eb567f606ae104f19d31",
+                    "_name": "11",
+                    "_parent": "歌利亚弹挂甲",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ],
+            "RigLayoutName": "glya"
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "S&S Precision PlateFrame 插板胸挂（E.B.O.N. 特别版）WIP",
+            "ShortName": "PlateFrame GE",
+            "Description": "一款外形简洁的轻量化插板胸挂，在 E.B.O.N. 小队成员 Golyat 的特别要求下，还使用半硬质塑料对结构进行加固。由 S&S Precision 公司设计制造。",
+            "DefaultPrice": 170202,
+            "RagfairType": "5b5f6f8786f77447ed563642",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "CustomFixID": "60a283193cb70855c43a381d",
+            "FixType": [
+                "QuestEquip"
+            ]
+        }
+    },
+    "阿尔戈斯弹挂": {
+        "_id": "阿尔戈斯弹挂",
+        "_targetid": "628baf0b967de16aab5a4f36",
+        "_name": "阿尔戈斯弹挂",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "Weight": 3.5,
+            "BackgroundColor": "default",
+            "mousePenalty": 0,
+            "speedPenaltyPercent": 0,
+            "weaponErgonomicPenalty": 0,
+            "Grids": [
+                {
+                    "_id": "168840b5611e61e1bc3b5ee8",
+                    "_name": "1",
+                    "_parent": "阿尔戈斯弹挂",
+                    "_props": {
+                        "cellsH": 2,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "94214edc96026ceb2635c01e",
+                    "_name": "2",
+                    "_parent": "阿尔戈斯弹挂",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "3e4020346585512427232ee0",
+                    "_name": "3",
+                    "_parent": "阿尔戈斯弹挂",
+                    "_props": {
+                        "cellsH": 2,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "9cc02eccb4860fa4d786811b",
+                    "_name": "4",
+                    "_parent": "阿尔戈斯弹挂",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "24dbef2b07bae3a50308f98c",
+                    "_name": "5",
+                    "_parent": "阿尔戈斯弹挂",
+                    "_props": {
+                        "cellsH": 3,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "3cb3bef2ceff6a4b902ca512",
+                    "_name": "6",
+                    "_parent": "阿尔戈斯弹挂",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "0a6a18f0eda0b728d4c97f54",
+                    "_name": "7",
+                    "_parent": "阿尔戈斯弹挂",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "9ddf250f00496e9561be5894",
+                    "_name": "8",
+                    "_parent": "阿尔戈斯弹挂",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "433c2f4ea1920742718d3a06",
+                    "_name": "9",
+                    "_parent": "阿尔戈斯弹挂",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ],
+            "RigLayoutName": "eyes"
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "LBT-1961A Load Bearing胸挂 ( E.B.O.N.特别版)",
+            "ShortName": "LBCR GE",
+            "Description": "设计用于携带弹匣、手榴弹和特种设备的战术承重系统，搭配防弹衣使用。这是由Argus——E.B.O.N.小队成员改装过的特别版。",
+            "DefaultPrice": 170202,
+            "RagfairType": "5b5f6f8786f77447ed563642",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "CustomFixID": "60a283193cb70855c43a381d",
+            "FixType": [
+                "QuestEquip"
+            ]
         }
     }
 }
