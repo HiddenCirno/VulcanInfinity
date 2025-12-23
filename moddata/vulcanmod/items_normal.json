@@ -23127,7 +23127,7 @@
             "ShortName": "Granit侧板",
             "Description": "Granit 系列防弹侧板，可安装在防弹背心与插板胸挂侧面预留位，保护躯体两侧，这是黑色军团的定制版本。",
             "DefaultPrice": 60000,
-            "RagfairType": "VulcanDevItem",
+            "RagfairType": "5b5f704686f77447ec5d76d7",
             "CanFindInRaid": false,
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
@@ -23779,14 +23779,18 @@
                     "_proto": "55d329c24bdc2d892f8b4567"
                 }
             ],
+            "Prefab": {
+                "path": "assets/equipment/rig_boss_blackknight/item_equipment_rig_boss_blackknight.bundle",
+                "rcid": ""
+            },
             "RigLayoutName": "dullahan"
         },
         "_customprops": {
             "$type": "fixed",
             "Name": "Crye Precision CPC 插板胸挂（E.B.O.N. 特别版）WIP",
             "ShortName": "CPC GE",
-            "Description": "笼式插板胸挂 (CPC) 在穿戴舒适程度与载荷支撑能力方面别具优势，几乎是其他低特征插板胸挂所无法比拟的，整套系统还兼容多种副包。当前版本的配置由 E.B.O.N. 小队的队长 杜拉罕弹挂甲 专门定制，为提升机动性执行突击任务进行了专门特化——而这正是 杜拉罕弹挂甲 一贯的风格。",
-            "DefaultPrice": 170202,
+            "Description": "笼式插板胸挂 (CPC) 在穿戴舒适程度与载荷支撑能力方面别具优势，几乎是其他低特征插板胸挂所无法比拟的，整套系统还兼容多种副包。当前版本的配置由 E.B.O.N. 小队的队长 Dullahan 专门定制，为提升机动性执行突击任务进行了专门特化——而这正是 Dullahan 一贯的风格。",
+            "DefaultPrice": 220202,
             "RagfairType": "5b5f6f8786f77447ed563642",
             "CanFindInRaid": false,
             "CustomLoot": false,
@@ -24076,6 +24080,10 @@
                     "_proto": "55d329c24bdc2d892f8b4567"
                 }
             ],
+            "Prefab": {
+                "path": "assets/equipment/armor_ss_precision_boss_big_pipe/item_equipment_rig_boss_big_pipe.bundle",
+                "rcid": ""
+            },
             "RigLayoutName": "glya"
         },
         "_customprops": {
@@ -24083,7 +24091,7 @@
             "Name": "S&S Precision PlateFrame 插板胸挂（E.B.O.N. 特别版）WIP",
             "ShortName": "PlateFrame GE",
             "Description": "一款外形简洁的轻量化插板胸挂，在 E.B.O.N. 小队成员 Golyat 的特别要求下，还使用半硬质塑料对结构进行加固。由 S&S Precision 公司设计制造。",
-            "DefaultPrice": 170202,
+            "DefaultPrice": 198542,
             "RagfairType": "5b5f6f8786f77447ed563642",
             "CanFindInRaid": false,
             "CustomLoot": false,
@@ -24325,6 +24333,10 @@
                     "_proto": "55d329c24bdc2d892f8b4567"
                 }
             ],
+            "Prefab": {
+                "path": "assets/equipment/rig_boss_birdeye/item_equipment_rig_boss_birdeye.bundle",
+                "rcid": ""
+            },
             "RigLayoutName": "eyes"
         },
         "_customprops": {
@@ -24332,7 +24344,7 @@
             "Name": "LBT-1961A Load Bearing胸挂 ( E.B.O.N.特别版)",
             "ShortName": "LBCR GE",
             "Description": "设计用于携带弹匣、手榴弹和特种设备的战术承重系统，搭配防弹衣使用。这是由Argus——E.B.O.N.小队成员改装过的特别版。",
-            "DefaultPrice": 170202,
+            "DefaultPrice": 154323,
             "RagfairType": "5b5f6f8786f77447ed563642",
             "CanFindInRaid": false,
             "CustomLoot": false,
@@ -27177,6 +27189,102 @@
                 "Mods",
                 "Container"
             ]
+        }
+    },
+    "杜拉罕弹挂甲胸部内衬": {
+        "_id": "杜拉罕弹挂甲胸部内衬",
+        "_targetid": "6575f24ff6a13a7b7100b09e",
+        "_name": "杜拉罕弹挂甲胸部内衬",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "Durability": 50,
+            "MaxDurability": 50,
+            "armorClass": 4
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "芳纶内衬",
+            "ShortName": "",
+            "Description": "",
+            "DefaultPrice": 60000,
+            "RagfairType": "VulcanDevItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "杜拉罕弹挂甲背部内衬": {
+        "_id": "杜拉罕弹挂甲背部内衬",
+        "_targetid": "6575f25ada698a4e98067836",
+        "_name": "杜拉罕弹挂甲背部内衬",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "Durability": 50,
+            "MaxDurability": 50,
+            "armorClass": 4
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "芳纶内衬",
+            "ShortName": "",
+            "Description": "",
+            "DefaultPrice": 60000,
+            "RagfairType": "VulcanDevItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "杜拉罕弹挂甲左侧内衬": {
+        "_id": "杜拉罕弹挂甲左侧内衬",
+        "_targetid": "6575f2649cfdfe416f0399b8",
+        "_name": "杜拉罕弹挂甲左侧内衬",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "Durability": 20,
+            "MaxDurability": 20,
+            "armorClass": 4
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "芳纶内衬",
+            "ShortName": "",
+            "Description": "",
+            "DefaultPrice": 60000,
+            "RagfairType": "VulcanDevItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "杜拉罕弹挂甲右侧内衬": {
+        "_id": "杜拉罕弹挂甲右侧内衬",
+        "_targetid": "6575f26d9c7cad336508e480",
+        "_name": "杜拉罕弹挂甲右侧内衬",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "Durability": 20,
+            "MaxDurability": 20,
+            "armorClass": 4
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "芳纶内衬",
+            "ShortName": "",
+            "Description": "",
+            "DefaultPrice": 60000,
+            "RagfairType": "VulcanDevItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
         }
     }
 }

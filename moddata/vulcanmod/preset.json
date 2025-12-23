@@ -363,24 +363,24 @@
                 "_id": "雪王头_本体",
                 "_tpl": "雪王Mask头"
             },
-        {
-          "_id": "雪王头_头顶",
-          "_tpl": "6571133d22996eaf11088200",
-          "parentId": "雪王头_本体",
-          "slotId": "Helmet_top"
-        },
-        {
-          "_id": "雪王头_后颈",
-          "_tpl": "6571138e818110db4600aa71",
-          "parentId": "雪王头_本体",
-          "slotId": "Helmet_back"
-        },
-        {
-          "_id": "雪王头_护耳",
-          "_tpl": "657112fa818110db4600aa6b",
-          "parentId": "雪王头_本体",
-          "slotId": "Helmet_ears"
-        }
+            {
+                "_id": "雪王头_头顶",
+                "_tpl": "6571133d22996eaf11088200",
+                "parentId": "雪王头_本体",
+                "slotId": "Helmet_top"
+            },
+            {
+                "_id": "雪王头_后颈",
+                "_tpl": "6571138e818110db4600aa71",
+                "parentId": "雪王头_本体",
+                "slotId": "Helmet_back"
+            },
+            {
+                "_id": "雪王头_护耳",
+                "_tpl": "657112fa818110db4600aa6b",
+                "parentId": "雪王头_本体",
+                "slotId": "Helmet_ears"
+            }
         ]
     },
     {
@@ -418,6 +418,18 @@
                 "_tpl": "白lv119右侧内衬",
                 "parentId": "白lv119_本体",
                 "slotId": "soft_armor_right"
+            },
+            {
+                "_id": "白lv119_前插板",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "parentId": "白lv119_本体",
+                "slotId": "Front_plate"
+            },
+            {
+                "_id": "白lv119_后插板",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "parentId": "白lv119_本体",
+                "slotId": "Back_plate"
             }
         ]
     },
@@ -444,6 +456,18 @@
                 "_tpl": "白lv119背部内衬",
                 "parentId": "黑lv119_本体",
                 "slotId": "Soft_armor_back"
+            },
+            {
+                "_id": "黑lv119_前插板",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "parentId": "黑lv119_本体",
+                "slotId": "Front_plate"
+            },
+            {
+                "_id": "黑lv119_后插板",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "parentId": "黑lv119_本体",
+                "slotId": "Back_plate"
             }
         ]
     },
@@ -482,6 +506,18 @@
                 "_tpl": "FCPCV5右侧内衬",
                 "parentId": "FCPCV5_本体",
                 "slotId": "soft_armor_right"
+            },
+            {
+                "_id": "FCPCV5_前插板",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "parentId": "FCPCV5_本体",
+                "slotId": "Front_plate"
+            },
+            {
+                "_id": "FCPCV5_后插板",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "parentId": "FCPCV5_本体",
+                "slotId": "Back_plate"
             }
         ]
     },
@@ -567,6 +603,106 @@
                 "_id": "SiegeR_右插板",
                 "_tpl": "SiegeR侧板",
                 "parentId": "SiegeR_本体",
+                "slotId": "Right_side_plate"
+            }
+        ]
+    },
+    {
+        "Name": "杜拉罕弹挂甲_基础预设",
+        "PresetName": "Default",
+        "IsBasePreset": true,
+        "ChangePresetName": false,
+        "SpawnInRaid": false,
+        "SpawnTarget": "65290f395ae2ae97b80fdf2d",
+        "Preset": [
+            {
+                "_id": "杜拉罕弹挂甲_本体",
+                "_tpl": "杜拉罕弹挂甲"
+            },
+            {
+                "_id": "杜拉罕弹挂甲_胸部内衬",
+                "_tpl": "杜拉罕弹挂甲胸部内衬",
+                "parentId": "杜拉罕弹挂甲_本体",
+                "slotId": "Soft_armor_front"
+            },
+            {
+                "_id": "杜拉罕弹挂甲_背部内衬",
+                "_tpl": "杜拉罕弹挂甲背部内衬",
+                "parentId": "杜拉罕弹挂甲_本体",
+                "slotId": "Soft_armor_back"
+            },
+            {
+                "_id": "杜拉罕弹挂甲_左侧内衬",
+                "_tpl": "杜拉罕弹挂甲左侧内衬",
+                "parentId": "杜拉罕弹挂甲_本体",
+                "slotId": "Soft_armor_left"
+            },
+            {
+                "_id": "杜拉罕弹挂甲_右侧内衬",
+                "_tpl": "杜拉罕弹挂甲右侧内衬",
+                "parentId": "杜拉罕弹挂甲_本体",
+                "slotId": "soft_armor_right"
+            },
+            {
+                "_id": "杜拉罕弹挂甲_前插板",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "parentId": "杜拉罕弹挂甲_本体",
+                "slotId": "Front_plate"
+            },
+            {
+                "_id": "杜拉罕弹挂甲_后插板",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "parentId": "杜拉罕弹挂甲_本体",
+                "slotId": "Back_plate"
+            },
+            {
+                "_id": "杜拉罕弹挂甲_左插板",
+                "_tpl": "64afd81707e2cf40e903a316",
+                "parentId": "杜拉罕弹挂甲_本体",
+                "slotId": "Left_side_plate"
+            },
+            {
+                "_id": "杜拉罕弹挂甲_右插板",
+                "_tpl": "64afd81707e2cf40e903a316",
+                "parentId": "杜拉罕弹挂甲_本体",
+                "slotId": "Right_side_plate"
+            }
+        ]
+    },
+    {
+        "Name": "歌利亚弹挂甲_基础预设",
+        "PresetName": "Default",
+        "IsBasePreset": true,
+        "ChangePresetName": false,
+        "SpawnInRaid": false,
+        "SpawnTarget": "65290f395ae2ae97b80fdf2d",
+        "Preset": [
+            {
+                "_id": "歌利亚弹挂甲_本体",
+                "_tpl": "歌利亚弹挂甲"
+            },
+            {
+                "_id": "歌利亚弹挂甲_前插板",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "parentId": "歌利亚弹挂甲_本体",
+                "slotId": "Front_plate"
+            },
+            {
+                "_id": "歌利亚弹挂甲_后插板",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "parentId": "歌利亚弹挂甲_本体",
+                "slotId": "Back_plate"
+            },
+            {
+                "_id": "歌利亚弹挂甲_左插板",
+                "_tpl": "64afd81707e2cf40e903a316",
+                "parentId": "歌利亚弹挂甲_本体",
+                "slotId": "Left_side_plate"
+            },
+            {
+                "_id": "歌利亚弹挂甲_右插板",
+                "_tpl": "64afd81707e2cf40e903a316",
+                "parentId": "歌利亚弹挂甲_本体",
                 "slotId": "Right_side_plate"
             }
         ]

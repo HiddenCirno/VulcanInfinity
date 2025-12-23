@@ -443,7 +443,7 @@
               //异格Boss生成概率
               "Chance": {
                 //异格Goons小队的生成概率
-                "Goons": 50,
+                "Goons": 100,
                 //异格Sanitar的生成概率
                 "Sanitar": 50,
                 //异格Gluhar的生成概率
@@ -622,7 +622,7 @@
               //是否启用Boss刷新率修改
               "Active": true,
               //修改过的Boss刷新率, 默认为40, 接近档末
-              "Chance": 100,
+              "Chance": 40,
               //用于查找数据的Boss列表, 请勿修改
               //已经弃用
               "BossList": [

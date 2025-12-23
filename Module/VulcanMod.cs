@@ -329,7 +329,7 @@ public class VulcanMod
             bdspawn.ForceSpawn = true;
             bdspawn.IgnoreMaxBots = true;
             bdspawn.Supports = null;
-            VulcanLog.Debug("进入添加流程", logger);
+            //VulcanLog.Debug("进入添加流程", logger);
             var lighthouse = cloner.Clone(bdspawn);
             lighthouse.BossZone = "Zone_OldHouse,Zone_Village";
             databaseService.GetLocations().Lighthouse.Base.BossLocationSpawn.Add(lighthouse);
@@ -342,7 +342,7 @@ public class VulcanMod
             var street = cloner.Clone(bdspawn);
             street.BossZone = "ZoneFactory,ZoneConcordiaParking";
             databaseService.GetLocations().TarkovStreets.Base.BossLocationSpawn.Add(street);
-            VulcanLog.Log(jsonUtil.Serialize(databaseService.GetLocations().Shoreline.Base.BossLocationSpawn, true), logger);
+            //VulcanLog.Log(jsonUtil.Serialize(databaseService.GetLocations().Shoreline.Base.BossLocationSpawn, true), logger);
         }
     }
     public static void InitBotEdit(VulcanModConfigClass config, DatabaseService databaseService, ModHelper modHelper)
