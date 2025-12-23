@@ -140,13 +140,11 @@
       "FaceCover": {
         "725e1cd122b358ad3b090b33": 1
       },
-      "ArmorVest": {
-        "5e4abb5086f77406975c9342": 1
-      },
+      "ArmorVest": {},
       "Eyewear": {},
       "ArmBand": {},
       "TacticalVest": {
-        "1c8ccf3538f8c7599ebc60e6": 1
+        "321b027d24f85abfa9b52cb1": 1
       },
       "Backpack": {},
       "FirstPrimaryWeapon": {
@@ -284,20 +282,6 @@
           "58d2912286f7744e27117493"
         ]
       },
-      "5e4abb5086f77406975c9342": {
-        "Soft_armor_front": [
-          "6575e71760703324250610c3"
-        ],
-        "Soft_armor_back": [
-          "6575e72660703324250610c7"
-        ],
-        "Front_plate": [
-          "656faf0ca0dce000a2020f77"
-        ],
-        "Back_plate": [
-          "656faf0ca0dce000a2020f77"
-        ]
-      },
       "bdd52e93d2949bdd7c74833e": {
         "mod_pistol_grip": [
           "414ebcff5c88e289e4e58020"
@@ -352,6 +336,32 @@
         "mod_scope": [
           "58d268fc86f774111273f8c2"
         ]
+      },
+      "321b027d24f85abfa9b52cb1": {
+        "Front_plate": [
+          "656faf0ca0dce000a2020f77"
+        ],
+        "Back_plate": [
+          "656faf0ca0dce000a2020f77"
+        ],
+        "Left_side_plate": [
+          "64afd81707e2cf40e903a316"
+        ],
+        "Right_side_plate": [
+          "64afd81707e2cf40e903a316"
+        ],
+        "Soft_armor_front": [
+          "9f8335beb512ac1b9eb24d93"
+        ],
+        "Soft_armor_back": [
+          "afafd335a64be8c2b5048f9c"
+        ],
+        "Soft_armor_left": [
+          "6da30e3de11eba682bb454e6"
+        ],
+        "soft_armor_right": [
+          "3406b7c4088d610ecf72bd91"
+        ]
       }
     },
     "items": {
@@ -364,7 +374,6 @@
         "5fca138c2a7b221b2852a5c6": 5,
         "637b6251104668754b72f8f9": 5,
         "637b620db7afa97bfc3d7009": 5,
-
         "618a431df1eb8e24b8741deb": 3,
         "617fd91e5539a84ec44ce155": 3
       },
@@ -375,7 +384,6 @@
         "07e11e072c133745dd063f4d": 1,
         "de63f06ce7a54bcf90092cdb": 1,
         "ef27f81993b027d956614ca1": 1,
-
         "5780cf7f2459777de4559322": 1,
         "62987dfc402c7f69bf010923": 1,
         "64ccc25f95763a1ae376e447": 1,
@@ -383,14 +391,11 @@
         "5d80c60f86f77440373c4ece": 1,
         "5d80c62a86f7744036212b3f": 1,
         "5ede7a8229445733cb4c18e2": 1,
-
         "664d3de85f2355673b09aed5": 1,
         "664d3dd590294949fe2d81b7": 1,
         "664d3db6db5dea2bad286955": 1,
         "664d3ddfdda2e85aca370d75": 1,
-
         "64d4b23dc1b37504b41ac2b6": 1
-
       },
       "Backpack": {},
       "SecuredContainer": {
@@ -2521,7 +2526,7 @@
       "Headwear": 0,
       "Earpiece": 0,
       "FaceCover": 100,
-      "ArmorVest": 100,
+      "ArmorVest": 0,
       "Eyewear": 0,
       "ArmBand": 0,
       "TacticalVest": 100,
@@ -2558,8 +2563,9 @@
     },
     "equipmentMods": {
       "back_plate": 100,
-      "front_plate": 100
-
+      "front_plate": 100,
+      "left_side_plate": 100,
+      "right_side_plate": 100
     }
   },
   "generation": {

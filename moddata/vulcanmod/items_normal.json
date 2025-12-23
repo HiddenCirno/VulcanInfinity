@@ -20412,9 +20412,9 @@
         },
         "_customprops": {
             "$type": "base",
-            "Name": "Death Knight面具（黑骑士甲特别版）",
+            "Name": "Death Knight面具（Dullahan特别版）",
             "ShortName": "Death Knight",
-            "Description": "E.B.O.N.小队队长黑骑士甲的奇特面具。它来自平行时空，Goons小队选择加入邪教徒的伟大事业。",
+            "Description": "E.B.O.N.小队队长Dullahan的奇特面具。它来自平行时空，Goons小队选择加入邪教徒的伟大事业。",
             "RagfairType": "5b47574386f77428ca22b32f",
             "DefaultPrice": 249010,
             "CanFindInRaid": false,

@@ -5,6 +5,7 @@
         "_name": "红色箭头",
         "_props": {
             "Weight": 0,
+            "ConflictingItems": [],
             "BackgroundColor": "orange",
             "Width": 2,
             "Height": 2,
@@ -36,6 +37,7 @@
         "_name": "危标记",
         "_props": {
             "Weight": 0,
+            "ConflictingItems": [],
             "BackgroundColor": "orange",
             "Width": 2,
             "Height": 2,
@@ -67,6 +69,7 @@
         "_name": "狙击标记",
         "_props": {
             "Weight": 0,
+            "ConflictingItems": [],
             "BackgroundColor": "orange",
             "Width": 2,
             "Height": 2,
@@ -98,6 +101,7 @@
         "_name": "掠夺者标记",
         "_props": {
             "Weight": 0,
+            "ConflictingItems": [],
             "BackgroundColor": "orange",
             "Width": 2,
             "Height": 2,
@@ -129,6 +133,7 @@
         "_name": "邪教徒标记",
         "_props": {
             "Weight": 0,
+            "ConflictingItems": [],
             "BackgroundColor": "orange",
             "Width": 2,
             "Height": 2,
@@ -160,6 +165,7 @@
         "_name": "橙色箭头",
         "_props": {
             "Weight": 0,
+            "ConflictingItems": [],
             "BackgroundColor": "orange",
             "Width": 2,
             "Height": 2,
@@ -191,6 +197,7 @@
         "_name": "蓝色箭头",
         "_props": {
             "Weight": 0,
+            "ConflictingItems": [],
             "BackgroundColor": "orange",
             "Width": 2,
             "Height": 2,
@@ -222,6 +229,7 @@
         "_name": "米黄色箭头",
         "_props": {
             "Weight": 0,
+            "ConflictingItems": [],
             "BackgroundColor": "orange",
             "Width": 2,
             "Height": 2,
@@ -253,6 +261,7 @@
         "_name": "薄荷色箭头",
         "_props": {
             "Weight": 0,
+            "ConflictingItems": [],
             "BackgroundColor": "orange",
             "Width": 2,
             "Height": 2,
@@ -284,6 +293,7 @@
         "_name": "紫色箭头",
         "_props": {
             "Weight": 0,
+            "ConflictingItems": [],
             "BackgroundColor": "orange",
             "Width": 2,
             "Height": 2,
@@ -315,6 +325,7 @@
         "_name": "毒绿色箭头",
         "_props": {
             "Weight": 0,
+            "ConflictingItems": [],
             "BackgroundColor": "orange",
             "Width": 2,
             "Height": 2,
@@ -346,6 +357,7 @@
         "_name": "粉色箭头",
         "_props": {
             "Weight": 0,
+            "ConflictingItems": [],
             "BackgroundColor": "orange",
             "Width": 2,
             "Height": 2,
@@ -377,6 +389,7 @@
         "_name": "藏蓝色箭头",
         "_props": {
             "Weight": 0,
+            "ConflictingItems": [],
             "BackgroundColor": "orange",
             "Width": 2,
             "Height": 2,
