@@ -1796,5 +1796,492 @@
         },
         "TrustLevel": 4,
         "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "黑PEQ15战术设备",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "黑PEQ15战术设备",
+                "_tpl": "黑PEQ15",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 6,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5696686a4bdc2da3298b456a": 171.14
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "黄DT20脚架护木出售",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "黄DT20脚架护木出售",
+                "_tpl": "黄DT20脚架护木",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 4,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5696686a4bdc2da3298b456a": 343.15
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "黄DT16脚架护木出售",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "黄DT16脚架护木出售",
+                "_tpl": "黄DT16脚架护木",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 4,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5696686a4bdc2da3298b456a": 233.33
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "黑DT20脚架护木出售",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "黑DT20脚架护木出售",
+                "_tpl": "黑DT20脚架护木",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 4,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5696686a4bdc2da3298b456a": 343.15
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "黑DT16脚架护木出售",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "黑DT16脚架护木出售",
+                "_tpl": "黑DT16脚架护木",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 4,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5696686a4bdc2da3298b456a": 233.33
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "黑DT20护木出售",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "黑DT20护木出售",
+                "_tpl": "黑DT20护木",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 4,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5696686a4bdc2da3298b456a": 378.65
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "黑DT16护木出售",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "黑DT16护木出售",
+                "_tpl": "黑DT16护木",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 4,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5696686a4bdc2da3298b456a": 217.34
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "黄DT20护木出售",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "黄DT20护木出售",
+                "_tpl": "黄DT20护木",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 4,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5696686a4bdc2da3298b456a": 378.65
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "黄DT16护木出售",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "黄DT16护木出售",
+                "_tpl": "黄DT16护木",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 4,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5696686a4bdc2da3298b456a": 217.34
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "黄DT迷你护木出售",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "黄DT迷你护木出售",
+                "_tpl": "黄DT迷你护木",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 6,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5696686a4bdc2da3298b456a": 78.25
+        },
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "黑DT迷你护木出售",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "黑DT迷你护木出售",
+                "_tpl": "黑DT迷你护木",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 6,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5696686a4bdc2da3298b456a": 78.25
+        },
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "DT16脚架出售",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "DT16脚架出售",
+                "_tpl": "DT16脚架",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 6,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5696686a4bdc2da3298b456a": 95.67
+        },
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "DT20脚架出售",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "DT20脚架出售",
+                "_tpl": "DT20脚架",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 6,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5696686a4bdc2da3298b456a": 155.55
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "黄DT20枪管出售",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "黄DT20枪管出售",
+                "_tpl": "黄DT20枪管",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 2,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5696686a4bdc2da3298b456a": 380.95
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "locked",
+        "ID": "黑DT20枪管出售",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "黑DT20枪管出售",
+                "_tpl": "黑DT20枪管",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 2,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5696686a4bdc2da3298b456a": 380.95
+        },
+        "TrustLevel": 4,
+        "isWeapon": false,
+        "Locked": true,
+        "Quest": "5a27bc3686f7741c73584026",
+        "QuestStage": 1,
+        "IsUnknown": false
+    },
+    {
+        "$type": "normal",
+        "ID": "RPD现代护木出售",
+        "Trader": "54cb50c76803fa8b248b4571",
+        "Item": [
+            {
+                "_id": "RPD现代护木出售",
+                "_tpl": "RPD现代护木",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 4,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 36721
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "locked",
+        "ID": "RPD现代枪管出售",
+        "Trader": "54cb50c76803fa8b248b4571",
+        "Item": [
+            {
+                "_id": "RPD现代枪管出售",
+                "_tpl": "RPD现代枪管",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 2,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 53290
+        },
+        "TrustLevel": 4,
+        "isWeapon": false,
+        "Locked": true,
+        "Quest": "639135b04ed9512be67647d7",
+        "QuestStage": 1,
+        "IsUnknown": false
+    },
+    {
+        "$type": "locked",
+        "ID": "RPD现代枪托出售",
+        "Trader": "54cb50c76803fa8b248b4571",
+        "Item": [
+            {
+                "_id": "RPD现代枪托出售",
+                "_tpl": "RPD现代枪托",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 2,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 65422
+        },
+        "TrustLevel": 4,
+        "isWeapon": false,
+        "Locked": true,
+        "Quest": "64f5aac4b63b74469b6c14c2",
+        "QuestStage": 1,
+        "IsUnknown": false
+    },
+    {
+        "$type": "normal",
+        "ID": "RPD现代枪口出售",
+        "Trader": "54cb50c76803fa8b248b4571",
+        "Item": [
+            {
+                "_id": "RPD现代枪口出售",
+                "_tpl": "RPD现代枪口",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 4,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 29670
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
     }
 ]

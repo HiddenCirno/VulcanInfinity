@@ -60,7 +60,7 @@ public class VulcanMod
         }
         if (modconfig.BotEdit.AddBlackDivision)
         {
-            InitBDReplace(modconfig, databaseService, modHelper);
+            InitBDReplace(modconfig, databaseService, modHelper, logger, cloner);
         }
         InitBotEdit(modconfig, databaseService, modHelper);
         if (modconfig.KeyEdit.Active)
@@ -270,7 +270,7 @@ public class VulcanMod
             }
         }
     }
-    public static void InitBDReplace(VulcanModConfigClass config, DatabaseService databaseService, ModHelper modHelper)
+    public static void InitBDReplace(VulcanModConfigClass config, DatabaseService databaseService, ModHelper modHelper, ISptLogger<VulcanCore.VulcanCore> logger, ICloner cloner)
     {
         var bots = databaseService.GetBots();
         var getedlocations = databaseService.GetLocations();
@@ -288,6 +288,7 @@ public class VulcanMod
                 getedlocations.Sandbox,
                 getedlocations.SandboxHigh
             };
+        var jsonUtil = ServiceLocator.ServiceProvider.GetService<JsonUtil>();
         var bloodhound = bots.Types["arenafighterevent"];
         var zhCNLang = databaseService.GetLocales().Global["ch"];
         var botBDOperator = modHelper.GetJsonDataFromFile<BotType>(ConfigManager.modPath, "moddata/vulcanmod/bots/BDOperator.json");
@@ -317,9 +318,31 @@ public class VulcanMod
                 if (boss.BossName == "arenaFighterEvent")
                 {
                     boss.BossName = "bossKillaAgro";
+                    boss.BossEscortAmount = "3";
                     boss.BossChance = 40;
                 }
             }
+        }
+        var bdspawn = cloner.Clone(getedlocations.Bigmap.Base.BossLocationSpawn.Find(x => x.BossName == "bossKillaAgro"));
+        if (bdspawn != null)
+        {
+            bdspawn.ForceSpawn = true;
+            bdspawn.IgnoreMaxBots = true;
+            bdspawn.Supports = null;
+            VulcanLog.Debug("进入添加流程", logger);
+            var lighthouse = cloner.Clone(bdspawn);
+            lighthouse.BossZone = "Zone_OldHouse,Zone_Village";
+            databaseService.GetLocations().Lighthouse.Base.BossLocationSpawn.Add(lighthouse);
+            var labs = cloner.Clone(bdspawn);
+            labs.BossZone = "BotZoneFloor1";
+            databaseService.GetLocations().Laboratory.Base.BossLocationSpawn.Add(labs);
+            var shoreline = cloner.Clone(bdspawn);
+            shoreline.BossZone = "ZoneSanatorium1,ZoneSanatorium2,ZoneSmuglers";
+            databaseService.GetLocations().Shoreline.Base.BossLocationSpawn.Add(shoreline);
+            var street = cloner.Clone(bdspawn);
+            street.BossZone = "ZoneFactory,ZoneConcordiaParking";
+            databaseService.GetLocations().TarkovStreets.Base.BossLocationSpawn.Add(street);
+            VulcanLog.Log(jsonUtil.Serialize(databaseService.GetLocations().Shoreline.Base.BossLocationSpawn, true), logger);
         }
     }
     public static void InitBotEdit(VulcanModConfigClass config, DatabaseService databaseService, ModHelper modHelper)

@@ -665,8 +665,8 @@
                     "Chance": 1,
                     "Delay": 1,
                     "Duration": 600,
-                    "Value": 140,
-                    "AbsoluteValue": true,
+                    "Value": 1,
+                    "AbsoluteValue": false,
                     "SkillName": ""
                 },
                 {
@@ -20394,7 +20394,7 @@
             "Durability": 75,
             "MaxDurability": 75,
             "armorClass": 5,
-            "DeafStrength": "Low",
+            "DeafStrength": "None",
             "ArmorType": "Light",
             "armorColliders": [
                 "HeadCommon",
@@ -24342,6 +24342,2840 @@
             "CustomFixID": "60a283193cb70855c43a381d",
             "FixType": [
                 "QuestEquip"
+            ]
+        }
+    },
+    "黄DT20脚架护木": {
+        "_id": "黄DT20脚架护木",
+        "_targetid": "5c48a14f2e2216152006edd7",
+        "_name": "黄DT20脚架护木",
+        "_props": {
+            "Weight": 0.307,
+            "Width": 3,
+            "Height": 1,
+            "Prefab": {
+                "path": "assets/content/items/mods/handguards/handguard_mdr_blk_lbl_alx_20_inch_bipod_mlok.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_name": "mod_mount_000",
+                    "_id": "680f47b20407db2e550c4313",
+                    "_parent": "黄DT20脚架护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "57cffb66245977632f391a99",
+                                    "57cffcd624597763133760c5",
+                                    "57cffcdd24597763f5110006",
+                                    "57cffce524597763b31685d8",
+                                    "5b7be4895acfc400170e2dd5",
+                                    "651a8e529829226ceb67c319",
+                                    "651a8bf3a8520e48047bf708",
+                                    "665d5d9e338229cfd6078da1",
+                                    "665edce564fb556f940ab32a"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_001",
+                    "_id": "680f47b20407db2e550c4314",
+                    "_parent": "黄DT20脚架护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5b7be47f5acfc400170e2dd2",
+                                    "669a6a4a525be1d2d004b8eb",
+                                    "6269220d70b6c02e665f2635"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_002",
+                    "_id": "680f47b20407db2e550c4315",
+                    "_parent": "黄DT20脚架护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5b7be47f5acfc400170e2dd2",
+                                    "6269220d70b6c02e665f2635",
+                                    "6269545d0e57f218e4548ca2",
+                                    "669a6a4a525be1d2d004b8eb"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_tactical",
+                    "_id": "680f47b20407db2e550c4316",
+                    "_parent": "黄DT20脚架护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "57fd23e32459772d0805bcf1",
+                                    "544909bb4bdc2d6f028b4577",
+                                    "5c06595c0db834001a66af6c",
+                                    "5a7b483fe899ef0016170d15",
+                                    "61605d88ffa6e502ac5e7eeb",
+                                    "5c5952732e2216398b5abda2",
+                                    "644a3df63b0b6f03e101e065"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_sight_front",
+                    "_id": "680f47b20407db2e550c4317",
+                    "_parent": "黄DT20脚架护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5ba26b01d4351e0085325a51",
+                                    "5dfa3d950dee1b22f862eae0",
+                                    "5c17804b2e2216152006c02f",
+                                    "5fb6567747ce63734e3fa1dc",
+                                    "5bc09a30d4351e00367fb7c8",
+                                    "5c18b90d2e2216152142466b",
+                                    "5fc0fa362770a0045c59c677",
+                                    "5894a73486f77426d259076c",
+                                    "55d4af3a4bdc2d972f8b456f"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_bipod",
+                    "_id": "680f47f58692125dc00a3347",
+                    "_parent": "黄DT20脚架护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "DT16脚架",
+                                    "DT20脚架"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_003",
+                    "_id": "680f52c8be6531f0ce0f0e20",
+                    "_parent": "黄DT20脚架护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5649a2464bdc2d91118b45a8"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "ConflictingItems": [
+                "5c48a2852e221602b21d5923",
+                "5dcbe9431e1f4616d354987e"
+            ],
+            "ExtraSizeLeft": 3,
+            "Accuracy": 0,
+            "BlocksCollapsible": false,
+            "BlocksFolding": false,
+            "CategoryAnimationModId": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "Durability": 100,
+            "EffectiveDistance": 0,
+            "Ergonomics": 6,
+            "HasShoulderContact": false,
+            "IsAnimated": false,
+            "Loudness": 0,
+            "MetascoreGroup": "Firepower",
+            "RaidModdable": false,
+            "Recoil": -2,
+            "SightingRange": 0,
+            "ToolModdable": true,
+            "UniqueAnimationModID": 0,
+            "Velocity": 0,
+            "CoolFactor": 0.975,
+            "HeatFactor": 1.025
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "MDR BLK LBL ALX 20 脚架护木 (FDE)",
+            "ShortName": "ALX B 20",
+            "Description": "MDR 突击步枪护木，适配 20 英寸枪管，带有脚架安装位与标准规格的 M-LOK 接口，可安装各种附加设备和组件。由 BLK LBL 公司设计制造，沙土褐色 (FDE) 版本。",
+            "RagfairType": "5b5f75e486f77447ec5d7712",
+            "DefaultPrice": 69675,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "652910ef50dc782999054b97",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "黄DT16脚架护木": {
+        "_id": "黄DT16脚架护木",
+        "_targetid": "5c48a14f2e2216152006edd7",
+        "_name": "黄DT16脚架护木",
+        "_props": {
+            "Weight": 0.222,
+            "Width": 2,
+            "Height": 1,
+            "Slots": [
+                {
+                    "_name": "mod_mount_000",
+                    "_id": "680f55b71e275ac1230f2dc8",
+                    "_parent": "黄DT16脚架护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "57cffb66245977632f391a99",
+                                    "57cffcd624597763133760c5",
+                                    "57cffcdd24597763f5110006",
+                                    "57cffce524597763b31685d8",
+                                    "5b7be4895acfc400170e2dd5",
+                                    "651a8e529829226ceb67c319",
+                                    "651a8bf3a8520e48047bf708",
+                                    "665d5d9e338229cfd6078da1",
+                                    "665edce564fb556f940ab32a"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_001",
+                    "_id": "680f55b71e275ac1230f2dc9",
+                    "_parent": "黄DT16脚架护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "669a6a4a525be1d2d004b8eb",
+                                    "6269220d70b6c02e665f2635"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_002",
+                    "_id": "680f55b71e275ac1230f2dca",
+                    "_parent": "黄DT16脚架护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "6269220d70b6c02e665f2635",
+                                    "6269545d0e57f218e4548ca2",
+                                    "669a6a4a525be1d2d004b8eb"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_tactical",
+                    "_id": "680f55b71e275ac1230f2dcb",
+                    "_parent": "黄DT16脚架护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "57fd23e32459772d0805bcf1",
+                                    "544909bb4bdc2d6f028b4577",
+                                    "5c06595c0db834001a66af6c",
+                                    "5a7b483fe899ef0016170d15",
+                                    "61605d88ffa6e502ac5e7eeb",
+                                    "5c5952732e2216398b5abda2",
+                                    "644a3df63b0b6f03e101e065"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_sight_front",
+                    "_id": "680f55b71e275ac1230f2dcc",
+                    "_parent": "黄DT16脚架护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5ba26b01d4351e0085325a51",
+                                    "5dfa3d950dee1b22f862eae0",
+                                    "5c17804b2e2216152006c02f",
+                                    "5fb6567747ce63734e3fa1dc",
+                                    "5bc09a30d4351e00367fb7c8",
+                                    "5c18b90d2e2216152142466b",
+                                    "5fc0fa362770a0045c59c677",
+                                    "5894a73486f77426d259076c",
+                                    "55d4af3a4bdc2d972f8b456f"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_bipod",
+                    "_id": "680f55b71e275ac1230f2dcd",
+                    "_parent": "黄DT16脚架护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "DT16脚架"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "ConflictingItems": [],
+            "Prefab": {
+                "path": "assets/content/items/mods/handguards/handguard_mdr_blk_lbl_alx_16_inch_bipod_mlok.bundle",
+                "rcid": ""
+            },
+            "ExtraSizeLeft": 2,
+            "Accuracy": 0,
+            "BlocksCollapsible": false,
+            "BlocksFolding": false,
+            "CategoryAnimationModId": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "Durability": 100,
+            "EffectiveDistance": 0,
+            "Ergonomics": 6.5,
+            "HasShoulderContact": false,
+            "IsAnimated": false,
+            "Loudness": 0,
+            "MetascoreGroup": "Firepower",
+            "RaidModdable": false,
+            "Recoil": -1.5,
+            "SightingRange": 0,
+            "ToolModdable": true,
+            "UniqueAnimationModID": 0,
+            "Velocity": 0,
+            "CoolFactor": 0.98,
+            "HeatFactor": 1.02
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "MDR BLK LBL ALX 16 脚架护木 (FDE)",
+            "ShortName": "ALX B 16",
+            "Description": "MDR 突击步枪护木，适配 16 英寸枪管，带有脚架安装位与标准规格的 M-LOK 接口，可安装各种附加设备和组件。由 BLK LBL 公司设计制造，沙土褐色 (FDE) 版本。",
+            "RagfairType": "5b5f75e486f77447ec5d7712",
+            "DefaultPrice": 43752,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "652910ef50dc782999054b97",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "黑DT20脚架护木": {
+        "_id": "黑DT20脚架护木",
+        "_targetid": "5dcbd6b46ec07c0c4347a564",
+        "_name": "黑DT20脚架护木",
+        "_props": {
+            "Weight": 0.307,
+            "Width": 3,
+            "Height": 1,
+            "Prefab": {
+                "path": "assets/content/items/mods/handguards/handguard_mdr_blk_lbl_alx_20_inch_bipod_mlok_blk.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_name": "mod_mount_000",
+                    "_id": "680f47b20407db2e550c4313",
+                    "_parent": "黑DT20脚架护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "57cffb66245977632f391a99",
+                                    "57cffcd624597763133760c5",
+                                    "57cffcdd24597763f5110006",
+                                    "57cffce524597763b31685d8",
+                                    "5b7be4895acfc400170e2dd5",
+                                    "651a8e529829226ceb67c319",
+                                    "651a8bf3a8520e48047bf708",
+                                    "665d5d9e338229cfd6078da1",
+                                    "665edce564fb556f940ab32a"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_001",
+                    "_id": "680f47b20407db2e550c4314",
+                    "_parent": "黑DT20脚架护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5b7be47f5acfc400170e2dd2",
+                                    "669a6a4a525be1d2d004b8eb",
+                                    "6269220d70b6c02e665f2635"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_002",
+                    "_id": "680f47b20407db2e550c4315",
+                    "_parent": "黑DT20脚架护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5b7be47f5acfc400170e2dd2",
+                                    "6269220d70b6c02e665f2635",
+                                    "6269545d0e57f218e4548ca2",
+                                    "669a6a4a525be1d2d004b8eb"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_tactical",
+                    "_id": "680f47b20407db2e550c4316",
+                    "_parent": "黑DT20脚架护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "57fd23e32459772d0805bcf1",
+                                    "544909bb4bdc2d6f028b4577",
+                                    "5c06595c0db834001a66af6c",
+                                    "5a7b483fe899ef0016170d15",
+                                    "61605d88ffa6e502ac5e7eeb",
+                                    "5c5952732e2216398b5abda2",
+                                    "644a3df63b0b6f03e101e065"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_sight_front",
+                    "_id": "680f47b20407db2e550c4317",
+                    "_parent": "黑DT20脚架护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5ba26b01d4351e0085325a51",
+                                    "5dfa3d950dee1b22f862eae0",
+                                    "5c17804b2e2216152006c02f",
+                                    "5fb6567747ce63734e3fa1dc",
+                                    "5bc09a30d4351e00367fb7c8",
+                                    "5c18b90d2e2216152142466b",
+                                    "5fc0fa362770a0045c59c677",
+                                    "5894a73486f77426d259076c",
+                                    "55d4af3a4bdc2d972f8b456f"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_bipod",
+                    "_id": "680f47f58692125dc00a3347",
+                    "_parent": "黑DT20脚架护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "DT16脚架",
+                                    "DT20脚架"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_003",
+                    "_id": "680f52c8be6531f0ce0f0e20",
+                    "_parent": "黑DT20脚架护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5649a2464bdc2d91118b45a8"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "ConflictingItems": [
+                "5c48a2852e221602b21d5923",
+                "5dcbe9431e1f4616d354987e"
+            ],
+            "ExtraSizeLeft": 3,
+            "Accuracy": 0,
+            "BlocksCollapsible": false,
+            "BlocksFolding": false,
+            "CategoryAnimationModId": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "Durability": 100,
+            "EffectiveDistance": 0,
+            "Ergonomics": 6,
+            "HasShoulderContact": false,
+            "IsAnimated": false,
+            "Loudness": 0,
+            "MetascoreGroup": "Firepower",
+            "RaidModdable": false,
+            "Recoil": -2,
+            "SightingRange": 0,
+            "ToolModdable": true,
+            "UniqueAnimationModID": 0,
+            "Velocity": 0,
+            "CoolFactor": 0.975,
+            "HeatFactor": 1.025
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "MDR BLK LBL ALX 20 脚架护木 (黑色)",
+            "ShortName": "ALX B 20",
+            "Description": "MDR 突击步枪护木，适配 20 英寸枪管，带有脚架安装位与标准规格的 M-LOK 接口，可安装各种附加设备和组件。由 BLK LBL 公司设计制造，黑色版本。",
+            "RagfairType": "5b5f75e486f77447ec5d7712",
+            "DefaultPrice": 69675,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "652910ef50dc782999054b97",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "黑DT16脚架护木": {
+        "_id": "黑DT16脚架护木",
+        "_targetid": "5c48a14f2e2216152006edd7",
+        "_name": "黑DT16脚架护木",
+        "_props": {
+            "Weight": 0.222,
+            "Width": 2,
+            "Height": 1,
+            "Slots": [
+                {
+                    "_name": "mod_mount_000",
+                    "_id": "680f55b71e275ac1230f2dc8",
+                    "_parent": "黑DT16脚架护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "57cffb66245977632f391a99",
+                                    "57cffcd624597763133760c5",
+                                    "57cffcdd24597763f5110006",
+                                    "57cffce524597763b31685d8",
+                                    "5b7be4895acfc400170e2dd5",
+                                    "651a8e529829226ceb67c319",
+                                    "651a8bf3a8520e48047bf708",
+                                    "665d5d9e338229cfd6078da1",
+                                    "665edce564fb556f940ab32a"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_001",
+                    "_id": "680f55b71e275ac1230f2dc9",
+                    "_parent": "黑DT16脚架护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "669a6a4a525be1d2d004b8eb",
+                                    "6269220d70b6c02e665f2635"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_002",
+                    "_id": "680f55b71e275ac1230f2dca",
+                    "_parent": "黑DT16脚架护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "6269220d70b6c02e665f2635",
+                                    "6269545d0e57f218e4548ca2",
+                                    "669a6a4a525be1d2d004b8eb"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_tactical",
+                    "_id": "680f55b71e275ac1230f2dcb",
+                    "_parent": "黑DT16脚架护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "57fd23e32459772d0805bcf1",
+                                    "544909bb4bdc2d6f028b4577",
+                                    "5c06595c0db834001a66af6c",
+                                    "5a7b483fe899ef0016170d15",
+                                    "61605d88ffa6e502ac5e7eeb",
+                                    "5c5952732e2216398b5abda2",
+                                    "644a3df63b0b6f03e101e065"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_sight_front",
+                    "_id": "680f55b71e275ac1230f2dcc",
+                    "_parent": "黑DT16脚架护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5ba26b01d4351e0085325a51",
+                                    "5dfa3d950dee1b22f862eae0",
+                                    "5c17804b2e2216152006c02f",
+                                    "5fb6567747ce63734e3fa1dc",
+                                    "5bc09a30d4351e00367fb7c8",
+                                    "5c18b90d2e2216152142466b",
+                                    "5fc0fa362770a0045c59c677",
+                                    "5894a73486f77426d259076c",
+                                    "55d4af3a4bdc2d972f8b456f"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_bipod",
+                    "_id": "680f55b71e275ac1230f2dcd",
+                    "_parent": "黑DT16脚架护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "DT16脚架"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "ConflictingItems": [],
+            "Prefab": {
+                "path": "assets/content/items/mods/handguards/handguard_mdr_blk_lbl_alx_16_inch_bipod_mlok_blk.bundle",
+                "rcid": ""
+            },
+            "ExtraSizeLeft": 2,
+            "Accuracy": 0,
+            "BlocksCollapsible": false,
+            "BlocksFolding": false,
+            "CategoryAnimationModId": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "Durability": 100,
+            "EffectiveDistance": 0,
+            "Ergonomics": 6.5,
+            "HasShoulderContact": false,
+            "IsAnimated": false,
+            "Loudness": 0,
+            "MetascoreGroup": "Firepower",
+            "RaidModdable": false,
+            "Recoil": -1.5,
+            "SightingRange": 0,
+            "ToolModdable": true,
+            "UniqueAnimationModID": 0,
+            "Velocity": 0,
+            "CoolFactor": 0.98,
+            "HeatFactor": 1.02
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "MDR BLK LBL ALX 16 脚架护木 (黑色)",
+            "ShortName": "ALX B 16",
+            "Description": "MDR 突击步枪护木，适配 16 英寸枪管，带有脚架安装位与标准规格的 M-LOK 接口，可安装各种附加设备和组件。由 BLK LBL 公司设计制造，黑色版本。",
+            "RagfairType": "5b5f75e486f77447ec5d7712",
+            "DefaultPrice": 43752,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "652910ef50dc782999054b97",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "黄DT20护木": {
+        "_id": "黄DT20护木",
+        "_targetid": "5c48a14f2e2216152006edd7",
+        "_name": "黄DT20护木",
+        "_props": {
+            "Weight": 0.352,
+            "Width": 3,
+            "Height": 1,
+            "Prefab": {
+                "path": "assets/content/items/mods/handguards/handguard_mdr_blk_lbl_alx_20_inch_mlok.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_name": "mod_mount_000",
+                    "_id": "681096b551511048940afedb",
+                    "_parent": "黄DT20护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "57cffb66245977632f391a99",
+                                    "57cffcd624597763133760c5",
+                                    "57cffcdd24597763f5110006",
+                                    "57cffce524597763b31685d8",
+                                    "5b7be4895acfc400170e2dd5",
+                                    "651a8e529829226ceb67c319",
+                                    "651a8bf3a8520e48047bf708",
+                                    "665d5d9e338229cfd6078da1",
+                                    "665edce564fb556f940ab32a"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_001",
+                    "_id": "681096b551511048940afedc",
+                    "_parent": "黄DT20护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5b7be47f5acfc400170e2dd2",
+                                    "669a6a4a525be1d2d004b8eb",
+                                    "6269220d70b6c02e665f2635",
+                                    "6269545d0e57f218e4548ca2"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_002",
+                    "_id": "681096b551511048940afedd",
+                    "_parent": "黄DT20护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5b7be47f5acfc400170e2dd2",
+                                    "6269220d70b6c02e665f2635",
+                                    "6269545d0e57f218e4548ca2",
+                                    "669a6a4a525be1d2d004b8eb"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_tactical",
+                    "_id": "681096b551511048940afede",
+                    "_parent": "黄DT20护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "57fd23e32459772d0805bcf1",
+                                    "544909bb4bdc2d6f028b4577",
+                                    "5c06595c0db834001a66af6c",
+                                    "5a7b483fe899ef0016170d15",
+                                    "61605d88ffa6e502ac5e7eeb",
+                                    "5c5952732e2216398b5abda2",
+                                    "644a3df63b0b6f03e101e065"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_sight_front",
+                    "_id": "681096b551511048940afedf",
+                    "_parent": "黄DT20护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5ba26b01d4351e0085325a51",
+                                    "5dfa3d950dee1b22f862eae0",
+                                    "5c17804b2e2216152006c02f",
+                                    "5fb6567747ce63734e3fa1dc",
+                                    "5bc09a30d4351e00367fb7c8",
+                                    "5c18b90d2e2216152142466b",
+                                    "5fc0fa362770a0045c59c677",
+                                    "5894a73486f77426d259076c",
+                                    "55d4af3a4bdc2d972f8b456f"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_003",
+                    "_id": "681096b551511048940afee0",
+                    "_parent": "黄DT20护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "671126b049e181972e0681fa",
+                                    "669a6a4a525be1d2d004b8eb",
+                                    "5b7be47f5acfc400170e2dd2",
+                                    "6269220d70b6c02e665f2635",
+                                    "6269545d0e57f218e4548ca2"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_004",
+                    "_id": "681096b551511048940afee1",
+                    "_parent": "黄DT20护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5649a2464bdc2d91118b45a8"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "ConflictingItems": [
+                "5c48a2852e221602b21d5923",
+                "5dcbe9431e1f4616d354987e"
+            ],
+            "ExtraSizeLeft": 3,
+            "Accuracy": 0,
+            "BlocksCollapsible": false,
+            "BlocksFolding": false,
+            "CategoryAnimationModId": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "Durability": 100,
+            "EffectiveDistance": 0,
+            "Ergonomics": 10,
+            "HasShoulderContact": false,
+            "IsAnimated": false,
+            "Loudness": 0,
+            "MetascoreGroup": "Firepower",
+            "RaidModdable": false,
+            "Recoil": -2,
+            "SightingRange": 0,
+            "ToolModdable": true,
+            "UniqueAnimationModID": 0,
+            "Velocity": 0,
+            "CoolFactor": 0.985,
+            "HeatFactor": 1.015
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "MDR BLK LBL ALX 20 寸护木 (FDE)",
+            "ShortName": "ALX 20",
+            "Description": "MDR 突击步枪护木，适配 20 英寸枪管，配有标准规格的 M-LOK 接口，可安装各种附加设备和组件。由 BLK LBL 公司设计制造，沙土褐色 (FDE) 版本。",
+            "RagfairType": "5b5f75e486f77447ec5d7712",
+            "DefaultPrice": 85365,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "652910ef50dc782999054b97",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "黄DT16护木": {
+        "_id": "黄DT16护木",
+        "_targetid": "5c48a14f2e2216152006edd7",
+        "_name": "黄DT16护木",
+        "_props": {
+            "Weight": 0.244,
+            "Width": 2,
+            "Height": 1,
+            "Prefab": {
+                "path": "assets/content/items/mods/handguards/handguard_mdr_blk_lbl_alx_16_inch_mlok.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_name": "mod_mount_000",
+                    "_id": "681096b551511048940afedb",
+                    "_parent": "黄DT16护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "57cffb66245977632f391a99",
+                                    "57cffcd624597763133760c5",
+                                    "57cffcdd24597763f5110006",
+                                    "57cffce524597763b31685d8",
+                                    "5b7be4895acfc400170e2dd5",
+                                    "651a8e529829226ceb67c319",
+                                    "651a8bf3a8520e48047bf708",
+                                    "665d5d9e338229cfd6078da1",
+                                    "665edce564fb556f940ab32a"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_001",
+                    "_id": "681096b551511048940afedc",
+                    "_parent": "黄DT16护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5b7be47f5acfc400170e2dd2",
+                                    "669a6a4a525be1d2d004b8eb",
+                                    "6269220d70b6c02e665f2635",
+                                    "6269545d0e57f218e4548ca2"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_002",
+                    "_id": "681096b551511048940afedd",
+                    "_parent": "黄DT16护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5b7be47f5acfc400170e2dd2",
+                                    "6269220d70b6c02e665f2635",
+                                    "6269545d0e57f218e4548ca2",
+                                    "669a6a4a525be1d2d004b8eb"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_tactical",
+                    "_id": "681096b551511048940afede",
+                    "_parent": "黄DT16护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "57fd23e32459772d0805bcf1",
+                                    "544909bb4bdc2d6f028b4577",
+                                    "5c06595c0db834001a66af6c",
+                                    "5a7b483fe899ef0016170d15",
+                                    "61605d88ffa6e502ac5e7eeb",
+                                    "5c5952732e2216398b5abda2",
+                                    "644a3df63b0b6f03e101e065"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_sight_front",
+                    "_id": "681096b551511048940afedf",
+                    "_parent": "黄DT16护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5ba26b01d4351e0085325a51",
+                                    "5dfa3d950dee1b22f862eae0",
+                                    "5c17804b2e2216152006c02f",
+                                    "5fb6567747ce63734e3fa1dc",
+                                    "5bc09a30d4351e00367fb7c8",
+                                    "5c18b90d2e2216152142466b",
+                                    "5fc0fa362770a0045c59c677",
+                                    "5894a73486f77426d259076c",
+                                    "55d4af3a4bdc2d972f8b456f"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "ConflictingItems": [],
+            "ExtraSizeLeft": 2,
+            "Accuracy": 0,
+            "BlocksCollapsible": false,
+            "BlocksFolding": false,
+            "CategoryAnimationModId": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "Durability": 100,
+            "EffectiveDistance": 0,
+            "Ergonomics": 9,
+            "HasShoulderContact": false,
+            "IsAnimated": false,
+            "Loudness": 0,
+            "MetascoreGroup": "Firepower",
+            "RaidModdable": false,
+            "Recoil": -1.5,
+            "SightingRange": 0,
+            "ToolModdable": true,
+            "UniqueAnimationModID": 0,
+            "Velocity": 0,
+            "CoolFactor": 0.99,
+            "HeatFactor": 1.01
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "MDR BLK LBL ALX 16 寸护木 (FDE)",
+            "ShortName": "ALX 16",
+            "Description": "MDR 突击步枪护木，适配 16 英寸枪管，配有标准规格的 M-LOK 接口，可安装各种附加设备和组件。由 BLK LBL 公司设计制造，沙土褐色 (FDE) 版本。",
+            "RagfairType": "5b5f75e486f77447ec5d7712",
+            "DefaultPrice": 55365,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "652910ef50dc782999054b97",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "黑DT20护木": {
+        "_id": "黑DT20护木",
+        "_targetid": "5c48a14f2e2216152006edd7",
+        "_name": "黑DT20护木",
+        "_props": {
+            "Weight": 0.352,
+            "Width": 3,
+            "Height": 1,
+            "Prefab": {
+                "path": "assets/content/items/mods/handguards/handguard_mdr_blk_lbl_alx_20_inch_mlok_blk.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_name": "mod_mount_000",
+                    "_id": "681096b551511048940afedb",
+                    "_parent": "黑DT20护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "57cffb66245977632f391a99",
+                                    "57cffcd624597763133760c5",
+                                    "57cffcdd24597763f5110006",
+                                    "57cffce524597763b31685d8",
+                                    "5b7be4895acfc400170e2dd5",
+                                    "651a8e529829226ceb67c319",
+                                    "651a8bf3a8520e48047bf708",
+                                    "665d5d9e338229cfd6078da1",
+                                    "665edce564fb556f940ab32a"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_001",
+                    "_id": "681096b551511048940afedc",
+                    "_parent": "黑DT20护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5b7be47f5acfc400170e2dd2",
+                                    "669a6a4a525be1d2d004b8eb",
+                                    "6269220d70b6c02e665f2635",
+                                    "6269545d0e57f218e4548ca2"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_002",
+                    "_id": "681096b551511048940afedd",
+                    "_parent": "黑DT20护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5b7be47f5acfc400170e2dd2",
+                                    "6269220d70b6c02e665f2635",
+                                    "6269545d0e57f218e4548ca2",
+                                    "669a6a4a525be1d2d004b8eb"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_tactical",
+                    "_id": "681096b551511048940afede",
+                    "_parent": "黑DT20护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "57fd23e32459772d0805bcf1",
+                                    "544909bb4bdc2d6f028b4577",
+                                    "5c06595c0db834001a66af6c",
+                                    "5a7b483fe899ef0016170d15",
+                                    "61605d88ffa6e502ac5e7eeb",
+                                    "5c5952732e2216398b5abda2",
+                                    "644a3df63b0b6f03e101e065"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_sight_front",
+                    "_id": "681096b551511048940afedf",
+                    "_parent": "黑DT20护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5ba26b01d4351e0085325a51",
+                                    "5dfa3d950dee1b22f862eae0",
+                                    "5c17804b2e2216152006c02f",
+                                    "5fb6567747ce63734e3fa1dc",
+                                    "5bc09a30d4351e00367fb7c8",
+                                    "5c18b90d2e2216152142466b",
+                                    "5fc0fa362770a0045c59c677",
+                                    "5894a73486f77426d259076c",
+                                    "55d4af3a4bdc2d972f8b456f"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_003",
+                    "_id": "681096b551511048940afee0",
+                    "_parent": "黑DT20护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "671126b049e181972e0681fa",
+                                    "669a6a4a525be1d2d004b8eb",
+                                    "5b7be47f5acfc400170e2dd2",
+                                    "6269220d70b6c02e665f2635",
+                                    "6269545d0e57f218e4548ca2"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_004",
+                    "_id": "681096b551511048940afee1",
+                    "_parent": "黑DT20护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5649a2464bdc2d91118b45a8"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "ConflictingItems": [
+                "5c48a2852e221602b21d5923",
+                "5dcbe9431e1f4616d354987e"
+            ],
+            "ExtraSizeLeft": 3,
+            "Accuracy": 0,
+            "BlocksCollapsible": false,
+            "BlocksFolding": false,
+            "CategoryAnimationModId": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "Durability": 100,
+            "EffectiveDistance": 0,
+            "Ergonomics": 10,
+            "HasShoulderContact": false,
+            "IsAnimated": false,
+            "Loudness": 0,
+            "MetascoreGroup": "Firepower",
+            "RaidModdable": false,
+            "Recoil": -2,
+            "SightingRange": 0,
+            "ToolModdable": true,
+            "UniqueAnimationModID": 0,
+            "Velocity": 0,
+            "CoolFactor": 0.985,
+            "HeatFactor": 1.015
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "MDR BLK LBL ALX 20 寸护木 (黑色)",
+            "ShortName": "ALX 20",
+            "Description": "MDR 突击步枪护木，适配 20 英寸枪管，配有标准规格的 M-LOK 接口，可安装各种附加设备和组件。由 BLK LBL 公司设计制造，黑色版本。",
+            "RagfairType": "5b5f75e486f77447ec5d7712",
+            "DefaultPrice": 85365,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "652910ef50dc782999054b97",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "黑DT16护木": {
+        "_id": "黑DT16护木",
+        "_targetid": "5c48a14f2e2216152006edd7",
+        "_name": "黑DT16护木",
+        "_props": {
+            "Weight": 0.244,
+            "Width": 2,
+            "Height": 1,
+            "Prefab": {
+                "path": "assets/content/items/mods/handguards/handguard_mdr_blk_lbl_alx_16_inch_mlok_blk.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_name": "mod_mount_000",
+                    "_id": "681096b551511048940afedb",
+                    "_parent": "黑DT16护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "57cffb66245977632f391a99",
+                                    "57cffcd624597763133760c5",
+                                    "57cffcdd24597763f5110006",
+                                    "57cffce524597763b31685d8",
+                                    "5b7be4895acfc400170e2dd5",
+                                    "651a8e529829226ceb67c319",
+                                    "651a8bf3a8520e48047bf708",
+                                    "665d5d9e338229cfd6078da1",
+                                    "665edce564fb556f940ab32a"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_001",
+                    "_id": "681096b551511048940afedc",
+                    "_parent": "黑DT16护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5b7be47f5acfc400170e2dd2",
+                                    "669a6a4a525be1d2d004b8eb",
+                                    "6269220d70b6c02e665f2635",
+                                    "6269545d0e57f218e4548ca2"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_002",
+                    "_id": "681096b551511048940afedd",
+                    "_parent": "黑DT16护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5b7be47f5acfc400170e2dd2",
+                                    "6269220d70b6c02e665f2635",
+                                    "6269545d0e57f218e4548ca2",
+                                    "669a6a4a525be1d2d004b8eb"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_tactical",
+                    "_id": "681096b551511048940afede",
+                    "_parent": "黑DT16护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "57fd23e32459772d0805bcf1",
+                                    "544909bb4bdc2d6f028b4577",
+                                    "5c06595c0db834001a66af6c",
+                                    "5a7b483fe899ef0016170d15",
+                                    "61605d88ffa6e502ac5e7eeb",
+                                    "5c5952732e2216398b5abda2",
+                                    "644a3df63b0b6f03e101e065"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_sight_front",
+                    "_id": "681096b551511048940afedf",
+                    "_parent": "黑DT16护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5ba26b01d4351e0085325a51",
+                                    "5dfa3d950dee1b22f862eae0",
+                                    "5c17804b2e2216152006c02f",
+                                    "5fb6567747ce63734e3fa1dc",
+                                    "5bc09a30d4351e00367fb7c8",
+                                    "5c18b90d2e2216152142466b",
+                                    "5fc0fa362770a0045c59c677",
+                                    "5894a73486f77426d259076c",
+                                    "55d4af3a4bdc2d972f8b456f"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "ConflictingItems": [],
+            "ExtraSizeLeft": 2,
+            "Accuracy": 0,
+            "BlocksCollapsible": false,
+            "BlocksFolding": false,
+            "CategoryAnimationModId": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "Durability": 100,
+            "EffectiveDistance": 0,
+            "Ergonomics": 9,
+            "HasShoulderContact": false,
+            "IsAnimated": false,
+            "Loudness": 0,
+            "MetascoreGroup": "Firepower",
+            "RaidModdable": false,
+            "Recoil": -1.5,
+            "SightingRange": 0,
+            "ToolModdable": true,
+            "UniqueAnimationModID": 0,
+            "Velocity": 0,
+            "CoolFactor": 0.99,
+            "HeatFactor": 1.01
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "MDR BLK LBL ALX 16 寸护木 (黑色)",
+            "ShortName": "ALX 16",
+            "Description": "MDR 突击步枪护木，适配 16 英寸枪管，配有标准规格的 M-LOK 接口，可安装各种附加设备和组件。由 BLK LBL 公司设计制造，黑色版本。",
+            "RagfairType": "5b5f75e486f77447ec5d7712",
+            "DefaultPrice": 55365,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "652910ef50dc782999054b97",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "黄DT迷你护木护木": {
+        "_id": "黄DT迷你护木护木",
+        "_targetid": "5c48a14f2e2216152006edd7",
+        "_name": "黄DT迷你护木护木",
+        "_props": {
+            "Weight": 0.102,
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "assets/content/items/mods/handguards/handguard_mdr_dt_micron_mlok.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_name": "mod_mount_001",
+                    "_id": "6810ca87002deee76b04970d",
+                    "_parent": "黄DT迷你护木护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "669a6a4a525be1d2d004b8eb"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_002",
+                    "_id": "6810cae8002deee76b04970e",
+                    "_parent": "黄DT迷你护木护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "669a6a4a525be1d2d004b8eb",
+                                    "6269545d0e57f218e4548ca2"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "ConflictingItems": [],
+            "ExtraSizeLeft": 1,
+            "Accuracy": 0,
+            "BlocksCollapsible": false,
+            "BlocksFolding": false,
+            "CategoryAnimationModId": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "Durability": 100,
+            "EffectiveDistance": 0,
+            "Ergonomics": 14,
+            "HasShoulderContact": false,
+            "IsAnimated": false,
+            "Loudness": 0,
+            "MetascoreGroup": "Firepower",
+            "RaidModdable": false,
+            "Recoil": 0,
+            "SightingRange": 0,
+            "ToolModdable": true,
+            "UniqueAnimationModID": 0,
+            "Velocity": 0,
+            "CoolFactor": 1.007,
+            "HeatFactor": 0.983
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "MDR 微型 M-LOK 护木 (FDE)",
+            "ShortName": "微型",
+            "Description": "单兵自卫武器 (PDW) 风格的 MDR 突击步枪微型护木，在扳机护圈前附有前握把。配有标准规格的 M-LOK 接口，可安装各种附加设备和组件。由 Desert Tech 公司设计制造，沙土褐色 (FDE) 版本。",
+            "RagfairType": "5b5f75e486f77447ec5d7712",
+            "DefaultPrice": 15365,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "652910ef50dc782999054b97",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "黑DT迷你护木护木": {
+        "_id": "黑DT迷你护木护木",
+        "_targetid": "5c48a14f2e2216152006edd7",
+        "_name": "黑DT迷你护木护木",
+        "_props": {
+            "Weight": 0.102,
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "assets/content/items/mods/handguards/handguard_mdr_dt_micron_mlok_blk.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_name": "mod_mount_001",
+                    "_id": "6810ca87002deee76b04970d",
+                    "_parent": "黑DT迷你护木护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "669a6a4a525be1d2d004b8eb"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_002",
+                    "_id": "6810cae8002deee76b04970e",
+                    "_parent": "黑DT迷你护木护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "669a6a4a525be1d2d004b8eb",
+                                    "6269545d0e57f218e4548ca2"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "ConflictingItems": [],
+            "ExtraSizeLeft": 1,
+            "Accuracy": 0,
+            "BlocksCollapsible": false,
+            "BlocksFolding": false,
+            "CategoryAnimationModId": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "Durability": 100,
+            "EffectiveDistance": 0,
+            "Ergonomics": 14,
+            "HasShoulderContact": false,
+            "IsAnimated": false,
+            "Loudness": 0,
+            "MetascoreGroup": "Firepower",
+            "RaidModdable": false,
+            "Recoil": 0,
+            "SightingRange": 0,
+            "ToolModdable": true,
+            "UniqueAnimationModID": 0,
+            "Velocity": 0,
+            "CoolFactor": 1.007,
+            "HeatFactor": 0.983
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "MDR 微型 M-LOK 护木 (黑色)",
+            "ShortName": "微型",
+            "Description": "单兵自卫武器 (PDW) 风格的 MDR 突击步枪微型护木，在扳机护圈前附有前握把。配有标准规格的 M-LOK 接口，可安装各种附加设备和组件。由 Desert Tech 公司设计制造，黑色版本。",
+            "RagfairType": "5b5f75e486f77447ec5d7712",
+            "DefaultPrice": 15365,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "652910ef50dc782999054b97",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "黄DT20枪管": {
+        "_id": "黄DT20枪管",
+        "_targetid": "5c48a2852e221602b21d5923",
+        "_name": "黄DT20枪管",
+        "_props": {
+            "Weight": 0.675,
+            "Width": 4,
+            "Height": 1,
+            "Prefab": {
+                "path": "assets/content/items/mods/barrels/barrel_mdr_dt_mdrx_508mm_556x45.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_name": "mod_muzzle",
+                    "_id": "680f87118c5d2ff9020005cf",
+                    "_parent": "黄DT20枪管",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5b3a16655acfc40016387a2a",
+                                    "5c7e5f112e221600106f4ede",
+                                    "5c0fafb6d174af02a96260ba",
+                                    "612e0cfc8004cc50514c2d9e",
+                                    "5cf6937cd7f00c056c53fb39",
+                                    "544a38634bdc2d58388b4568",
+                                    "5cff9e5ed7ad1a09407397d4",
+                                    "5c48a2a42e221602b66d1e07",
+                                    "5f6372e2865db925d54f3869",
+                                    "615d8e2f1cb55961fa0fd9a4",
+                                    "56ea8180d2720bf2698b456a",
+                                    "5d02676dd7ad1a049e54f6dc",
+                                    "56ea6fafd2720b844b8b4593",
+                                    "5943ee5a86f77413872d25ec",
+                                    "609269c3b0e443224b421cc1",
+                                    "5c7fb51d2e2216001219ce11",
+                                    "5ea172e498dacb342978818e",
+                                    "5c6d710d2e22165df16b81e7",
+                                    "612e0e55a112697a4b3a66e7",
+                                    "5d440625a4b9361eec4ae6c5",
+                                    "5cc9b815d7f00c000e2579d6",
+                                    "5a7c147ce899ef00150bd8b8",
+                                    "5c7954d52e221600106f4cc7",
+                                    "59bffc1f86f77435b128b872",
+                                    "5a9fbb84a2750c00137fa685",
+                                    "626667e87379c44d557b7550",
+                                    "62669bccdb9ebb4daa44cd14",
+                                    "626a74340be03179a165e30c",
+                                    "6386120cd6baa055ad1e201c",
+                                    "63ac5c9658d0485fc039f0b8",
+                                    "6405ff6bd4578826ec3e377a",
+                                    "64943b74e9998d641b0412ed",
+                                    "6621455e3aceea9e2b0b01e7",
+                                    "664301213dd83ddae20dda18",
+                                    "68caac500bfe742288085e1e",
+                                    "68c294b9eb59c46bf6070536",
+                                    "68a63b03e1fb670852024656"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "ConflictingItems": [],
+            "ExtraSizeLeft": 3,
+            "Accuracy": 0,
+            "BlocksCollapsible": false,
+            "BlocksFolding": false,
+            "CategoryAnimationModId": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "Durability": 100,
+            "EffectiveDistance": 0,
+            "Ergonomics": -8,
+            "HasShoulderContact": false,
+            "IsAnimated": false,
+            "Loudness": 0,
+            "MetascoreGroup": "Firepower",
+            "RaidModdable": false,
+            "Recoil": -11,
+            "SightingRange": 0,
+            "ToolModdable": true,
+            "UniqueAnimationModID": 0,
+            "Velocity": -3.2,
+            "CenterOfImpact": 0.034,
+            "CoolFactor": 0.97,
+            "DeviationCurve": 1.35,
+            "DeviationMax": 23,
+            "DurabilityBurnModificator": 1.02,
+            "HeatFactor": 0.96,
+            "IsSilencer": false,
+            "ShotgunDispersion": 1
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "20 英寸 MDR 枪管 5.56x45",
+            "ShortName": "MDR 556 20\"",
+            "Description": "适用于 MDR 武器平台的 20 英寸 (508 毫米) 枪管，5.56x45 北约步枪弹口径。",
+            "RagfairType": "5b5f75c686f774094242f19f",
+            "DefaultPrice": 75365,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "652910ef50dc782999054b97",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "黑DT20枪管": {
+        "_id": "黑DT20枪管",
+        "_targetid": "5dcbe9431e1f4616d354987e",
+        "_name": "黑DT20枪管",
+        "_props": {
+            "Weight": 0.763,
+            "Width": 4,
+            "Height": 1,
+            "Prefab": {
+                "path": "assets/content/items/mods/barrels/barrel_mdr_dt_mdrx_508mm_762x51.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_name": "mod_muzzle",
+                    "_id": "680f87196d09c2f0740dd529",
+                    "_parent": "黑DT20枪管",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "612e0d3767085e45ef14057f",
+                                    "5b3a16655acfc40016387a2a",
+                                    "5b7d693d5acfc43bca706a3d",
+                                    "5a34fd2bc4a282329a73b4c5",
+                                    "6065c6e7132d4d12c81fd8e1",
+                                    "5d1f819086f7744b355c219b",
+                                    "5dcbe965e4ed22586443a79d",
+                                    "5d026791d7ad1a04a067ea63",
+                                    "5dfa3cd1b33c0951220c079b",
+                                    "6130c43c67085e45ef1405a1",
+                                    "5cdd7685d7f00c000f260ed2",
+                                    "5c878e9d2e2216000f201903",
+                                    "5d02677ad7ad1a04a15c0f95",
+                                    "5bbdb8bdd4351e4502011460",
+                                    "5cdd7693d7f00c0010373aa5",
+                                    "607ffb988900dc2d9a55b6e4",
+                                    "615d8eb350224f204c1da1cf",
+                                    "612e0e3c290d254f5e6b291d",
+                                    "5d443f8fa4b93678dd4a01aa",
+                                    "5c7954d52e221600106f4cc7",
+                                    "59bffc1f86f77435b128b872",
+                                    "5cf78496d7f00c065703d6ca",
+                                    "6642f63667f5cb56a00662eb"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "ConflictingItems": [],
+            "ExtraSizeLeft": 3,
+            "Accuracy": 0,
+            "BlocksCollapsible": false,
+            "BlocksFolding": false,
+            "CategoryAnimationModId": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "Durability": 100,
+            "EffectiveDistance": 0,
+            "Ergonomics": -8,
+            "HasShoulderContact": false,
+            "IsAnimated": false,
+            "Loudness": 0,
+            "MetascoreGroup": "Firepower",
+            "RaidModdable": false,
+            "Recoil": -12,
+            "SightingRange": 0,
+            "ToolModdable": true,
+            "UniqueAnimationModID": 0,
+            "Velocity": -3.8,
+            "CenterOfImpact": 0.033,
+            "CoolFactor": 0.92,
+            "DeviationCurve": 1.35,
+            "DeviationMax": 23,
+            "DurabilityBurnModificator": 1.02,
+            "HeatFactor": 0.92,
+            "IsSilencer": false,
+            "ShotgunDispersion": 1
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "20 英寸 MDR 枪管 7.62x51",
+            "ShortName": "MDR 762 20\"",
+            "Description": "适用于 MDR 武器平台的 20 英寸 (508 毫米) 枪管，7.62x51 北约步枪弹口径。",
+            "RagfairType": "5b5f75c686f774094242f19f",
+            "DefaultPrice": 75365,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "652910ef50dc782999054b97",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "黄DT115枪管": {
+        "_id": "黄DT115枪管",
+        "_targetid": "5c48a2852e221602b21d5923",
+        "_name": "黄DT115枪管",
+        "_props": {
+            "Weight": 0.386,
+            "Width": 2,
+            "Height": 1,
+            "Prefab": {
+                "path": "assets/content/items/mods/barrels/barrel_mdr_dt_292mm_556x45.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_name": "mod_muzzle",
+                    "_id": "6810d2c6485a5ea11b01e3af",
+                    "_parent": "黄DT115枪管",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5b3a16655acfc40016387a2a",
+                                    "5c7e5f112e221600106f4ede",
+                                    "5c0fafb6d174af02a96260ba",
+                                    "612e0cfc8004cc50514c2d9e",
+                                    "5cf6937cd7f00c056c53fb39",
+                                    "544a38634bdc2d58388b4568",
+                                    "5cff9e5ed7ad1a09407397d4",
+                                    "5c48a2a42e221602b66d1e07",
+                                    "5f6372e2865db925d54f3869",
+                                    "615d8e2f1cb55961fa0fd9a4",
+                                    "56ea8180d2720bf2698b456a",
+                                    "5d02676dd7ad1a049e54f6dc",
+                                    "56ea6fafd2720b844b8b4593",
+                                    "5943ee5a86f77413872d25ec",
+                                    "609269c3b0e443224b421cc1",
+                                    "5c7fb51d2e2216001219ce11",
+                                    "5ea172e498dacb342978818e",
+                                    "5c6d710d2e22165df16b81e7",
+                                    "612e0e55a112697a4b3a66e7",
+                                    "5d440625a4b9361eec4ae6c5",
+                                    "5cc9b815d7f00c000e2579d6",
+                                    "5a7c147ce899ef00150bd8b8",
+                                    "5c7954d52e221600106f4cc7",
+                                    "59bffc1f86f77435b128b872",
+                                    "5a9fbb84a2750c00137fa685",
+                                    "626667e87379c44d557b7550",
+                                    "62669bccdb9ebb4daa44cd14",
+                                    "626a74340be03179a165e30c",
+                                    "6386120cd6baa055ad1e201c",
+                                    "63ac5c9658d0485fc039f0b8",
+                                    "6405ff6bd4578826ec3e377a",
+                                    "64943b74e9998d641b0412ed",
+                                    "6621455e3aceea9e2b0b01e7",
+                                    "664301213dd83ddae20dda18",
+                                    "68c294b9eb59c46bf6070536",
+                                    "68a63b03e1fb670852024656",
+                                    "68caac500bfe742288085e1e"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_sight_front",
+                    "_id": "6810de801f981667b50ff8df",
+                    "_parent": "黄DT115枪管",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5ba26b01d4351e0085325a51",
+                                    "5dfa3d950dee1b22f862eae0",
+                                    "5c17804b2e2216152006c02f",
+                                    "5fb6567747ce63734e3fa1dc",
+                                    "5bc09a30d4351e00367fb7c8",
+                                    "5c18b90d2e2216152142466b",
+                                    "5fc0fa362770a0045c59c677",
+                                    "5894a73486f77426d259076c",
+                                    "55d4af3a4bdc2d972f8b456f"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "ConflictingItems": [
+                "黄DT20脚架护木",
+                "黄DT16脚架护木",
+                "黑DT20脚架护木",
+                "黑DT16脚架护木",
+                "黄DT20护木",
+                "黄DT16护木",
+                "黑DT20护木",
+                "黑DT16护木",
+                "5c48a14f2e2216152006edd7",
+                "5dcbd6b46ec07c0c4347a564"
+            ],
+            "ExtraSizeLeft": 1,
+            "Accuracy": 0,
+            "BlocksCollapsible": false,
+            "BlocksFolding": false,
+            "CategoryAnimationModId": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "Durability": 100,
+            "EffectiveDistance": 0,
+            "Ergonomics": -3,
+            "HasShoulderContact": false,
+            "IsAnimated": false,
+            "Loudness": 0,
+            "MetascoreGroup": "Firepower",
+            "RaidModdable": false,
+            "Recoil": -5,
+            "SightingRange": 0,
+            "ToolModdable": true,
+            "UniqueAnimationModID": 0,
+            "Velocity": -15.8,
+            "CenterOfImpact": 0.055,
+            "CoolFactor": 1.03,
+            "DeviationCurve": 1.35,
+            "DeviationMax": 23,
+            "DurabilityBurnModificator": 0.95,
+            "HeatFactor": 1.04,
+            "IsSilencer": false,
+            "ShotgunDispersion": 1
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "11.5 英寸 MDR 枪管 5.56x45",
+            "ShortName": "MDR 556 11.5\"",
+            "Description": "适用于 MDR 武器平台的 11.5 英寸 (292 毫米) 枪管，5.56x45 北约步枪弹口径。",
+            "RagfairType": "5b5f75c686f774094242f19f",
+            "DefaultPrice": 53365,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "652910ef50dc782999054b97",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "黑PEQ15": {
+        "_id": "黑PEQ15",
+        "_targetid": "544909bb4bdc2d6f028b4577",
+        "_name": "黑PEQ15",
+        "_props": {
+            "Prefab": {
+                "path": "assets/content/items/mods/tactical/tactical_all_insight_anpeq15_blk.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "L3Harris AN/PEQ-15 战术设备",
+            "ShortName": "AN/PEQ-15",
+            "Description": "L3 Technologies 公司生产的 AN/PEQ-15 先进目标指示激光瞄准设备 (ATPIAL)。这款战术设备整合了可见光激光指示、红外波段激光指示和红外探照灯，不仅坚固耐用，在实战考验中也收获了大量赞誉。",
+            "DefaultPrice": 13258,
+            "RagfairType": "5b5f737886f774093e6cb4fb",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "Mods"
+            ],
+            "CopyPrice": true
+        }
+    },
+    "DT16脚架": {
+        "_id": "DT16脚架",
+        "_targetid": "622b397c9a3d4327e41843b6",
+        "_name": "DT16脚架",
+        "_props": {
+            "Weight": 0.243,
+            "Width": 2,
+            "Prefab": {
+                "path": "assets/content/weapons/animated_mods/bipods/bipod_alx_blk_lbl_alx_bipod_16_inch.bundle",
+                "rcid": ""
+            },
+            "Accuracy": 0,
+            "BlocksCollapsible": false,
+            "BlocksFolding": false,
+            "CategoryAnimationModId": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "Durability": 100,
+            "EffectiveDistance": 0,
+            "Ergonomics": 2,
+            "HasShoulderContact": false,
+            "IsAnimated": false,
+            "Loudness": 0,
+            "MetascoreGroup": "Firepower",
+            "RaidModdable": false,
+            "Recoil": 0,
+            "SightingRange": 0,
+            "ToolModdable": true,
+            "UniqueAnimationModID": 0,
+            "Velocity": 0,
+            "BipodCameraSnapMultiplier": 1,
+            "BipodOutOfStaminaBreathMultiplier": 0.1,
+            "BipodRecoilMultiplier": 0.35,
+            "BipodReturnHandSpeedMultiplier": 1,
+            "PitchLimitProneBipod": {
+                "x": -4,
+                "y": 6,
+                "z": 0
+            },
+            "YawLimitProneBipod": {
+                "x": -15,
+                "y": 15,
+                "z": 0
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "MDR BLK LBL ALX 16 脚架",
+            "ShortName": "ALX 16",
+            "Description": "ALX 16 护木上附带的轻量化脚架，由 BLK LBL 公司设计制造。",
+            "DefaultPrice": 23258,
+            "RagfairType": "5b5f737886f774093e6cb4fb",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ]
+        }
+    },
+    "DT20脚架": {
+        "_id": "DT20脚架",
+        "_targetid": "622b397c9a3d4327e41843b6",
+        "_name": "DT20脚架",
+        "_props": {
+            "Weight": 0.28,
+            "Width": 2,
+            "Prefab": {
+                "path": "assets/content/weapons/animated_mods/bipods/bipod_alx_blk_lbl_alx_bipod_20_inch.bundle",
+                "rcid": ""
+            },
+            "Accuracy": 0,
+            "BlocksCollapsible": false,
+            "BlocksFolding": false,
+            "CategoryAnimationModId": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "Durability": 100,
+            "EffectiveDistance": 0,
+            "Ergonomics": 3,
+            "HasShoulderContact": false,
+            "IsAnimated": false,
+            "Loudness": 0,
+            "MetascoreGroup": "Firepower",
+            "RaidModdable": false,
+            "Recoil": 0,
+            "SightingRange": 0,
+            "ToolModdable": true,
+            "UniqueAnimationModID": 0,
+            "Velocity": 0,
+            "BipodCameraSnapMultiplier": 1,
+            "BipodOutOfStaminaBreathMultiplier": 0.1,
+            "BipodRecoilMultiplier": 0.35,
+            "BipodReturnHandSpeedMultiplier": 1,
+            "PitchLimitProneBipod": {
+                "x": -4,
+                "y": 6,
+                "z": 0
+            },
+            "YawLimitProneBipod": {
+                "x": -15,
+                "y": 15,
+                "z": 0
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "MDR BLK LBL ALX 20 脚架",
+            "ShortName": "ALX 20",
+            "Description": "ALX 20 护木上附带的轻量化脚架，由 BLK LBL 公司设计制造。",
+            "DefaultPrice": 35458,
+            "RagfairType": "5b5f737886f774093e6cb4fb",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ]
+        }
+    },
+    "RPD现代护木": {
+        "_id": "RPD现代护木",
+        "_targetid": "6513f05a94c72326990a3866",
+        "_name": "RPD现代护木",
+        "_props": {
+            "Weight": 0.25,
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "assets/content/items/mods/handguards/handguard_rpd_ds_arms_railed_handguard.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_name": "mod_foregrip",
+                    "_id": "6830637c7ce4c3029606e45e",
+                    "_parent": "RPD现代护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5c7fc87d2e221644f31c0298",
+                                    "5cda9bcfd7f00c0c0b53e900",
+                                    "59f8a37386f7747af3328f06",
+                                    "619386379fb0c665d5490dbe",
+                                    "5c87ca002e221600114cb150",
+                                    "588226d124597767ad33f787",
+                                    "588226dd24597767ad33f789",
+                                    "588226e62459776e3e094af7",
+                                    "588226ef24597767af46e39c",
+                                    "59fc48e086f77463b1118392",
+                                    "5fce0cf655375d18a253eff0",
+                                    "5cf4fb76d7f00c065703d3ac",
+                                    "5b057b4f5acfc4771e1bd3e9",
+                                    "5c791e872e2216001219c40a",
+                                    "558032614bdc2de7118b4585",
+                                    "58c157be86f77403c74b2bb6",
+                                    "58c157c886f774032749fb06",
+                                    "5f6340d3ca442212f4047eb2",
+                                    "591af28e86f77414a27a9e1d",
+                                    "5c1cd46f2e22164bef5cfedb",
+                                    "5c1bc4812e22164bef5cfde7",
+                                    "5c1bc5612e221602b5429350",
+                                    "5c1bc5af2e221602b412949b",
+                                    "5c1bc5fb2e221602b1779b32",
+                                    "5c1bc7432e221602b412949d",
+                                    "5c1bc7752e221602b1779b34",
+                                    "64806bdd26c80811d408d37a",
+                                    "64807a29e5ffe165600abc97",
+                                    "648067db042be0705c0b3009",
+                                    "65169d5b30425317755f8e25",
+                                    "655df24fdf80b12750626d0a",
+                                    "655dccfdbdcc6b5df71382b6",
+                                    "661e53149c8b4dadef008579",
+                                    "661e52e29c8b4dadef008577",
+                                    "661e52415be02310ed07a07a",
+                                    "661e52b5b099f32c28003586"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_tactical_000",
+                    "_id": "68306426e4028d6e3f099185",
+                    "_parent": "RPD现代护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5a800961159bd4315e3a1657",
+                                    "57fd23e32459772d0805bcf1",
+                                    "544909bb4bdc2d6f028b4577",
+                                    "5c06595c0db834001a66af6c",
+                                    "5cc9c20cd7f00c001336c65d",
+                                    "5d2369418abbc306c62e0c80",
+                                    "5b07dd285acfc4001754240d",
+                                    "56def37dd2720bec348b456a",
+                                    "5a7b483fe899ef0016170d15",
+                                    "61605d88ffa6e502ac5e7eeb",
+                                    "5a5f1ce64f39f90b401987bc",
+                                    "560d657b4bdc2da74d8b4572",
+                                    "5b3a337e5acfc4704b4a19a0",
+                                    "5c5952732e2216398b5abda2",
+                                    "57d17e212459775a1179a0f5",
+                                    "6267c6396b642f77f56f5c1c",
+                                    "6272370ee4013c5d7e31f418",
+                                    "6272379924e29f06af4d5ecb",
+                                    "626becf9582c3e319310b837",
+                                    "644a3df63b0b6f03e101e065",
+                                    "646f6322f43d0c5d62063715",
+                                    "黑PEQ15"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_tactical_001",
+                    "_id": "68306426e4028d6e3f099186",
+                    "_parent": "RPD现代护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5a800961159bd4315e3a1657",
+                                    "57fd23e32459772d0805bcf1",
+                                    "544909bb4bdc2d6f028b4577",
+                                    "5d10b49bd7ad1a1a560708b0",
+                                    "5c06595c0db834001a66af6c",
+                                    "5cc9c20cd7f00c001336c65d",
+                                    "5d2369418abbc306c62e0c80",
+                                    "5b07dd285acfc4001754240d",
+                                    "56def37dd2720bec348b456a",
+                                    "5a7b483fe899ef0016170d15",
+                                    "61605d88ffa6e502ac5e7eeb",
+                                    "5a5f1ce64f39f90b401987bc",
+                                    "560d657b4bdc2da74d8b4572",
+                                    "5b3a337e5acfc4704b4a19a0",
+                                    "5c5952732e2216398b5abda2",
+                                    "57d17e212459775a1179a0f5",
+                                    "6267c6396b642f77f56f5c1c",
+                                    "6272370ee4013c5d7e31f418",
+                                    "6272379924e29f06af4d5ecb",
+                                    "626becf9582c3e319310b837",
+                                    "644a3df63b0b6f03e101e065",
+                                    "646f6322f43d0c5d62063715",
+                                    "黑PEQ15"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_tactical_002",
+                    "_id": "68306449e4028d6e3f099187",
+                    "_parent": "RPD现代护木",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "591c4efa86f7741030027726",
+                                    "570fd79bd2720bc7458b4583",
+                                    "570fd6c2d2720bc6458b457f",
+                                    "558022b54bdc2dac148b458d",
+                                    "58491f3324597764bc48fa02",
+                                    "584924ec24597768f12ae244",
+                                    "5b30b0dc5acfc400153b7124",
+                                    "6165ac8c290d254f5e6b2f6c",
+                                    "60a23797a37c940de7062d02",
+                                    "5d2da1e948f035477b1ce2ba",
+                                    "5c0505e00db834001b735073",
+                                    "609a63b6e2ff132951242d09",
+                                    "584984812459776a704a82a6",
+                                    "59f9d81586f7744c7506ee62",
+                                    "570fd721d2720bc5458b4596",
+                                    "57ae0171245977343c27bfcf",
+                                    "57fd23e32459772d0805bcf1",
+                                    "544909bb4bdc2d6f028b4577",
+                                    "5d10b49bd7ad1a1a560708b0",
+                                    "5c06595c0db834001a66af6c",
+                                    "5a7b483fe899ef0016170d15",
+                                    "61605d88ffa6e502ac5e7eeb",
+                                    "5c5952732e2216398b5abda2",
+                                    "58d39d3d86f77445bb794ae7",
+                                    "616554fe50224f204c1da2aa",
+                                    "5c7d55f52e221644f31bff6a",
+                                    "616584766ef05c2ce828ef57",
+                                    "615d8d878004cc50514c3233",
+                                    "577d128124597739d65d0e56",
+                                    "58d2664f86f7747fec5834f6",
+                                    "5649a2464bdc2d91118b45a8",
+                                    "61714b2467085e45ef140b2c",
+                                    "5b31163c5acfc400153b71cb",
+                                    "5a33b2c9c4a282000c5a9511",
+                                    "644a3df63b0b6f03e101e065",
+                                    "64785e7c19d732620e045e15",
+                                    "655f13e0a246670fb0373245",
+                                    "黑PEQ15"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "Accuracy": 0,
+            "BlocksCollapsible": false,
+            "BlocksFolding": false,
+            "CategoryAnimationModId": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "Durability": 100,
+            "EffectiveDistance": 0,
+            "Ergonomics": 3,
+            "HasShoulderContact": false,
+            "IsAnimated": false,
+            "Loudness": 0,
+            "MetascoreGroup": "Firepower",
+            "RaidModdable": true,
+            "Recoil": 0,
+            "SightingRange": 0,
+            "ToolModdable": false,
+            "UniqueAnimationModID": 0,
+            "Velocity": 0,
+            "CoolFactor": 0.96,
+            "HeatFactor": 1.06
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "DS Arms RPD 导轨护木",
+            "ShortName": "DSA RPD",
+            "Description": "适用于 RPD 轻机枪的聚合物护木，由 DS Arms 公司设计制造。",
+            "DefaultPrice": 44323,
+            "RagfairType": "5b5f75e486f77447ec5d7712",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "RPD现代枪管": {
+        "_id": "RPD现代枪管",
+        "_targetid": "6513eff1e06849f06c0957d4",
+        "_name": "RPD现代枪管",
+        "_props": {
+            "Weight": 1.1,
+            "Width": 3,
+            "Height": 1,
+            "Prefab": {
+                "path": "assets/content/items/mods/barrels/barrel_rpd_ds_arms_370mm_762x39.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_name": "mod_muzzle",
+                    "_id": "6830633be4028d6e3f099184",
+                    "_parent": "RPD现代枪管",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "612e0d3767085e45ef14057f",
+                                    "5b7d693d5acfc43bca706a3d",
+                                    "6065c6e7132d4d12c81fd8e1",
+                                    "5d1f819086f7744b355c219b",
+                                    "5dcbe965e4ed22586443a79d",
+                                    "5d026791d7ad1a04a067ea63",
+                                    "5dfa3cd1b33c0951220c079b",
+                                    "6130c43c67085e45ef1405a1",
+                                    "5cdd7685d7f00c000f260ed2",
+                                    "5c878e9d2e2216000f201903",
+                                    "5d02677ad7ad1a04a15c0f95",
+                                    "5bbdb8bdd4351e4502011460",
+                                    "5cdd7693d7f00c0010373aa5",
+                                    "607ffb988900dc2d9a55b6e4",
+                                    "615d8eb350224f204c1da1cf",
+                                    "612e0e3c290d254f5e6b291d",
+                                    "5d443f8fa4b93678dd4a01aa",
+                                    "5c7954d52e221600106f4cc7",
+                                    "5fbc22ccf24b94483f726483",
+                                    "59bffc1f86f77435b128b872",
+                                    "5cf78496d7f00c065703d6ca",
+                                    "5fbe7618d6fa9c00c571bb6c",
+                                    "628a66b41d5e41750e314f34",
+                                    "6642f63667f5cb56a00662eb",
+                                    "RPD现代枪口"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "ExtraSizeLeft": 1,
+            "Accuracy": 0,
+            "BlocksCollapsible": false,
+            "BlocksFolding": false,
+            "CategoryAnimationModId": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "Durability": 100,
+            "EffectiveDistance": 0,
+            "Ergonomics": -5.5,
+            "HasShoulderContact": false,
+            "IsAnimated": true,
+            "Loudness": 0,
+            "MetascoreGroup": "Firepower",
+            "RaidModdable": false,
+            "Recoil": -2.8,
+            "SightingRange": 0,
+            "ToolModdable": true,
+            "UniqueAnimationModID": 0,
+            "Velocity": 5.9,
+            "CenterOfImpact": 0.055,
+            "CoolFactor": 0.965,
+            "DeviationCurve": 1.35,
+            "DeviationMax": 23,
+            "DurabilityBurnModificator": 0.91,
+            "HeatFactor": 0.952,
+            "IsSilencer": false,
+            "ShotgunDispersion": 1
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "RPD 7.62x39 DS Arms 370毫米枪管",
+            "ShortName": "RPD 370毫米",
+            "Description": "RPD 轻机枪 370 毫米枪管，带有定制化螺纹，可加装 .308/7.62x51 口径的膛口装置。",
+            "DefaultPrice": 63428,
+            "RagfairType": "5b5f75c686f774094242f19f",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "RPD现代枪托": {
+        "_id": "RPD现代枪托",
+        "_targetid": "6513f1798cb24472490ee331",
+        "_name": "RPD现代枪托",
+        "_props": {
+            "Weight": 1.12,
+            "Width": 2,
+            "Height": 1,
+            "Prefab": {
+                "path": "assets/content/items/mods/stocks/stock_rpd_ds_arms_rpd_lower_frame.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_name": "mod_pistolgrip",
+                    "_id": "683062c724bbff0de8013687",
+                    "_parent": "RPD现代枪托",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5b7d679f5acfc4001a5c4024",
+                                    "5b7d678a5acfc4001a5c4022",
+                                    "5b099b965acfc400186331e6"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_stock",
+                    "_id": "683062f024bbff0de8013688",
+                    "_parent": "RPD现代枪托",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5a33ca0fc4a282000d72292f",
+                                    "5c0faeddd174af02a962601f",
+                                    "5649be884bdc2d79388b4577",
+                                    "5d120a10d7ad1a4e1026ba85",
+                                    "5b0800175acfc400153aebd4",
+                                    "5947e98b86f774778f1448bc",
+                                    "5947eab886f77475961d96c5",
+                                    "602e3f1254072b51b239f713",
+                                    "5c793fb92e221644f31bfb64",
+                                    "5c793fc42e221600114ca25d",
+                                    "591aef7986f774139d495f03",
+                                    "591af10186f774139d495f0e",
+                                    "627254cc9c563e6e442c398f",
+                                    "638de3603a1a4031d8260b8c",
+                                    "6761777a1f08ed5e8800b7ac"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "ExtraSizeLeft": 0,
+            "Accuracy": 0,
+            "BlocksCollapsible": false,
+            "BlocksFolding": false,
+            "CategoryAnimationModId": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "Durability": 100,
+            "EffectiveDistance": 0,
+            "Ergonomics": 0,
+            "HasShoulderContact": true,
+            "IsAnimated": false,
+            "Loudness": 0,
+            "MetascoreGroup": "Firepower",
+            "RaidModdable": false,
+            "Recoil": 0,
+            "SightingRange": 0,
+            "ToolModdable": true,
+            "UniqueAnimationModID": 0,
+            "Velocity": 0,
+            "CoolFactor": 1,
+            "DurabilityBurnModificator": 1,
+            "Foldable": false,
+            "HeatFactor": 1,
+            "IsShoulderContact": true,
+            "Retractable": false,
+            "SizeReduceRight": 0
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "DS Arms RPD 枪托",
+            "ShortName": "DSA RPD",
+            "Description": "适用于 RPD 轻机枪的聚合物枪托，由 DS Arms 公司设计制造。",
+            "DefaultPrice": 72344,
+            "RagfairType": "5b5f75c686f774094242f19f",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "RPD现代枪口": {
+        "_id": "RPD现代枪口",
+        "_targetid": "6642f63667f5cb56a00662eb",
+        "_name": "RPD现代枪口",
+        "_props": {
+            "Weight": 0.064,
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "assets/content/items/mods/muzzle/muzzle_rpd_ds_arms_belgian_style_muzzle_brake_762x51.bundle",
+                "rcid": ""
+            },
+            "Slots": [],
+            "ExtraSizeLeft": 0,
+            "Accuracy": 3,
+            "BlocksCollapsible": false,
+            "BlocksFolding": false,
+            "CategoryAnimationModId": 0,
+            "DoubleActionAccuracyPenaltyMult": 1,
+            "Durability": 100,
+            "EffectiveDistance": 0,
+            "Ergonomics": -1.8,
+            "HasShoulderContact": false,
+            "IsAnimated": false,
+            "Loudness": 0,
+            "MetascoreGroup": "Firepower",
+            "RaidModdable": true,
+            "Recoil": -8.5,
+            "SightingRange": 0,
+            "ToolModdable": false,
+            "UniqueAnimationModID": 0,
+            "Velocity": 0,
+            "CoolFactor": 1.015,
+            "DurabilityBurnModificator": 1,
+            "HeatFactor": 0.99,
+            "muzzleModType": "brake"
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "DS Arms RPD“比利时型”7.62x51 膛口制退器",
+            "ShortName": "RPD BEL",
+            "Description": "比利时 FAL 风格的膛口装置，可加装在 RPD 的 .308 枪管螺纹上，由 DS Arms 公司设计制造。",
+            "DefaultPrice": 35210,
+            "RagfairType": "5b5f724c86f774093f2ecf15",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ]
+        }
+    },
+    "蓝牙耳机": {
+        "_id": "蓝牙耳机",
+        "_targetid": "66b5f6985891c84aab75ca76",
+        "_name": "蓝牙耳机",
+        "_props": {
+            "Weight": 0,
+            "Width": 1,
+            "Height": 1,
+            "ConflictingItems": [],
+            "Prefab": {
+                "path": "assets/content/items/equipment/headset_peltor_tep_300/item_equipment_headset_peltor_tep_300.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "Peltor TEP-300 战术耳塞 (狼棕色)",
+            "ShortName": "TEP-300",
+            "Description": "为保护听力与通讯而特别设计的入耳式耳机，由 3M Peltor 公司设计制造。狼棕色版本。",
+            "RagfairType": "5b5f6f3c86f774094242ef87",
+            "DefaultPrice": 140000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "66b5f6985891c84aab75ca76",
+            "isMoney": false,
+            "BlackListType": 10,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "5级骷髅面具": {
+        "_id": "5级骷髅面具",
+        "_targetid": "6570aead4d84f81fd002a033",
+        "_name": "5级骷髅面具",
+        "_props": {
+            "BackgroundColor": "default",
+            "Width": 2,
+            "Height": 2,
+            "Durability": 60,
+            "MaxDurability": 60,
+            "armorClass": 5,
+            "DeafStrength": "None",
+            "ArmorType": "Light",
+            "CanSellOnRagfair": false,
+            "MaterialType": "Helmet",
+            "RicochetParams": {
+                "x": 0.9,
+                "y": 0.4,
+                "z": 70
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "Death Shadow轻量化防弹面罩 (黑色军团)",
+            "ShortName": "Black Devision",
+            "Description": "用于面部防护的\"Death Shadow\"面具，以芳纶纤维加强结构。",
+            "RagfairType": "5b47574386f77428ca22b32f",
+            "DefaultPrice": 249010,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "657089638db3adca1009f4ca",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods",
+                "Container"
             ]
         }
     }

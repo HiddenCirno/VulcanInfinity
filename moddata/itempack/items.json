@@ -358,7 +358,7 @@
                     "Chance": 1,
                     "Delay": 1,
                     "Duration": 7200,
-                    "Value": 100,
+                    "Value": 10,
                     "AbsoluteValue": false,
                     "SkillName": ""
                 },

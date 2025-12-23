@@ -83,6 +83,7 @@ namespace VulcanInfinity
             {
 
                 var logger = ServiceLocator.ServiceProvider.GetService<ISptLogger<BotGenerator>>();
+                var vulcanlogger = ServiceLocator.ServiceProvider.GetService<ISptLogger<VulcanCore.VulcanCore>>();
                 var botLevelGenerator = ServiceLocator.ServiceProvider.GetService<BotLevelGenerator>();
                 var botEquipmentFilterService = ServiceLocator.ServiceProvider.GetService<BotEquipmentFilterService>();
                 var botNameService = ServiceLocator.ServiceProvider.GetService<BotNameService>();
@@ -492,9 +493,33 @@ namespace VulcanInfinity
                         {
                             AddLootToInventory(bot.Inventory, "64d0b40fbe2eed70e254e2d4", "Pockets", bot, databaseService, logger);
                         }
+                        if (botNickName == "Obsidian")
+                        {
+                            AddLootToInventory(bot.Inventory, VulcanUtil.ConvertHashID("实验室管理员钥匙卡"), "Pockets", bot, databaseService, logger);
+                            AddLootToInventory(bot.Inventory, VulcanUtil.ConvertHashID("黑L4G24夜视仪支架"), "Backpack", bot, databaseService, logger);
+                            AddLootToInventory(bot.Inventory, VulcanUtil.ConvertHashID("PVS31A"), "Backpack", bot, databaseService, logger);
+
+                        }
                         if (alterBossName.Contains(botNickName))
                         {
                             AddLootToInventory(bot.Inventory, VulcanUtil.ConvertHashID("封装英雄之证"), "Pockets", bot, databaseService, logger);
+                            if (bot.Inventory != null && bot.Inventory.Items != null && bot.Inventory.Items.Count > 0)
+                            {
+                                bot.Inventory.Items.ForEach(item =>
+                                {
+                                    if (item.SlotId == "FirstPrimaryWeapon" || item.SlotId == "SecondPrimaryWeapon" || item.SlotId == "Holster")
+                                    {
+                                        if (item.Upd != null && item.Upd.Repairable != null)
+                                        {
+                                            item.Upd.Repairable.Durability = 100;
+                                            item.Upd.Repairable.MaxDurability = 100;
+                                        }
+                                    }
+                                });
+                            }
+                        }
+                        if (botNickName == "Obsidian" || botRoleLowercase == "arenafighterevent")
+                        {
                             if (bot.Inventory != null && bot.Inventory.Items != null && bot.Inventory.Items.Count > 0)
                             {
                                 bot.Inventory.Items.ForEach(item =>
