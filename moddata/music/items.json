@@ -2616,5 +2616,685 @@
                 "Mods"
             ]
         }
+    },
+    "自定义唱片71": {
+        "_id": "自定义唱片71",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "自定义唱片71",
+        "_props": {
+            "BackgroundColor": "black",
+            "Width": 2,
+            "Height": 2,
+            "DiscardLimit": -1,
+            "CanSellOnRagfair": true,
+            "Prefab": {
+                "path": "record_songlist_71.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "唱片 \"Умри, если меня не любишь\"",
+            "ShortName": "Умри, если меня не любишь",
+            "Description": "一部录有某种音乐的唱片。",
+            "DefaultPrice": 750000,
+            "RagfairPrice": 450000,
+            "RagfairType": "66f1d60097d24f49a043bbd1",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 0,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "自定义唱片72": {
+        "_id": "自定义唱片72",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "自定义唱片72",
+        "_props": {
+            "BackgroundColor": "black",
+            "Width": 2,
+            "Height": 2,
+            "DiscardLimit": -1,
+            "CanSellOnRagfair": true,
+            "Prefab": {
+                "path": "record_songlist_72.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "唱片 \"LEVEL5-judgelight-\"",
+            "ShortName": "LEVEL5-judgelight-",
+            "Description": "一部录有某种音乐的唱片。",
+            "DefaultPrice": 750000,
+            "RagfairPrice": 450000,
+            "RagfairType": "66f1d60097d24f49a043bbd1",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 0,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "自定义唱片73": {
+        "_id": "自定义唱片73",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "自定义唱片73",
+        "_props": {
+            "BackgroundColor": "black",
+            "Width": 2,
+            "Height": 2,
+            "DiscardLimit": -1,
+            "CanSellOnRagfair": true,
+            "Prefab": {
+                "path": "record_songlist_73.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "唱片 \"Da Capo\"",
+            "ShortName": "Da Capo",
+            "Description": "一部录有某种音乐的唱片。",
+            "DefaultPrice": 750000,
+            "RagfairPrice": 450000,
+            "RagfairType": "66f1d60097d24f49a043bbd1",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 0,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "自定义唱片74": {
+        "_id": "自定义唱片74",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "自定义唱片74",
+        "_props": {
+            "BackgroundColor": "black",
+            "Width": 2,
+            "Height": 2,
+            "DiscardLimit": -1,
+            "CanSellOnRagfair": true,
+            "Prefab": {
+                "path": "record_songlist_74.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "唱片 \"The Show\"",
+            "ShortName": "The Show",
+            "Description": "一部录有某种音乐的唱片。",
+            "DefaultPrice": 750000,
+            "RagfairPrice": 450000,
+            "RagfairType": "66f1d60097d24f49a043bbd1",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 0,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "自定义唱片75": {
+        "_id": "自定义唱片75",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "自定义唱片75",
+        "_props": {
+            "BackgroundColor": "black",
+            "Width": 2,
+            "Height": 2,
+            "DiscardLimit": -1,
+            "CanSellOnRagfair": true,
+            "Prefab": {
+                "path": "record_songlist_75.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "唱片 \"永远的奥特曼\"",
+            "ShortName": "永远的奥特曼",
+            "Description": "一部录有某种音乐的唱片。",
+            "DefaultPrice": 750000,
+            "RagfairPrice": 450000,
+            "RagfairType": "66f1d60097d24f49a043bbd1",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 0,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "自定义唱片76": {
+        "_id": "自定义唱片76",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "自定义唱片76",
+        "_props": {
+            "BackgroundColor": "black",
+            "Width": 2,
+            "Height": 2,
+            "DiscardLimit": -1,
+            "CanSellOnRagfair": true,
+            "Prefab": {
+                "path": "record_songlist_76.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "唱片 \"Counting Stars\"",
+            "ShortName": "Counting Stars",
+            "Description": "一部录有某种音乐的唱片。",
+            "DefaultPrice": 750000,
+            "RagfairPrice": 450000,
+            "RagfairType": "66f1d60097d24f49a043bbd1",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 0,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "自定义唱片77": {
+        "_id": "自定义唱片77",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "自定义唱片77",
+        "_props": {
+            "BackgroundColor": "black",
+            "Width": 2,
+            "Height": 2,
+            "DiscardLimit": -1,
+            "CanSellOnRagfair": true,
+            "Prefab": {
+                "path": "record_songlist_77.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "唱片 \"The King\"",
+            "ShortName": "The King",
+            "Description": "一部录有某种音乐的唱片。",
+            "DefaultPrice": 750000,
+            "RagfairPrice": 450000,
+            "RagfairType": "66f1d60097d24f49a043bbd1",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 0,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "自定义唱片78": {
+        "_id": "自定义唱片78",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "自定义唱片78",
+        "_props": {
+            "BackgroundColor": "black",
+            "Width": 2,
+            "Height": 2,
+            "DiscardLimit": -1,
+            "CanSellOnRagfair": true,
+            "Prefab": {
+                "path": "record_songlist_78.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "唱片 \"世界に一人のシンデレラ\"",
+            "ShortName": "世界に一人のシンデレラ",
+            "Description": "一部录有某种音乐的唱片。",
+            "DefaultPrice": 750000,
+            "RagfairPrice": 450000,
+            "RagfairType": "66f1d60097d24f49a043bbd1",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 0,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "自定义唱片79": {
+        "_id": "自定义唱片79",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "自定义唱片79",
+        "_props": {
+            "BackgroundColor": "black",
+            "Width": 2,
+            "Height": 2,
+            "DiscardLimit": -1,
+            "CanSellOnRagfair": true,
+            "Prefab": {
+                "path": "record_songlist_79.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "唱片 \"Dancing With Helena\"",
+            "ShortName": "Dancing With Helena",
+            "Description": "一部录有某种音乐的唱片。",
+            "DefaultPrice": 750000,
+            "RagfairPrice": 450000,
+            "RagfairType": "66f1d60097d24f49a043bbd1",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 0,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "自定义唱片80": {
+        "_id": "自定义唱片80",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "自定义唱片80",
+        "_props": {
+            "BackgroundColor": "black",
+            "Width": 2,
+            "Height": 2,
+            "DiscardLimit": -1,
+            "CanSellOnRagfair": true,
+            "Prefab": {
+                "path": "record_songlist_80.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "唱片 \"群青\"",
+            "ShortName": "群青",
+            "Description": "一部录有某种音乐的唱片。",
+            "DefaultPrice": 750000,
+            "RagfairPrice": 450000,
+            "RagfairType": "66f1d60097d24f49a043bbd1",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 0,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "自定义唱片81": {
+        "_id": "自定义唱片81",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "自定义唱片81",
+        "_props": {
+            "BackgroundColor": "black",
+            "Width": 2,
+            "Height": 2,
+            "DiscardLimit": -1,
+            "CanSellOnRagfair": true,
+            "Prefab": {
+                "path": "record_songlist_81.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "唱片 \"Dawn\"",
+            "ShortName": "Dawn",
+            "Description": "一部录有某种音乐的唱片。",
+            "DefaultPrice": 750000,
+            "RagfairPrice": 450000,
+            "RagfairType": "66f1d60097d24f49a043bbd1",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 0,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "自定义唱片82": {
+        "_id": "自定义唱片82",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "自定义唱片82",
+        "_props": {
+            "BackgroundColor": "black",
+            "Width": 2,
+            "Height": 2,
+            "DiscardLimit": -1,
+            "CanSellOnRagfair": true,
+            "Prefab": {
+                "path": "record_songlist_82.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "唱片 \"Butter-Fly~tri.Version~\"",
+            "ShortName": "Butter-Fly~tri.Version~",
+            "Description": "一部录有某种音乐的唱片。",
+            "DefaultPrice": 750000,
+            "RagfairPrice": 450000,
+            "RagfairType": "66f1d60097d24f49a043bbd1",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 0,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "自定义唱片83": {
+        "_id": "自定义唱片83",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "自定义唱片83",
+        "_props": {
+            "BackgroundColor": "black",
+            "Width": 2,
+            "Height": 2,
+            "DiscardLimit": -1,
+            "CanSellOnRagfair": true,
+            "Prefab": {
+                "path": "record_songlist_83.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "唱片 \"这里是神奇的赛尔号\"",
+            "ShortName": "这里是神奇的赛尔号",
+            "Description": "一部录有某种音乐的唱片。",
+            "DefaultPrice": 750000,
+            "RagfairPrice": 450000,
+            "RagfairType": "66f1d60097d24f49a043bbd1",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 0,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "自定义唱片84": {
+        "_id": "自定义唱片84",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "自定义唱片84",
+        "_props": {
+            "BackgroundColor": "black",
+            "Width": 2,
+            "Height": 2,
+            "DiscardLimit": -1,
+            "CanSellOnRagfair": true,
+            "Prefab": {
+                "path": "record_songlist_84.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "唱片 \"昔涟\"",
+            "ShortName": "昔涟",
+            "Description": "一部录有某种音乐的唱片。",
+            "DefaultPrice": 750000,
+            "RagfairPrice": 450000,
+            "RagfairType": "66f1d60097d24f49a043bbd1",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 0,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "自定义唱片85": {
+        "_id": "自定义唱片85",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "自定义唱片85",
+        "_props": {
+            "BackgroundColor": "black",
+            "Width": 2,
+            "Height": 2,
+            "DiscardLimit": -1,
+            "CanSellOnRagfair": true,
+            "Prefab": {
+                "path": "record_songlist_85.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "唱片 \"剥蒜的情谊\"",
+            "ShortName": "剥蒜的情谊",
+            "Description": "一部录有某种音乐的唱片。",
+            "DefaultPrice": 750000,
+            "RagfairPrice": 450000,
+            "RagfairType": "66f1d60097d24f49a043bbd1",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 0,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "自定义唱片86": {
+        "_id": "自定义唱片86",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "自定义唱片86",
+        "_props": {
+            "BackgroundColor": "black",
+            "Width": 2,
+            "Height": 2,
+            "DiscardLimit": -1,
+            "CanSellOnRagfair": true,
+            "Prefab": {
+                "path": "record_songlist_86.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "唱片 \"盗墓笔记·十年人间\"",
+            "ShortName": "盗墓笔记·十年人间",
+            "Description": "一部录有某种音乐的唱片。",
+            "DefaultPrice": 750000,
+            "RagfairPrice": 450000,
+            "RagfairType": "66f1d60097d24f49a043bbd1",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 0,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "自定义唱片87": {
+        "_id": "自定义唱片87",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "自定义唱片87",
+        "_props": {
+            "BackgroundColor": "black",
+            "Width": 2,
+            "Height": 2,
+            "DiscardLimit": -1,
+            "CanSellOnRagfair": true,
+            "Prefab": {
+                "path": "record_songlist_87.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "唱片 \"你曾是少年\"",
+            "ShortName": "你曾是少年",
+            "Description": "一部录有某种音乐的唱片。",
+            "DefaultPrice": 750000,
+            "RagfairPrice": 450000,
+            "RagfairType": "66f1d60097d24f49a043bbd1",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 0,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "自定义唱片88": {
+        "_id": "自定义唱片88",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "自定义唱片88",
+        "_props": {
+            "BackgroundColor": "black",
+            "Width": 2,
+            "Height": 2,
+            "DiscardLimit": -1,
+            "CanSellOnRagfair": true,
+            "Prefab": {
+                "path": "record_songlist_88.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "唱片 \"longing\"",
+            "ShortName": "longing",
+            "Description": "一部录有某种音乐的唱片。",
+            "DefaultPrice": 750000,
+            "RagfairPrice": 450000,
+            "RagfairType": "66f1d60097d24f49a043bbd1",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 0,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "自定义唱片89": {
+        "_id": "自定义唱片89",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "自定义唱片89",
+        "_props": {
+            "BackgroundColor": "black",
+            "Width": 2,
+            "Height": 2,
+            "DiscardLimit": -1,
+            "CanSellOnRagfair": true,
+            "Prefab": {
+                "path": "record_songlist_89.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "唱片 \"Silver Scrapes\"",
+            "ShortName": "Silver Scrapes",
+            "Description": "一部录有某种音乐的唱片。",
+            "DefaultPrice": 750000,
+            "RagfairPrice": 450000,
+            "RagfairType": "66f1d60097d24f49a043bbd1",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 0,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "自定义唱片90": {
+        "_id": "自定义唱片90",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "自定义唱片90",
+        "_props": {
+            "BackgroundColor": "black",
+            "Width": 2,
+            "Height": 2,
+            "DiscardLimit": -1,
+            "CanSellOnRagfair": true,
+            "Prefab": {
+                "path": "record_songlist_90.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "唱片 \"キミがいれば\"",
+            "ShortName": "キミがいれば",
+            "Description": "一部录有某种音乐的唱片。",
+            "DefaultPrice": 750000,
+            "RagfairPrice": 450000,
+            "RagfairType": "66f1d60097d24f49a043bbd1",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 0,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
     }
 }

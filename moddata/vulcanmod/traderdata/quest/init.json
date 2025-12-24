@@ -4366,6 +4366,22 @@
                     "inraid": true,
                     "itemid": "支持纪念币_圆子",
                     "count": 1
+                },
+                {
+                    "$type": "find",
+                    "autolocale": true,
+                    "id": "支持者纪念币收集要求27",
+                    "inraid": true,
+                    "itemid": "支持纪念币_虚无",
+                    "count": 1
+                },
+                {
+                    "$type": "find",
+                    "autolocale": true,
+                    "id": "支持者纪念币收集要求28",
+                    "inraid": true,
+                    "itemid": "支持纪念币_银墨",
+                    "count": 1
                 }
             ],
             "Failed": []
@@ -6303,5 +6319,24 @@
                 "ID": "旅途的终点成就任务成就奖励"
             }
         ]
+    },
+    "情报_黑色军团": {
+        "ID": "情报_黑色军团",
+        "Type": 4,
+        "ImagePath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "level",
+                    "id": "情报_黑色军团_等级需求1",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
     }
 }

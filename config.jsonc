@@ -443,7 +443,7 @@
               //异格Boss生成概率
               "Chance": {
                 //异格Goons小队的生成概率
-                "Goons": 100,
+                "Goons": 50,
                 //异格Sanitar的生成概率
                 "Sanitar": 50,
                 //异格Gluhar的生成概率
@@ -454,7 +454,7 @@
             },
             //是否允许Kaban在海岸线的走私者营地生成, 此选项是为了让低配电脑在难以流畅运行街区的情况下能够完成Kaban的Boss任务, 概率默认为40
             "AddKabanInShoreline": true,
-            //是否允许黑色军团生成, 此内容目前仍在制作, 请谨慎使用
+            //是否允许黑色军团生成, 此选项将替换原版的寻血猎犬AI, 默认生成概率为40
             "AddBlackDivision": true
           },
           //藏身处修改配置

@@ -741,5 +741,12 @@
         "pretraderstanding": {},
         "pretraderlevel": {},
         "prelevel": 78
+    },
+    "情报_黑色军团": {
+        "id": "情报_黑色军团",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
     }
 }

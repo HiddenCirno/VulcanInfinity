@@ -3351,6 +3351,62 @@
             ]
         }
     },
+    "支持纪念币_虚无": {
+        "_id": "支持纪念币_虚无",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "支持纪念币_虚无",
+        "_props": {
+            "BackgroundColor": "yellow",
+            "Prefab": {
+                "path": "coin_void.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "纪念币\"笑口常开\"",
+            "ShortName": "纪念币",
+            "Description": "火神集团三部发行的「支持者」系列纪念币中的一枚，为本Mod的支持者特别定制，使用纯金一次性压锻成型，纳米蚀刻技术绘制防伪图案，内置微型气体操纵场发生器，能够在硬币表面形成氮气保护层，能保存数万年依然光洁如新。",
+            "DefaultPrice": 202404,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "Mods",
+                "Container"
+            ]
+        }
+    },
+    "支持纪念币_银墨": {
+        "_id": "支持纪念币_银墨",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "支持纪念币_银墨",
+        "_props": {
+            "BackgroundColor": "yellow",
+            "Prefab": {
+                "path": "coin_silver.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "纪念币\"银墨\"",
+            "ShortName": "纪念币",
+            "Description": "火神集团三部发行的「支持者」系列纪念币中的一枚，为本Mod的支持者特别定制，使用纯金一次性压锻成型，纳米蚀刻技术绘制防伪图案，内置微型气体操纵场发生器，能够在硬币表面形成氮气保护层，能保存数万年依然光洁如新。",
+            "DefaultPrice": 202404,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "Mods",
+                "Container"
+            ]
+        }
+    },
     "开拓纪念币_AT": {
         "_id": "开拓纪念币_AT",
         "_targetid": "59faff1d86f7746c51718c9c",
