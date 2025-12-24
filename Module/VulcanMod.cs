@@ -155,7 +155,7 @@ public class VulcanMod
         var customHideoutCustomizationsData = modHelper.GetJsonDataFromFile<Dictionary<string, CustomHideoutCustomization>>(modpath, "hideout/custom.json");
         var customSuitData = modHelper.GetJsonDataFromFile<List<CustomSuit>>(modpath, "suits.json");
         var customAchievementData = modHelper.GetJsonDataFromFile<List<CustomAchievementData>>(modpath, "traderdata/quest/achievement.json");
-        var drawpool = VulcanUtil.ConvertItemData<Dictionary<string, DrawPoolClass>>(modpath, "newdrawpool.json", jsonUtil);
+        var drawpool = modHelper.GetJsonDataFromFile<Dictionary<string, DrawPoolClass>>(modpath, "newdrawpool.json");
         ItemUtils.InitItem(items_normal, creator, modName, logger, databaseService, cloner, configServer);
         ItemUtils.InitItem(items_ammochest, creator, modName, logger, databaseService, cloner, configServer);
         ItemUtils.InitItem(items_skillchest, creator, modName, logger, databaseService, cloner, configServer);

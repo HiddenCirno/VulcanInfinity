@@ -23843,7 +23843,7 @@
         },
         "_customprops": {
             "$type": "fixed",
-            "Name": "Crye Precision CPC 插板胸挂（E.B.O.N. 特别版）WIP",
+            "Name": "Crye Precision CPC 插板胸挂（E.B.O.N. 特别版）",
             "ShortName": "CPC GE",
             "Description": "笼式插板胸挂 (CPC) 在穿戴舒适程度与载荷支撑能力方面别具优势，几乎是其他低特征插板胸挂所无法比拟的，整套系统还兼容多种副包。当前版本的配置由 E.B.O.N. 小队的队长 Dullahan 专门定制，为提升机动性执行突击任务进行了专门特化——而这正是 Dullahan 一贯的风格。",
             "DefaultPrice": 220202,
@@ -24144,7 +24144,7 @@
         },
         "_customprops": {
             "$type": "fixed",
-            "Name": "S&S Precision PlateFrame 插板胸挂（E.B.O.N. 特别版）WIP",
+            "Name": "S&S Precision PlateFrame 插板胸挂（E.B.O.N. 特别版）",
             "ShortName": "PlateFrame GE",
             "Description": "一款外形简洁的轻量化插板胸挂，在 E.B.O.N. 小队成员 Golyat 的特别要求下，还使用半硬质塑料对结构进行加固。由 S&S Precision 公司设计制造。",
             "DefaultPrice": 198542,
