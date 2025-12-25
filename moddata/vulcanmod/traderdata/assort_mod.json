@@ -11101,5 +11101,30 @@
         },
         "TrustLevel": 1,
         "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "流萤绿卡兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "流萤绿卡兑换",
+                "_tpl": "流萤永恒绿卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒绿卡": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
     }
 ]
