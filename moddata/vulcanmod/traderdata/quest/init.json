@@ -5539,7 +5539,7 @@
         "ImagePath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
         "Restartable": false,
-        "Location": "5704e5fad2720bc05b8b4567",
+        "Location": "any",
         "QuestData": {
             "Finish": [
                 {

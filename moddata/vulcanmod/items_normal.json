@@ -27342,5 +27342,36 @@
             "isMoney": false,
             "BlackListType": 63
         }
+    },
+    "Tigz的骨折环": {
+        "_id": "Tigz的骨折环",
+        "_targetid": "5af0454c86f7746bf20992e8",
+        "_name": "Tigz的骨折环",
+        "_props": {
+            "BackgroundColor": "violet",
+            "Prefab": {
+                "path": "assets/content/items/meds/item_meds_alusplint/item_meds_alusplint_tigzresq.bundle",
+                "rcid": ""
+            },
+            "UsePrefab": {
+                "path": "assets/content/weapons/usable_items/item_alusplint/item_alusplint_tigzresq_container.bundle",
+                "rcid": ""
+            },
+            "MaxHpResource": 7,
+            "medUseTime": 5
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "Tigzresq 夹板",
+            "ShortName": "Tigzresq",
+            "Description": "紧急情况下，没有任何东西能比随手可得的骨折夹板更能解燃眉之急，Tigzresq 的创始人 Tigz 对此有着切身体验。",
+            "DefaultPrice": 80000,
+            "RagfairType": "5b47574386f77428ca22b339",
+            "CanFindInRaid": true,
+            "addToKappa": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false
+        }
     }
 }

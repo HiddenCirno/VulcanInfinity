@@ -369,7 +369,36 @@ public class VulcanMod
         var items = databaseService.GetItems();
         var keyconfig = config.KeyEdit;
         var blacklist = new List<MongoId>();
-        foreach (var k in keyconfig.MachineKeyList.BlackList)
+        var list = new List<string>
+        {
+                "仿制工厂钥匙",
+                "永恒工厂钥匙",
+                "通用符号钥匙",
+                "宿舍管理员钥匙",
+                "疗养院管理员钥匙",
+                "储备站管理员钥匙",
+                "实验室管理员钥匙卡",
+                "永恒ZB014钥匙",
+                "仿制符号钥匙",
+                "仿制114钥匙",
+                "仿制206钥匙",
+                "仿制操作间钥匙",
+                "仿制废弃工厂钥匙",
+                "仿制隔间钥匙",
+                "永恒符号钥匙",
+                "永恒15号公寓钥匙",
+                "仿制15号公寓钥匙",
+                "永恒Shturman钥匙",
+                "永恒废弃工厂钥匙",
+                "永恒神秘房间钥匙",
+                "永恒封闭区域钥匙",
+                "永恒宿舍管理员钥匙",
+                "永恒疗养院管理员钥匙",
+                "永恒储备站管理员钥匙",
+                "立交桥管理员钥匙",
+                "永恒立交桥管理员钥匙"
+        };
+        foreach (var k in list)
         {
             blacklist.Add(VulcanUtil.ConvertHashID(k));
         }

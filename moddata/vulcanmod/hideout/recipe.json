@@ -761,5 +761,24 @@
                 "57347d8724597744596b4e76": 3
             }
         }
+    },
+    "Tigz骨折环转换": {
+        "$type": "normal",
+        "ID": "Tigz骨折环转换",
+        "Area": 7,
+        "AreaLevel": 3,
+        "Output": "Tigz的骨折环",
+        "OutputCount": 1,
+        "Time": 86400,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "5af0454c86f7746bf20992e8": 1,
+                "英雄之证": 1
+            }
+        }
     }
 }
