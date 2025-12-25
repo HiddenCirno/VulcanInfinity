@@ -27357,8 +27357,7 @@
                 "path": "assets/content/weapons/usable_items/item_alusplint/item_alusplint_tigzresq_container.bundle",
                 "rcid": ""
             },
-            "MaxHpResource": 7,
-            "medUseTime": 5
+            "MaxHpResource": 7
         },
         "_customprops": {
             "$type": "lootable",
