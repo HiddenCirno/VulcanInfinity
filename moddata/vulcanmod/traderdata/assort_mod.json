@@ -4588,18 +4588,6 @@
                 "slotId": "mod_mount"
             },
             {
-                "_id": "a8514bca34fe4898f42120ab",
-                "_tpl": "58dd3ad986f77403051cba8f",
-                "parentId": "商人3级_满改M700",
-                "slotId": "patron_in_weapon"
-            },
-            {
-                "_id": "a85f9ee421f6608027fa5a1c",
-                "_tpl": "58dd3ad986f77403051cba8f",
-                "parentId": "52b514bdf665bc339ad38261",
-                "slotId": "cartridges"
-            },
-            {
                 "_id": "11cb3252c967b1228bbb99ee",
                 "_tpl": "5cdeac42d7f00c000d36ba73",
                 "parentId": "4843420cc365edc3b17626b6",
@@ -5805,18 +5793,6 @@
                 "_tpl": "618b9643526131765025ab35",
                 "parentId": "商人4级_爆改黑DT兑换",
                 "slotId": "mod_scope"
-            },
-            {
-                "_id": "9875d8b3d280eb698662ed4e",
-                "_tpl": "58dd3ad986f77403051cba8f",
-                "parentId": "商人4级_爆改黑DT兑换",
-                "slotId": "patron_in_weapon"
-            },
-            {
-                "_id": "5f633840fa22080f39e6c663",
-                "_tpl": "58dd3ad986f77403051cba8f",
-                "parentId": "020ebe32703040d299744df6",
-                "slotId": "cartridges"
             },
             {
                 "_id": "952764885401bab3d8be2fcc",
@@ -11104,12 +11080,12 @@
     },
     {
         "$type": "normal",
-        "ID": "流萤绿卡兑换",
+        "ID": "永恒流萤绿卡兑换",
         "Trader": "Persicaria",
         "Item": [
             {
-                "_id": "流萤绿卡兑换",
-                "_tpl": "流萤永恒绿卡",
+                "_id": "永恒流萤绿卡兑换",
+                "_tpl": "永恒流萤绿卡",
                 "parentId": "hideout",
                 "slotId": "hideout",
                 "upd": {
@@ -11124,6 +11100,929 @@
         "Barter": {
             "永恒绿卡": 1
         },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒流萤绿卡反向兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒流萤绿卡反向兑换",
+                "_tpl": "永恒绿卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒流萤绿卡": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "异格Boss狗牌_流萤绿卡",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "异格Boss狗牌_流萤绿卡",
+                "_tpl": "流萤绿卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "水晶狗牌_红": {
+                "count": 1,
+                "level": 200,
+                "side": 2
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒牢普黑卡兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒牢普黑卡兑换",
+                "_tpl": "永恒牢普黑卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒黑卡": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒牢普黑卡反向兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒牢普黑卡反向兑换",
+                "_tpl": "永恒黑卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒牢普黑卡": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "异格Boss狗牌_牢普黑卡",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "异格Boss狗牌_牢普黑卡",
+                "_tpl": "牢普黑卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "水晶狗牌_红": {
+                "count": 1,
+                "level": 200,
+                "side": 2
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒初音蓝卡兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒初音蓝卡兑换",
+                "_tpl": "永恒初音蓝卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒蓝卡": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒初音蓝卡反向兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒初音蓝卡反向兑换",
+                "_tpl": "永恒蓝卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒初音蓝卡": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "异格Boss狗牌_初音蓝卡",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "异格Boss狗牌_初音蓝卡",
+                "_tpl": "初音蓝卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "水晶狗牌_红": {
+                "count": 1,
+                "level": 200,
+                "side": 2
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒灵梦红卡兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒灵梦红卡兑换",
+                "_tpl": "永恒灵梦红卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒红卡": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒灵梦红卡反向兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒灵梦红卡反向兑换",
+                "_tpl": "永恒红卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒灵梦红卡": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "异格Boss狗牌_灵梦红卡",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "异格Boss狗牌_灵梦红卡",
+                "_tpl": "灵梦红卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "水晶狗牌_红": {
+                "count": 1,
+                "level": 200,
+                "side": 2
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒黑塔紫卡兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒黑塔紫卡兑换",
+                "_tpl": "永恒黑塔紫卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒紫卡": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒黑塔紫卡反向兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒黑塔紫卡反向兑换",
+                "_tpl": "永恒紫卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒黑塔紫卡": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "异格Boss狗牌_黑塔紫卡",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "异格Boss狗牌_黑塔紫卡",
+                "_tpl": "黑塔紫卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "水晶狗牌_红": {
+                "count": 1,
+                "level": 200,
+                "side": 2
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒阿格莱雅黄卡兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒阿格莱雅黄卡兑换",
+                "_tpl": "永恒阿格莱雅黄卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒黄卡": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒阿格莱雅黄卡反向兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒阿格莱雅黄卡反向兑换",
+                "_tpl": "永恒黄卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒阿格莱雅黄卡": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "异格Boss狗牌_阿格莱雅黄卡",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "异格Boss狗牌_阿格莱雅黄卡",
+                "_tpl": "阿格莱雅黄卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "水晶狗牌_红": {
+                "count": 1,
+                "level": 200,
+                "side": 2
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒牢玛黄卡兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒牢玛黄卡兑换",
+                "_tpl": "永恒牢玛黄卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒黄卡": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒牢玛黄卡反向兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒牢玛黄卡反向兑换",
+                "_tpl": "永恒黄卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒牢玛黄卡": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "异格Boss狗牌_牢玛黄卡",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "异格Boss狗牌_牢玛黄卡",
+                "_tpl": "牢玛黄卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "水晶狗牌_红": {
+                "count": 1,
+                "level": 200,
+                "side": 2
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒恶魔黑卡兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒恶魔黑卡兑换",
+                "_tpl": "永恒恶魔黑卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒黑卡": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒恶魔黑卡反向兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒恶魔黑卡反向兑换",
+                "_tpl": "永恒黑卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒恶魔黑卡": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "异格Boss狗牌_恶魔黑卡",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "异格Boss狗牌_恶魔黑卡",
+                "_tpl": "恶魔黑卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "水晶狗牌_红": {
+                "count": 1,
+                "level": 200,
+                "side": 2
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒阿能红卡兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒阿能红卡兑换",
+                "_tpl": "永恒阿能红卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒红卡": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒阿能红卡反向兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒阿能红卡反向兑换",
+                "_tpl": "永恒红卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒阿能红卡": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "异格Boss狗牌_阿能红卡",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "异格Boss狗牌_阿能红卡",
+                "_tpl": "阿能红卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "水晶狗牌_红": {
+                "count": 1,
+                "level": 200,
+                "side": 2
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒牢猫绿卡兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒牢猫绿卡兑换",
+                "_tpl": "永恒牢猫绿卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒绿卡": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒牢猫绿卡反向兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒牢猫绿卡反向兑换",
+                "_tpl": "永恒绿卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒牢猫绿卡": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "异格Boss狗牌_牢猫绿卡",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "异格Boss狗牌_牢猫绿卡",
+                "_tpl": "牢猫绿卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "水晶狗牌_红": {
+                "count": 1,
+                "level": 200,
+                "side": 2
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒遐蝶紫卡兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒遐蝶紫卡兑换",
+                "_tpl": "永恒遐蝶紫卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒紫卡": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒遐蝶紫卡反向兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒遐蝶紫卡反向兑换",
+                "_tpl": "永恒紫卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒遐蝶紫卡": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "异格Boss狗牌_遐蝶紫卡",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "异格Boss狗牌_遐蝶紫卡",
+                "_tpl": "遐蝶紫卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "水晶狗牌_红": {
+                "count": 1,
+                "level": 200,
+                "side": 2
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒咲夜蓝卡兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒咲夜蓝卡兑换",
+                "_tpl": "永恒咲夜蓝卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒蓝卡": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒咲夜蓝卡反向兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒咲夜蓝卡反向兑换",
+                "_tpl": "永恒蓝卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒咲夜蓝卡": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "异格Boss狗牌_咲夜蓝卡",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "异格Boss狗牌_咲夜蓝卡",
+                "_tpl": "咲夜蓝卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "水晶狗牌_红": {
+                "count": 1,
+                "level": 200,
+                "side": 2
+            }
+        },
+        "Barter": {},
         "TrustLevel": 4,
         "isWeapon": false
     }

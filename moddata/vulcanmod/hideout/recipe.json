@@ -780,5 +780,46 @@
                 "英雄之证": 1
             }
         }
+    },
+    "崭新33搓战痕": {
+        "$type": "normal",
+        "ID": "崭新33搓战痕",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "战痕3x3",
+        "OutputCount": 1,
+        "Time": 60,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {
+            },
+            "Item": {
+                "5857a8bc2459772bad15db29": 1,
+                "5d63d33b86f7746ea9275524": 1,
+                "5734795124597738002c6176": 1
+            }
+        }
+    },
+    "战痕33搓崭新": {
+        "$type": "normal",
+        "ID": "战痕33搓崭新",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "5857a8bc2459772bad15db29",
+        "OutputCount": 1,
+        "Time": 60,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {
+            },
+            "Item": {
+                "战痕3x3": 1,
+                "5e2af22086f7746d3f3c33fa": 1
+            }
+        }
     }
 }

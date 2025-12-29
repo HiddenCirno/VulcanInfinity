@@ -3372,11 +3372,11 @@
         "_parent": "67373f170eca6e03ab0d5391",
         "_type": "Item",
         "_props": {
-            "AvailableAsDefault": true,
-            "Name": "幸存者地板",
-            "EName": "幸存者地板",
-            "ShortName": "幸存者地板",
-            "Description": "幸存者地板",
+            "AvailableAsDefault": false,
+            "Name": "幸存者地砖",
+            "EName": "幸存者地砖",
+            "ShortName": "幸存者地砖",
+            "Description": "使用坚固材料铺就，无需打理也能使用相当长一段时间。对于信奉生存至上的实用主义者来说恰如其分。",
             "ProfileVersions": [],
             "Side": [
                 "Usec",
@@ -3389,86 +3389,17 @@
             "HideGarbage": false
         }
     },
-    "堕入黑暗地板": {
-        "_id": "堕入黑暗地板",
-        "_name": "Story_Ending_02_Floor",
-        "_parent": "67373f170eca6e03ab0d5391",
-        "_type": "Item",
-        "_props": {
-            "AvailableAsDefault": true,
-            "Name": "堕入黑暗地板",
-            "EName": "堕入黑暗地板",
-            "ShortName": "堕入黑暗地板",
-            "Description": "堕入黑暗地板",
-            "ProfileVersions": [],
-            "Side": [
-                "Usec",
-                "Bear"
-            ],
-            "AssetPath": {
-                "path": "assets/content/location_objects/00_hideout/prefabs/customization/floors/floor_story_02_in_the_darkness.bundle",
-                "rcid": ""
-            },
-            "HideGarbage": false
-        }
-    },
-    "灯塔地板": {
-        "_id": "灯塔地板",
-        "_name": "Story_Ending_03_Floor",
-        "_parent": "67373f170eca6e03ab0d5391",
-        "_type": "Item",
-        "_props": {
-            "AvailableAsDefault": true,
-            "Name": "灯塔地板",
-            "EName": "灯塔地板",
-            "ShortName": "灯塔地板",
-            "Description": "灯塔地板",
-            "ProfileVersions": [],
-            "Side": [
-                "Usec",
-                "Bear"
-            ],
-            "AssetPath": {
-                "path": "assets/content/location_objects/00_hideout/prefabs/customization/floors/floor_ending_03.bundle",
-                "rcid": ""
-            },
-            "HideGarbage": true
-        }
-    },
-    "救世主地板": {
-        "_id": "救世主地板",
-        "_name": "Story_Ending_04_Floor",
-        "_parent": "67373f170eca6e03ab0d5391",
-        "_type": "Item",
-        "_props": {
-            "AvailableAsDefault": true,
-            "Name": "救世主地板",
-            "EName": "救世主地板",
-            "ShortName": "救世主地板",
-            "Description": "救世主地板",
-            "ProfileVersions": [],
-            "Side": [
-                "Usec",
-                "Bear"
-            ],
-            "AssetPath": {
-                "path": "assets/content/location_objects/00_hideout/prefabs/customization/floors/floor_story_04_for_humanity.bundle",
-                "rcid": ""
-            },
-            "HideGarbage": true
-        }
-    },
     "幸存者天花板": {
         "_id": "幸存者天花板",
         "_name": "Story_Ending_01_Ceiling",
         "_parent": "67373f170eca6e03ab0d5391",
         "_type": "Item",
         "_props": {
-            "AvailableAsDefault": true,
+            "AvailableAsDefault": false,
             "Name": "幸存者天花板",
             "EName": "幸存者天花板",
             "ShortName": "幸存者天花板",
-            "Description": "幸存者天花板",
+            "Description": "不漏水也没有开裂，对于一心只求生存的实用主义者来说算是最务实的选项。",
             "ProfileVersions": [],
             "Side": [
                 "Usec",
@@ -3480,83 +3411,17 @@
             }
         }
     },
-    "堕入黑暗天花板": {
-        "_id": "堕入黑暗天花板",
-        "_name": "Story_Ending_02_Ceiling",
-        "_parent": "67373f170eca6e03ab0d5391",
-        "_type": "Item",
-        "_props": {
-            "AvailableAsDefault": true,
-            "Name": "堕入黑暗天花板",
-            "EName": "堕入黑暗天花板",
-            "ShortName": "堕入黑暗天花板",
-            "Description": "堕入黑暗天花板",
-            "ProfileVersions": [],
-            "Side": [
-                "Usec",
-                "Bear"
-            ],
-            "AssetPath": {
-                "path": "assets/content/location_objects/00_hideout/prefabs/customization/ceilings/ceiling_story_02_in_the_darkness.bundle",
-                "rcid": ""
-            }
-        }
-    },
-    "灯塔天花板": {
-        "_id": "灯塔天花板",
-        "_name": "Story_Ending_03_Ceiling",
-        "_parent": "67373f170eca6e03ab0d5391",
-        "_type": "Item",
-        "_props": {
-            "AvailableAsDefault": true,
-            "Name": "灯塔天花板",
-            "EName": "灯塔天花板",
-            "ShortName": "灯塔天花板",
-            "Description": "灯塔天花板",
-            "ProfileVersions": [],
-            "Side": [
-                "Usec",
-                "Bear"
-            ],
-            "AssetPath": {
-                "path": "assets/content/location_objects/00_hideout/prefabs/customization/ceilings/ceiling_ending_03.bundle",
-                "rcid": ""
-            }
-        }
-    },
-    "救世主天花板": {
-        "_id": "救世主天花板",
-        "_name": "Story_Ending_04_Ceiling",
-        "_parent": "67373f170eca6e03ab0d5391",
-        "_type": "Item",
-        "_props": {
-            "AvailableAsDefault": true,
-            "Name": "救世主天花板",
-            "EName": "救世主天花板",
-            "ShortName": "救世主天花板",
-            "Description": "救世主天花板",
-            "ProfileVersions": [],
-            "Side": [
-                "Usec",
-                "Bear"
-            ],
-            "AssetPath": {
-                "path": "assets/content/location_objects/00_hideout/prefabs/customization/ceilings/ceiling_story_04_for_humanity.bundle",
-                "rcid": ""
-            }
-        }
-    },
     "幸存者墙纸": {
         "_id": "幸存者墙纸",
         "_name": "Story_Ending_01_Wall",
         "_parent": "67373f170eca6e03ab0d5391",
         "_type": "Item",
         "_props": {
-            "AvailableAsDefault": true,
-            "Name": "幸存者墙纸",
+            "AvailableAsDefault": false,
+            "Name": "幸存者墙面",
             "EName": "幸存者墙纸",
-            "ShortName": "幸存者墙纸",
-            "Description": "幸存者墙纸",
+            "ShortName": "幸存者墙面",
+            "Description": "墙面上的东西全是从塔科夫街头巷尾捡回来的，有些地方甚至还残留着街头广告的碎片。",
             "ProfileVersions": [],
             "Side": [
                 "Usec",
@@ -3569,17 +3434,62 @@
             "HideGarbage": false
         }
     },
+    "堕入黑暗地板": {
+        "_id": "堕入黑暗地板",
+        "_name": "Story_Ending_02_Floor",
+        "_parent": "67373f170eca6e03ab0d5391",
+        "_type": "Item",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Name": "堕入黑暗地砖",
+            "EName": "堕入黑暗地板",
+            "ShortName": "堕入黑暗地砖",
+            "Description": "这地面少说好几年没人打理了，再费心也恢复不了原貌。",
+            "ProfileVersions": [],
+            "Side": [
+                "Usec",
+                "Bear"
+            ],
+            "AssetPath": {
+                "path": "assets/content/location_objects/00_hideout/prefabs/customization/floors/floor_story_02_in_the_darkness.bundle",
+                "rcid": ""
+            },
+            "HideGarbage": false
+        }
+    },
+    "堕入黑暗天花板": {
+        "_id": "堕入黑暗天花板",
+        "_name": "Story_Ending_02_Ceiling",
+        "_parent": "67373f170eca6e03ab0d5391",
+        "_type": "Item",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Name": "堕入黑暗天花板",
+            "EName": "堕入黑暗天花板",
+            "ShortName": "堕入黑暗天花板",
+            "Description": "天花板上裂痕累累，到处都是漏水留下的水渍。然而，当一个人选择堕入黑暗时，这点麻烦已经算不上问题了。",
+            "ProfileVersions": [],
+            "Side": [
+                "Usec",
+                "Bear"
+            ],
+            "AssetPath": {
+                "path": "assets/content/location_objects/00_hideout/prefabs/customization/ceilings/ceiling_story_02_in_the_darkness.bundle",
+                "rcid": ""
+            }
+        }
+    },
     "堕入黑暗墙纸": {
         "_id": "堕入黑暗墙纸",
         "_name": "Story_Ending_02_Wall",
         "_parent": "67373f170eca6e03ab0d5391",
         "_type": "Item",
         "_props": {
-            "AvailableAsDefault": true,
-            "Name": "堕入黑暗墙纸",
+            "AvailableAsDefault": false,
+            "Name": "堕入黑暗墙面",
             "EName": "堕入黑暗墙纸",
-            "ShortName": "堕入黑暗墙纸",
-            "Description": "堕入黑暗墙纸",
+            "ShortName": "堕入黑暗墙面",
+            "Description": "陈年积垢和草草翻新留下的漆面一层叠一层，在墙面上留下了独特的纹路。不认真清理一番是不行了。",
             "ProfileVersions": [],
             "Side": [
                 "Usec",
@@ -3592,17 +3502,62 @@
             "HideGarbage": false
         }
     },
+    "灯塔地板": {
+        "_id": "灯塔地板",
+        "_name": "Story_Ending_03_Floor",
+        "_parent": "67373f170eca6e03ab0d5391",
+        "_type": "Item",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Name": "雇佣兵地砖",
+            "EName": "灯塔地板",
+            "ShortName": "雇佣兵地砖",
+            "Description": "地砖上到处都是杂乱的鞋印。但保持整洁毫无意义——你已经没有真正的容身之处了；你迟早会接到下一笔合约，再次踏上漂泊之路。",
+            "ProfileVersions": [],
+            "Side": [
+                "Usec",
+                "Bear"
+            ],
+            "AssetPath": {
+                "path": "assets/content/location_objects/00_hideout/prefabs/customization/floors/floor_ending_03.bundle",
+                "rcid": ""
+            },
+            "HideGarbage": true
+        }
+    },
+    "灯塔天花板": {
+        "_id": "灯塔天花板",
+        "_name": "Story_Ending_03_Ceiling",
+        "_parent": "67373f170eca6e03ab0d5391",
+        "_type": "Item",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Name": "雇佣兵天花板",
+            "EName": "灯塔天花板",
+            "ShortName": "雇佣兵天花板",
+            "Description": "天花板看起来还不错。大部分灰泥完好无损，没有明显的大面积损坏。作为雇佣兵的临时栖身之地算是足够体面了。",
+            "ProfileVersions": [],
+            "Side": [
+                "Usec",
+                "Bear"
+            ],
+            "AssetPath": {
+                "path": "assets/content/location_objects/00_hideout/prefabs/customization/ceilings/ceiling_ending_03.bundle",
+                "rcid": ""
+            }
+        }
+    },
     "灯塔墙纸": {
         "_id": "灯塔墙纸",
         "_name": "Story_Ending_03_Wall",
         "_parent": "67373f170eca6e03ab0d5391",
         "_type": "Item",
         "_props": {
-            "AvailableAsDefault": true,
-            "Name": "灯塔墙纸",
+            "AvailableAsDefault": false,
+            "Name": "雇佣兵墙面",
             "EName": "灯塔墙纸",
-            "ShortName": "灯塔墙纸",
-            "Description": "灯塔墙纸",
+            "ShortName": "雇佣兵墙面",
+            "Description": "墙面上的油漆恐怕还是苏联时代的，已经剥落开裂。换了别人也许会铲掉重新修缮，但对于四海为家的雇佣兵来说，没有人会把暂时栖身的住处当作家来打理。",
             "ProfileVersions": [],
             "Side": [
                 "Usec",
@@ -3615,17 +3570,62 @@
             "HideGarbage": true
         }
     },
+    "救世主地板": {
+        "_id": "救世主地板",
+        "_name": "Story_Ending_04_Floor",
+        "_parent": "67373f170eca6e03ab0d5391",
+        "_type": "Item",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Name": "救星地砖",
+            "EName": "救世主地板",
+            "ShortName": "救星地砖",
+            "Description": "看得出来，藏身处显然有人精心打理，整洁有序的环境令人倍感温馨，让人忍不住想再次来访。",
+            "ProfileVersions": [],
+            "Side": [
+                "Usec",
+                "Bear"
+            ],
+            "AssetPath": {
+                "path": "assets/content/location_objects/00_hideout/prefabs/customization/floors/floor_story_04_for_humanity.bundle",
+                "rcid": ""
+            },
+            "HideGarbage": true
+        }
+    },
+    "救世主天花板": {
+        "_id": "救世主天花板",
+        "_name": "Story_Ending_04_Ceiling",
+        "_parent": "67373f170eca6e03ab0d5391",
+        "_type": "Item",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Name": "救星天花板",
+            "EName": "救世主天花板",
+            "ShortName": "救星天花板",
+            "Description": "有人仔细地用灰泥抹平了天花板的裂隙，看起来焕然一新。在塔科夫，很少能有地方像这样温馨舒适了。",
+            "ProfileVersions": [],
+            "Side": [
+                "Usec",
+                "Bear"
+            ],
+            "AssetPath": {
+                "path": "assets/content/location_objects/00_hideout/prefabs/customization/ceilings/ceiling_story_04_for_humanity.bundle",
+                "rcid": ""
+            }
+        }
+    },
     "救世主墙纸": {
         "_id": "救世主墙纸",
         "_name": "Story_Ending_04_Wall",
         "_parent": "67373f170eca6e03ab0d5391",
         "_type": "Item",
         "_props": {
-            "AvailableAsDefault": true,
-            "Name": "救世主墙纸",
+            "AvailableAsDefault": false,
+            "Name": "救星墙面",
             "EName": "救世主墙纸",
-            "ShortName": "救世主墙纸",
-            "Description": "救世主墙纸",
+            "ShortName": "救星墙面",
+            "Description": "墙壁显然是精心粉刷过，而不是拿刷子随便抹了几道印子遮住裂痕。看得出藏身处的主人精心打理了整个地方，就像他们相信塔科夫仍然值得救赎，应当迎来更加美好的未来一样。",
             "ProfileVersions": [],
             "Side": [
                 "Usec",
@@ -3853,6 +3853,66 @@
             ],
             "IsNotRandom": true,
             "Prefab": "Black_Division_2"
+        }
+    },
+    "幸存者狗牌": {
+        "_id": "幸存者狗牌",
+        "_name": "幸存者狗牌",
+        "_parent": "6746fafabafff8500804880e",
+        "_type": "Item",
+        "_props": {
+            "AvailableAsDefault": true,
+            "Name": "逃出生天",
+            "EName": "逃出生天",
+            "ShortName": "逃出生天",
+            "Description": "逃出生天",
+            "ProfileVersions": [],
+            "Side": [
+                "Bear",
+                "Usec"
+            ],
+            "BearTemplateId": "BEAR幸存者狗牌",
+            "UsecTemplateId": "USEC幸存者狗牌"
+        }
+    },
+    "灯塔狗牌": {
+        "_id": "灯塔狗牌",
+        "_name": "灯塔狗牌",
+        "_parent": "6746fafabafff8500804880e",
+        "_type": "Item",
+        "_props": {
+            "AvailableAsDefault": true,
+            "Name": "漂泊四海",
+            "EName": "漂泊四海",
+            "ShortName": "漂泊四海",
+            "Description": "漂泊四海",
+            "ProfileVersions": [],
+            "Side": [
+                "Bear",
+                "Usec"
+            ],
+            "BearTemplateId": "BEAR灯塔狗牌",
+            "UsecTemplateId": "USEC灯塔狗牌"
+        }
+    },
+    "堕入黑暗狗牌": {
+        "_id": "堕入黑暗狗牌",
+        "_name": "堕入黑暗狗牌",
+        "_parent": "6746fafabafff8500804880e",
+        "_type": "Item",
+        "_props": {
+            "AvailableAsDefault": true,
+            "Name": "堕入黑暗",
+            "EName": "堕入黑暗",
+            "ShortName": "堕入黑暗",
+            "Description": "堕入黑暗",
+            "ProfileVersions": [],
+            "Side": [
+                "Bear",
+                "Usec"
+            ],
+            "BearTemplateId": "BEAR堕入黑暗狗牌",
+            "UsecTemplateId": "USEC堕入黑暗狗牌"
         }
     }
 }

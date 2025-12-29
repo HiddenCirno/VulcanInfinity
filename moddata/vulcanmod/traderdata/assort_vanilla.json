@@ -2283,5 +2283,59 @@
         },
         "TrustLevel": 3,
         "isWeapon": false
+    },
+    {
+        "$type": "locked",
+        "ID": "黑Razer耶格4兑换",
+        "Trader": "5c0647fdd443bc2504c2d371",
+        "Item": [
+            {
+                "_id": "黑Razer耶格4兑换",
+                "_tpl": "黑Razer",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5b43575a86f77424f443fe62": 5
+        },
+        "TrustLevel": 4,
+        "isWeapon": false,
+        "Locked": true,
+        "Quest": "5bc4893c86f774626f5ebf3e",
+        "QuestStage": 1,
+        "IsUnknown": false
+    },
+    {
+        "$type": "normal",
+        "ID": "黑RazerRef直购",
+        "Trader": "6617beeaa9cfa777ca915b7c",
+        "Item": [
+            {
+                "_id": "黑RazerRef直购",
+                "_tpl": "黑Razer",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 2,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5d235b4d86f7742e017bc88a": 9.6
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
     }
 ]

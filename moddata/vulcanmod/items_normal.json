@@ -102,7 +102,7 @@
         },
         "_customprops": {
             "$type": "container",
-            "Name": "Omega安全箱",
+            "Name": "Omega 安全箱",
             "ShortName": "Omega",
             "Description": "火神集团出品的便携式安全贮藏箱，使用再生铝和高强度合成材料制造，你甚至可以用它抵挡闪耀之光的冲击，在保证坚固性的同时尽可能做到了便于携带。",
             "DefaultPrice": 65536000,
@@ -134,7 +134,7 @@
         },
         "_customprops": {
             "$type": "container",
-            "Name": "Test安全箱",
+            "Name": "Test 安全箱",
             "ShortName": "Test",
             "Description": "Test安全箱",
             "DefaultPrice": 65536000,
@@ -166,7 +166,7 @@
         },
         "_customprops": {
             "$type": "container",
-            "Name": "Zero安全箱",
+            "Name": "Zero 安全箱",
             "ShortName": "Zero",
             "Description": "一款为热衷挑战自己的人所设计的安全箱。",
             "DefaultPrice": 150000,
@@ -257,8 +257,8 @@
         },
         "_customprops": {
             "$type": "container",
-            "Name": "Sigma安全箱",
-            "ShortName": "Sigma安全箱",
+            "Name": "Sigma 安全箱",
+            "ShortName": "Sigma",
             "Description": "火神集团出品的便携式安全贮藏箱，使用高强度特种钢和复合凯夫拉纤维制造，坚固耐用，方便携带。",
             "DefaultPrice": 8480000,
             "RagfairType": "5b5f6fd286f774093f2ecf0d",
@@ -298,8 +298,8 @@
         },
         "_customprops": {
             "$type": "buff",
-            "Name": "Vulcan-便携能量饮料包（荔枝口味）",
-            "ShortName": "便携饮料",
+            "Name": "健将牌能量饮料包（荔枝口味）",
+            "ShortName": "能量饮料",
             "Description": "火神集团三部出品的荔枝口味能量饮料，饮用方便、易于携带，采取特殊高分子合成可降解塑料作为包装，不易破损，绿色、环保、无污染。",
             "DefaultPrice": 27000,
             "RagfairType": "5b47574386f77428ca22b335",
@@ -366,9 +366,9 @@
         },
         "_customprops": {
             "$type": "buff",
-            "Name": "Vulcan-草莓口味蛋白棒",
+            "Name": "健将牌草莓口味蛋白棒",
             "ShortName": "能量棒",
-            "Description": "火神集团三部出品的能量食品，相较于传统的蛋白棒特别注重了口味调配，保证口感的同时能够补充大量能量，通常与便携能量饮料包搭配食用。",
+            "Description": "火神集团三部出品的能量食品，相较于传统的蛋白棒特别注重了口味调配，保证口感的同时能够补充大量能量，推荐与便携能量饮料包搭配食用。",
             "DefaultPrice": 23000,
             "RagfairType": "5b47574386f77428ca22b336",
             "CanFindInRaid": true,
@@ -19284,7 +19284,6 @@
         "_targetid": "5448ba0b4bdc2d02308b456c",
         "_name": "仿制工厂钥匙",
         "_props": {
-            "BackgroundColor": "blue",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 1
         },
@@ -19307,7 +19306,6 @@
         "_targetid": "5448ba0b4bdc2d02308b456c",
         "_name": "永恒工厂钥匙",
         "_props": {
-            "BackgroundColor": "red",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 0
         },
@@ -19330,7 +19328,6 @@
         "_targetid": "5780cf7f2459777de4559322",
         "_name": "通用符号钥匙",
         "_props": {
-            "BackgroundColor": "red",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 1
         },
@@ -19353,7 +19350,6 @@
         "_targetid": "59387a4986f77401cc236e62",
         "_name": "宿舍管理员钥匙",
         "_props": {
-            "BackgroundColor": "yellow",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 1
         },
@@ -19376,7 +19372,6 @@
         "_targetid": "5a13ef7e86f7741290491063",
         "_name": "疗养院管理员钥匙",
         "_props": {
-            "BackgroundColor": "yellow",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 1
         },
@@ -19399,7 +19394,6 @@
         "_targetid": "5d947d4e86f774447b415895",
         "_name": "储备站管理员钥匙",
         "_props": {
-            "BackgroundColor": "yellow",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 1
         },
@@ -19422,7 +19416,6 @@
         "_targetid": "5c94bbff86f7747ee735c08f",
         "_name": "实验室管理员钥匙卡",
         "_props": {
-            "BackgroundColor": "red",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 1,
             "Prefab": {
@@ -19449,7 +19442,6 @@
         "_targetid": "5ede7a8229445733cb4c18e2",
         "_name": "通用储备站符号钥匙",
         "_props": {
-            "BackgroundColor": "red",
             "MaximumNumberOfUsage": 10
         },
         "_customprops": {
@@ -19471,7 +19463,6 @@
         "_targetid": "591afe0186f77431bd616a11",
         "_name": "永恒ZB014钥匙",
         "_props": {
-            "BackgroundColor": "red",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 0
         },
@@ -19494,7 +19485,6 @@
         "_targetid": "5c1d0efb86f7744baf2e7b7b",
         "_name": "永恒红卡",
         "_props": {
-            "BackgroundColor": "red",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 0
         },
@@ -19517,7 +19507,6 @@
         "_targetid": "5c1d0d6d86f7744bb2683e1f",
         "_name": "永恒黄卡",
         "_props": {
-            "BackgroundColor": "red",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 0
         },
@@ -19540,7 +19529,6 @@
         "_targetid": "5c1d0dc586f7744baf2e7b79",
         "_name": "永恒绿卡",
         "_props": {
-            "BackgroundColor": "red",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 0
         },
@@ -19563,7 +19551,6 @@
         "_targetid": "5c1d0c5f86f7744bb2683cf0",
         "_name": "永恒蓝卡",
         "_props": {
-            "BackgroundColor": "red",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 0
         },
@@ -19586,7 +19573,6 @@
         "_targetid": "5c1e495a86f7743109743dfb",
         "_name": "永恒紫卡",
         "_props": {
-            "BackgroundColor": "red",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 0
         },
@@ -19609,7 +19595,6 @@
         "_targetid": "5c1d0f4986f7744bb01837fa",
         "_name": "永恒黑卡",
         "_props": {
-            "BackgroundColor": "red",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 0
         },
@@ -19632,7 +19617,6 @@
         "_targetid": "5efde6b4f5448336730dbd61",
         "_name": "永恒记号卡",
         "_props": {
-            "BackgroundColor": "red",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 0
         },
@@ -19655,7 +19639,6 @@
         "_targetid": "5780cf7f2459777de4559322",
         "_name": "仿制符号钥匙",
         "_props": {
-            "BackgroundColor": "yellow",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 1
         },
@@ -19678,7 +19661,6 @@
         "_targetid": "59387a4986f77401cc236e62",
         "_name": "仿制114钥匙",
         "_props": {
-            "BackgroundColor": "blue",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 1
         },
@@ -19701,7 +19683,6 @@
         "_targetid": "5938603e86f77435642354f4",
         "_name": "仿制206钥匙",
         "_props": {
-            "BackgroundColor": "blue",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 1
         },
@@ -19724,7 +19705,6 @@
         "_targetid": "62987da96188c076bc0d8c51",
         "_name": "仿制操作间钥匙",
         "_props": {
-            "BackgroundColor": "blue",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 1
         },
@@ -19747,7 +19727,6 @@
         "_targetid": "63a3a93f8a56922e82001f5d",
         "_name": "仿制废弃工厂钥匙",
         "_props": {
-            "BackgroundColor": "yellow",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 1
         },
@@ -19770,7 +19749,6 @@
         "_targetid": "5780d0652459777df90dcb74",
         "_name": "仿制隔间钥匙",
         "_props": {
-            "BackgroundColor": "blue",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 1
         },
@@ -19793,7 +19771,6 @@
         "_targetid": "5780cf7f2459777de4559322",
         "_name": "永恒符号钥匙",
         "_props": {
-            "BackgroundColor": "red",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 0
         },
@@ -19816,7 +19793,6 @@
         "_targetid": "63a39fc0af870e651d58e6ae",
         "_name": "永恒15号公寓钥匙",
         "_props": {
-            "BackgroundColor": "red",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 0
         },
@@ -19839,7 +19815,6 @@
         "_targetid": "63a39fc0af870e651d58e6ae",
         "_name": "仿制15号公寓钥匙",
         "_props": {
-            "BackgroundColor": "yellow",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 1
         },
@@ -19862,7 +19837,6 @@
         "_targetid": "5d08d21286f774736e7c94c3",
         "_name": "永恒Shturman钥匙",
         "_props": {
-            "BackgroundColor": "red",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 0
         },
@@ -20804,7 +20778,6 @@
         "_targetid": "63a3a93f8a56922e82001f5d",
         "_name": "永恒废弃工厂钥匙",
         "_props": {
-            "BackgroundColor": "red",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 0
         },
@@ -20827,7 +20800,6 @@
         "_targetid": "64ccc25f95763a1ae376e447",
         "_name": "永恒神秘房间钥匙",
         "_props": {
-            "BackgroundColor": "red",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 0
         },
@@ -20850,7 +20822,6 @@
         "_targetid": "63a397d3af870e651d58e65b",
         "_name": "永恒封闭区域钥匙",
         "_props": {
-            "BackgroundColor": "red",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 0
         },
@@ -20873,7 +20844,6 @@
         "_targetid": "59387a4986f77401cc236e62",
         "_name": "永恒宿舍管理员钥匙",
         "_props": {
-            "BackgroundColor": "red",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 0
         },
@@ -20896,7 +20866,6 @@
         "_targetid": "5a13ef7e86f7741290491063",
         "_name": "永恒疗养院管理员钥匙",
         "_props": {
-            "BackgroundColor": "red",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 0
         },
@@ -20919,7 +20888,6 @@
         "_targetid": "5d947d4e86f774447b415895",
         "_name": "永恒储备站管理员钥匙",
         "_props": {
-            "BackgroundColor": "red",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 0
         },
@@ -20942,7 +20910,6 @@
         "_targetid": "66acd6702b17692df20144c0",
         "_name": "永恒储藏室卡",
         "_props": {
-            "BackgroundColor": "red",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 0
         },
@@ -20965,7 +20932,6 @@
         "_targetid": "5e42c81886f7742a01529f57",
         "_name": "永恒11SR",
         "_props": {
-            "BackgroundColor": "red",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 0
         },
@@ -20988,7 +20954,6 @@
         "_targetid": "5e42c83786f7742a021fdf3c",
         "_name": "永恒21WS",
         "_props": {
-            "BackgroundColor": "red",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 0
         },
@@ -21011,7 +20976,6 @@
         "_targetid": "5e42c71586f7747f245e1343",
         "_name": "立交桥管理员钥匙",
         "_props": {
-            "BackgroundColor": "yellow",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 1
         },
@@ -21034,7 +20998,6 @@
         "_targetid": "5e42c71586f7747f245e1343",
         "_name": "永恒立交桥管理员钥匙",
         "_props": {
-            "BackgroundColor": "red",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 0
         },
@@ -21057,7 +21020,6 @@
         "_targetid": "5ad5d7d286f77450166e0a89",
         "_name": "KIBA老板钥匙",
         "_props": {
-            "BackgroundColor": "yellow",
             "CanSellOnRagfair": true,
             "MaximumNumberOfUsage": 40
         },
@@ -21080,7 +21042,6 @@
         "_targetid": "5e42c81886f7742a01529f57",
         "_name": "仿制11SR",
         "_props": {
-            "BackgroundColor": "blue",
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 1
         },
@@ -23138,6 +23099,341 @@
                         "minCount": 0
                     },
                     "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ],
+            "Slots": [
+                {
+                    "_id": "6575d74816c2762fba00582c",
+                    "_mergeSlotWithChildren": true,
+                    "_name": "Front_plate",
+                    "_parent": "SiegeR",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "656f9d5900d62bcd2e02407c",
+                                    "656fa8d700d62bcd2e024084",
+                                    "656fa99800d62bcd2e024088",
+                                    "656fae5f7c2d57afe200c0d7",
+                                    "656faf0ca0dce000a2020f77",
+                                    "656fa0fb498d1b7e3e071d9c",
+                                    "656fafe3498d1b7e3e071da4",
+                                    "656fa76500d62bcd2e024080",
+                                    "656fa25e94b480b8a500c0e0",
+                                    "656fad8c498d1b7e3e071da0",
+                                    "656fa61e94b480b8a500c0e8",
+                                    "656fb21fa0dce000a2020f7c",
+                                    "656fac30c6baea13cd07e10c",
+                                    "656fb0bd7c2d57afe200c0dc",
+                                    "656f9fa0498d1b7e3e071d98",
+                                    "656fa53d94b480b8a500c0e4",
+                                    "655746010177119f4a097ff7",
+                                    "64afdcb83efdfea28601d041",
+                                    "65573fa5655447403702a816",
+                                    "64afc71497cf3a403c01ff38"
+                                ],
+                                "Plate": "656fa61e94b480b8a500c0e8",
+                                "armorColliders": [],
+                                "armorPlateColliders": [
+                                    "Plate_Granit_SAPI_chest"
+                                ],
+                                "bluntDamageReduceFromSoftArmor": true,
+                                "locked": false
+                            }
+                        ]
+                    },
+                    "_proto": "64479fdf9731c8fadc0642c1",
+                    "_required": false
+                },
+                {
+                    "_id": "6575d74816c2762fba00582d",
+                    "_mergeSlotWithChildren": true,
+                    "_name": "Back_plate",
+                    "_parent": "SiegeR",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "656f9d5900d62bcd2e02407c",
+                                    "656fa8d700d62bcd2e024084",
+                                    "656fae5f7c2d57afe200c0d7",
+                                    "656fa99800d62bcd2e024088",
+                                    "656faf0ca0dce000a2020f77",
+                                    "656fa0fb498d1b7e3e071d9c",
+                                    "656fafe3498d1b7e3e071da4",
+                                    "656fa76500d62bcd2e024080",
+                                    "656fa25e94b480b8a500c0e0",
+                                    "656fad8c498d1b7e3e071da0",
+                                    "656fa61e94b480b8a500c0e8",
+                                    "656fb21fa0dce000a2020f7c",
+                                    "656fac30c6baea13cd07e10c",
+                                    "656fb0bd7c2d57afe200c0dc",
+                                    "656f9fa0498d1b7e3e071d98",
+                                    "656fa53d94b480b8a500c0e4",
+                                    "655746010177119f4a097ff7",
+                                    "64afdcb83efdfea28601d041",
+                                    "64afc71497cf3a403c01ff38",
+                                    "65573fa5655447403702a816"
+                                ],
+                                "Plate": "656fa61e94b480b8a500c0e8",
+                                "armorColliders": [],
+                                "armorPlateColliders": [
+                                    "Plate_Granit_SAPI_back"
+                                ],
+                                "bluntDamageReduceFromSoftArmor": true,
+                                "locked": false
+                            }
+                        ]
+                    },
+                    "_proto": "64479fdf9731c8fadc0642c1",
+                    "_required": false
+                },
+                {
+                    "_id": "6575d74816c2762fba00582e",
+                    "_mergeSlotWithChildren": true,
+                    "_name": "Left_side_plate",
+                    "_parent": "SiegeR",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "6557458f83942d705f0c4962",
+                                    "64afdb577bb3bfe8fe03fd1d",
+                                    "64afd81707e2cf40e903a316"
+                                ],
+                                "Plate": "64afdb577bb3bfe8fe03fd1d",
+                                "armorColliders": [],
+                                "armorPlateColliders": [
+                                    "Plate_Granit_SSAPI_side_left_high"
+                                ],
+                                "bluntDamageReduceFromSoftArmor": true,
+                                "locked": false
+                            }
+                        ]
+                    },
+                    "_proto": "64479fdf9731c8fadc0642c1",
+                    "_required": false
+                },
+                {
+                    "_id": "6575d74816c2762fba00582f",
+                    "_mergeSlotWithChildren": true,
+                    "_name": "Right_side_plate",
+                    "_parent": "SiegeR",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "6557458f83942d705f0c4962",
+                                    "64afdb577bb3bfe8fe03fd1d",
+                                    "64afd81707e2cf40e903a316"
+                                ],
+                                "Plate": "64afdb577bb3bfe8fe03fd1d",
+                                "armorColliders": [],
+                                "armorPlateColliders": [
+                                    "Plate_Granit_SSAPI_side_right_high"
+                                ],
+                                "bluntDamageReduceFromSoftArmor": true,
+                                "locked": false
+                            }
+                        ]
+                    },
+                    "_proto": "64479fdf9731c8fadc0642c1",
+                    "_required": false
+                },
+                {
+                    "_id": "6575d74816c2762fba005830",
+                    "_mergeSlotWithChildren": true,
+                    "_name": "Soft_armor_front",
+                    "_parent": "SiegeR",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "SiegeR胸部内衬"
+                                ],
+                                "Plate": "6575d561b15fef3dd4051670",
+                                "armorColliders": [
+                                    "RibcageLow",
+                                    "RibcageUp"
+                                ],
+                                "armorPlateColliders": [],
+                                "bluntDamageReduceFromSoftArmor": false,
+                                "locked": true
+                            }
+                        ]
+                    },
+                    "_proto": "64479fdf9731c8fadc0642c1",
+                    "_required": true
+                },
+                {
+                    "_id": "6575d74816c2762fba005831",
+                    "_mergeSlotWithChildren": true,
+                    "_name": "Soft_armor_back",
+                    "_parent": "SiegeR",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "SiegeR背部内衬"
+                                ],
+                                "Plate": "6575d56b16c2762fba005818",
+                                "armorColliders": [
+                                    "SpineDown",
+                                    "SpineTop"
+                                ],
+                                "armorPlateColliders": [],
+                                "bluntDamageReduceFromSoftArmor": false,
+                                "locked": true
+                            }
+                        ]
+                    },
+                    "_proto": "64479fdf9731c8fadc0642c1",
+                    "_required": true
+                },
+                {
+                    "_id": "6575d74816c2762fba005832",
+                    "_mergeSlotWithChildren": true,
+                    "_name": "Soft_armor_left",
+                    "_parent": "SiegeR",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "SiegeR左侧内衬"
+                                ],
+                                "Plate": "6575d57a16c2762fba00581c",
+                                "armorColliders": [
+                                    "LeftSideChestDown"
+                                ],
+                                "armorPlateColliders": [],
+                                "bluntDamageReduceFromSoftArmor": false,
+                                "locked": true
+                            }
+                        ]
+                    },
+                    "_proto": "64479fdf9731c8fadc0642c1",
+                    "_required": true
+                },
+                {
+                    "_id": "6575d74816c2762fba005833",
+                    "_mergeSlotWithChildren": true,
+                    "_name": "soft_armor_right",
+                    "_parent": "SiegeR",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "SiegeR右侧内衬"
+                                ],
+                                "Plate": "6575d589b15fef3dd4051674",
+                                "armorColliders": [
+                                    "RightSideChestDown"
+                                ],
+                                "armorPlateColliders": [],
+                                "bluntDamageReduceFromSoftArmor": false,
+                                "locked": true
+                            }
+                        ]
+                    },
+                    "_proto": "64479fdf9731c8fadc0642c1",
+                    "_required": true
+                },
+                {
+                    "_id": "6575d74816c2762fba005834",
+                    "_mergeSlotWithChildren": true,
+                    "_name": "Collar",
+                    "_parent": "SiegeR",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "SiegeR脖子内衬"
+                                ],
+                                "Plate": "6575d598b15fef3dd4051678",
+                                "armorColliders": [
+                                    "NeckFront",
+                                    "NeckBack"
+                                ],
+                                "armorPlateColliders": [],
+                                "bluntDamageReduceFromSoftArmor": false,
+                                "locked": true
+                            }
+                        ]
+                    },
+                    "_proto": "64479fdf9731c8fadc0642c1",
+                    "_required": true
+                },
+                {
+                    "_id": "6575d74816c2762fba005835",
+                    "_mergeSlotWithChildren": true,
+                    "_name": "Shoulder_l",
+                    "_parent": "SiegeR",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "SiegeR左肩内衬"
+                                ],
+                                "Plate": "6575d5b316c2762fba005824",
+                                "armorColliders": [
+                                    "LeftUpperArm"
+                                ],
+                                "armorPlateColliders": [],
+                                "bluntDamageReduceFromSoftArmor": false,
+                                "locked": true
+                            }
+                        ]
+                    },
+                    "_proto": "64479fdf9731c8fadc0642c1",
+                    "_required": true
+                },
+                {
+                    "_id": "6575d74816c2762fba005836",
+                    "_mergeSlotWithChildren": true,
+                    "_name": "Shoulder_r",
+                    "_parent": "SiegeR",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "SiegeR右肩内衬"
+                                ],
+                                "Plate": "6575d5bd16c2762fba005828",
+                                "armorColliders": [
+                                    "RightUpperArm"
+                                ],
+                                "armorPlateColliders": [],
+                                "bluntDamageReduceFromSoftArmor": false,
+                                "locked": true
+                            }
+                        ]
+                    },
+                    "_proto": "64479fdf9731c8fadc0642c1",
+                    "_required": true
+                },
+                {
+                    "_id": "6575d74816c2762fba005837",
+                    "_mergeSlotWithChildren": true,
+                    "_name": "Groin",
+                    "_parent": "SiegeR",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "SiegeR股沟内衬"
+                                ],
+                                "Plate": "6575d5a616c2762fba005820",
+                                "armorColliders": [
+                                    "Pelvis"
+                                ],
+                                "armorPlateColliders": [],
+                                "bluntDamageReduceFromSoftArmor": false,
+                                "locked": true
+                            }
+                        ]
+                    },
+                    "_proto": "64479fdf9731c8fadc0642c1",
+                    "_required": true
                 }
             ],
             "RigLayoutName": "firstspear"
@@ -27373,12 +27669,40 @@
             "isMoney": false
         }
     },
-    "流萤永恒绿卡": {
-        "_id": "流萤永恒绿卡",
+    "流萤绿卡": {
+        "_id": "流萤绿卡",
         "_targetid": "5c1d0dc586f7744baf2e7b79",
-        "_name": "流萤永恒绿卡",
+        "_name": "流萤绿卡",
         "_props": {
-            "BackgroundColor": "red",
+            "BackgroundColor": "violet",
+            "CanSellOnRagfair": true,
+            "MaximumNumberOfUsage": 10,
+            "Prefab": {
+                "path": "assets/card/firefly/item_keycard_lab_green.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "实验室钥匙卡·绿·星点萤火",
+            "ShortName": "绿卡",
+            "Description": "一张拥有联名涂装外观的通行卡，里面存储着复杂的编码。\n<b>「5c1d0dc586f7744baf2e7b79」</b>",
+            "DefaultPrice": 10000000,
+            "RagfairType": "5c518ed586f774119a772aee",
+            "CanFindInRaid": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "5c1d0dc586f7744baf2e7b79",
+            "MapLootDivisor": 1,
+            "isMoney": false,
+            "BlackListType": 11,
+            "CopyPrice": true
+        }
+    },
+    "永恒流萤绿卡": {
+        "_id": "永恒流萤绿卡",
+        "_targetid": "5c1d0dc586f7744baf2e7b79",
+        "_name": "永恒流萤绿卡",
+        "_props": {
             "CanSellOnRagfair": false,
             "MaximumNumberOfUsage": 0,
             "Prefab": {
@@ -27388,16 +27712,1375 @@
         },
         "_customprops": {
             "$type": "base",
-            "Name": "实验室钥匙卡·绿·永恒·长夜萤火",
+            "Name": "实验室钥匙卡·绿·星点萤火·永恒",
             "ShortName": "绿卡",
             "Description": "一张拥有联名涂装外观的永久通行卡，里面存储着复杂的编码。\n<b>「5c1d0dc586f7744baf2e7b79」</b>",
             "DefaultPrice": 10000000,
             "RagfairType": "5c518ed586f774119a772aee",
             "CanFindInRaid": false,
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "牢普黑卡": {
+        "_id": "牢普黑卡",
+        "_targetid": "5c1d0f4986f7744bb01837fa",
+        "_name": "牢普黑卡",
+        "_props": {
+            "CanSellOnRagfair": true,
+            "MaximumNumberOfUsage": 10,
+            "Prefab": {
+                "path": "assets/card/prts/item_keycard_lab_black.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "实验室钥匙卡·黑·普瑞赛斯",
+            "ShortName": "黑卡",
+            "Description": "一张拥有联名涂装外观的通行卡，里面存储着复杂的编码。\n<b>「5c1d0f4986f7744bb01837fa」</b>",
+            "DefaultPrice": 10000000,
+            "RagfairType": "5c518ed586f774119a772aee",
+            "CanFindInRaid": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "5c1d0dc586f7744baf2e7b79",
+            "isMoney": false,
+            "BlackListType": 11,
+            "CopyPrice": true
+        }
+    },
+    "永恒牢普黑卡": {
+        "_id": "永恒牢普黑卡",
+        "_targetid": "5c1d0f4986f7744bb01837fa",
+        "_name": "永恒牢普黑卡",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "MaximumNumberOfUsage": 0,
+            "Prefab": {
+                "path": "assets/card/prts/item_keycard_lab_black.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "实验室钥匙卡·黑·普瑞赛斯·永恒",
+            "ShortName": "黑卡",
+            "Description": "一张拥有联名涂装外观的永久通通行卡，里面存储着复杂的编码。\n<b>「5c1d0f4986f7744bb01837fa」</b>",
+            "DefaultPrice": 10000000,
+            "RagfairType": "5c518ed586f774119a772aee",
+            "CanFindInRaid": false,
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "初音蓝卡": {
+        "_id": "初音蓝卡",
+        "_targetid": "5c1d0c5f86f7744bb2683cf0",
+        "_name": "初音蓝卡",
+        "_props": {
+            "CanSellOnRagfair": true,
+            "MaximumNumberOfUsage": 10,
+            "Prefab": {
+                "path": "assets/card/miku/item_keycard_lab_blue.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "实验室钥匙卡·蓝·公主殿下",
+            "ShortName": "蓝卡",
+            "Description": "一张拥有联名涂装外观的通行卡，里面存储着复杂的编码。\n<b>「5c1d0c5f86f7744bb2683cf0」</b>",
+            "DefaultPrice": 10000000,
+            "RagfairType": "5c518ed586f774119a772aee",
+            "CanFindInRaid": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "5c1d0c5f86f7744bb2683cf0",
+            "isMoney": false,
+            "BlackListType": 11,
+            "CopyPrice": true
+        }
+    },
+    "永恒初音蓝卡": {
+        "_id": "永恒初音蓝卡",
+        "_targetid": "5c1d0c5f86f7744bb2683cf0",
+        "_name": "永恒初音蓝卡",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "MaximumNumberOfUsage": 0,
+            "Prefab": {
+                "path": "assets/card/miku/item_keycard_lab_blue.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "实验室钥匙卡·蓝·公主殿下·永恒",
+            "ShortName": "蓝卡",
+            "Description": "一张拥有联名涂装外观的永久通行卡，里面存储着复杂的编码。\n<b>「5c1d0c5f86f7744bb2683cf0」</b>",
+            "DefaultPrice": 10000000,
+            "RagfairType": "5c518ed586f774119a772aee",
+            "CanFindInRaid": false,
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "灵梦红卡": {
+        "_id": "灵梦红卡",
+        "_targetid": "5c1d0efb86f7744baf2e7b7b",
+        "_name": "灵梦红卡",
+        "_props": {
+            "CanSellOnRagfair": true,
+            "MaximumNumberOfUsage": 10,
+            "Prefab": {
+                "path": "assets/card/reimu/item_keycard_lab_red.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "实验室钥匙卡·红·博丽巫女",
+            "ShortName": "红卡",
+            "Description": "一张拥有联名涂装外观的通行卡，里面存储着复杂的编码。\n<b>「5c1d0efb86f7744baf2e7b7b」</b>",
+            "DefaultPrice": 10000000,
+            "RagfairType": "5c518ed586f774119a772aee",
+            "CanFindInRaid": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "5c1d0efb86f7744baf2e7b7b",
+            "isMoney": false,
+            "BlackListType": 11,
+            "CopyPrice": true
+        }
+    },
+    "永恒灵梦红卡": {
+        "_id": "永恒灵梦红卡",
+        "_targetid": "5c1d0efb86f7744baf2e7b7b",
+        "_name": "永恒灵梦红卡",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "MaximumNumberOfUsage": 0,
+            "Prefab": {
+                "path": "assets/card/reimu/item_keycard_lab_red.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "实验室钥匙卡·红·博丽巫女·永恒",
+            "ShortName": "红卡",
+            "Description": "一张拥有联名涂装外观的永久通行卡，里面存储着复杂的编码。\n<b>「5c1d0efb86f7744baf2e7b7b」</b>",
+            "DefaultPrice": 10000000,
+            "RagfairType": "5c518ed586f774119a772aee",
+            "CanFindInRaid": false,
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "黑塔紫卡": {
+        "_id": "黑塔紫卡",
+        "_targetid": "5c1e495a86f7743109743dfb",
+        "_name": "黑塔紫卡",
+        "_props": {
+            "CanSellOnRagfair": true,
+            "MaximumNumberOfUsage": 10,
+            "Prefab": {
+                "path": "assets/card/herta/item_keycard_lab_violet.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "实验室钥匙卡·紫·魔女之间",
+            "ShortName": "紫卡",
+            "Description": "一张拥有联名涂装外观的通行卡，里面存储着复杂的编码。\n<b>「5c1e495a86f7743109743dfb」</b>",
+            "DefaultPrice": 10000000,
+            "RagfairType": "5c518ed586f774119a772aee",
+            "CanFindInRaid": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "5c1e495a86f7743109743dfb",
+            "isMoney": false,
+            "BlackListType": 11,
+            "CopyPrice": true
+        }
+    },
+    "永恒黑塔紫卡": {
+        "_id": "永恒黑塔紫卡",
+        "_targetid": "5c1e495a86f7743109743dfb",
+        "_name": "永恒黑塔紫卡",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "MaximumNumberOfUsage": 0,
+            "Prefab": {
+                "path": "assets/card/herta/item_keycard_lab_violet.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "实验室钥匙卡·紫·魔女之间·永恒",
+            "ShortName": "紫卡",
+            "Description": "一张拥有联名涂装外观的永久通行卡，里面存储着复杂的编码。\n<b>「5c1e495a86f7743109743dfb」</b>",
+            "DefaultPrice": 10000000,
+            "RagfairType": "5c518ed586f774119a772aee",
+            "CanFindInRaid": false,
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "阿格莱雅黄卡": {
+        "_id": "阿格莱雅黄卡",
+        "_targetid": "5c1d0d6d86f7744bb2683e1f",
+        "_name": "阿格莱雅黄卡",
+        "_props": {
+            "CanSellOnRagfair": true,
+            "MaximumNumberOfUsage": 10,
+            "Prefab": {
+                "path": "assets/card/aglaea/item_keycard_lab_yellow.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "实验室钥匙卡·黄·丝缕金织",
+            "ShortName": "黄卡",
+            "Description": "一张拥有联名涂装外观的通行卡，里面存储着复杂的编码。\n<b>「5c1d0d6d86f7744bb2683e1f」</b>",
+            "DefaultPrice": 10000000,
+            "RagfairType": "5c518ed586f774119a772aee",
+            "CanFindInRaid": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "5c1d0d6d86f7744bb2683e1f",
+            "isMoney": false,
+            "BlackListType": 11,
+            "CopyPrice": true
+        }
+    },
+    "永恒阿格莱雅黄卡": {
+        "_id": "永恒阿格莱雅黄卡",
+        "_targetid": "5c1d0d6d86f7744bb2683e1f",
+        "_name": "永恒阿格莱雅黄卡",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "MaximumNumberOfUsage": 0,
+            "Prefab": {
+                "path": "assets/card/aglaea/item_keycard_lab_yellow.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "实验室钥匙卡·黄·丝缕金织·永恒",
+            "ShortName": "黄卡",
+            "Description": "一张拥有联名涂装外观的永久通行卡，里面存储着复杂的编码。\n<b>「5c1d0d6d86f7744bb2683e1f」</b>",
+            "DefaultPrice": 10000000,
+            "RagfairType": "5c518ed586f774119a772aee",
+            "CanFindInRaid": false,
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "牢玛黄卡": {
+        "_id": "牢玛黄卡",
+        "_targetid": "5c1d0d6d86f7744bb2683e1f",
+        "_name": "牢玛黄卡",
+        "_props": {
+            "CanSellOnRagfair": true,
+            "MaximumNumberOfUsage": 10,
+            "Prefab": {
+                "path": "assets/card/mlynar/item_keycard_lab_yellow.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "实验室钥匙卡·黄·长夜临光",
+            "ShortName": "黄卡",
+            "Description": "一张拥有联名涂装外观的通行卡，里面存储着复杂的编码。\n<b>「5c1d0d6d86f7744bb2683e1f」</b>",
+            "DefaultPrice": 10000000,
+            "RagfairType": "5c518ed586f774119a772aee",
+            "CanFindInRaid": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "5c1d0d6d86f7744bb2683e1f",
+            "isMoney": false,
+            "BlackListType": 11,
+            "CopyPrice": true
+        }
+    },
+    "永恒牢玛黄卡": {
+        "_id": "永恒牢玛黄卡",
+        "_targetid": "5c1d0d6d86f7744bb2683e1f",
+        "_name": "永恒牢玛黄卡",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "MaximumNumberOfUsage": 0,
+            "Prefab": {
+                "path": "assets/card/mlynar/item_keycard_lab_yellow.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "实验室钥匙卡·黄·长夜临光·永恒",
+            "ShortName": "黄卡",
+            "Description": "一张拥有联名涂装外观的永久通行卡，里面存储着复杂的编码。\n<b>「5c1d0d6d86f7744bb2683e1f」</b>",
+            "DefaultPrice": 10000000,
+            "RagfairType": "5c518ed586f774119a772aee",
+            "CanFindInRaid": false,
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "恶魔黑卡": {
+        "_id": "恶魔黑卡",
+        "_targetid": "5c1d0f4986f7744bb01837fa",
+        "_name": "恶魔黑卡",
+        "_props": {
+            "CanSellOnRagfair": true,
+            "MaximumNumberOfUsage": 10,
+            "Prefab": {
+                "path": "assets/card/devil/item_keycard_lab_black.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "实验室钥匙卡·黑·殊死一搏",
+            "ShortName": "黑卡",
+            "Description": "一张拥有联名涂装外观的通行卡，里面存储着复杂的编码。\n<b>「5c1d0f4986f7744bb01837fa」</b>",
+            "DefaultPrice": 10000000,
+            "RagfairType": "5c518ed586f774119a772aee",
+            "CanFindInRaid": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "5c1d0dc586f7744baf2e7b79",
+            "isMoney": false,
+            "BlackListType": 11,
+            "CopyPrice": true
+        }
+    },
+    "永恒恶魔黑卡": {
+        "_id": "永恒恶魔黑卡",
+        "_targetid": "5c1d0f4986f7744bb01837fa",
+        "_name": "永恒恶魔黑卡",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "MaximumNumberOfUsage": 0,
+            "Prefab": {
+                "path": "assets/card/devil/item_keycard_lab_black.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "实验室钥匙卡·黑·殊死一搏·永恒",
+            "ShortName": "黑卡",
+            "Description": "一张拥有联名涂装外观的永久通通行卡，里面存储着复杂的编码。\n<b>「5c1d0f4986f7744bb01837fa」</b>",
+            "DefaultPrice": 10000000,
+            "RagfairType": "5c518ed586f774119a772aee",
+            "CanFindInRaid": false,
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "阿能红卡": {
+        "_id": "阿能红卡",
+        "_targetid": "5c1d0efb86f7744baf2e7b7b",
+        "_name": "阿能红卡",
+        "_props": {
+            "CanSellOnRagfair": true,
+            "MaximumNumberOfUsage": 10,
+            "Prefab": {
+                "path": "assets/card/exusiai/item_keycard_lab_red.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "实验室钥匙卡·红·Heavenly Me",
+            "ShortName": "红卡",
+            "Description": "一张拥有联名涂装外观的通行卡，里面存储着复杂的编码。\n<b>「5c1d0efb86f7744baf2e7b7b」</b>",
+            "DefaultPrice": 10000000,
+            "RagfairType": "5c518ed586f774119a772aee",
+            "CanFindInRaid": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "5c1d0efb86f7744baf2e7b7b",
+            "isMoney": false,
+            "BlackListType": 11,
+            "CopyPrice": true
+        }
+    },
+    "永恒阿能红卡": {
+        "_id": "永恒阿能红卡",
+        "_targetid": "5c1d0efb86f7744baf2e7b7b",
+        "_name": "永恒阿能红卡",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "MaximumNumberOfUsage": 0,
+            "Prefab": {
+                "path": "assets/card/exusiai/item_keycard_lab_red.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "实验室钥匙卡·红·Heavenly Me·永恒",
+            "ShortName": "红卡",
+            "Description": "一张拥有联名涂装外观的永久通行卡，里面存储着复杂的编码。\n<b>「5c1d0efb86f7744baf2e7b7b」</b>",
+            "DefaultPrice": 10000000,
+            "RagfairType": "5c518ed586f774119a772aee",
+            "CanFindInRaid": false,
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "牢猫绿卡": {
+        "_id": "牢猫绿卡",
+        "_targetid": "5c1d0dc586f7744baf2e7b79",
+        "_name": "牢猫绿卡",
+        "_props": {
+            "BackgroundColor": "violet",
+            "CanSellOnRagfair": true,
+            "MaximumNumberOfUsage": 10,
+            "Prefab": {
+                "path": "assets/card/kaltsit/item_keycard_lab_green.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "实验室钥匙卡·绿·猫与棘与凯尔希",
+            "ShortName": "绿卡",
+            "Description": "一张拥有联名涂装外观的通行卡，里面存储着复杂的编码。\n<b>「5c1d0dc586f7744baf2e7b79」</b>",
+            "DefaultPrice": 10000000,
+            "RagfairType": "5c518ed586f774119a772aee",
+            "CanFindInRaid": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "5c1d0dc586f7744baf2e7b79",
+            "MapLootDivisor": 1,
+            "isMoney": false,
+            "BlackListType": 11,
+            "CopyPrice": true
+        }
+    },
+    "永恒牢猫绿卡": {
+        "_id": "永恒牢猫绿卡",
+        "_targetid": "5c1d0dc586f7744baf2e7b79",
+        "_name": "永恒牢猫绿卡",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "MaximumNumberOfUsage": 0,
+            "Prefab": {
+                "path": "assets/card/kaltsit/item_keycard_lab_green.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "实验室钥匙卡·绿·猫与棘与凯尔希·永恒",
+            "ShortName": "绿卡",
+            "Description": "一张拥有联名涂装外观的永久通行卡，里面存储着复杂的编码。\n<b>「5c1d0dc586f7744baf2e7b79」</b>",
+            "DefaultPrice": 10000000,
+            "RagfairType": "5c518ed586f774119a772aee",
+            "CanFindInRaid": false,
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "遐蝶紫卡": {
+        "_id": "遐蝶紫卡",
+        "_targetid": "5c1e495a86f7743109743dfb",
+        "_name": "遐蝶紫卡",
+        "_props": {
+            "CanSellOnRagfair": true,
+            "MaximumNumberOfUsage": 10,
+            "Prefab": {
+                "path": "assets/card/castorice/item_keycard_lab_violet.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "实验室钥匙卡·紫·冥河之舞",
+            "ShortName": "紫卡",
+            "Description": "一张拥有联名涂装外观的通行卡，里面存储着复杂的编码。\n<b>「5c1e495a86f7743109743dfb」</b>",
+            "DefaultPrice": 10000000,
+            "RagfairType": "5c518ed586f774119a772aee",
+            "CanFindInRaid": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "5c1e495a86f7743109743dfb",
+            "isMoney": false,
+            "BlackListType": 11,
+            "CopyPrice": true
+        }
+    },
+    "永恒遐蝶紫卡": {
+        "_id": "永恒遐蝶紫卡",
+        "_targetid": "5c1e495a86f7743109743dfb",
+        "_name": "永恒遐蝶紫卡",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "MaximumNumberOfUsage": 0,
+            "Prefab": {
+                "path": "assets/card/castorice/item_keycard_lab_violet.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "实验室钥匙卡·紫·冥河之舞·永恒",
+            "ShortName": "紫卡",
+            "Description": "一张拥有联名涂装外观的永久通行卡，里面存储着复杂的编码。\n<b>「5c1e495a86f7743109743dfb」</b>",
+            "DefaultPrice": 10000000,
+            "RagfairType": "5c518ed586f774119a772aee",
+            "CanFindInRaid": false,
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "咲夜蓝卡": {
+        "_id": "咲夜蓝卡",
+        "_targetid": "5c1d0c5f86f7744bb2683cf0",
+        "_name": "咲夜蓝卡",
+        "_props": {
+            "CanSellOnRagfair": true,
+            "MaximumNumberOfUsage": 10,
+            "Prefab": {
+                "path": "assets/card/sakuya/item_keycard_lab_blue.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "实验室钥匙卡·蓝·月时计",
+            "ShortName": "蓝卡",
+            "Description": "一张拥有联名涂装外观的通行卡，里面存储着复杂的编码。\n<b>「5c1d0c5f86f7744bb2683cf0」</b>",
+            "DefaultPrice": 10000000,
+            "RagfairType": "5c518ed586f774119a772aee",
+            "CanFindInRaid": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "5c1d0c5f86f7744bb2683cf0",
+            "isMoney": false,
+            "BlackListType": 11,
+            "CopyPrice": true
+        }
+    },
+    "永恒咲夜蓝卡": {
+        "_id": "永恒咲夜蓝卡",
+        "_targetid": "5c1d0c5f86f7744bb2683cf0",
+        "_name": "永恒咲夜蓝卡",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "MaximumNumberOfUsage": 0,
+            "Prefab": {
+                "path": "assets/card/sakuya/item_keycard_lab_blue.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "实验室钥匙卡·蓝·月时计·永恒",
+            "ShortName": "蓝卡",
+            "Description": "一张拥有联名涂装外观的永久通行卡，里面存储着复杂的编码。\n<b>「5c1d0c5f86f7744bb2683cf0」</b>",
+            "DefaultPrice": 10000000,
+            "RagfairType": "5c518ed586f774119a772aee",
+            "CanFindInRaid": false,
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "正式版纪念臂带": {
+        "_id": "正式版纪念臂带",
+        "_targetid": "60b0f988c4449e4cb624c1da",
+        "_name": "正式版纪念臂带",
+        "_props": {
+            "BackgroundColor": "green",
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/equipment/armband/item_equipment_armband_release_eft.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "正式版发售纪念臂带",
+            "ShortName": "正式版",
+            "Description": "为等待已久的忠实战士们特地准备的专属臂带。",
+            "DefaultPrice": 251115,
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "CanFindInRaid": false,
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
             "BlackListType": 63
+        }
+    },
+    "头眼祷文臂带": {
+        "_id": "头眼祷文臂带",
+        "_targetid": "60b0f988c4449e4cb624c1da",
+        "_name": "头眼祷文臂带",
+        "_props": {
+            "BackgroundColor": "orange",
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/equipment/armband/item_equipment_armband_headeyes.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "“头眼退散”臂带",
+            "ShortName": "祷文",
+            "Description": "Gribnik 专门打造的臂带，上面写着的祈祷文据说能保护使用者免受流弹的威胁。看来在走投无路的时候，战士们连这样的心理安慰都来者不拒。",
+            "DefaultPrice": 251115,
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "搜刮祷文臂带": {
+        "_id": "搜刮祷文臂带",
+        "_targetid": "60b0f988c4449e4cb624c1da",
+        "_name": "搜刮祷文臂带",
+        "_props": {
+            "BackgroundColor": "orange",
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/equipment/armband/item_equipment_armband_loot.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "“搜刮祷文”臂带",
+            "ShortName": "祷文",
+            "Description": "Gribnik 打造的臂带，上面写有祈祷文。据说能让 PMC 们在战斗中保住自己来之不易的战利品。",
+            "DefaultPrice": 251115,
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "防护祷文臂带": {
+        "_id": "防护祷文臂带",
+        "_targetid": "60b0f988c4449e4cb624c1da",
+        "_name": "防护祷文臂带",
+        "_props": {
+            "BackgroundColor": "green",
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/equipment/armband/item_equipment_armband_sbeukomar.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "臂带（SBEU KOMAR 防护）",
+            "ShortName": "祷文",
+            "Description": "Gribnik 打造的祈祷文臂带，保护使用者免受一种特殊的蚊子亚种侵扰——这种蚊子只在诺文斯克地区有分布。早在契约战争时期，就有新闻报道称当地出现了所谓“危险环境作战特种蚊子”（俄语缩写“SBEU”），但所谓目击者提供的大量证据中只有一小部分能经得起科学验证。",
+            "DefaultPrice": 251115,
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "Discord臂带": {
+        "_id": "Discord臂带",
+        "_targetid": "60b0f988c4449e4cb624c1da",
+        "_name": "Discord臂带",
+        "_props": {
+            "BackgroundColor": "violet",
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/equipment/armband/item_equipment_armband_discord.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "臂带（紫）",
+            "ShortName": "臂带",
+            "Description": "最社牛的行动人员才会佩戴的专属臂带。",
+            "DefaultPrice": 251115,
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "战痕3x3": {
+        "_id": "战痕3x3",
+        "_targetid": "5857a8bc2459772bad15db29",
+        "_name": "战痕3x3",
+        "_props": {
+            "Prefab": {
+                "path": "assets/content/items/containers/item_container_gamma_damaged/item_container_gamma_damaged.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "Gamma 安全箱（DMG）",
+            "ShortName": "Gamma",
+            "Description": "早在契约战争时期就流入塔科夫的老旧安全箱。尽管安全箱表面战痕累累，但大可以放心——它绝对还能用上好几年。",
+            "DefaultPrice": 150000,
+            "RagfairType": "5b5f6fd286f774093f2ecf0d",
+            "CopyPrice": true,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "ContainerSizeWidth": 2,
+            "ContainerSizeHeight": 1,
+            "BlackListType": 63
+        }
+    },
+    "欧润吉": {
+        "_id": "欧润吉",
+        "_targetid": "5e54f6af86f7742199090bf3",
+        "_name": "欧润吉",
+        "_props": {
+            "BackgroundColor": "violet",
+            "Weight": 0.07,
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_other_orange/item_barter_other_orange_01.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "橘子",
+            "ShortName": "欧润吉",
+            "Description": "比一个橘子更好的只能是一箱橘子，但在塔科夫，只有少数幸运儿才能吃到新鲜的欧润吉。",
+            "DefaultPrice": 251225,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "Mods",
+                "Container"
+            ]
+        }
+    },
+    "大佬眼镜": {
+        "_id": "大佬眼镜",
+        "_targetid": "5d6d2ef3a4b93618084f58bd",
+        "_name": "大佬眼镜",
+        "_props": {
+            "Prefab": {
+                "path": "assets/content/items/equipment/glasses_pixel/item_equipment_glasses_pixel_bp2.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "大佬墨镜",
+            "ShortName": "大佬墨镜",
+            "Description": "没想到 10 年前的网络梗居然能以这样的方式出现在塔科夫，忘了别的眼镜吧，从此之后该只戴这个了。",
+            "RagfairType": "5b47574386f77428ca22b331",
+            "DefaultPrice": 30000,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "5ac8d6885acfc400180ae7b0",
+            "isMoney": false,
+            "BlackListType": 0
+        }
+    },
+    "幸存者臂带": {
+        "_id": "幸存者臂带",
+        "_targetid": "60b0f988c4449e4cb624c1da",
+        "_name": "幸存者臂带",
+        "_props": {
+            "Weight": 0.05,
+            "BackgroundColor": "yellow",
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/equipment/armband/item_equipment_armband_story_01_and_survived.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "臂带（幸存者）",
+            "ShortName": "臂带",
+            "Description": "臂带的主人从未揭露塔科夫巨变背后的真正原因。但他至少活了下来，到头来这才是唯一要紧的事情。",
+            "DefaultPrice": 100000,
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "堕入黑暗臂带": {
+        "_id": "堕入黑暗臂带",
+        "_targetid": "60b0f988c4449e4cb624c1da",
+        "_name": "堕入黑暗臂带",
+        "_props": {
+            "Weight": 0.05,
+            "BackgroundColor": "red",
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/equipment/armband/item_equipment_armband_story_02_in_the_darkness.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "臂带（堕入黑暗）",
+            "ShortName": "臂带",
+            "Description": "臂带的佩戴者亲手同意了一项交易，事实证明这一妥协的代价远比想象中更为沉重。",
+            "DefaultPrice": 100000,
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "灯塔臂带": {
+        "_id": "灯塔臂带",
+        "_targetid": "60b0f988c4449e4cb624c1da",
+        "_name": "灯塔臂带",
+        "_props": {
+            "Weight": 0.05,
+            "BackgroundColor": "blue",
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/equipment/armband/item_equipment_armband_story_03_didnt_escape_from_yourself.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "臂带（灯塔）",
+            "ShortName": "臂带",
+            "Description": "这一臂带宛如枷锁，让佩戴它的 PMC 永远无法逃离自己在塔科夫的过往。",
+            "DefaultPrice": 100000,
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "为了全人类臂带": {
+        "_id": "为了全人类臂带",
+        "_targetid": "60b0f988c4449e4cb624c1da",
+        "_name": "为了全人类臂带",
+        "_props": {
+            "Weight": 0.05,
+            "BackgroundColor": "green",
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/equipment/armband/item_equipment_armband_story_04_for_humanity.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "臂带（为了全人类）",
+            "ShortName": "臂带",
+            "Description": "为那些揭露了塔科夫残酷真相的 PMC 们打造的专属臂带。",
+            "DefaultPrice": 100000,
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "幸存者海报": {
+        "_id": "幸存者海报",
+        "_targetid": "6759e61067c8eb5cd10352f1",
+        "_name": "幸存者海报",
+        "_props": {
+            "BackgroundColor": "yellow",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_flyers/item_barter_flyers_story_01_and_survived.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "幸存者海报",
+            "ShortName": "幸存者",
+            "Description": "描绘了 PMC 逃出塔科夫场面的海报。尽管他置身 TerraGroup 的惊天阴谋以及整场冲突的根源之外，但仍然奇迹般地幸存了下来，最终得以逃离。",
+            "DefaultPrice": 180126,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "堕入黑暗海报": {
+        "_id": "堕入黑暗海报",
+        "_targetid": "6759e61067c8eb5cd10352f1",
+        "_name": "堕入黑暗海报",
+        "_props": {
+            "BackgroundColor": "red",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_flyers/item_barter_flyers_story_02_in_the_darkness.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "堕入黑暗海报",
+            "ShortName": "堕入黑暗",
+            "Description": "这张海报昭示着：对于那些在诱惑之下放弃了追寻真理之人，唯有一条出路——坠入深渊。",
+            "DefaultPrice": 180126,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "灯塔海报": {
+        "_id": "灯塔海报",
+        "_targetid": "6759e61067c8eb5cd10352f1",
+        "_name": "灯塔海报",
+        "_props": {
+            "BackgroundColor": "blue",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_flyers/item_barter_flyers_story_03_didnt_escape_from_yourself.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "灯塔海报",
+            "ShortName": "灯塔",
+            "Description": "一张画有灯塔的海报。从不同角度看去，海报上会显现出若有若无的发光图案。在其它地方，这大概会被视为希望的象征，但对你来说，这更像是一则高悬在头顶的警告，昭示着你对某个力量无边之人欠下的一笔永远无法逃避的债务。",
+            "DefaultPrice": 180126,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "为了全人类海报": {
+        "_id": "为了全人类海报",
+        "_targetid": "6759e61067c8eb5cd10352f1",
+        "_name": "为了全人类海报",
+        "_props": {
+            "BackgroundColor": "green",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_flyers/item_barter_flyers_story_04_for_humanity.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "为了全人类海报",
+            "ShortName": "为了全人类",
+            "Description": "这张海报展示了在面对正义战士的锋刃时，即使是最为纯粹的邪恶也只有自取灭亡。在这只怪物可耻的尸骸上，人类将以自己的意志建成崭新的未来。",
+            "DefaultPrice": 180126,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "BEAR幸存者狗牌": {
+        "_id": "BEAR幸存者狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "BEAR幸存者狗牌",
+        "_props": {
+            "BackgroundColor": "yellow",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_01_and_survived.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "BEAR 狗牌",
+            "ShortName": "BEAR",
+            "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。尽管这块狗牌的主人从未探究过整场冲突背后的原因，但还是在血雨腥风中幸存了下来，最终逃离了塔科夫。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "BEAR堕入黑暗狗牌": {
+        "_id": "BEAR堕入黑暗狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "BEAR堕入黑暗狗牌",
+        "_props": {
+            "BackgroundColor": "red",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_02_in_the_darkness.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "BEAR 狗牌",
+            "ShortName": "BEAR",
+            "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。沾满了前主人的斑斑血迹，生存的本能促使他选择了逃离塔科夫的捷径，却连同整个世界一起堕入黑暗渊薮之中。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "BEAR灯塔狗牌": {
+        "_id": "BEAR灯塔狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "BEAR灯塔狗牌",
+        "_props": {
+            "BackgroundColor": "blue",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_03_didnt_escape_from_yourself.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "BEAR 狗牌",
+            "ShortName": "BEAR",
+            "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。弹孔赫然穿透了狗牌中央，几乎要将它分为两半，还留下了铁丝网刮擦的痕迹。也许狗牌的主人逃离了塔科夫，但他永远无法逃离他自己。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "BEAR救世主狗牌": {
+        "_id": "BEAR救世主狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "BEAR救世主狗牌",
+        "_props": {
+            "BackgroundColor": "green",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_04_for_humanity.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "BEAR 狗牌",
+            "ShortName": "BEAR",
+            "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。狗牌的主人将 TerraGroup 在塔科夫进行的所有邪恶勾当公之于众，表面的印记彰显了集团走向覆灭的可耻命运。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "USEC幸存者狗牌": {
+        "_id": "USEC幸存者狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "USEC幸存者狗牌",
+        "_props": {
+            "BackgroundColor": "yellow",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_01_and_survived.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "USEC 狗牌",
+            "ShortName": "USEC",
+            "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。尽管这块狗牌的主人从未探究过整场冲突背后的原因，但还是在血雨腥风中幸存了下来，最终逃离了塔科夫。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "USEC堕入黑暗狗牌": {
+        "_id": "USEC堕入黑暗狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "USEC堕入黑暗狗牌",
+        "_props": {
+            "BackgroundColor": "red",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_02_in_the_darkness.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "USEC 狗牌",
+            "ShortName": "USEC",
+            "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。沾满了前主人的斑斑血迹，生存的本能促使他选择了逃离塔科夫的捷径，却连同整个世界一起堕入黑暗渊薮之中。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "USEC灯塔狗牌": {
+        "_id": "USEC灯塔狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "USEC灯塔狗牌",
+        "_props": {
+            "BackgroundColor": "blue",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_03_didnt_escape_from_yourself.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "USEC 狗牌",
+            "ShortName": "USEC",
+            "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。弹孔赫然穿透了狗牌中央，几乎要将它分为两半，还留下了铁丝网刮擦的痕迹。也许狗牌的主人逃离了塔科夫，但他永远无法逃离他自己。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "USEC救世主狗牌": {
+        "_id": "USEC救世主狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "USEC救世主狗牌",
+        "_props": {
+            "BackgroundColor": "green",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_04_for_humanity.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "USEC 狗牌",
+            "ShortName": "USEC",
+            "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。狗牌的主人将 TerraGroup 在塔科夫进行的所有邪恶勾当公之于众，表面的印记彰显了集团走向覆灭的可耻命运。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "BEAR熔融狗牌": {
+        "_id": "BEAR熔融狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "BEAR熔融狗牌",
+        "_props": {
+            "BackgroundColor": "blue",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_melted/item_barter_dogtags_melted.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "BEAR 狗牌",
+            "ShortName": "BEAR",
+            "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。破旧不堪，却奇迹般地没有散落。只属于那些亲历决定时刻的人。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "USEC熔融狗牌": {
+        "_id": "USEC熔融狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "USEC熔融狗牌",
+        "_props": {
+            "BackgroundColor": "blue",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_melted/item_barter_dogtags_melted.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "USEC 狗牌",
+            "ShortName": "USEC",
+            "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。破旧不堪，却奇迹般地没有散落。只属于那些亲历决定时刻的人。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 31
+        }
+    },
+    "黑Razer": {
+        "_id": "黑Razer",
+        "_targetid": "618ba27d9008e4636a67f61d",
+        "_name": "黑Razer",
+        "_props": {
+            "Prefab": {
+                "path": "assets/mods/scope_30mm_razor_hd_gen_2_1_6x24.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "Vortex Razor HD Gen.2 1-6x24 30 毫米步枪瞄准镜（BLK）",
+            "ShortName": "Razor HD Gen.2",
+            "Description": "兼顾快速锁定目标与极致精准度的战术可变倍步枪瞄准镜 (LVPO)，由 Vortex 光学公司设计制造。",
+            "RagfairType": "5b5f748386f774093e6cb501",
+            "DefaultPrice": 92856,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "6567e7681265c8a131069b0f",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "Mods"
+            ],
+            "CopyPrice": true
+        }
+    },
+    "黑PM2": {
+        "_id": "黑PM2",
+        "_targetid": "617151c1d92c473c770214ab",
+        "_name": "黑PM2",
+        "_props": {
+            "Prefab": {
+                "path": "assets/mods/scope_30mm_s&b_pm_ii_1_8x24.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "Schmidt & Bender PM II 1-8x24 30 毫米步枪瞄准镜（BLK）",
+            "ShortName": "PM II 1-8x24",
+            "Description": "Schmidt & Bender PM II 1-8x24 步枪瞄准镜最初是为军方精锐单位进行目标快速定位与高精度射击而打造的。 ",
+            "RagfairType": "5b5f748386f774093e6cb501",
+            "DefaultPrice": 92856,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "6567e7681265c8a131069b0f",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "Mods"
+            ],
+            "CopyPrice": true
+        }
+    },
+    "回血能量饮料": {
+        "_id": "回血能量饮料",
+        "_targetid": "60098b1705871270cd5352a1",
+        "_name": "回血能量饮料",
+        "_props": {
+            "BackgroundColor": "violet",
+            "Prefab": {
+                "path": "assets/HealthDrink/item_drink_waterration_loot.bundle",
+                "rcid": ""
+            },
+            "UsePrefab": {
+                "path": "assets/HealthDrink/item_drink_waterration_container.bundle",
+                "rcid": ""
+            },
+            "MaxResource": 50,
+            "StimulatorBuffs": "Buffs_Regeneration_Drink",
+            "effects_health": {
+                "Energy": {
+                    "value": 25
+                },
+                "Hydration": {
+                    "value": 50
+                }
+            }
+        },
+        "_customprops": {
+            "$type": "buff",
+            "Name": "健将牌运动饮料包（橘子口味）",
+            "ShortName": "运动饮料",
+            "Description": "火神集团三部出品的橘子口味运动饮料，饮用方便、易于携带，其包含的特殊化合物能够加速新陈代谢，提升运动能力，采取特殊高分子合成可降解塑料作为包装，不易破损，绿色、环保、无污染。",
+            "DefaultPrice": 69000,
+            "RagfairType": "5b47574386f77428ca22b335",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BuffValue": [
+                {
+                    "BuffType": "SkillRate",
+                    "Chance": 1,
+                    "Delay": 1,
+                    "Duration": 60,
+                    "Value": 1,
+                    "AbsoluteValue": true,
+                    "SkillName": "Vitality"
+                },
+                {
+                    "BuffType": "HealthRate",
+                    "Chance": 1,
+                    "Delay": 1,
+                    "Duration": 7200,
+                    "Value": 0.1,
+                    "AbsoluteValue": true,
+                    "SkillName": ""
+                }
+            ]
         }
     }
 }

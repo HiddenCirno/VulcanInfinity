@@ -2345,10 +2345,13 @@
                     "enemyequip": []
                 },
                 {
-                    "$type": "hand",
+                    "$type": "handgroup",
                     "id": "PersicariaDeadTask7Hand1",
                     "inraid": true,
-                    "itemid": "62963c18dbc8ab5f0d382d0b",
+                    "itemgroup":[
+                        "黑骑士头",
+                        "62963c18dbc8ab5f0d382d0b"
+                    ],
                     "count": 5
                 },
                 {

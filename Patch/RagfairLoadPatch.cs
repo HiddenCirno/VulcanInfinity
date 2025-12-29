@@ -74,8 +74,9 @@ namespace VulcanInfinity
                     GunFight.CompleteDeleteRecoil(databaseService);
                 }
             }
-            //File.WriteAllText(System.IO.Path.Combine(ConfigManager.modPath, "exportquest.json"), jsonUtil.Serialize(databaseService.GetQuests(), true));
-            //File.WriteAllText(System.IO.Path.Combine(ConfigManager.modPath, "exportitem.json"), jsonUtil.Serialize(databaseService.GetItems(), true));
+            File.WriteAllText(System.IO.Path.Combine(ConfigManager.modPath, "exportquest.json"), jsonUtil.Serialize(databaseService.GetQuests(), true));
+            File.WriteAllText(System.IO.Path.Combine(ConfigManager.modPath, "exportitem.json"), jsonUtil.Serialize(databaseService.GetItems(), true));
+            File.WriteAllText(System.IO.Path.Combine(ConfigManager.modPath, "exportachievement.json"), jsonUtil.Serialize(databaseService.GetAchievements(), true));
             //VulcanLog.Access("抽卡统计结束", logger);
             return true; 
             // 跳过原始方法，直接使用修改后的逻辑

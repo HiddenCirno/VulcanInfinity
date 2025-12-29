@@ -59,7 +59,6 @@ D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\bin\Debug\火神重工-�
 D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\bin\Debug\火神重工-无限\火神重工-无限.deps.json
 D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\bin\Debug\火神重工-无限\火神重工-无限.dll
 D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\bin\Debug\火神重工-无限\火神重工-无限.pdb
-I:\TKF\SPT\user\mods\火神重工-无限\火神重工-无限.dll
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\ae2\items.json
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\arrowmarker\items.json
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\gunfight\items.json
@@ -109,6 +108,7 @@ I:\TKF\SPT\user\mods\火神重工-无限\moddata\vulcanmod\trader\base.json
 I:\TKF\SPT\user\mods\火神重工-无限\火神重工-无限.staticwebassets.endpoints.json
 I:\TKF\SPT\user\mods\火神重工-无限\config.jsonc
 I:\TKF\SPT\user\mods\火神重工-无限\火神重工-无限.deps.json
+I:\TKF\SPT\user\mods\火神重工-无限\火神重工-无限.dll
 I:\TKF\SPT\user\mods\火神重工-无限\火神重工-无限.pdb
 D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\obj\Debug\火神重工-无限.csproj.AssemblyReference.cache
 D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\obj\Debug\rpswa.dswa.cache.json
