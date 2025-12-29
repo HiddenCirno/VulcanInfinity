@@ -179,7 +179,7 @@ public class VulcanMod
         RecipeUtils.InitRecipeData(normalRecipeData, databaseService, cloner);
         RecipeUtils.InitScavCaseRecipeData(scavCaseRecipeData, databaseService, cloner);
         CustomizationUtils.InitCustomiaztionData(customCustomizationsData, databaseService, cloner);
-        CustomizationUtils.InitHideoutCustomiaztionData(customHideoutCustomizationsData, databaseService, cloner);
+        CustomizationUtils.InitHideoutCustomiaztionData(customHideoutCustomizationsData, databaseService, cloner, logger);
         SuitUtils.InitCustomSuitData(customSuitData, traderBase.Id, databaseService, cloner);
         ItemUtils.InitDrawPool(drawpool);
         //原版数值修改

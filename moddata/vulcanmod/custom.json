@@ -3914,5 +3914,25 @@
             "BearTemplateId": "BEAR堕入黑暗狗牌",
             "UsecTemplateId": "USEC堕入黑暗狗牌"
         }
+    },
+    "救世主狗牌": {
+        "_id": "救世主狗牌",
+        "_name": "救世主狗牌",
+        "_parent": "6746fafabafff8500804880e",
+        "_type": "Item",
+        "_props": {
+            "AvailableAsDefault": true,
+            "Name": "人类之光",
+            "EName": "人类之光",
+            "ShortName": "人类之光",
+            "Description": "人类之光",
+            "ProfileVersions": [],
+            "Side": [
+                "Bear",
+                "Usec"
+            ],
+            "BearTemplateId": "BEAR救世主狗牌",
+            "UsecTemplateId": "USEC救世主狗牌"
+        }
     }
 }

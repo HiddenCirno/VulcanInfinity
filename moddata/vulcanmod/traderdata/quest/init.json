@@ -2348,7 +2348,7 @@
                     "$type": "handgroup",
                     "id": "PersicariaDeadTask7Hand1",
                     "inraid": true,
-                    "itemgroup":[
+                    "itemgroup": [
                         "黑骑士头",
                         "62963c18dbc8ab5f0d382d0b"
                     ],
@@ -6341,5 +6341,105 @@
             "Failed": []
         },
         "QuestReward": []
+    },
+    "正式版赠礼": {
+        "ID": "正式版赠礼",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "level",
+                    "id": "正式版赠礼_等级需求1",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": [
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "正式版赠礼_奖励_物品_1",
+                        "_tpl": "正式版纪念臂带",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "正式版赠礼",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "Count": 1,
+                "ID": "正式版赠礼_奖励_1"
+            },
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "正式版赠礼_奖励_物品_2",
+                        "_tpl": "头眼祷文臂带",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "正式版赠礼",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "Count": 1,
+                "ID": "正式版赠礼_奖励_2"
+            },
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "正式版赠礼_奖励_物品_3",
+                        "_tpl": "搜刮祷文臂带",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "正式版赠礼",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "Count": 1,
+                "ID": "正式版赠礼_奖励_3"
+            },
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "正式版赠礼_奖励_物品_4",
+                        "_tpl": "防护祷文臂带",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "正式版赠礼",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "Count": 1,
+                "ID": "正式版赠礼_奖励_4"
+            }
+        ]
     }
 }

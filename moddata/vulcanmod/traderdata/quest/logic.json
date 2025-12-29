@@ -748,5 +748,12 @@
         "pretraderstanding": {},
         "pretraderlevel": {},
         "prelevel": 0
+    },
+    "正式版赠礼": {
+        "id": "正式版赠礼",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
     }
 }

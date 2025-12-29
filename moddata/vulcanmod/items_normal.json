@@ -1010,7 +1010,10 @@
             "CanFindInRaid": true,
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
-            "isMoney": false
+            "isMoney": false,
+            "FixType": [
+                "Mods"
+            ]
         }
     },
     "曼恩的抑制剂": {
@@ -1635,6 +1638,7 @@
                 "path": "assets/content/items/equipment/armorshield/white/item_equipment_armor_gjel.bundle",
                 "rcid": ""
             },
+            "InsuranceDisabled": true,
             "RepairCost": 100000000,
             "MergesWithChildren": true,
             "CanSellOnRagfair": false,
@@ -1700,7 +1704,8 @@
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
-            "BlackListType": 63
+            "BlackListType": 63,
+            "InRaidLimit": 1
         }
     },
     "蓝甲": {
@@ -1714,6 +1719,7 @@
                 "path": "assets/content/items/equipment/armorshield/blue/item_equipment_armor_gjel.bundle",
                 "rcid": ""
             },
+            "InsuranceDisabled": true,
             "RepairCost": 100000000,
             "MergesWithChildren": true,
             "CanSellOnRagfair": false,
@@ -1797,7 +1803,8 @@
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
-            "BlackListType": 63
+            "BlackListType": 63,
+            "InRaidLimit": 1
         }
     },
     "紫甲": {
@@ -1811,6 +1818,7 @@
                 "path": "assets/content/items/equipment/armorshield/violet/item_equipment_armor_gjel.bundle",
                 "rcid": ""
             },
+            "InsuranceDisabled": true,
             "RepairCost": 100000000,
             "MergesWithChildren": true,
             "CanSellOnRagfair": false,
@@ -1912,7 +1920,8 @@
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
-            "BlackListType": 63
+            "BlackListType": 63,
+            "InRaidLimit": 1
         }
     },
     "红甲": {
@@ -1926,6 +1935,7 @@
                 "path": "assets/content/items/equipment/armorshield/red/item_equipment_armor_gjel.bundle",
                 "rcid": ""
             },
+            "InsuranceDisabled": true,
             "RepairCost": 100000000,
             "MergesWithChildren": true,
             "CanSellOnRagfair": false,
@@ -2045,7 +2055,8 @@
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
-            "BlackListType": 63
+            "BlackListType": 63,
+            "InRaidLimit": 1
         }
     },
     "护盾模组": {
@@ -2115,7 +2126,8 @@
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
-            "BlackListType": 63
+            "BlackListType": 63,
+            "InRaidLimit": 8
         }
     },
     "小腰包": {
@@ -6610,6 +6622,7 @@
                 "path": "armor_mc_test.pack",
                 "rcid": ""
             },
+            "InsuranceDisabled": true,
             "CanSellOnRagfair": false,
             "RepairCost": 100,
             "Slots": [],
@@ -6664,7 +6677,8 @@
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
-            "BlackListType": 63
+            "BlackListType": 63,
+            "InRaidLimit": 1
         }
     },
     "钻石甲": {
@@ -6680,6 +6694,7 @@
                 "path": "armor_mc_diamond.pack",
                 "rcid": ""
             },
+            "InsuranceDisabled": true,
             "CanSellOnRagfair": false,
             "RepairCost": 100,
             "Slots": [],
@@ -6734,7 +6749,8 @@
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
-            "BlackListType": 63
+            "BlackListType": 63,
+            "InRaidLimit": 1
         }
     },
     "下界合金甲": {
@@ -6750,6 +6766,7 @@
                 "path": "armor_mc_netherite.pack",
                 "rcid": ""
             },
+            "InsuranceDisabled": true,
             "CanSellOnRagfair": false,
             "RepairCost": 100,
             "Slots": [],
@@ -6804,7 +6821,8 @@
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
-            "BlackListType": 63
+            "BlackListType": 63,
+            "InRaidLimit": 1
         }
     },
     "金甲": {
@@ -6818,6 +6836,7 @@
                 "path": "assets/content/items/equipment/armorshield/gold/item_equipment_armor_gjel.bundle",
                 "rcid": ""
             },
+            "InsuranceDisabled": true,
             "RepairCost": 100000000,
             "MergesWithChildren": true,
             "CanSellOnRagfair": false,
@@ -6991,7 +7010,8 @@
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
-            "BlackListType": 63
+            "BlackListType": 63,
+            "InRaidLimit": 1
         }
     },
     "尼基塔的马": {
@@ -28513,13 +28533,13 @@
             "Name": "臂带（幸存者）",
             "ShortName": "臂带",
             "Description": "臂带的主人从未揭露塔科夫巨变背后的真正原因。但他至少活了下来，到头来这才是唯一要紧的事情。",
-            "DefaultPrice": 100000,
+            "DefaultPrice": 251115,
             "RagfairType": "5b5f704686f77447ec5d76d7",
             "CanFindInRaid": false,
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
-            "BlackListType": 31
+            "BlackListType": 63
         }
     },
     "堕入黑暗臂带": {
@@ -28540,13 +28560,13 @@
             "Name": "臂带（堕入黑暗）",
             "ShortName": "臂带",
             "Description": "臂带的佩戴者亲手同意了一项交易，事实证明这一妥协的代价远比想象中更为沉重。",
-            "DefaultPrice": 100000,
+            "DefaultPrice": 251115,
             "RagfairType": "5b5f704686f77447ec5d76d7",
             "CanFindInRaid": false,
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
-            "BlackListType": 31
+            "BlackListType": 63
         }
     },
     "灯塔臂带": {
@@ -28567,13 +28587,13 @@
             "Name": "臂带（灯塔）",
             "ShortName": "臂带",
             "Description": "这一臂带宛如枷锁，让佩戴它的 PMC 永远无法逃离自己在塔科夫的过往。",
-            "DefaultPrice": 100000,
+            "DefaultPrice": 251115,
             "RagfairType": "5b5f704686f77447ec5d76d7",
             "CanFindInRaid": false,
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
-            "BlackListType": 31
+            "BlackListType": 63
         }
     },
     "为了全人类臂带": {
@@ -28594,13 +28614,13 @@
             "Name": "臂带（为了全人类）",
             "ShortName": "臂带",
             "Description": "为那些揭露了塔科夫残酷真相的 PMC 们打造的专属臂带。",
-            "DefaultPrice": 100000,
+            "DefaultPrice": 251115,
             "RagfairType": "5b5f704686f77447ec5d76d7",
             "CanFindInRaid": false,
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
-            "BlackListType": 31
+            "BlackListType": 63
         }
     },
     "幸存者海报": {
@@ -28619,9 +28639,9 @@
             "Name": "幸存者海报",
             "ShortName": "幸存者",
             "Description": "描绘了 PMC 逃出塔科夫场面的海报。尽管他置身 TerraGroup 的惊天阴谋以及整场冲突的根源之外，但仍然奇迹般地幸存了下来，最终得以逃离。",
-            "DefaultPrice": 180126,
+            "DefaultPrice": 251115,
             "RagfairType": "5b47574386f77428ca22b2f4",
-            "CanFindInRaid": true,
+            "CanFindInRaid": false,
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
@@ -28629,7 +28649,8 @@
             "FixType": [
                 "Container",
                 "Mods"
-            ]
+            ],
+            "BlackListType": 63
         }
     },
     "堕入黑暗海报": {
@@ -28648,9 +28669,9 @@
             "Name": "堕入黑暗海报",
             "ShortName": "堕入黑暗",
             "Description": "这张海报昭示着：对于那些在诱惑之下放弃了追寻真理之人，唯有一条出路——坠入深渊。",
-            "DefaultPrice": 180126,
+            "DefaultPrice": 251115,
             "RagfairType": "5b47574386f77428ca22b2f4",
-            "CanFindInRaid": true,
+            "CanFindInRaid": false,
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
@@ -28658,7 +28679,8 @@
             "FixType": [
                 "Container",
                 "Mods"
-            ]
+            ],
+            "BlackListType": 63
         }
     },
     "灯塔海报": {
@@ -28677,9 +28699,9 @@
             "Name": "灯塔海报",
             "ShortName": "灯塔",
             "Description": "一张画有灯塔的海报。从不同角度看去，海报上会显现出若有若无的发光图案。在其它地方，这大概会被视为希望的象征，但对你来说，这更像是一则高悬在头顶的警告，昭示着你对某个力量无边之人欠下的一笔永远无法逃避的债务。",
-            "DefaultPrice": 180126,
+            "DefaultPrice": 251115,
             "RagfairType": "5b47574386f77428ca22b2f4",
-            "CanFindInRaid": true,
+            "CanFindInRaid": false,
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
@@ -28687,7 +28709,8 @@
             "FixType": [
                 "Container",
                 "Mods"
-            ]
+            ],
+            "BlackListType": 63
         }
     },
     "为了全人类海报": {
@@ -28706,9 +28729,9 @@
             "Name": "为了全人类海报",
             "ShortName": "为了全人类",
             "Description": "这张海报展示了在面对正义战士的锋刃时，即使是最为纯粹的邪恶也只有自取灭亡。在这只怪物可耻的尸骸上，人类将以自己的意志建成崭新的未来。",
-            "DefaultPrice": 180126,
+            "DefaultPrice": 251115,
             "RagfairType": "5b47574386f77428ca22b2f4",
-            "CanFindInRaid": true,
+            "CanFindInRaid": false,
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
@@ -28716,7 +28739,8 @@
             "FixType": [
                 "Container",
                 "Mods"
-            ]
+            ],
+            "BlackListType": 63
         }
     },
     "BEAR幸存者狗牌": {
@@ -28741,7 +28765,13 @@
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
-            "BlackListType": 31
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "CopyPrice": true
         }
     },
     "BEAR堕入黑暗狗牌": {
@@ -28766,7 +28796,13 @@
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
-            "BlackListType": 31
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "CopyPrice": true
         }
     },
     "BEAR灯塔狗牌": {
@@ -28791,7 +28827,13 @@
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
-            "BlackListType": 31
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "CopyPrice": true
         }
     },
     "BEAR救世主狗牌": {
@@ -28816,107 +28858,13 @@
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
-            "BlackListType": 31
-        }
-    },
-    "USEC幸存者狗牌": {
-        "_id": "USEC幸存者狗牌",
-        "_targetid": "59f32bb586f774757e1e8442",
-        "_name": "USEC幸存者狗牌",
-        "_props": {
-            "BackgroundColor": "yellow",
-            "Prefab": {
-                "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_01_and_survived.bundle",
-                "rcid": ""
-            }
-        },
-        "_customprops": {
-            "$type": "base",
-            "Name": "USEC 狗牌",
-            "ShortName": "USEC",
-            "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。尽管这块狗牌的主人从未探究过整场冲突背后的原因，但还是在血雨腥风中幸存了下来，最终逃离了塔科夫。",
-            "DefaultPrice": 400,
-            "RagfairType": "5b47574386f77428ca22b2f4",
-            "CanFindInRaid": false,
-            "CustomLoot": false,
-            "CustomLootTarget": "59faff1d86f7746c51718c9c",
-            "isMoney": false,
-            "BlackListType": 31
-        }
-    },
-    "USEC堕入黑暗狗牌": {
-        "_id": "USEC堕入黑暗狗牌",
-        "_targetid": "59f32bb586f774757e1e8442",
-        "_name": "USEC堕入黑暗狗牌",
-        "_props": {
-            "BackgroundColor": "red",
-            "Prefab": {
-                "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_02_in_the_darkness.bundle",
-                "rcid": ""
-            }
-        },
-        "_customprops": {
-            "$type": "base",
-            "Name": "USEC 狗牌",
-            "ShortName": "USEC",
-            "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。沾满了前主人的斑斑血迹，生存的本能促使他选择了逃离塔科夫的捷径，却连同整个世界一起堕入黑暗渊薮之中。",
-            "DefaultPrice": 400,
-            "RagfairType": "5b47574386f77428ca22b2f4",
-            "CanFindInRaid": false,
-            "CustomLoot": false,
-            "CustomLootTarget": "59faff1d86f7746c51718c9c",
-            "isMoney": false,
-            "BlackListType": 31
-        }
-    },
-    "USEC灯塔狗牌": {
-        "_id": "USEC灯塔狗牌",
-        "_targetid": "59f32bb586f774757e1e8442",
-        "_name": "USEC灯塔狗牌",
-        "_props": {
-            "BackgroundColor": "blue",
-            "Prefab": {
-                "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_03_didnt_escape_from_yourself.bundle",
-                "rcid": ""
-            }
-        },
-        "_customprops": {
-            "$type": "base",
-            "Name": "USEC 狗牌",
-            "ShortName": "USEC",
-            "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。弹孔赫然穿透了狗牌中央，几乎要将它分为两半，还留下了铁丝网刮擦的痕迹。也许狗牌的主人逃离了塔科夫，但他永远无法逃离他自己。",
-            "DefaultPrice": 400,
-            "RagfairType": "5b47574386f77428ca22b2f4",
-            "CanFindInRaid": false,
-            "CustomLoot": false,
-            "CustomLootTarget": "59faff1d86f7746c51718c9c",
-            "isMoney": false,
-            "BlackListType": 31
-        }
-    },
-    "USEC救世主狗牌": {
-        "_id": "USEC救世主狗牌",
-        "_targetid": "59f32bb586f774757e1e8442",
-        "_name": "USEC救世主狗牌",
-        "_props": {
-            "BackgroundColor": "green",
-            "Prefab": {
-                "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_04_for_humanity.bundle",
-                "rcid": ""
-            }
-        },
-        "_customprops": {
-            "$type": "base",
-            "Name": "USEC 狗牌",
-            "ShortName": "USEC",
-            "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。狗牌的主人将 TerraGroup 在塔科夫进行的所有邪恶勾当公之于众，表面的印记彰显了集团走向覆灭的可耻命运。",
-            "DefaultPrice": 400,
-            "RagfairType": "5b47574386f77428ca22b2f4",
-            "CanFindInRaid": false,
-            "CustomLoot": false,
-            "CustomLootTarget": "59faff1d86f7746c51718c9c",
-            "isMoney": false,
-            "BlackListType": 31
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "CopyPrice": true
         }
     },
     "BEAR熔融狗牌": {
@@ -28941,12 +28889,173 @@
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
-            "BlackListType": 31
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "CopyPrice": true
+        }
+    },
+    "BEAR四方狗牌": {
+        "_id": "BEAR四方狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "BEAR四方狗牌",
+        "_props": {
+            "BackgroundColor": "blue",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_melted/item_barter_dogtags_melted.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "BEAR 狗牌",
+            "ShortName": "BEAR",
+            "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。见证传奇诞生者的独有之证。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "CopyPrice": true
+        }
+    },
+    "USEC幸存者狗牌": {
+        "_id": "USEC幸存者狗牌",
+        "_targetid": "59f32c3b86f77472a31742f0",
+        "_name": "USEC幸存者狗牌",
+        "_props": {
+            "BackgroundColor": "yellow",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_01_and_survived.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "USEC 狗牌",
+            "ShortName": "USEC",
+            "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。尽管这块狗牌的主人从未探究过整场冲突背后的原因，但还是在血雨腥风中幸存了下来，最终逃离了塔科夫。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "CopyPrice": true
+        }
+    },
+    "USEC堕入黑暗狗牌": {
+        "_id": "USEC堕入黑暗狗牌",
+        "_targetid": "59f32c3b86f77472a31742f0",
+        "_name": "USEC堕入黑暗狗牌",
+        "_props": {
+            "BackgroundColor": "red",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_02_in_the_darkness.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "USEC 狗牌",
+            "ShortName": "USEC",
+            "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。沾满了前主人的斑斑血迹，生存的本能促使他选择了逃离塔科夫的捷径，却连同整个世界一起堕入黑暗渊薮之中。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "CopyPrice": true
+        }
+    },
+    "USEC灯塔狗牌": {
+        "_id": "USEC灯塔狗牌",
+        "_targetid": "59f32c3b86f77472a31742f0",
+        "_name": "USEC灯塔狗牌",
+        "_props": {
+            "BackgroundColor": "blue",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_03_didnt_escape_from_yourself.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "USEC 狗牌",
+            "ShortName": "USEC",
+            "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。弹孔赫然穿透了狗牌中央，几乎要将它分为两半，还留下了铁丝网刮擦的痕迹。也许狗牌的主人逃离了塔科夫，但他永远无法逃离他自己。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "CopyPrice": true
+        }
+    },
+    "USEC救世主狗牌": {
+        "_id": "USEC救世主狗牌",
+        "_targetid": "59f32c3b86f77472a31742f0",
+        "_name": "USEC救世主狗牌",
+        "_props": {
+            "BackgroundColor": "green",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_04_for_humanity.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "USEC 狗牌",
+            "ShortName": "USEC",
+            "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。狗牌的主人将 TerraGroup 在塔科夫进行的所有邪恶勾当公之于众，表面的印记彰显了集团走向覆灭的可耻命运。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "CopyPrice": true
         }
     },
     "USEC熔融狗牌": {
         "_id": "USEC熔融狗牌",
-        "_targetid": "59f32bb586f774757e1e8442",
+        "_targetid": "59f32c3b86f77472a31742f0",
         "_name": "USEC熔融狗牌",
         "_props": {
             "BackgroundColor": "blue",
@@ -28966,7 +29075,44 @@
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
-            "BlackListType": 31
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "CopyPrice": true
+        }
+    },
+    "USEC四方狗牌": {
+        "_id": "USEC四方狗牌",
+        "_targetid": "59f32c3b86f77472a31742f0",
+        "_name": "USEC四方狗牌",
+        "_props": {
+            "BackgroundColor": "blue",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_melted/item_barter_dogtags_melted.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "USEC 狗牌",
+            "ShortName": "USEC",
+            "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。见证传奇诞生者的独有之证。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "CopyPrice": true
         }
     },
     "黑Razer": {

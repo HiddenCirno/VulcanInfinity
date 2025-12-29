@@ -269,7 +269,7 @@
         "instantComplete": false,
         "showNotificationsInGame": false,
         "showProgress": false,
-        "hidden": false,
+        "hidden": true,
         "showConditions": false,
         "progressBarEnabled": false,
         "conditions": {
@@ -335,7 +335,7 @@
         "instantComplete": false,
         "showNotificationsInGame": false,
         "showProgress": false,
-        "hidden": false,
+        "hidden": true,
         "showConditions": false,
         "progressBarEnabled": false,
         "conditions": {
@@ -401,7 +401,7 @@
         "instantComplete": false,
         "showNotificationsInGame": false,
         "showProgress": false,
-        "hidden": false,
+        "hidden": true,
         "showConditions": false,
         "progressBarEnabled": false,
         "conditions": {
@@ -467,7 +467,7 @@
         "instantComplete": false,
         "showNotificationsInGame": false,
         "showProgress": false,
-        "hidden": false,
+        "hidden": true,
         "showConditions": false,
         "progressBarEnabled": false,
         "conditions": {
@@ -533,7 +533,7 @@
         "instantComplete": false,
         "showNotificationsInGame": false,
         "showProgress": false,
-        "hidden": false,
+        "hidden": true,
         "showConditions": false,
         "progressBarEnabled": false,
         "conditions": {
@@ -599,7 +599,7 @@
         "instantComplete": false,
         "showNotificationsInGame": false,
         "showProgress": false,
-        "hidden": false,
+        "hidden": true,
         "showConditions": false,
         "progressBarEnabled": false,
         "conditions": {
@@ -665,7 +665,7 @@
         "instantComplete": false,
         "showNotificationsInGame": false,
         "showProgress": false,
-        "hidden": false,
+        "hidden": true,
         "showConditions": false,
         "progressBarEnabled": false,
         "conditions": {
@@ -731,7 +731,7 @@
         "instantComplete": false,
         "showNotificationsInGame": false,
         "showProgress": false,
-        "hidden": false,
+        "hidden": true,
         "showConditions": false,
         "progressBarEnabled": false,
         "conditions": {
@@ -797,7 +797,7 @@
         "instantComplete": false,
         "showNotificationsInGame": false,
         "showProgress": false,
-        "hidden": false,
+        "hidden": true,
         "showConditions": false,
         "progressBarEnabled": false,
         "conditions": {
@@ -863,7 +863,7 @@
         "instantComplete": false,
         "showNotificationsInGame": false,
         "showProgress": false,
-        "hidden": false,
+        "hidden": true,
         "showConditions": false,
         "progressBarEnabled": false,
         "conditions": {
@@ -1841,16 +1841,15 @@
             ],
             "failed": []
         },
-        "rewards": [
-            {
+        "rewards": [{
                 "$type": "item",
                 "FindInRaid": true,
                 "Items": [
                     {
-                        "_id": "星辰之路纪念币收集_奖励_物品",
-                        "_tpl": "永恒之证",
+                        "_id": "星辰之路_臂带奖励_物品",
+                        "_tpl": "为了全人类臂带",
                         "upd": {
-                            "StackObjectsCount": 3
+                            "StackObjectsCount": 1
                         }
                     }
                 ],
@@ -1859,8 +1858,68 @@
                 "Hidden": false,
                 "Unknown": false,
                 "IsAchievement": true,
-                "Count": 3,
-                "ID": "星辰之路纪念币收集_奖励"
+                "Count": 1,
+                "ID": "星辰之路_臂带奖励"
+            },
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "星辰之路_海报奖励_物品",
+                        "_tpl": "为了全人类海报",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "星辰之路纪念币收集",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "Count": 1,
+                "ID": "星辰之路_海报奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "救世主狗牌",
+                "Quest": "星辰之路纪念币收集",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "星辰之路_狗牌奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "救世主地板",
+                "Quest": "星辰之路纪念币收集",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "星辰之路_地板奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "救世主天花板",
+                "Quest": "星辰之路纪念币收集",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "星辰之路_天花板奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "救世主墙纸",
+                "Quest": "星辰之路纪念币收集",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "星辰之路_墙纸奖励"
             }
         ]
     },
@@ -2090,25 +2149,7 @@
             ],
             "failed": []
         },
-        "rewards": [
-            {
-                "$type": "item",
-                "Items": [
-                    {
-                        "_id": "旅途的终点_成就奖励_物品",
-                        "_tpl": "永恒之证",
-                        "upd": {
-                            "StackObjectsCount": 10
-                        }
-                    }
-                ],
-                "Count": 10,
-                "ID": "旅途的终点_成就奖励",
-                "Quest": "旅途的终点",
-                "Unknown": false,
-                "IsAchievement": true
-            }
-        ]
+        "rewards": []
     },
     {
         "id": "港区新人",

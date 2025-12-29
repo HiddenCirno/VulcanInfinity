@@ -114,6 +114,26 @@
         "FindInRaid": true,
         "Items": [
             {
+                "_id": "名为太阳的星星_臂带奖励_物品",
+                "_tpl": "堕入黑暗臂带",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "67fce0c2f18dc20eae02240b",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": true,
+        "Count": 1,
+        "ID": "名为太阳的星星_臂带奖励"
+    },
+    {
+        "$type": "item",
+        "FindInRaid": true,
+        "Items": [
+            {
                 "_id": "名为太阳的星星_海报奖励_物品",
                 "_tpl": "堕入黑暗海报",
                 "upd": {
@@ -168,6 +188,26 @@
         "Unknown": false,
         "IsAchievement": true,
         "ID": "名为太阳的星星_墙纸奖励"
+    },
+    {
+        "$type": "item",
+        "FindInRaid": true,
+        "Items": [
+            {
+                "_id": "旅行家_臂带奖励_物品",
+                "_tpl": "幸存者臂带",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "6512eb3ddfb0ae1ee75a0376",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": true,
+        "Count": 1,
+        "ID": "旅行家_臂带奖励"
     },
     {
         "$type": "item",
