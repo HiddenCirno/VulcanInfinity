@@ -6439,6 +6439,16 @@
                 "IsAchievement": false,
                 "Count": 1,
                 "ID": "正式版赠礼_奖励_4"
+            },
+            {
+                "$type": "achievement",
+                "Target": "正式版发售成就",
+                "Quest": "正式版赠礼",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "ID": "正式版赠礼成就奖励"
             }
         ]
     }

@@ -696,7 +696,7 @@
         "Quest": "66d9cbb67b491f9d5304f6e6",
         "Stage": 1,
         "Hidden": false,
-        "Unknown": false,
+        "Unknown": true,
         "IsAchievement": false,
         "Count": 1,
         "ID": "这是什么梗_臂带奖励"

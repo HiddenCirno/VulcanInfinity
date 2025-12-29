@@ -1705,7 +1705,8 @@
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
             "BlackListType": 63,
-            "InRaidLimit": 1
+            "InRaidLimit": 1,
+            "InLobbyLimit": 1
         }
     },
     "蓝甲": {
@@ -1804,7 +1805,8 @@
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
             "BlackListType": 63,
-            "InRaidLimit": 1
+            "InRaidLimit": 1,
+            "InLobbyLimit": 1
         }
     },
     "紫甲": {
@@ -1921,7 +1923,8 @@
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
             "BlackListType": 63,
-            "InRaidLimit": 1
+            "InRaidLimit": 1,
+            "InLobbyLimit": 1
         }
     },
     "红甲": {
@@ -2056,7 +2059,8 @@
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
             "BlackListType": 63,
-            "InRaidLimit": 1
+            "InRaidLimit": 1,
+            "InLobbyLimit": 1
         }
     },
     "护盾模组": {
@@ -2072,6 +2076,7 @@
                 "path": "assets/content/items/equipment/armorshield/cell/item_barter_electr_thermalmodule.bundle",
                 "rcid": ""
             },
+            "InsuranceDisabled": true,
             "CanSellOnRagfair": false,
             "RepairCost": 100000000,
             "Slots": [],
@@ -2119,7 +2124,7 @@
             "$type": "base",
             "Name": "防护罩护盾发生器",
             "ShortName": "护盾单元",
-            "Description": "这项技术来自于布里斯克创办的Apex竞赛，在比赛中，防护罩将会吸收所有的伤害直至破损。每一个护盾单元可以提供25点护盾值。",
+            "Description": "这项技术来自于布里斯克创办的Apex竞赛，在比赛中，防护罩将会吸收所有的伤害直至破损。每一个护盾单元可以提供25点护盾值。\n<color=#FFFFFF><b>请不要尝试对它进行任何维修操作，以免产生不必要的问题！</b></color>",
             "DefaultPrice": 100000,
             "RagfairType": "5b5f704686f77447ec5d76d7",
             "CanFindInRaid": false,
@@ -2127,7 +2132,8 @@
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
             "BlackListType": 63,
-            "InRaidLimit": 8
+            "InRaidLimit": 8,
+            "InLobbyLimit": 8
         }
     },
     "小腰包": {
@@ -6678,7 +6684,8 @@
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
             "BlackListType": 63,
-            "InRaidLimit": 1
+            "InRaidLimit": 1,
+            "InLobbyLimit": 1
         }
     },
     "钻石甲": {
@@ -6750,7 +6757,8 @@
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
             "BlackListType": 63,
-            "InRaidLimit": 1
+            "InRaidLimit": 1,
+            "InLobbyLimit": 1
         }
     },
     "下界合金甲": {
@@ -6822,7 +6830,8 @@
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
             "BlackListType": 63,
-            "InRaidLimit": 1
+            "InRaidLimit": 1,
+            "InLobbyLimit": 1
         }
     },
     "金甲": {
@@ -7011,7 +7020,8 @@
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
             "BlackListType": 63,
-            "InRaidLimit": 1
+            "InRaidLimit": 1,
+            "InLobbyLimit": 1
         }
     },
     "尼基塔的马": {
@@ -28771,7 +28781,12 @@
                 "Mods",
                 "HandoverItemGroup"
             ],
-            "CopyPrice": true
+            "CopyPrice": true,
+            "ApplyAsPMCDogTag": true,
+            "ApplyToBEAR": true,
+            "ApplyToStandard": true,
+            "ApplyToEOD": true,
+            "ApplyToUnheard": true
         }
     },
     "BEAR堕入黑暗狗牌": {
@@ -28802,7 +28817,12 @@
                 "Mods",
                 "HandoverItemGroup"
             ],
-            "CopyPrice": true
+            "CopyPrice": true,
+            "ApplyAsPMCDogTag": true,
+            "ApplyToBEAR": true,
+            "ApplyToStandard": true,
+            "ApplyToEOD": true,
+            "ApplyToUnheard": true
         }
     },
     "BEAR灯塔狗牌": {
@@ -28833,7 +28853,12 @@
                 "Mods",
                 "HandoverItemGroup"
             ],
-            "CopyPrice": true
+            "CopyPrice": true,
+            "ApplyAsPMCDogTag": true,
+            "ApplyToBEAR": true,
+            "ApplyToStandard": true,
+            "ApplyToEOD": true,
+            "ApplyToUnheard": true
         }
     },
     "BEAR救世主狗牌": {
@@ -28864,7 +28889,12 @@
                 "Mods",
                 "HandoverItemGroup"
             ],
-            "CopyPrice": true
+            "CopyPrice": true,
+            "ApplyAsPMCDogTag": true,
+            "ApplyToBEAR": true,
+            "ApplyToStandard": true,
+            "ApplyToEOD": true,
+            "ApplyToUnheard": true
         }
     },
     "BEAR熔融狗牌": {
@@ -28895,7 +28925,12 @@
                 "Mods",
                 "HandoverItemGroup"
             ],
-            "CopyPrice": true
+            "CopyPrice": true,
+            "ApplyAsPMCDogTag": true,
+            "ApplyToBEAR": true,
+            "ApplyToStandard": true,
+            "ApplyToEOD": true,
+            "ApplyToUnheard": true
         }
     },
     "BEAR四方狗牌": {
@@ -28905,7 +28940,7 @@
         "_props": {
             "BackgroundColor": "blue",
             "Prefab": {
-                "path": "assets/content/items/barter/item_barter_dogtags_melted/item_barter_dogtags_melted.bundle",
+                "path": "assets/content/items/barter/item_barter_dogtags_square/item_barter_dogtags_square.bundle",
                 "rcid": ""
             }
         },
@@ -28926,7 +28961,12 @@
                 "Mods",
                 "HandoverItemGroup"
             ],
-            "CopyPrice": true
+            "CopyPrice": true,
+            "ApplyAsPMCDogTag": true,
+            "ApplyToBEAR": true,
+            "ApplyToStandard": true,
+            "ApplyToEOD": true,
+            "ApplyToUnheard": true
         }
     },
     "USEC幸存者狗牌": {
@@ -28957,7 +28997,12 @@
                 "Mods",
                 "HandoverItemGroup"
             ],
-            "CopyPrice": true
+            "CopyPrice": true,
+            "ApplyAsPMCDogTag": true,
+            "ApplyToUSEC": true,
+            "ApplyToStandard": true,
+            "ApplyToEOD": true,
+            "ApplyToUnheard": true
         }
     },
     "USEC堕入黑暗狗牌": {
@@ -28988,7 +29033,12 @@
                 "Mods",
                 "HandoverItemGroup"
             ],
-            "CopyPrice": true
+            "CopyPrice": true,
+            "ApplyAsPMCDogTag": true,
+            "ApplyToUSEC": true,
+            "ApplyToStandard": true,
+            "ApplyToEOD": true,
+            "ApplyToUnheard": true
         }
     },
     "USEC灯塔狗牌": {
@@ -29019,7 +29069,12 @@
                 "Mods",
                 "HandoverItemGroup"
             ],
-            "CopyPrice": true
+            "CopyPrice": true,
+            "ApplyAsPMCDogTag": true,
+            "ApplyToUSEC": true,
+            "ApplyToStandard": true,
+            "ApplyToEOD": true,
+            "ApplyToUnheard": true
         }
     },
     "USEC救世主狗牌": {
@@ -29050,7 +29105,12 @@
                 "Mods",
                 "HandoverItemGroup"
             ],
-            "CopyPrice": true
+            "CopyPrice": true,
+            "ApplyAsPMCDogTag": true,
+            "ApplyToUSEC": true,
+            "ApplyToStandard": true,
+            "ApplyToEOD": true,
+            "ApplyToUnheard": true
         }
     },
     "USEC熔融狗牌": {
@@ -29081,7 +29141,12 @@
                 "Mods",
                 "HandoverItemGroup"
             ],
-            "CopyPrice": true
+            "CopyPrice": true,
+            "ApplyAsPMCDogTag": true,
+            "ApplyToUSEC": true,
+            "ApplyToStandard": true,
+            "ApplyToEOD": true,
+            "ApplyToUnheard": true
         }
     },
     "USEC四方狗牌": {
@@ -29091,7 +29156,7 @@
         "_props": {
             "BackgroundColor": "blue",
             "Prefab": {
-                "path": "assets/content/items/barter/item_barter_dogtags_melted/item_barter_dogtags_melted.bundle",
+                "path": "assets/content/items/barter/item_barter_dogtags_square/item_barter_dogtags_square.bundle",
                 "rcid": ""
             }
         },
@@ -29112,7 +29177,12 @@
                 "Mods",
                 "HandoverItemGroup"
             ],
-            "CopyPrice": true
+            "CopyPrice": true,
+            "ApplyAsPMCDogTag": true,
+            "ApplyToUSEC": true,
+            "ApplyToStandard": true,
+            "ApplyToEOD": true,
+            "ApplyToUnheard": true
         }
     },
     "黑Razer": {

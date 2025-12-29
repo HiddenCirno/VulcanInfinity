@@ -3177,5 +3177,74 @@
             "failed": []
         },
         "rewards": []
+    },
+    {
+        "id": "正式版发售成就",
+        "img": "/files/icon/liverelease.png",
+        "name": "新时代的第一页",
+        "description": "我们对它又爱又恨，这份情感无疑是真实的",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "正式版发售成就_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "正式版发售成就_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "正式版发售成就_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "customization",
+                "Target": "熔融狗牌",
+                "Quest": "正式版发售成就",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "正式版发售成就_狗牌奖励_1"
+            },
+            {
+                "$type": "customization",
+                "Target": "四方狗牌",
+                "Quest": "正式版发售成就",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "正式版发售成就_狗牌奖励_2"
+            }
+        ]
     }
 ]

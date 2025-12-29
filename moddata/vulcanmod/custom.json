@@ -3934,5 +3934,45 @@
             "BearTemplateId": "BEAR救世主狗牌",
             "UsecTemplateId": "USEC救世主狗牌"
         }
+    },
+    "熔融狗牌": {
+        "_id": "熔融狗牌",
+        "_name": "熔融狗牌",
+        "_parent": "6746fafabafff8500804880e",
+        "_type": "Item",
+        "_props": {
+            "AvailableAsDefault": true,
+            "Name": "熔铁烹金",
+            "EName": "熔铁烹金",
+            "ShortName": "熔铁烹金",
+            "Description": "熔铁烹金",
+            "ProfileVersions": [],
+            "Side": [
+                "Bear",
+                "Usec"
+            ],
+            "BearTemplateId": "BEAR熔融狗牌",
+            "UsecTemplateId": "USEC熔融狗牌"
+        }
+    },
+    "四方狗牌": {
+        "_id": "四方狗牌",
+        "_name": "四方狗牌",
+        "_parent": "6746fafabafff8500804880e",
+        "_type": "Item",
+        "_props": {
+            "AvailableAsDefault": true,
+            "Name": "四方平直",
+            "EName": "四方平直",
+            "ShortName": "四方平直",
+            "Description": "四方平直",
+            "ProfileVersions": [],
+            "Side": [
+                "Bear",
+                "Usec"
+            ],
+            "BearTemplateId": "BEAR四方狗牌",
+            "UsecTemplateId": "USEC四方狗牌"
+        }
     }
 }
