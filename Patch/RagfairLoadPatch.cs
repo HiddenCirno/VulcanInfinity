@@ -109,10 +109,12 @@ namespace VulcanInfinity
                 ItemUtils.InitEquipmentChest(VulcanUtil.ConvertHashID("4k装备存储元件"), databaseService, logger, cloner);
                 ItemUtils.InitEquipmentChest(VulcanUtil.ConvertHashID("16k装备存储元件"), databaseService, logger, cloner);
                 ItemUtils.InitEquipmentChest(VulcanUtil.ConvertHashID("64k装备存储元件"), databaseService, logger, cloner);
+                ItemUtils.InitEquipmentChest(VulcanUtil.ConvertHashID("256k装备存储元件"), databaseService, logger, cloner);
                 AE2.InitFileFolder(VulcanUtil.ConvertHashID("1k档案存储元件"), databaseService, logger, cloner);
                 AE2.InitFileFolder(VulcanUtil.ConvertHashID("4k档案存储元件"), databaseService, logger, cloner);
                 AE2.InitFileFolder(VulcanUtil.ConvertHashID("16k档案存储元件"), databaseService, logger, cloner);
                 AE2.InitFileFolder(VulcanUtil.ConvertHashID("64k档案存储元件"), databaseService, logger, cloner);
+                AE2.InitFileFolder(VulcanUtil.ConvertHashID("256k档案存储元件"), databaseService, logger, cloner);
             }
             if (modConfig.Module.TraderModule.InfinityStorage.Active)
             {

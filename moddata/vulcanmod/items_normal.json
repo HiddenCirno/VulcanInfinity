@@ -29298,5 +29298,87 @@
                 }
             ]
         }
+    },
+    "左半边比特币": {
+        "_id": "左半边比特币",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "左半边比特币",
+        "_props": {
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_valuable_bitcoin_part/item_barter_valuable_bitcoin_part_left.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "实体比特币的左半边",
+            "ShortName": "BTC",
+            "Description": "相当于等值比特币的实体代币，但只有左半部分。不知道是什么人粗暴毁灭了这样一件价值连城的东西，背后的缘由更是没人说得清。",
+            "DefaultPrice": 333333,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "右半边比特币": {
+        "_id": "右半边比特币",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "右半边比特币",
+        "_props": {
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_valuable_bitcoin_part/item_barter_valuable_bitcoin_part_right.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "实体比特币的右半边",
+            "ShortName": "BTC",
+            "Description": "相当于等值比特币的实体代币，但只有右半部分。不知道是什么人粗暴毁灭了这样一件价值连城的东西，背后的缘由更是没人说得清。",
+            "DefaultPrice": 333333,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "黄金哑铃": {
+        "_id": "黄金哑铃",
+        "_targetid": "59e3639286f7741777737013",
+        "_name": "黄金哑铃",
+        "_props": {
+            "Width": 2,
+            "Height": 2,
+            "Weight": 46,
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dumbbell_golden/item_barter_dumbbell_golden.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "Mazoni 金色哑铃",
+            "ShortName": "Mazoni",
+            "Description": "知名运动器材制造商推出的限量版“健身工厂”系列哑铃，据说这个系列的器材是在某位哈萨克斯坦运动员启发之下而设计的。",
+            "DefaultPrice": 666666,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "addToKappa": true,
+            "FixType": [
+                "Mods"
+            ]
+        }
     }
 }

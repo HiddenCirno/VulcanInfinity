@@ -54,30 +54,37 @@ public class AE2
             "4k存储元件",
             "16k存储元件",
             "64k存储元件",
+            "256k存储元件",
             "1k交换品存储元件",
             "4k交换品存储元件",
             "16k交换品存储元件",
             "64k交换品存储元件",
+            "256k交换品存储元件",
             "1k医疗存储元件",
             "4k医疗存储元件",
             "16k医疗存储元件",
             "64k医疗存储元件",
+            "256k医疗存储元件",
             "1k装备存储元件",
             "4k装备存储元件",
             "16k装备存储元件",
             "64k装备存储元件",
+            "256k装备存储元件",
             "1k武器存储元件",
             "4k武器存储元件",
             "16k武器存储元件",
             "64k武器存储元件",
+            "256k武器存储元件",
             "1k食品存储元件",
             "4k食品存储元件",
             "16k食品存储元件",
             "64k食品存储元件",
+            "256k食品存储元件",
             "1k档案存储元件",
             "4k档案存储元件",
             "16k档案存储元件",
-            "64k档案存储元件"
+            "64k档案存储元件",
+            "256k档案存储元件"
         };
         ItemUtils.InitItem(items, creator, modName, logger, databaseService, cloner, configServer);
         if (modconfig.EnableSellOnTrader)
@@ -87,36 +94,43 @@ public class AE2
             var cell4k = VulcanUtil.ConvertHashID("4k存储元件");
             var cell16k = VulcanUtil.ConvertHashID("16k存储元件");
             var cell64k = VulcanUtil.ConvertHashID("64k存储元件");
+            var cell256k = VulcanUtil.ConvertHashID("256k存储元件");
             var exchangecell1k = VulcanUtil.ConvertHashID("1k交换品存储元件");
             var exchangecell4k = VulcanUtil.ConvertHashID("4k交换品存储元件");
             var exchangecell16k = VulcanUtil.ConvertHashID("16k交换品存储元件");
             var exchangecell64k = VulcanUtil.ConvertHashID("64k交换品存储元件");
+            var exchangecell256k = VulcanUtil.ConvertHashID("256k交换品存储元件");
             var medicalcell1k = VulcanUtil.ConvertHashID("1k医疗存储元件");
             var medicalcell4k = VulcanUtil.ConvertHashID("4k医疗存储元件");
             var medicalcell16k = VulcanUtil.ConvertHashID("16k医疗存储元件");
             var medicalcell64k = VulcanUtil.ConvertHashID("64k医疗存储元件");
+            var medicalcell256k = VulcanUtil.ConvertHashID("256k医疗存储元件");
             var equipmentcell1k = VulcanUtil.ConvertHashID("1k装备存储元件");
             var equipmentcell4k = VulcanUtil.ConvertHashID("4k装备存储元件");
             var equipmentcell16k = VulcanUtil.ConvertHashID("16k装备存储元件");
             var equipmentcell64k = VulcanUtil.ConvertHashID("64k装备存储元件");
+            var equipmentcell256k = VulcanUtil.ConvertHashID("256k装备存储元件");
             var weaponcell1k = VulcanUtil.ConvertHashID("1k武器存储元件");
             var weaponcell4k = VulcanUtil.ConvertHashID("4k武器存储元件");
             var weaponcell16k = VulcanUtil.ConvertHashID("16k武器存储元件");
             var weaponcell64k = VulcanUtil.ConvertHashID("64k武器存储元件");
+            var weaponcell256k = VulcanUtil.ConvertHashID("256k武器存储元件");
             var foodcell1k = VulcanUtil.ConvertHashID("1k食品存储元件");
             var foodcell4k = VulcanUtil.ConvertHashID("4k食品存储元件");
             var foodcell16k = VulcanUtil.ConvertHashID("16k食品存储元件");
             var foodcell64k = VulcanUtil.ConvertHashID("64k食品存储元件");
+            var foodcell256k = VulcanUtil.ConvertHashID("256k食品存储元件");
             var archivecell1k = VulcanUtil.ConvertHashID("1k档案存储元件");
             var archivecell4k = VulcanUtil.ConvertHashID("4k档案存储元件");
             var archivecell16k = VulcanUtil.ConvertHashID("16k档案存储元件");
             var archivecell64k = VulcanUtil.ConvertHashID("64k档案存储元件");
+            var archivecell256k = VulcanUtil.ConvertHashID("256k档案存储元件");
 
             AssortUtils.AddAssortToTrader(storage, modconfig.TraderID, ItemUtils.GetItemPrice(storage, databaseService), 4, databaseService);
             AssortUtils.AddAssortToTrader(cell1k, modconfig.TraderID, ItemUtils.GetItemPrice(cell1k, databaseService), 1, databaseService);
             AssortUtils.AddAssortToTrader(cell4k, modconfig.TraderID, ItemUtils.GetItemPrice(cell4k, databaseService), 2, databaseService);
             AssortUtils.AddAssortToTrader(cell16k, modconfig.TraderID, ItemUtils.GetItemPrice(cell16k, databaseService), 3, databaseService);
-            AssortUtils.AddAssortToTrader(cell64k, modconfig.TraderID, ItemUtils.GetItemPrice(cell64k, databaseService), 4, databaseService); 
+            AssortUtils.AddAssortToTrader(cell64k, modconfig.TraderID, ItemUtils.GetItemPrice(cell64k, databaseService), 4, databaseService);
 
             AssortUtils.AddAssortToTrader(exchangecell1k, modconfig.TraderID, ItemUtils.GetItemPrice(exchangecell1k, databaseService), 1, databaseService);
             AssortUtils.AddAssortToTrader(exchangecell4k, modconfig.TraderID, ItemUtils.GetItemPrice(exchangecell4k, databaseService), 2, databaseService);
@@ -152,36 +166,43 @@ public class AE2
             ItemUtils.SetExcludeFilter(cell4k, blacklist, databaseService, logger, cloner);
             ItemUtils.SetExcludeFilter(cell16k, blacklist, databaseService, logger, cloner);
             ItemUtils.SetExcludeFilter(cell64k, blacklist, databaseService, logger, cloner);
+            ItemUtils.SetExcludeFilter(cell256k, blacklist, databaseService, logger, cloner);
 
             ItemUtils.SetExcludeFilter(exchangecell1k, blacklist, databaseService, logger, cloner);
             ItemUtils.SetExcludeFilter(exchangecell4k, blacklist, databaseService, logger, cloner);
             ItemUtils.SetExcludeFilter(exchangecell16k, blacklist, databaseService, logger, cloner);
             ItemUtils.SetExcludeFilter(exchangecell64k, blacklist, databaseService, logger, cloner);
+            ItemUtils.SetExcludeFilter(exchangecell256k, blacklist, databaseService, logger, cloner);
 
             ItemUtils.SetExcludeFilter(medicalcell1k, blacklist, databaseService, logger, cloner);
             ItemUtils.SetExcludeFilter(medicalcell4k, blacklist, databaseService, logger, cloner);
             ItemUtils.SetExcludeFilter(medicalcell16k, blacklist, databaseService, logger, cloner);
             ItemUtils.SetExcludeFilter(medicalcell64k, blacklist, databaseService, logger, cloner);
+            ItemUtils.SetExcludeFilter(medicalcell256k, blacklist, databaseService, logger, cloner);
 
             ItemUtils.SetExcludeFilter(equipmentcell1k, blacklist, databaseService, logger, cloner);
             ItemUtils.SetExcludeFilter(equipmentcell4k, blacklist, databaseService, logger, cloner);
             ItemUtils.SetExcludeFilter(equipmentcell16k, blacklist, databaseService, logger, cloner);
             ItemUtils.SetExcludeFilter(equipmentcell64k, blacklist, databaseService, logger, cloner);
+            ItemUtils.SetExcludeFilter(equipmentcell256k, blacklist, databaseService, logger, cloner);
 
             ItemUtils.SetExcludeFilter(weaponcell1k, blacklist, databaseService, logger, cloner);
             ItemUtils.SetExcludeFilter(weaponcell4k, blacklist, databaseService, logger, cloner);
             ItemUtils.SetExcludeFilter(weaponcell16k, blacklist, databaseService, logger, cloner);
             ItemUtils.SetExcludeFilter(weaponcell64k, blacklist, databaseService, logger, cloner);
+            ItemUtils.SetExcludeFilter(weaponcell256k, blacklist, databaseService, logger, cloner);
 
             ItemUtils.SetExcludeFilter(foodcell1k, blacklist, databaseService, logger, cloner);
             ItemUtils.SetExcludeFilter(foodcell4k, blacklist, databaseService, logger, cloner);
             ItemUtils.SetExcludeFilter(foodcell16k, blacklist, databaseService, logger, cloner);
             ItemUtils.SetExcludeFilter(foodcell64k, blacklist, databaseService, logger, cloner);
+            ItemUtils.SetExcludeFilter(foodcell256k, blacklist, databaseService, logger, cloner);
 
             ItemUtils.SetExcludeFilter(archivecell1k, blacklist, databaseService, logger, cloner);
             ItemUtils.SetExcludeFilter(archivecell4k, blacklist, databaseService, logger, cloner);
             ItemUtils.SetExcludeFilter(archivecell16k, blacklist, databaseService, logger, cloner);
             ItemUtils.SetExcludeFilter(archivecell64k, blacklist, databaseService, logger, cloner);
+            ItemUtils.SetExcludeFilter(archivecell256k, blacklist, databaseService, logger, cloner);
         }
     }
     public static void InitFileFolder(MongoId itemid, DatabaseService databaseService, ISptLogger<VulcanCore.VulcanCore> logger, ICloner cloner)
@@ -196,7 +217,7 @@ public class AE2
             filter.Clear();
             var filelist = file.Properties.Grids.First().Properties.Filters.First().Filter;
             var sicclist = file.Properties.Grids.First().Properties.Filters.First().Filter;
-            foreach(var item in filelist)
+            foreach (var item in filelist)
             {
                 if (!filter.Contains(item))
                 {

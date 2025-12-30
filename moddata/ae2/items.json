@@ -8,6 +8,7 @@
             "Width": 4,
             "Height": 4,
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "Prefab": {
                 "path": "storage_container.pack",
                 "rcid": ""
@@ -21,34 +22,42 @@
                         "filters": [
                             {
                                 "Filter": [
+                                    
                                     "1k存储元件",
                                     "4k存储元件",
                                     "16k存储元件",
                                     "64k存储元件",
+                                    "256k存储元件",
                                     "1k交换品存储元件",
                                     "4k交换品存储元件",
                                     "16k交换品存储元件",
                                     "64k交换品存储元件",
+                                    "256k交换品存储元件",
                                     "1k医疗存储元件",
                                     "4k医疗存储元件",
                                     "16k医疗存储元件",
                                     "64k医疗存储元件",
+                                    "256k医疗存储元件",
                                     "1k装备存储元件",
                                     "4k装备存储元件",
                                     "16k装备存储元件",
                                     "64k装备存储元件",
+                                    "256k装备存储元件",
                                     "1k武器存储元件",
                                     "4k武器存储元件",
                                     "16k武器存储元件",
                                     "64k武器存储元件",
+                                    "256k武器存储元件",
                                     "1k食品存储元件",
                                     "4k食品存储元件",
                                     "16k食品存储元件",
                                     "64k食品存储元件",
+                                    "256k食品存储元件",
                                     "1k档案存储元件",
                                     "4k档案存储元件",
                                     "16k档案存储元件",
-                                    "64k档案存储元件"
+                                    "64k档案存储元件",
+                                    "256k档案存储元件"
                                 ],
                                 "ExcludedFilter": []
                             }
@@ -74,30 +83,37 @@
                                     "4k存储元件",
                                     "16k存储元件",
                                     "64k存储元件",
+                                    "256k存储元件",
                                     "1k交换品存储元件",
                                     "4k交换品存储元件",
                                     "16k交换品存储元件",
                                     "64k交换品存储元件",
+                                    "256k交换品存储元件",
                                     "1k医疗存储元件",
                                     "4k医疗存储元件",
                                     "16k医疗存储元件",
                                     "64k医疗存储元件",
+                                    "256k医疗存储元件",
                                     "1k装备存储元件",
                                     "4k装备存储元件",
                                     "16k装备存储元件",
                                     "64k装备存储元件",
+                                    "256k装备存储元件",
                                     "1k武器存储元件",
                                     "4k武器存储元件",
                                     "16k武器存储元件",
                                     "64k武器存储元件",
+                                    "256k武器存储元件",
                                     "1k食品存储元件",
                                     "4k食品存储元件",
                                     "16k食品存储元件",
                                     "64k食品存储元件",
+                                    "256k食品存储元件",
                                     "1k档案存储元件",
                                     "4k档案存储元件",
                                     "16k档案存储元件",
-                                    "64k档案存储元件"
+                                    "64k档案存储元件",
+                                    "256k档案存储元件"
                                 ],
                                 "ExcludedFilter": []
                             }
@@ -116,7 +132,7 @@
         "_customprops": {
             "$type": "base",
             "Name": "ME驱动器",
-            "ShortName": "驱动器",
+            "ShortName": "ME驱动器",
             "Description": "最多可搭载10个存储元件。常用于存放存储元件以提供存储空间。",
             "DefaultPrice": 12000000,
             "RagfairType": "5b5f6fa186f77409407a7eb7",
@@ -136,11 +152,12 @@
         "_name": "1k存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "black",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_1k.pack",
+                "path": "storage_modern_me_1k.pack",
                 "rcid": ""
             },
             "Grids": [
@@ -155,34 +172,42 @@
                                     "54009119af1c881c07000029"
                                 ],
                                 "ExcludedFilter": [
+                                    
                                     "1k存储元件",
                                     "4k存储元件",
                                     "16k存储元件",
                                     "64k存储元件",
+                                    "256k存储元件",
                                     "1k交换品存储元件",
                                     "4k交换品存储元件",
                                     "16k交换品存储元件",
                                     "64k交换品存储元件",
+                                    "256k交换品存储元件",
                                     "1k医疗存储元件",
                                     "4k医疗存储元件",
                                     "16k医疗存储元件",
                                     "64k医疗存储元件",
+                                    "256k医疗存储元件",
                                     "1k装备存储元件",
                                     "4k装备存储元件",
                                     "16k装备存储元件",
                                     "64k装备存储元件",
+                                    "256k装备存储元件",
                                     "1k武器存储元件",
                                     "4k武器存储元件",
                                     "16k武器存储元件",
                                     "64k武器存储元件",
+                                    "256k武器存储元件",
                                     "1k食品存储元件",
                                     "4k食品存储元件",
                                     "16k食品存储元件",
                                     "64k食品存储元件",
+                                    "256k食品存储元件",
                                     "1k档案存储元件",
                                     "4k档案存储元件",
                                     "16k档案存储元件",
-                                    "64k档案存储元件"
+                                    "64k档案存储元件",
+                                    "256k档案存储元件"
                                 ]
                             }
                         ],
@@ -220,11 +245,12 @@
         "_name": "4k存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "black",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_4k.pack",
+                "path": "storage_modern_me_4k.pack",
                 "rcid": ""
             },
             "Grids": [
@@ -239,34 +265,42 @@
                                     "54009119af1c881c07000029"
                                 ],
                                 "ExcludedFilter": [
+                                    
                                     "1k存储元件",
                                     "4k存储元件",
                                     "16k存储元件",
                                     "64k存储元件",
+                                    "256k存储元件",
                                     "1k交换品存储元件",
                                     "4k交换品存储元件",
                                     "16k交换品存储元件",
                                     "64k交换品存储元件",
+                                    "256k交换品存储元件",
                                     "1k医疗存储元件",
                                     "4k医疗存储元件",
                                     "16k医疗存储元件",
                                     "64k医疗存储元件",
+                                    "256k医疗存储元件",
                                     "1k装备存储元件",
                                     "4k装备存储元件",
                                     "16k装备存储元件",
                                     "64k装备存储元件",
+                                    "256k装备存储元件",
                                     "1k武器存储元件",
                                     "4k武器存储元件",
                                     "16k武器存储元件",
                                     "64k武器存储元件",
+                                    "256k武器存储元件",
                                     "1k食品存储元件",
                                     "4k食品存储元件",
                                     "16k食品存储元件",
                                     "64k食品存储元件",
+                                    "256k食品存储元件",
                                     "1k档案存储元件",
                                     "4k档案存储元件",
                                     "16k档案存储元件",
-                                    "64k档案存储元件"
+                                    "64k档案存储元件",
+                                    "256k档案存储元件"
                                 ]
                             }
                         ],
@@ -304,11 +338,12 @@
         "_name": "16k存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "black",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_16k.pack",
+                "path": "storage_modern_me_16k.pack",
                 "rcid": ""
             },
             "Grids": [
@@ -323,34 +358,42 @@
                                     "54009119af1c881c07000029"
                                 ],
                                 "ExcludedFilter": [
+                                    
                                     "1k存储元件",
                                     "4k存储元件",
                                     "16k存储元件",
                                     "64k存储元件",
+                                    "256k存储元件",
                                     "1k交换品存储元件",
                                     "4k交换品存储元件",
                                     "16k交换品存储元件",
                                     "64k交换品存储元件",
+                                    "256k交换品存储元件",
                                     "1k医疗存储元件",
                                     "4k医疗存储元件",
                                     "16k医疗存储元件",
                                     "64k医疗存储元件",
+                                    "256k医疗存储元件",
                                     "1k装备存储元件",
                                     "4k装备存储元件",
                                     "16k装备存储元件",
                                     "64k装备存储元件",
+                                    "256k装备存储元件",
                                     "1k武器存储元件",
                                     "4k武器存储元件",
                                     "16k武器存储元件",
                                     "64k武器存储元件",
+                                    "256k武器存储元件",
                                     "1k食品存储元件",
                                     "4k食品存储元件",
                                     "16k食品存储元件",
                                     "64k食品存储元件",
+                                    "256k食品存储元件",
                                     "1k档案存储元件",
                                     "4k档案存储元件",
                                     "16k档案存储元件",
-                                    "64k档案存储元件"
+                                    "64k档案存储元件",
+                                    "256k档案存储元件"
                                 ]
                             }
                         ],
@@ -388,11 +431,12 @@
         "_name": "64k存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "black",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_64k.pack",
+                "path": "storage_modern_me_64k.pack",
                 "rcid": ""
             },
             "Grids": [
@@ -407,34 +451,42 @@
                                     "54009119af1c881c07000029"
                                 ],
                                 "ExcludedFilter": [
+                                    
                                     "1k存储元件",
                                     "4k存储元件",
                                     "16k存储元件",
                                     "64k存储元件",
+                                    "256k存储元件",
                                     "1k交换品存储元件",
                                     "4k交换品存储元件",
                                     "16k交换品存储元件",
                                     "64k交换品存储元件",
+                                    "256k交换品存储元件",
                                     "1k医疗存储元件",
                                     "4k医疗存储元件",
                                     "16k医疗存储元件",
                                     "64k医疗存储元件",
+                                    "256k医疗存储元件",
                                     "1k装备存储元件",
                                     "4k装备存储元件",
                                     "16k装备存储元件",
                                     "64k装备存储元件",
+                                    "256k装备存储元件",
                                     "1k武器存储元件",
                                     "4k武器存储元件",
                                     "16k武器存储元件",
                                     "64k武器存储元件",
+                                    "256k武器存储元件",
                                     "1k食品存储元件",
                                     "4k食品存储元件",
                                     "16k食品存储元件",
                                     "64k食品存储元件",
+                                    "256k食品存储元件",
                                     "1k档案存储元件",
                                     "4k档案存储元件",
                                     "16k档案存储元件",
-                                    "64k档案存储元件"
+                                    "64k档案存储元件",
+                                    "256k档案存储元件"
                                 ]
                             }
                         ],
@@ -466,17 +518,111 @@
             "BlackListType": 63
         }
     },
+    "256k存储元件": {
+        "_id": "256k存储元件",
+        "_targetid": "5c0a840b86f7742ffa4f2482",
+        "_name": "256k存储元件",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "Weight": 0,
+            "BackgroundColor": "black",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "storage_modern_me_256k.pack",
+                "rcid": ""
+            },
+            "Grids": [
+                {
+                    "_name": "main",
+                    "_id": "5aafbde786f774389d0cbc11",
+                    "_parent": "256k存储元件",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ],
+                                "ExcludedFilter": [
+                                    
+                                    "1k存储元件",
+                                    "4k存储元件",
+                                    "16k存储元件",
+                                    "64k存储元件",
+                                    "256k存储元件",
+                                    "1k交换品存储元件",
+                                    "4k交换品存储元件",
+                                    "16k交换品存储元件",
+                                    "64k交换品存储元件",
+                                    "256k交换品存储元件",
+                                    "1k医疗存储元件",
+                                    "4k医疗存储元件",
+                                    "16k医疗存储元件",
+                                    "64k医疗存储元件",
+                                    "256k医疗存储元件",
+                                    "1k装备存储元件",
+                                    "4k装备存储元件",
+                                    "16k装备存储元件",
+                                    "64k装备存储元件",
+                                    "256k装备存储元件",
+                                    "1k武器存储元件",
+                                    "4k武器存储元件",
+                                    "16k武器存储元件",
+                                    "64k武器存储元件",
+                                    "256k武器存储元件",
+                                    "1k食品存储元件",
+                                    "4k食品存储元件",
+                                    "16k食品存储元件",
+                                    "64k食品存储元件",
+                                    "256k食品存储元件",
+                                    "1k档案存储元件",
+                                    "4k档案存储元件",
+                                    "16k档案存储元件",
+                                    "64k档案存储元件",
+                                    "256k档案存储元件"
+                                ]
+                            }
+                        ],
+                        "cellsH": 25,
+                        "cellsV": 16,
+                        "minCount": 0,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "isSortingTable": false
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ]
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "256k-ME存储元件",
+            "ShortName": "256k",
+            "Description": "拥有400个格子，能存储任何物品。",
+            "DefaultPrice": 163840000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 63
+        }
+    },
     "1k交换品存储元件": {
         "_id": "1k交换品存储元件",
         "_targetid": "5b7c710788a4506dec015957",
         "_name": "1k交换品存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "yellow",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_1k.pack",
+                "path": "storage_modern_me_1k.pack",
                 "rcid": ""
             }
         },
@@ -505,11 +651,12 @@
         "_name": "4k交换品存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "yellow",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_4k.pack",
+                "path": "storage_modern_me_4k.pack",
                 "rcid": ""
             }
         },
@@ -538,11 +685,12 @@
         "_name": "16k交换品存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "yellow",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_16k.pack",
+                "path": "storage_modern_me_16k.pack",
                 "rcid": ""
             }
         },
@@ -571,11 +719,12 @@
         "_name": "64k交换品存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "yellow",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_64k.pack",
+                "path": "storage_modern_me_64k.pack",
                 "rcid": ""
             }
         },
@@ -598,17 +747,52 @@
             "ContainerSizeHeight": 16
         }
     },
+    "256k交换品存储元件": {
+        "_id": "256k交换品存储元件",
+        "_targetid": "5b7c710788a4506dec015957",
+        "_name": "256k交换品存储元件",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "storage_modern_me_256k.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "container",
+            "Name": "256k-ME交换品存储元件",
+            "ShortName": "256k",
+            "Description": "拥有400个格子，能存储交换用物品。",
+            "DefaultPrice": 40960000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 63,
+            "ContainerSizeWidth": 25,
+            "ContainerSizeHeight": 16
+        }
+    },
     "1k医疗存储元件": {
         "_id": "1k医疗存储元件",
         "_targetid": "5aafbcd986f7745e590fff23",
         "_name": "1k医疗存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "blue",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_1k.pack",
+                "path": "storage_modern_me_1k.pack",
                 "rcid": ""
             }
         },
@@ -637,11 +821,12 @@
         "_name": "4k医疗存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "blue",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_4k.pack",
+                "path": "storage_modern_me_4k.pack",
                 "rcid": ""
             }
         },
@@ -670,11 +855,12 @@
         "_name": "16k医疗存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "blue",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_16k.pack",
+                "path": "storage_modern_me_16k.pack",
                 "rcid": ""
             }
         },
@@ -703,11 +889,12 @@
         "_name": "64k医疗存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "blue",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_64k.pack",
+                "path": "storage_modern_me_64k.pack",
                 "rcid": ""
             }
         },
@@ -730,17 +917,52 @@
             "ContainerSizeHeight": 16
         }
     },
+    "256k医疗存储元件": {
+        "_id": "256k医疗存储元件",
+        "_targetid": "5aafbcd986f7745e590fff23",
+        "_name": "256k医疗存储元件",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "storage_modern_me_256k.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "container",
+            "Name": "256k-ME医疗存储元件",
+            "ShortName": "256k",
+            "Description": "拥有400个格子，能存储医疗物品。",
+            "DefaultPrice": 40960000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 63,
+            "ContainerSizeWidth": 25,
+            "ContainerSizeHeight": 16
+        }
+    },
     "1k装备存储元件": {
         "_id": "1k装备存储元件",
         "_targetid": "5b7c710788a4506dec015957",
         "_name": "1k装备存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "orange",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_1k.pack",
+                "path": "storage_modern_me_1k.pack",
                 "rcid": ""
             }
         },
@@ -769,11 +991,12 @@
         "_name": "4k装备存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "orange",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_4k.pack",
+                "path": "storage_modern_me_4k.pack",
                 "rcid": ""
             }
         },
@@ -802,11 +1025,12 @@
         "_name": "16k装备存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "orange",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_16k.pack",
+                "path": "storage_modern_me_16k.pack",
                 "rcid": ""
             }
         },
@@ -835,11 +1059,12 @@
         "_name": "64k装备存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "orange",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_64k.pack",
+                "path": "storage_modern_me_64k.pack",
                 "rcid": ""
             }
         },
@@ -862,17 +1087,52 @@
             "ContainerSizeHeight": 16
         }
     },
+    "256k装备存储元件": {
+        "_id": "256k装备存储元件",
+        "_targetid": "5b7c710788a4506dec015957",
+        "_name": "256k装备存储元件",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "Weight": 0,
+            "BackgroundColor": "orange",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "storage_modern_me_256k.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "container",
+            "Name": "256k-ME装备存储元件",
+            "ShortName": "256k",
+            "Description": "拥有400个格子，能存储各种装备。",
+            "DefaultPrice": 40960000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 63,
+            "ContainerSizeWidth": 25,
+            "ContainerSizeHeight": 16
+        }
+    },
     "1k武器存储元件": {
         "_id": "1k武器存储元件",
         "_targetid": "5b6d9ce188a4501afc1b2b25",
         "_name": "1k武器存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "red",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_1k.pack",
+                "path": "storage_modern_me_1k.pack",
                 "rcid": ""
             }
         },
@@ -901,11 +1161,12 @@
         "_name": "4k武器存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "red",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_4k.pack",
+                "path": "storage_modern_me_4k.pack",
                 "rcid": ""
             }
         },
@@ -934,11 +1195,12 @@
         "_name": "16k武器存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "red",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_16k.pack",
+                "path": "storage_modern_me_16k.pack",
                 "rcid": ""
             }
         },
@@ -967,11 +1229,12 @@
         "_name": "64k武器存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "red",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_64k.pack",
+                "path": "storage_modern_me_64k.pack",
                 "rcid": ""
             }
         },
@@ -994,23 +1257,58 @@
             "ContainerSizeHeight": 16
         }
     },
+    "256k武器存储元件": {
+        "_id": "256k武器存储元件",
+        "_targetid": "5b6d9ce188a4501afc1b2b25",
+        "_name": "256k武器存储元件",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "Weight": 0,
+            "BackgroundColor": "red",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "storage_modern_me_256k.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "container",
+            "Name": "256k-ME武器存储元件",
+            "ShortName": "256k",
+            "Description": "拥有400个格子，能存储各种武器。",
+            "DefaultPrice": 40960000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 63,
+            "ContainerSizeWidth": 25,
+            "ContainerSizeHeight": 16
+        }
+    },
     "1k食品存储元件": {
         "_id": "1k食品存储元件",
         "_targetid": "5c093db286f7740a1b2617e3",
         "_name": "1k食品存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "green",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_1k.pack",
+                "path": "storage_modern_me_1k.pack",
                 "rcid": ""
             }
         },
         "_customprops": {
             "$type": "container",
-            "Name": "1k-ME食品存储元件",
+            "Name": "1k-ME补给品存储元件",
             "ShortName": "1k",
             "Description": "拥有16个格子，能存储食品和饮品。",
             "DefaultPrice": 160000,
@@ -1033,17 +1331,18 @@
         "_name": "4k食品存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "green",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_4k.pack",
+                "path": "storage_modern_me_4k.pack",
                 "rcid": ""
             }
         },
         "_customprops": {
             "$type": "container",
-            "Name": "4k-ME食品存储元件",
+            "Name": "4k-ME补给品存储元件",
             "ShortName": "4k",
             "Description": "拥有64个格子，能存储食品和饮品。",
             "DefaultPrice": 640000,
@@ -1066,17 +1365,18 @@
         "_name": "16k食品存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "green",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_16k.pack",
+                "path": "storage_modern_me_16k.pack",
                 "rcid": ""
             }
         },
         "_customprops": {
             "$type": "container",
-            "Name": "16k-ME食品存储元件",
+            "Name": "16k-ME补给品存储元件",
             "ShortName": "16k",
             "Description": "拥有144个格子，能存储食品和饮品。",
             "DefaultPrice": 2560000,
@@ -1099,17 +1399,18 @@
         "_name": "64k食品存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "green",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_64k.pack",
+                "path": "storage_modern_me_64k.pack",
                 "rcid": ""
             }
         },
         "_customprops": {
             "$type": "container",
-            "Name": "64k-ME食品存储元件",
+            "Name": "64k-ME补给品存储元件",
             "ShortName": "64k",
             "Description": "拥有256个格子，能存储食品和饮品。",
             "DefaultPrice": 10240000,
@@ -1126,17 +1427,52 @@
             "ContainerSizeHeight": 16
         }
     },
+    "256k食品存储元件": {
+        "_id": "256k食品存储元件",
+        "_targetid": "5c093db286f7740a1b2617e3",
+        "_name": "256k食品存储元件",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "Weight": 0,
+            "BackgroundColor": "green",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "storage_modern_me_256k.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "container",
+            "Name": "256k-ME补给品存储元件",
+            "ShortName": "256k",
+            "Description": "拥有400个格子，能存储食品和饮品。",
+            "DefaultPrice": 40960000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 63,
+            "ContainerSizeWidth": 25,
+            "ContainerSizeHeight": 16
+        }
+    },
     "1k档案存储元件": {
         "_id": "1k档案存储元件",
         "_targetid": "5b7c710788a4506dec015957",
         "_name": "1k档案存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "violet",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_1k.pack",
+                "path": "storage_modern_me_1k.pack",
                 "rcid": ""
             }
         },
@@ -1165,11 +1501,12 @@
         "_name": "4k档案存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "violet",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_4k.pack",
+                "path": "storage_modern_me_4k.pack",
                 "rcid": ""
             }
         },
@@ -1198,11 +1535,12 @@
         "_name": "16k档案存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "violet",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_16k.pack",
+                "path": "storage_modern_me_16k.pack",
                 "rcid": ""
             }
         },
@@ -1231,11 +1569,12 @@
         "_name": "64k档案存储元件",
         "_props": {
             "CanSellOnRagfair": false,
+            "Weight": 0,
             "BackgroundColor": "violet",
             "Width": 2,
             "Height": 2,
             "Prefab": {
-                "path": "storage_me_64k.pack",
+                "path": "storage_modern_me_64k.pack",
                 "rcid": ""
             }
         },
@@ -1255,6 +1594,40 @@
             ],
             "BlackListType": 63,
             "ContainerSizeWidth": 16,
+            "ContainerSizeHeight": 16
+        }
+    },
+    "256k档案存储元件": {
+        "_id": "256k档案存储元件",
+        "_targetid": "5b7c710788a4506dec015957",
+        "_name": "256k档案存储元件",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "Weight": 0,
+            "BackgroundColor": "violet",
+            "Width": 2,
+            "Height": 2,
+            "Prefab": {
+                "path": "storage_modern_me_256k.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "container",
+            "Name": "256k-ME档案存储元件",
+            "ShortName": "256k",
+            "Description": "拥有400个格子，能存储各类文件档案。",
+            "DefaultPrice": 40960000,
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 63,
+            "ContainerSizeWidth": 25,
             "ContainerSizeHeight": 16
         }
     }
