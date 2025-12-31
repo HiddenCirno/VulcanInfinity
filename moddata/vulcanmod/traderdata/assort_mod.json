@@ -12025,5 +12025,143 @@
         "Barter": {},
         "TrustLevel": 4,
         "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "金块兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "金块兑换",
+                "_tpl": "金块",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "金锭": 9
+        },
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "钻石块兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "钻石块兑换",
+                "_tpl": "钻石块",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "MC钻石": 9
+        },
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "绿宝石块兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "绿宝石块兑换",
+                "_tpl": "绿宝石块",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "MC绿宝石": 9
+        },
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "金奇点兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "金奇点兑换",
+                "_tpl": "金奇点",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "金块": 64
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "钻石奇点兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "钻石奇点兑换",
+                "_tpl": "钻石奇点",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "钻石块": 64
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "绿宝石奇点兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "绿宝石奇点兑换",
+                "_tpl": "绿宝石奇点",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "绿宝石块": 64
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
     }
 ]

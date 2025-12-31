@@ -20749,6 +20749,7 @@
         "_targetid": "5cadfbf7ae92152ac412eeef",
         "_name": "Ashval",
         "_props": {
+            "Width": 4,
             "CanSellOnRagfair": false,
             "bFirerate": 950
         },

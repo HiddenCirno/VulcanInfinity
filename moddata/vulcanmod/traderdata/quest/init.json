@@ -4001,14 +4001,7 @@
                     "count": 1
                 }
             ],
-            "Failed": [
-                {
-                    "$type": "quest",
-                    "id": "天行有常黑边失败",
-                    "questid": "天行有常蓝边",
-                    "status": 16
-                }
-            ]
+            "Failed": []
         },
         "QuestReward": [
             {
@@ -4023,6 +4016,7 @@
                         }
                     }
                 ],
+                "AvailableGameEdition": 1007,
                 "Quest": "天行有常黑边",
                 "Stage": 1,
                 "Hidden": false,
@@ -4030,36 +4024,7 @@
                 "IsAchievement": false,
                 "Count": 1,
                 "ID": "天行有常黑边"
-            }
-        ]
-    },
-    "天行有常蓝边": {
-        "ID": "天行有常蓝边",
-        "Type": 11,
-        "ImagePath": "/files/quest/icon/city.png",
-        "TraderID": "Persicaria",
-        "Restartable": false,
-        "Location": "any",
-        "QuestData": {
-            "Finish": [
-                {
-                    "$type": "hand",
-                    "id": "天行有常上交",
-                    "inraid": true,
-                    "itemid": "核能之星",
-                    "count": 1
-                }
-            ],
-            "Failed": [
-                {
-                    "$type": "quest",
-                    "id": "天行有常蓝边失败",
-                    "questid": "天行有常黑边",
-                    "status": 16
-                }
-            ]
-        },
-        "QuestReward": [
+            },
             {
                 "$type": "item",
                 "FindInRaid": true,
@@ -4072,7 +4037,8 @@
                         }
                     }
                 ],
-                "Quest": "天行有常蓝边",
+                "AvailableGameEdition": 16,
+                "Quest": "天行有常黑边",
                 "Stage": 1,
                 "Hidden": false,
                 "Unknown": false,

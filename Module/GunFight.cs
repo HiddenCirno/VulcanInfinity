@@ -93,7 +93,8 @@ public class GunFight
                 ragfairtag == ERagfairTagsType.ö±µ¯Ç¹ || 
                 itemid == ItemTpl.MACHINEGUN_KALASHNIKOV_PKTM_762X54R_MODERNIZED_TANK_MACHINE_GUN ||
                 itemid == ItemTpl.MACHINEGUN_AGS30_30X29MM_AUTOMATIC_GRENADE_LAUNCHER ||
-                itemid == ItemTpl.MACHINEGUN_NSV_UTYOS_127X108_HEAVY_MACHINE_GUN
+                itemid == ItemTpl.MACHINEGUN_NSV_UTYOS_127X108_HEAVY_MACHINE_GUN ||
+                itemid == VulcanUtil.ConvertHashID("Ashval")
                 )
             {
                 if (item.Properties == null) continue;

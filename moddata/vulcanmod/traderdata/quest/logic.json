@@ -388,15 +388,6 @@
         "pretraderlevel": {},
         "prelevel": 0
     },
-    "天行有常蓝边": {
-        "id": "天行有常蓝边",
-        "prequestdata": {
-            "永寂孤芒": 16
-        },
-        "pretraderstanding": {},
-        "pretraderlevel": {},
-        "prelevel": 0
-    },
     "打点关系": {
         "id": "打点关系",
         "prequestdata": {},
