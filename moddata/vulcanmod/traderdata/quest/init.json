@@ -4163,7 +4163,7 @@
         "QuestData": {
             "Finish": [
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求1",
                     "inraid": true,
@@ -4171,7 +4171,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求2",
                     "inraid": true,
@@ -4179,7 +4179,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求3",
                     "inraid": true,
@@ -4187,7 +4187,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求4",
                     "inraid": true,
@@ -4195,7 +4195,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求5",
                     "inraid": true,
@@ -4203,7 +4203,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求6",
                     "inraid": true,
@@ -4211,7 +4211,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求7",
                     "inraid": true,
@@ -4219,7 +4219,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求8",
                     "inraid": true,
@@ -4227,7 +4227,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求9",
                     "inraid": true,
@@ -4235,7 +4235,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求10",
                     "inraid": true,
@@ -4243,7 +4243,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求11",
                     "inraid": true,
@@ -4251,7 +4251,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求12",
                     "inraid": true,
@@ -4259,7 +4259,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求13",
                     "inraid": true,
@@ -4267,7 +4267,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求14",
                     "inraid": true,
@@ -4275,7 +4275,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求15",
                     "inraid": true,
@@ -4283,7 +4283,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求16",
                     "inraid": true,
@@ -4291,7 +4291,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求17",
                     "inraid": true,
@@ -4299,7 +4299,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求18",
                     "inraid": true,
@@ -4307,7 +4307,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求19",
                     "inraid": true,
@@ -4315,7 +4315,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求20",
                     "inraid": true,
@@ -4323,7 +4323,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求21",
                     "inraid": true,
@@ -4331,7 +4331,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求22",
                     "inraid": true,
@@ -4339,7 +4339,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求23",
                     "inraid": true,
@@ -4347,7 +4347,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求24",
                     "inraid": true,
@@ -4355,7 +4355,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求25",
                     "inraid": true,
@@ -4363,7 +4363,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求26",
                     "inraid": true,
@@ -4371,7 +4371,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求27",
                     "inraid": true,
@@ -4379,7 +4379,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "支持者纪念币收集要求28",
                     "inraid": true,
@@ -4419,6 +4419,26 @@
                 "Unknown": false,
                 "IsAchievement": false,
                 "ID": "收集者_支持者_成就奖励"
+            },
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "收集者_支持者_返还奖励_物品",
+                        "_tpl": "支持者礼包",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "收集者_支持者",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "Count": 1,
+                "ID": "收集者_支持者_返还奖励"
             }
         ]
     },
@@ -4432,7 +4452,7 @@
         "QuestData": {
             "Finish": [
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "开拓者纪念币收集成就要求1",
                     "inraid": true,
@@ -4440,7 +4460,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "开拓者纪念币收集成就要求2",
                     "inraid": true,
@@ -4448,7 +4468,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "开拓者纪念币收集成就要求3",
                     "inraid": true,
@@ -4456,7 +4476,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "开拓者纪念币收集成就要求4",
                     "inraid": true,
@@ -4464,7 +4484,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "开拓者纪念币收集成就要求5",
                     "inraid": true,
@@ -4472,7 +4492,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "开拓者纪念币收集成就要求6",
                     "inraid": true,
@@ -4480,7 +4500,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "开拓者纪念币收集成就要求7",
                     "inraid": true,
@@ -4488,7 +4508,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "开拓者纪念币收集成就要求8",
                     "inraid": true,
@@ -4496,7 +4516,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "开拓者纪念币收集成就要求9",
                     "inraid": true,
@@ -4504,7 +4524,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "开拓者纪念币收集成就要求10",
                     "inraid": true,
@@ -4512,7 +4532,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "开拓者纪念币收集成就要求11",
                     "inraid": true,
@@ -4520,7 +4540,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "开拓者纪念币收集成就要求12",
                     "inraid": true,
@@ -4528,7 +4548,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "开拓者纪念币收集成就要求13",
                     "inraid": true,
@@ -4536,7 +4556,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "开拓者纪念币收集成就要求14",
                     "inraid": true,
@@ -4576,6 +4596,26 @@
                 "Unknown": false,
                 "IsAchievement": false,
                 "ID": "收集者_开拓者_成就奖励"
+            },
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "收集者_开拓者_返还奖励_物品",
+                        "_tpl": "开拓者礼包",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "收集者_开拓者",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "Count": 1,
+                "ID": "收集者_开拓者_返还奖励"
             }
         ]
     },
@@ -4589,7 +4629,7 @@
         "QuestData": {
             "Finish": [
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "百炼纪念币收集成就要求1",
                     "inraid": true,
@@ -4597,7 +4637,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "百炼纪念币收集成就要求2",
                     "inraid": true,
@@ -4605,7 +4645,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "百炼纪念币收集成就要求3",
                     "inraid": true,
@@ -4613,7 +4653,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "百炼纪念币收集成就要求4",
                     "inraid": true,
@@ -4621,7 +4661,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "百炼纪念币收集成就要求5",
                     "inraid": true,
@@ -4629,7 +4669,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "百炼纪念币收集成就要求6",
                     "inraid": true,
@@ -4637,7 +4677,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "百炼纪念币收集成就要求7",
                     "inraid": true,
@@ -4677,6 +4717,26 @@
                 "Unknown": false,
                 "IsAchievement": false,
                 "ID": "收集者_百炼_成就奖励"
+            },
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "收集者_百炼_返还奖励_物品",
+                        "_tpl": "百炼礼包",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "收集者_百炼",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "Count": 1,
+                "ID": "收集者_百炼_返还奖励"
             }
         ]
     },
@@ -4690,7 +4750,7 @@
         "QuestData": {
             "Finish": [
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "星辰之路纪念币收集成就要求1",
                     "inraid": true,
@@ -4698,7 +4758,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "星辰之路纪念币收集成就要求2",
                     "inraid": true,
@@ -4706,7 +4766,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "星辰之路纪念币收集成就要求3",
                     "inraid": true,
@@ -4714,7 +4774,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "星辰之路纪念币收集成就要求4",
                     "inraid": true,
@@ -4722,7 +4782,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "星辰之路纪念币收集成就要求5",
                     "inraid": true,
@@ -4730,7 +4790,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "星辰之路纪念币收集成就要求6",
                     "inraid": true,
@@ -4738,7 +4798,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "星辰之路纪念币收集成就要求7",
                     "inraid": true,
@@ -4746,7 +4806,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "星辰之路纪念币收集成就要求8",
                     "inraid": true,
@@ -4754,7 +4814,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "星辰之路纪念币收集成就要求9",
                     "inraid": true,
@@ -4794,6 +4854,26 @@
                 "Unknown": false,
                 "IsAchievement": false,
                 "ID": "收集者_星辰之路_成就奖励"
+            },
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "收集者_星辰之路_返还奖励_物品",
+                        "_tpl": "星辰之路礼包",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "收集者_星辰之路",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "Count": 1,
+                "ID": "收集者_星辰之路_返还奖励"
             }
         ]
     },
@@ -4807,7 +4887,7 @@
         "QuestData": {
             "Finish": [
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "降临纪念币收集成就要求1",
                     "inraid": true,
@@ -4815,7 +4895,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "降临纪念币收集成就要求2",
                     "inraid": true,
@@ -4823,7 +4903,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "降临纪念币收集成就要求3",
                     "inraid": true,
@@ -4831,7 +4911,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "降临纪念币收集成就要求4",
                     "inraid": true,
@@ -4839,7 +4919,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "降临纪念币收集成就要求5",
                     "inraid": true,
@@ -4847,7 +4927,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "降临纪念币收集成就要求6",
                     "inraid": true,
@@ -4855,7 +4935,7 @@
                     "count": 1
                 },
                 {
-                    "$type": "find",
+                    "$type": "hand",
                     "autolocale": true,
                     "id": "降临纪念币收集成就要求7",
                     "inraid": true,
@@ -4895,6 +4975,26 @@
                 "Unknown": false,
                 "IsAchievement": false,
                 "ID": "收集者_降临_成就奖励"
+            },
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "收集者_降临_返还奖励_物品",
+                        "_tpl": "降临礼包",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "收集者_降临",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "Count": 1,
+                "ID": "收集者_降临_返还奖励"
             }
         ]
     },

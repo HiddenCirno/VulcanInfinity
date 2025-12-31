@@ -2124,7 +2124,7 @@
             "$type": "base",
             "Name": "防护罩护盾发生器",
             "ShortName": "护盾单元",
-            "Description": "这项技术来自于布里斯克创办的Apex竞赛，在比赛中，防护罩将会吸收所有的伤害直至破损。每一个护盾单元可以提供25点护盾值。\n<color=#FFFFFF><b>请不要尝试对它进行任何维修操作，以免产生不必要的问题！</b></color>",
+            "Description": "这项技术来自于布里斯克创办的Apex竞赛，在比赛中，防护罩将会吸收所有的伤害直至破损。每一个护盾单元可以提供25点护盾值。\n<color=#AA0000><b>请不要尝试对它进行任何维修操作，以免产生不必要的问题！</b></color>",
             "DefaultPrice": 100000,
             "RagfairType": "5b5f704686f77447ec5d76d7",
             "CanFindInRaid": false,
@@ -2319,7 +2319,7 @@
             "Weight": 0.5,
             "BackgroundColor": "red",
             "Prefab": {
-                "path": "crystal_energy.pack",
+                "path": "crystal_energy_rework.pack",
                 "rcid": ""
             },
             "MaxResource": 200,
@@ -2347,7 +2347,7 @@
             "Weight": 0.5,
             "BackgroundColor": "blue",
             "Prefab": {
-                "path": "crystal_lapotron.pack",
+                "path": "crystal_lapotron_rework.pack",
                 "rcid": ""
             },
             "MaxResource": 1000,
@@ -2375,8 +2375,12 @@
             "BackgroundColor": "default",
             "Width": 1,
             "Height": 1,
+            "Weight": 0,
+            "StackMinRandom": 1,
+            "StackMaxRandom": 3,
+            "StackMaxSize": 64,
             "Prefab": {
-                "path": "powder_mc.pack",
+                "path": "dust_gunpowder_rework.pack",
                 "rcid": ""
             }
         },
@@ -2401,26 +2405,30 @@
             "BackgroundColor": "blue",
             "Weight": 0,
             "StackMinRandom": 1,
-            "StackMaxRandom": 4,
+            "StackMaxRandom": 2,
             "StackMaxSize": 64,
-            "CanSellOnRagfair": false,
+            "CanSellOnRagfair": true,
             "Prefab": {
-                "path": "diamond_mc.pack",
+                "path": "diamond_rework.pack",
                 "rcid": ""
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "lootable",
             "Name": "钻石",
             "ShortName": "钻石",
             "Description": "来自另一个世界的道具，一种极为坚硬的高价值矿物。",
             "DefaultPrice": 81920,
             "RagfairType": "VulcanSpecialItem",
-            "CanFindInRaid": false,
+            "CanFindInRaid": true,
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": true,
-            "BlackListType": 63
+            "BlackListType": 10,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
         },
         "_parent": "543be5dd4bdc2deb348b4569",
         "_type": "Item"
@@ -2433,16 +2441,16 @@
             "BackgroundColor": "green",
             "Weight": 0,
             "StackMinRandom": 1,
-            "StackMaxRandom": 4,
+            "StackMaxRandom": 2,
             "StackMaxSize": 64,
-            "CanSellOnRagfair": false,
+            "CanSellOnRagfair": true,
             "Prefab": {
-                "path": "emerald.pack",
+                "path": "emerald_rework.pack",
                 "rcid": ""
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "lootable",
             "Name": "绿宝石",
             "ShortName": "绿宝石",
             "Description": "来自另一个世界的道具，一种晶莹剔透的高价值矿物。",
@@ -2452,7 +2460,11 @@
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": true,
-            "BlackListType": 63
+            "BlackListType": 10,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
         },
         "_parent": "543be5dd4bdc2deb348b4569",
         "_type": "Item"
@@ -2463,8 +2475,12 @@
         "_name": "红石粉",
         "_props": {
             "BackgroundColor": "red",
+            "Weight": 0,
+            "StackMinRandom": 1,
+            "StackMaxRandom": 3,
+            "StackMaxSize": 64,
             "Prefab": {
-                "path": "redstone.pack",
+                "path": "dust_redstone_rework.pack",
                 "rcid": ""
             }
         },
@@ -2487,8 +2503,12 @@
         "_name": "荧石粉",
         "_props": {
             "BackgroundColor": "yellow",
+            "Weight": 0,
+            "StackMinRandom": 1,
+            "StackMaxRandom": 3,
+            "StackMaxSize": 64,
             "Prefab": {
-                "path": "dust_glowstone.pack",
+                "path": "dust_glowstone_rework.pack",
                 "rcid": ""
             }
         },
@@ -2511,8 +2531,12 @@
         "_name": "青金石",
         "_props": {
             "BackgroundColor": "blue",
+            "Weight": 0,
+            "StackMinRandom": 1,
+            "StackMaxRandom": 3,
+            "StackMaxSize": 64,
             "Prefab": {
-                "path": "laps.pack",
+                "path": "laps_rework.pack",
                 "rcid": ""
             }
         },
@@ -3831,6 +3855,96 @@
             ]
         }
     },
+    "纪念币测试": {
+        "_id": "纪念币测试",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "纪念币测试",
+        "_props": {
+            "BackgroundColor": "yellow",
+            "Prefab": {
+                "path": "coin_test.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "纪念币测试",
+            "ShortName": "纪念币测试",
+            "Description": "纪念币测试",
+            "DefaultPrice": 500009,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "Mods",
+                "Container"
+            ],
+            "BlackListType": 63
+        }
+    },
+    "纪念币测试2": {
+        "_id": "纪念币测试2",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "纪念币测试2",
+        "_props": {
+            "BackgroundColor": "yellow",
+            "Prefab": {
+                "path": "coin_test2.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "纪念币测试2",
+            "ShortName": "纪念币测试2",
+            "Description": "纪念币测试2",
+            "DefaultPrice": 500009,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "Mods",
+                "Container"
+            ],
+            "BlackListType": 63
+        }
+    },
+    "纪念币测试3": {
+        "_id": "纪念币测试3",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "纪念币测试3",
+        "_props": {
+            "BackgroundColor": "yellow",
+            "Prefab": {
+                "path": "coin_test3.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "纪念币测试3",
+            "ShortName": "纪念币测试3",
+            "Description": "纪念币测试3",
+            "DefaultPrice": 500009,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "Mods",
+                "Container"
+            ],
+            "BlackListType": 63
+        }
+    },
     "降临纪念币_短缺": {
         "_id": "降临纪念币_短缺",
         "_targetid": "59faff1d86f7746c51718c9c",
@@ -4858,7 +4972,7 @@
         "_targetid": "657089638db3adca1009f4ca",
         "_name": "MC南瓜头",
         "_props": {
-            "Weight": 0.5,
+            "Weight": 0,
             "BackgroundColor": "default",
             "Width": 2,
             "Height": 2,
@@ -4908,7 +5022,7 @@
         "_targetid": "657089638db3adca1009f4ca",
         "_name": "史蒂夫头",
         "_props": {
-            "Weight": 0.5,
+            "Weight": 0,
             "BackgroundColor": "default",
             "Width": 2,
             "Height": 2,
@@ -4958,7 +5072,7 @@
         "_targetid": "657089638db3adca1009f4ca",
         "_name": "HIM头",
         "_props": {
-            "Weight": 3,
+            "Weight": 0,
             "BackgroundColor": "default",
             "Width": 2,
             "Height": 2,
@@ -5008,7 +5122,7 @@
         "_targetid": "657089638db3adca1009f4ca",
         "_name": "苦力怕头",
         "_props": {
-            "Weight": 1.5,
+            "Weight": 0,
             "BackgroundColor": "green",
             "Width": 2,
             "Height": 2,
@@ -5058,7 +5172,7 @@
         "_targetid": "657089638db3adca1009f4ca",
         "_name": "小黑头",
         "_props": {
-            "Weight": 1.5,
+            "Weight": 0,
             "BackgroundColor": "violet",
             "Width": 2,
             "Height": 2,
@@ -5108,7 +5222,7 @@
         "_targetid": "657089638db3adca1009f4ca",
         "_name": "僵尸头",
         "_props": {
-            "Weight": 1.5,
+            "Weight": 0,
             "BackgroundColor": "default",
             "Width": 2,
             "Height": 2,
@@ -5158,7 +5272,7 @@
         "_targetid": "657089638db3adca1009f4ca",
         "_name": "骷髅头",
         "_props": {
-            "Weight": 1.5,
+            "Weight": 0,
             "BackgroundColor": "default",
             "Width": 2,
             "Height": 2,
@@ -5208,7 +5322,7 @@
         "_targetid": "657089638db3adca1009f4ca",
         "_name": "凋灵骷髅头",
         "_props": {
-            "Weight": 1.5,
+            "Weight": 0,
             "BackgroundColor": "default",
             "Width": 2,
             "Height": 2,
@@ -5258,7 +5372,7 @@
         "_targetid": "657089638db3adca1009f4ca",
         "_name": "凋灵头",
         "_props": {
-            "Weight": 2,
+            "Weight": 0,
             "BackgroundColor": "default",
             "Width": 2,
             "Height": 2,
@@ -5308,7 +5422,7 @@
         "_targetid": "657089638db3adca1009f4ca",
         "_name": "作者头",
         "_props": {
-            "Weight": 2,
+            "Weight": 0,
             "BackgroundColor": "default",
             "Width": 2,
             "Height": 2,
@@ -5358,10 +5472,10 @@
         "_targetid": "54491bb74bdc2d09088b4567",
         "_name": "钻石剑",
         "_props": {
-            "Weight": 1.3,
+            "Weight": 0,
             "BackgroundColor": "default",
-            "Width": 1,
-            "Height": 2,
+            "Width": 2,
+            "Height": 3,
             "Prefab": {
                 "path": "assets/content/weapons/diamond_sword/weapon_miller_bros_m-2_container.bundle",
                 "rcid": ""
@@ -5387,10 +5501,10 @@
         "_targetid": "54491bb74bdc2d09088b4567",
         "_name": "下界合金剑",
         "_props": {
-            "Weight": 1.3,
+            "Weight": 0,
             "BackgroundColor": "default",
-            "Width": 1,
-            "Height": 2,
+            "Width": 2,
+            "Height": 3,
             "Prefab": {
                 "path": "assets/content/weapons/netherite_sword/weapon_miller_bros_m-2_container.bundle",
                 "rcid": ""
@@ -5446,7 +5560,7 @@
         "_targetid": "657089638db3adca1009f4ca",
         "_name": "狗子面具",
         "_props": {
-            "Weight": 1,
+            "Weight": 0,
             "BackgroundColor": "red",
             "Width": 2,
             "Height": 2,
@@ -5496,7 +5610,7 @@
         "_targetid": "657089638db3adca1009f4ca",
         "_name": "与生俱来的权利",
         "_props": {
-            "Weight": 1,
+            "Weight": 0,
             "BackgroundColor": "orange",
             "Width": 2,
             "Height": 2,
@@ -5546,7 +5660,7 @@
         "_targetid": "657089638db3adca1009f4ca",
         "_name": "与生俱来的权利(蓝色)",
         "_props": {
-            "Weight": 1,
+            "Weight": 0,
             "BackgroundColor": "blue",
             "Width": 2,
             "Height": 2,
@@ -6625,7 +6739,7 @@
             "Width": 3,
             "Height": 3,
             "Prefab": {
-                "path": "armor_mc_test.pack",
+                "path": "armor_iron_rework.pack",
                 "rcid": ""
             },
             "InsuranceDisabled": true,
@@ -6698,7 +6812,7 @@
             "Width": 3,
             "Height": 3,
             "Prefab": {
-                "path": "armor_mc_diamond.pack",
+                "path": "armor_diamond_rework.pack",
                 "rcid": ""
             },
             "InsuranceDisabled": true,
@@ -6771,7 +6885,7 @@
             "Width": 3,
             "Height": 3,
             "Prefab": {
-                "path": "armor_mc_netherite.pack",
+                "path": "armor_netherite_rework.pack",
                 "rcid": ""
             },
             "InsuranceDisabled": true,
@@ -20377,25 +20491,272 @@
             "BlackListType": 63
         }
     },
+    "灰美重复制品": {
+        "_id": "灰美重复制品",
+        "_targetid": "5648a69d4bdc2ded0b8b457b",
+        "_name": "灰美重复制品",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/equipment/item_equipment_armor_custom_thorintcar.bundle",
+                "rcid": ""
+            },
+            "Weight": 1.5,
+            "BackgroundColor": "default",
+            "mousePenalty": 0,
+            "speedPenaltyPercent": 0,
+            "weaponErgonomicPenalty": 0,
+            "Grids": [
+                {
+                    "_id": "2e39dc8a2095f1a8351a82c2",
+                    "_name": "1",
+                    "_parent": "灰美重复制品",
+                    "_props": {
+                        "cellsH": 2,
+                        "cellsV": 4,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "2d1a5b8a60340dfae5fd660e",
+                    "_name": "2",
+                    "_parent": "灰美重复制品",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 3,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "395a8d8a7e9fe639c06fa7a6",
+                    "_name": "3",
+                    "_parent": "灰美重复制品",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 3,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "69a685aa80b7d5c7ef78d4cb",
+                    "_name": "4",
+                    "_parent": "灰美重复制品",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 3,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "6157d5f08da18db44526eeb8",
+                    "_name": "5",
+                    "_parent": "灰美重复制品",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "b4b06776c93e713e5c25dfa4",
+                    "_name": "6",
+                    "_parent": "灰美重复制品",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "c6c26bab8d69f907aa39daf2",
+                    "_name": "7",
+                    "_parent": "灰美重复制品",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "44dddd18589aa1559b51bcd2",
+                    "_name": "8",
+                    "_parent": "灰美重复制品",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "e19f05949794cb3fbdfa896d",
+                    "_name": "9",
+                    "_parent": "灰美重复制品",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ],
+            "RigLayoutName": "dianyuzhang"
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "THOR综合型防弹服（Gharros特别版）（不防弹的复制品）",
+            "ShortName": "THOR IC",
+            "Description": "THOR综合型防弹服有全覆盖的软质防弹板，能提供360度防护，抵挡高速弹片和手枪子弹。防弹服的前部、背部及侧部的重型防弹板可抵挡步枪子弹，保护重要器官。插板的人体工程学设计以及与背部插板一体的腰部缓冲带能为使用者带来舒适的体验，同时兼顾与身体的紧密贴合，还能将重量分散至全身。由NFM制造。这件是经过了某人特别改装版本的完美复制品，除了没有任何防弹效果，和正品毫无区别。",
+            "DefaultPrice": 170202,
+            "RagfairType": "5b5f6f8786f77447ed563642",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "CustomFixID": "60a283193cb70855c43a381d",
+            "FixType": [
+                "QuestEquip"
+            ]
+        }
+    },
     "Ashval": {
         "_id": "Ashval",
         "_targetid": "5cadfbf7ae92152ac412eeef",
         "_name": "Ashval",
         "_props": {
             "CanSellOnRagfair": false,
-            "bFirerate": 950,
-            "Unlootable": true,
-            "UnlootableFromSide": [
-                "Bear",
-                "Usec",
-                "Savage"
-            ]
+            "bFirerate": 950
         },
         "_customprops": {
             "$type": "base",
             "Name": "ASh-12 12.7x55 突击步枪",
             "ShortName": "ASh-12",
-            "Description": "ASh-12.7（俄语意为12.7毫米自动突击步枪）战斗步枪是一种专用于CQB和城市作战的武器。是一枝由俄KBP图拉仪器设计局旗下的运动及狩猎武器中央设计研究局（TsKIB SOO）根据联邦安全局（FSB）要求生产的。这种武器设计时考虑到了FSB城市作战部队需要的短射程及超强停止作用。",
+            "Description": "一把经过特殊改造的Ash-12步枪。ASh-12.7（俄语意为12.7毫米自动突击步枪）战斗步枪是一种专用于CQB和城市作战的武器。是一枝由俄KBP图拉仪器设计局旗下的运动及狩猎武器中央设计研究局（TsKIB SOO）根据联邦安全局（FSB）要求生产的。这种武器设计时考虑到了FSB城市作战部队需要的短射程及超强停止作用。",
             "DefaultPrice": 110000,
             "RagfairType": "5b5f79eb86f77447ed5636b7",
             "CanFindInRaid": false,
@@ -21739,7 +22100,7 @@
                                 "Filter": [
                                     "白lv119胸部内衬"
                                 ],
-                                "Plate": "6575dd3e9e27f4a85e081142",
+                                "Plate": "白lv119胸部内衬",
                                 "armorColliders": [],
                                 "armorPlateColliders": [
                                     "Plate_Granit_SAPI_chest"
@@ -21763,7 +22124,7 @@
                                 "Filter": [
                                     "白lv119背部内衬"
                                 ],
-                                "Plate": "6575dd519e27f4a85e081146",
+                                "Plate": "白lv119背部内衬",
                                 "armorColliders": [],
                                 "armorPlateColliders": [
                                     "Plate_Granit_SAPI_back"
@@ -21787,7 +22148,7 @@
                                 "Filter": [
                                     "白lv119左侧内衬"
                                 ],
-                                "Plate": "6575dd64945bf78edd04c438",
+                                "Plate": "白lv119左侧内衬",
                                 "armorColliders": [
                                     "LeftSideChestDown"
                                 ],
@@ -21811,7 +22172,7 @@
                                 "Filter": [
                                     "白lv119右侧内衬"
                                 ],
-                                "Plate": "6575dd6e9d3a0ddf660b9047",
+                                "Plate": "白lv119右侧内衬",
                                 "armorColliders": [
                                     "RightSideChestDown"
                                 ],
@@ -22310,7 +22671,7 @@
                                 "Filter": [
                                     "白lv119胸部内衬"
                                 ],
-                                "Plate": "6575dd3e9e27f4a85e081142",
+                                "Plate": "白lv119胸部内衬",
                                 "armorColliders": [],
                                 "armorPlateColliders": [
                                     "Plate_Granit_SAPI_chest"
@@ -22334,7 +22695,7 @@
                                 "Filter": [
                                     "白lv119背部内衬"
                                 ],
-                                "Plate": "6575dd519e27f4a85e081146",
+                                "Plate": "白lv119背部内衬",
                                 "armorColliders": [],
                                 "armorPlateColliders": [
                                     "Plate_Granit_SAPI_back"
@@ -22627,7 +22988,7 @@
                                 "Filter": [
                                     "FCPCV5胸部内衬"
                                 ],
-                                "Plate": "6575dd3e9e27f4a85e081142",
+                                "Plate": "FCPCV5胸部内衬",
                                 "armorColliders": [],
                                 "armorPlateColliders": [
                                     "Plate_Granit_SAPI_chest"
@@ -22651,7 +23012,7 @@
                                 "Filter": [
                                     "FCPCV5背部内衬"
                                 ],
-                                "Plate": "6575dd519e27f4a85e081146",
+                                "Plate": "FCPCV5背部内衬",
                                 "armorColliders": [],
                                 "armorPlateColliders": [
                                     "Plate_Granit_SAPI_back"
@@ -22675,7 +23036,7 @@
                                 "Filter": [
                                     "FCPCV5左侧内衬"
                                 ],
-                                "Plate": "6575dd64945bf78edd04c438",
+                                "Plate": "FCPCV5左侧内衬",
                                 "armorColliders": [
                                     "LeftSideChestDown"
                                 ],
@@ -22699,7 +23060,7 @@
                                 "Filter": [
                                     "FCPCV5右侧内衬"
                                 ],
-                                "Plate": "6575dd6e9d3a0ddf660b9047",
+                                "Plate": "FCPCV5右侧内衬",
                                 "armorColliders": [
                                     "RightSideChestDown"
                                 ],
@@ -23129,341 +23490,6 @@
                         "minCount": 0
                     },
                     "_proto": "55d329c24bdc2d892f8b4567"
-                }
-            ],
-            "Slots": [
-                {
-                    "_id": "6575d74816c2762fba00582c",
-                    "_mergeSlotWithChildren": true,
-                    "_name": "Front_plate",
-                    "_parent": "SiegeR",
-                    "_props": {
-                        "filters": [
-                            {
-                                "Filter": [
-                                    "656f9d5900d62bcd2e02407c",
-                                    "656fa8d700d62bcd2e024084",
-                                    "656fa99800d62bcd2e024088",
-                                    "656fae5f7c2d57afe200c0d7",
-                                    "656faf0ca0dce000a2020f77",
-                                    "656fa0fb498d1b7e3e071d9c",
-                                    "656fafe3498d1b7e3e071da4",
-                                    "656fa76500d62bcd2e024080",
-                                    "656fa25e94b480b8a500c0e0",
-                                    "656fad8c498d1b7e3e071da0",
-                                    "656fa61e94b480b8a500c0e8",
-                                    "656fb21fa0dce000a2020f7c",
-                                    "656fac30c6baea13cd07e10c",
-                                    "656fb0bd7c2d57afe200c0dc",
-                                    "656f9fa0498d1b7e3e071d98",
-                                    "656fa53d94b480b8a500c0e4",
-                                    "655746010177119f4a097ff7",
-                                    "64afdcb83efdfea28601d041",
-                                    "65573fa5655447403702a816",
-                                    "64afc71497cf3a403c01ff38"
-                                ],
-                                "Plate": "656fa61e94b480b8a500c0e8",
-                                "armorColliders": [],
-                                "armorPlateColliders": [
-                                    "Plate_Granit_SAPI_chest"
-                                ],
-                                "bluntDamageReduceFromSoftArmor": true,
-                                "locked": false
-                            }
-                        ]
-                    },
-                    "_proto": "64479fdf9731c8fadc0642c1",
-                    "_required": false
-                },
-                {
-                    "_id": "6575d74816c2762fba00582d",
-                    "_mergeSlotWithChildren": true,
-                    "_name": "Back_plate",
-                    "_parent": "SiegeR",
-                    "_props": {
-                        "filters": [
-                            {
-                                "Filter": [
-                                    "656f9d5900d62bcd2e02407c",
-                                    "656fa8d700d62bcd2e024084",
-                                    "656fae5f7c2d57afe200c0d7",
-                                    "656fa99800d62bcd2e024088",
-                                    "656faf0ca0dce000a2020f77",
-                                    "656fa0fb498d1b7e3e071d9c",
-                                    "656fafe3498d1b7e3e071da4",
-                                    "656fa76500d62bcd2e024080",
-                                    "656fa25e94b480b8a500c0e0",
-                                    "656fad8c498d1b7e3e071da0",
-                                    "656fa61e94b480b8a500c0e8",
-                                    "656fb21fa0dce000a2020f7c",
-                                    "656fac30c6baea13cd07e10c",
-                                    "656fb0bd7c2d57afe200c0dc",
-                                    "656f9fa0498d1b7e3e071d98",
-                                    "656fa53d94b480b8a500c0e4",
-                                    "655746010177119f4a097ff7",
-                                    "64afdcb83efdfea28601d041",
-                                    "64afc71497cf3a403c01ff38",
-                                    "65573fa5655447403702a816"
-                                ],
-                                "Plate": "656fa61e94b480b8a500c0e8",
-                                "armorColliders": [],
-                                "armorPlateColliders": [
-                                    "Plate_Granit_SAPI_back"
-                                ],
-                                "bluntDamageReduceFromSoftArmor": true,
-                                "locked": false
-                            }
-                        ]
-                    },
-                    "_proto": "64479fdf9731c8fadc0642c1",
-                    "_required": false
-                },
-                {
-                    "_id": "6575d74816c2762fba00582e",
-                    "_mergeSlotWithChildren": true,
-                    "_name": "Left_side_plate",
-                    "_parent": "SiegeR",
-                    "_props": {
-                        "filters": [
-                            {
-                                "Filter": [
-                                    "6557458f83942d705f0c4962",
-                                    "64afdb577bb3bfe8fe03fd1d",
-                                    "64afd81707e2cf40e903a316"
-                                ],
-                                "Plate": "64afdb577bb3bfe8fe03fd1d",
-                                "armorColliders": [],
-                                "armorPlateColliders": [
-                                    "Plate_Granit_SSAPI_side_left_high"
-                                ],
-                                "bluntDamageReduceFromSoftArmor": true,
-                                "locked": false
-                            }
-                        ]
-                    },
-                    "_proto": "64479fdf9731c8fadc0642c1",
-                    "_required": false
-                },
-                {
-                    "_id": "6575d74816c2762fba00582f",
-                    "_mergeSlotWithChildren": true,
-                    "_name": "Right_side_plate",
-                    "_parent": "SiegeR",
-                    "_props": {
-                        "filters": [
-                            {
-                                "Filter": [
-                                    "6557458f83942d705f0c4962",
-                                    "64afdb577bb3bfe8fe03fd1d",
-                                    "64afd81707e2cf40e903a316"
-                                ],
-                                "Plate": "64afdb577bb3bfe8fe03fd1d",
-                                "armorColliders": [],
-                                "armorPlateColliders": [
-                                    "Plate_Granit_SSAPI_side_right_high"
-                                ],
-                                "bluntDamageReduceFromSoftArmor": true,
-                                "locked": false
-                            }
-                        ]
-                    },
-                    "_proto": "64479fdf9731c8fadc0642c1",
-                    "_required": false
-                },
-                {
-                    "_id": "6575d74816c2762fba005830",
-                    "_mergeSlotWithChildren": true,
-                    "_name": "Soft_armor_front",
-                    "_parent": "SiegeR",
-                    "_props": {
-                        "filters": [
-                            {
-                                "Filter": [
-                                    "SiegeR胸部内衬"
-                                ],
-                                "Plate": "6575d561b15fef3dd4051670",
-                                "armorColliders": [
-                                    "RibcageLow",
-                                    "RibcageUp"
-                                ],
-                                "armorPlateColliders": [],
-                                "bluntDamageReduceFromSoftArmor": false,
-                                "locked": true
-                            }
-                        ]
-                    },
-                    "_proto": "64479fdf9731c8fadc0642c1",
-                    "_required": true
-                },
-                {
-                    "_id": "6575d74816c2762fba005831",
-                    "_mergeSlotWithChildren": true,
-                    "_name": "Soft_armor_back",
-                    "_parent": "SiegeR",
-                    "_props": {
-                        "filters": [
-                            {
-                                "Filter": [
-                                    "SiegeR背部内衬"
-                                ],
-                                "Plate": "6575d56b16c2762fba005818",
-                                "armorColliders": [
-                                    "SpineDown",
-                                    "SpineTop"
-                                ],
-                                "armorPlateColliders": [],
-                                "bluntDamageReduceFromSoftArmor": false,
-                                "locked": true
-                            }
-                        ]
-                    },
-                    "_proto": "64479fdf9731c8fadc0642c1",
-                    "_required": true
-                },
-                {
-                    "_id": "6575d74816c2762fba005832",
-                    "_mergeSlotWithChildren": true,
-                    "_name": "Soft_armor_left",
-                    "_parent": "SiegeR",
-                    "_props": {
-                        "filters": [
-                            {
-                                "Filter": [
-                                    "SiegeR左侧内衬"
-                                ],
-                                "Plate": "6575d57a16c2762fba00581c",
-                                "armorColliders": [
-                                    "LeftSideChestDown"
-                                ],
-                                "armorPlateColliders": [],
-                                "bluntDamageReduceFromSoftArmor": false,
-                                "locked": true
-                            }
-                        ]
-                    },
-                    "_proto": "64479fdf9731c8fadc0642c1",
-                    "_required": true
-                },
-                {
-                    "_id": "6575d74816c2762fba005833",
-                    "_mergeSlotWithChildren": true,
-                    "_name": "soft_armor_right",
-                    "_parent": "SiegeR",
-                    "_props": {
-                        "filters": [
-                            {
-                                "Filter": [
-                                    "SiegeR右侧内衬"
-                                ],
-                                "Plate": "6575d589b15fef3dd4051674",
-                                "armorColliders": [
-                                    "RightSideChestDown"
-                                ],
-                                "armorPlateColliders": [],
-                                "bluntDamageReduceFromSoftArmor": false,
-                                "locked": true
-                            }
-                        ]
-                    },
-                    "_proto": "64479fdf9731c8fadc0642c1",
-                    "_required": true
-                },
-                {
-                    "_id": "6575d74816c2762fba005834",
-                    "_mergeSlotWithChildren": true,
-                    "_name": "Collar",
-                    "_parent": "SiegeR",
-                    "_props": {
-                        "filters": [
-                            {
-                                "Filter": [
-                                    "SiegeR脖子内衬"
-                                ],
-                                "Plate": "6575d598b15fef3dd4051678",
-                                "armorColliders": [
-                                    "NeckFront",
-                                    "NeckBack"
-                                ],
-                                "armorPlateColliders": [],
-                                "bluntDamageReduceFromSoftArmor": false,
-                                "locked": true
-                            }
-                        ]
-                    },
-                    "_proto": "64479fdf9731c8fadc0642c1",
-                    "_required": true
-                },
-                {
-                    "_id": "6575d74816c2762fba005835",
-                    "_mergeSlotWithChildren": true,
-                    "_name": "Shoulder_l",
-                    "_parent": "SiegeR",
-                    "_props": {
-                        "filters": [
-                            {
-                                "Filter": [
-                                    "SiegeR左肩内衬"
-                                ],
-                                "Plate": "6575d5b316c2762fba005824",
-                                "armorColliders": [
-                                    "LeftUpperArm"
-                                ],
-                                "armorPlateColliders": [],
-                                "bluntDamageReduceFromSoftArmor": false,
-                                "locked": true
-                            }
-                        ]
-                    },
-                    "_proto": "64479fdf9731c8fadc0642c1",
-                    "_required": true
-                },
-                {
-                    "_id": "6575d74816c2762fba005836",
-                    "_mergeSlotWithChildren": true,
-                    "_name": "Shoulder_r",
-                    "_parent": "SiegeR",
-                    "_props": {
-                        "filters": [
-                            {
-                                "Filter": [
-                                    "SiegeR右肩内衬"
-                                ],
-                                "Plate": "6575d5bd16c2762fba005828",
-                                "armorColliders": [
-                                    "RightUpperArm"
-                                ],
-                                "armorPlateColliders": [],
-                                "bluntDamageReduceFromSoftArmor": false,
-                                "locked": true
-                            }
-                        ]
-                    },
-                    "_proto": "64479fdf9731c8fadc0642c1",
-                    "_required": true
-                },
-                {
-                    "_id": "6575d74816c2762fba005837",
-                    "_mergeSlotWithChildren": true,
-                    "_name": "Groin",
-                    "_parent": "SiegeR",
-                    "_props": {
-                        "filters": [
-                            {
-                                "Filter": [
-                                    "SiegeR股沟内衬"
-                                ],
-                                "Plate": "6575d5a616c2762fba005820",
-                                "armorColliders": [
-                                    "Pelvis"
-                                ],
-                                "armorPlateColliders": [],
-                                "bluntDamageReduceFromSoftArmor": false,
-                                "locked": true
-                            }
-                        ]
-                    },
-                    "_proto": "64479fdf9731c8fadc0642c1",
-                    "_required": true
                 }
             ],
             "RigLayoutName": "firstspear"
@@ -29379,6 +29405,942 @@
             "FixType": [
                 "Mods"
             ]
+        }
+    },
+    "LV腰包": {
+        "_id": "LV腰包",
+        "_targetid": "5857a8bc2459772bad15db29",
+        "_name": "LV腰包",
+        "_props": {
+            "Prefab": {
+                "path": "assets/content/items/equipment/backpack_beltbag/item_container_lp_beltbag.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "container",
+            "Name": "腰包（路易伪登）",
+            "ShortName": "腰包",
+            "Description": "与路易伪登潮流馆联名推出的时尚腰包，酷毙了。",
+            "DefaultPrice": 150000,
+            "RagfairType": "5b5f6fd286f774093f2ecf0d",
+            "CopyPrice": true,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "ContainerSizeWidth": 2,
+            "ContainerSizeHeight": 2,
+            "BlackListType": 63
+        }
+    },
+    "LV钱包": {
+        "_id": "LV钱包",
+        "_targetid": "60b0f6c058e0b0481a09ad11",
+        "_name": "LV钱包",
+        "_props": {
+            "Prefab": {
+                "path": "assets/content/items/barter/wallet/item_container_wallet_loui_peeton.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "container",
+            "Name": "路易伪登豪华钱包",
+            "ShortName": "LP",
+            "Description": "由知名时尚品牌倾力打造的稀有钱包，很适合存放那些真正的高价值物品，比如现金和钥匙卡。",
+            "DefaultPrice": 150000,
+            "RagfairType": "5b5f6fd286f774093f2ecf0d",
+            "CopyPrice": true,
+            "CanFindInRaid": true,
+            "addToKappa": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "ContainerSizeWidth": 2,
+            "ContainerSizeHeight": 2,
+            "BlackListType": 10
+        }
+    },
+    "金锭": {
+        "_id": "金锭",
+        "_targetid": "5734758f24597738025ee253",
+        "_name": "金锭",
+        "_props": {
+            "BackgroundColor": "yellow",
+            "Weight": 0,
+            "StackMinRandom": 1,
+            "StackMaxRandom": 4,
+            "StackMaxSize": 64,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "ingot_gold.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "金锭",
+            "ShortName": "金锭",
+            "Description": "来自另一个世界的道具，由高纯度的黄金构成。",
+            "DefaultPrice": 20480,
+            "RagfairType": "VulcanSpecialItem",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": true,
+            "BlackListType": 10,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        },
+        "_parent": "543be5dd4bdc2deb348b4569",
+        "_type": "Item"
+    },
+    "金块": {
+        "_id": "金块",
+        "_targetid": "63a8970d7108f713591149f5",
+        "_name": "金块",
+        "_props": {
+            "Weight": 0,
+            "StackMinRandom": 1,
+            "StackMaxRandom": 2,
+            "BackgroundColor": "yellow",
+            "Width": 2,
+            "Height": 2,
+            "StackMaxSize": 64,
+            "CanSellOnRagfair": true,
+            "CanRequireOnRagfair": false,
+            "Prefab": {
+                "path": "block_gold.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "giftbox",
+            "Name": "金块",
+            "ShortName": "金块",
+            "Description": "一个像素方块，可以分解成九个金锭。",
+            "DefaultPrice": 184320,
+            "RagfairType": "VulcanSpecialItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 10,
+            "isStaticBox": true,
+            "StaticBoxData": {
+                "forcefindinraid": false,
+                "giftdata": [
+                    {
+                        "$type": "Item",
+                        "name": "金锭",
+                        "itemid": "金锭",
+                        "stackcount": 9
+                    }
+                ]
+            }
+        }
+    },
+    "钻石块": {
+        "_id": "钻石块",
+        "_targetid": "63a8970d7108f713591149f5",
+        "_name": "钻石块",
+        "_props": {
+            "Weight": 0,
+            "StackMinRandom": 1,
+            "StackMaxRandom": 2,
+            "BackgroundColor": "blue",
+            "Width": 2,
+            "Height": 2,
+            "StackMaxSize": 64,
+            "CanSellOnRagfair": true,
+            "CanRequireOnRagfair": false,
+            "Prefab": {
+                "path": "block_diamond.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "giftbox",
+            "Name": "钻石块",
+            "ShortName": "钻石块",
+            "Description": "一个像素方块，可以分解成九个钻石。",
+            "DefaultPrice": 737280,
+            "RagfairType": "VulcanSpecialItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 10,
+            "isStaticBox": true,
+            "StaticBoxData": {
+                "forcefindinraid": false,
+                "giftdata": [
+                    {
+                        "$type": "Item",
+                        "name": "钻石",
+                        "itemid": "MC钻石",
+                        "stackcount": 9
+                    }
+                ]
+            }
+        }
+    },
+    "绿宝石块": {
+        "_id": "绿宝石块",
+        "_targetid": "63a8970d7108f713591149f5",
+        "_name": "绿宝石块",
+        "_props": {
+            "Weight": 0,
+            "StackMinRandom": 1,
+            "StackMaxRandom": 2,
+            "BackgroundColor": "green",
+            "Width": 2,
+            "Height": 2,
+            "StackMaxSize": 64,
+            "CanSellOnRagfair": true,
+            "CanRequireOnRagfair": false,
+            "Prefab": {
+                "path": "block_emerald.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "giftbox",
+            "Name": "绿宝石块",
+            "ShortName": "绿宝石块",
+            "Description": "一个像素方块，可以分解成九个绿宝石。",
+            "DefaultPrice": 1474560,
+            "RagfairType": "VulcanSpecialItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 10,
+            "isStaticBox": true,
+            "StaticBoxData": {
+                "forcefindinraid": false,
+                "giftdata": [
+                    {
+                        "$type": "Item",
+                        "name": "绿宝石",
+                        "itemid": "MC绿宝石",
+                        "stackcount": 9
+                    }
+                ]
+            }
+        }
+    },
+    "金奇点": {
+        "_id": "金奇点",
+        "_targetid": "63a8970d7108f713591149f5",
+        "_name": "金奇点",
+        "_props": {
+            "Weight": 0,
+            "StackMinRandom": 1,
+            "StackMaxRandom": 2,
+            "BackgroundColor": "yellow",
+            "Width": 3,
+            "Height": 3,
+            "StackMaxSize": 64,
+            "CanSellOnRagfair": false,
+            "CanRequireOnRagfair": false,
+            "Prefab": {
+                "path": "singularity_gold.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "giftbox",
+            "Name": "金奇点",
+            "ShortName": "奇点",
+            "Description": "理论上无法存在于现实世界的物质，不知道是什么力量在维持它的稳定，可以分解成64个金块。",
+            "DefaultPrice": 11796480,
+            "RagfairType": "VulcanSpecialItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "isStaticBox": true,
+            "StaticBoxData": {
+                "forcefindinraid": false,
+                "giftdata": [
+                    {
+                        "$type": "Item",
+                        "name": "金块",
+                        "itemid": "金块",
+                        "stackcount": 64
+                    }
+                ]
+            }
+        }
+    },
+    "钻石奇点": {
+        "_id": "钻石奇点",
+        "_targetid": "63a8970d7108f713591149f5",
+        "_name": "钻石奇点",
+        "_props": {
+            "Weight": 0,
+            "StackMinRandom": 1,
+            "StackMaxRandom": 2,
+            "BackgroundColor": "blue",
+            "Width": 3,
+            "Height": 3,
+            "StackMaxSize": 64,
+            "CanSellOnRagfair": false,
+            "CanRequireOnRagfair": false,
+            "Prefab": {
+                "path": "singularity_diamond.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "giftbox",
+            "Name": "钻石奇点",
+            "ShortName": "奇点",
+            "Description": "理论上无法存在于现实世界的物质，不知道是什么力量在维持它的稳定，可以分解成64个钻石块。",
+            "DefaultPrice": 47185920,
+            "RagfairType": "VulcanSpecialItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "isStaticBox": true,
+            "StaticBoxData": {
+                "forcefindinraid": false,
+                "giftdata": [
+                    {
+                        "$type": "Item",
+                        "name": "钻石块",
+                        "itemid": "钻石块",
+                        "stackcount": 64
+                    }
+                ]
+            }
+        }
+    },
+    "绿宝石奇点": {
+        "_id": "绿宝石奇点",
+        "_targetid": "63a8970d7108f713591149f5",
+        "_name": "绿宝石奇点",
+        "_props": {
+            "Weight": 0,
+            "StackMinRandom": 1,
+            "StackMaxRandom": 2,
+            "BackgroundColor": "green",
+            "Width": 3,
+            "Height": 3,
+            "StackMaxSize": 64,
+            "CanSellOnRagfair": false,
+            "CanRequireOnRagfair": false,
+            "Prefab": {
+                "path": "singularity_emerald.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "giftbox",
+            "Name": "绿宝石奇点",
+            "ShortName": "奇点",
+            "Description": "理论上无法存在于现实世界的物质，不知道是什么力量在维持它的稳定，可以分解成64个绿宝石块。",
+            "DefaultPrice": 94371840,
+            "RagfairType": "VulcanSpecialItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "isStaticBox": true,
+            "StaticBoxData": {
+                "forcefindinraid": false,
+                "giftdata": [
+                    {
+                        "$type": "Item",
+                        "name": "绿宝石块",
+                        "itemid": "绿宝石块",
+                        "stackcount": 64
+                    }
+                ]
+            }
+        }
+    },
+    "开拓者礼包": {
+        "_id": "开拓者礼包",
+        "_targetid": "63a8970d7108f713591149f5",
+        "_name": "开拓者礼包",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Width": 3,
+            "Height": 3,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "CanRequireOnRagfair": false,
+            "Prefab": {
+                "path": "chest_mc_crystal.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "giftbox",
+            "Name": "纪念币套装\"开拓者\"",
+            "ShortName": "纪念币套装",
+            "Description": "一套完整的纪念币套装，打开后可以获得全套的「开拓者」纪念币。",
+            "DefaultPrice": 1000000,
+            "RagfairType": "VulcanSpecialItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "isStaticBox": true,
+            "StaticBoxData": {
+                "forcefindinraid": true,
+                "giftdata": [
+                    {
+                        "$type": "Item",
+                        "name": "开拓纪念币_AT",
+                        "itemid": "开拓纪念币_AT",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "开拓纪念币_星稀",
+                        "itemid": "开拓纪念币_星稀",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "开拓纪念币_物是人非",
+                        "itemid": "开拓纪念币_物是人非",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "开拓纪念币_红衣",
+                        "itemid": "开拓纪念币_红衣",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "开拓纪念币_王哈桑",
+                        "itemid": "开拓纪念币_王哈桑",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "开拓纪念币_静",
+                        "itemid": "开拓纪念币_静",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "开拓纪念币_kmyu",
+                        "itemid": "开拓纪念币_kmyu",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "开拓纪念币_白闲者",
+                        "itemid": "开拓纪念币_白闲者",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "开拓纪念币_夕阳与花",
+                        "itemid": "开拓纪念币_夕阳与花",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "开拓纪念币_水月",
+                        "itemid": "开拓纪念币_水月",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "开拓纪念币_MG",
+                        "itemid": "开拓纪念币_MG",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "开拓纪念币_NEKO17",
+                        "itemid": "开拓纪念币_NEKO17",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "开拓纪念币_千叶玲花",
+                        "itemid": "开拓纪念币_千叶玲花",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "开拓纪念币_死神少爷",
+                        "itemid": "开拓纪念币_死神少爷",
+                        "stackcount": 1
+                    }
+                ]
+            }
+        }
+    },
+    "支持者礼包": {
+        "_id": "支持者礼包",
+        "_targetid": "63a8970d7108f713591149f5",
+        "_name": "支持者礼包",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Width": 3,
+            "Height": 3,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "CanRequireOnRagfair": false,
+            "Prefab": {
+                "path": "chest_mc_gold.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "giftbox",
+            "Name": "纪念币套装\"支持者\"",
+            "ShortName": "纪念币套装",
+            "Description": "一套完整的纪念币套装，打开后可以获得全套的「支持者」纪念币。",
+            "DefaultPrice": 1000000,
+            "RagfairType": "VulcanSpecialItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "isStaticBox": true,
+            "StaticBoxData": {
+                "forcefindinraid": true,
+                "giftdata": [
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_葬爱",
+                        "itemid": "支持纪念币_葬爱",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_今日方知我是我",
+                        "itemid": "支持纪念币_今日方知我是我",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_忘川",
+                        "itemid": "支持纪念币_忘川",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_山南屿北",
+                        "itemid": "支持纪念币_山南屿北",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_猪猪",
+                        "itemid": "支持纪念币_猪猪",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_Suli",
+                        "itemid": "支持纪念币_Suli",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_Coldwing",
+                        "itemid": "支持纪念币_Coldwing",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_泠苍",
+                        "itemid": "支持纪念币_泠苍",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_辉煌",
+                        "itemid": "支持纪念币_辉煌",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_在下污击",
+                        "itemid": "支持纪念币_在下污击",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_奥瑞利安",
+                        "itemid": "支持纪念币_奥瑞利安",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_北岸初晴",
+                        "itemid": "支持纪念币_北岸初晴",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_技术宅",
+                        "itemid": "支持纪念币_技术宅",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_钛",
+                        "itemid": "支持纪念币_钛",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_小莫",
+                        "itemid": "支持纪念币_小莫",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_蘑菇",
+                        "itemid": "支持纪念币_蘑菇",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_阿尔法日诺",
+                        "itemid": "支持纪念币_阿尔法日诺",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_柠檬水",
+                        "itemid": "支持纪念币_柠檬水",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_识字卡",
+                        "itemid": "支持纪念币_识字卡",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_莉莉白",
+                        "itemid": "支持纪念币_莉莉白",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_枫糖咲夜",
+                        "itemid": "支持纪念币_枫糖咲夜",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_一只咸熊",
+                        "itemid": "支持纪念币_一只咸熊",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_考研气氛组",
+                        "itemid": "支持纪念币_考研气氛组",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_DK",
+                        "itemid": "支持纪念币_DK",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_馨凝",
+                        "itemid": "支持纪念币_馨凝",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_圆子",
+                        "itemid": "支持纪念币_圆子",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_虚无",
+                        "itemid": "支持纪念币_虚无",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_银墨",
+                        "itemid": "支持纪念币_银墨",
+                        "stackcount": 1
+                    }
+                ]
+            }
+        }
+    },
+    "百炼礼包": {
+        "_id": "百炼礼包",
+        "_targetid": "63a8970d7108f713591149f5",
+        "_name": "百炼礼包",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "default",
+            "Width": 3,
+            "Height": 3,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "CanRequireOnRagfair": false,
+            "Prefab": {
+                "path": "chest_mc_iron.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "giftbox",
+            "Name": "纪念币套装\"百炼\"",
+            "ShortName": "纪念币套装",
+            "Description": "一套完整的纪念币套装，打开后可以获得全套的「百炼」纪念币。",
+            "DefaultPrice": 1000000,
+            "RagfairType": "VulcanSpecialItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "isStaticBox": true,
+            "StaticBoxData": {
+                "forcefindinraid": true,
+                "giftdata": [
+                    {
+                        "$type": "Item",
+                        "name": "百炼纪念币_大放送之夜",
+                        "itemid": "百炼纪念币_大放送之夜",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "百炼纪念币_恐吓者",
+                        "itemid": "百炼纪念币_恐吓者",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "百炼纪念币_灭虫服务",
+                        "itemid": "百炼纪念币_灭虫服务",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "百炼纪念币_惩罚者",
+                        "itemid": "百炼纪念币_惩罚者",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "百炼纪念币_奢侈无罪",
+                        "itemid": "百炼纪念币_奢侈无罪",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "百炼纪念币_维和任务",
+                        "itemid": "百炼纪念币_维和任务",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "百炼纪念币_样品",
+                        "itemid": "百炼纪念币_样品",
+                        "stackcount": 1
+                    }
+                ]
+            }
+        }
+    },
+    "降临礼包": {
+        "_id": "降临礼包",
+        "_targetid": "63a8970d7108f713591149f5",
+        "_name": "降临礼包",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "default",
+            "Width": 3,
+            "Height": 3,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "CanRequireOnRagfair": false,
+            "Prefab": {
+                "path": "chest_mc_copper.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "giftbox",
+            "Name": "纪念币套装\"降临\"",
+            "ShortName": "纪念币套装",
+            "Description": "一套完整的纪念币套装，打开后可以获得全套的「降临」纪念币。",
+            "DefaultPrice": 1000000,
+            "RagfairType": "VulcanSpecialItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "isStaticBox": true,
+            "StaticBoxData": {
+                "forcefindinraid": true,
+                "giftdata": [
+                    {
+                        "$type": "Item",
+                        "name": "降临纪念币_短缺",
+                        "itemid": "降临纪念币_短缺",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "降临纪念币_首秀",
+                        "itemid": "降临纪念币_首秀",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "降临纪念币_熟人",
+                        "itemid": "降临纪念币_熟人",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "降临纪念币_介绍",
+                        "itemid": "降临纪念币_介绍",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "降临纪念币_渔具",
+                        "itemid": "降临纪念币_渔具",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "降临纪念币_供应商",
+                        "itemid": "降临纪念币_供应商",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "降临纪念币_生意至上",
+                        "itemid": "降临纪念币_生意至上",
+                        "stackcount": 1
+                    }
+                ]
+            }
+        }
+    },
+    "星辰之路礼包": {
+        "_id": "星辰之路礼包",
+        "_targetid": "63a8970d7108f713591149f5",
+        "_name": "星辰之路礼包",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "red",
+            "Width": 3,
+            "Height": 3,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "CanRequireOnRagfair": false,
+            "Prefab": {
+                "path": "chest_mc_crystal.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "giftbox",
+            "Name": "纪念币套装\"星辰之路\"",
+            "ShortName": "纪念币套装",
+            "Description": "一套完整的纪念币套装，打开后可以获得全套的「星辰之路」纪念币。",
+            "DefaultPrice": 1000000,
+            "RagfairType": "VulcanSpecialItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "isStaticBox": true,
+            "StaticBoxData": {
+                "forcefindinraid": true,
+                "giftdata": [
+                    {
+                        "$type": "Item",
+                        "name": "星辰之路纪念币_长期合作",
+                        "itemid": "星辰之路纪念币_长期合作",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "星辰之路纪念币_枪匠",
+                        "itemid": "星辰之路纪念币_枪匠",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "星辰之路纪念币_急单",
+                        "itemid": "星辰之路纪念币_急单",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "星辰之路纪念币_掠地攻城",
+                        "itemid": "星辰之路纪念币_掠地攻城",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "星辰之路纪念币_塔科夫神射手",
+                        "itemid": "星辰之路纪念币_塔科夫神射手",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "星辰之路纪念币_试驾",
+                        "itemid": "星辰之路纪念币_试驾",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "星辰之路纪念币_天神射手",
+                        "itemid": "星辰之路纪念币_天神射手",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "星辰之路纪念币_向导",
+                        "itemid": "星辰之路纪念币_向导",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "星辰之路纪念币_夜间扫荡",
+                        "itemid": "星辰之路纪念币_夜间扫荡",
+                        "stackcount": 1
+                    }
+                ]
+            }
         }
     }
 }

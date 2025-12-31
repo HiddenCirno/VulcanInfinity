@@ -793,8 +793,7 @@
         "Locked": false,
         "Quest": "",
         "Require": {
-            "Tool": {
-            },
+            "Tool": {},
             "Item": {
                 "5857a8bc2459772bad15db29": 1,
                 "5d63d33b86f7746ea9275524": 1,
@@ -814,11 +813,187 @@
         "Locked": false,
         "Quest": "",
         "Require": {
-            "Tool": {
-            },
+            "Tool": {},
             "Item": {
                 "战痕3x3": 1,
                 "5e2af22086f7746d3f3c33fa": 1
+            }
+        }
+    },
+    "LV腰包配方": {
+        "$type": "normal",
+        "ID": "LV腰包配方",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "LV腰包",
+        "OutputCount": 1,
+        "Time": 86400,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "小腰包": 1,
+                "金锭": 4,
+                "英雄之证": 1
+            }
+        }
+    },
+    "LV33配方": {
+        "$type": "normal",
+        "ID": "LV33配方",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "LV3x3",
+        "OutputCount": 1,
+        "Time": 86400,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "5857a8bc2459772bad15db29": 1,
+                "金块": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "LV钱包配方": {
+        "$type": "normal",
+        "ID": "LV钱包配方",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "LV钱包",
+        "OutputCount": 1,
+        "Time": 86400,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "5783c43d2459774bbe137486": 1,
+                "金锭": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "LV33逆向配方": {
+        "$type": "normal",
+        "ID": "LV33逆向配方",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "5857a8bc2459772bad15db29",
+        "OutputCount": 1,
+        "Time": 86400,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "LV3x3": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "比特币焊接": {
+        "$type": "normal",
+        "ID": "比特币焊接",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "59faff1d86f7746c51718c9c",
+        "OutputCount": 1,
+        "Time": 300,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {
+                "590c2d8786f774245b1f03f3": 1
+            },
+            "Item": {
+                "左半边比特币": 1,
+                "右半边比特币": 1,
+                "5e2af22086f7746d3f3c33fa": 1
+            }
+        }
+    },
+    "哑铃转换": {
+        "$type": "normal",
+        "ID": "哑铃转换",
+        "Area": 23,
+        "AreaLevel": 1,
+        "Output": "黄金哑铃",
+        "OutputCount": 1,
+        "Time": 86400,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "金块": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "列车凭证转换": {
+        "$type": "normal",
+        "ID": "列车凭证转换",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "列车凭证",
+        "OutputCount": 1,
+        "Time": 86400,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "金锭": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "蓄电池充电": {
+        "$type": "normal",
+        "ID": "蓄电池充电",
+        "Area": 4,
+        "AreaLevel": 2,
+        "Output": "5733279d245977289b77ec24",
+        "OutputCount": 1,
+        "Time": 21600,
+        "NeedFuel": true,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "5733279d245977289b77ec24": 1,
+                "红石粉": 4
+            }
+        }
+    },
+    "坦克电池充电": {
+        "$type": "normal",
+        "ID": "坦克电池充电",
+        "Area": 4,
+        "AreaLevel": 2,
+        "Output": "5d03794386f77420415576f5",
+        "OutputCount": 1,
+        "Time": 43200,
+        "NeedFuel": true,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "5d03794386f77420415576f5": 1,
+                "红石粉": 9
             }
         }
     }

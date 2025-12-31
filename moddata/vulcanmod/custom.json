@@ -3942,10 +3942,10 @@
         "_type": "Item",
         "_props": {
             "AvailableAsDefault": true,
-            "Name": "熔铁烹金",
-            "EName": "熔铁烹金",
-            "ShortName": "熔铁烹金",
-            "Description": "熔铁烹金",
+            "Name": "熔铁铸金",
+            "EName": "熔铁铸金",
+            "ShortName": "熔铁铸金",
+            "Description": "熔铁铸金",
             "ProfileVersions": [],
             "Side": [
                 "Bear",

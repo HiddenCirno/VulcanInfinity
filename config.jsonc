@@ -690,11 +690,11 @@
       //无限秘库配置
       "InfinityStorage": {
         //是否启用无限秘库
-        "Active": false,
+        "Active": true,
         //配置部分
         "Config": {
           //是否启用全局价格覆盖, 启用后无限秘库将以统一价格出售物品
-          "EnableOverridePrice": false,
+          "EnableOverridePrice": true,
           //是否在商人界面显示商人
           "ShowTraderInTraderPage": true,
           //全局价格对应的货币物品ID
