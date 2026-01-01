@@ -996,5 +996,205 @@
                 "红石粉": 9
             }
         }
+    },
+    "黄金Prapor小人": {
+        "$type": "normal",
+        "ID": "黄金Prapor小人",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "纯金Prapor小人",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "Prapor小人": 1,
+                "金块": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "黄金Therapist小人": {
+        "$type": "normal",
+        "ID": "黄金Therapist小人",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "纯金Therapist小人",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "Therapist小人": 1,
+                "金块": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "黄金Fence小人": {
+        "$type": "normal",
+        "ID": "黄金Fence小人",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "纯金Fence小人",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "Fence小人": 1,
+                "金块": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "黄金Skier小人": {
+        "$type": "normal",
+        "ID": "黄金Skier小人",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "纯金Skier小人",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "Skier小人": 1,
+                "金块": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "黄金Peacekeeper小人": {
+        "$type": "normal",
+        "ID": "黄金Peacekeeper小人",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "纯金Peacekeeper小人",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "Peacekeeper小人": 1,
+                "金块": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "黄金Mechanic小人": {
+        "$type": "normal",
+        "ID": "黄金Mechanic小人",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "纯金Mechanic小人",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "Mechanic小人": 1,
+                "金块": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "黄金Ragman小人": {
+        "$type": "normal",
+        "ID": "黄金Ragman小人",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "纯金Ragman小人",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "Ragman小人": 1,
+                "金块": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "黄金Jaeger小人": {
+        "$type": "normal",
+        "ID": "黄金Jaeger小人",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "纯金Jaeger小人",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "Jaeger小人": 1,
+                "金块": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "黄金Lightkeeper小人": {
+        "$type": "normal",
+        "ID": "黄金Lightkeeper小人",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "纯金Lightkeeper小人",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "Lightkeeper小人": 1,
+                "金块": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "黄金Ref小人": {
+        "$type": "normal",
+        "ID": "黄金Ref小人",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "纯金Ref小人",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "Ref小人": 1,
+                "金块": 1,
+                "英雄之证": 1
+            }
+        }
     }
 }
