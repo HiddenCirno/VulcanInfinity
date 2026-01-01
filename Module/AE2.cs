@@ -47,6 +47,8 @@ public class AE2
         var modconfig = modConfig.Module.ItemModule.MEStorage.Config;
         var modpath = System.IO.Path.Combine(ConfigManager.modPath, $"{ConfigManager.dataPath}ae2/");
         var items = VulcanUtil.ConvertItemData<Dictionary<string, CustomItemTemplate>>(modpath, "items.json", jsonutil);
+        var modrecipes = modHelper.GetJsonDataFromFile<Dictionary<string, CustomRecipeData>>(modpath, "recipemod.json");
+        var vanillarecipes = modHelper.GetJsonDataFromFile<Dictionary<string, CustomRecipeData>>(modpath, "recipevanilla.json");
         var blacklist = new List<string>
         {
             "ME驱动器",
@@ -87,6 +89,14 @@ public class AE2
             "256k档案存储元件"
         };
         ItemUtils.InitItem(items, creator, modName, logger, databaseService, cloner, configServer);
+        if (modConfig.Module.CoreModule.VulcanMod.Active)
+        {
+            RecipeUtils.InitRecipeData(modrecipes, databaseService, cloner);
+        }
+        else
+        {
+            RecipeUtils.InitRecipeData(vanillarecipes, databaseService, cloner);
+        }
         if (modconfig.EnableSellOnTrader)
         {
             var storage = VulcanUtil.ConvertHashID("ME驱动器");

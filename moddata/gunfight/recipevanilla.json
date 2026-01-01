@@ -1,0 +1,164 @@
+{
+    "精度升级6制作": {
+        "$type": "normal",
+        "ID": "精度升级6制作",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "精度升级6",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "精度升级5": 25
+            }
+        }
+    },
+    "降温升级6制作": {
+        "$type": "normal",
+        "ID": "降温升级6制作",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "降温升级6",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "降温升级5": 25
+            }
+        }
+    },
+    "耐久升级6制作": {
+        "$type": "normal",
+        "ID": "耐久升级6制作",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "耐久升级6",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "耐久升级5": 25
+            }
+        }
+    },
+    "人机功效升级6制作": {
+        "$type": "normal",
+        "ID": "人机功效升级6制作",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "人机功效升级6",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "人机功效升级5": 25
+            }
+        }
+    },
+    "后坐力升级6制作": {
+        "$type": "normal",
+        "ID": "后坐力升级6制作",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "后坐力升级6",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "后坐力升级5": 25
+            }
+        }
+    },
+    "重力升级6制作": {
+        "$type": "normal",
+        "ID": "重力升级6制作",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "重力升级6",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "重力升级5": 25
+            }
+        }
+    },
+    "容量升级2制作": {
+        "$type": "normal",
+        "ID": "容量升级2制作",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "容量升级2",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "容量升级1": 25
+            }
+        }
+    },
+    "空间升级3制作": {
+        "$type": "normal",
+        "ID": "空间升级3制作",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "空间升级3",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "空间升级1": 25
+            }
+        }
+    },
+    "空间升级4制作": {
+        "$type": "normal",
+        "ID": "空间升级4制作",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "空间升级4",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "空间升级2": 25
+            }
+        }
+    }
+}

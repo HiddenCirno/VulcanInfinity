@@ -130,3 +130,8 @@ D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\obj\Debug\火神重工-�
 D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\obj\Debug\refint\火神重工-无限.dll
 D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\obj\Debug\火神重工-无限.pdb
 D:\TKFSinglePlayer\GitRepo\400TEST\火神重工-无限\obj\Debug\ref\火神重工-无限.dll
+I:\TKF\SPT\user\mods\火神重工-无限\moddata\ae2\recipemod.json
+I:\TKF\SPT\user\mods\火神重工-无限\moddata\ae2\recipevanilla.json
+I:\TKF\SPT\user\mods\火神重工-无限\moddata\gunfight\archive.json
+I:\TKF\SPT\user\mods\火神重工-无限\moddata\gunfight\recipemod.json
+I:\TKF\SPT\user\mods\火神重工-无限\moddata\gunfight\recipevanilla.json

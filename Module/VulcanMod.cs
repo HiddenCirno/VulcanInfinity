@@ -993,4 +993,54 @@ public class VulcanMod
         ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.注射器, medicines, databaseService, logger, cloner);
         ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.药品, medicines, databaseService, logger, cloner);
     }
+    public static void FixQuestWeapons(DatabaseService databaseService, ISptLogger<VulcanCore.VulcanCore> logger, ICloner cloner)
+    {
+        var quests = databaseService.GetQuests();
+        quests.TryGetValue(VulcanUtil.ConvertHashID("PersicariaCodTask1"), out var 不许说俄语);
+        quests.TryGetValue(QuestTpl.A_SHOOTER_BORN_IN_HEAVEN, out var 天神射手);
+        quests.TryGetValue(QuestTpl.PSYCHO_SNIPER, out var 狙击疯魔);
+        quests.TryGetValue(QuestTpl.SLAUGHTERHOUSE, out var 屠宰场); //近战
+        quests.TryGetValue(QuestTpl.GRENADIER, out var 掷弹兵); //手雷
+        quests.TryGetValue(QuestTpl.CLAUSTROPHOBIA, out var 幽闭恐惧症); //霰弹枪
+        quests.TryGetValue(QuestTpl.THE_TARKOV_SHOOTER_PART_1, out var 神射手1);
+        quests.TryGetValue(QuestTpl.THE_TARKOV_SHOOTER_PART_2, out var 神射手2);
+        quests.TryGetValue(QuestTpl.THE_TARKOV_SHOOTER_PART_3, out var 神射手3);
+        quests.TryGetValue(QuestTpl.THE_TARKOV_SHOOTER_PART_4, out var 神射手4);
+        quests.TryGetValue(QuestTpl.THE_TARKOV_SHOOTER_PART_5, out var 神射手5);
+        quests.TryGetValue(QuestTpl.THE_TARKOV_SHOOTER_PART_6, out var 神射手6);
+        quests.TryGetValue(QuestTpl.THE_TARKOV_SHOOTER_PART_7, out var 神射手7);
+        quests.TryGetValue(QuestTpl.THE_TARKOV_SHOOTER_PART_8, out var 神射手8);
+        quests.TryGetValue(QuestTpl.GENDARMERIE_TICKETS_PLEASE, out var 出警检票); //冲锋枪 
+        quests.TryGetValue(QuestTpl.GENDARMERIE_DISTRICT_PATROL, out var 出警巡逻);//突击步/卡宾
+        quests.TryGetValue(QuestTpl.GENDARMERIE_MALL_COP, out var 出警商场); //手枪
+        var 栓狙 = ItemUtils.GetItemListByRagfairTag(ERagfairTagsType.栓动式步枪, databaseService);
+        var 轻机枪 = ItemUtils.GetItemListByRagfairTag(ERagfairTagsType.机枪, databaseService);
+        var 近战武器 = ItemUtils.GetItemListByRagfairTag(ERagfairTagsType.近战武器, databaseService);
+        var 手雷 = ItemUtils.GetItemListByRagfairTag(ERagfairTagsType.投掷物, databaseService);
+        var 霰弹枪 = ItemUtils.GetItemListByRagfairTag(ERagfairTagsType.霰弹枪, databaseService);
+        var 手枪 = ItemUtils.GetItemListByRagfairTag(ERagfairTagsType.手枪, databaseService);
+        var 冲锋枪 = ItemUtils.GetItemListByRagfairTag(ERagfairTagsType.冲锋枪, databaseService);
+        var 出警巡逻需求 = ItemUtils.GetItemListByRagfairTag(ERagfairTagsType.突击步枪, databaseService);
+        var 突击卡宾枪 = ItemUtils.GetItemListByRagfairTag(ERagfairTagsType.突击卡宾枪, databaseService);
+        出警巡逻需求.AddRange(突击卡宾枪);
+        栓狙.Add(ItemTpl.SHOTGUN_MP18_762X54R_SINGLESHOT_RIFLE);
+        不许说俄语.Conditions.AvailableForFinish[0].Counter.Conditions[0].Weapon = 轻机枪.ToHashSet();
+        狙击疯魔.Conditions.AvailableForFinish[1].Counter.Conditions[0].Weapon = 栓狙.ToHashSet();
+        天神射手.Conditions.AvailableForFinish.ForEach(x => { x.Counter.Conditions[0].Weapon = 栓狙.ToHashSet(); });
+        屠宰场.Conditions.AvailableForFinish.ForEach(x => { x.Counter.Conditions[0].Weapon = 近战武器.ToHashSet(); });
+        掷弹兵.Conditions.AvailableForFinish[0].Counter.Conditions[0].Weapon = 手雷.ToHashSet();
+        幽闭恐惧症.Conditions.AvailableForFinish[0].Counter.Conditions[0].Weapon = 霰弹枪.ToHashSet();
+        神射手1.Conditions.AvailableForFinish[0].Counter.Conditions[0].Weapon = 轻机枪.ToHashSet();
+        神射手2.Conditions.AvailableForFinish[0].Counter.Conditions[0].Weapon = 轻机枪.ToHashSet();
+        神射手2.Conditions.AvailableForFinish[1].Counter.Conditions[0].Weapon = 轻机枪.ToHashSet();
+        神射手3.Conditions.AvailableForFinish[0].Counter.Conditions[0].Weapon = 轻机枪.ToHashSet();
+        神射手4.Conditions.AvailableForFinish[0].Counter.Conditions[0].Weapon = 轻机枪.ToHashSet();
+        神射手5.Conditions.AvailableForFinish[0].Counter.Conditions[0].Weapon = 轻机枪.ToHashSet();
+        神射手6.Conditions.AvailableForFinish[0].Counter.Conditions[0].Weapon = 轻机枪.ToHashSet();
+        神射手7.Conditions.AvailableForFinish[0].Counter.Conditions[0].Weapon = 轻机枪.ToHashSet();
+        神射手8.Conditions.AvailableForFinish[0].Counter.Conditions[0].Weapon = 轻机枪.ToHashSet();
+        出警检票.Conditions.AvailableForFinish[0].Counter.Conditions[0].Weapon = 冲锋枪.ToHashSet();
+        出警商场.Conditions.AvailableForFinish[0].Counter.Conditions[0].Weapon = 手枪.ToHashSet();
+        出警巡逻.Conditions.AvailableForFinish[0].Counter.Conditions[0].Weapon = 出警巡逻需求.ToHashSet();
+    }
 }

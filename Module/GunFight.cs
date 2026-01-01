@@ -47,6 +47,8 @@ public class GunFight
         var modconfig = modConfig.Module.ItemModule.GunFight.Config;
         var modpath = System.IO.Path.Combine(ConfigManager.modPath, $"{ConfigManager.dataPath}gunfight/");
         var items = VulcanUtil.ConvertItemData<Dictionary<string, CustomItemTemplate>>(modpath, "items.json", jsonutil);
+        var modrecipes = modHelper.GetJsonDataFromFile<Dictionary<string, CustomRecipeData>>(modpath, "recipemod.json");
+        var vanillarecipes = modHelper.GetJsonDataFromFile<Dictionary<string, CustomRecipeData>>(modpath, "recipevanilla.json");
         var zhCNLang = databaseService.GetLocales().Global["ch"];
         foreach (var item in items.Values)
         {
@@ -56,6 +58,14 @@ public class GunFight
             }
         }
         ItemUtils.InitItem(items, creator, modName, logger, databaseService, cloner, configServer);
+        if (modConfig.Module.CoreModule.VulcanMod.Active)
+        {
+            RecipeUtils.InitRecipeData(modrecipes, databaseService, cloner);
+        }
+        else
+        {
+            RecipeUtils.InitRecipeData(vanillarecipes, databaseService, cloner);
+        }
         zhCNLang.AddTransformer(lang =>
         {
             var slotkey = "MOD_UPGRADE";
@@ -90,7 +100,7 @@ public class GunFight
                 ragfairtag == ERagfairTagsType.Í»»÷¿¨±öÇ¹ ||
                 ragfairtag == ERagfairTagsType.Í»»÷²½Ç¹ ||
                 ragfairtag == ERagfairTagsType.¾«È·ÉäÊÖ²½Ç¹ ||
-                ragfairtag == ERagfairTagsType.ö±µ¯Ç¹ || 
+                ragfairtag == ERagfairTagsType.ö±µ¯Ç¹ ||
                 itemid == ItemTpl.MACHINEGUN_KALASHNIKOV_PKTM_762X54R_MODERNIZED_TANK_MACHINE_GUN ||
                 itemid == ItemTpl.MACHINEGUN_AGS30_30X29MM_AUTOMATIC_GRENADE_LAUNCHER ||
                 itemid == ItemTpl.MACHINEGUN_NSV_UTYOS_127X108_HEAVY_MACHINE_GUN ||

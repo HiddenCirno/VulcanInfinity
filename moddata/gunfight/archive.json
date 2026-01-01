@@ -1,0 +1,241 @@
+{
+    "普通升级抽奖箱": {
+        "_id": "普通升级抽奖箱",
+        "_targetid": "63a8970d7108f713591149f5",
+        "_name": "普通升级抽奖箱",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "default",
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "lucky_block.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": false,
+            "StackMaxSize": 1
+        },
+        "_customprops": {
+            "$type": "giftbox",
+            "Name": "枪械武术-普通升级抽奖箱",
+            "ShortName": "抽奖箱",
+            "Description": "一个抽奖盒子，打开后可以随机获得一个普通品质的基础升级插件。",
+            "DefaultPrice": 5000,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "CustomLootTarget": "5d0375ff86f774186372f685",
+            "isMoney": false,
+            "isGiftBox": true,
+            "FixType": [
+                "None",
+                "Container"
+            ],
+            "BlackListType": 10,
+            "CustomFixID": "619cbf7d23893217ec30b689",
+            "BoxData": {
+                "Count": 1,
+                "Rewards": {
+                    "后坐力升级1": 1,
+                    "人机功效升级1": 1,
+                    "精度升级1": 1,
+                    "耐久升级1": 1,
+                    "降温升级1": 1,
+                    "重力升级1": 1
+                }
+            }
+        }
+    },
+    "稀有升级抽奖箱": {
+        "_id": "稀有升级抽奖箱",
+        "_targetid": "63a8970d7108f713591149f5",
+        "_name": "稀有升级抽奖箱",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "lucky_block.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": false,
+            "StackMaxSize": 1
+        },
+        "_customprops": {
+            "$type": "giftbox",
+            "Name": "枪械武术-稀有升级抽奖箱",
+            "ShortName": "抽奖箱",
+            "Description": "一个抽奖盒子，打开后可以随机获得一个稀有品质的基础升级插件。",
+            "DefaultPrice": 15000,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "CustomLootTarget": "5d03784a86f774203e7e0c4d",
+            "isMoney": false,
+            "isGiftBox": true,
+            "FixType": [
+                "None",
+                "Container"
+            ],
+            "BlackListType": 10,
+            "CustomFixID": "619cbf7d23893217ec30b689",
+            "BoxData": {
+                "Count": 1,
+                "Rewards": {
+                    "后坐力升级2": 1,
+                    "人机功效升级2": 1,
+                    "精度升级2": 1,
+                    "耐久升级2": 1,
+                    "降温升级2": 1,
+                    "重力升级2": 1
+                }
+            }
+        }
+    },
+    "史诗升级抽奖箱": {
+        "_id": "史诗升级抽奖箱",
+        "_targetid": "63a8970d7108f713591149f5",
+        "_name": "史诗升级抽奖箱",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "violet",
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "lucky_block.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": false,
+            "StackMaxSize": 1
+        },
+        "_customprops": {
+            "$type": "giftbox",
+            "Name": "枪械武术-史诗升级抽奖箱",
+            "ShortName": "抽奖箱",
+            "Description": "一个抽奖盒子，打开后可以随机获得一个史诗品质的基础升级插件。",
+            "DefaultPrice": 40000,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "CustomLootTarget": "5d0376a486f7747d8050965c",
+            "isMoney": false,
+            "isGiftBox": true,
+            "FixType": [
+                "None",
+                "Container"
+            ],
+            "BlackListType": 10,
+            "CustomFixID": "619cbf7d23893217ec30b689",
+            "BoxData": {
+                "Count": 1,
+                "Rewards": {
+                    "后坐力升级3": 1,
+                    "人机功效升级3": 1,
+                    "精度升级3": 1,
+                    "耐久升级3": 1,
+                    "降温升级3": 1,
+                    "重力升级3": 1
+                }
+            }
+        }
+    },
+    "传奇升级抽奖箱": {
+        "_id": "传奇升级抽奖箱",
+        "_targetid": "63a8970d7108f713591149f5",
+        "_name": "传奇升级抽奖箱",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "lucky_block.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": false,
+            "StackMaxSize": 1
+        },
+        "_customprops": {
+            "$type": "giftbox",
+            "Name": "枪械武术-传奇升级抽奖箱",
+            "ShortName": "抽奖箱",
+            "Description": "一个抽奖盒子，打开后可以随机获得一个传奇品质的基础升级插件。",
+            "DefaultPrice": 70000,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "CustomLootTarget": "5d0377ce86f774186372f689",
+            "isMoney": false,
+            "isGiftBox": true,
+            "FixType": [
+                "None",
+                "Container"
+            ],
+            "BlackListType": 10,
+            "CustomFixID": "619cbf7d23893217ec30b689",
+            "BoxData": {
+                "Count": 1,
+                "Rewards": {
+                    "后坐力升级4": 1,
+                    "人机功效升级4": 1,
+                    "精度升级4": 1,
+                    "耐久升级4": 1,
+                    "降温升级4": 1,
+                    "重力升级4": 1
+                }
+            }
+        }
+    },
+    "神话升级抽奖箱": {
+        "_id": "神话升级抽奖箱",
+        "_targetid": "63a8970d7108f713591149f5",
+        "_name": "神话升级抽奖箱",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "red",
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "lucky_block.pack",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": false,
+            "StackMaxSize": 1
+        },
+        "_customprops": {
+            "$type": "giftbox",
+            "Name": "枪械武术-神话升级抽奖箱",
+            "ShortName": "抽奖箱",
+            "Description": "一个抽奖盒子，打开后可以随机获得一个神话升级插件。",
+            "DefaultPrice": 120000,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "CustomLootTarget": "5d03794386f77420415576f5",
+            "isMoney": false,
+            "isGiftBox": true,
+            "FixType": [
+                "None",
+                "Container"
+            ],
+            "BlackListType": 10,
+            "CustomFixID": "619cbf7d23893217ec30b689",
+            "BoxData": {
+                "Count": 1,
+                "Rewards": {
+                    "后坐力升级5": 3,
+                    "人机功效升级5": 4,
+                    "精度升级5": 1,
+                    "耐久升级5": 1,
+                    "降温升级5": 2,
+                    "重力升级5": 1,
+                    "消声升级5": 4,
+                    "容量升级1": 1,
+                    "空间升级1": 1,
+                    "空间升级2": 1
+                }
+            }
+        }
+    }
+}

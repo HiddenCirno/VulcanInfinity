@@ -1271,7 +1271,7 @@
         "id": "十二试炼",
         "img": "/files/icon/goldenapple.png",
         "name": "十二试炼",
-        "description": "在战局中找到金苹果钥匙串",
+        "description": "找到金苹果钥匙串",
         "rarity": "Legendary",
         "side": "All",
         "instantComplete": false,
@@ -1283,11 +1283,32 @@
         "conditions": {
             "finish": [
                 {
-                    "$type": "find",
-                    "id": "十二试炼成就要求",
-                    "inraid": true,
-                    "itemid": "金苹果钥匙扣",
-                    "count": 1
+                    "$type": "kill",
+                    "id": "十二试炼_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "十二试炼_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "十二试炼_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
                 }
             ],
             "failed": []
@@ -1298,7 +1319,7 @@
         "id": "君临天下",
         "img": "/files/icon/enchantgoldenapple.png",
         "name": "君临天下",
-        "description": "在战局中找到附魔金苹果钥匙串",
+        "description": "找到附魔金苹果钥匙串",
         "rarity": "Legendary",
         "side": "All",
         "instantComplete": false,
@@ -1310,11 +1331,32 @@
         "conditions": {
             "finish": [
                 {
-                    "$type": "find",
-                    "id": "君临天下成就要求",
-                    "inraid": true,
-                    "itemid": "附魔金苹果钥匙扣",
-                    "count": 1
+                    "$type": "kill",
+                    "id": "君临天下_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "君临天下_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "君临天下_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
                 }
             ],
             "failed": []
@@ -1343,7 +1385,7 @@
         "id": "超越生死",
         "img": "/files/icon/undead.png",
         "name": "超越生死",
-        "description": "在战局中找到不死图腾",
+        "description": "找到不死图腾",
         "rarity": "Legendary",
         "side": "All",
         "instantComplete": false,
@@ -1355,11 +1397,32 @@
         "conditions": {
             "finish": [
                 {
-                    "$type": "find",
-                    "id": "超越生死成就要求",
-                    "inraid": true,
-                    "itemid": "不死图腾",
-                    "count": 1
+                    "$type": "kill",
+                    "id": "超越生死_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "超越生死_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "超越生死_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
                 }
             ],
             "failed": []
@@ -1388,7 +1451,7 @@
         "id": "太空电梯成就",
         "img": "/files/icon/elevator.png",
         "name": "于上天入地之处，取寰宇无穷之物",
-        "description": "在战局中找到太空电梯",
+        "description": "找到太空电梯",
         "rarity": "Legendary",
         "side": "All",
         "instantComplete": false,
@@ -1400,11 +1463,32 @@
         "conditions": {
             "finish": [
                 {
-                    "$type": "find",
-                    "id": "太空电梯成就要求",
-                    "inraid": true,
-                    "itemid": "太空电梯",
-                    "count": 1
+                    "$type": "kill",
+                    "id": "太空电梯成就_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "太空电梯成就_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "太空电梯成就_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
                 }
             ],
             "failed": []
@@ -1445,11 +1529,32 @@
         "conditions": {
             "finish": [
                 {
-                    "$type": "find",
-                    "id": "鸿蒙之眼成就要求",
-                    "inraid": true,
-                    "itemid": "鸿蒙之眼",
-                    "count": 1
+                    "$type": "kill",
+                    "id": "EOH成就_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "EOH成就_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "EOH成就_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
                 }
             ],
             "failed": []
@@ -1490,11 +1595,32 @@
         "conditions": {
             "finish": [
                 {
-                    "$type": "find",
-                    "id": "DTPF成就要求",
-                    "inraid": true,
-                    "itemid": "DTPF",
-                    "count": 1
+                    "$type": "kill",
+                    "id": "DTPF成就_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "DTPF成就_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "DTPF成就_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
                 }
             ],
             "failed": []
@@ -2167,11 +2293,32 @@
         "conditions": {
             "finish": [
                 {
-                    "$type": "find",
-                    "id": "港区新人成就要求1",
-                    "inraid": true,
-                    "itemid": "开拓纪念币_AT",
-                    "count": 1
+                    "$type": "kill",
+                    "id": "港区新人_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "港区新人_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "港区新人_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
                 }
             ],
             "failed": []

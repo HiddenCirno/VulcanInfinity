@@ -98,6 +98,7 @@ namespace VulcanInfinity
                 ItemUtils.InitFilePackage(VulcanUtil.ConvertHashID("外勤公文包"), databaseService, logger, cloner);
                 ItemUtils.InitEquipmentChest(VulcanUtil.ConvertHashID("THICC装备箱"), databaseService, logger, cloner);
                 VulcanMod.InitOracleQuestData(databaseService, logger, cloner);
+                VulcanMod.FixQuestWeapons(databaseService, logger, cloner);
             }
             if (itemPackConfig.Active)
             {

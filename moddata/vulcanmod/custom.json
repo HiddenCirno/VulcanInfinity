@@ -4054,5 +4054,25 @@
             "BearTemplateId": "BEAR六转狗牌",
             "UsecTemplateId": "USEC六转狗牌"
         }
+    },
+    "Twitch狗牌": {
+        "_id": "Twitch狗牌",
+        "_name": "Twitch狗牌",
+        "_parent": "6746fafabafff8500804880e",
+        "_type": "Item",
+        "_props": {
+            "AvailableAsDefault": true,
+            "Name": "订阅回馈",
+            "EName": "订阅回馈",
+            "ShortName": "订阅回馈",
+            "Description": "订阅回馈",
+            "ProfileVersions": [],
+            "Side": [
+                "Bear",
+                "Usec"
+            ],
+            "BearTemplateId": "BEARTwitch狗牌",
+            "UsecTemplateId": "USECTwitch狗牌"
+        }
     }
 }

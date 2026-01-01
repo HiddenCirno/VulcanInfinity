@@ -4351,6 +4351,14 @@
                     "inraid": true,
                     "itemid": "支持纪念币_银墨",
                     "count": 1
+                },
+                {
+                    "$type": "hand",
+                    "autolocale": true,
+                    "id": "支持者纪念币收集要求29",
+                    "inraid": true,
+                    "itemid": "支持纪念币_九色七叶",
+                    "count": 1
                 }
             ],
             "Failed": []
@@ -6537,6 +6545,345 @@
                 "Unknown": false,
                 "IsAchievement": false,
                 "ID": "正式版赠礼_黑边预购狗牌"
+            }
+        ]
+    },
+    "收集者_金苹果": {
+        "ID": "收集者_金苹果",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "find",
+                    "id": "收集者_金苹果_收集要求",
+                    "inraid": true,
+                    "autolocale": true,
+                    "itemid": "金苹果钥匙扣",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": [
+            {
+                "$type": "achievement",
+                "Target": "十二试炼",
+                "Quest": "收集者_金苹果",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "ID": "收集者_金苹果_成就奖励"
+            }
+        ]
+    },
+    "收集者_附魔金苹果": {
+        "ID": "收集者_附魔金苹果",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "find",
+                    "id": "收集者_附魔金苹果_收集要求",
+                    "inraid": true,
+                    "autolocale": true,
+                    "itemid": "附魔金苹果钥匙扣",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": [
+            {
+                "$type": "achievement",
+                "Target": "君临天下",
+                "Quest": "收集者_附魔金苹果",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "ID": "收集者_附魔金苹果_成就奖励"
+            },
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "收集者_附魔金苹果_奖励_物品",
+                        "_tpl": "英雄之证",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "Stage": 1,
+                "ID": "收集者_附魔金苹果_奖励",
+                "Quest": "收集者_附魔金苹果",
+                "Unknown": false,
+                "IsAchievement": false
+            }
+        ]
+    },
+    "收集者_不死图腾": {
+        "ID": "收集者_不死图腾",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "find",
+                    "id": "收集者_不死图腾_收集要求",
+                    "inraid": true,
+                    "autolocale": true,
+                    "itemid": "不死图腾",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": [
+            {
+                "$type": "achievement",
+                "Target": "超越生死",
+                "Quest": "收集者_不死图腾",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "ID": "收集者_不死图腾_成就奖励"
+            },
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "收集者_不死图腾_奖励_物品",
+                        "_tpl": "英雄之证",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "Stage": 1,
+                "ID": "收集者_不死图腾_奖励",
+                "Quest": "收集者_不死图腾",
+                "Unknown": false,
+                "IsAchievement": false
+            }
+        ]
+    },
+    "收集者_太空电梯": {
+        "ID": "收集者_太空电梯",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "find",
+                    "id": "收集者_太空电梯_收集要求",
+                    "inraid": true,
+                    "autolocale": true,
+                    "itemid": "太空电梯",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": [
+            {
+                "$type": "achievement",
+                "Target": "太空电梯成就",
+                "Quest": "收集者_太空电梯",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "ID": "收集者_太空电梯_成就奖励"
+            },
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "收集者_太空电梯_奖励_物品",
+                        "_tpl": "5c0a840b86f7742ffa4f2482",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "Stage": 1,
+                "ID": "收集者_太空电梯_奖励",
+                "Quest": "收集者_太空电梯",
+                "Unknown": false,
+                "IsAchievement": false
+            }
+        ]
+    },
+    "收集者_EOH": {
+        "ID": "收集者_EOH",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "find",
+                    "id": "收集者_EOH_收集要求",
+                    "inraid": true,
+                    "autolocale": true,
+                    "itemid": "鸿蒙之眼",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": [
+            {
+                "$type": "achievement",
+                "Target": "EOH成就",
+                "Quest": "收集者_EOH",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "ID": "收集者_EOH_成就奖励"
+            },
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "收集者_EOH_奖励_物品",
+                        "_tpl": "5c0a840b86f7742ffa4f2482",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "Stage": 1,
+                "ID": "收集者_EOH_奖励",
+                "Quest": "收集者_EOH",
+                "Unknown": false,
+                "IsAchievement": false
+            }
+        ]
+    },
+    "收集者_DTPF": {
+        "ID": "收集者_DTPF",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "find",
+                    "id": "收集者_DTPF_收集要求",
+                    "inraid": true,
+                    "autolocale": true,
+                    "itemid": "DTPF",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": [
+            {
+                "$type": "achievement",
+                "Target": "DTPF成就",
+                "Quest": "收集者_DTPF",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "ID": "收集者_DTPF_成就奖励"
+            },
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "收集者_DTPF_奖励_物品",
+                        "_tpl": "5c0a840b86f7742ffa4f2482",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "Stage": 1,
+                "ID": "收集者_DTPF_奖励",
+                "Quest": "收集者_DTPF",
+                "Unknown": false,
+                "IsAchievement": false
+            }
+        ]
+    },
+    "收集者_港区新人": {
+        "ID": "收集者_港区新人",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "find",
+                    "id": "收集者_港区新人_收集要求",
+                    "inraid": true,
+                    "autolocale": true,
+                    "itemid": "开拓纪念币_AT",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": [
+            {
+                "$type": "achievement",
+                "Target": "DTPF成就",
+                "Quest": "收集者_港区新人",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "ID": "收集者_港区新人_成就奖励"
+            },
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "收集者_港区新人_奖励_物品",
+                        "_tpl": "英雄之证",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "Stage": 1,
+                "ID": "收集者_港区新人_奖励",
+                "Quest": "收集者_港区新人",
+                "Unknown": false,
+                "IsAchievement": false
             }
         ]
     }

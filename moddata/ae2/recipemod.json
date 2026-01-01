@@ -1,0 +1,135 @@
+{
+    "256k元件制作": {
+        "$type": "normal",
+        "ID": "256k元件制作",
+        "Area": 11,
+        "AreaLevel": 2,
+        "Output": "256k存储元件",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "64k存储元件": 4,
+                "英雄之证": 1
+            }
+        }
+    },
+    "256k交换品元件制作": {
+        "$type": "normal",
+        "ID": "256k交换品元件制作",
+        "Area": 11,
+        "AreaLevel": 2,
+        "Output": "256k交换品存储元件",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "64k交换品存储元件": 4,
+                "英雄之证": 1
+            }
+        }
+    },
+    "256k医疗元件制作": {
+        "$type": "normal",
+        "ID": "256k医疗元件制作",
+        "Area": 11,
+        "AreaLevel": 2,
+        "Output": "256k医疗存储元件",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "64k医疗存储元件": 4,
+                "英雄之证": 1
+            }
+        }
+    },
+    "256k装备元件制作": {
+        "$type": "normal",
+        "ID": "256k装备元件制作",
+        "Area": 11,
+        "AreaLevel": 2,
+        "Output": "256k装备存储元件",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "64k装备存储元件": 4,
+                "英雄之证": 1
+            }
+        }
+    },
+    "256k武器元件制作": {
+        "$type": "normal",
+        "ID": "256k武器元件制作",
+        "Area": 11,
+        "AreaLevel": 2,
+        "Output": "256k武器存储元件",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "64k武器存储元件": 4,
+                "英雄之证": 1
+            }
+        }
+    },
+    "256k食品元件制作": {
+        "$type": "normal",
+        "ID": "256k食品元件制作",
+        "Area": 11,
+        "AreaLevel": 2,
+        "Output": "256k食品存储元件",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "64k食品存储元件": 4,
+                "英雄之证": 1
+            }
+        }
+    },
+    "256k档案元件制作": {
+        "$type": "normal",
+        "ID": "256k档案元件制作",
+        "Area": 11,
+        "AreaLevel": 2,
+        "Output": "256k档案存储元件",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "64k档案存储元件": 4,
+                "英雄之证": 1
+            }
+        }
+    }
+}
