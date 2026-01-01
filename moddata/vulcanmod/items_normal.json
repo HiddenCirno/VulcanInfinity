@@ -4693,7 +4693,7 @@
         "_customprops": {
             "$type": "fixed",
             "Name": "Scav 狗牌",
-            "ShortName": "朴素",
+            "ShortName": "Scav",
             "Description": "身份确认牌的作用是对战场上的伤亡者进行快速身份鉴别。",
             "DefaultPrice": 400,
             "RagfairType": "VulcanSpecialItem",
@@ -4722,7 +4722,7 @@
         "_customprops": {
             "$type": "fixed",
             "Name": "Boss 狗牌",
-            "ShortName": "黄金",
+            "ShortName": "Boss",
             "Description": "24K纯金打造的狗牌，只有那些在塔科夫市割据一方的强者才有资格拥有。\n——我说真的，这玩意儿揣身上不沉吗……",
             "DefaultPrice": 3200,
             "RagfairType": "VulcanSpecialItem",
@@ -4751,7 +4751,7 @@
         "_customprops": {
             "$type": "fixed",
             "Name": "Boss 狗牌",
-            "ShortName": "水晶",
+            "ShortName": "Boss",
             "Description": "一块不属于这个世界的狗牌，其材质是剔透的蓝色水晶，用某种不可思议的工艺铭刻上了狗牌主人的信息，入手带着一点温润。",
             "DefaultPrice": 6400,
             "RagfairType": "VulcanSpecialItem",
@@ -4780,7 +4780,7 @@
         "_customprops": {
             "$type": "fixed",
             "Name": "Boss 狗牌",
-            "ShortName": "水晶",
+            "ShortName": "Boss",
             "Description": "一块不属于这个世界的狗牌，其材质是剔透的红色水晶，用某种不可思议的工艺铭刻上了狗牌主人的信息，入手带着一点温润。",
             "DefaultPrice": 6400,
             "RagfairType": "VulcanSpecialItem",
@@ -4809,7 +4809,7 @@
         "_customprops": {
             "$type": "fixed",
             "Name": "邪教徒 狗牌",
-            "ShortName": "刻印",
+            "ShortName": "邪教徒",
             "Description": "银-110m制作的身份识别牌，邪教徒们坚信长期贴身佩戴放射性物质能够让他们更加接近他们的主——某种意义上讲，这其实是对的。",
             "RagfairType": "VulcanSpecialItem",
             "DefaultPrice": 2048,
@@ -5875,7 +5875,7 @@
             "CustomLootTarget": "62a09cb7a04c0c5c6e0a84f8",
             "isMoney": false,
             "addToKappa": true,
-            "BlackListType": 63,
+            "BlackListType": 10,
             "FixType": [
                 "Mods"
             ]
@@ -28996,6 +28996,361 @@
             "ApplyToUnheard": true
         }
     },
+    "BEAR黑边预购狗牌": {
+        "_id": "BEAR黑边预购狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "BEAR黑边预购狗牌",
+        "_props": {
+            "BackgroundColor": "blue",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_preorder_02/item_barter_dogtags_preorder_02.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "BEAR 狗牌",
+            "ShortName": "BEAR",
+            "Description": "BEAR PMC 的身份识别牌，狗牌的主人显然亲身体验过塔科夫的残酷。上面的刻痕标记着这位战士一次次失去一切，却仍然奋不顾身地重返战场，力图逃离塔科夫的经历。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "CopyPrice": true,
+            "ApplyAsPMCDogTag": true,
+            "ApplyToBEAR": true,
+            "ApplyToStandard": false,
+            "ApplyToEOD": true,
+            "ApplyToUnheard": true
+        }
+    },
+    "BEAR蓝边预购狗牌": {
+        "_id": "BEAR蓝边预购狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "BEAR蓝边预购狗牌",
+        "_props": {
+            "BackgroundColor": "blue",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_preorder_01/item_barter_dogtags_preorder_01.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "BEAR 狗牌",
+            "ShortName": "BEAR",
+            "Description": "BEAR PMC 的身份识别牌。从上面的标记来看，狗牌的主人放弃了逃离塔科夫的尝试，成为了所谓真正的信徒中的一员。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "CopyPrice": true,
+            "ApplyAsPMCDogTag": true,
+            "ApplyToBEAR": true,
+            "ApplyToStandard": false,
+            "ApplyToEOD": false,
+            "ApplyToUnheard": true
+        }
+    },
+    "BEAR朴素狗牌": {
+        "_id": "BEAR朴素狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "BEAR朴素狗牌",
+        "_props": {
+            "BackgroundColor": "default",
+            "Prefab": {
+                "path": "assets/content/dogtags/scav/item_dogtag_t2.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "BEAR 狗牌",
+            "ShortName": "BEAR",
+            "Description": "身份确认牌的作用是对战场上的伤亡者进行快速身份鉴别，这块狗牌和它的主人一样低调。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "ApplyAsPMCDogTag": false,
+            "ApplyToBEAR": true,
+            "ApplyToStandard": true,
+            "ApplyToEOD": true,
+            "ApplyToUnheard": true
+        }
+    },
+    "BEAR黄金狗牌": {
+        "_id": "BEAR黄金狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "BEAR黄金狗牌",
+        "_props": {
+            "BackgroundColor": "yellow",
+            "Prefab": {
+                "path": "assets/content/dogtags/boss/item_dogtag_t2.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "BEAR 狗牌",
+            "ShortName": "BEAR",
+            "Description": "24K纯金打造的狗牌，只有那些证明了自己实力的强者才有资格拥有。\n——我说真的，这玩意儿揣身上不沉吗……",
+            "DefaultPrice": 3200,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "ApplyAsPMCDogTag": true,
+            "ApplyToBEAR": true,
+            "ApplyToStandard": true,
+            "ApplyToEOD": true,
+            "ApplyToUnheard": true
+        }
+    },
+    "BEAR蓝水晶狗牌": {
+        "_id": "BEAR蓝水晶狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "BEAR蓝水晶狗牌",
+        "_props": {
+            "BackgroundColor": "blue",
+            "Prefab": {
+                "path": "dogtag_crystal_test.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "BEAR 狗牌",
+            "ShortName": "BEAR",
+            "Description": "一块不属于这个世界的狗牌，其材质是剔透的蓝色水晶，用某种不可思议的工艺铭刻上了狗牌主人的信息，入手带着一点温润。",
+            "DefaultPrice": 6400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "ApplyAsPMCDogTag": true,
+            "ApplyToBEAR": true,
+            "ApplyToStandard": true,
+            "ApplyToEOD": true,
+            "ApplyToUnheard": true
+        }
+    },
+    "BEAR红水晶狗牌": {
+        "_id": "BEAR红水晶狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "BEAR红水晶狗牌",
+        "_props": {
+            "BackgroundColor": "red",
+            "Prefab": {
+                "path": "dogtag_crystal_test2.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "BEAR 狗牌",
+            "ShortName": "BEAR",
+            "Description": "一块不属于这个世界的狗牌，其材质是剔透的红色水晶，用某种不可思议的工艺铭刻上了狗牌主人的信息，入手带着一点温润。",
+            "DefaultPrice": 6400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "ApplyAsPMCDogTag": true,
+            "ApplyToBEAR": true,
+            "ApplyToStandard": true,
+            "ApplyToEOD": true,
+            "ApplyToUnheard": true
+        }
+    },
+    "BEAR刻印狗牌": {
+        "_id": "BEAR刻印狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "BEAR刻印狗牌",
+        "_props": {
+            "BackgroundColor": "green",
+            "Prefab": {
+                "path": "assets/content/dogtags/sectant/item_dogtag_t2.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "BEAR 狗牌",
+            "ShortName": "BEAR",
+            "Description": "银-110m制作的身份识别牌，这块狗牌的主人坚信长期贴身佩戴放射性物质能够更加接近他的主——某种意义上讲，这其实是对的。",
+            "DefaultPrice": 2048,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "ApplyAsPMCDogTag": true,
+            "ApplyToBEAR": true,
+            "ApplyToStandard": true,
+            "ApplyToEOD": true,
+            "ApplyToUnheard": true
+        }
+    },
+    "BEAR五转狗牌": {
+        "_id": "BEAR五转狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "BEAR五转狗牌",
+        "_props": {
+            "BackgroundColor": "blue",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_prestige_05/item_barter_dogtags_prestige_05.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "BEAR 狗牌",
+            "ShortName": "BEAR",
+            "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。彰显了佩戴者的独特身份。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "CopyPrice": true,
+            "ApplyAsPMCDogTag": true,
+            "ApplyToBEAR": true,
+            "ApplyToStandard": false,
+            "ApplyToEOD": false,
+            "ApplyToUnheard": true
+        }
+    },
+    "BEAR六转狗牌": {
+        "_id": "BEAR六转狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "BEAR六转狗牌",
+        "_props": {
+            "BackgroundColor": "blue",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_prestige_06/item_barter_dogtags_prestige_06.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "BEAR 狗牌",
+            "ShortName": "BEAR",
+            "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。这一特殊版本的狗牌还能作为 U 盘使用。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "CopyPrice": true,
+            "ApplyAsPMCDogTag": true,
+            "ApplyToBEAR": true,
+            "ApplyToStandard": false,
+            "ApplyToEOD": false,
+            "ApplyToUnheard": true
+        }
+    },
+    "BEARTwitch狗牌": {
+        "_id": "BEARTwitch狗牌",
+        "_targetid": "59f32bb586f774757e1e8442",
+        "_name": "BEARTwitch狗牌",
+        "_props": {
+            "BackgroundColor": "blue",
+            "Prefab": {
+                "path": "assets/content/items/barter/dog_tags/item_dogtag_t2.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "BEAR 狗牌",
+            "ShortName": "BEAR",
+            "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。唯有最执着者方能获得。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "CopyPrice": true,
+            "ApplyAsPMCDogTag": true,
+            "ApplyToBEAR": true,
+            "ApplyToStandard": false,
+            "ApplyToEOD": false,
+            "ApplyToUnheard": true
+        }
+    },
     "USEC幸存者狗牌": {
         "_id": "USEC幸存者狗牌",
         "_targetid": "59f32c3b86f77472a31742f0",
@@ -29209,6 +29564,361 @@
             "ApplyToUSEC": true,
             "ApplyToStandard": true,
             "ApplyToEOD": true,
+            "ApplyToUnheard": true
+        }
+    },
+    "USEC黑边预购狗牌": {
+        "_id": "USEC黑边预购狗牌",
+        "_targetid": "59f32c3b86f77472a31742f0",
+        "_name": "USEC黑边预购狗牌",
+        "_props": {
+            "BackgroundColor": "blue",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_preorder_02/item_barter_dogtags_preorder_02.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "USEC 狗牌",
+            "ShortName": "USEC",
+            "Description": "USEC PMC 的身份识别牌，狗牌的主人显然亲身体验过塔科夫的残酷。上面的刻痕标记着这位战士一次次失去一切，却仍然奋不顾身地重返战场，力图逃离塔科夫的经历。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "CopyPrice": true,
+            "ApplyAsPMCDogTag": true,
+            "ApplyToUSEC": true,
+            "ApplyToStandard": false,
+            "ApplyToEOD": true,
+            "ApplyToUnheard": true
+        }
+    },
+    "USEC蓝边预购狗牌": {
+        "_id": "USEC蓝边预购狗牌",
+        "_targetid": "59f32c3b86f77472a31742f0",
+        "_name": "USEC蓝边预购狗牌",
+        "_props": {
+            "BackgroundColor": "blue",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_preorder_01/item_barter_dogtags_preorder_01.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "USEC 狗牌",
+            "ShortName": "USEC",
+            "Description": "USEC PMC 的身份识别牌。从上面的标记来看，狗牌的主人放弃了逃离塔科夫的尝试，成为了所谓真正的信徒中的一员。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "CopyPrice": true,
+            "ApplyAsPMCDogTag": true,
+            "ApplyToUSEC": true,
+            "ApplyToStandard": false,
+            "ApplyToEOD": false,
+            "ApplyToUnheard": true
+        }
+    },
+    "USEC朴素狗牌": {
+        "_id": "USEC朴素狗牌",
+        "_targetid": "59f32c3b86f77472a31742f0",
+        "_name": "USEC朴素狗牌",
+        "_props": {
+            "BackgroundColor": "default",
+            "Prefab": {
+                "path": "assets/content/dogtags/scav/item_dogtag_t2.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "USEC 狗牌",
+            "ShortName": "USEC",
+            "Description": "身份确认牌的作用是对战场上的伤亡者进行快速身份鉴别，这块狗牌和它的主人一样低调。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "ApplyAsPMCDogTag": false,
+            "ApplyToUSEC": true,
+            "ApplyToStandard": true,
+            "ApplyToEOD": true,
+            "ApplyToUnheard": true
+        }
+    },
+    "USEC黄金狗牌": {
+        "_id": "USEC黄金狗牌",
+        "_targetid": "59f32c3b86f77472a31742f0",
+        "_name": "USEC黄金狗牌",
+        "_props": {
+            "BackgroundColor": "yellow",
+            "Prefab": {
+                "path": "assets/content/dogtags/boss/item_dogtag_t2.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "USEC 狗牌",
+            "ShortName": "USEC",
+            "Description": "24K纯金打造的狗牌，只有那些证明了自己实力的强者才有资格拥有。\n——我说真的，这玩意儿揣身上不沉吗……",
+            "DefaultPrice": 3200,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "ApplyAsPMCDogTag": true,
+            "ApplyToUSEC": true,
+            "ApplyToStandard": true,
+            "ApplyToEOD": true,
+            "ApplyToUnheard": true
+        }
+    },
+    "USEC蓝水晶狗牌": {
+        "_id": "USEC蓝水晶狗牌",
+        "_targetid": "59f32c3b86f77472a31742f0",
+        "_name": "USEC蓝水晶狗牌",
+        "_props": {
+            "BackgroundColor": "blue",
+            "Prefab": {
+                "path": "dogtag_crystal_test.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "USEC 狗牌",
+            "ShortName": "USEC",
+            "Description": "一块不属于这个世界的狗牌，其材质是剔透的蓝色水晶，用某种不可思议的工艺铭刻上了狗牌主人的信息，入手带着一点温润。",
+            "DefaultPrice": 6400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "ApplyAsPMCDogTag": true,
+            "ApplyToUSEC": true,
+            "ApplyToStandard": true,
+            "ApplyToEOD": true,
+            "ApplyToUnheard": true
+        }
+    },
+    "USEC红水晶狗牌": {
+        "_id": "USEC红水晶狗牌",
+        "_targetid": "59f32c3b86f77472a31742f0",
+        "_name": "USEC红水晶狗牌",
+        "_props": {
+            "BackgroundColor": "red",
+            "Prefab": {
+                "path": "dogtag_crystal_test2.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "USEC 狗牌",
+            "ShortName": "USEC",
+            "Description": "一块不属于这个世界的狗牌，其材质是剔透的红色水晶，用某种不可思议的工艺铭刻上了狗牌主人的信息，入手带着一点温润。",
+            "DefaultPrice": 6400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "ApplyAsPMCDogTag": true,
+            "ApplyToUSEC": true,
+            "ApplyToStandard": true,
+            "ApplyToEOD": true,
+            "ApplyToUnheard": true
+        }
+    },
+    "USEC刻印狗牌": {
+        "_id": "USEC刻印狗牌",
+        "_targetid": "59f32c3b86f77472a31742f0",
+        "_name": "USEC刻印狗牌",
+        "_props": {
+            "BackgroundColor": "green",
+            "Prefab": {
+                "path": "assets/content/dogtags/sectant/item_dogtag_t2.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "USEC 狗牌",
+            "ShortName": "USEC",
+            "Description": "银-110m制作的身份识别牌，这块狗牌的主人坚信长期贴身佩戴放射性物质能够更加接近他的主——某种意义上讲，这其实是对的。",
+            "DefaultPrice": 2048,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "ApplyAsPMCDogTag": true,
+            "ApplyToUSEC": true,
+            "ApplyToStandard": true,
+            "ApplyToEOD": true,
+            "ApplyToUnheard": true
+        }
+    },
+    "USEC五转狗牌": {
+        "_id": "USEC五转狗牌",
+        "_targetid": "59f32c3b86f77472a31742f0",
+        "_name": "USEC五转狗牌",
+        "_props": {
+            "BackgroundColor": "blue",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_prestige_05/item_barter_dogtags_prestige_05.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "USEC 狗牌",
+            "ShortName": "USEC",
+            "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。彰显了佩戴者的独特身份。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "CopyPrice": true,
+            "ApplyAsPMCDogTag": true,
+            "ApplyToUSEC": true,
+            "ApplyToStandard": false,
+            "ApplyToEOD": false,
+            "ApplyToUnheard": true
+        }
+    },
+    "USEC六转狗牌": {
+        "_id": "USEC六转狗牌",
+        "_targetid": "59f32c3b86f77472a31742f0",
+        "_name": "USEC六转狗牌",
+        "_props": {
+            "BackgroundColor": "blue",
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_dogtags_prestige_06/item_barter_dogtags_prestige_06.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "USEC 狗牌",
+            "ShortName": "USEC",
+            "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。这一特殊版本的狗牌还能作为 U 盘使用。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "CopyPrice": true,
+            "ApplyAsPMCDogTag": true,
+            "ApplyToUSEC": true,
+            "ApplyToStandard": false,
+            "ApplyToEOD": false,
+            "ApplyToUnheard": true
+        }
+    },
+    "USECTwitch狗牌": {
+        "_id": "USECTwitch狗牌",
+        "_targetid": "59f32c3b86f77472a31742f0",
+        "_name": "USECTwitch狗牌",
+        "_props": {
+            "BackgroundColor": "blue",
+            "Prefab": {
+                "path": "assets/content/items/barter/dog_tags/item_dogtag_t2.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "USEC 狗牌",
+            "ShortName": "USEC",
+            "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。唯有最执着者方能获得。",
+            "DefaultPrice": 400,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Container",
+                "Mods",
+                "HandoverItemGroup"
+            ],
+            "CopyPrice": true,
+            "ApplyAsPMCDogTag": true,
+            "ApplyToUSEC": true,
+            "ApplyToStandard": false,
+            "ApplyToEOD": false,
             "ApplyToUnheard": true
         }
     },
@@ -30342,6 +31052,746 @@
                     }
                 ]
             }
+        }
+    },
+    "Prapor小人": {
+        "_id": "Prapor小人",
+        "_targetid": "5e54f62086f774219b0f1937",
+        "_name": "Prapor小人",
+        "_props": {
+            "Weight": 0.2,
+            "BackgroundColor": "violet",
+            "Width": 1,
+            "Height": 2,
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_tarko_prapor/item_barter_tarko_prapor.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "Prapor 玩偶",
+            "ShortName": "Prapor",
+            "Description": "限量版 Tarko 玩偶，至少记录了 Prapor 少有的心情愉悦时刻。",
+            "DefaultPrice": 111519,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "655c652d60d0ac437100fed7",
+            "MapLootDivisor": 2,
+            "StaticLoot": true,
+            "CustomStaticLootTarget": "655c652d60d0ac437100fed7",
+            "StaticLootDivisor": 4,
+            "isMoney": false,
+            "addToKappa": false,
+            "BlackListType": 10,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "Therapist小人": {
+        "_id": "Therapist小人",
+        "_targetid": "5e54f62086f774219b0f1937",
+        "_name": "Therapist小人",
+        "_props": {
+            "Weight": 0.2,
+            "BackgroundColor": "violet",
+            "Width": 1,
+            "Height": 2,
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_tarko_therapist/item_barter_tarko_therapist.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "Therapist 玩偶",
+            "ShortName": "Therapist",
+            "Description": "限量版 Tarko 玩偶，刻画了 Therapist 又一次准备拯救几个倒霉蛋无辜灵魂的时刻。又或者是刚收了你的钱，正准备给你提供某些相当可疑的医疗服务。",
+            "DefaultPrice": 111519,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "59e3658a86f7741776641ac4",
+            "MapLootDivisor": 2,
+            "StaticLoot": true,
+            "CustomStaticLootTarget": "59e3658a86f7741776641ac4",
+            "StaticLootDivisor": 4,
+            "isMoney": false,
+            "addToKappa": false,
+            "BlackListType": 10,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "Fence小人": {
+        "_id": "Fence小人",
+        "_targetid": "5e54f62086f774219b0f1937",
+        "_name": "Fence小人",
+        "_props": {
+            "Weight": 0.2,
+            "BackgroundColor": "violet",
+            "Width": 1,
+            "Height": 2,
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_tarko_fence/item_barter_tarko_fence.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "Fence 玩偶",
+            "ShortName": "Fence",
+            "Description": "这个限量版 Tarko 玩偶就和 Fence 本人一样神秘。",
+            "DefaultPrice": 111519,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "655c673673a43e23e857aebd",
+            "MapLootDivisor": 2,
+            "StaticLoot": true,
+            "CustomStaticLootTarget": "655c673673a43e23e857aebd",
+            "StaticLootDivisor": 4,
+            "isMoney": false,
+            "addToKappa": false,
+            "BlackListType": 10,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "Skier小人": {
+        "_id": "Skier小人",
+        "_targetid": "5e54f62086f774219b0f1937",
+        "_name": "Skier小人",
+        "_props": {
+            "Weight": 0.2,
+            "BackgroundColor": "violet",
+            "Width": 1,
+            "Height": 2,
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_tarko_skier/item_barter_tarko_skier.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "Skier 玩偶",
+            "ShortName": "Skier",
+            "Description": "玩偶作者显然和 Skier 很熟，至少也得被他坑过。不然是怎么把这个滑头刻画得这么活灵活现的？",
+            "DefaultPrice": 111519,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "5e54f62086f774219b0f1937",
+            "MapLootDivisor": 2,
+            "StaticLoot": true,
+            "CustomStaticLootTarget": "5e54f62086f774219b0f1937",
+            "StaticLootDivisor": 4,
+            "isMoney": false,
+            "addToKappa": false,
+            "BlackListType": 10,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "Peacekeeper小人": {
+        "_id": "Peacekeeper小人",
+        "_targetid": "5e54f62086f774219b0f1937",
+        "_name": "Peacekeeper小人",
+        "_props": {
+            "Weight": 0.2,
+            "BackgroundColor": "violet",
+            "Width": 1,
+            "Height": 2,
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_tarko_peacekeeper/item_barter_tarko_peacekeeper.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "Peacekeeper 玩偶",
+            "ShortName": "Peacekeeper",
+            "Description": "就算变成了 Tarko 玩偶，Peacekeeper 也总是乐意伸出援手……别搞错了，这只是为了维和事业而进行的特别资本积累行动罢了。",
+            "DefaultPrice": 111519,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "655c663a6689c676ce57af85",
+            "MapLootDivisor": 2,
+            "StaticLoot": true,
+            "CustomStaticLootTarget": "655c663a6689c676ce57af85",
+            "StaticLootDivisor": 4,
+            "isMoney": false,
+            "addToKappa": false,
+            "BlackListType": 10,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "Mechanic小人": {
+        "_id": "Mechanic小人",
+        "_targetid": "5e54f62086f774219b0f1937",
+        "_name": "Mechanic小人",
+        "_props": {
+            "Weight": 0.2,
+            "BackgroundColor": "violet",
+            "Width": 1,
+            "Height": 2,
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_tarko_mechanic/item_barter_tarko_mechanic.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "Mechanic 玩偶",
+            "ShortName": "Mechanic",
+            "Description": "就算是做成了 Tarko 玩偶，Mechanic 仍然是那个真正的枪匠专家。",
+            "DefaultPrice": 111519,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "66572c82ad599021091c6118",
+            "MapLootDivisor": 2,
+            "StaticLoot": true,
+            "CustomStaticLootTarget": "66572c82ad599021091c6118",
+            "StaticLootDivisor": 4,
+            "isMoney": false,
+            "addToKappa": false,
+            "BlackListType": 10,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "Ragman小人": {
+        "_id": "Ragman小人",
+        "_targetid": "5e54f62086f774219b0f1937",
+        "_name": "Ragman小人",
+        "_props": {
+            "Weight": 0.2,
+            "BackgroundColor": "violet",
+            "Width": 1,
+            "Height": 2,
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_tarko_ragman/item_barter_tarko_ragman.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "Ragman 玩偶",
+            "ShortName": "Ragman",
+            "Description": "就算是 Tarko 玩偶，Ragman 仍然不失真正商战好手的风采。",
+            "DefaultPrice": 111519,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "66572be36a723f7f005a066e",
+            "MapLootDivisor": 2,
+            "StaticLoot": true,
+            "CustomStaticLootTarget": "66572be36a723f7f005a066e",
+            "StaticLootDivisor": 4,
+            "isMoney": false,
+            "addToKappa": false,
+            "BlackListType": 10,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "Jaeger小人": {
+        "_id": "Jaeger小人",
+        "_targetid": "5e54f62086f774219b0f1937",
+        "_name": "Jaeger小人",
+        "_props": {
+            "Weight": 0.2,
+            "BackgroundColor": "violet",
+            "Width": 1,
+            "Height": 2,
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_tarko_jaeger/item_barter_tarko_jaeger.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "Jaeger 玩偶",
+            "ShortName": "Jaeger",
+            "Description": "无论是谁打造了这个玩偶，他都精准捕捉到了 Jaeger 的形象特征，甚至深邃眼中的复杂感情也还原得淋漓尽致。",
+            "DefaultPrice": 111519,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "66572cbdad599021091c611a",
+            "MapLootDivisor": 2,
+            "StaticLoot": true,
+            "CustomStaticLootTarget": "66572cbdad599021091c611a",
+            "StaticLootDivisor": 4,
+            "isMoney": false,
+            "addToKappa": false,
+            "BlackListType": 10,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "Lightkeeper小人": {
+        "_id": "Lightkeeper小人",
+        "_targetid": "5e54f62086f774219b0f1937",
+        "_name": "Lightkeeper小人",
+        "_props": {
+            "Weight": 0.2,
+            "BackgroundColor": "violet",
+            "Width": 1,
+            "Height": 2,
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_tarko_lightkeeper/item_barter_tarko_lightkeeper.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "Lightkeeper 玩偶",
+            "ShortName": "Lightkeeper",
+            "Description": "刻画了塔科夫“灰衣主教”形象的限量版 Tarko 玩偶。有些人终其一生未能与这位神秘人见面，全靠这个玩偶才能略微想象一二。",
+            "DefaultPrice": 111519,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "655c669103999d3c810c025b",
+            "MapLootDivisor": 2,
+            "StaticLoot": true,
+            "CustomStaticLootTarget": "655c669103999d3c810c025b",
+            "StaticLootDivisor": 4,
+            "isMoney": false,
+            "addToKappa": false,
+            "BlackListType": 10,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "Ref小人": {
+        "_id": "Ref小人",
+        "_targetid": "5e54f62086f774219b0f1937",
+        "_name": "Ref小人",
+        "_props": {
+            "Weight": 0.2,
+            "BackgroundColor": "violet",
+            "Width": 1,
+            "Height": 2,
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_tarko_ref/item_barter_tarko_ref.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "Ref 玩偶",
+            "ShortName": "Ref",
+            "Description": "裁判玩偶简直和本人别无二致，放在那里就是竞技场活的招募广告。",
+            "DefaultPrice": 111519,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "655c66e40b2de553b618d4b8",
+            "MapLootDivisor": 2,
+            "StaticLoot": true,
+            "CustomStaticLootTarget": "655c66e40b2de553b618d4b8",
+            "StaticLootDivisor": 4,
+            "isMoney": false,
+            "addToKappa": false,
+            "BlackListType": 10,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "纯金Prapor小人": {
+        "_id": "纯金Prapor小人",
+        "_targetid": "5e54f62086f774219b0f1937",
+        "_name": "纯金Prapor小人",
+        "_props": {
+            "Weight": 0.5,
+            "BackgroundColor": "yellow",
+            "Width": 1,
+            "Height": 2,
+            "Prefab": {
+                "path": "assets/content/items/barter/tarko_golden/item_barter_tarko_prapor.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "纯金 Prapor 玩偶",
+            "ShortName": "Prapor",
+            "Description": "限量版 Tarko 玩偶，至少记录了 Prapor 少有的心情愉悦时刻。",
+            "DefaultPrice": 251115,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "655c652d60d0ac437100fed7",
+            "MapLootDivisor": 2,
+            "StaticLoot": true,
+            "CustomStaticLootTarget": "655c652d60d0ac437100fed7",
+            "StaticLootDivisor": 4,
+            "isMoney": false,
+            "addToKappa": true,
+            "BlackListType": 10,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "纯金Therapist小人": {
+        "_id": "纯金Therapist小人",
+        "_targetid": "5e54f62086f774219b0f1937",
+        "_name": "纯金Therapist小人",
+        "_props": {
+            "Weight": 0.5,
+            "BackgroundColor": "yellow",
+            "Width": 1,
+            "Height": 2,
+            "Prefab": {
+                "path": "assets/content/items/barter/tarko_golden/item_barter_tarko_therapist.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "纯金 Therapist 玩偶",
+            "ShortName": "Therapist",
+            "Description": "限量版 Tarko 玩偶，刻画了 Therapist 又一次准备拯救几个倒霉蛋无辜灵魂的时刻。又或者是刚收了你的钱，正准备给你提供某些相当可疑的医疗服务。",
+            "DefaultPrice": 251115,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "59e3658a86f7741776641ac4",
+            "MapLootDivisor": 2,
+            "StaticLoot": true,
+            "CustomStaticLootTarget": "59e3658a86f7741776641ac4",
+            "StaticLootDivisor": 4,
+            "isMoney": false,
+            "addToKappa": true,
+            "BlackListType": 10,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "纯金Fence小人": {
+        "_id": "纯金Fence小人",
+        "_targetid": "5e54f62086f774219b0f1937",
+        "_name": "纯金Fence小人",
+        "_props": {
+            "Weight": 0.5,
+            "BackgroundColor": "yellow",
+            "Width": 1,
+            "Height": 2,
+            "Prefab": {
+                "path": "assets/content/items/barter/tarko_golden/item_barter_tarko_fence.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "纯金 Fence 玩偶",
+            "ShortName": "Fence",
+            "Description": "这个限量版 Tarko 玩偶就和 Fence 本人一样神秘。",
+            "DefaultPrice": 251115,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "655c673673a43e23e857aebd",
+            "MapLootDivisor": 2,
+            "StaticLoot": true,
+            "CustomStaticLootTarget": "655c673673a43e23e857aebd",
+            "StaticLootDivisor": 4,
+            "isMoney": false,
+            "addToKappa": true,
+            "BlackListType": 10,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "纯金Skier小人": {
+        "_id": "纯金Skier小人",
+        "_targetid": "5e54f62086f774219b0f1937",
+        "_name": "纯金Skier小人",
+        "_props": {
+            "Weight": 0.5,
+            "BackgroundColor": "yellow",
+            "Width": 1,
+            "Height": 2,
+            "Prefab": {
+                "path": "assets/content/items/barter/tarko_golden/item_barter_tarko_skier.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "纯金 Skier 玩偶",
+            "ShortName": "Skier",
+            "Description": "玩偶作者显然和 Skier 很熟，至少也得被他坑过。不然是怎么把这个滑头刻画得这么活灵活现的？",
+            "DefaultPrice": 251115,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "5e54f62086f774219b0f1937",
+            "MapLootDivisor": 2,
+            "StaticLoot": true,
+            "CustomStaticLootTarget": "5e54f62086f774219b0f1937",
+            "StaticLootDivisor": 4,
+            "isMoney": false,
+            "addToKappa": true,
+            "BlackListType": 10,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "纯金Peacekeeper小人": {
+        "_id": "纯金Peacekeeper小人",
+        "_targetid": "5e54f62086f774219b0f1937",
+        "_name": "纯金Peacekeeper小人",
+        "_props": {
+            "Weight": 0.5,
+            "BackgroundColor": "yellow",
+            "Width": 1,
+            "Height": 2,
+            "Prefab": {
+                "path": "assets/content/items/barter/tarko_golden/item_barter_tarko_peacekeeper.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "纯金 Peacekeeper 玩偶",
+            "ShortName": "Peacekeeper",
+            "Description": "就算变成了 Tarko 玩偶，Peacekeeper 也总是乐意伸出援手……别搞错了，这只是为了维和事业而进行的特别资本积累行动罢了。",
+            "DefaultPrice": 251115,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "655c663a6689c676ce57af85",
+            "MapLootDivisor": 2,
+            "StaticLoot": true,
+            "CustomStaticLootTarget": "655c663a6689c676ce57af85",
+            "StaticLootDivisor": 4,
+            "isMoney": false,
+            "addToKappa": true,
+            "BlackListType": 10,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "纯金Mechanic小人": {
+        "_id": "纯金Mechanic小人",
+        "_targetid": "5e54f62086f774219b0f1937",
+        "_name": "纯金Mechanic小人",
+        "_props": {
+            "Weight": 0.5,
+            "BackgroundColor": "yellow",
+            "Width": 1,
+            "Height": 2,
+            "Prefab": {
+                "path": "assets/content/items/barter/tarko_golden/item_barter_tarko_mechanic.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "纯金 Mechanic 玩偶",
+            "ShortName": "Mechanic",
+            "Description": "就算是做成了 Tarko 玩偶，Mechanic 仍然是那个真正的枪匠专家。",
+            "DefaultPrice": 251115,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "66572c82ad599021091c6118",
+            "MapLootDivisor": 2,
+            "StaticLoot": true,
+            "CustomStaticLootTarget": "66572c82ad599021091c6118",
+            "StaticLootDivisor": 4,
+            "isMoney": false,
+            "addToKappa": true,
+            "BlackListType": 10,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "纯金Ragman小人": {
+        "_id": "纯金Ragman小人",
+        "_targetid": "5e54f62086f774219b0f1937",
+        "_name": "纯金Ragman小人",
+        "_props": {
+            "Weight": 0.5,
+            "BackgroundColor": "yellow",
+            "Width": 1,
+            "Height": 2,
+            "Prefab": {
+                "path": "assets/content/items/barter/tarko_golden/item_barter_tarko_ragman.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "纯金 Ragman 玩偶",
+            "ShortName": "Ragman",
+            "Description": "就算是 Tarko 玩偶，Ragman 仍然不失真正商战好手的风采。",
+            "DefaultPrice": 251115,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "66572be36a723f7f005a066e",
+            "MapLootDivisor": 2,
+            "StaticLoot": true,
+            "CustomStaticLootTarget": "66572be36a723f7f005a066e",
+            "StaticLootDivisor": 4,
+            "isMoney": false,
+            "addToKappa": true,
+            "BlackListType": 10,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "纯金Jaeger小人": {
+        "_id": "纯金Jaeger小人",
+        "_targetid": "5e54f62086f774219b0f1937",
+        "_name": "纯金Jaeger小人",
+        "_props": {
+            "Weight": 0.5,
+            "BackgroundColor": "yellow",
+            "Width": 1,
+            "Height": 2,
+            "Prefab": {
+                "path": "assets/content/items/barter/tarko_golden/item_barter_tarko_jaeger.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "纯金 Jaeger 玩偶",
+            "ShortName": "Jaeger",
+            "Description": "无论是谁打造了这个玩偶，他都精准捕捉到了 Jaeger 的形象特征，甚至深邃眼中的复杂感情也还原得淋漓尽致。",
+            "DefaultPrice": 251115,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "66572cbdad599021091c611a",
+            "MapLootDivisor": 2,
+            "StaticLoot": true,
+            "CustomStaticLootTarget": "66572cbdad599021091c611a",
+            "StaticLootDivisor": 4,
+            "isMoney": false,
+            "addToKappa": true,
+            "BlackListType": 10,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "纯金Lightkeeper小人": {
+        "_id": "纯金Lightkeeper小人",
+        "_targetid": "5e54f62086f774219b0f1937",
+        "_name": "纯金Lightkeeper小人",
+        "_props": {
+            "Weight": 0.5,
+            "BackgroundColor": "yellow",
+            "Width": 1,
+            "Height": 2,
+            "Prefab": {
+                "path": "assets/content/items/barter/tarko_golden/item_barter_tarko_lightkeeper.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "纯金 Lightkeeper 玩偶",
+            "ShortName": "Lightkeeper",
+            "Description": "刻画了塔科夫“灰衣主教”形象的限量版 Tarko 玩偶。有些人终其一生未能与这位神秘人见面，全靠这个玩偶才能略微想象一二。",
+            "DefaultPrice": 251115,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "655c669103999d3c810c025b",
+            "MapLootDivisor": 2,
+            "StaticLoot": true,
+            "CustomStaticLootTarget": "655c669103999d3c810c025b",
+            "StaticLootDivisor": 4,
+            "isMoney": false,
+            "addToKappa": true,
+            "BlackListType": 10,
+            "FixType": [
+                "Mods"
+            ]
+        }
+    },
+    "纯金Ref小人": {
+        "_id": "纯金Ref小人",
+        "_targetid": "5e54f62086f774219b0f1937",
+        "_name": "纯金Ref小人",
+        "_props": {
+            "Weight": 0.5,
+            "BackgroundColor": "yellow",
+            "Width": 1,
+            "Height": 2,
+            "Prefab": {
+                "path": "assets/content/items/barter/tarko_golden/item_barter_tarko_ref.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "纯金 Ref 玩偶",
+            "ShortName": "Ref",
+            "Description": "裁判玩偶简直和本人别无二致，放在那里就是竞技场活的招募广告。",
+            "DefaultPrice": 251115,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": true,
+            "MapLoot": true,
+            "CustomMapLootTarget": "655c66e40b2de553b618d4b8",
+            "MapLootDivisor": 2,
+            "StaticLoot": true,
+            "CustomStaticLootTarget": "655c66e40b2de553b618d4b8",
+            "StaticLootDivisor": 4,
+            "isMoney": false,
+            "addToKappa": true,
+            "BlackListType": 10,
+            "FixType": [
+                "Mods"
+            ]
         }
     }
 }

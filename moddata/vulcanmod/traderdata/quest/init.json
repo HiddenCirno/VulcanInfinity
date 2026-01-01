@@ -3994,7 +3994,7 @@
         "QuestData": {
             "Finish": [
                 {
-                    "$type": "hand",
+                    "$type": "find",
                     "id": "天行有常上交",
                     "inraid": true,
                     "itemid": "核能之星",
@@ -6515,6 +6515,28 @@
                 "Unknown": false,
                 "IsAchievement": false,
                 "ID": "正式版赠礼成就奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "蓝边预购狗牌",
+                "Quest": "正式版赠礼",
+                "AvailableGameEdition": 16,
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "ID": "正式版赠礼_蓝边预购狗牌"
+            },
+            {
+                "$type": "customization",
+                "Target": "黑边预购狗牌",
+                "Quest": "正式版赠礼",
+                "AvailableGameEdition": 8,
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "ID": "正式版赠礼_黑边预购狗牌"
             }
         ]
     }

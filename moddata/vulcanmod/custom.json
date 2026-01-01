@@ -3282,8 +3282,8 @@
                 "Bear",
                 "Usec"
             ],
-            "BearTemplateId": "Boss狗牌",
-            "UsecTemplateId": "Boss狗牌"
+            "BearTemplateId": "BEAR黄金狗牌",
+            "UsecTemplateId": "USEC黄金狗牌"
         }
     },
     "玩家Scav狗牌": {
@@ -3302,8 +3302,8 @@
                 "Bear",
                 "Usec"
             ],
-            "BearTemplateId": "Scav狗牌",
-            "UsecTemplateId": "Scav狗牌"
+            "BearTemplateId": "BEAR朴素狗牌",
+            "UsecTemplateId": "USEC朴素狗牌"
         }
     },
     "玩家蓝水晶狗牌": {
@@ -3322,8 +3322,8 @@
                 "Bear",
                 "Usec"
             ],
-            "BearTemplateId": "水晶狗牌_蓝",
-            "UsecTemplateId": "水晶狗牌_蓝"
+            "BearTemplateId": "BEAR蓝水晶狗牌",
+            "UsecTemplateId": "USEC蓝水晶狗牌"
         }
     },
     "玩家红水晶狗牌": {
@@ -3342,8 +3342,8 @@
                 "Bear",
                 "Usec"
             ],
-            "BearTemplateId": "水晶狗牌_红",
-            "UsecTemplateId": "水晶狗牌_红"
+            "BearTemplateId": "BEAR红水晶狗牌",
+            "UsecTemplateId": "USEC红水晶狗牌"
         }
     },
     "玩家邪教徒狗牌": {
@@ -3362,8 +3362,8 @@
                 "Bear",
                 "Usec"
             ],
-            "BearTemplateId": "邪教徒狗牌",
-            "UsecTemplateId": "邪教徒狗牌"
+            "BearTemplateId": "BEAR刻印狗牌",
+            "UsecTemplateId": "USEC刻印狗牌"
         }
     },
     "幸存者地板": {
@@ -3973,6 +3973,86 @@
             ],
             "BearTemplateId": "BEAR四方狗牌",
             "UsecTemplateId": "USEC四方狗牌"
+        }
+    },
+    "黑边预购狗牌": {
+        "_id": "黑边预购狗牌",
+        "_name": "黑边预购狗牌",
+        "_parent": "6746fafabafff8500804880e",
+        "_type": "Item",
+        "_props": {
+            "AvailableAsDefault": true,
+            "Name": "黑暗边缘",
+            "EName": "黑暗边缘",
+            "ShortName": "黑暗边缘",
+            "Description": "黑暗边缘",
+            "ProfileVersions": [],
+            "Side": [
+                "Bear",
+                "Usec"
+            ],
+            "BearTemplateId": "BEAR黑边预购狗牌",
+            "UsecTemplateId": "USEC黑边预购狗牌"
+        }
+    },
+    "蓝边预购狗牌": {
+        "_id": "蓝边预购狗牌",
+        "_name": "蓝边预购狗牌",
+        "_parent": "6746fafabafff8500804880e",
+        "_type": "Item",
+        "_props": {
+            "AvailableAsDefault": true,
+            "Name": "无名之人",
+            "EName": "无名之人",
+            "ShortName": "无名之人",
+            "Description": "无名之人",
+            "ProfileVersions": [],
+            "Side": [
+                "Bear",
+                "Usec"
+            ],
+            "BearTemplateId": "BEAR蓝边预购狗牌",
+            "UsecTemplateId": "USEC蓝边预购狗牌"
+        }
+    },
+    "五转狗牌": {
+        "_id": "五转狗牌",
+        "_name": "五转狗牌",
+        "_parent": "6746fafabafff8500804880e",
+        "_type": "Item",
+        "_props": {
+            "AvailableAsDefault": true,
+            "Name": "P-5",
+            "EName": "P-5",
+            "ShortName": "P-5",
+            "Description": "P-5",
+            "ProfileVersions": [],
+            "Side": [
+                "Bear",
+                "Usec"
+            ],
+            "BearTemplateId": "BEAR五转狗牌",
+            "UsecTemplateId": "USEC五转狗牌"
+        }
+    },
+    "六转狗牌": {
+        "_id": "六转狗牌",
+        "_name": "六转狗牌",
+        "_parent": "6746fafabafff8500804880e",
+        "_type": "Item",
+        "_props": {
+            "AvailableAsDefault": true,
+            "Name": "P-6",
+            "EName": "P-6",
+            "ShortName": "P-6",
+            "Description": "P-6",
+            "ProfileVersions": [],
+            "Side": [
+                "Bear",
+                "Usec"
+            ],
+            "BearTemplateId": "BEAR六转狗牌",
+            "UsecTemplateId": "USEC六转狗牌"
         }
     }
 }
