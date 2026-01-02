@@ -2633,7 +2633,7 @@
                 "path": "upgrade_accuracy_6.pack",
                 "rcid": ""
             },
-            "CanSellOnRagfair": true,
+            "CanSellOnRagfair": false,
             "Slots": [],
             "ConflictingItems": [],
             "Durability": 100,
@@ -2916,7 +2916,7 @@
                 "path": "upgrade_cooldown_6.pack",
                 "rcid": ""
             },
-            "CanSellOnRagfair": true,
+            "CanSellOnRagfair": false,
             "Slots": [],
             "ConflictingItems": [],
             "Durability": 100,
@@ -3155,7 +3155,7 @@
                 "path": "upgrade_container_2.pack",
                 "rcid": ""
             },
-            "CanSellOnRagfair": true,
+            "CanSellOnRagfair": false,
             "Slots": [
                 {
                     "_name": "mod_plugins_000",
@@ -3517,7 +3517,7 @@
                 "path": "upgrade_space_3.pack",
                 "rcid": ""
             },
-            "CanSellOnRagfair": true,
+            "CanSellOnRagfair": false,
             "Slots": [],
             "ConflictingItems": [],
             "Durability": 100,
@@ -3567,7 +3567,7 @@
                 "path": "upgrade_space_4.pack",
                 "rcid": ""
             },
-            "CanSellOnRagfair": true,
+            "CanSellOnRagfair": false,
             "Slots": [],
             "ConflictingItems": [],
             "Durability": 100,
@@ -3853,7 +3853,7 @@
                 "path": "upgrade_durability_6.pack",
                 "rcid": ""
             },
-            "CanSellOnRagfair": true,
+            "CanSellOnRagfair": false,
             "Slots": [],
             "ConflictingItems": [],
             "Durability": 100,
@@ -4128,7 +4128,7 @@
                 "path": "upgrade_ergonomic_6.pack",
                 "rcid": ""
             },
-            "CanSellOnRagfair": true,
+            "CanSellOnRagfair": false,
             "Slots": [],
             "ConflictingItems": [],
             "Durability": 100,
@@ -4401,7 +4401,7 @@
                 "path": "upgrade_recoil_6.pack",
                 "rcid": ""
             },
-            "CanSellOnRagfair": true,
+            "CanSellOnRagfair": false,
             "Slots": [],
             "ConflictingItems": [],
             "Durability": 100,
@@ -4684,7 +4684,7 @@
                 "path": "upgrade_weight_6.pack",
                 "rcid": ""
             },
-            "CanSellOnRagfair": true,
+            "CanSellOnRagfair": false,
             "Slots": [],
             "ConflictingItems": [],
             "Durability": 100,
