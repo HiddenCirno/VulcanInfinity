@@ -28821,7 +28821,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "BEAR 狗牌",
             "ShortName": "BEAR",
             "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。尽管这块狗牌的主人从未探究过整场冲突背后的原因，但还是在血雨腥风中幸存了下来，最终逃离了塔科夫。",
@@ -28857,7 +28857,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "BEAR 狗牌",
             "ShortName": "BEAR",
             "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。沾满了前主人的斑斑血迹，生存的本能促使他选择了逃离塔科夫的捷径，却连同整个世界一起堕入黑暗渊薮之中。",
@@ -28893,7 +28893,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "BEAR 狗牌",
             "ShortName": "BEAR",
             "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。弹孔赫然穿透了狗牌中央，几乎要将它分为两半，还留下了铁丝网刮擦的痕迹。也许狗牌的主人逃离了塔科夫，但他永远无法逃离他自己。",
@@ -28929,7 +28929,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "BEAR 狗牌",
             "ShortName": "BEAR",
             "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。狗牌的主人将 TerraGroup 在塔科夫进行的所有邪恶勾当公之于众，表面的印记彰显了集团走向覆灭的可耻命运。",
@@ -28965,7 +28965,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "BEAR 狗牌",
             "ShortName": "BEAR",
             "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。破旧不堪，却奇迹般地没有散落。只属于那些亲历决定时刻的人。",
@@ -29001,7 +29001,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "BEAR 狗牌",
             "ShortName": "BEAR",
             "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。见证传奇诞生者的独有之证。",
@@ -29037,7 +29037,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "BEAR 狗牌",
             "ShortName": "BEAR",
             "Description": "BEAR PMC 的身份识别牌，狗牌的主人显然亲身体验过塔科夫的残酷。上面的刻痕标记着这位战士一次次失去一切，却仍然奋不顾身地重返战场，力图逃离塔科夫的经历。",
@@ -29073,7 +29073,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "BEAR 狗牌",
             "ShortName": "BEAR",
             "Description": "BEAR PMC 的身份识别牌。从上面的标记来看，狗牌的主人放弃了逃离塔科夫的尝试，成为了所谓真正的信徒中的一员。",
@@ -29109,7 +29109,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "BEAR 狗牌",
             "ShortName": "BEAR",
             "Description": "身份确认牌的作用是对战场上的伤亡者进行快速身份鉴别，这块狗牌和它的主人一样低调。",
@@ -29144,7 +29144,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "BEAR 狗牌",
             "ShortName": "BEAR",
             "Description": "24K纯金打造的狗牌，只有那些证明了自己实力的强者才有资格拥有。\n——我说真的，这玩意儿揣身上不沉吗……",
@@ -29179,7 +29179,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "BEAR 狗牌",
             "ShortName": "BEAR",
             "Description": "一块不属于这个世界的狗牌，其材质是剔透的蓝色水晶，用某种不可思议的工艺铭刻上了狗牌主人的信息，入手带着一点温润。",
@@ -29214,7 +29214,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "BEAR 狗牌",
             "ShortName": "BEAR",
             "Description": "一块不属于这个世界的狗牌，其材质是剔透的红色水晶，用某种不可思议的工艺铭刻上了狗牌主人的信息，入手带着一点温润。",
@@ -29249,7 +29249,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "BEAR 狗牌",
             "ShortName": "BEAR",
             "Description": "银-110m制作的身份识别牌，这块狗牌的主人坚信长期贴身佩戴放射性物质能够更加接近他的主——某种意义上讲，这其实是对的。",
@@ -29284,7 +29284,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "BEAR 狗牌",
             "ShortName": "BEAR",
             "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。彰显了佩戴者的独特身份。",
@@ -29320,7 +29320,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "BEAR 狗牌",
             "ShortName": "BEAR",
             "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。这一特殊版本的狗牌还能作为 U 盘使用。",
@@ -29356,7 +29356,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "BEAR 狗牌",
             "ShortName": "BEAR",
             "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。唯有最执着者方能获得。",
@@ -29392,7 +29392,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "USEC 狗牌",
             "ShortName": "USEC",
             "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。尽管这块狗牌的主人从未探究过整场冲突背后的原因，但还是在血雨腥风中幸存了下来，最终逃离了塔科夫。",
@@ -29428,7 +29428,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "USEC 狗牌",
             "ShortName": "USEC",
             "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。沾满了前主人的斑斑血迹，生存的本能促使他选择了逃离塔科夫的捷径，却连同整个世界一起堕入黑暗渊薮之中。",
@@ -29464,7 +29464,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "USEC 狗牌",
             "ShortName": "USEC",
             "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。弹孔赫然穿透了狗牌中央，几乎要将它分为两半，还留下了铁丝网刮擦的痕迹。也许狗牌的主人逃离了塔科夫，但他永远无法逃离他自己。",
@@ -29500,7 +29500,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "USEC 狗牌",
             "ShortName": "USEC",
             "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。狗牌的主人将 TerraGroup 在塔科夫进行的所有邪恶勾当公之于众，表面的印记彰显了集团走向覆灭的可耻命运。",
@@ -29536,7 +29536,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "USEC 狗牌",
             "ShortName": "USEC",
             "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。破旧不堪，却奇迹般地没有散落。只属于那些亲历决定时刻的人。",
@@ -29572,7 +29572,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "USEC 狗牌",
             "ShortName": "USEC",
             "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。见证传奇诞生者的独有之证。",
@@ -29608,7 +29608,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "USEC 狗牌",
             "ShortName": "USEC",
             "Description": "USEC PMC 的身份识别牌，狗牌的主人显然亲身体验过塔科夫的残酷。上面的刻痕标记着这位战士一次次失去一切，却仍然奋不顾身地重返战场，力图逃离塔科夫的经历。",
@@ -29644,7 +29644,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "USEC 狗牌",
             "ShortName": "USEC",
             "Description": "USEC PMC 的身份识别牌。从上面的标记来看，狗牌的主人放弃了逃离塔科夫的尝试，成为了所谓真正的信徒中的一员。",
@@ -29680,7 +29680,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "USEC 狗牌",
             "ShortName": "USEC",
             "Description": "身份确认牌的作用是对战场上的伤亡者进行快速身份鉴别，这块狗牌和它的主人一样低调。",
@@ -29715,7 +29715,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "USEC 狗牌",
             "ShortName": "USEC",
             "Description": "24K纯金打造的狗牌，只有那些证明了自己实力的强者才有资格拥有。\n——我说真的，这玩意儿揣身上不沉吗……",
@@ -29750,7 +29750,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "USEC 狗牌",
             "ShortName": "USEC",
             "Description": "一块不属于这个世界的狗牌，其材质是剔透的蓝色水晶，用某种不可思议的工艺铭刻上了狗牌主人的信息，入手带着一点温润。",
@@ -29785,7 +29785,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "USEC 狗牌",
             "ShortName": "USEC",
             "Description": "一块不属于这个世界的狗牌，其材质是剔透的红色水晶，用某种不可思议的工艺铭刻上了狗牌主人的信息，入手带着一点温润。",
@@ -29820,7 +29820,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "USEC 狗牌",
             "ShortName": "USEC",
             "Description": "银-110m制作的身份识别牌，这块狗牌的主人坚信长期贴身佩戴放射性物质能够更加接近他的主——某种意义上讲，这其实是对的。",
@@ -29855,7 +29855,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "USEC 狗牌",
             "ShortName": "USEC",
             "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。彰显了佩戴者的独特身份。",
@@ -29891,7 +29891,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "USEC 狗牌",
             "ShortName": "USEC",
             "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。这一特殊版本的狗牌还能作为 U 盘使用。",
@@ -29927,7 +29927,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "USEC 狗牌",
             "ShortName": "USEC",
             "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。唯有最执着者方能获得。",
