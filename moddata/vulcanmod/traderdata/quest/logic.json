@@ -606,7 +606,7 @@
     "勇敢的心": {
         "id": "勇敢的心",
         "prequestdata": {
-            "PersicariaBoxTask1": 4
+            "PersicariaBoxTask1": 16
         },
         "pretraderstanding": {},
         "pretraderlevel": {},
