@@ -1196,5 +1196,24 @@
                 "英雄之证": 1
             }
         }
+    },
+    "黄金TT": {
+        "$type": "normal",
+        "ID": "黄金TT",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "5b3b713c5acfc4330140bd8d",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "571a12c42459771f627b58a0": 1,
+                "金块": 1
+            }
+        }
     }
 }
