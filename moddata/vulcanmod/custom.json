@@ -16,7 +16,7 @@
             "Body": "5d28adcb86f77429242fc893",
             "Hands": "44e55e0f8a2ad3405c94efc3"
         },
-        "_proto": "5cd946231388ce000d572fe3"
+        "_proto": "5cde9ec17d6c8b04723cf479"
     },
     "58499a5f21a2c5477ba4fd04": {
         "_id": "58499a5f21a2c5477ba4fd04",
@@ -33,12 +33,13 @@
             ],
             "AvailableAsDefault": false,
             "Feet": "5d28b3a186f7747f7e69ab8c"
-        }
+        },
+        "_proto": "5cd946231388ce000d572fe3"
     },
     "44e55e0f8a2ad3405c94efc3": {
         "_id": "44e55e0f8a2ad3405c94efc3",
         "_name": "ReshalaHand",
-        "_parent": "5cc0868e14c02e000c6bea68",
+        "_parent": "5cc086a314c02e000c6bea69",
         "_type": "Item",
         "_props": {
             "Name": "ReshalaHand",
@@ -69,7 +70,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95fa7d6c8b04737c2d13"
     },
     "7efd39106146e57cfafe2673": {
         "_id": "7efd39106146e57cfafe2673",
@@ -88,7 +89,7 @@
             "Body": "5e9975c486f774382b6320cb",
             "Hands": "861821d55f9122035a07627c"
         },
-        "_proto": "5cd946231388ce000d572fe3"
+        "_proto": "5cde9ec17d6c8b04723cf479"
     },
     "9f1f54936878f3c929272b32": {
         "_id": "9f1f54936878f3c929272b32",
@@ -105,12 +106,13 @@
             ],
             "AvailableAsDefault": false,
             "Feet": "5e99762586f77466320ff9a9"
-        }
+        },
+        "_proto": "5cd946231388ce000d572fe3"
     },
     "861821d55f9122035a07627c": {
         "_id": "861821d55f9122035a07627c",
         "_name": "SanitarHand",
-        "_parent": "5cc0868e14c02e000c6bea68",
+        "_parent": "5cc086a314c02e000c6bea69",
         "_type": "Item",
         "_props": {
             "Name": "SanitarHand",
@@ -141,7 +143,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95fa7d6c8b04737c2d13"
     },
     "70755fdc517b88268c91ed1d": {
         "_id": "70755fdc517b88268c91ed1d",
@@ -160,7 +162,7 @@
             "Body": "5d5e7dd786f7744a7a274322",
             "Hands": "950fc73a7af6b510d0f90d1d"
         },
-        "_proto": "5cd946231388ce000d572fe3"
+        "_proto": "5cde9ec17d6c8b04723cf479"
     },
     "be07be6fc94878b287260746": {
         "_id": "be07be6fc94878b287260746",
@@ -177,12 +179,13 @@
             ],
             "AvailableAsDefault": false,
             "Feet": "5d5e7f2a86f77427997cfb80"
-        }
+        },
+        "_proto": "5cd946231388ce000d572fe3"
     },
     "950fc73a7af6b510d0f90d1d": {
         "_id": "950fc73a7af6b510d0f90d1d",
         "_name": "GlukahrHand",
-        "_parent": "5cc0868e14c02e000c6bea68",
+        "_parent": "5cc086a314c02e000c6bea69",
         "_type": "Item",
         "_props": {
             "Name": "GlukahrHand",
@@ -213,7 +216,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95fa7d6c8b04737c2d13"
     },
     "d1c32e531ca5518c86a9cb2c": {
         "_id": "d1c32e531ca5518c86a9cb2c",
@@ -232,7 +235,7 @@
             "Body": "5cdea33e7d6c8b0474535dac",
             "Hands": "5df8ead786f774530571b14b"
         },
-        "_proto": "5cd946231388ce000d572fe3"
+        "_proto": "5cde9ec17d6c8b04723cf479"
     },
     "0510c2b41a9c854832ecdb5f": {
         "_id": "0510c2b41a9c854832ecdb5f",
@@ -249,7 +252,8 @@
             ],
             "AvailableAsDefault": false,
             "Feet": "5cdea3c47d6c8b0475341734"
-        }
+        },
+        "_proto": "5cd946231388ce000d572fe3"
     },
     "4b1b7584cc89dfd104a8fd5e": {
         "_id": "4b1b7584cc89dfd104a8fd5e",
@@ -268,7 +272,7 @@
             "Body": "628796f2af0a053a6672c29a",
             "Hands": "01fe97602c1942128f56916e"
         },
-        "_proto": "5cd946231388ce000d572fe3"
+        "_proto": "5cde9ec17d6c8b04723cf479"
     },
     "1fe32bdc9fa5f113c27792b5": {
         "_id": "1fe32bdc9fa5f113c27792b5",
@@ -285,12 +289,13 @@
             ],
             "AvailableAsDefault": false,
             "Feet": "628771f70828252c7a28b961"
-        }
+        },
+        "_proto": "5cd946231388ce000d572fe3"
     },
     "01fe97602c1942128f56916e": {
         "_id": "01fe97602c1942128f56916e",
         "_name": "KnightHand",
-        "_parent": "5cc0868e14c02e000c6bea68",
+        "_parent": "5cc086a314c02e000c6bea69",
         "_type": "Item",
         "_props": {
             "Name": "KnightHand",
@@ -321,7 +326,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95fa7d6c8b04737c2d13"
     },
     "5f0ba0e258398855163cf686": {
         "_id": "5f0ba0e258398855163cf686",
@@ -340,7 +345,7 @@
             "Body": "b8bb44bc00ee7583f8119feb",
             "Hands": "734f59180a7d6b9d5ff1c4b1"
         },
-        "_proto": "5cd946231388ce000d572fe3"
+        "_proto": "5cde9ec17d6c8b04723cf479"
     },
     "c76a79a3c662886ad1f260b7": {
         "_id": "c76a79a3c662886ad1f260b7",
@@ -357,7 +362,8 @@
             ],
             "AvailableAsDefault": false,
             "Feet": "5d5e7f3c86f7742797262063"
-        }
+        },
+        "_proto": "5cd946231388ce000d572fe3"
     },
     "b8bb44bc00ee7583f8119feb": {
         "_id": "b8bb44bc00ee7583f8119feb",
@@ -393,12 +399,12 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95d97d6c8b647a3769b0"
     },
     "734f59180a7d6b9d5ff1c4b1": {
         "_id": "734f59180a7d6b9d5ff1c4b1",
         "_name": "ShturmanHand",
-        "_parent": "5cc0868e14c02e000c6bea68",
+        "_parent": "5cc086a314c02e000c6bea69",
         "_type": "Item",
         "_props": {
             "Name": "ShturmanHand",
@@ -429,7 +435,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95fa7d6c8b04737c2d13"
     },
     "baba59df335f35615f2a86cb": {
         "_id": "baba59df335f35615f2a86cb",
@@ -448,7 +454,7 @@
             "Body": "378a31622f3a1294cf863b82",
             "Hands": "0ec2d826fc1eaba11c721bda"
         },
-        "_proto": "5cd946231388ce000d572fe3"
+        "_proto": "5cde9ec17d6c8b04723cf479"
     },
     "8f6a24b9eef8fe6a35f42b7a": {
         "_id": "8f6a24b9eef8fe6a35f42b7a",
@@ -465,7 +471,8 @@
             ],
             "AvailableAsDefault": false,
             "Feet": "609e86c09776a947754429b2"
-        }
+        },
+        "_proto": "5cd946231388ce000d572fe3"
     },
     "378a31622f3a1294cf863b82": {
         "_id": "378a31622f3a1294cf863b82",
@@ -501,12 +508,12 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95d97d6c8b647a3769b0"
     },
     "0ec2d826fc1eaba11c721bda": {
         "_id": "0ec2d826fc1eaba11c721bda",
         "_name": "TagillaHand",
-        "_parent": "5cc0868e14c02e000c6bea68",
+        "_parent": "5cc086a314c02e000c6bea69",
         "_type": "Item",
         "_props": {
             "Name": "TagillaHand",
@@ -537,7 +544,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95fa7d6c8b04737c2d13"
     },
     "da20bd0bd157910a303971ac": {
         "_id": "da20bd0bd157910a303971ac",
@@ -556,7 +563,7 @@
             "Body": "63628b825c1b30a79d09ccb9",
             "Hands": "7f0e61eee7b014815757b08f"
         },
-        "_proto": "5cd946231388ce000d572fe3"
+        "_proto": "5cde9ec17d6c8b04723cf479"
     },
     "e16a62e5fa84faf8129372f6": {
         "_id": "e16a62e5fa84faf8129372f6",
@@ -573,12 +580,13 @@
             ],
             "AvailableAsDefault": false,
             "Feet": "6361216278f9ab270a0a48d9"
-        }
+        },
+        "_proto": "5cd946231388ce000d572fe3"
     },
     "7f0e61eee7b014815757b08f": {
         "_id": "7f0e61eee7b014815757b08f",
         "_name": "ZryachiyHand",
-        "_parent": "5cc0868e14c02e000c6bea68",
+        "_parent": "5cc086a314c02e000c6bea69",
         "_type": "Item",
         "_props": {
             "Name": "ZryachiyHand",
@@ -609,7 +617,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95fa7d6c8b04737c2d13"
     },
     "c05d9de719bf84ef25a75b64": {
         "_id": "c05d9de719bf84ef25a75b64",
@@ -628,7 +636,7 @@
             "Body": "6287b16b05846043f15a790d",
             "Hands": "55e204a8aa729adb4aaf43d6"
         },
-        "_proto": "5cd946231388ce000d572fe3"
+        "_proto": "5cde9ec17d6c8b04723cf479"
     },
     "b12a677eb87247b9851e5fc1": {
         "_id": "b12a677eb87247b9851e5fc1",
@@ -645,12 +653,13 @@
             ],
             "AvailableAsDefault": false,
             "Feet": "6287b14b66bb7d4a3c32bc94"
-        }
+        },
+        "_proto": "5cd946231388ce000d572fe3"
     },
     "55e204a8aa729adb4aaf43d6": {
         "_id": "55e204a8aa729adb4aaf43d6",
         "_name": "BigPipeHand",
-        "_parent": "5cc0868e14c02e000c6bea68",
+        "_parent": "5cc086a314c02e000c6bea69",
         "_type": "Item",
         "_props": {
             "Name": "BigPipeHand",
@@ -681,7 +690,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95fa7d6c8b04737c2d13"
     },
     "1df823ac199ebcde18eef5cc": {
         "_id": "1df823ac199ebcde18eef5cc",
@@ -700,7 +709,7 @@
             "Body": "628a6801805c5b6c100cc200",
             "Hands": "b4601d7e95df4d5329367fb6"
         },
-        "_proto": "5cd946231388ce000d572fe3"
+        "_proto": "5cde9ec17d6c8b04723cf479"
     },
     "651d8f0849d65cd83bf5ac01": {
         "_id": "651d8f0849d65cd83bf5ac01",
@@ -717,12 +726,13 @@
             ],
             "AvailableAsDefault": false,
             "Feet": "628a4645c9327c7587388849"
-        }
+        },
+        "_proto": "5cd946231388ce000d572fe3"
     },
     "b4601d7e95df4d5329367fb6": {
         "_id": "b4601d7e95df4d5329367fb6",
         "_name": "BirdeyeHand",
-        "_parent": "5cc0868e14c02e000c6bea68",
+        "_parent": "5cc086a314c02e000c6bea69",
         "_type": "Item",
         "_props": {
             "Name": "BirdeyeHand",
@@ -753,7 +763,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95fa7d6c8b04737c2d13"
     },
     "fc180a813801c3f6f3fa0f4e": {
         "_id": "fc180a813801c3f6f3fa0f4e",
@@ -772,7 +782,7 @@
             "Body": "648067b8aa32c2049f098463",
             "Hands": "7df129777fa8b013a9b6d610"
         },
-        "_proto": "5cd946231388ce000d572fe3"
+        "_proto": "5cde9ec17d6c8b04723cf479"
     },
     "1439be412b66e5c3da5e44f5": {
         "_id": "1439be412b66e5c3da5e44f5",
@@ -789,12 +799,13 @@
             ],
             "AvailableAsDefault": false,
             "Feet": "64806edf77c11aeac5078e33"
-        }
+        },
+        "_proto": "5cd946231388ce000d572fe3"
     },
     "7df129777fa8b013a9b6d610": {
         "_id": "7df129777fa8b013a9b6d610",
         "_name": "KabanHand",
-        "_parent": "5cc0868e14c02e000c6bea68",
+        "_parent": "5cc086a314c02e000c6bea69",
         "_type": "Item",
         "_props": {
             "Name": "KabanHand",
@@ -825,7 +836,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95fa7d6c8b04737c2d13"
     },
     "1fcd3eeb33d5c80e65a8a81b": {
         "_id": "1fcd3eeb33d5c80e65a8a81b",
@@ -844,7 +855,7 @@
             "Body": "14a81e3ad432d1bee06d3db3",
             "Hands": "b38b772486cce5e8b47f76a3"
         },
-        "_proto": "5cd946231388ce000d572fe3"
+        "_proto": "5cde9ec17d6c8b04723cf479"
     },
     "14a81e3ad432d1bee06d3db3": {
         "_id": "14a81e3ad432d1bee06d3db3",
@@ -880,12 +891,12 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95d97d6c8b647a3769b0"
     },
     "b38b772486cce5e8b47f76a3": {
         "_id": "b38b772486cce5e8b47f76a3",
         "_name": "DavidHand",
-        "_parent": "5cc0868e14c02e000c6bea68",
+        "_parent": "5cc086a314c02e000c6bea69",
         "_type": "Item",
         "_props": {
             "Name": "DavidHand",
@@ -916,7 +927,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95fa7d6c8b04737c2d13"
     },
     "04b286c10d896b1c423cf2b9": {
         "_id": "04b286c10d896b1c423cf2b9",
@@ -935,12 +946,12 @@
             "Body": "5fb53cc97b5d1342ee24bd63",
             "Hands": "2e61dce40eca9384f408974e"
         },
-        "_proto": "5cd946231388ce000d572fe3"
+        "_proto": "5cde9ec17d6c8b04723cf479"
     },
     "2e61dce40eca9384f408974e": {
         "_id": "2e61dce40eca9384f408974e",
         "_name": "PriestHand",
-        "_parent": "5cc0868e14c02e000c6bea68",
+        "_parent": "5cc086a314c02e000c6bea69",
         "_type": "Item",
         "_props": {
             "Name": "PriestHand",
@@ -971,7 +982,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95fa7d6c8b04737c2d13"
     },
     "261b59f83a42be037014496f": {
         "_id": "261b59f83a42be037014496f",
@@ -988,7 +999,8 @@
             ],
             "AvailableAsDefault": false,
             "Feet": "5fb535cf1c69e5198e234126"
-        }
+        },
+        "_proto": "5cd946231388ce000d572fe3"
     },
     "b285c4c0b192483238a03eda": {
         "_id": "b285c4c0b192483238a03eda",
@@ -1007,12 +1019,12 @@
             "Body": "654b5eb7a29f3736215dd030",
             "Hands": "417c1eca2a84633880ee480d"
         },
-        "_proto": "5cd946231388ce000d572fe3"
+        "_proto": "5cde9ec17d6c8b04723cf479"
     },
     "417c1eca2a84633880ee480d": {
         "_id": "417c1eca2a84633880ee480d",
         "_name": "KolontayHand",
-        "_parent": "5cc0868e14c02e000c6bea68",
+        "_parent": "5cc086a314c02e000c6bea69",
         "_type": "Item",
         "_props": {
             "Name": "KolontayHand",
@@ -1043,7 +1055,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95fa7d6c8b04737c2d13"
     },
     "e711f372d20be84428637cf7": {
         "_id": "e711f372d20be84428637cf7",
@@ -1060,7 +1072,8 @@
             ],
             "AvailableAsDefault": false,
             "Feet": "654a2bc5ee6e547e9f6238e7"
-        }
+        },
+        "_proto": "5cd946231388ce000d572fe3"
     },
     "5749d8bb4bf80f9e56ba4b42": {
         "_id": "5749d8bb4bf80f9e56ba4b42",
@@ -1096,7 +1109,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95d97d6c8b647a3769b0"
     },
     "d7c6c17c966a6895837baf4e": {
         "_id": "d7c6c17c966a6895837baf4e",
@@ -1137,7 +1150,7 @@
     "5dfe536b6f195e4016e361b9": {
         "_id": "5dfe536b6f195e4016e361b9",
         "_name": "BloodHoundHandModel",
-        "_parent": "5cc0868e14c02e000c6bea68",
+        "_parent": "5cc086a314c02e000c6bea69",
         "_type": "Item",
         "_props": {
             "Name": "BloodHoundHandModel",
@@ -1168,7 +1181,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95fa7d6c8b04737c2d13"
     },
     "b63ed1ab4c5aed97f7b9d1ae": {
         "_id": "b63ed1ab4c5aed97f7b9d1ae",
@@ -1188,7 +1201,7 @@
             "Body": "5749d8bb4bf80f9e56ba4b42",
             "Hands": "5dfe536b6f195e4016e361b9"
         },
-        "_proto": "5cd946231388ce000d572fe3"
+        "_proto": "5cde9ec17d6c8b04723cf479"
     },
     "182f138142dc55f9ca9d9948": {
         "_id": "182f138142dc55f9ca9d9948",
@@ -1206,7 +1219,8 @@
             ],
             "AvailableAsDefault": false,
             "Feet": "d7c6c17c966a6895837baf4e"
-        }
+        },
+        "_proto": "5cd946231388ce000d572fe3"
     },
     "7bcc1a966e6e53d547da23db": {
         "_id": "7bcc1a966e6e53d547da23db",
@@ -1242,7 +1256,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95d97d6c8b647a3769b0"
     },
     "81be0722057cfb755a103ac6": {
         "_id": "81be0722057cfb755a103ac6",
@@ -1283,7 +1297,7 @@
     "7a781c573ee962dac0c9e34c": {
         "_id": "7a781c573ee962dac0c9e34c",
         "_name": "ValkyrieHandModel",
-        "_parent": "5cc0868e14c02e000c6bea68",
+        "_parent": "5cc086a314c02e000c6bea69",
         "_type": "Item",
         "_props": {
             "Name": "ValkyrieHandModel",
@@ -1314,7 +1328,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95fa7d6c8b04737c2d13"
     },
     "7d0d6cd9e44a37981332d7ae": {
         "_id": "7d0d6cd9e44a37981332d7ae",
@@ -1350,7 +1364,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95d97d6c8b647a3769b0"
     },
     "d71d04ca8e5cc6e14bd83653": {
         "_id": "d71d04ca8e5cc6e14bd83653",
@@ -1391,7 +1405,7 @@
     "f1d4fadceae286f626e1bd07": {
         "_id": "f1d4fadceae286f626e1bd07",
         "_name": "ValkyrieHandModelBlue",
-        "_parent": "5cc0868e14c02e000c6bea68",
+        "_parent": "5cc086a314c02e000c6bea69",
         "_type": "Item",
         "_props": {
             "Name": "ValkyrieHandModelBlue",
@@ -1422,7 +1436,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95fa7d6c8b04737c2d13"
     },
     "4adfef960de8a1a859c71aed": {
         "_id": "4adfef960de8a1a859c71aed",
@@ -1442,7 +1456,7 @@
             "Body": "7bcc1a966e6e53d547da23db",
             "Hands": "7a781c573ee962dac0c9e34c"
         },
-        "_proto": "5cd946231388ce000d572fe3"
+        "_proto": "5cde9ec17d6c8b04723cf479"
     },
     "7ea77cdae43d9f559205b5a5": {
         "_id": "7ea77cdae43d9f559205b5a5",
@@ -1460,7 +1474,8 @@
             ],
             "AvailableAsDefault": false,
             "Feet": "81be0722057cfb755a103ac6"
-        }
+        },
+        "_proto": "5cd946231388ce000d572fe3"
     },
     "376b961de5efc0948ff9e6ae": {
         "_id": "376b961de5efc0948ff9e6ae",
@@ -1480,7 +1495,7 @@
             "Body": "7d0d6cd9e44a37981332d7ae",
             "Hands": "f1d4fadceae286f626e1bd07"
         },
-        "_proto": "5cd946231388ce000d572fe3"
+        "_proto": "5cde9ec17d6c8b04723cf479"
     },
     "511162f4c7799bc11d23f5c2": {
         "_id": "511162f4c7799bc11d23f5c2",
@@ -1498,7 +1513,8 @@
             ],
             "AvailableAsDefault": false,
             "Feet": "d71d04ca8e5cc6e14bd83653"
-        }
+        },
+        "_proto": "5cd946231388ce000d572fe3"
     },
     "PartizanCoat": {
         "_id": "PartizanCoat",
@@ -1517,12 +1533,12 @@
             "Body": "66aa5d36f641b13ad238f8c3",
             "Hands": "PartizanHand"
         },
-        "_proto": "5cd946231388ce000d572fe3"
+        "_proto": "5cde9ec17d6c8b04723cf479"
     },
     "PartizanHand": {
         "_id": "PartizanHand",
         "_name": "PartizanHand",
-        "_parent": "5cc0868e14c02e000c6bea68",
+        "_parent": "5cc086a314c02e000c6bea69",
         "_type": "Item",
         "_props": {
             "Name": "PartizanHand",
@@ -1553,7 +1569,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95fa7d6c8b04737c2d13"
     },
     "PartizanLower": {
         "_id": "PartizanLower",
@@ -1570,7 +1586,8 @@
             ],
             "AvailableAsDefault": false,
             "Feet": "66aa5bba10d2d4006a3c4a84"
-        }
+        },
+        "_proto": "5cd946231388ce000d572fe3"
     },
     "BlackG99Pants": {
         "_id": "BlackG99Pants",
@@ -2026,12 +2043,12 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95d97d6c8b647a3769b0"
     },
     "LightKeeperHand": {
         "_id": "LightKeeperHand",
         "_name": "LightKeeperHand",
-        "_parent": "5cc0868e14c02e000c6bea68",
+        "_parent": "5cc086a314c02e000c6bea69",
         "_type": "Item",
         "_props": {
             "Name": "LightKeeperHand",
@@ -2062,7 +2079,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95fa7d6c8b04737c2d13"
     },
     "LightKeeperBodyCloth": {
         "_id": "LightKeeperBodyCloth",
@@ -2180,12 +2197,12 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95d97d6c8b647a3769b0"
     },
     "DoctorHand": {
         "_id": "DoctorHand",
         "_name": "DoctorHand",
-        "_parent": "5cc0868e14c02e000c6bea68",
+        "_parent": "5cc086a314c02e000c6bea69",
         "_type": "Item",
         "_props": {
             "Name": "DoctorHand",
@@ -2216,7 +2233,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95fa7d6c8b04737c2d13"
     },
     "DoctorBodyCloth": {
         "_id": "DoctorBodyCloth",
@@ -2334,12 +2351,12 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95d97d6c8b647a3769b0"
     },
     "NightingaleHand": {
         "_id": "NightingaleHand",
         "_name": "NightingaleHand",
-        "_parent": "5cc0868e14c02e000c6bea68",
+        "_parent": "5cc086a314c02e000c6bea69",
         "_type": "Item",
         "_props": {
             "Name": "NightingaleHand",
@@ -2370,7 +2387,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95fa7d6c8b04737c2d13"
     },
     "NightingaleCloth": {
         "_id": "NightingaleCloth",
@@ -2428,7 +2445,8 @@
                 "y": 0,
                 "z": 0
             }
-        }
+        },
+        "_proto": "5cde95d97d6c8b647a3769b0"
     },
     "吴京运动服手臂": {
         "_id": "吴京运动服手臂",
@@ -2467,7 +2485,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cc2e68f14c02e28b47de290"
+        "_proto": "5cde95fa7d6c8b04737c2d13"
     },
     "吴京运动服裤子": {
         "_id": "吴京运动服裤子",
@@ -2525,7 +2543,7 @@
             "Body": "吴京运动服",
             "Hands": "吴京运动服手臂"
         },
-        "_proto": "5cd946231388ce000d572fe3"
+        "_proto": "5cde9ec17d6c8b04723cf479"
     },
     "朴素运动服裤子": {
         "_id": "朴素运动服裤子",
@@ -2547,7 +2565,8 @@
             ],
             "AvailableAsDefault": false,
             "Feet": "吴京运动服裤子"
-        }
+        },
+        "_proto": "5cd946231388ce000d572fe3"
     },
     "BDLeaderBody": {
         "_id": "BDLeaderBody",
@@ -2585,7 +2604,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95d97d6c8b647a3769b0"
     },
     "BDLeaderHand": {
         "_id": "BDLeaderHand",
@@ -2624,7 +2643,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cc2e68f14c02e28b47de290"
+        "_proto": "5cde95fa7d6c8b04737c2d13"
     },
     "BDLeaderLeg": {
         "_id": "BDLeaderLeg",
@@ -2682,7 +2701,7 @@
             "Body": "BDLeaderBody",
             "Hands": "BDLeaderHand"
         },
-        "_proto": "5cd946231388ce000d572fe3"
+        "_proto": "5cde9ec17d6c8b04723cf479"
     },
     "BDLeaderLegCloth": {
         "_id": "BDLeaderLegCloth",
@@ -2740,7 +2759,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95d97d6c8b647a3769b0"
     },
     "BDOperator01Hand": {
         "_id": "BDOperator01Hand",
@@ -2779,7 +2798,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cc2e68f14c02e28b47de290"
+        "_proto": "5cde95fa7d6c8b04737c2d13"
     },
     "BDOperator01Leg": {
         "_id": "BDOperator01Leg",
@@ -2837,7 +2856,7 @@
             "Body": "BDOperator01Body",
             "Hands": "BDOperator01Hand"
         },
-        "_proto": "5cd946231388ce000d572fe3"
+        "_proto": "5cde9ec17d6c8b04723cf479"
     },
     "BDOperator01LegCloth": {
         "_id": "BDOperator01LegCloth",
@@ -2895,7 +2914,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95d97d6c8b647a3769b0"
     },
     "BDOperator02Hand": {
         "_id": "BDOperator02Hand",
@@ -2934,7 +2953,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cc2e68f14c02e28b47de290"
+        "_proto": "5cde95fa7d6c8b04737c2d13"
     },
     "BDOperator02Leg": {
         "_id": "BDOperator02Leg",
@@ -2992,7 +3011,7 @@
             "Body": "BDOperator02Body",
             "Hands": "BDOperator02Hand"
         },
-        "_proto": "5cd946231388ce000d572fe3"
+        "_proto": "5cde9ec17d6c8b04723cf479"
     },
     "BDOperator02LegCloth": {
         "_id": "BDOperator02LegCloth",
@@ -3050,7 +3069,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95d97d6c8b647a3769b0"
     },
     "BDOperator03Hand": {
         "_id": "BDOperator03Hand",
@@ -3089,7 +3108,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cc2e68f14c02e28b47de290"
+        "_proto": "5cde95fa7d6c8b04737c2d13"
     },
     "BDOperator03Leg": {
         "_id": "BDOperator03Leg",
@@ -3147,7 +3166,7 @@
             "Body": "BDOperator03Body",
             "Hands": "BDOperator03Hand"
         },
-        "_proto": "5cd946231388ce000d572fe3"
+        "_proto": "5cde9ec17d6c8b04723cf479"
     },
     "BDOperator03LegCloth": {
         "_id": "BDOperator03LegCloth",
@@ -3205,7 +3224,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cde9f337d6c8b0474535da8"
+        "_proto": "5cde95d97d6c8b647a3769b0"
     },
     "TGJacketHand": {
         "_id": "TGJacketHand",
@@ -3244,7 +3263,7 @@
                 "z": 0
             }
         },
-        "_proto": "5cc2e68f14c02e28b47de290"
+        "_proto": "5cde95fa7d6c8b04737c2d13"
     },
     "TGJacketBodyCloth": {
         "_id": "TGJacketBodyCloth",
@@ -3264,7 +3283,7 @@
             "Body": "TGJacketBody",
             "Hands": "TGJacketHand"
         },
-        "_proto": "5cd946231388ce000d572fe3"
+        "_proto": "5cde9ec17d6c8b04723cf479"
     },
     "玩家Boss狗牌": {
         "_id": "玩家Boss狗牌",
@@ -3272,7 +3291,7 @@
         "_parent": "6746fafabafff8500804880e",
         "_type": "Item",
         "_props": {
-            "AvailableAsDefault": true,
+            "AvailableAsDefault": false,
             "Name": "黄金狗牌",
             "EName": "黄金狗牌",
             "ShortName": "黄金狗牌",
@@ -3292,7 +3311,7 @@
         "_parent": "6746fafabafff8500804880e",
         "_type": "Item",
         "_props": {
-            "AvailableAsDefault": true,
+            "AvailableAsDefault": false,
             "Name": "朴素狗牌",
             "EName": "朴素狗牌",
             "ShortName": "朴素狗牌",
@@ -3312,7 +3331,7 @@
         "_parent": "6746fafabafff8500804880e",
         "_type": "Item",
         "_props": {
-            "AvailableAsDefault": true,
+            "AvailableAsDefault": false,
             "Name": "水晶狗牌",
             "EName": "水晶狗牌",
             "ShortName": "水晶狗牌",
@@ -3332,7 +3351,7 @@
         "_parent": "6746fafabafff8500804880e",
         "_type": "Item",
         "_props": {
-            "AvailableAsDefault": true,
+            "AvailableAsDefault": false,
             "Name": "水晶狗牌",
             "EName": "水晶狗牌",
             "ShortName": "水晶狗牌",
@@ -3352,7 +3371,7 @@
         "_parent": "6746fafabafff8500804880e",
         "_type": "Item",
         "_props": {
-            "AvailableAsDefault": true,
+            "AvailableAsDefault": false,
             "Name": "刻印狗牌",
             "EName": "刻印狗牌",
             "ShortName": "刻印狗牌",
@@ -3827,12 +3846,10 @@
             "ShortName": "B.D. Commander",
             "Description": "B.D. Commander",
             "IsVoice": true,
-            "ProfileVersions": [],
             "Side": [
                 "Usec",
                 "Bear"
             ],
-            "IsNotRandom": true,
             "Prefab": "Black_Division_1"
         }
     },
@@ -3848,12 +3865,10 @@
             "ShortName": "B.D. Operator",
             "Description": "B.D. Operator",
             "IsVoice": true,
-            "ProfileVersions": [],
             "Side": [
                 "Usec",
                 "Bear"
             ],
-            "IsNotRandom": true,
             "Prefab": "Black_Division_2"
         }
     },
@@ -3883,7 +3898,7 @@
         "_parent": "6746fafabafff8500804880e",
         "_type": "Item",
         "_props": {
-            "AvailableAsDefault": true,
+            "AvailableAsDefault": false,
             "Name": "漂泊四海",
             "EName": "漂泊四海",
             "ShortName": "漂泊四海",
@@ -3903,7 +3918,7 @@
         "_parent": "6746fafabafff8500804880e",
         "_type": "Item",
         "_props": {
-            "AvailableAsDefault": true,
+            "AvailableAsDefault": false,
             "Name": "堕入黑暗",
             "EName": "堕入黑暗",
             "ShortName": "堕入黑暗",
@@ -3923,7 +3938,7 @@
         "_parent": "6746fafabafff8500804880e",
         "_type": "Item",
         "_props": {
-            "AvailableAsDefault": true,
+            "AvailableAsDefault": false,
             "Name": "人类之光",
             "EName": "人类之光",
             "ShortName": "人类之光",
@@ -3943,7 +3958,7 @@
         "_parent": "6746fafabafff8500804880e",
         "_type": "Item",
         "_props": {
-            "AvailableAsDefault": true,
+            "AvailableAsDefault": false,
             "Name": "熔铁铸金",
             "EName": "熔铁铸金",
             "ShortName": "熔铁铸金",
@@ -3963,7 +3978,7 @@
         "_parent": "6746fafabafff8500804880e",
         "_type": "Item",
         "_props": {
-            "AvailableAsDefault": true,
+            "AvailableAsDefault": false,
             "Name": "四方平直",
             "EName": "四方平直",
             "ShortName": "四方平直",
@@ -3983,7 +3998,7 @@
         "_parent": "6746fafabafff8500804880e",
         "_type": "Item",
         "_props": {
-            "AvailableAsDefault": true,
+            "AvailableAsDefault": false,
             "Name": "黑暗边缘",
             "EName": "黑暗边缘",
             "ShortName": "黑暗边缘",
@@ -4003,7 +4018,7 @@
         "_parent": "6746fafabafff8500804880e",
         "_type": "Item",
         "_props": {
-            "AvailableAsDefault": true,
+            "AvailableAsDefault": false,
             "Name": "无名之人",
             "EName": "无名之人",
             "ShortName": "无名之人",
@@ -4023,7 +4038,7 @@
         "_parent": "6746fafabafff8500804880e",
         "_type": "Item",
         "_props": {
-            "AvailableAsDefault": true,
+            "AvailableAsDefault": false,
             "Name": "P-5",
             "EName": "P-5",
             "ShortName": "P-5",
@@ -4043,7 +4058,7 @@
         "_parent": "6746fafabafff8500804880e",
         "_type": "Item",
         "_props": {
-            "AvailableAsDefault": true,
+            "AvailableAsDefault": false,
             "Name": "P-6",
             "EName": "P-6",
             "ShortName": "P-6",
@@ -4063,7 +4078,7 @@
         "_parent": "6746fafabafff8500804880e",
         "_type": "Item",
         "_props": {
-            "AvailableAsDefault": true,
+            "AvailableAsDefault": false,
             "Name": "订阅回馈",
             "EName": "订阅回馈",
             "ShortName": "订阅回馈",

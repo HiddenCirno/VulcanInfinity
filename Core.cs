@@ -124,7 +124,7 @@ public class Core(
         var coreconfigs = configServer.GetConfig<CoreConfig>();
         coreconfigs.Fixes.RemoveInvalidTradersFromProfile = true;
         coreconfigs.Fixes.RemoveModItemsFromProfile = true;
-        coreconfigs.Fixes.FixProfileBreakingInventoryItemIssues = true;
+        //coreconfigs.Fixes.FixProfileBreakingInventoryItemIssues = true;
         if (modConfig.Module.CoreModule.VulcanMod.Active)
         {
             VulcanLog.Warn("加载核心模块: 火神重工", logger);
