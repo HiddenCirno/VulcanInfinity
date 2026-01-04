@@ -3826,6 +3826,7 @@
             "EName": "B.D. Commander",
             "ShortName": "B.D. Commander",
             "Description": "B.D. Commander",
+            "IsVoice": true,
             "ProfileVersions": [],
             "Side": [
                 "Usec",
@@ -3846,6 +3847,7 @@
             "EName": "B.D. Operator",
             "ShortName": "B.D. Operator",
             "Description": "B.D. Operator",
+            "IsVoice": true,
             "ProfileVersions": [],
             "Side": [
                 "Usec",

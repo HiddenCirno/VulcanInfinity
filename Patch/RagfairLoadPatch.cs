@@ -47,6 +47,7 @@ namespace VulcanInfinity
         {
             var jsonUtil = ServiceLocator.ServiceProvider.GetService<JsonUtil>();
             var databaseService = ServiceLocator.ServiceProvider.GetService<DatabaseService>();
+            var localeService = ServiceLocator.ServiceProvider.GetService<LocaleService>();
             var logger = ServiceLocator.ServiceProvider.GetService<ISptLogger<VulcanCore.VulcanCore>>();
             var configServer = ServiceLocator.ServiceProvider.GetService<ConfigServer>();
             var cloner = ServiceLocator.ServiceProvider.GetService<ICloner>();
@@ -76,7 +77,7 @@ namespace VulcanInfinity
             }
             //File.WriteAllText(System.IO.Path.Combine(ConfigManager.modPath, "exportquest.json"), jsonUtil.Serialize(databaseService.GetQuests(), true));
             //File.WriteAllText(System.IO.Path.Combine(ConfigManager.modPath, "exportitem.json"), jsonUtil.Serialize(databaseService.GetItems(), true));
-            //File.WriteAllText(System.IO.Path.Combine(ConfigManager.modPath, "exportachievement.json"), jsonUtil.Serialize(databaseService.GetAchievements(), true));
+            //File.WriteAllText(System.IO.Path.Combine(ConfigManager.modPath, "exportlocale.json"), jsonUtil.Serialize(localeService.GetLocaleDb("ch"), true));
             //VulcanLog.Access("抽卡统计结束", logger);
             return true; 
             // 跳过原始方法，直接使用修改后的逻辑
