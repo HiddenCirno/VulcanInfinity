@@ -26365,10 +26365,10 @@
             ]
         }
     },
-    "黄DT迷你护木护木": {
-        "_id": "黄DT迷你护木护木",
+    "黄DT迷你护木": {
+        "_id": "黄DT迷你护木",
         "_targetid": "5c48a14f2e2216152006edd7",
-        "_name": "黄DT迷你护木护木",
+        "_name": "黄DT迷你护木",
         "_props": {
             "Weight": 0.102,
             "Width": 1,
@@ -26381,7 +26381,7 @@
                 {
                     "_name": "mod_mount_001",
                     "_id": "6810ca87002deee76b04970d",
-                    "_parent": "黄DT迷你护木护木",
+                    "_parent": "黄DT迷你护木",
                     "_props": {
                         "filters": [
                             {
@@ -26399,7 +26399,7 @@
                 {
                     "_name": "mod_mount_002",
                     "_id": "6810cae8002deee76b04970e",
-                    "_parent": "黄DT迷你护木护木",
+                    "_parent": "黄DT迷你护木",
                     "_props": {
                         "filters": [
                             {
@@ -26456,10 +26456,10 @@
             ]
         }
     },
-    "黑DT迷你护木护木": {
-        "_id": "黑DT迷你护木护木",
+    "黑DT迷你护木": {
+        "_id": "黑DT迷你护木",
         "_targetid": "5c48a14f2e2216152006edd7",
-        "_name": "黑DT迷你护木护木",
+        "_name": "黑DT迷你护木",
         "_props": {
             "Weight": 0.102,
             "Width": 1,
@@ -26472,7 +26472,7 @@
                 {
                     "_name": "mod_mount_001",
                     "_id": "6810ca87002deee76b04970d",
-                    "_parent": "黑DT迷你护木护木",
+                    "_parent": "黑DT迷你护木",
                     "_props": {
                         "filters": [
                             {
@@ -26490,7 +26490,7 @@
                 {
                     "_name": "mod_mount_002",
                     "_id": "6810cae8002deee76b04970e",
-                    "_parent": "黑DT迷你护木护木",
+                    "_parent": "黑DT迷你护木",
                     "_props": {
                         "filters": [
                             {
