@@ -19796,7 +19796,7 @@
         "_customprops": {
             "$type": "base",
             "Name": "蓝色记号钥匙卡·永恒",
-            "ShortName": "黑卡",
+            "ShortName": "钥匙卡",
             "Description": "一张永久通行卡，里面存储着复杂的编码。\n<b>「5efde6b4f5448336730dbd61」</b>",
             "DefaultPrice": 10000000,
             "RagfairType": "5c518ed586f774119a772aee",
@@ -27828,8 +27828,9 @@
             "DefaultPrice": 10000000,
             "RagfairType": "5c518ed586f774119a772aee",
             "CanFindInRaid": true,
+            "CustomLoot": true,
             "MapLoot": true,
-            "CustomMapLootTarget": "5c1d0dc586f7744baf2e7b79",
+            "CustomMapLootTarget": "5c1d0f4986f7744bb01837fa",
             "isMoney": false,
             "BlackListType": 11,
             "CopyPrice": true
@@ -27879,6 +27880,7 @@
             "DefaultPrice": 10000000,
             "RagfairType": "5c518ed586f774119a772aee",
             "CanFindInRaid": true,
+            "CustomLoot": true,
             "MapLoot": true,
             "CustomMapLootTarget": "5c1d0c5f86f7744bb2683cf0",
             "isMoney": false,
@@ -27930,6 +27932,7 @@
             "DefaultPrice": 10000000,
             "RagfairType": "5c518ed586f774119a772aee",
             "CanFindInRaid": true,
+            "CustomLoot": true,
             "MapLoot": true,
             "CustomMapLootTarget": "5c1d0efb86f7744baf2e7b7b",
             "isMoney": false,
@@ -27981,6 +27984,7 @@
             "DefaultPrice": 10000000,
             "RagfairType": "5c518ed586f774119a772aee",
             "CanFindInRaid": true,
+            "CustomLoot": true,
             "MapLoot": true,
             "CustomMapLootTarget": "5c1e495a86f7743109743dfb",
             "isMoney": false,
@@ -28032,6 +28036,7 @@
             "DefaultPrice": 10000000,
             "RagfairType": "5c518ed586f774119a772aee",
             "CanFindInRaid": true,
+            "CustomLoot": true,
             "MapLoot": true,
             "CustomMapLootTarget": "5c1d0d6d86f7744bb2683e1f",
             "isMoney": false,
@@ -28083,6 +28088,7 @@
             "DefaultPrice": 10000000,
             "RagfairType": "5c518ed586f774119a772aee",
             "CanFindInRaid": true,
+            "CustomLoot": true,
             "MapLoot": true,
             "CustomMapLootTarget": "5c1d0d6d86f7744bb2683e1f",
             "isMoney": false,
@@ -28134,8 +28140,9 @@
             "DefaultPrice": 10000000,
             "RagfairType": "5c518ed586f774119a772aee",
             "CanFindInRaid": true,
+            "CustomLoot": true,
             "MapLoot": true,
-            "CustomMapLootTarget": "5c1d0dc586f7744baf2e7b79",
+            "CustomMapLootTarget": "5c1d0f4986f7744bb01837fa",
             "isMoney": false,
             "BlackListType": 11,
             "CopyPrice": true
@@ -28185,6 +28192,7 @@
             "DefaultPrice": 10000000,
             "RagfairType": "5c518ed586f774119a772aee",
             "CanFindInRaid": true,
+            "CustomLoot": true,
             "MapLoot": true,
             "CustomMapLootTarget": "5c1d0efb86f7744baf2e7b7b",
             "isMoney": false,
@@ -28237,6 +28245,7 @@
             "DefaultPrice": 10000000,
             "RagfairType": "5c518ed586f774119a772aee",
             "CanFindInRaid": true,
+            "CustomLoot": true,
             "MapLoot": true,
             "CustomMapLootTarget": "5c1d0dc586f7744baf2e7b79",
             "MapLootDivisor": 1,
@@ -28289,6 +28298,7 @@
             "DefaultPrice": 10000000,
             "RagfairType": "5c518ed586f774119a772aee",
             "CanFindInRaid": true,
+            "CustomLoot": true,
             "MapLoot": true,
             "CustomMapLootTarget": "5c1e495a86f7743109743dfb",
             "isMoney": false,
@@ -28340,6 +28350,7 @@
             "DefaultPrice": 10000000,
             "RagfairType": "5c518ed586f774119a772aee",
             "CanFindInRaid": true,
+            "CustomLoot": true,
             "MapLoot": true,
             "CustomMapLootTarget": "5c1d0c5f86f7744bb2683cf0",
             "isMoney": false,
@@ -30087,7 +30098,8 @@
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
             "FixType": [
-                "Mods"
+                "Mods",
+                "Container"
             ]
         }
     },
@@ -30113,7 +30125,8 @@
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
             "FixType": [
-                "Mods"
+                "Mods",
+                "Container"
             ]
         }
     },
