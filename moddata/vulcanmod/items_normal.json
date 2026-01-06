@@ -30215,7 +30215,7 @@
             "ShortName": "LP",
             "Description": "由知名时尚品牌倾力打造的稀有钱包，很适合存放那些真正的高价值物品，比如现金和钥匙卡。",
             "DefaultPrice": 150000,
-            "RagfairType": "5b5f6fd286f774093f2ecf0d",
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
             "CopyPrice": true,
             "CanFindInRaid": true,
             "addToKappa": true,
@@ -30224,7 +30224,10 @@
             "isMoney": false,
             "ContainerSizeWidth": 2,
             "ContainerSizeHeight": 2,
-            "BlackListType": 10
+            "BlackListType": 10,
+            "FixType":[
+                "Container"
+            ]
         }
     },
     "金锭": {

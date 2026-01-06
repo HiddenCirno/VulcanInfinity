@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("火神重工-无限")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.1+508f8aa3716f91a351247ca8f801c0aaf095d9bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.1+3b3f90040c92a430eccceacd8740b0cf0fc18631")]
 [assembly: System.Reflection.AssemblyProductAttribute("火神重工-无限")]
 [assembly: System.Reflection.AssemblyTitleAttribute("火神重工-无限")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.0.1.0")]
