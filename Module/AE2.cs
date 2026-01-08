@@ -221,12 +221,14 @@ public class AE2
         items.TryGetValue(itemid, out var targetfilter);
         items.TryGetValue(ItemTpl.CONTAINER_SICC, out var sicc);
         items.TryGetValue(ItemTpl.CONTAINER_DOCUMENTS_CASE, out var file);
+        items.TryGetValue(ItemTpl.CONTAINER_DOGTAG_CASE, out var ËÀÂèÄá»ùËþµÄ¹·ÅÆ°ü);
         if (targetfilter != null)
         {
             var filter = targetfilter.Properties.Grids.First().Properties.Filters.First().Filter;
             filter.Clear();
             var filelist = file.Properties.Grids.First().Properties.Filters.First().Filter;
-            var sicclist = file.Properties.Grids.First().Properties.Filters.First().Filter;
+            var sicclist = sicc.Properties.Grids.First().Properties.Filters.First().Filter;
+            var dogtaglist = ËÀÂèÄá»ùËþµÄ¹·ÅÆ°ü.Properties.Grids.First().Properties.Filters.First().Filter;
             foreach (var item in filelist)
             {
                 if (!filter.Contains(item))
@@ -235,6 +237,13 @@ public class AE2
                 }
             }
             foreach (var item in sicclist)
+            {
+                if (!filter.Contains(item))
+                {
+                    filter.Add(item);
+                }
+            }
+            foreach (var item in dogtaglist)
             {
                 if (!filter.Contains(item))
                 {

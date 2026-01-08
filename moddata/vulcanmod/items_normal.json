@@ -27769,7 +27769,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "lootable",
             "Name": "实验室钥匙卡·绿·星点萤火",
             "ShortName": "绿卡",
             "Description": "一张拥有联名涂装外观的通行卡，里面存储着复杂的编码。\n<b>「5c1d0dc586f7744baf2e7b79」</b>",
@@ -27779,7 +27779,7 @@
             "CustomLoot": true,
             "MapLoot": true,
             "CustomMapLootTarget": "5c1d0dc586f7744baf2e7b79",
-            "MapLootDivisor": 1,
+            "MapLootDivisor": 2,
             "isMoney": false,
             "BlackListType": 11,
             "CopyPrice": true
@@ -27822,7 +27822,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "lootable",
             "Name": "实验室钥匙卡·黑·普瑞赛斯",
             "ShortName": "黑卡",
             "Description": "一张拥有联名涂装外观的通行卡，里面存储着复杂的编码。\n<b>「5c1d0f4986f7744bb01837fa」</b>",
@@ -27831,7 +27831,7 @@
             "CanFindInRaid": true,
             "CustomLoot": true,
             "MapLoot": true,
-            "MapLootDivisor": 1,
+            "MapLootDivisor": 2,
             "CustomMapLootTarget": "5c1d0f4986f7744bb01837fa",
             "isMoney": false,
             "BlackListType": 11,
@@ -27875,7 +27875,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "lootable",
             "Name": "实验室钥匙卡·蓝·公主殿下",
             "ShortName": "蓝卡",
             "Description": "一张拥有联名涂装外观的通行卡，里面存储着复杂的编码。\n<b>「5c1d0c5f86f7744bb2683cf0」</b>",
@@ -27884,7 +27884,7 @@
             "CanFindInRaid": true,
             "CustomLoot": true,
             "MapLoot": true,
-            "MapLootDivisor": 1,
+            "MapLootDivisor": 2,
             "CustomMapLootTarget": "5c1d0c5f86f7744bb2683cf0",
             "isMoney": false,
             "BlackListType": 11,
@@ -27928,7 +27928,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "lootable",
             "Name": "实验室钥匙卡·红·博丽巫女",
             "ShortName": "红卡",
             "Description": "一张拥有联名涂装外观的通行卡，里面存储着复杂的编码。\n<b>「5c1d0efb86f7744baf2e7b7b」</b>",
@@ -27937,7 +27937,7 @@
             "CanFindInRaid": true,
             "CustomLoot": true,
             "MapLoot": true,
-            "MapLootDivisor": 1,
+            "MapLootDivisor": 2,
             "CustomMapLootTarget": "5c1d0efb86f7744baf2e7b7b",
             "isMoney": false,
             "BlackListType": 11,
@@ -27981,7 +27981,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "lootable",
             "Name": "实验室钥匙卡·紫·魔女之间",
             "ShortName": "紫卡",
             "Description": "一张拥有联名涂装外观的通行卡，里面存储着复杂的编码。\n<b>「5c1e495a86f7743109743dfb」</b>",
@@ -27990,7 +27990,7 @@
             "CanFindInRaid": true,
             "CustomLoot": true,
             "MapLoot": true,
-            "MapLootDivisor": 1,
+            "MapLootDivisor": 2,
             "CustomMapLootTarget": "5c1e495a86f7743109743dfb",
             "isMoney": false,
             "BlackListType": 11,
@@ -28034,7 +28034,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "lootable",
             "Name": "实验室钥匙卡·黄·丝缕金织",
             "ShortName": "黄卡",
             "Description": "一张拥有联名涂装外观的通行卡，里面存储着复杂的编码。\n<b>「5c1d0d6d86f7744bb2683e1f」</b>",
@@ -28043,7 +28043,7 @@
             "CanFindInRaid": true,
             "CustomLoot": true,
             "MapLoot": true,
-            "MapLootDivisor": 1,
+            "MapLootDivisor": 2,
             "CustomMapLootTarget": "5c1d0d6d86f7744bb2683e1f",
             "isMoney": false,
             "BlackListType": 11,
@@ -28087,7 +28087,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "lootable",
             "Name": "实验室钥匙卡·黄·长夜临光",
             "ShortName": "黄卡",
             "Description": "一张拥有联名涂装外观的通行卡，里面存储着复杂的编码。\n<b>「5c1d0d6d86f7744bb2683e1f」</b>",
@@ -28096,7 +28096,7 @@
             "CanFindInRaid": true,
             "CustomLoot": true,
             "MapLoot": true,
-            "MapLootDivisor": 1,
+            "MapLootDivisor": 2,
             "CustomMapLootTarget": "5c1d0d6d86f7744bb2683e1f",
             "isMoney": false,
             "BlackListType": 11,
@@ -28140,7 +28140,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "lootable",
             "Name": "实验室钥匙卡·黑·殊死一搏",
             "ShortName": "黑卡",
             "Description": "一张拥有联名涂装外观的通行卡，里面存储着复杂的编码。\n<b>「5c1d0f4986f7744bb01837fa」</b>",
@@ -28149,7 +28149,7 @@
             "CanFindInRaid": true,
             "CustomLoot": true,
             "MapLoot": true,
-            "MapLootDivisor": 1,
+            "MapLootDivisor": 2,
             "CustomMapLootTarget": "5c1d0f4986f7744bb01837fa",
             "isMoney": false,
             "BlackListType": 11,
@@ -28193,7 +28193,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "lootable",
             "Name": "实验室钥匙卡·红·Heavenly Me",
             "ShortName": "红卡",
             "Description": "一张拥有联名涂装外观的通行卡，里面存储着复杂的编码。\n<b>「5c1d0efb86f7744baf2e7b7b」</b>",
@@ -28202,7 +28202,7 @@
             "CanFindInRaid": true,
             "CustomLoot": true,
             "MapLoot": true,
-            "MapLootDivisor": 1,
+            "MapLootDivisor": 2,
             "CustomMapLootTarget": "5c1d0efb86f7744baf2e7b7b",
             "isMoney": false,
             "BlackListType": 11,
@@ -28247,7 +28247,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "lootable",
             "Name": "实验室钥匙卡·绿·猫与棘与凯尔希",
             "ShortName": "绿卡",
             "Description": "一张拥有联名涂装外观的通行卡，里面存储着复杂的编码。\n<b>「5c1d0dc586f7744baf2e7b79」</b>",
@@ -28256,9 +28256,8 @@
             "CanFindInRaid": true,
             "CustomLoot": true,
             "MapLoot": true,
-            "MapLootDivisor": 1,
+            "MapLootDivisor": 2,
             "CustomMapLootTarget": "5c1d0dc586f7744baf2e7b79",
-            "MapLootDivisor": 1,
             "isMoney": false,
             "BlackListType": 11,
             "CopyPrice": true
@@ -28301,7 +28300,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "lootable",
             "Name": "实验室钥匙卡·紫·冥河之舞",
             "ShortName": "紫卡",
             "Description": "一张拥有联名涂装外观的通行卡，里面存储着复杂的编码。\n<b>「5c1e495a86f7743109743dfb」</b>",
@@ -28310,7 +28309,7 @@
             "CanFindInRaid": true,
             "CustomLoot": true,
             "MapLoot": true,
-            "MapLootDivisor": 1,
+            "MapLootDivisor": 2,
             "CustomMapLootTarget": "5c1e495a86f7743109743dfb",
             "isMoney": false,
             "BlackListType": 11,
@@ -28354,7 +28353,7 @@
             }
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "lootable",
             "Name": "实验室钥匙卡·蓝·月时计",
             "ShortName": "蓝卡",
             "Description": "一张拥有联名涂装外观的通行卡，里面存储着复杂的编码。\n<b>「5c1d0c5f86f7744bb2683cf0」</b>",
@@ -28363,7 +28362,7 @@
             "CanFindInRaid": true,
             "CustomLoot": true,
             "MapLoot": true,
-            "MapLootDivisor": 1,
+            "MapLootDivisor": 2,
             "CustomMapLootTarget": "5c1d0c5f86f7744bb2683cf0",
             "isMoney": false,
             "BlackListType": 11,
@@ -30225,7 +30224,7 @@
             "ContainerSizeWidth": 2,
             "ContainerSizeHeight": 2,
             "BlackListType": 10,
-            "FixType":[
+            "FixType": [
                 "Container"
             ]
         }
@@ -31855,6 +31854,36 @@
             "FixType": [
                 "Mods"
             ]
+        }
+    },
+    "黑海": {
+        "_id": "黑海",
+        "_targetid": "57cd379a24597778e7682ecf",
+        "_name": "黑海",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Width": 1,
+            "Height": 3,
+            "Prefab": {
+                "path": "assets/BlackSea/weapon_kiba_arms_axe_container.bundle",
+                "rcid": ""
+            },
+            "knifeHitSlashDam": 75,
+            "knifeHitStabDam": 135
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "黑海",
+            "ShortName": "黑海",
+            "Description": "一把拥有特殊涂装的战术斧，锋利逼人。",
+            "RagfairType": "5b5f7a0886f77409407a7f96",
+            "DefaultPrice": 4880000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "657089638db3adca1009f4ca",
+            "isMoney": false,
+            "BlackListType": 63
         }
     }
 }
