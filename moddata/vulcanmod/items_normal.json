@@ -67,6 +67,8 @@
             "Weight": 0.01,
             "BackgroundColor": "red",
             "CanSellOnRagfair": false,
+            "PrimaryConsumption": 0,
+            "SecondryConsumption": 0,
             "knifeHitSlashDam": 99999,
             "knifeHitStabDam": 99999
         },
@@ -5509,6 +5511,8 @@
                 "path": "assets/content/weapons/diamond_sword/weapon_miller_bros_m-2_container.bundle",
                 "rcid": ""
             },
+            "PrimaryConsumption": 0,
+            "SecondryConsumption": 0,
             "knifeHitSlashDam": 35,
             "knifeHitStabDam": 56
         },
@@ -5538,6 +5542,8 @@
                 "path": "assets/content/weapons/netherite_sword/weapon_miller_bros_m-2_container.bundle",
                 "rcid": ""
             },
+            "PrimaryConsumption": 0,
+            "SecondryConsumption": 0,
             "knifeHitSlashDam": 45,
             "knifeHitStabDam": 75
         },
@@ -5567,6 +5573,8 @@
                 "path": "assets/content/weapons/Raven/weapon_sog_voodoo_hawk_container.bundle",
                 "rcid": ""
             },
+            "PrimaryConsumption": 0,
+            "SecondryConsumption": 0,
             "knifeHitSlashDam": 30,
             "knifeHitStabDam": 30
         },
@@ -31869,6 +31877,8 @@
                 "path": "assets/BlackSea/weapon_kiba_arms_axe_container.bundle",
                 "rcid": ""
             },
+            "PrimaryConsumption": 0,
+            "SecondryConsumption": 0,
             "knifeHitSlashDam": 75,
             "knifeHitStabDam": 135
         },
