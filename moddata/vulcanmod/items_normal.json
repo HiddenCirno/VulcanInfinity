@@ -64,7 +64,7 @@
         "_targetid": "5bffdd7e0db834001b734a1a",
         "_name": "Debug战术剑",
         "_props": {
-            "Weight": 0.01,
+            "Weight": 0,
             "BackgroundColor": "red",
             "CanSellOnRagfair": false,
             "PrimaryConsumption": 0,
@@ -5565,7 +5565,7 @@
         "_targetid": "54491bb74bdc2d09088b4567",
         "_name": "渡鸦之咬",
         "_props": {
-            "Weight": 1,
+            "Weight": 0,
             "BackgroundColor": "default",
             "Width": 1,
             "Height": 2,
