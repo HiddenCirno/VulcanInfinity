@@ -2337,5 +2337,57 @@
         },
         "TrustLevel": 3,
         "isWeapon": false
+    },
+    {
+        "$type": "locked",
+        "ID": "黑海兑换",
+        "Trader": "6617beeaa9cfa777ca915b7c",
+        "Item": [
+            {
+                "_id": "黑海兑换",
+                "_tpl": "黑海",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5d235b4d86f7742e017bc88a": 488
+        },
+        "TrustLevel": 4,
+        "isWeapon": false,
+        "Locked": true,
+        "Quest": "63a9b36cc31b00242d28a99f",
+        "QuestStage": 1,
+        "IsUnknown": false
+    },
+    {
+        "$type": "normal",
+        "ID": "Ref1级无限GP币",
+        "Trader": "6617beeaa9cfa777ca915b7c",
+        "Item": [
+            {
+                "_id": "Ref1级无限GP币",
+                "_tpl": "5d235b4d86f7742e017bc88a",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 8088.88
+        },
+        "TrustLevel": 1,
+        "isWeapon": false
     }
 ]
