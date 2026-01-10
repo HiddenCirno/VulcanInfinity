@@ -468,6 +468,9 @@ namespace VulcanInfinity
                                 AddLootToInventory(bot.Inventory, VulcanUtil.ConvertHashID("仿制工厂钥匙"), "Pockets", bot, databaseService, logger);
                                 AddLootToInventory(bot.Inventory, ItemTpl.INFO_NOTE_WITH_CODE_WORD_ARK, "Pockets", bot, databaseService, logger);
                                 break;
+                            case "bosstagillaagro":
+                                AddLootToInventory(bot.Inventory, ItemTpl.KEY_ARIADNE_SYMBOL, "Pockets", bot, databaseService, logger);
+                                break;
                             case "bosssanitar":
                                 AddLootToInventory(bot.Inventory, VulcanUtil.ConvertHashID("疗养院管理员钥匙"), "Pockets", bot, databaseService, logger);
                                 AddLootToInventory(bot.Inventory, ItemTpl.INFO_NOTE_WITH_CODE_WORD_HEARTBEAT, "Pockets", bot, databaseService, logger);
