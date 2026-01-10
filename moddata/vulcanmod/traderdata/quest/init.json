@@ -1444,7 +1444,8 @@
                     "counterid": "PersicariaDeadTask2K1",
                     "bot": "Savage",
                     "role": [
-                        "bossTagilla"
+                        "bossTagilla",
+                        "bossTagillaAgro"
                     ],
                     "conditionid": "PersicariaDeadTask2K11",
                     "bodyPart": 0,
@@ -2352,7 +2353,7 @@
                         "黑骑士头",
                         "62963c18dbc8ab5f0d382d0b"
                     ],
-                    "count": 5
+                    "count": 4
                 },
                 {
                     "$type": "kill",
@@ -2384,7 +2385,7 @@
                     "id": "PersicariaDeadTask7Hand2",
                     "inraid": true,
                     "itemid": "628bc7fb408e2b2e9c0801b1",
-                    "count": 6
+                    "count": 4
                 },
                 {
                     "$type": "kill",

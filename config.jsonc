@@ -69,8 +69,8 @@
               "Active": true,
               //修改后的主播物品箱内容亮大小, 分别是行和列数
               "Twitch_Continer": [
-                12,
-                12
+                14,
+                14
               ]
             }
           },
@@ -452,10 +452,23 @@
                 "Kolontay": 50
               }
             },
-            //是否允许Kaban在海岸线的走私者营地生成, 此选项是为了让低配电脑在难以流畅运行街区的情况下能够完成Kaban的Boss任务, 概率默认为40
+            //是否允许Kaban在海岸线的走私者营地生成, 此选项是为了让低配电脑在难以流畅运行街区的情况下能够完成Kaban的Boss任务
             "AddKabanInShoreline": true,
+            //Kaban在海岸线的走私者营地生成的概率
+            "KabanInShorelineChance": 40,
             //是否允许黑色军团生成, 此选项将替换原版的寻血猎犬AI, 默认生成概率为40
-            "AddBlackDivision": true
+            "AddBlackDivision": true,
+            //黑色军团生成概率
+            "BlackDivisionChance": 40,
+            //黑色军团的独立地图配置, 分别对应森林海关海岸线灯塔街区, 如果遇到迷宫内刷新Obsidian的问题可以禁用海岸线的黑色军团刷新以解决
+            "BlackDivisionMapConfig": {
+              "Woods": true,
+              "Custom": true,
+              "Shoreline": true,
+              "Lighthouse": true,
+              "Streets": true,
+              "Labs":  true
+            }
           },
           //藏身处修改配置
           "HideoutEdit": {

@@ -1,5 +1,6 @@
 using HarmonyLib;
 using Microsoft.AspNetCore.Http.HttpResults;
+using SPTarkov.Common.Extensions;
 using SPTarkov.DI.Annotations;
 using SPTarkov.Reflection.Patching;
 using SPTarkov.Server.Core.DI;
@@ -292,6 +293,7 @@ public class VulcanMod
         var bloodhound = bots.Types["arenafighterevent"];
         var zhCNLang = databaseService.GetLocales().Global["ch"];
         var botBDOperator = modHelper.GetJsonDataFromFile<BotType>(ConfigManager.modPath, "moddata/vulcanmod/bots/BDOperator.json");
+        var modBotConfig = modConfig.Module.CoreModule.VulcanMod.Config.BotEdit;
         bloodhound.BotAppearance = botBDOperator.BotAppearance;
         bloodhound.BotChances.EquipmentChances = botBDOperator.BotChances.EquipmentChances;
         bloodhound.BotChances.WeaponModsChances = botBDOperator.BotChances.WeaponModsChances;
@@ -310,39 +312,67 @@ public class VulcanMod
         {
             var map = location.Base;
             if (map == null) continue;
-            var bosslist = map.BossLocationSpawn;
-            if (bosslist == null) continue;
-            foreach (var boss in bosslist)
+            if (map == getedlocations.Woods.Base && modBotConfig.BlackDivisionMapConfig["Woods"] == true)
             {
-                if (boss == null) continue;
-                if (boss.BossName == "arenaFighterEvent")
-                {
-                    boss.BossName = "bossKillaAgro";
-                    boss.BossEscortAmount = "3";
-                    boss.BossChance = 40;
-                }
+                InitBDEditForMap(map.BossLocationSpawn);
+            }
+            if (map == getedlocations.Bigmap.Base && modBotConfig.BlackDivisionMapConfig["Custom"] == true)
+            {
+                InitBDEditForMap(map.BossLocationSpawn);
             }
         }
-        var bdspawn = cloner.Clone(getedlocations.Bigmap.Base.BossLocationSpawn.Find(x => x.BossName == "bossKillaAgro"));
+        var bdspawn = cloner.Clone(getedlocations.Bigmap.Base.BossLocationSpawn.Find(x => x.BossName == "bossKillaAgro" || x.BossName == "arenaFighterEvent"));
         if (bdspawn != null)
         {
+            if (bdspawn.BossName != "bossKillaAgro")
+            {
+                bdspawn.BossName = "bossKillaAgro";
+                bdspawn.BossEscortAmount = "3";
+                bdspawn.BossChance = (double)modBotConfig.BlackDivisionChance;
+            }
             bdspawn.ForceSpawn = true;
             bdspawn.IgnoreMaxBots = true;
             bdspawn.Supports = null;
             //VulcanLog.Debug("进入添加流程", logger);
-            var lighthouse = cloner.Clone(bdspawn);
-            lighthouse.BossZone = "Zone_OldHouse,Zone_Village";
-            databaseService.GetLocations().Lighthouse.Base.BossLocationSpawn.Add(lighthouse);
-            var labs = cloner.Clone(bdspawn);
-            labs.BossZone = "BotZoneFloor1";
-            databaseService.GetLocations().Laboratory.Base.BossLocationSpawn.Add(labs);
-            var shoreline = cloner.Clone(bdspawn);
-            shoreline.BossZone = "ZoneSanatorium1,ZoneSanatorium2,ZoneSmuglers";
-            databaseService.GetLocations().Shoreline.Base.BossLocationSpawn.Add(shoreline);
-            var street = cloner.Clone(bdspawn);
-            street.BossZone = "ZoneFactory,ZoneConcordiaParking";
-            databaseService.GetLocations().TarkovStreets.Base.BossLocationSpawn.Add(street);
+            if (modBotConfig.BlackDivisionMapConfig["Lighthouse"] == true)
+            {
+                var lighthouse = cloner.Clone(bdspawn);
+                lighthouse.BossZone = "Zone_OldHouse,Zone_Village";
+                databaseService.GetLocations().Lighthouse.Base.BossLocationSpawn.Add(lighthouse);
+            }
+            if (modBotConfig.BlackDivisionMapConfig["Labs"] == true)
+            {
+                var labs = cloner.Clone(bdspawn);
+                labs.BossZone = "BotZoneFloor1";
+                databaseService.GetLocations().Laboratory.Base.BossLocationSpawn.Add(labs);
+            }
+            if (modBotConfig.BlackDivisionMapConfig["Shoreline"] == true)
+            {
+                var shoreline = cloner.Clone(bdspawn);
+                shoreline.BossZone = "ZoneSanatorium1,ZoneSanatorium2,ZoneSmuglers";
+                databaseService.GetLocations().Shoreline.Base.BossLocationSpawn.Add(shoreline);
+            }
+            if (modBotConfig.BlackDivisionMapConfig["Streets"] == true)
+            {
+                var street = cloner.Clone(bdspawn);
+                street.BossZone = "ZoneFactory,ZoneConcordiaParking";
+                databaseService.GetLocations().TarkovStreets.Base.BossLocationSpawn.Add(street);
+            }
             //VulcanLog.Log(jsonUtil.Serialize(databaseService.GetLocations().Shoreline.Base.BossLocationSpawn, true), logger);
+        }
+    }
+    public static void InitBDEditForMap(List<BossLocationSpawn> locationSpawns)
+    {
+        if (locationSpawns == null) return;
+        foreach (var boss in locationSpawns)
+        {
+            if (boss == null) return;
+            if (boss.BossName == "arenaFighterEvent")
+            {
+                boss.BossName = "bossKillaAgro";
+                boss.BossEscortAmount = "3";
+                boss.BossChance = (double)modConfig.Module.CoreModule.VulcanMod.Config.BotEdit.BlackDivisionChance;
+            }
         }
     }
     public static void InitBotEdit(VulcanModConfigClass config, DatabaseService databaseService, ModHelper modHelper)
@@ -918,7 +948,7 @@ public class VulcanMod
         var shoreline = databaseService.GetLocations().Shoreline.Base;
         shoreline.BossLocationSpawn.Add(new BossLocationSpawn
         {
-            BossChance = 30,
+            BossChance = (double)modConfig.Module.CoreModule.VulcanMod.Config.BotEdit.KabanInShorelineChance,
             BossDifficulty = "normal",
             BossEscortAmount = "2",
             BossEscortDifficulty = "normal",

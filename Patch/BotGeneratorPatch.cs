@@ -109,8 +109,9 @@ namespace VulcanInfinity
                     if (BotLoation != botGenerationDetails.Location)
                     {
                         BotLoation = (string)botGenerationDetails.Location;
-                        logger.LogWithColor($"Debug: {botGenerationDetails.Location}", LogTextColor.Gray);
+                        logger.LogWithColor($"Correct Location: {botGenerationDetails.Location}", LogTextColor.Magenta);
                     }
+                    //logger.LogWithColor($"Bot Location: {botGenerationDetails.Location}", LogTextColor.Magenta);
                     if (vulcanConfig.Active && vulcanConfig.Config.BotEdit.AlterBoss.Active)
                     {
                         if (botRoleLowercase == "bossknight")
