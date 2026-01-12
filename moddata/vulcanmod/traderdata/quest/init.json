@@ -5228,6 +5228,26 @@
                 "IsAchievement": false,
                 "Count": 1,
                 "ID": "一念永恒_实验室_奖励_6"
+            },
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "一念永恒_实验室_奖励_物品_7",
+                        "_tpl": "永恒新区卡",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "一念永恒_实验室",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "Count": 1,
+                "ID": "一念永恒_实验室_奖励_7"
             }
         ]
     },
