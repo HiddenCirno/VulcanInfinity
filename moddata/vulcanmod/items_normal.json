@@ -19815,6 +19815,28 @@
             "BlackListType": 63
         }
     },
+    "永恒新区卡": {
+        "_id": "永恒新区卡",
+        "_targetid": "6711039f9e648049e50b3307",
+        "_name": "永恒新区卡",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "MaximumNumberOfUsage": 0
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "TerraGroup 实验室生活区钥匙卡·永恒",
+            "ShortName": "生活区",
+            "Description": "一张永久通行卡，里面存储着复杂的编码。\n<b>「6711039f9e648049e50b3307」</b>",
+            "DefaultPrice": 10000000,
+            "RagfairType": "5c518ed586f774119a772aee",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
     "仿制符号钥匙": {
         "_id": "仿制符号钥匙",
         "_targetid": "5780cf7f2459777de4559322",
