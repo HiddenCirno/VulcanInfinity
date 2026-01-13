@@ -24267,6 +24267,7 @@
             "BlackListType": 63,
             "FixType": [
                 "QuestEquip",
+                "FindItem",
                 "HandoverItem"
             ]
         }
@@ -24568,6 +24569,7 @@
             "BlackListType": 63,
             "FixType": [
                 "QuestEquip",
+                "FindItem",
                 "HandoverItem"
             ]
         }
@@ -24821,6 +24823,7 @@
             "BlackListType": 63,
             "FixType": [
                 "QuestEquip",
+                "FindItem",
                 "HandoverItem"
             ]
         }
