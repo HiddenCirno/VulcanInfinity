@@ -24265,7 +24265,6 @@
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
             "BlackListType": 63,
-            "CustomFixID": "60a283193cb70855c43a381d",
             "FixType": [
                 "QuestEquip",
                 "HandoverItem"
@@ -24567,7 +24566,6 @@
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
             "BlackListType": 63,
-            "CustomFixID": "60a283193cb70855c43a381d",
             "FixType": [
                 "QuestEquip",
                 "HandoverItem"
@@ -24821,7 +24819,6 @@
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
             "BlackListType": 63,
-            "CustomFixID": "60a283193cb70855c43a381d",
             "FixType": [
                 "QuestEquip",
                 "HandoverItem"
