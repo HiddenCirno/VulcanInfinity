@@ -24267,7 +24267,8 @@
             "BlackListType": 63,
             "CustomFixID": "60a283193cb70855c43a381d",
             "FixType": [
-                "QuestEquip"
+                "QuestEquip",
+                "HandoverItem"
             ]
         }
     },
@@ -24568,7 +24569,8 @@
             "BlackListType": 63,
             "CustomFixID": "60a283193cb70855c43a381d",
             "FixType": [
-                "QuestEquip"
+                "QuestEquip",
+                "HandoverItem"
             ]
         }
     },
@@ -24821,7 +24823,8 @@
             "BlackListType": 63,
             "CustomFixID": "60a283193cb70855c43a381d",
             "FixType": [
-                "QuestEquip"
+                "QuestEquip",
+                "HandoverItem"
             ]
         }
     },
