@@ -1215,5 +1215,27 @@
                 "金块": 1
             }
         }
+    },
+    "英雄之证重置DSPT": {
+        "$type": "locked",
+        "ID": "英雄之证重置DSPT",
+        "Area": 11,
+        "AreaLevel": 3,
+        "Output": "62e910aaf957f2915e0a5e36",
+        "IsEncoded": true,
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": true,
+        "Locked": true,
+        "Quest": "625d7005a4eb80027c4f2e09",
+        "QuestStage": 1,
+        "Unknown": false,
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "62e910aaf957f2915e0a5e36": 1,
+                "英雄之证": 1
+            }
+        }
     }
 }
