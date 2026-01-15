@@ -59,6 +59,12 @@
                     },
                     {
                         "$type": "Item",
+                        "name": "基建材料抽奖_SR_扇子",
+                        "itemid": "阿萨兰之爪",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
                         "name": "基建材料抽奖_SR_补佳乐",
                         "itemid": "补佳乐",
                         "stackcount": 1
