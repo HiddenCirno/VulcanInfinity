@@ -3787,6 +3787,46 @@
                 "Count": 0.02,
                 "TraderID": "Persicaria",
                 "ID": "序幕-契约战争信任度奖励1"
+            },
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "序幕-契约战争_刚性盾",
+                        "_tpl": "刚性护盾护符",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "序幕-契约战争",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "Count": 1,
+                "ID": "序幕-契约战争物品奖励1"
+            },
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "序幕-契约战争_动能盾",
+                        "_tpl": "动能护盾护符",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "序幕-契约战争",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "Count": 1,
+                "ID": "序幕-契约战争物品奖励2"
             }
         ]
     },
@@ -4359,6 +4399,14 @@
                     "id": "支持者纪念币收集要求29",
                     "inraid": true,
                     "itemid": "支持纪念币_九色七叶",
+                    "count": 1
+                },
+                {
+                    "$type": "hand",
+                    "autolocale": true,
+                    "id": "支持者纪念币收集要求30",
+                    "inraid": true,
+                    "itemid": "支持纪念币_椏",
                     "count": 1
                 }
             ],

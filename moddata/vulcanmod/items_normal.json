@@ -1699,7 +1699,7 @@
             "$type": "base",
             "Name": "防护罩-等级1",
             "ShortName": "白甲",
-            "Description": "防护罩是进化护盾技术的前身，这项技术来自于库本·布里斯克创办的Apex竞赛，这场竞赛曾创造过很多传奇人物。",
+            "Description": "防护罩是进化护盾技术的前身，这项技术来自于库本·布里斯克创办的Apex竞赛，这场竞赛曾创造过很多传奇人物。\n特殊效果: 爆破专家\n伤害减免: 95%",
             "DefaultPrice": 200000,
             "RagfairType": "VulcanSpecialItem",
             "CanFindInRaid": false,
@@ -1799,7 +1799,7 @@
             "$type": "base",
             "Name": "防护罩-等级2",
             "ShortName": "蓝甲",
-            "Description": "防护罩是进化护盾技术的前身，这项技术来自于库本·布里斯克创办的Apex竞赛，这场竞赛曾创造过很多传奇人物。",
+            "Description": "防护罩是进化护盾技术的前身，这项技术来自于库本·布里斯克创办的Apex竞赛，这场竞赛曾创造过很多传奇人物。\n特殊效果: 爆破专家\n伤害减免: 95%",
             "DefaultPrice": 300000,
             "RagfairType": "VulcanSpecialItem",
             "CanFindInRaid": false,
@@ -1917,7 +1917,7 @@
             "$type": "base",
             "Name": "防护罩-等级3",
             "ShortName": "紫甲",
-            "Description": "防护罩是进化护盾技术的前身，这项技术来自于库本·布里斯克创办的Apex竞赛，这场竞赛曾创造过很多传奇人物。",
+            "Description": "防护罩是进化护盾技术的前身，这项技术来自于库本·布里斯克创办的Apex竞赛，这场竞赛曾创造过很多传奇人物。\n特殊效果: 爆破专家\n伤害减免: 95%",
             "DefaultPrice": 400000,
             "RagfairType": "VulcanSpecialItem",
             "CanFindInRaid": false,
@@ -2053,7 +2053,7 @@
             "$type": "base",
             "Name": "防护罩-等级5",
             "ShortName": "红甲",
-            "Description": "防护罩是进化护盾技术的前身，这项技术来自于库本·布里斯克创办的Apex竞赛，这场竞赛曾创造过很多传奇人物。",
+            "Description": "防护罩是进化护盾技术的前身，这项技术来自于库本·布里斯克创办的Apex竞赛，这场竞赛曾创造过很多传奇人物。\n特殊效果: 爆破专家\n伤害减免: 95%",
             "DefaultPrice": 500000,
             "RagfairType": "VulcanSpecialItem",
             "CanFindInRaid": false,
@@ -3465,6 +3465,34 @@
         "_customprops": {
             "$type": "lootable",
             "Name": "纪念币\"Lyee_R\"",
+            "ShortName": "纪念币",
+            "Description": "火神集团三部发行的「支持者」系列纪念币中的一枚，为本Mod的支持者特别定制，使用纯金一次性压锻成型，纳米蚀刻技术绘制防伪图案，内置微型气体操纵场发生器，能够在硬币表面形成氮气保护层，能保存数万年依然光洁如新。",
+            "DefaultPrice": 202404,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "Mods",
+                "Container"
+            ]
+        }
+    },
+    "支持纪念币_椏": {
+        "_id": "支持纪念币_椏",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "支持纪念币_椏",
+        "_props": {
+            "BackgroundColor": "yellow",
+            "Prefab": {
+                "path": "coin_ya.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "纪念币\"椏\"",
             "ShortName": "纪念币",
             "Description": "火神集团三部发行的「支持者」系列纪念币中的一枚，为本Mod的支持者特别定制，使用纯金一次性压锻成型，纳米蚀刻技术绘制防伪图案，内置微型气体操纵场发生器，能够在硬币表面形成氮气保护层，能保存数万年依然光洁如新。",
             "DefaultPrice": 202404,
@@ -6827,7 +6855,7 @@
             "$type": "base",
             "Name": "铁胸甲",
             "ShortName": "胸甲",
-            "Description": "铁质胸甲，防御力一般般。",
+            "Description": "铁质胸甲，防御力一般般。\n特殊效果: 分子结构强化\n伤害减免: 30%",
             "DefaultPrice": 100000,
             "RagfairType": "5b5f701386f774093f2ecf0f",
             "CanFindInRaid": false,
@@ -6900,7 +6928,7 @@
             "$type": "base",
             "Name": "钻石胸甲",
             "ShortName": "胸甲",
-            "Description": "钻石质胸甲，曾经是最佳的选择。",
+            "Description": "钻石质胸甲，曾经是最佳的选择。\n特殊效果: 分子结构强化\n伤害减免: 30%",
             "DefaultPrice": 100000,
             "RagfairType": "5b5f701386f774093f2ecf0f",
             "CanFindInRaid": false,
@@ -6973,7 +7001,7 @@
             "$type": "base",
             "Name": "下界合金胸甲",
             "ShortName": "胸甲",
-            "Description": "下界合金打造的胸甲，昂贵而有效。",
+            "Description": "下界合金打造的胸甲，昂贵而有效。\n特殊效果: 分子结构强化\n伤害减免: 30%",
             "DefaultPrice": 100000,
             "RagfairType": "5b5f701386f774093f2ecf0f",
             "CanFindInRaid": false,
@@ -7163,7 +7191,7 @@
             "$type": "base",
             "Name": "防护罩-等级4",
             "ShortName": "金甲",
-            "Description": "防护罩是进化护盾技术的前身，这项技术来自于库本·布里斯克创办的Apex竞赛，这场竞赛曾创造过很多传奇人物。",
+            "Description": "防护罩是进化护盾技术的前身，这项技术来自于库本·布里斯克创办的Apex竞赛，这场竞赛曾创造过很多传奇人物。\n特殊效果: 爆破专家\n伤害减免: 95%",
             "DefaultPrice": 1200000,
             "RagfairType": "VulcanSpecialItem",
             "CanFindInRaid": false,
@@ -18584,6 +18612,35 @@
             "ShortName": "海报",
             "Description": "一幅印刷质量极高的精美海报，可以挂在藏身处作为装饰。",
             "DefaultPrice": 2024206,
+            "RagfairType": "5b47574386f77428ca22b2f4",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "Container",
+                "Mods"
+            ]
+        }
+    },
+    "海报_我们从这里出征": {
+        "_id": "海报_我们从这里出征",
+        "_targetid": "6759e61067c8eb5cd10352f1",
+        "_name": "海报_我们从这里出征",
+        "_props": {
+            "BackgroundColor": "default",
+            "Prefab": {
+                "path": "poster_eftfamily.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "\"我们从这里出征\"海报",
+            "ShortName": "海报",
+            "Description": "一幅印刷质量极高的精美海报，可以挂在藏身处作为装饰。",
+            "DefaultPrice": 251115,
             "RagfairType": "5b47574386f77428ca22b2f4",
             "CanFindInRaid": true,
             "CustomLoot": false,
@@ -30895,6 +30952,12 @@
                         "name": "支持纪念币_九色七叶",
                         "itemid": "支持纪念币_九色七叶",
                         "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_椏",
+                        "itemid": "支持纪念币_椏",
+                        "stackcount": 1
                     }
                 ]
             }
@@ -31919,6 +31982,358 @@
             "CustomLootTarget": "657089638db3adca1009f4ca",
             "isMoney": false,
             "BlackListType": 63
+        }
+    },
+    "测试护符": {
+        "_id": "测试护符",
+        "_targetid": "64d0b40fbe2eed70e254e2d4",
+        "_name": "测试护符",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "amulet_blood.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "测试护符",
+            "ShortName": "护符",
+            "Description": "平平无奇的测试用道具，来自九幽主宰“白”的力量，能够免除死亡的侵扰。\n特殊效果: 死斗锁血不死状态精简版\n伤害减免: 0%",
+            "RagfairType": "VulcanSpecialItem",
+            "DefaultPrice": 1200000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "657089638db3adca1009f4ca",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods",
+                "Container"
+            ]
+        }
+    },
+    "烈焰护符": {
+        "_id": "烈焰护符",
+        "_targetid": "64d0b40fbe2eed70e254e2d4",
+        "_name": "烈焰护符",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "violet",
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "amulet_fire.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "烈焰护符",
+            "ShortName": "护符",
+            "Description": "特殊工艺制造的护符，拥有不可思议的力量，能够减少你受到的火焰灼烧伤害。\n特殊效果: 火焰保护\n伤害减免: 50%",
+            "RagfairType": "5b47574386f77428ca22b345",
+            "DefaultPrice": 1200000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "657089638db3adca1009f4ca",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods",
+                "Container"
+            ]
+        }
+    },
+    "完美烈焰护符": {
+        "_id": "完美烈焰护符",
+        "_targetid": "64d0b40fbe2eed70e254e2d4",
+        "_name": "完美烈焰护符",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "amulet_fire.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "完美烈焰护符",
+            "ShortName": "护符",
+            "Description": "特殊工艺制造的护符，拥有不可思议的力量，能够让你免疫火焰灼烧伤害。\n特殊效果: 火焰保护\n伤害减免: 100%",
+            "RagfairType": "5b47574386f77428ca22b345",
+            "DefaultPrice": 1200000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "657089638db3adca1009f4ca",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods",
+                "Container"
+            ]
+        }
+    },
+    "鲜血护符": {
+        "_id": "鲜血护符",
+        "_targetid": "64d0b40fbe2eed70e254e2d4",
+        "_name": "鲜血护符",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "violet",
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "amulet_blood.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "鲜血护符",
+            "ShortName": "护符",
+            "Description": "特殊工艺制造的护符，拥有不可思议的力量，能够减少你受到的出血伤害。\n特殊效果: 鲜血仪式\n伤害减免: 50%",
+            "RagfairType": "5b47574386f77428ca22b345",
+            "DefaultPrice": 1200000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "657089638db3adca1009f4ca",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods",
+                "Container"
+            ]
+        }
+    },
+    "完美鲜血护符": {
+        "_id": "完美鲜血护符",
+        "_targetid": "64d0b40fbe2eed70e254e2d4",
+        "_name": "完美鲜血护符",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "amulet_blood.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "完美鲜血护符",
+            "ShortName": "护符",
+            "Description": "特殊工艺制造的护符，拥有不可思议的力量，能够让你免疫出血伤害。\n特殊效果: 鲜血仪式\n伤害减免: 100%",
+            "RagfairType": "5b47574386f77428ca22b345",
+            "DefaultPrice": 1200000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "657089638db3adca1009f4ca",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods",
+                "Container"
+            ]
+        }
+    },
+    "生命护符": {
+        "_id": "生命护符",
+        "_targetid": "64d0b40fbe2eed70e254e2d4",
+        "_name": "生命护符",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "violet",
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "amulet_life.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "生命护符",
+            "ShortName": "护符",
+            "Description": "特殊工艺制造的护符，拥有不可思议的力量，能够减少你受到的负面效果伤害。\n特殊效果: 生命之诗\n伤害减免: 50%",
+            "RagfairType": "5b47574386f77428ca22b345",
+            "DefaultPrice": 1200000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "657089638db3adca1009f4ca",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods",
+                "Container"
+            ]
+        }
+    },
+    "完美生命护符": {
+        "_id": "完美生命护符",
+        "_targetid": "64d0b40fbe2eed70e254e2d4",
+        "_name": "完美生命护符",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "amulet_life.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "完美生命护符",
+            "ShortName": "护符",
+            "Description": "特殊工艺制造的护符，拥有不可思议的力量，能够免除负面效果伤害。\n特殊效果: 生命之诗\n伤害减免: 100%",
+            "RagfairType": "5b47574386f77428ca22b345",
+            "DefaultPrice": 1200000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "657089638db3adca1009f4ca",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods",
+                "Container"
+            ]
+        }
+    },
+    "狙击护符": {
+        "_id": "狙击护符",
+        "_targetid": "64d0b40fbe2eed70e254e2d4",
+        "_name": "狙击护符",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "amulet_sniper.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "狙击护符",
+            "ShortName": "护符",
+            "Description": "特殊工艺制造的护符，拥有不可思议的力量，能够免疫枪击伤害。\n注：无法对普通枪击生效。\n特殊效果: 无上神力\n伤害减免: 100%",
+            "RagfairType": "5b47574386f77428ca22b345",
+            "DefaultPrice": 1200000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "657089638db3adca1009f4ca",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods",
+                "Container"
+            ]
+        }
+    },
+    "刚性护盾护符": {
+        "_id": "刚性护盾护符",
+        "_targetid": "64d0b40fbe2eed70e254e2d4",
+        "_name": "刚性护盾护符",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "amulet_eternal.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "特殊护符·刚性护盾",
+            "ShortName": "刚性护盾",
+            "Description": "特殊工艺制造的护符，拥有不可思议的力量，能够减少你受到的所有外界伤害。\n特殊效果: 绝对领域\n伤害减免: 20%",
+            "RagfairType": "5b47574386f77428ca22b345",
+            "DefaultPrice": 1200000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "657089638db3adca1009f4ca",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods",
+                "Container"
+            ]
+        }
+    },
+    "动能护盾护符": {
+        "_id": "动能护盾护符",
+        "_targetid": "64d0b40fbe2eed70e254e2d4",
+        "_name": "动能护盾护符",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "amulet_projectile.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "特殊护符·动能护盾",    
+            "ShortName": "动能护盾",
+            "Description": "特殊工艺制造的护符，拥有不可思议的力量，能够减少你受到的所有弹射物伤害。\n特殊效果: 动能护盾\n伤害减免: 25%",
+            "RagfairType": "5b47574386f77428ca22b345",
+            "DefaultPrice": 1200000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "657089638db3adca1009f4ca",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods",
+                "Container"
+            ]
+        }
+    },
+    "完美刚性护盾": {
+        "_id": "完美刚性护盾",
+        "_targetid": "64d0b40fbe2eed70e254e2d4",
+        "_name": "完美刚性护盾",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Width": 1,
+            "Height": 1,
+            "Prefab": {
+                "path": "amulet_eternal.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "fixed",
+            "Name": "特殊护符·刚性护盾",
+            "ShortName": "刚性护盾",
+            "Description": "特殊工艺制造的护符，拥有不可思议的力量，能够减少你受到的所有外界伤害。\n特殊效果: 绝对领域\n伤害减免: 100%",
+            "RagfairType": "VulcanSpecialItem",
+            "DefaultPrice": 1200000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "657089638db3adca1009f4ca",
+            "isMoney": false,
+            "BlackListType": 63,
+            "FixType": [
+                "Mods",
+                "Container"
+            ]
         }
     }
 }

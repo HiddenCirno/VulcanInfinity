@@ -45,10 +45,16 @@ public class VulcanMod
         var globals = databaseService.GetGlobals();
         var items = databaseService.GetItems();
         var prices = databaseService.GetPrices();
+        var zhCNLang = databaseService.GetLocales().Global["ch"];
         globals.Configuration.ItemsCommonSettings.MaxBackpackInserting = 99999999;
         InitVanillaItemEdit(databaseService);
         RemoveBlackAltynLockedCondition(databaseService);
         InitModBaseData(logger, databaseService, customItemService, modHelper, jsonutil, cloner, configServer, imageRouter);
+        zhCNLang.AddTransformer(lang =>
+        {
+            lang[$"{ItemTpl.CULTISTAMULET_SACRED_AMULET} Description"] += "\nÃÿ ‚–ßπ˚: ¥»∏∏◊£∏£\n…À∫¶ºı√‚: 100%";
+            return lang;
+        });
         //var botConfig = configServer.GetConfig<BotConfig>();
         //botConfig.BotRolesWithDogTags.Add("assault");
         if (modconfig.DogTagGenerate.Active)
