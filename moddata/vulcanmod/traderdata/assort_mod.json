@@ -12163,5 +12163,35 @@
         },
         "TrustLevel": 4,
         "isWeapon": false
+    },
+    {
+        "$type": "locked",
+        "ID": "高级针包兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "高级针包兑换",
+                "_tpl": "高级针包",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "619cbf7d23893217ec30b689": 8,
+            "英雄之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false,
+        "Locked": true,
+        "Quest": "60e71c48c1bfa3050473b8e5",
+        "QuestStage": 1,
+        "IsUnknown": false
     }
 ]

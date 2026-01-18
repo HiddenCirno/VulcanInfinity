@@ -1237,5 +1237,83 @@
                 "英雄之证": 1
             }
         }
+    },
+    "狙击护符制造": {
+        "$type": "locked",
+        "ID": "狙击护符制造",
+        "Area": 4,
+        "AreaLevel": 3,
+        "Output": "狙击护符",
+        "OutputCount": 1,
+        "Time": 86400,
+        "NeedFuel": true,
+        "Locked": true,
+        "Quest": "60e71d23c1bfa3050473b8e6",
+        "QuestStage": 1,
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "金奇点": 1,
+                "英雄之证": 1,
+                "绿宝石奇点": 1
+            }
+        }
+    },
+    "烈焰护符制造": {
+        "$type": "normal",
+        "ID": "烈焰护符制造",
+        "Area": 4,
+        "AreaLevel": 3,
+        "Output": "烈焰护符",
+        "OutputCount": 1,
+        "Time": 86400,
+        "NeedFuel": true,
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "金奇点": 1,
+                "英雄之证": 1,
+                "5d1b36a186f7742523398433":20
+            }
+        }
+    },
+    "生命护符制造": {
+        "$type": "locked",
+        "ID": "生命护符制造",
+        "Area": 4,
+        "AreaLevel": 3,
+        "Output": "生命护符",
+        "OutputCount": 1,
+        "Time": 86400,
+        "NeedFuel": true,
+        "Locked": true,
+        "Quest": "PersicariaDeadTask3",
+        "QuestStage": 1,
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "金奇点": 1,
+                "英雄之证": 1,
+                "钻石奇点":1
+            }
+        }
+    },
+    "鲜血护符制造": {
+        "$type": "normal",
+        "ID": "鲜血护符制造",
+        "Area": 4,
+        "AreaLevel": 3,
+        "Output": "鲜血护符",
+        "OutputCount": 1,
+        "Time": 86400,
+        "NeedFuel": true,
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "金奇点": 1,
+                "英雄之证": 1,
+                "再生血清MK2":20
+            }
+        }
     }
 }

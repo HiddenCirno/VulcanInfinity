@@ -32335,5 +32335,34 @@
                 "Container"
             ]
         }
+    },
+    "高级针包": {
+        "_id": "高级针包",
+        "_targetid": "619cbf7d23893217ec30b689",
+        "_name": "高级针包",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Width": 1,
+            "Height": 1
+        },
+        "_customprops": {
+            "$type": "container",
+            "Name": "高级注射器收纳盒",
+            "ShortName": "注射器",
+            "Description": "空间扩展过的注射器收纳盒，内部分为三层，每层可存放12根标准注射器。",
+            "RagfairType": "5b5f6fa186f77409407a7eb7",
+            "DefaultPrice": 6000000,
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "ContainerSizeWidth": 6,
+            "ContainerSizeHeight": 6,
+            "FixType": [
+                "Container"
+            ]
+        }
     }
 }
