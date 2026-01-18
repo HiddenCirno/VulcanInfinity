@@ -19371,7 +19371,7 @@
             "ArmorDamage": 43
         },
         "_customprops": {
-            "$type": "base",
+            "$type": "fixed",
             "Name": "7.62x51毫米 Ultra FMJ",
             "ShortName": "FMJ",
             "Description": "7.62x51毫米 Ultra FMJ步枪弹，对人员杀伤效果极佳。",
