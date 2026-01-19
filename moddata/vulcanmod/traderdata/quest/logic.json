@@ -235,7 +235,8 @@
         "prequestdata": {
             "PersicariaWarTask3": 16,
             "PersicariaTecTask4": 16,
-            "PersicariaMedTask4": 16
+            "PersicariaMedTask4": 16,
+            "PersicariaBoxTask1": 16
         },
         "pretraderstanding": {},
         "pretraderlevel": {},
