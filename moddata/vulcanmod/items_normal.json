@@ -6474,7 +6474,7 @@
             }
         },
         "_customprops": {
-            "$type": "fixed",
+            "$type": "weapon",
             "Name": "SIG MCX SPEAR 6.8x51突击步枪（BLK）",
             "ShortName": "SPEAR 6.8",
             "Description": "MCX SPEAR是一款多口径突击步枪，由西格绍尔公司基于MCX突击步枪制造。这款武器最初适用于新的6.8x51毫米（.227 FURY）弹药。专为美军设计，用于替换M4卡宾枪。",
