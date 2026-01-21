@@ -9,7 +9,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_delta_1.pack",
                 "rcid": ""
@@ -44,7 +44,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_delta_2.pack",
                 "rcid": ""
@@ -79,7 +79,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_newyear_1.pack",
                 "rcid": ""
@@ -114,7 +114,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_whatslove.pack",
                 "rcid": ""
@@ -149,7 +149,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_l4d2_witch_1.pack",
                 "rcid": ""
@@ -184,7 +184,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_l4d2_tank_1.pack",
                 "rcid": ""
@@ -219,7 +219,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_minecraft_1.pack",
                 "rcid": ""
@@ -254,7 +254,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_1.pack",
                 "rcid": ""
@@ -289,7 +289,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_2.pack",
                 "rcid": ""
@@ -324,7 +324,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_3.pack",
                 "rcid": ""
@@ -359,7 +359,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_4.pack",
                 "rcid": ""
@@ -394,7 +394,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_5.pack",
                 "rcid": ""
@@ -429,7 +429,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_6.pack",
                 "rcid": ""
@@ -464,7 +464,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_7.pack",
                 "rcid": ""
@@ -499,7 +499,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_8.pack",
                 "rcid": ""
@@ -534,7 +534,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_9.pack",
                 "rcid": ""
@@ -569,7 +569,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_10.pack",
                 "rcid": ""
@@ -604,7 +604,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_11.pack",
                 "rcid": ""
@@ -639,7 +639,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_12.pack",
                 "rcid": ""
@@ -674,7 +674,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_13.pack",
                 "rcid": ""
@@ -709,7 +709,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_14.pack",
                 "rcid": ""
@@ -744,7 +744,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_15.pack",
                 "rcid": ""
@@ -779,7 +779,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_16.pack",
                 "rcid": ""
@@ -814,7 +814,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_17.pack",
                 "rcid": ""
@@ -849,7 +849,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_18.pack",
                 "rcid": ""
@@ -884,7 +884,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_19.pack",
                 "rcid": ""
@@ -919,7 +919,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_20.pack",
                 "rcid": ""
@@ -954,7 +954,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_21.pack",
                 "rcid": ""
@@ -989,7 +989,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_22.pack",
                 "rcid": ""
@@ -1024,7 +1024,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_23.pack",
                 "rcid": ""
@@ -1059,7 +1059,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_24.pack",
                 "rcid": ""
@@ -1094,7 +1094,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_25.pack",
                 "rcid": ""
@@ -1129,7 +1129,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_26.pack",
                 "rcid": ""
@@ -1164,7 +1164,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_27.pack",
                 "rcid": ""
@@ -1199,7 +1199,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_28.pack",
                 "rcid": ""
@@ -1234,7 +1234,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_29.pack",
                 "rcid": ""
@@ -1269,7 +1269,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_30.pack",
                 "rcid": ""
@@ -1304,7 +1304,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_31.pack",
                 "rcid": ""
@@ -1339,7 +1339,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_32.pack",
                 "rcid": ""
@@ -1374,7 +1374,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_33.pack",
                 "rcid": ""
@@ -1409,7 +1409,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_34.pack",
                 "rcid": ""
@@ -1444,7 +1444,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_35.pack",
                 "rcid": ""
@@ -1479,7 +1479,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_36.pack",
                 "rcid": ""
@@ -1514,7 +1514,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_37.pack",
                 "rcid": ""
@@ -1549,7 +1549,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_38.pack",
                 "rcid": ""
@@ -1584,7 +1584,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_39.pack",
                 "rcid": ""
@@ -1619,7 +1619,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_40.pack",
                 "rcid": ""
@@ -1654,7 +1654,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_41.pack",
                 "rcid": ""
@@ -1689,7 +1689,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_42.pack",
                 "rcid": ""
@@ -1724,7 +1724,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_43.pack",
                 "rcid": ""
@@ -1759,7 +1759,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_44.pack",
                 "rcid": ""
@@ -1794,7 +1794,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_45.pack",
                 "rcid": ""
@@ -1829,7 +1829,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_46.pack",
                 "rcid": ""
@@ -1864,7 +1864,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_47.pack",
                 "rcid": ""
@@ -1899,7 +1899,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_48.pack",
                 "rcid": ""
@@ -1934,7 +1934,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_49.pack",
                 "rcid": ""
@@ -1969,7 +1969,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_50.pack",
                 "rcid": ""
@@ -2004,7 +2004,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_51.pack",
                 "rcid": ""
@@ -2039,7 +2039,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_52.pack",
                 "rcid": ""
@@ -2074,7 +2074,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_53.pack",
                 "rcid": ""
@@ -2109,7 +2109,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_54.pack",
                 "rcid": ""
@@ -2144,7 +2144,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_55.pack",
                 "rcid": ""
@@ -2179,7 +2179,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_56.pack",
                 "rcid": ""
@@ -2214,7 +2214,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_57.pack",
                 "rcid": ""
@@ -2249,7 +2249,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_58.pack",
                 "rcid": ""
@@ -2284,7 +2284,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_59.pack",
                 "rcid": ""
@@ -2319,7 +2319,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_60.pack",
                 "rcid": ""
@@ -2354,7 +2354,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_61.pack",
                 "rcid": ""
@@ -2389,7 +2389,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_62.pack",
                 "rcid": ""
@@ -2424,7 +2424,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_63.pack",
                 "rcid": ""
@@ -2459,7 +2459,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_64.pack",
                 "rcid": ""
@@ -2494,7 +2494,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_65.pack",
                 "rcid": ""
@@ -2529,7 +2529,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_66.pack",
                 "rcid": ""
@@ -2564,7 +2564,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_67.pack",
                 "rcid": ""
@@ -2599,7 +2599,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_68.pack",
                 "rcid": ""
@@ -2634,7 +2634,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_69.pack",
                 "rcid": ""
@@ -2669,7 +2669,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_70.pack",
                 "rcid": ""
@@ -2704,7 +2704,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_71.pack",
                 "rcid": ""
@@ -2739,7 +2739,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_72.pack",
                 "rcid": ""
@@ -2774,7 +2774,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_73.pack",
                 "rcid": ""
@@ -2809,7 +2809,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_74.pack",
                 "rcid": ""
@@ -2844,7 +2844,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_75.pack",
                 "rcid": ""
@@ -2879,7 +2879,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_76.pack",
                 "rcid": ""
@@ -2914,7 +2914,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_77.pack",
                 "rcid": ""
@@ -2949,7 +2949,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_78.pack",
                 "rcid": ""
@@ -2984,7 +2984,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_79.pack",
                 "rcid": ""
@@ -3019,7 +3019,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_80.pack",
                 "rcid": ""
@@ -3054,7 +3054,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_81.pack",
                 "rcid": ""
@@ -3089,7 +3089,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_82.pack",
                 "rcid": ""
@@ -3124,7 +3124,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_83.pack",
                 "rcid": ""
@@ -3159,7 +3159,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_84.pack",
                 "rcid": ""
@@ -3194,7 +3194,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_85.pack",
                 "rcid": ""
@@ -3229,7 +3229,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_86.pack",
                 "rcid": ""
@@ -3264,7 +3264,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_87.pack",
                 "rcid": ""
@@ -3299,7 +3299,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_88.pack",
                 "rcid": ""
@@ -3334,7 +3334,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_89.pack",
                 "rcid": ""
@@ -3369,7 +3369,7 @@
             "Height": 2,
             "DiscardLimit": -1,
             "CanSellOnRagfair": true,
-            "StackMaxSize": 1000,
+            "StackMaxSize": 100,
             "Prefab": {
                 "path": "record_songlist_90.pack",
                 "rcid": ""
