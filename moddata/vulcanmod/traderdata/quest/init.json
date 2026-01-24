@@ -6928,7 +6928,7 @@
         "QuestReward": [
             {
                 "$type": "achievement",
-                "Target": "DTPF成就",
+                "Target": "港区新人",
                 "Quest": "收集者_港区新人",
                 "Stage": 1,
                 "Hidden": false,
@@ -6953,6 +6953,41 @@
                 "Quest": "收集者_港区新人",
                 "Unknown": false,
                 "IsAchievement": false
+            }
+        ]
+    },
+    "重逢?": {
+        "ID": "重逢?",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "exit",
+                    "id": "序幕-契约战争踩点1",
+                    "oneraid": false,
+                    "count": 1,
+                    "location": 3072,
+                    "status": 3,
+                    "chooseexitpoint": true,
+                    "exitpoint": "Unity_free_exit"
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": [
+            {
+                "$type": "achievement",
+                "Target": "一转成就",
+                "Quest": "重逢?",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "ID": "重逢?_成就奖励"
             }
         ]
     }

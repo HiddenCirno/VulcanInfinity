@@ -87,9 +87,7 @@ I:\TKF\SPT\user\mods\火神重工-无限\moddata\vulcanmod\hideout\scavcase.json
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\vulcanmod\items_ammochest.json
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\vulcanmod\items_normal.json
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\vulcanmod\items_skillchest.json
-I:\TKF\SPT\user\mods\火神重工-无限\moddata\vulcanmod\locales\mail.json
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\vulcanmod\locales\menu.json
-I:\TKF\SPT\user\mods\火神重工-无限\moddata\vulcanmod\locales\quest.json
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\vulcanmod\newdrawpool.json
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\vulcanmod\preset.json
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\vulcanmod\suits.json
@@ -135,3 +133,5 @@ I:\TKF\SPT\user\mods\火神重工-无限\moddata\ae2\recipevanilla.json
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\gunfight\archive.json
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\gunfight\recipemod.json
 I:\TKF\SPT\user\mods\火神重工-无限\moddata\gunfight\recipevanilla.json
+I:\TKF\SPT\user\mods\火神重工-无限\moddata\vulcanmod\locales\quest\ch.json
+I:\TKF\SPT\user\mods\火神重工-无限\moddata\vulcanmod\locales\text\ch.json

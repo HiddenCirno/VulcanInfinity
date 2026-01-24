@@ -747,5 +747,14 @@
         "pretraderstanding": {},
         "pretraderlevel": {},
         "prelevel": 0
+    },
+    "重逢?": {
+        "id": "重逢?",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0,
+        "prestigelevel": 1,
+        "prestigetype": 3
     }
 }

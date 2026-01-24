@@ -151,8 +151,8 @@ public class VulcanMod
         var eventQuestData = modHelper.GetJsonDataFromFile<Dictionary<string, CustomQuest>>(modpath, "traderdata/quest/init_event.json");
         var vanillaRewardData = modHelper.GetJsonDataFromFile<List<CustomQuestRewardData>>(modpath, "traderdata/quest/rewards_vanilla.json");
         var vanillaAchievementRewardData = modHelper.GetJsonDataFromFile<List<CustomQuestRewardData>>(modpath, "traderdata/quest/achievement_rewards_vanilla.json");
-        var questLocaleData = modHelper.GetJsonDataFromFile<Dictionary<string, Dictionary<string, CustomQuestLocaleData>>>(modpath, "locales/quest.json");
-        var normalLocaleData = modHelper.GetJsonDataFromFile<Dictionary<string, Dictionary<string, string>>>(modpath, "locales/mail.json");
+        //var questLocaleData = modHelper.GetJsonDataFromFile<Dictionary<string, Dictionary<string, CustomQuestLocaleData>>>(modpath, "locales/quest.json");
+        //var normalLocaleData = modHelper.GetJsonDataFromFile<Dictionary<string, Dictionary<string, string>>>(modpath, "locales/mail.json");
         var questLogicTree = modHelper.GetJsonDataFromFile<Dictionary<string, QuestLogicTree>>(modpath, "traderdata/quest/logic.json");
         var eventQuestLogicTree = modHelper.GetJsonDataFromFile<Dictionary<string, QuestLogicTree>>(modpath, "traderdata/quest/logic_event.json");
         var presetData = modHelper.GetJsonDataFromFile<List<CustomPresetData>>(modpath, "preset.json");
@@ -174,8 +174,8 @@ public class VulcanMod
         AssortUtils.InitAssortData(vanillaAssortData, databaseService, cloner, logger);
         AssortUtils.InitAssortData(ammoChestAssortData, databaseService, cloner, logger);
         AssortUtils.InitAssortData(skillChestAssortData, databaseService, cloner, logger);
-        LocaleUtils.InitQuestLocale(questLocaleData, creator, modName, databaseService);
-        LocaleUtils.InitLocaleText(normalLocaleData, databaseService);
+        LocaleUtils.InitQuestLocale(System.IO.Path.Combine(modpath, "locales/quest/"), creator, modName, databaseService, modHelper);
+        LocaleUtils.InitLocaleText(System.IO.Path.Combine(modpath, "locales/text/"), databaseService, modHelper);
         ImageUtils.RegisterFolderImageRoute("/files/quest/icon/", questimagepath, imageRouter);
         ImageUtils.RegisterFolderImageRoute("/files/icon/", iconpath, imageRouter);
         QuestUtils.InitQuestLogicTreeData(questLogicTree, databaseService, cloner);
