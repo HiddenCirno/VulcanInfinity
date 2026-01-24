@@ -91,7 +91,7 @@ public class InfinityStorage
                     },
                         DogTag = new Dictionary<string, CustomDogTag>(),
                         TrustLevel = 1,
-                        isWeapon = false
+                        IsWeapon = false
                     };
                     assortdata.Item.Add(new CustomItem
                     {
@@ -164,7 +164,7 @@ public class InfinityStorage
                     },
                         DogTag = new Dictionary<string, CustomDogTag>(),
                         TrustLevel = 1,
-                        isWeapon = false
+                        IsWeapon = false
                     };
                     AssortUtils.InitAssort(assortdata, databaseService, cloner, logger);
                 }
@@ -198,7 +198,7 @@ public class InfinityStorage
                     },
                             DogTag = new Dictionary<string, CustomDogTag>(),
                             TrustLevel = 1,
-                            isWeapon = false
+                            IsWeapon = false
                         };
                         AssortUtils.InitAssort(assortdata, databaseService, cloner, logger);
                     }
