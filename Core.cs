@@ -62,7 +62,7 @@ public record VulcanInfinity : AbstractModMetadata
     /// <summary>
     ///  The version of the mod, follows SEMVER rules (https://semver.org/)
     /// </summary>
-    public override SemanticVersioning.Version Version { get; init; } = new("1.0.0");
+    public override SemanticVersioning.Version Version { get; init; } = new("1.0.1");
 
     /// <summary>
     /// What version of SPT is your mod made for, follows SEMVER rules (https://semver.org/)
@@ -79,7 +79,7 @@ public record VulcanInfinity : AbstractModMetadata
     /// </summary>
     public override Dictionary<string, SemanticVersioning.Range>? ModDependencies { get; init; } = new()
 {
-    { "com.hiddenhiragi.vulcancore", new SemanticVersioning.Range(">=1.0.0") }
+    { "com.hiddenhiragi.vulcancore", new SemanticVersioning.Range(">=1.0.1") }
 };
     /// <summary>
     /// Where to find your mod online
