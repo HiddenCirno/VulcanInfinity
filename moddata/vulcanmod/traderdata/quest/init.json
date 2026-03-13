@@ -4408,6 +4408,14 @@
                     "inraid": true,
                     "itemid": "支持纪念币_椏",
                     "count": 1
+                },
+                {
+                    "$type": "hand",
+                    "autolocale": true,
+                    "id": "支持者纪念币收集要求31",
+                    "inraid": true,
+                    "itemid": "支持纪念币_Yukina",
+                    "count": 1
                 }
             ],
             "Failed": []
